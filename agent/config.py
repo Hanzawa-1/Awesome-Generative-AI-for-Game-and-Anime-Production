@@ -43,6 +43,7 @@ class Settings:
     max_iters: int
     max_tool_calls: int
     max_new_entries: int
+    max_per_task: int
     max_tokens: int
     wall_clock_seconds: int
     hf_token: str | None
@@ -57,7 +58,8 @@ def load_settings() -> Settings:
         model=os.environ.get("LLM_MODEL") or None,
         max_iters=_int("AGENT_MAX_ITERS", 12),
         max_tool_calls=_int("AGENT_MAX_TOOL_CALLS", 40),
-        max_new_entries=_int("AGENT_MAX_NEW_ENTRIES", 20),
+        max_new_entries=_int("AGENT_MAX_NEW_ENTRIES", 40),
+        max_per_task=_int("AGENT_MAX_PER_TASK", 5),
         max_tokens=_int("AGENT_MAX_TOKENS", 200_000),
         wall_clock_seconds=_int("AGENT_WALL_CLOCK_SECONDS", 1200),
         hf_token=os.environ.get("HF_TOKEN") or None,

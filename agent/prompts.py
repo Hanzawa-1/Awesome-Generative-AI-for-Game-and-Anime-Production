@@ -38,28 +38,52 @@ def render_taxonomy(tax: Taxonomy) -> str:
     return "\n".join(lines)
 
 
+def _render_target_tasks(tax: Taxonomy, task_ids: list[str]) -> str:
+    wanted = set(task_ids)
+    lines = []
+    for area in tax.areas:
+        for t in area.tasks:
+            if t.id in wanted:
+                kw = f"  [{', '.join(t.keywords)}]" if t.keywords else ""
+                lines.append(f"- {area.id}/{t.id} ({t.name}){kw}")
+    return "\n".join(lines) or "(no valid task ids given)"
+
+
 def build_task_prompt(
     tax: Taxonomy,
     existing_keys: list[str],
     focus_area_ids: list[str],
-    max_new: int,
+    max_per_task: int,
+    target_tasks: list[str] | None = None,
 ) -> str:
-    focus = ", ".join(focus_area_ids) if focus_area_ids else "any area"
-    keys_block = "\n".join(sorted(existing_keys)[:600]) or "(none yet)"
+    keys_block = "\n".join(sorted(existing_keys)[:800]) or "(none yet)"
+    if target_tasks:
+        scope = ("TARGET TASKS THIS RUN — find entries ONLY for these specific tasks "
+                 "(cover every one of them):\n" + _render_target_tasks(tax, target_tasks))
+    else:
+        focus = ", ".join(focus_area_ids) if focus_area_ids else "any area"
+        scope = f"THIS WEEK'S FOCUS AREAS (spend most effort here, but other areas are allowed): {focus}"
     return f"""\
 TAXONOMY (area id — name; then task id (name) [keywords]):
 {render_taxonomy(tax)}
 
-THIS WEEK'S FOCUS AREAS (spend most effort here, but other areas are allowed): {focus}
+{scope}
 
 EXISTING ENTRIES — dedup keys already in the catalog. Do NOT resubmit any of these
 (a key looks like "arxiv:2401.01234", "repo:owner/name", or "title:normalizedtitle"):
 {keys_block}
 
-Find up to {max_new} NEW entries that are not in the existing set. Prioritise:
-- recent arXiv / Hugging Face papers and trending model releases,
-- new or actively-maintained GitHub repositories,
-- proprietary tools that game/anime studios are actively adopting.
+Find NEW entries that are not in the existing set. Submit AT MOST {max_per_task} entries per task —
+choose the most notable / state-of-the-art ones; never pad to hit the limit.
+
+SEARCH STRATEGY (important — recall matters): generative-model naming is diverse, so a single query
+misses most of the field. For EACH task, issue SEVERAL varied queries before concluding:
+- vary the phrasing: the task name, its keywords, common technique terms (diffusion, GAN,
+  autoregressive, transformer, NeRF, gaussian-splatting), and likely model-name patterns;
+- use search_arxiv with sort='relevance' and quoted phrases (e.g. 'abs:"text to 3d"') to find the
+  established/SOTA work, and sort='recent' to catch the newest;
+- cross-check Hugging Face (papers + models), GitHub (topic/stars), and the web.
+Prioritise notable papers with code, trending model releases, and proprietary tools studios actually use.
 
 Verify a candidate's primary link with fetch_url if unsure it is real. When done, call
 submit_entries exactly once.

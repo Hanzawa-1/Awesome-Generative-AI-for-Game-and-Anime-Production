@@ -56,9 +56,23 @@ def test_verify_and_stage_dedupes_and_caps(monkeypatch):
 
     a, b, c = mk("Alpha"), mk("Beta"), mk("Gamma")
     existing = {a.key}
-    staged = ra.verify_and_stage([a, b, c], existing, max_new=1)
+    staged = ra.verify_and_stage([a, b, c], existing, max_new=1, max_per_task=5)
     assert len(staged) == 1  # 'a' is a dup; capped at 1 -> only 'b'
     assert staged[0].title == "Beta"
+
+
+def test_verify_and_stage_caps_per_task(monkeypatch):
+    monkeypatch.setattr(ra, "_links_ok", lambda e: True)
+    from agent.schema import Entry
+
+    def mk(title):
+        return Entry(title=title, area="gen-3d", task="text-to-3d", kind="oss",
+                     links={"github": f"https://github.com/x/{title.lower()}"},
+                     summary="A neutral description long enough to satisfy the schema validator here.")
+
+    entries = [mk(t) for t in ("Cand1", "Cand2", "Cand3", "Cand4")]
+    staged = ra.verify_and_stage(entries, set(), max_new=100, max_per_task=2)
+    assert len(staged) == 2  # same task -> capped at 2
 
 
 def test_verify_and_stage_drops_dead_links(monkeypatch):
@@ -68,7 +82,7 @@ def test_verify_and_stage_drops_dead_links(monkeypatch):
     e = Entry(title="Ghost", area="gen-3d", task="text-to-3d", kind="oss",
               links={"github": "https://github.com/x/ghost"},
               summary="A neutral description long enough to satisfy the schema validator here.")
-    assert ra.verify_and_stage([e], set(), max_new=10) == []
+    assert ra.verify_and_stage([e], set(), max_new=10, max_per_task=5) == []
 
 
 def test_build_tools_respects_optional_flags():

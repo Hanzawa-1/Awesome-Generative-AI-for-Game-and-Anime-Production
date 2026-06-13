@@ -325,12 +325,34 @@ def build() -> list[Entry]:
     return out
 
 
-def main() -> int:
-    entries = build()
-    db.save_split(entries)
-    oss = sum(1 for e in entries if e.kind == "oss")
-    prop = len(entries) - oss
-    print(f"seeded {len(entries)} entries ({oss} oss, {prop} proprietary) into data/")
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+
+    ap = argparse.ArgumentParser(description="Seed the catalog (merge-safe by default).")
+    ap.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Replace data/*.yml entirely from the seeds (dev regen). DEFAULT is to MERGE the seeds "
+             "into the existing DB, which never clobbers agent/human-added entries.",
+    )
+    args = ap.parse_args(argv)
+
+    seeds = build()
+    if args.overwrite:
+        db.save_split(seeds)
+        oss = sum(1 for e in seeds if e.kind == "oss")
+        print(f"overwrote data/ with {len(seeds)} seed entries ({oss} oss, {len(seeds) - oss} proprietary)")
+        return 0
+
+    # Merge-safe: add any missing seeds without overwriting entries already in the DB.
+    from pipeline.merge import merge
+
+    existing = db.load_all()
+    merged, report = merge(seeds, existing)
+    db.save_split(merged)
+    print(f"seeded (merge): added={len(report.added)} updated={len(report.updated)} "
+          f"skipped={len(report.skipped)} total={len(merged)}  "
+          f"(use --overwrite to fully regenerate from seeds)")
     return 0
 
 

@@ -10,6 +10,7 @@ import datetime as _dt
 import json
 import sys
 import time
+from collections import defaultdict
 from pathlib import Path
 
 import requests
@@ -78,37 +79,54 @@ def _parse_submission(raw_args: str) -> tuple[list[Entry], int]:
     return valid, invalid
 
 
-def verify_and_stage(entries: list[Entry], existing_keys: set[str], max_new: int) -> list[Entry]:
+def verify_and_stage(
+    entries: list[Entry], existing_keys: set[str], max_new: int, max_per_task: int
+) -> list[Entry]:
     staged: list[Entry] = []
     seen = set(existing_keys)
+    per_task: dict[tuple[str, str], int] = defaultdict(int)
     for e in entries:
         if len(staged) >= max_new:
             break
         if e.key in seen:
             continue
+        if per_task[(e.area, e.task)] >= max_per_task:  # even coverage / quality cap
+            continue
         if not _links_ok(e):
             continue
         seen.add(e.key)
+        per_task[(e.area, e.task)] += 1
         staged.append(e)
     return staged
 
 
 # --------------------------------------------------------------------- loop
-def run(client: LLMClient, settings: Settings, max_iters: int, focus: list[str] | None) -> tuple[list[Entry], str]:
+def run(
+    client: LLMClient,
+    settings: Settings,
+    max_iters: int,
+    focus: list[str] | None,
+    tasks: list[str] | None = None,
+) -> tuple[list[Entry], str]:
     tax = load_taxonomy()
     existing = db.load_all()
     existing_keys = {e.key for e in existing}
-
-    focus_ids = focus or weekly_focus(tax.area_ids())
     tools_json, fn_map = build_tools(settings)
-    task_prompt = build_task_prompt(tax, sorted(existing_keys), focus_ids, settings.max_new_entries)
+
+    if tasks:  # explicit task slice (sweep mode / single-task test)
+        task_prompt = build_task_prompt(tax, sorted(existing_keys), [], settings.max_per_task, target_tasks=tasks)
+        scope = f"tasks={tasks}"
+    else:
+        focus_ids = focus or weekly_focus(tax.area_ids())
+        task_prompt = build_task_prompt(tax, sorted(existing_keys), focus_ids, settings.max_per_task)
+        scope = f"focus={focus_ids}"
 
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": task_prompt},
     ]
-    print(f"[agent] provider={client.provider} model={client.model} focus={focus_ids} "
-          f"existing={len(existing_keys)} max_iters={max_iters}")
+    print(f"[agent] provider={client.provider} model={client.model} {scope} "
+          f"existing={len(existing_keys)} max_iters={max_iters} cap/task={settings.max_per_task}")
 
     staged: list[Entry] = []
     notes = ""
@@ -152,7 +170,7 @@ def run(client: LLMClient, settings: Settings, max_iters: int, focus: list[str] 
             raw_args = call.function.arguments or "{}"
             if name == SUBMIT_NAME:
                 valid, invalid = _parse_submission(raw_args)
-                staged = verify_and_stage(valid, existing_keys, settings.max_new_entries)
+                staged = verify_and_stage(valid, existing_keys, settings.max_new_entries, settings.max_per_task)
                 try:
                     notes = (json.loads(raw_args) or {}).get("notes", "") or ""
                 except Exception:  # noqa: BLE001
@@ -187,7 +205,7 @@ def run(client: LLMClient, settings: Settings, max_iters: int, focus: list[str] 
             for call in (resp.choices[0].message.tool_calls or []):
                 if call.function.name == SUBMIT_NAME:
                     valid, _ = _parse_submission(call.function.arguments or "{}")
-                    staged = verify_and_stage(valid, existing_keys, settings.max_new_entries)
+                    staged = verify_and_stage(valid, existing_keys, settings.max_new_entries, settings.max_per_task)
         except Exception as e:  # noqa: BLE001
             print(f"[agent] final submit attempt failed: {e}")
 
@@ -201,6 +219,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out", default="staged.json")
     ap.add_argument("--max-iters", type=int, default=None)
     ap.add_argument("--focus", nargs="*", default=None, help="Override the weekly focus area ids.")
+    ap.add_argument("--tasks", nargs="*", default=None,
+                    help="Restrict the run to specific task ids (sweep slice / single-task test).")
     args = ap.parse_args(argv)
 
     settings = load_settings()
@@ -213,7 +233,7 @@ def main(argv: list[str] | None = None) -> int:
         Path(args.out).write_text(json.dumps({"entries": [], "notes": ""}), encoding="utf-8")
         return 0
 
-    staged, notes = run(client, settings, max_iters, args.focus)
+    staged, notes = run(client, settings, max_iters, args.focus, tasks=args.tasks)
     payload = {"entries": [e.model_dump(mode="json") for e in staged], "notes": notes}
     Path(args.out).write_text(json.dumps(payload, indent=2, default=str), encoding="utf-8")
     print(f"[agent] wrote {len(staged)} entries -> {args.out}")
