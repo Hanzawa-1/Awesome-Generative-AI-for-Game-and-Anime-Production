@@ -10,6 +10,11 @@ pr_body.md
 # MkDocs build output
 site/
 
+# Generated catalog pages + nav (produced by scripts/gen_catalog.py before build)
+docs/catalog/
+docs/SUMMARY.md
+docs/SUMMARY.ja.md
+
 # Python
 __pycache__/
 *.py[cod]

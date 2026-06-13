@@ -110,6 +110,7 @@ class Entry(BaseModel):
     year: int | None = Field(None, ge=1990, le=2100)
     tags: list[str] = Field(default_factory=list)
     summary: str = Field(..., min_length=20, max_length=600)
+    summary_ja: str | None = Field(None, max_length=800)  # Japanese summary (optional)
     thumbnail: str | None = None
     date_added: _dt.date = Field(default_factory=_dt.date.today)
     source: Source = "agent"

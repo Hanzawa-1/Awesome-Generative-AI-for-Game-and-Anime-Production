@@ -31,10 +31,14 @@ thumbs:
 run-local:
 	uv run python scripts/run_local.py --max-iters $(ITERS)
 
-site:
+# Generate the bilingual catalog pages + nav (must run before build/serve)
+catalog:
+	uv run python scripts/gen_catalog.py
+
+site: catalog
 	uv run mkdocs build --strict
 
-serve:
+serve: catalog
 	uv run mkdocs serve
 
 # What CI runs (minus the GitHub-only PR/Pages steps)

@@ -16,10 +16,11 @@ Hard rules (a deterministic validator enforces these — violations are dropped)
    Proprietary tools (kind="proprietary") use a "website" link.
 3. Classify each entry into a VALID area id + task id from the taxonomy you are given.
 4. Write neutral, factual 1-3 sentence summaries (20-600 chars). No marketing language, no hype.
-5. Prefer open-source models/papers (they are the bulk of the catalog), but ALSO include notable
+5. ALSO provide a concise Japanese translation of the summary in `summary_ja` (the site is bilingual).
+6. Prefer open-source models/papers (they are the bulk of the catalog), but ALSO include notable
    proprietary/industry tools that studios actively use.
-6. Do NOT resubmit anything whose dedup key is already in the provided "existing" set.
-7. Favor production-relevant, well-known, or state-of-the-art work over obscure one-offs.
+7. Do NOT resubmit anything whose dedup key is already in the provided "existing" set.
+8. Favor production-relevant, well-known, or state-of-the-art work over obscure one-offs.
 
 Workflow: call the search/fetch tools to find and verify candidates, then call `submit_entries`
 EXACTLY ONCE with your final list. If you found nothing genuinely new, submit an empty list — never

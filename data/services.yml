@@ -11,6 +11,7 @@ entries:
   - keyframe
   - physics
   summary: A physics-aware keyframe animation tool with AI auto-posing and interpolation, designed for believable character action animation.
+  summary_ja: AIによる自動ポーズ付けと補間を備えた物理対応のキーフレームアニメーションツール。説得力のあるキャラクターアクションの制作向け。
   thumbnail: assets/thumbnails/cascadeur-b525d1.png
   date_added: '2026-06-13'
   source: seed
@@ -26,6 +27,7 @@ entries:
   - commercial
   - markerless-mocap
   summary: A commercial markerless motion-capture service that converts ordinary video into 3D animation (FBX/BVH/GLB), enabling mocap without a suit or studio.
+  summary_ja: 通常の動画を3Dアニメーション（FBX/BVH/GLB）に変換する商用のマーカーレスモーションキャプチャサービス。スーツやスタジオなしでmocapを実現。
   thumbnail: assets/thumbnails/deepmotion-animate-3d-bf6f29.png
   date_added: '2026-06-13'
   source: seed
@@ -41,6 +43,7 @@ entries:
   - commercial
   - markerless-mocap
   summary: A markerless multi-camera motion-capture service producing high-quality 3D motion from standard cameras, used by indie and mid-size studios.
+  summary_ja: 標準的なカメラから高品質な3Dモーションを生成するマーカーレスのマルチカメラmocapサービス。インディーから中規模スタジオで利用される。
   thumbnail: assets/thumbnails/move-ai-39c1e3.png
   date_added: '2026-06-13'
   source: seed
@@ -56,6 +59,7 @@ entries:
   - commercial
   - music-generation
   summary: A commercial music generation service producing full songs with vocals from text prompts, used for rapid soundtrack and BGM prototyping.
+  summary_ja: テキストからボーカル付きの楽曲をまるごと生成する商用音楽生成サービス。サウンドトラックやBGMの迅速なプロトタイピングに使われる。
   thumbnail: assets/thumbnails/suno-719c52.png
   date_added: '2026-06-13'
   source: seed
@@ -70,6 +74,7 @@ entries:
   - commercial
   - singing-synthesis
   summary: A commercial singing voice synthesizer with expressive control, a leading tool for anime-style vocal and song production.
+  summary_ja: 表現を細かく制御できる商用の歌声合成ソフト。アニメ調のボーカルや楽曲制作の主要ツール。
   thumbnail: assets/thumbnails/synthesizer-v-ee606e.png
   date_added: '2026-06-13'
   source: seed
@@ -86,6 +91,7 @@ entries:
   - dubbing
   - voice-cloning
   summary: A commercial speech platform offering expressive TTS, voice cloning, dubbing, and sound effects, broadly adopted for game and animation voice-over.
+  summary_ja: 表現力豊かなTTS、ボイスクローン、ダビング、効果音を提供する商用音声プラットフォーム。ゲーム・アニメのボイスオーバーで広く採用されている。
   thumbnail: assets/thumbnails/elevenlabs-486fcf.png
   date_added: '2026-06-13'
   source: seed
@@ -101,6 +107,7 @@ entries:
   - auto-rig
   - commercial
   summary: Adobe's free service that auto-rigs uploaded humanoid meshes and applies a large motion library, a staple for quickly animating game characters.
+  summary_ja: アップロードした人型メッシュを自動リギングし、豊富なモーションライブラリを適用できるAdobeの無料サービス。ゲームキャラの即時アニメーション化の定番。
   thumbnail: assets/thumbnails/mixamo-9a4b49.png
   date_added: '2026-06-13'
   source: seed
@@ -116,6 +123,7 @@ entries:
   - rigged
   - unreal
   summary: Epic's tool for creating fully rigged, photorealistic digital humans for Unreal Engine, an industry standard for game character and cinematic avatars.
+  summary_ja: Unreal Engine向けに、フルリグ済みでフォトリアルなデジタルヒューマンを作成するEpicのツール。ゲームのキャラクターや映像表現の業界標準。
   thumbnail: assets/thumbnails/metahuman-creator-4597b5.png
   date_added: '2026-06-13'
   source: seed
@@ -132,6 +140,7 @@ entries:
   - commercial
   - texture
   summary: A commercial text/image-to-3D service producing game-ready textured meshes with PBR and auto-rigging; credit-based API and web app widely used in indie pipelines.
+  summary_ja: PBRと自動リギングに対応し、ゲームで使えるテクスチャ付きメッシュを生成する商用のテキスト/画像→3Dサービス。APIとWebアプリを提供し、インディー制作で広く使われる。
   thumbnail: assets/thumbnails/meshy-c6012a.png
   date_added: '2026-06-13'
   source: seed
@@ -146,6 +155,7 @@ entries:
   - api
   - commercial
   summary: A commercial 3D generation service with an API producing detailed textured models from text or images for production asset workflows.
+  summary_ja: テキストや画像から詳細なテクスチャ付きモデルを生成する、API付きの商用3D生成サービス。
   thumbnail: assets/thumbnails/rodin-hyper3d-37bed0.png
   date_added: '2026-06-13'
   source: seed
@@ -161,6 +171,7 @@ entries:
   - commercial
   - fast
   summary: A commercial text/image-to-3D generator known for fast mesh creation, frequently used for rapid game asset prototyping.
+  summary_ja: 高速なメッシュ生成で知られる商用のテキスト/画像→3Dジェネレーター。ゲームアセットの迅速なプロトタイピングによく使われる。
   thumbnail: assets/thumbnails/tripo-a95a86.png
   date_added: '2026-06-13'
   source: seed
@@ -178,6 +189,7 @@ entries:
   - character
   - commercial
   summary: A commercial anime-focused image generator with character-consistency tooling, popular for character design and reference sheets in indie anime production.
+  summary_ja: キャラクターの一貫性を保つ機能を備えた商用のアニメ特化型画像生成サービス。インディーのアニメ制作でキャラクターデザインや設定画によく使われる。
   thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
   date_added: '2026-06-13'
   source: seed
@@ -192,6 +204,7 @@ entries:
   - commercial
   - concept-art
   summary: A commercial text-to-image service known for high aesthetic quality, widely used for rapid concept-art ideation across game and anime studios.
+  summary_ja: 高い美的品質で知られる商用のテキスト→画像サービス。ゲーム・アニメ制作で素早いコンセプトアートの発想に広く利用される。
   thumbnail: assets/thumbnails/midjourney-4cae8c.png
   date_added: '2026-06-13'
   source: seed
@@ -207,6 +220,7 @@ entries:
   - manga
   - panels
   summary: A commercial tool that generates manga pages and panels with character consistency from prompts, aimed at sequential-art creation without drawing.
+  summary_ja: プロンプトからキャラクターの一貫性を保ちつつ漫画ページやコマを生成する商用ツール。作画なしのシーケンシャルアート制作を目指す。
   thumbnail: assets/thumbnails/jenova-ai-manga-generator-cee9e8.png
   date_added: '2026-06-13'
   source: seed
@@ -222,6 +236,7 @@ entries:
   - commercial
   - translation
   summary: A commercial neural machine translation service with an API, used in game/anime localization for high-quality first-pass translation.
+  summary_ja: API付きの商用ニューラル機械翻訳サービス。ゲーム・アニメのローカライズで高品質な初稿翻訳に使われる。
   thumbnail: assets/thumbnails/deepl-676cdb.png
   date_added: '2026-06-13'
   source: seed
@@ -238,6 +253,7 @@ entries:
   - memory
   - npc
   summary: A commercial platform for building AI NPCs with persistent memory and unscripted dialogue, integrating with major game engines.
+  summary_ja: 永続的な記憶と非定型の対話を備えたAI NPCを構築する商用プラットフォーム。主要なゲームエンジンと連携する。
   thumbnail: assets/thumbnails/inworld-ai-c4e760.png
   date_added: '2026-06-13'
   source: seed
@@ -252,6 +268,7 @@ entries:
   - commercial
   - video-generation
   summary: A commercial video generation tool for text- and image-driven short clips, including anime-aware styles.
+  summary_ja: テキストや画像から短尺クリップを生成する商用動画ツール。アニメ調のスタイルにも対応。
   thumbnail: assets/thumbnails/pika-b588f4.png
   date_added: '2026-06-13'
   source: seed
@@ -267,6 +284,7 @@ entries:
   - commercial
   - video-generation
   summary: A commercial text/image-to-video generation and editing suite used for previs, motion design, and stylized video in production.
+  summary_ja: プレビズ、モーションデザイン、スタイライズ動画に使われる商用のテキスト/画像→動画の生成・編集スイート。
   thumbnail: assets/thumbnails/runway-gen-dcf9b5.png
   date_added: '2026-06-13'
   source: seed

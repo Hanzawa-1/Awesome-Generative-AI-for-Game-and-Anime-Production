@@ -13,6 +13,7 @@ entries:
   - diffusion
   - interpolation
   summary: Diffusion-based generative interpolation that synthesizes in-between frames for cartoon/anime keyframes, handling large non-linear motion and occlusion.
+  summary_ja: カートゥーン/アニメのキーフレーム間の中割りフレームを合成する拡散ベースの生成的補間。大きな非線形の動きやオクルージョンに対応。
   thumbnail: assets/thumbnails/tooncrafter-generative-cartoon-interpolation-6c86db.png
   date_added: '2026-06-13'
   source: seed
@@ -31,6 +32,7 @@ entries:
   - interpolation
   - real-time
   summary: A fast flow-based frame interpolation model, widely used (with anime-tuned variants) to generate in-between frames and smooth low-frame-rate animation.
+  summary_ja: 高速なフローベースのフレーム補間モデル。アニメ向け調整版とともに、中割りフレーム生成や低フレームレートアニメの滑らか化に広く使われる。
   thumbnail: assets/thumbnails/rife-real-time-intermediate-flow-estimation-e3d81c.png
   date_added: '2026-06-13'
   source: seed
@@ -49,6 +51,7 @@ entries:
   - anime
   - interpolation
   summary: Segment-guided frame interpolation designed for the flat colors and large motions of cartoon/anime, addressing failure modes of photoreal interpolators.
+  summary_ja: 平坦な色と大きな動きを持つカートゥーン/アニメ向けに設計された、セグメント誘導のフレーム補間。実写向け補間の弱点に対処する。
   thumbnail: assets/thumbnails/animeinterp-deep-animation-video-interpolation-3771f5.png
   date_added: '2026-06-13'
   source: seed
@@ -67,6 +70,7 @@ entries:
   - diffusion
   - motion-generation
   summary: A lightweight diffusion model that generates human motion from text or actions, a common baseline for text-to-motion in animation research.
+  summary_ja: テキストや動作から人体モーションを生成する軽量な拡散モデル。アニメーション研究におけるテキスト→モーションの定番ベースライン。
   thumbnail: assets/thumbnails/human-motion-diffusion-model-mdm-585afd.png
   date_added: '2026-06-13'
   source: seed
@@ -85,6 +89,7 @@ entries:
   - music-generation
   - open-weights
   summary: A single-stage controllable music generation model conditioned on text and melody, used for prototyping background music and adaptive scoring.
+  summary_ja: テキストやメロディで条件付けする単一段階の制御可能な音楽生成モデル。BGMのプロトタイピングや適応的スコアリングに使われる。
   thumbnail: assets/thumbnails/musicgen-audiocraft-e687ae.png
   date_added: '2026-06-13'
   source: seed
@@ -103,6 +108,7 @@ entries:
   - end-to-end
   - tts
   summary: An end-to-end text-to-speech model combining variational inference and adversarial training, the basis for many open Japanese and character TTS voices.
+  summary_ja: 変分推論と敵対的学習を組み合わせたエンドツーエンドの音声合成モデル。多くのオープンな日本語・キャラクター音声の基盤。
   thumbnail: assets/thumbnails/vits-085e0a.png
   date_added: '2026-06-13'
   source: seed
@@ -120,6 +126,7 @@ entries:
   - open-source
   - voice-conversion
   summary: A popular open-source voice-conversion toolkit that retargets a source voice to a trained timbre, widely used for character voice and dubbing experiments.
+  summary_ja: ソース音声を学習済みの声質に変換する人気のオープンソース声質変換ツールキット。キャラクターボイスやダビングの実験に広く使われる。
   thumbnail: assets/thumbnails/rvc-retrieval-based-voice-conversion-c43d47.png
   date_added: '2026-06-13'
   source: seed
@@ -137,6 +144,7 @@ entries:
   - rigging
   - skeleton
   summary: Predicts an animation skeleton and skinning weights directly from a 3D character mesh, automating a traditionally manual rigging step.
+  summary_ja: 3Dキャラクターメッシュから、アニメーション用のスケルトンとスキニングウェイトを直接予測し、従来は手作業だったリギングを自動化する。
   thumbnail: assets/thumbnails/rignet-neural-rigging-for-articulated-characters-2e0d57.png
   date_added: '2026-06-13'
   source: seed
@@ -155,6 +163,7 @@ entries:
   - avatar
   - text-driven
   summary: Zero-shot text-driven generation and animation of 3D avatars by guiding a neural human model with CLIP, an early framework for describable digital humans.
+  summary_ja: CLIPでニューラル人体モデルを誘導し、テキストからゼロショットで3Dアバターを生成・アニメーション化する初期のフレームワーク。
   thumbnail: assets/thumbnails/avatarclip-b2cf92.png
   date_added: '2026-06-13'
   source: seed
@@ -173,6 +182,7 @@ entries:
   - gaussian-splatting
   - real-time
   summary: Represents scenes as optimized 3D Gaussians for real-time, high-quality radiance-field rendering, now a dominant representation for captured 3D assets.
+  summary_ja: シーンを最適化された3Dガウシアンで表現し、リアルタイムかつ高品質な放射輝度場レンダリングを実現。撮影した3Dアセットの主要表現として普及。
   thumbnail: assets/thumbnails/3d-gaussian-splatting-for-real-time-radiance-field-rendering-d592ad.png
   date_added: '2026-06-13'
   source: seed
@@ -191,6 +201,7 @@ entries:
   - gan
   - textured-mesh
   summary: A generative model that produces textured 3D meshes with complex topology directly, aimed at game-ready asset generation.
+  summary_ja: 複雑なトポロジーを持つテクスチャ付き3Dメッシュを直接生成する生成モデル。ゲームで使えるアセット生成を目指す。
   thumbnail: assets/thumbnails/get3d-a782fd.png
   date_added: '2026-06-13'
   source: seed
@@ -209,6 +220,7 @@ entries:
   - hash-encoding
   - nerf
   summary: A multiresolution hash encoding that trains NeRFs and neural fields in seconds, a foundational speedup behind many image-to-3D reconstruction pipelines.
+  summary_ja: マルチ解像度ハッシュエンコーディングによりNeRFやニューラルフィールドを数秒で学習。多くの画像→3D再構成パイプラインの基盤となる高速化技術。
   thumbnail: assets/thumbnails/instant-neural-graphics-primitives-instant-ngp-088a60.png
   date_added: '2026-06-13'
   source: seed
@@ -227,6 +239,7 @@ entries:
   - diffusion
   - score-distillation
   summary: Introduces score distillation sampling to optimize a NeRF from a pretrained 2D diffusion model, generating 3D objects from text with no 3D training data.
+  summary_ja: スコア蒸留サンプリングを導入し、学習済みの2D拡散モデルからNeRFを最適化。3D学習データなしでテキストから3D物体を生成する。
   thumbnail: assets/thumbnails/dreamfusion-text-to-3d-using-2d-diffusion-f298c7.png
   date_added: '2026-06-13'
   source: seed
@@ -245,6 +258,7 @@ entries:
   - depth
   - pose
   summary: Adds spatial conditioning (edges, depth, pose, scribbles) to diffusion models, enabling layout- and sketch-controlled generation central to production art workflows.
+  summary_ja: エッジ・深度・ポーズ・線画などの空間的条件付けを拡散モデルに追加し、レイアウトやスケッチで制御した生成を可能にする。制作ワークフローの中核技術。
   thumbnail: assets/thumbnails/controlnet-f9ea86.png
   date_added: '2026-06-13'
   source: seed
@@ -262,6 +276,7 @@ entries:
   - anime
   - lineart
   summary: A sketch extractor that produces clean line art from anime and illustration images, useful for reference, retracing, and colorization pipelines.
+  summary_ja: アニメやイラスト画像からきれいな線画を抽出するツール。参照・トレース・着色のパイプラインに役立つ。
   thumbnail: assets/thumbnails/anime2sketch-1e0d95.png
   date_added: '2026-06-13'
   source: seed
@@ -280,6 +295,7 @@ entries:
   - restoration
   - upscaling
   summary: A practical blind super-resolution model with a dedicated anime model variant, widely used to upscale textures and anime frames while preserving line sharpness.
+  summary_ja: 実用的なブラインド超解像モデル。アニメ専用モデルも提供され、線のシャープさを保ちつつテクスチャやアニメフレームのアップスケールに広く使われる。
   thumbnail: assets/thumbnails/real-esrgan-8ccac0.png
   date_added: '2026-06-13'
   source: seed
@@ -297,6 +313,7 @@ entries:
   - anime
   - upscaling
   summary: A CNN-based super-resolution and denoiser specialized for anime-style art, the long-standing baseline for upscaling illustrations and anime stills.
+  summary_ja: アニメ調イラストに特化したCNNベースの超解像・ノイズ除去。イラストやアニメ静止画のアップスケールにおける定番のベースライン。
   thumbnail: assets/thumbnails/waifu2x-449709.png
   date_added: '2026-06-13'
   source: seed
@@ -314,6 +331,7 @@ entries:
   - diffusion
   - open-weights
   summary: A latent text-to-image diffusion model with a larger UNet and refiner stage; the open-weights backbone for most game/anime concept-art LoRA ecosystems.
+  summary_ja: より大きなUNetとリファイナー段を備えた潜在拡散によるテキスト→画像モデル。ゲーム・アニメのコンセプトアート向けLoRAエコシステムの基盤となるオープンウェイトのバックボーン。
   thumbnail: assets/thumbnails/stable-diffusion-xl-c780ae.png
   date_added: '2026-06-13'
   source: seed
@@ -333,6 +351,7 @@ entries:
   - manga
   - transcription
   summary: Detects panels, characters, and text in manga pages and generates an ordered transcript, supporting layout analysis and accessibility/translation tooling.
+  summary_ja: 漫画ページからコマ・キャラクター・テキストを検出し、順序付きの書き起こしを生成する。レイアウト解析やアクセシビリティ・翻訳ツールを支える。
   thumbnail: assets/thumbnails/the-manga-whisperer-magi-0ea517.png
   date_added: '2026-06-13'
   source: seed
@@ -351,6 +370,7 @@ entries:
   - asr
   - transcription
   summary: A robust multilingual speech-recognition model used in localization pipelines for transcription and as a front-end to translation and dubbing.
+  summary_ja: 頑健な多言語音声認識モデル。文字起こしや、翻訳・ダビングの前段として、ローカライズのパイプラインで使われる。
   thumbnail: assets/thumbnails/whisper-56bbe9.png
   date_added: '2026-06-13'
   source: seed
@@ -369,6 +389,7 @@ entries:
   - llm
   - open-weights
   summary: An efficient open-weights language model frequently used for narrative, quest, and design-document drafting in game writing tools.
+  summary_ja: 効率的なオープンウェイトの言語モデル。ゲームの物語・クエスト・設計文書の下書きツールで広く使われる。
   thumbnail: assets/thumbnails/mistral-7b-c81ddf.png
   date_added: '2026-06-13'
   source: seed
@@ -387,6 +408,7 @@ entries:
   - llm
   - open-weights
   summary: A family of open foundation language models commonly fine-tuned for NPC dialogue, narrative drafting, and in-game text systems.
+  summary_ja: NPC対話、物語の下書き、ゲーム内テキストシステム向けによくファインチューンされる、オープンな基盤言語モデル群。
   thumbnail: assets/thumbnails/llama-618bfb.png
   date_added: '2026-06-13'
   source: seed
@@ -405,6 +427,7 @@ entries:
   - diffusion
   - open-weights
   summary: An open-weights latent video diffusion model for image-to-video and short clip generation, a base for anime/game motion experiments and fine-tunes.
+  summary_ja: 画像→動画や短尺クリップ生成に対応するオープンウェイトの潜在動画拡散モデル。アニメ・ゲームのモーション実験やファインチューンの土台。
   thumbnail: assets/thumbnails/stable-video-diffusion-cd898c.png
   date_added: '2026-06-13'
   source: seed
@@ -424,6 +447,7 @@ entries:
   - segmentation
   - tracking
   summary: A promptable segmentation model that tracks objects across video frames, the backbone of modern AI-assisted rotoscoping and matting tools.
+  summary_ja: プロンプト可能なセグメンテーションモデルで、動画フレーム間で対象を追跡する。現代のAIロトスコープやマッティングツールの基盤。
   thumbnail: assets/thumbnails/segment-anything-model-2-sam-2-0869a9.png
   date_added: '2026-06-13'
   source: seed
@@ -442,6 +466,7 @@ entries:
   - diffusion
   - motion-module
   summary: Adds a plug-in motion module to personalized text-to-image diffusion models, animating existing image checkpoints and LoRAs into short clips.
+  summary_ja: パーソナライズしたテキスト→画像拡散モデルにモーションモジュールを追加し、既存のチェックポイントやLoRAを短尺クリップにアニメーション化する。
   thumbnail: assets/thumbnails/animatediff-52bb64.png
   date_added: '2026-06-13'
   source: seed

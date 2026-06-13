@@ -32,23 +32,9 @@
   --md-footer-bg-color--dark: #251f18;
 }
 
-/* ---- Dark (warm) ---- */
-[data-md-color-scheme="slate"] {
-  --ms-cream: #1c1812;
-  --ms-cream-card: #241f17;
-  --ms-tan: #2a241b;
-  --ms-ink: #f1e9da;
-  --ms-text: #e6ddcd;
-  --ms-muted: #a89e8c;
-  --ms-border: #352d20;
-  --ms-accent: #e0936f;
-  --ms-accent-dark: #eaa988;
-  --md-default-bg-color: var(--ms-cream);
-  --md-default-fg-color: var(--ms-text);
-  --md-typeset-color: var(--ms-text);
-  --md-typeset-a-color: var(--ms-accent);
-  --md-accent-fg-color: var(--ms-accent-dark);
-  --md-code-bg-color: var(--ms-tan);
+/* ---- Layout: use more of the screen than Material's default 61rem ---- */
+.md-grid {
+  max-width: 84rem;
 }
 
 /* ---- Header / nav: blends with the cream page, hairline separator, mono ---- */
@@ -135,9 +121,14 @@
    ============================================================================ */
 .md-typeset .grid.cards > ul {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.1rem;
   margin: 1em 0;
+}
+@media screen and (max-width: 76em) {
+  .md-typeset .grid.cards > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 @media screen and (max-width: 44.9em) {
   .md-typeset .grid.cards > ul {

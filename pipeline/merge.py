@@ -48,7 +48,7 @@ def _fill_missing(existing: Entry, incoming: Entry) -> Entry:
     if link_changed:
         updates["links"] = Links(**merged_links)
 
-    for f in ("year", "arxiv_id", "repo", "thumbnail"):
+    for f in ("year", "arxiv_id", "repo", "thumbnail", "summary_ja"):
         if getattr(existing, f) in (None, "") and getattr(incoming, f) not in (None, ""):
             updates[f] = getattr(incoming, f)
 

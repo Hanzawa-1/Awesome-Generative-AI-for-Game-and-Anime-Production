@@ -13,6 +13,7 @@ use_directory_urls: false
 
 theme:
   name: material
+  language: en
   icon:
     repo: fontawesome/brands/github
   font:
@@ -28,29 +29,33 @@ theme:
     - content.action.edit
     - toc.follow
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    scheme: default
+    primary: white
+    accent: indigo
 
 extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - search
-  - gen-files:
-      scripts:
-        - gen_pages.py
+  - search:
+      lang:
+        - en
+        - ja
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+  # literate-nav MUST come after i18n so it builds the per-locale nav from the
+  # SUMMARY.md / SUMMARY.ja.md files that i18n has already resolved.
   - literate-nav:
       nav_file: SUMMARY.md
 

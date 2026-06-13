@@ -1,103 +1,115 @@
 # Area -> Task taxonomy for "Awesome Generative AI for Game & Anime Production".
 #
-# This file is the SINGLE SOURCE OF TRUTH for the catalog structure. Schema validation,
-# the generated nav, and every catalog page derive from it. To add/rename/remove a task,
-# edit here and run `make validate` (existing entries referencing a removed task will fail
-# validation, which is intentional — fix or remigrate them).
-#
-# Each task: id (slug, stable), name (display), optional desc, optional keywords (steer the
-# agent's search + improve site search). Area ids and task ids must be unique.
+# Single source of truth for the catalog structure. Schema validation, the generated nav,
+# and every catalog page derive from it. Each entry carries an English `name` and a Japanese
+# `name_ja` (used by the JP locale). To add/rename a task, edit here and run `make validate`.
 
 areas:
   - id: image-2d
     name: "Image & 2D Art"
+    name_ja: "画像・2Dアート"
     description: "Concept art, 2D illustration, and image-space generation/editing."
+    description_ja: "コンセプトアート、2Dイラスト、画像の生成・編集。"
     tasks:
-      - { id: text-to-image,          name: "Text-to-Image",                 keywords: [diffusion, sdxl, flux] }
-      - { id: image-editing,          name: "Image Editing & Inpainting",    keywords: [inpainting, outpainting] }
-      - { id: style-transfer-lora,    name: "Style Transfer / LoRA",         keywords: [lora, fine-tuning, style] }
-      - { id: controlnet,             name: "ControlNet-style Conditioning",  keywords: [controlnet, conditioning, pose, depth] }
-      - { id: sketch-to-image,        name: "Sketch-to-Image",               keywords: [scribble, sketch] }
-      - { id: super-resolution,       name: "Super-Resolution & Upscaling",  keywords: [waifu2x, real-esrgan, real-cugan, upscaling] }
-      - { id: anime-character-design, name: "Anime Character Design",        keywords: [anime, character, novelai] }
-      - { id: lineart-extraction,     name: "Line-Art Extraction & Cleanup", keywords: [lineart, sketch-simplification] }
-      - { id: lineart-colorization,   name: "Line-Art Colorization",         keywords: [colorization, flat-color, reference-color] }
-      - { id: cel-shading,            name: "Cel Shading",                   keywords: [toon-shading, shadow] }
+      - { id: text-to-image,          name: "Text-to-Image",                 name_ja: "テキスト→画像生成", keywords: [diffusion, sdxl, flux] }
+      - { id: image-editing,          name: "Image Editing & Inpainting",    name_ja: "画像編集・インペインティング", keywords: [inpainting, outpainting] }
+      - { id: style-transfer-lora,    name: "Style Transfer / LoRA",         name_ja: "スタイル変換 / LoRA", keywords: [lora, fine-tuning, style] }
+      - { id: controlnet,             name: "ControlNet-style Conditioning",  name_ja: "ControlNet系 条件付け", keywords: [controlnet, conditioning, pose, depth] }
+      - { id: sketch-to-image,        name: "Sketch-to-Image",               name_ja: "スケッチ→画像", keywords: [scribble, sketch] }
+      - { id: super-resolution,       name: "Super-Resolution & Upscaling",  name_ja: "超解像・アップスケーリング", keywords: [waifu2x, real-esrgan, real-cugan, upscaling] }
+      - { id: anime-character-design, name: "Anime Character Design",        name_ja: "アニメキャラクターデザイン", keywords: [anime, character, novelai] }
+      - { id: lineart-extraction,     name: "Line-Art Extraction & Cleanup", name_ja: "線画抽出・クリンナップ", keywords: [lineart, sketch-simplification] }
+      - { id: lineart-colorization,   name: "Line-Art Colorization",         name_ja: "線画の自動着色", keywords: [colorization, flat-color, reference-color] }
+      - { id: cel-shading,            name: "Cel Shading",                   name_ja: "セルシェーディング", keywords: [toon-shading, shadow] }
 
   - id: gen-3d
     name: "3D Generation"
+    name_ja: "3D生成"
     description: "Text/image-to-3D, meshes, textures, scenes, and worlds."
+    description_ja: "テキスト/画像からの3D、メッシュ、テクスチャ、シーン、ワールド。"
     tasks:
-      - { id: text-to-3d,         name: "Text-to-3D",                          keywords: [dreamfusion, score-distillation] }
-      - { id: image-to-3d,        name: "Image-to-3D",                         keywords: [single-view, multi-view, reconstruction] }
-      - { id: mesh-generation,    name: "Mesh Generation",                     keywords: [mesh, gaussian-splatting, nerf] }
-      - { id: texture-pbr,        name: "Texture / PBR / Material Generation", keywords: [pbr, texture, material] }
-      - { id: normal-depth-maps,  name: "Normal & Depth Map Generation",       keywords: [normal-map, depth, midas] }
-      - { id: uv-retopology,      name: "UV Unwrap & Retopology",              keywords: [uv, retopology, lod] }
-      - { id: scene-generation,   name: "3D Scene / Environment Generation",   keywords: [scene, environment] }
-      - { id: terrain-world,      name: "Terrain / World Generation",          keywords: [terrain, world, procedural] }
-      - { id: skybox-panorama,    name: "360° Skybox / Panorama",              keywords: [skybox, panorama, 360] }
+      - { id: text-to-3d,         name: "Text-to-3D",                          name_ja: "テキスト→3D", keywords: [dreamfusion, score-distillation] }
+      - { id: image-to-3d,        name: "Image-to-3D",                         name_ja: "画像→3D", keywords: [single-view, multi-view, reconstruction] }
+      - { id: mesh-generation,    name: "Mesh Generation",                     name_ja: "メッシュ生成", keywords: [mesh, gaussian-splatting, nerf] }
+      - { id: texture-pbr,        name: "Texture / PBR / Material Generation", name_ja: "テクスチャ・PBR・マテリアル生成", keywords: [pbr, texture, material] }
+      - { id: normal-depth-maps,  name: "Normal & Depth Map Generation",       name_ja: "法線・深度マップ生成", keywords: [normal-map, depth, midas] }
+      - { id: uv-retopology,      name: "UV Unwrap & Retopology",              name_ja: "UV展開・リトポロジー", keywords: [uv, retopology, lod] }
+      - { id: scene-generation,   name: "3D Scene / Environment Generation",   name_ja: "3Dシーン・環境生成", keywords: [scene, environment] }
+      - { id: terrain-world,      name: "Terrain / World Generation",          name_ja: "地形・ワールド生成", keywords: [terrain, world, procedural] }
+      - { id: skybox-panorama,    name: "360° Skybox / Panorama",              name_ja: "360°スカイボックス・パノラマ", keywords: [skybox, panorama, 360] }
 
   - id: characters
     name: "Characters & Avatars"
+    name_ja: "キャラクター・アバター"
     description: "Digital humans, stylized characters, rigging, and skinning."
+    description_ja: "デジタルヒューマン、スタイライズドキャラクター、リギング、スキニング。"
     tasks:
-      - { id: character-generation, name: "Character Generation",     keywords: [character, full-body] }
-      - { id: face-head-3d,         name: "3D Face / Head",           keywords: [face, head, expression] }
-      - { id: avatar-generation,    name: "Avatar Generation",        keywords: [avatar, metahuman] }
-      - { id: auto-rigging,         name: "Auto-Rigging",             keywords: [rigging, skeleton, mixamo, cascadeur] }
-      - { id: skinning,             name: "Skinning / Weight Painting", keywords: [skinning, weights, deformation] }
+      - { id: character-generation, name: "Character Generation",       name_ja: "キャラクター生成", keywords: [character, full-body] }
+      - { id: face-head-3d,         name: "3D Face / Head",             name_ja: "3D顔・ヘッド", keywords: [face, head, expression] }
+      - { id: avatar-generation,    name: "Avatar Generation",          name_ja: "アバター生成", keywords: [avatar, metahuman] }
+      - { id: auto-rigging,         name: "Auto-Rigging",               name_ja: "自動リギング", keywords: [rigging, skeleton, mixamo, cascadeur] }
+      - { id: skinning,             name: "Skinning / Weight Painting",  name_ja: "スキニング・ウェイトペイント", keywords: [skinning, weights, deformation] }
 
   - id: animation
     name: "Animation & Motion"
+    name_ja: "アニメーション・モーション"
     description: "Motion synthesis, capture, retargeting, and 2D inbetweening."
+    description_ja: "モーション生成・キャプチャ・リターゲティング、2Dの中割り。"
     tasks:
-      - { id: text-to-motion,        name: "Text-to-Motion",                       keywords: [motion-generation, text-to-motion] }
-      - { id: video-mocap,           name: "Video Motion Capture",                 keywords: [mocap, pose-estimation, deepmotion] }
-      - { id: motion-retargeting,    name: "Motion Retargeting",                   keywords: [retargeting, transfer] }
-      - { id: physics-animation,     name: "Physics-Based Animation",              keywords: [physics, ragdoll] }
-      - { id: facial-lipsync,        name: "Facial Animation & Lip-Sync",          keywords: [lip-sync, facial, audio-driven] }
-      - { id: inbetweening,          name: "Frame Interpolation / Inbetweening",   keywords: [rife, tooncrafter, animeinterp, interpolation] }
-      - { id: pose-to-frame,         name: "Pose-to-Frame",                        keywords: [pose-guided, animate-anyone] }
-      - { id: procedural-animation,  name: "Procedural Animation / Behavior",      keywords: [procedural, behavior, rl] }
+      - { id: text-to-motion,        name: "Text-to-Motion",                       name_ja: "テキスト→モーション", keywords: [motion-generation, text-to-motion] }
+      - { id: video-mocap,           name: "Video Motion Capture",                 name_ja: "動画モーションキャプチャ", keywords: [mocap, pose-estimation, deepmotion] }
+      - { id: motion-retargeting,    name: "Motion Retargeting",                   name_ja: "モーションリターゲティング", keywords: [retargeting, transfer] }
+      - { id: physics-animation,     name: "Physics-Based Animation",              name_ja: "物理ベースアニメーション", keywords: [physics, ragdoll] }
+      - { id: facial-lipsync,        name: "Facial Animation & Lip-Sync",          name_ja: "表情アニメーション・リップシンク", keywords: [lip-sync, facial, audio-driven] }
+      - { id: inbetweening,          name: "Frame Interpolation / Inbetweening",   name_ja: "フレーム補間・中割り", keywords: [rife, tooncrafter, animeinterp, interpolation] }
+      - { id: pose-to-frame,         name: "Pose-to-Frame",                        name_ja: "ポーズ→フレーム", keywords: [pose-guided, animate-anyone] }
+      - { id: procedural-animation,  name: "Procedural Animation / Behavior",      name_ja: "プロシージャルアニメーション・挙動", keywords: [procedural, behavior, rl] }
 
   - id: video
     name: "Video"
+    name_ja: "動画"
     description: "Video generation, style transfer, restoration, and segmentation."
+    description_ja: "動画生成、スタイル変換、復元、セグメンテーション。"
     tasks:
-      - { id: text-to-video,         name: "Text-to-Video",                        keywords: [text-to-video, t2v] }
-      - { id: image-to-video,        name: "Image-to-Video",                       keywords: [image-to-video, animate-still] }
-      - { id: video-style-transfer,  name: "Video Style Transfer",                 keywords: [style-transfer, photo-to-anime] }
-      - { id: video-sr-restoration,  name: "Video Super-Resolution & Restoration", keywords: [restoration, remaster, denoise] }
-      - { id: rotoscoping,           name: "Rotoscoping / Video Segmentation & Matting", keywords: [sam2, matting, segmentation] }
-      - { id: video-editing,         name: "Video Editing",                        keywords: [editing, inpaint-video] }
+      - { id: text-to-video,         name: "Text-to-Video",                        name_ja: "テキスト→動画", keywords: [text-to-video, t2v] }
+      - { id: image-to-video,        name: "Image-to-Video",                       name_ja: "画像→動画", keywords: [image-to-video, animate-still] }
+      - { id: video-style-transfer,  name: "Video Style Transfer",                 name_ja: "動画スタイル変換", keywords: [style-transfer, photo-to-anime] }
+      - { id: video-sr-restoration,  name: "Video Super-Resolution & Restoration", name_ja: "動画超解像・復元", keywords: [restoration, remaster, denoise] }
+      - { id: rotoscoping,           name: "Rotoscoping / Video Segmentation & Matting", name_ja: "ロトスコープ・動画セグメンテーション・マッティング", keywords: [sam2, matting, segmentation] }
+      - { id: video-editing,         name: "Video Editing",                        name_ja: "動画編集", keywords: [editing, inpaint-video] }
 
   - id: audio
     name: "Audio"
+    name_ja: "音声・オーディオ"
     description: "Speech, voice, singing, music, and sound effects."
+    description_ja: "音声、ボイス、歌声、音楽、効果音。"
     tasks:
-      - { id: tts,               name: "Text-to-Speech",                  keywords: [tts, speech-synthesis] }
-      - { id: voice-cloning,     name: "Voice Cloning & Conversion",      keywords: [voice-cloning, voice-conversion, dubbing] }
-      - { id: singing-voice,     name: "Singing Voice Synthesis",         keywords: [vocaloid, synthesizer-v, svs] }
-      - { id: music-bgm,         name: "Music & Adaptive BGM Generation", keywords: [music-generation, bgm, soundtrack] }
-      - { id: sfx-foley,         name: "Sound Effects / Foley",           keywords: [sfx, foley, sound-generation] }
-      - { id: procedural-audio,  name: "Procedural / Interactive Audio",  keywords: [procedural-audio, metasounds, fmod] }
+      - { id: tts,               name: "Text-to-Speech",                  name_ja: "音声合成（TTS）", keywords: [tts, speech-synthesis] }
+      - { id: voice-cloning,     name: "Voice Cloning & Conversion",      name_ja: "ボイスクローン・声質変換", keywords: [voice-cloning, voice-conversion, dubbing] }
+      - { id: singing-voice,     name: "Singing Voice Synthesis",         name_ja: "歌声合成", keywords: [vocaloid, synthesizer-v, svs] }
+      - { id: music-bgm,         name: "Music & Adaptive BGM Generation", name_ja: "音楽・適応型BGM生成", keywords: [music-generation, bgm, soundtrack] }
+      - { id: sfx-foley,         name: "Sound Effects / Foley",           name_ja: "効果音・フォーリー", keywords: [sfx, foley, sound-generation] }
+      - { id: procedural-audio,  name: "Procedural / Interactive Audio",  name_ja: "プロシージャル・インタラクティブ音声", keywords: [procedural-audio, metasounds, fmod] }
 
   - id: text-design
     name: "Text, Narrative & Design"
+    name_ja: "テキスト・物語・デザイン"
     description: "Dialogue, narrative, procedural content, and localization."
+    description_ja: "対話、物語、プロシージャル生成、ローカライズ。"
     tasks:
-      - { id: npc-dialogue,    name: "NPC Dialogue Generation",       keywords: [npc, dialogue, inworld] }
-      - { id: narrative-quest, name: "Narrative / Quest Generation",  keywords: [narrative, quest, story] }
-      - { id: pcg,             name: "Procedural Content Generation", keywords: [pcg, level-generation, pcgml] }
-      - { id: localization,    name: "Localization & Translation",    keywords: [localization, translation, whisper] }
+      - { id: npc-dialogue,    name: "NPC Dialogue Generation",       name_ja: "NPC対話生成", keywords: [npc, dialogue, inworld] }
+      - { id: narrative-quest, name: "Narrative / Quest Generation",  name_ja: "物語・クエスト生成", keywords: [narrative, quest, story] }
+      - { id: pcg,             name: "Procedural Content Generation", name_ja: "プロシージャルコンテンツ生成（PCG）", keywords: [pcg, level-generation, pcgml] }
+      - { id: localization,    name: "Localization & Translation",    name_ja: "ローカライズ・翻訳", keywords: [localization, translation, whisper] }
 
   - id: manga
     name: "Manga & Comics"
+    name_ja: "漫画・コミック"
     description: "Manga page generation, layout, colorization, and lettering."
+    description_ja: "漫画ページ生成、コマ割り、着色、写植。"
     tasks:
-      - { id: manga-generation,   name: "Manga Panel / Page Generation", keywords: [manga, panel, page] }
-      - { id: panel-layout,       name: "Panel Layout & Composition",    keywords: [layout, panel, storyboard] }
-      - { id: manga-colorization, name: "Manga Colorization",            keywords: [manga-colorization, screentone-color] }
-      - { id: screentone,         name: "Screentone",                    keywords: [screentone, halftone] }
-      - { id: manga-translation,  name: "Translation & Lettering",       keywords: [translation, lettering, ocr] }
+      - { id: manga-generation,   name: "Manga Panel / Page Generation", name_ja: "漫画コマ・ページ生成", keywords: [manga, panel, page] }
+      - { id: panel-layout,       name: "Panel Layout & Composition",    name_ja: "コマ割り・構成", keywords: [layout, panel, storyboard] }
+      - { id: manga-colorization, name: "Manga Colorization",            name_ja: "漫画の着色", keywords: [manga-colorization, screentone-color] }
+      - { id: screentone,         name: "Screentone",                    name_ja: "スクリーントーン", keywords: [screentone, halftone] }
+      - { id: manga-translation,  name: "Translation & Lettering",       name_ja: "翻訳・写植", keywords: [translation, lettering, ocr] }

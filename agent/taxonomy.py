@@ -20,31 +20,43 @@ def _taxonomy_path() -> Path:
 
 
 class Task:
-    __slots__ = ("area_id", "id", "name", "desc", "keywords")
+    __slots__ = ("area_id", "id", "name", "name_ja", "desc", "keywords")
 
     def __init__(self, area_id: str, d: dict):
         self.area_id = area_id
         self.id = d["id"]
         self.name = d["name"]
+        self.name_ja = d.get("name_ja") or d["name"]
         self.desc = d.get("desc") or d.get("description")
         self.keywords = list(d.get("keywords") or [])
+
+    def display_name(self, locale: str = "en") -> str:
+        return self.name_ja if locale == "ja" else self.name
 
     def __repr__(self) -> str:  # pragma: no cover - debugging aid
         return f"Task({self.area_id}/{self.id})"
 
 
 class Area:
-    __slots__ = ("id", "name", "description", "tasks")
+    __slots__ = ("id", "name", "name_ja", "description", "description_ja", "tasks")
 
     def __init__(self, d: dict):
         self.id = d["id"]
         self.name = d["name"]
+        self.name_ja = d.get("name_ja") or d["name"]
         self.description = d.get("description")
+        self.description_ja = d.get("description_ja") or d.get("description")
         self.tasks = [Task(self.id, t) for t in (d.get("tasks") or [])]
 
     @property
     def task_ids(self) -> list[str]:
         return [t.id for t in self.tasks]
+
+    def display_name(self, locale: str = "en") -> str:
+        return self.name_ja if locale == "ja" else self.name
+
+    def display_description(self, locale: str = "en") -> str | None:
+        return self.description_ja if locale == "ja" else self.description
 
     def __repr__(self) -> str:  # pragma: no cover - debugging aid
         return f"Area({self.id}, {len(self.tasks)} tasks)"

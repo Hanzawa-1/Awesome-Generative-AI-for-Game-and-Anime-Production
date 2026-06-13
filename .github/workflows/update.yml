@@ -56,6 +56,9 @@ jobs:
       - name: Extract thumbnails
         run: uv run python -m pipeline.thumbnails
 
+      - name: Generate catalog pages
+        run: uv run python scripts/gen_catalog.py
+
       - name: Build (sanity check)
         run: uv run mkdocs build --strict
 

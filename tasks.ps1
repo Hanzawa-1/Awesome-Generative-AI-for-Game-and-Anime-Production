@@ -22,11 +22,13 @@ switch ($Task) {
     "merge"     { uv run python -m pipeline.merge --staged staged.json --pr-body pr_body.md }
     "thumbs"    { uv run python -m pipeline.thumbnails }
     "run-local" { uv run python scripts/run_local.py --max-iters $Iters }
-    "site"      { uv run mkdocs build --strict }
-    "serve"     { uv run mkdocs serve }
+    "catalog"   { uv run python scripts/gen_catalog.py }
+    "site"      { uv run python scripts/gen_catalog.py; Stop-OnError; uv run mkdocs build --strict }
+    "serve"     { uv run python scripts/gen_catalog.py; Stop-OnError; uv run mkdocs serve }
     "ci" {
         uv run python scripts/validate.py; Stop-OnError
         uv run pytest; Stop-OnError
+        uv run python scripts/gen_catalog.py; Stop-OnError
         uv run mkdocs build --strict; Stop-OnError
     }
     "clean" {
@@ -44,9 +46,10 @@ Tasks (run as: .\tasks.ps1 <task> [-Iters N]):
   merge       merge staged.json into the DB
   thumbs      extract thumbnails
   run-local   agent -> merge -> thumbnails
-  site        mkdocs build --strict
-  serve       mkdocs serve (preview at http://127.0.0.1:8000)
-  ci          validate + test + strict build
+  catalog     generate bilingual catalog pages + nav (docs/catalog, SUMMARY*)
+  site        generate catalog + mkdocs build --strict
+  serve       generate catalog + mkdocs serve (preview at http://127.0.0.1:8000)
+  ci          validate + test + generate catalog + strict build
   clean       remove build/temp artifacts
 "@
     }
