@@ -1,0 +1,91 @@
+name: Test agent (manual)
+
+# Sandbox to validate the full CI -> branch -> PR path before wiring the daily
+# sweep. Same pipeline as a local run, scoped to one task, opening a PR on a
+# fixed, disposable branch (bot/agent-test) so it never touches a real weekly PR.
+# Manual-only; delete this workflow once the daily updater is proven.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tasks:
+        description: "Task id(s) to search (space-separated, e.g. 'screentone')"
+        default: "screentone"
+      max_iters:
+        description: "Agent max iterations"
+        default: "12"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: agent-test
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DISABLE_MKDOCS_2_WARNING: "true"
+      # Provider selection (non-sensitive repo Variables)
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+      LLM_MODEL: ${{ vars.LLM_MODEL }}
+      # Secrets (only the one matching LLM_PROVIDER is required)
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      AGENT_MAX_ITERS: ${{ github.event.inputs.max_iters || '12' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run agent (single task)
+        run: uv run python -m agent.run_agent --tasks ${{ github.event.inputs.tasks || 'screentone' }} --out staged.json
+
+      - name: Merge + validate
+        run: |
+          uv run python -m pipeline.merge --staged staged.json --pr-body pr_body.md
+          uv run python scripts/validate.py
+
+      - name: Extract thumbnails
+        run: uv run python -m pipeline.thumbnails
+
+      - name: Generate catalog pages
+        run: uv run python scripts/gen_catalog.py
+
+      - name: Build (sanity check)
+        run: uv run mkdocs build --strict
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain taxonomy.yml data docs/assets/thumbnails)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No catalog changes this run; nothing to PR. Try a lower-population task."
+          fi
+
+      - name: Open / update test PR
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/agent-test
+          delete-branch: false
+          commit-message: "test: agent run on ${{ github.event.inputs.tasks || 'screentone' }}"
+          title: "🧪 Agent test run — ${{ github.event.inputs.tasks || 'screentone' }}"
+          body-path: pr_body.md
+          labels: |
+            automated
+            test
+          add-paths: |
+            data/**
+            docs/assets/thumbnails/**
