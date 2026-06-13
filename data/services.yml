@@ -740,6 +740,91 @@ entries:
   thumbnail: assets/thumbnails/xai-grok-image-grok-imagine-9aa6c1.png
   date_added: '2026-06-13'
   source: seed
+- id: mangacolorizer-474ab6
+  title: MangaColorizer
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://mangacolorizer.com/
+  year: 2025
+  tags:
+  - colorization
+  - translation
+  - web-app
+  summary: An online AI-powered manga colorization and translation tool built specifically for manga and comics. It utilizes specialized image models to add rich, consistent colors while preserving original line art and panel layouts, and offers automated translation into over 15 languages.
+  summary_ja: 漫画やコミック専用に構築された、AI搭載のオンライン漫画着色・翻訳ツール。特化型画像モデルを利用して、オリジナルの線画やコマ割りを維持しながら豊かで一貫した色を追加し、15以上の言語への自動翻訳機能も提供します。
+  thumbnail: assets/thumbnails/mangacolorizer-474ab6.png
+  date_added: '2026-06-13'
+  source: agent
+- id: morph-ai-manga-colorizer-dbfb36
+  title: Morph AI Manga Colorizer
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://www.morphstudio.com/ai-manga-colorizer
+  year: 2025
+  tags:
+  - colorization
+  - reference-guided
+  - web-app
+  summary: A web-based automatic manga and comic colorizer that transforms black-and-white line art and sketches into colored artwork. It supports reference-guided colorization to maintain character and lighting consistency across panels and exports high-resolution results up to 8K.
+  summary_ja: 白黒の線画やスケッチを着色されたアートワークに変換する、ウェブベースの自動漫画・コミック着色ツール。コマ間でのキャラクターやライティングの一貫性を維持するための参照画像ガイド付き着色をサポートし、最大8Kの高解像度出力をエクスポートできます。
+  thumbnail: assets/thumbnails/morph-ai-manga-colorizer-dbfb36.png
+  date_added: '2026-06-13'
+  source: agent
+- id: toona-colorizer-c7b125
+  title: Toona Colorizer
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://toona.io/colorizer
+  year: 2025
+  tags:
+  - color-hints
+  - colorization
+  - web-app
+  summary: An automatic AI manga colorizer that allows users to colorize black-and-white manga pages with a single click or guide the process using point-based color hints. It also includes built-in manga-optimized upscaling and editing tools.
+  summary_ja: ワンクリックで白黒の漫画ページを着色したり、ポイントベースの色ヒントを使用してプロセスをガイドしたりできる自動AI漫画着色ツール。漫画に最適化されたアップスケーリングや編集ツールも内蔵されています。
+  thumbnail: assets/thumbnails/toona-colorizer-c7b125.png
+  date_added: '2026-06-13'
+  source: agent
+- id: llamagen-ai-71c2b8
+  title: LlamaGen.Ai
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://llamagen.ai/
+  year: 2024
+  tags:
+  - comic-generator
+  - commercial
+  - webtoon
+  summary: A proprietary AI comic, webtoon, and manga generator that creates high-resolution visual stories from text prompts or character descriptions while ensuring character consistency.
+  summary_ja: キャラクターの一貫性を確保しながら、テキストプロンプトやキャラクターの説明から高解像度のビジュアルストーリーを作成する、商用のAIコミック・ウェブトゥーン・マンガジェネレーター。
+  thumbnail: assets/thumbnails/llamagen-ai-71c2b8.png
+  date_added: '2026-06-13'
+  source: agent
+- id: comic-ai-9fa79e
+  title: Comic AI
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://comicai.com/
+  year: 2023
+  tags:
+  - comic-generator
+  - commercial
+  - manga-creation
+  summary: A commercial AI-powered comic and manga creation platform that transforms text stories or uploaded character photos into multi-panel comic strips with consistent character appearances.
+  summary_ja: テキストストーリーやアップロードされたキャラクター写真を、一貫したキャラクターの外見を維持しながら複数コマのコミックに変換する、商用のAI搭載コミック・マンガ制作プラットフォーム。
+  thumbnail: assets/thumbnails/comic-ai-9fa79e.png
+  date_added: '2026-06-13'
+  source: agent
 - id: jenova-ai-manga-generator-cee9e8
   title: Jenova AI Manga Generator
   area: manga
@@ -774,6 +859,24 @@ entries:
   thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
   date_added: '2026-06-13'
   source: agent
+- id: gridly-6ed57f
+  title: Gridly
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.gridly.com/
+  year: 2020
+  tags:
+  - cms
+  - game-dev
+  - localization
+  - translation
+  summary: A spreadsheet-based content management and continuous localization platform specifically designed for games and digital products, featuring integrations with Unity and Unreal Engine.
+  summary_ja: UnityやUnreal Engineとの連携機能を備え、ゲームやデジタル製品向けに特別に設計された、スプレッドシート形式のコンテンツ管理および継続的ローカライズプラットフォーム。
+  thumbnail: assets/thumbnails/gridly-6ed57f.png
+  date_added: '2026-06-13'
+  source: agent
 - id: lokalise-3d4e31
   title: Lokalise
   area: text-design
@@ -789,6 +892,24 @@ entries:
   summary: A popular commercial localization and translation management platform widely used by game developers to automate and streamline game localization workflows.
   summary_ja: ゲーム開発者に広く使用されている、人気の商用ローカライズ・翻訳管理プラットフォーム。ゲームのローカライズワークフローを自動化し、効率化します。
   thumbnail: assets/thumbnails/lokalise-3d4e31.png
+  date_added: '2026-06-13'
+  source: agent
+- id: crowdin-c63666
+  title: Crowdin
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://crowdin.com/
+  year: 2009
+  tags:
+  - localization
+  - saas
+  - translation
+  - workflow
+  summary: A popular cloud-based localization management platform that automates translation workflows for software, mobile apps, and games with extensive integration options.
+  summary_ja: ソフトウェア、モバイルアプリ、ゲームの翻訳ワークフローを自動化する、豊富な連携オプションを備えた人気のクラウドベースのローカライズ管理プラットフォーム。
+  thumbnail: assets/thumbnails/crowdin-c63666.png
   date_added: '2026-06-13'
   source: agent
 - id: deepl-676cdb
@@ -807,6 +928,60 @@ entries:
   thumbnail: assets/thumbnails/deepl-676cdb.png
   date_added: '2026-06-13'
   source: seed
+- id: charisma-ai-b1aa8c
+  title: Charisma.ai
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://charisma.ai/
+  year: 2026
+  tags:
+  - dialogue
+  - interactive
+  - narrative
+  - npc
+  summary: An interactive storytelling platform that uses conversational AI to power dynamic characters and branching narrative experiences for games, VR, and training simulations.
+  summary_ja: 会話型AIを使用して、ゲーム、VR、トレーニングシミュレーション向けの動的なキャラクターや分岐するナラティブ体験を構築するインタラクティブストーリーテリングプラットフォーム。
+  thumbnail: assets/thumbnails/charisma-ai-b1aa8c.png
+  date_added: '2026-06-13'
+  source: agent
+- id: gladecore-043d8d
+  title: GladeCore
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://www.gladecore.com/
+  year: 2024
+  tags:
+  - dialogue
+  - local-llm
+  - npc
+  - on-device
+  summary: An on-device AI NPC solution for Unity and Unreal Engine that provides local, zero-cloud-cost NPC dialogue, speech-to-text, text-to-speech, and emotional tuning.
+  summary_ja: UnityおよびUnreal Engine向けのオンデバイスAI NPCソリューション。ローカル環境で動作し、クラウドコスト不要でNPCの対話、音声認識、音声合成、感情調整機能を提供する。
+  thumbnail: assets/thumbnails/gladecore-043d8d.png
+  date_added: '2026-06-13'
+  source: agent
+- id: convai-470169
+  title: Convai
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://convai.com/
+  year: 2023
+  tags:
+  - agent
+  - dialogue
+  - npc
+  - voice
+  summary: A conversational AI platform for virtual worlds and games that enables developers to create intelligent, embodied AI NPCs with real-time perception, dialogue generation, voice, and action execution capabilities.
+  summary_ja: リアルタイムの知覚、対話生成、音声、アクション実行機能を備えたインテリジェントなAI NPCを開発者が作成できるようにする、仮想世界およびゲーム向けの会話型AIプラットフォーム。
+  thumbnail: assets/thumbnails/convai-470169.png
+  date_added: '2026-06-13'
+  source: agent
 - id: inworld-ai-c4e760
   title: Inworld AI
   area: text-design

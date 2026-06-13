@@ -8490,6 +8490,36 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2112.10752'
+- id: colorflow-737136
+  title: ColorFlow
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.11815
+    github: https://github.com/TencentARC/ColorFlow
+    project: https://zhuang2002.github.io/ColorFlow/
+  authors:
+  - Junhao Zhuang
+  - Xuan Ju
+  - Zhaoyang Zhang
+  - Yong Liu
+  - Shiyi Zhang
+  - Chun Yuan
+  - Ying Shan
+  year: 2024
+  tags:
+  - colorization
+  - comic
+  - diffusion
+  - identity-consistency
+  summary: A three-stage diffusion-based framework designed for automatic black-and-white image sequence colorization, such as cartoon or comic series. It utilizes a retrieval-augmented mechanism to preserve character and object identity consistency across multiple frames.
+  summary_ja: カートゥーンやコミックシリーズなどの白黒画像シーケンスの自動着色のために設計された、3段階の拡散モデルベースのフレームワーク。検索拡張メカニズムを利用して、複数フレームにわたってキャラクターやオブジェクトのアイデンティティの一貫性を維持します。
+  thumbnail: assets/thumbnails/colorflow-737136.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2412.11815'
+  repo: tencentarc/colorflow
 - id: inkn-hue-enhancing-manga-colorization-from-multiple-priors-w-012674
   title: 'inkn''hue: Enhancing Manga Colorization from Multiple Priors with Alignment Multi-Encoder VAE'
   area: manga
@@ -8607,6 +8637,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.28173'
+- id: collaborative-comic-generation-2ab8f0
+  title: Collaborative Comic Generation
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.17263
+    github: https://github.com/RimiChen/Collaborative_Comic_Generation
+    paper: https://arxiv.org/pdf/2409.17263
+  authors:
+  - Yi-Chun Chen
+  - Arnav Jhala
+  year: 2024
+  tags:
+  - comic-generation
+  - diffusion
+  - layout
+  summary: An interactive, theory-inspired visual narrative generative system that integrates comic authoring idioms with language and diffusion models to support human-AI collaborative comic creation.
+  summary_ja: コミック制作の作法（イディオム）を言語モデルや拡散モデルと統合し、人間とAIの協調的なコミック制作を支援する、理論に基づいたインタラクティブな視覚的ナラティブ生成システム。
+  thumbnail: assets/thumbnails/collaborative-comic-generation-2ab8f0.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2409.17263'
+  repo: rimichen/collaborative_comic_generation
 - id: diffsensei-c68f21
   title: DiffSensei
   area: manga
@@ -8664,6 +8718,83 @@ entries:
   source: agent
   arxiv_id: '2412.19303'
   repo: siyuch-fdu/mangadiffusion
+- id: storydiffusion-2bab11
+  title: StoryDiffusion
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.01434
+    github: https://github.com/HVision-NKU/StoryDiffusion
+    project: https://storydiffusion.github.io/
+    paper: https://arxiv.org/pdf/2405.01434
+  authors:
+  - Yingqing He
+  - Menghan Xia
+  - Haoxin Chen
+  - Xiaodong Cun
+  - Yuan Gong
+  - Jinbo Xing
+  - Yong Zhang
+  - Xintao Wang
+  - Chao Weng
+  - Ying Shan
+  - Qifeng Chen
+  year: 2024
+  tags:
+  - consistent-character
+  - diffusion
+  - story-generation
+  summary: A visual story generation framework that utilizes consistent self-attention to maintain character identity, style, and clothing across multiple generated comic panels and video frames.
+  summary_ja: 一貫したセルフアテンション機構を利用することで、生成された複数のコミックのコマやビデオフレーム間で、キャラクターのアイデンティティ、スタイル、服装を一貫して維持するビジュアルストーリー生成フレームワーク。
+  thumbnail: assets/thumbnails/storydiffusion-2bab11.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2405.01434'
+  repo: hvision-nku/storydiffusion
+- id: ai-comic-factory-363794
+  title: AI Comic Factory
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/jbilcke-hf/ai-comic-factory
+  year: 2023
+  tags:
+  - comic-generation
+  - sdxl
+  - web-app
+  summary: An open-source web application that generates multi-panel comic pages from text prompts using LLMs for script/layout planning and SDXL for panel rendering.
+  summary_ja: LLMによるスクリプトとレイアウトの計画、およびSDXLによるコマのレンダリングを用いて、テキストプロンプトから複数コマのコミックページを生成するオープンソースのWebアプリケーション。
+  thumbnail: assets/thumbnails/ai-comic-factory-363794.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: jbilcke-hf/ai-comic-factory
+- id: indonesian-manhwa-translation-pipeline-386ed5
+  title: Indonesian Manhwa Translation Pipeline
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.01629
+    github: https://github.com/Sagarika-Singh-99/indonesian_manhwa_translation
+    paper: https://arxiv.org/pdf/2501.01629
+  authors:
+  - Nithyasri Narasimhan
+  - Sagarika Singh
+  year: 2025
+  tags:
+  - manhwa
+  - ocr
+  - pipeline
+  - translation
+  summary: An automated pipeline designed for translating Indonesian manhwa (comics) into English. It integrates a fine-tuned YOLOv5xu model for speech bubble detection, Tesseract for OCR, and a fine-tuned MarianMT model for machine translation.
+  summary_ja: インドネシア語のマンファ（コミック）を英語に翻訳するために設計された自動化パイプライン。吹き出し検出用に微調整されたYOLOv5xuモデル、OCR用にTesseract、機械翻訳用に微調整されたMarianMTモデルを統合しています。
+  thumbnail: assets/thumbnails/indonesian-manhwa-translation-pipeline-386ed5.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2501.01629'
+  repo: sagarika-singh-99/indonesian_manhwa_translation
 - id: context-informed-machine-translation-of-manga-using-multimod-b878f8
   title: Context-Informed Machine Translation of Manga using Multimodal Large Language Models
   area: manga
@@ -8690,6 +8821,44 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2411.02589'
+- id: manga-translator-android-f96c4a
+  title: Manga Translator Android
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/jedzqer/manga-translator-android
+  year: 2024
+  tags:
+  - android
+  - llm
+  - manga
+  - translation
+  summary: An Android application for instant automatic manga translation powered by large language models. It performs local speech bubble detection and OCR, translates text using OpenAI-compatible APIs, and overlays draggable translation bubbles on top of the original comic pages.
+  summary_ja: 大規模言語モデルを搭載した、Android向けの即時自動漫画翻訳アプリ。ローカルで吹き出し検出とOCRを実行し、OpenAI互換のAPIを使用してテキストを翻訳、元のコミック画像の上にドラッグ可能な翻訳吹き出しをオーバーレイ表示します。
+  thumbnail: assets/thumbnails/manga-translator-android-f96c4a.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: jedzqer/manga-translator-android
+- id: manga-translator-ui-774489
+  title: Manga Translator UI
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/hgmzhn/manga-translator-ui
+  year: 2024
+  tags:
+  - gui
+  - llm
+  - manga
+  - translation
+  summary: A graphical user interface for manga translation built on top of manga-image-translator. It supports automatic translation of Japanese, Korean, and English comics, integrates multiple translation engines like OpenAI and Gemini, and features a visual editor for adjusting text styles.
+  summary_ja: manga-image-translatorをベースに構築された漫画翻訳用のグラフィカルユーザーインターフェース。日・韓・英のコミックの自動翻訳に対応し、OpenAIやGeminiなどの複数の翻訳エンジンを統合、テキストスタイルを調整するためのビジュアルエディタを備えています。
+  thumbnail: assets/thumbnails/manga-translator-ui-774489.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: hgmzhn/manga-translator-ui
 - id: comic-translate-577d27
   title: Comic Translate
   area: manga
@@ -8709,6 +8878,44 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: ogkalu2/comic-translate
+- id: koharu-8e606e
+  title: Koharu
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/mayocream/koharu
+  year: 2023
+  tags:
+  - manga
+  - ocr
+  - rust
+  - translation
+  summary: A local-first, machine learning-powered manga translator written in Rust. It provides an automated workflow for text detection, OCR, translation, and rendering directly on the user's local machine.
+  summary_ja: Rustで記述された、ローカルファーストかつ機械学習駆動の漫画翻訳ツール。ユーザーのローカルマシン上でテキスト検出、OCR、翻訳、レンダリングを直接行う自動化されたワークフローを提供します。
+  thumbnail: assets/thumbnails/koharu-8e606e.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: mayocream/koharu
+- id: ballonstranslator-b7bc37
+  title: BallonsTranslator
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/dmMaze/BallonsTranslator
+  year: 2022
+  tags:
+  - manga
+  - ocr
+  - translation
+  - typesetting
+  summary: An open-source, computer-aided manga and comic translation tool powered by deep learning. It automates text detection, OCR, inpainting (text erasing), machine translation, and typesetting, while offering a rich visual editor to customize text styles and layouts.
+  summary_ja: ディープラーニングを活用したオープンソースのコンピュータ支援型漫画・コミック翻訳ツール。テキスト検出、OCR、インペインティング（文字消去）、機械翻訳、写植を自動化し、テキストスタイルやレイアウトをカスタマイズできる豊富なビジュアルエディタを提供します。
+  thumbnail: assets/thumbnails/ballonstranslator-b7bc37.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: dmmaze/ballonstranslator
 - id: mokuro-047be2
   title: Mokuro
   area: manga
@@ -8879,6 +9086,25 @@ entries:
   source: seed
   arxiv_id: '2401.10224'
   repo: ragavsachdeva/magi
+- id: comfyui-panels-79d1ed
+  title: ComfyUI Panels
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/bmad4ever/comfyui_panels
+  year: 2023
+  tags:
+  - comfyui
+  - layout
+  - manga
+  - panel
+  summary: A ComfyUI custom node package for generating and organizing comic and manga-like panel layouts. It supports hierarchical cuts, equally spaced cuts, and nested panels to create complex page compositions.
+  summary_ja: コミックやマンガのようなコマ割りのレイアウトを生成・整理するためのComfyUIカスタムノードパッケージ。階層的なカット、等間隔のカット、および入れ子状のコマをサポートし、複雑なページ構成を作成できます。
+  thumbnail: assets/thumbnails/comfyui-panels-79d1ed.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: bmad4ever/comfyui_panels
 - id: magicscroll-nontypical-aspect-ratio-image-generation-for-vis-1a7af8
   title: 'MagicScroll: Nontypical Aspect-Ratio Image Generation for Visual Storytelling via Multi-Layered Semantic-Aware Denoising'
   area: manga
@@ -9245,6 +9471,110 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: libretranslate/libretranslate
+- id: from-world-gen-to-quest-line-cbadff
+  title: From World-Gen to Quest-Line
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.25482
+    github: https://github.com/anon-researcher-rpg/dependency-driven-prompt-pipeline
+  authors:
+  - Dominik Borawski
+  - Marta Szulc
+  - Robert Chudy
+  - Małgorzata Giedrowicz
+  - Piotr Mironowicz
+  year: 2026
+  tags:
+  - llm
+  - narrative
+  - quest
+  - rpg
+  summary: 'A dependency-aware, multi-stage prompt pipeline for procedural RPG content generation that models narrative dependencies through structured intermediate representations. It decomposes generation into sequential stages: world building, character creation, and quest-line generation.'
+  summary_ja: 構造化された中間表現を通じて物語の依存関係をモデル化する、手続き型RPGコンテンツ生成のための依存関係を考慮した多段階プロンプトパイプライン。生成プロセスをワールド構築、キャラクター作成、クエストライン生成の連続した段階に分解します。
+  thumbnail: assets/thumbnails/from-world-gen-to-quest-line-cbadff.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2604.25482'
+  repo: anon-researcher-rpg/dependency-driven-prompt-pipeline
+- id: bookworld-d86f76
+  title: BookWorld
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.14538
+    github: https://github.com/alienet1109/BookWorld
+  authors:
+  - Yiting Ran
+  - Xintao Wang
+  - Tian Qiu
+  - Jiaqing Liang
+  - Yanghua Xiao
+  - Deqing Yang
+  year: 2025
+  tags:
+  - multi-agent
+  - narrative
+  - simulation
+  - story
+  summary: A comprehensive system for constructing and simulating book-based multi-agent societies to enable creative story and narrative generation.
+  summary_ja: クリエイティブなストーリーやナラティブの生成を可能にする、書籍ベースのマルチエージェント社会を構築・シミュレーションするための包括的なシステム。
+  thumbnail: assets/thumbnails/bookworld-d86f76.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2504.14538'
+  repo: alienet1109/bookworld
+- id: narrative-to-scene-generation-1fd0b4
+  title: Narrative-to-Scene Generation
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.04481
+    github: https://github.com/RimiChen/2025_NarrativeScene
+  authors:
+  - Yi-Chun Chen
+  - Arnav Jhala
+  year: 2025
+  tags:
+  - llm
+  - narrative
+  - pcg
+  - scene
+  summary: A lightweight pipeline that transforms short narrative prompts into a sequence of 2D tile-based game scenes, reflecting the temporal structure of stories.
+  summary_ja: 短いナラティブプロンプトを、ストーリーの時系列構造を反映した2Dタイルベースのゲームシーンのシーケンスに変換する軽量なパイプライン。
+  thumbnail: assets/thumbnails/narrative-to-scene-generation-1fd0b4.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2509.04481'
+  repo: rimichen/2025_narrativescene
+- id: story2game-a99b16
+  title: STORY2GAME
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.03547
+  authors:
+  - Eric Zhou
+  - Shreyas Basavatia
+  - Moontashir Siam
+  - Zexin Chen
+  - Mark O. Riedl
+  year: 2025
+  tags:
+  - game-engine
+  - interactive-fiction
+  - llm
+  - story
+  summary: An approach using Large Language Models to generate text-based interactive fiction games by generating a story, populating the world, and building the code for actions in a game engine.
+  summary_ja: 大規模言語モデル（LLM）を使用して、ストーリーの生成、ワールドの構築、およびゲームエンジン内でのアクションコードの作成を行うことで、テキストベースのインタラクティブフィクションゲームを生成する手法。
+  thumbnail: assets/thumbnails/story2game-a99b16.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2505.03547'
 - id: mistral-7b-c81ddf
   title: Mistral 7B
   area: text-design
@@ -9264,6 +9594,30 @@ entries:
   source: seed
   arxiv_id: '2310.06825'
   repo: mistralai/mistral-src
+- id: environment-aware-npc-dialogue-ad4285
+  title: Environment-Aware NPC Dialogue
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.19192
+    github: https://github.com/UL-FRI-LGM/environment-aware-npc-llm
+  authors:
+  - Grega Radež
+  - Ciril Bohak
+  year: 2026
+  tags:
+  - context-aware
+  - dialogue
+  - npc
+  - vision-llm
+  summary: A system that enhances NPC dialogue by combining LLMs with computer vision, using panoramic images and semantic segmentation to give characters spatial and environmental awareness of their surroundings.
+  summary_ja: パノラマ画像とセマンティックセグメンテーションを使用して、キャラクターに周囲の空間的・環境的状況を認識させ、LLMとコンピュータビジョンを組み合わせてNPCの対話を強化するシステム。
+  thumbnail: assets/thumbnails/environment-aware-npc-dialogue-ad4285.png
+  date_added: '2026-06-13'
+  source: agent
+  arxiv_id: '2604.19192'
+  repo: ul-fri-lgm/environment-aware-npc-llm
 - id: fixed-persona-slms-with-modular-memory-2425ba
   title: Fixed-Persona SLMs with Modular Memory
   area: text-design
@@ -9286,6 +9640,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.10277'
+- id: gigax-e03f86
+  title: Gigax
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/GigaxGames/gigax
+  year: 2024
+  tags:
+  - dialogue
+  - local-llm
+  - npc
+  - runtime
+  summary: An open-source runtime and set of open-weights models fine-tuned from Llama-3, Phi-3, and Mistral, designed for local, low-latency LLM-powered NPCs that can speak and execute in-game actions.
+  summary_ja: Llama-3、Phi-3、Mistralからファインチューニングされたオープンウェイトモデルとオープンソースのランタイム。ローカル環境で低遅延に動作し、会話やゲーム内アクションを実行できるNPC向けに設計されている。
+  thumbnail: assets/thumbnails/gigax-e03f86.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: gigaxgames/gigax
 - id: llmunity-093010
   title: LLMUnity
   area: text-design
@@ -9371,6 +9744,25 @@ entries:
   source: seed
   arxiv_id: '2302.13971'
   repo: meta-llama/llama
+- id: mantella-61fa1f
+  title: Mantella
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/art-from-the-machine/Mantella
+  year: 2023
+  tags:
+  - dialogue
+  - mod
+  - npc
+  - skyrim
+  summary: An open-source framework and mod for Skyrim and Fallout 4 that enables players to naturally converse with NPCs using a pipeline of Speech-to-Text, LLMs, and Text-to-Speech.
+  summary_ja: 音声認識、LLM、音声合成のパイプラインを使用して、プレイヤーがNPCと自然に会話できるようにする、SkyrimおよびFallout 4向けのオープンソースフレームワークおよびMod。
+  thumbnail: assets/thumbnails/mantella-61fa1f.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: art-from-the-machine/mantella
 - id: agentic-pcg-1e1627
   title: Agentic PCG
   area: text-design
