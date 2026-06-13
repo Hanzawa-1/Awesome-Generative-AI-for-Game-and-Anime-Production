@@ -93,8 +93,18 @@ def _link_row(links, loc: str) -> list[str]:
     return bits
 
 
+def _thumb(e) -> str:
+    """Prefer the entry's thumbnail field; else an on-disk PNG by id; else the placeholder.
+    The on-disk fallback keeps previews working even if a re-seed cleared the thumbnail field."""
+    if e.thumbnail:
+        return e.thumbnail
+    if (DOCS / "assets" / "thumbnails" / f"{e.id}.png").exists():
+        return f"assets/thumbnails/{e.id}.png"
+    return PLACEHOLDER
+
+
 def _card(e, prefix: str, loc: str, new_ids: set[str]) -> str:
-    thumb = e.thumbnail or PLACEHOLDER
+    thumb = _thumb(e)
     primary = e.links.primary() or "#"
     lines = [f"-   [![]({prefix}{thumb}){{ .card-thumb }}]({primary})", ""]
     title = f"**[{_esc(e.title)}]({primary})**"

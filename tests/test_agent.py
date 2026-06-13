@@ -36,13 +36,14 @@ def test_parse_submission_salvages_valid_entries():
             },
         ]
     })
-    valid, invalid = ra._parse_submission(payload)
+    valid, invalid, parsed = ra._parse_submission(payload)
     assert len(valid) == 1
     assert invalid == 2
+    assert parsed is True
 
 
 def test_parse_submission_handles_garbage():
-    assert ra._parse_submission("not json") == ([], 0)
+    assert ra._parse_submission("not json") == ([], 0, False)
 
 
 def test_verify_and_stage_dedupes_and_caps(monkeypatch):

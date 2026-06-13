@@ -63,12 +63,15 @@ def _links_ok(e: Entry) -> bool:
     return any(s in ("alive", "unknown") for s in statuses)
 
 
-def _parse_submission(raw_args: str) -> tuple[list[Entry], int]:
-    """Validate submitted entries one-by-one, salvaging the valid ones."""
+def _parse_submission(raw_args: str) -> tuple[list[Entry], int, bool]:
+    """Validate submitted entries one-by-one, salvaging the valid ones.
+
+    Returns (valid_entries, invalid_count, parsed_ok). parsed_ok is False only when the
+    top-level JSON itself is unparseable (the caller can then ask the model to resubmit)."""
     try:
         data = json.loads(raw_args or "{}")
     except json.JSONDecodeError:
-        return [], 0
+        return [], 0, False
     raw_entries = data.get("entries", []) if isinstance(data, dict) else []
     valid, invalid = [], 0
     for r in raw_entries:
@@ -76,7 +79,7 @@ def _parse_submission(raw_args: str) -> tuple[list[Entry], int]:
             valid.append(Entry.model_validate(r))
         except ValidationError:
             invalid += 1
-    return valid, invalid
+    return valid, invalid, True
 
 
 def verify_and_stage(
@@ -132,6 +135,8 @@ def run(
     notes = ""
     submitted = False
     tool_calls_made = 0
+    submit_retries = 0
+    MAX_SUBMIT_RETRIES = 2
     tokens = 0
     start = time.monotonic()
 
@@ -169,7 +174,15 @@ def run(
             name = call.function.name
             raw_args = call.function.arguments or "{}"
             if name == SUBMIT_NAME:
-                valid, invalid = _parse_submission(raw_args)
+                valid, invalid, parsed = _parse_submission(raw_args)
+                if not parsed and not force and submit_retries < MAX_SUBMIT_RETRIES:
+                    # Don't lose the run on a malformed submission — ask for a clean resubmit.
+                    submit_retries += 1
+                    messages.append(_tool_msg(call.id, {
+                        "error": "submit_entries arguments were not valid JSON. Resubmit ONE valid JSON "
+                                 "object with an 'entries' array — do not truncate; reduce the entry count "
+                                 "if needed."}))
+                    continue
                 staged = verify_and_stage(valid, existing_keys, settings.max_new_entries, settings.max_per_task)
                 try:
                     notes = (json.loads(raw_args) or {}).get("notes", "") or ""
@@ -204,7 +217,7 @@ def run(
                                tool_choice={"type": "function", "function": {"name": SUBMIT_NAME}})
             for call in (resp.choices[0].message.tool_calls or []):
                 if call.function.name == SUBMIT_NAME:
-                    valid, _ = _parse_submission(call.function.arguments or "{}")
+                    valid, _, _ = _parse_submission(call.function.arguments or "{}")
                     staged = verify_and_stage(valid, existing_keys, settings.max_new_entries, settings.max_per_task)
         except Exception as e:  # noqa: BLE001
             print(f"[agent] final submit attempt failed: {e}")
