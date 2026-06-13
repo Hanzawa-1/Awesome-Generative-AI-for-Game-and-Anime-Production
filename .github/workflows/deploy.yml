@@ -33,6 +33,11 @@ jobs:
       - name: Build site
         run: uv run mkdocs build --strict
       - uses: actions/configure-pages@v5
+        with:
+          # Enable Pages (build_type=workflow) on first run so the deploy is
+          # self-bootstrapping — avoids the "Get Pages site failed / Not Found"
+          # error when Pages has never been turned on in repo settings.
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

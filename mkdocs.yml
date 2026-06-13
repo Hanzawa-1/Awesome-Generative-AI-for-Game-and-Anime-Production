@@ -2,10 +2,9 @@ site_name: Awesome Generative AI for Game & Anime Production
 site_description: >-
   A curated, agent-updated catalog of generative-AI tasks for game and anime
   production — open-source models & papers plus the proprietary tools studios use.
-# Update these after you create the GitHub repo / enable Pages:
-site_url: https://example.github.io/awesome-genai-game-anime/
-repo_url: https://github.com/example/awesome-genai-game-anime
-repo_name: awesome-genai-game-anime
+site_url: https://hanzawa-1.github.io/Awesome-Generative-AI-for-Game---Anime-Production/
+repo_url: https://github.com/Hanzawa-1/Awesome-Generative-AI-for-Game---Anime-Production
+repo_name: Hanzawa-1/Awesome-Generative-AI-for-Game---Anime-Production
 edit_uri: edit/main/
 
 # Stable, depth-independent relative links between generated pages and assets.
