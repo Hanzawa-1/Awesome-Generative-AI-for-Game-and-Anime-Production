@@ -3,8 +3,7 @@
 ## What this is
 
 A curated catalog of generative-AI / ML **tasks** relevant to **game and anime production**,
-organized as an _Area → Task_ tree (inspired by the structure of paperswithcode-style task
-browsers). For each task we track:
+organized as an _Area → Task_ tree. For each task we track:
 
 - **Open-source models & papers** — the bulk of the catalog (each anchored to an arXiv paper
   and/or a real code repository), and
@@ -12,14 +11,12 @@ browsers). For each task we track:
 
 ## How entries are discovered
 
-A GitHub Actions job runs **weekly**. It invokes an LLM research agent (configurable between
-Google Gemini and OpenRouter) equipped with read-only discovery tools:
+A GitHub Actions job runs **weekly**. It invokes an agent equipped with read-only discovery tools:
 
 - **arXiv** — recent papers per task
 - **Hugging Face** — trending papers and model releases
 - **GitHub** — new/active repositories
 - **DuckDuckGo** — general web search
-- **Semantic Scholar** (and best-effort `paperswithcode.co` / Civitai) — supplementary
 
 The agent rotates its focus across areas week to week to broaden coverage.
 
@@ -28,7 +25,7 @@ The agent rotates its focus across areas week to week to broaden coverage.
 The agent only **proposes** entries. A deterministic pipeline then:
 
 1. **Validates** every record against a strict schema and the taxonomy.
-2. **Recomputes** the canonical id and de-duplication key (it never trusts the LLM's).
+2. **Recomputes** the canonical id and de-duplication key (it never trusts the agent's).
 3. **Verifies** that the primary link actually resolves, and requires open-source entries to be
    anchored to an arXiv id or a GitHub repository.
 4. **De-duplicates** against everything already in the catalog.

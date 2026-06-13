@@ -48,6 +48,7 @@ UI = {
         "area_meta": lambda e, t: f"{e} entries · {t} tasks",
         "new": "NEW",
         "ai": "Discovered by AI",
+        "getstarted": "Get started",
         "links": {"project": "Project", "github": "GitHub", "arxiv": "arXiv",
                   "hf": "Hugging Face", "paper": "Paper", "website": "Website"},
     },
@@ -64,6 +65,7 @@ UI = {
         "area_meta": lambda e, t: f"{e} 件 · {t} タスク",
         "new": "新着",
         "ai": "AIが発見",
+        "getstarted": "はじめに",
         "links": {"project": "プロジェクト", "github": "GitHub", "arxiv": "arXiv",
                   "hf": "Hugging Face", "paper": "論文", "website": "公式サイト"},
     },
@@ -196,6 +198,7 @@ def build_locale(loc: str, sfx: str, tax, by_area, by_task, new_ids: set[str]) -
             _write(page, "\n".join(out))
 
     summary.append(f"- [{ui['about']}](about.md)")
+    summary.append(f"- [{ui['getstarted']}](get-started.md)")
     _write(f"SUMMARY{sfx}.md", "\n".join(summary) + "\n")
 
 
