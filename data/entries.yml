@@ -5779,6 +5779,25 @@ entries:
   source: agent
   arxiv_id: '2606.10050'
   repo: 01c-amara/neuraluvatlas
+- id: open3dstudio-786cdd
+  title: Open3DStudio
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/FishWoWater/Open3DStudio
+  year: 2026
+  tags:
+  - 3daigc
+  - local-inference
+  - retopology
+  - uv-unwrap
+  summary: Open3DStudio is a self-hosted, cross-platform 3D generative AI software suite designed for local deployment. It provides artists with a unified interface for various 3D workflows, including automatic mesh retopology, UV unwrapping, mesh generation, texture generation, and auto-rigging.
+  summary_ja: Open3DStudioは、ローカル環境にデプロイ可能なセルフホスト型のクロスプラットフォーム3D生成AIソフトウェアスイートです。自動メッシュリトポロジー、UV展開、メッシュ生成、テクスチャ生成、自動リギングなど、様々な3Dワークフローを統合されたインターフェースでアーティストに提供します。
+  thumbnail: assets/thumbnails/open3dstudio-786cdd.png
+  date_added: '2026-06-13'
+  source: agent
+  repo: fishwowater/open3dstudio
 - id: squadgen-generating-simple-quad-layouts-via-chart-distance-f-83fb48
   title: 'SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields'
   area: gen-3d
