@@ -14,7 +14,6 @@ entries:
   - interpolation
   summary: Diffusion-based generative interpolation that synthesizes in-between frames for cartoon/anime keyframes, handling large non-linear motion and occlusion.
   summary_ja: カートゥーン/アニメのキーフレーム間の中割りフレームを合成する拡散ベースの生成的補間。大きな非線形の動きやオクルージョンに対応。
-  thumbnail: assets/thumbnails/tooncrafter-generative-cartoon-interpolation-6c86db.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2405.17933'
@@ -33,7 +32,6 @@ entries:
   - real-time
   summary: A fast flow-based frame interpolation model, widely used (with anime-tuned variants) to generate in-between frames and smooth low-frame-rate animation.
   summary_ja: 高速なフローベースのフレーム補間モデル。アニメ向け調整版とともに、中割りフレーム生成や低フレームレートアニメの滑らか化に広く使われる。
-  thumbnail: assets/thumbnails/rife-real-time-intermediate-flow-estimation-e3d81c.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2011.06294'
@@ -52,7 +50,6 @@ entries:
   - interpolation
   summary: Segment-guided frame interpolation designed for the flat colors and large motions of cartoon/anime, addressing failure modes of photoreal interpolators.
   summary_ja: 平坦な色と大きな動きを持つカートゥーン/アニメ向けに設計された、セグメント誘導のフレーム補間。実写向け補間の弱点に対処する。
-  thumbnail: assets/thumbnails/animeinterp-deep-animation-video-interpolation-3771f5.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2104.06642'
@@ -71,7 +68,6 @@ entries:
   - simulation
   summary: Predicts physical material properties from visual input ('physics from pixels') so that generated 3D scenes can be simulated with realistic dynamics.
   summary_ja: 視覚入力から物理的なマテリアル特性を予測する「ピクセルからの物理」。生成された3Dシーンを現実的な力学でシミュレーションできるようにする。
-  thumbnail: assets/thumbnails/pixie-physics-from-pixels-42aa69.png
   date_added: '2026-06-13'
   source: seed
   repo: vlongle/pixie
@@ -89,7 +85,6 @@ entries:
   - simulation
   summary: Recovers the shape and appearance of fabrics from a template via differentiable physical simulation on monocular video, yielding physically-grounded cloth assets.
   summary_ja: 単眼動画上の微分可能な物理シミュレーションを通じて、テンプレートから布の形状と外観を復元し、物理的に妥当な布アセットを得る。
-  thumbnail: assets/thumbnails/saft-shape-and-appearance-of-fabrics-from-template-bfe011.png
   date_added: '2026-06-13'
   source: seed
   repo: vc-bonn/saft
@@ -107,7 +102,6 @@ entries:
   - physics
   summary: Learns the physics of dressed 3D avatars from multi-view video, recovering body, garments, and cloth dynamics for physically realistic, animatable avatars.
   summary_ja: 多視点動画から着衣の3Dアバターの物理を学習し、身体・衣服・布の力学を復元して、物理的にリアルでアニメーション可能なアバターを得る。
-  thumbnail: assets/thumbnails/physavatar-cd2168.png
   date_added: '2026-06-13'
   source: seed
   repo: y-zheng18/physavatar
@@ -125,7 +119,6 @@ entries:
   - text-driven
   summary: Animates arbitrary 3D meshes from text prompts, generating 4D mesh motion (per-vertex deformation over time) for fast dynamic-asset creation.
   summary_ja: テキストプロンプトから任意の3Dメッシュをアニメーション化し、時間方向の頂点変形(4Dメッシュモーション)を生成して、動的アセットを素早く作成する。
-  thumbnail: assets/thumbnails/animateanymesh-965d4f.png
   date_added: '2026-06-13'
   source: seed
   repo: jarrentwu1031/animateanymesh
@@ -143,11 +136,81 @@ entries:
   - motion-generation
   summary: A lightweight diffusion model that generates human motion from text or actions, a common baseline for text-to-motion in animation research.
   summary_ja: テキストや動作から人体モーションを生成する軽量な拡散モデル。アニメーション研究におけるテキスト→モーションの定番ベースライン。
-  thumbnail: assets/thumbnails/human-motion-diffusion-model-mdm-585afd.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2209.14916'
   repo: guytevet/motion-diffusion-model
+- id: audioldm-2-af2610
+  title: AudioLDM 2
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/haoheliu/AudioLDM2
+  year: 2023
+  tags:
+  - diffusion
+  - music
+  - open-weights
+  - text-to-audio
+  summary: A latent diffusion model for text-to-audio and text-to-music that uses a unified 'language of audio' representation to generate speech, sound effects, and music.
+  summary_ja: テキスト→オーディオおよびテキスト→音楽の潜在拡散モデル。統一的な「オーディオの言語」表現を用いて音声・効果音・音楽を生成する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: haoheliu/audioldm2
+- id: jen-1-a2bae2
+  title: JEN-1
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.04729
+  year: 2023
+  tags:
+  - diffusion
+  - high-fidelity
+  - text-to-music
+  summary: A universal high-fidelity text-to-music diffusion model combining autoregressive and non-autoregressive training to improve text-music alignment and audio quality.
+  summary_ja: 自己回帰・非自己回帰の学習を組み合わせ、テキストと音楽の整合性とオーディオ品質を高める、汎用かつ高忠実度のテキスト→音楽拡散モデル。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2308.04729'
+- id: melody-814130
+  title: MeLoDy
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.15719
+  year: 2023
+  tags:
+  - diffusion
+  - efficient
+  - lm-guided
+  - text-to-music
+  summary: An LM-guided diffusion model (MeLoDy) for efficient music audio generation that reaches state-of-the-art quality while sharply reducing the number of sampling forward passes.
+  summary_ja: 効率的な音楽オーディオ生成のためのLMガイド型拡散モデル(MeLoDy)。サンプリングの前向き計算回数を大幅に削減しつつ最先端の品質を達成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2305.15719'
+- id: mo-sai-8fca0d
+  title: Moûsai
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.11757
+  year: 2023
+  tags:
+  - diffusion
+  - long-context
+  - stereo
+  - text-to-music
+  summary: A long-context latent diffusion model for text-to-music that generates multiple minutes of high-quality stereo music from textual descriptions.
+  summary_ja: テキスト記述から数分にわたる高品質なステレオ音楽を生成する、長コンテキストの潜在拡散によるテキスト→音楽モデル。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2301.11757'
 - id: musicgen-audiocraft-e687ae
   title: MusicGen (AudioCraft)
   area: audio
@@ -162,11 +225,334 @@ entries:
   - open-weights
   summary: A single-stage controllable music generation model conditioned on text and melody, used for prototyping background music and adaptive scoring.
   summary_ja: テキストやメロディで条件付けする単一段階の制御可能な音楽生成モデル。BGMのプロトタイピングや適応的スコアリングに使われる。
-  thumbnail: assets/thumbnails/musicgen-audiocraft-e687ae.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2306.05284'
   repo: facebookresearch/audiocraft
+- id: musiclm-musiclm-pytorch-20ba40
+  title: MusicLM (musiclm-pytorch)
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/lucidrains/musiclm-pytorch
+  year: 2023
+  tags:
+  - audio-tokens
+  - text-to-music
+  - transformer
+  summary: An open-source PyTorch implementation of Google's MusicLM, which generates high-fidelity music from text descriptions via hierarchical modeling of discrete audio tokens.
+  summary_ja: GoogleのMusicLMのオープンソースなPyTorch実装。離散オーディオトークンの階層的モデリングにより、テキスト記述から高忠実度の音楽を生成する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: lucidrains/musiclm-pytorch
+- id: noise2music-113851
+  title: Noise2Music
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2302.03917
+  year: 2023
+  tags:
+  - cascaded
+  - diffusion
+  - google
+  - text-to-music
+  summary: Google's series of cascaded diffusion models that generate high-quality 30-second music clips from text, faithfully reflecting genre, tempo, instruments, mood, and era.
+  summary_ja: テキストから高品質な30秒の音楽クリップを生成するGoogleのカスケード拡散モデル群。ジャンル・テンポ・楽器・雰囲気・時代をテキストに忠実に反映する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2302.03917'
+- id: vampnet-2b35f2
+  title: VampNet
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.04686
+    github: https://github.com/hugofloresgarcia/vampnet
+  year: 2023
+  tags:
+  - inpainting
+  - masked-transformer
+  - variation
+  summary: Generates high-fidelity music via masked acoustic-token modeling with a bidirectional transformer, supporting synthesis, compression, inpainting, and variation.
+  summary_ja: 双方向トランスフォーマーによるマスク付き音響トークンモデリングで高忠実度の音楽を生成し、合成・圧縮・インペインティング・バリエーション生成に対応する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2307.04686'
+  repo: hugofloresgarcia/vampnet
+- id: d2m-gan-dance2music-231595
+  title: D2M-GAN (Dance2Music)
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2204.00604
+  year: 2022
+  tags:
+  - gan
+  - multimodal
+  - video-to-music
+  summary: An adversarial multimodal framework that generates complex music conditioned on dance videos, using a vector-quantized audio representation for diverse dance-music styles.
+  summary_ja: ダンス動画を条件として複雑な音楽を生成する敵対的マルチモーダルフレームワーク。ベクトル量子化オーディオ表現を用いて多様なダンス音楽スタイルを生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2204.00604'
+- id: museformer-11e9ba
+  title: Museformer
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2210.10349
+  year: 2022
+  tags:
+  - long-form
+  - structure
+  - symbolic
+  - transformer
+  summary: A Transformer for symbolic music generation that uses fine- and coarse-grained attention to model long sequences and capture musical repetition structure efficiently.
+  summary_ja: 細粒度・粗粒度のアテンションを用いて長いシーケンスを扱い、音楽の反復構造を効率的に捉える記号的音楽生成のためのトランスフォーマー。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2210.10349'
+- id: musika-33798b
+  title: Musika
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2208.08706
+    github: https://github.com/marcoppasini/musika
+  year: 2022
+  tags:
+  - fast
+  - gan
+  - infinite
+  - waveform
+  summary: A fast, user-controllable music generation system that synthesizes arbitrary-length waveform music much faster than real time on a consumer CPU.
+  summary_ja: 高速でユーザー制御可能な音楽生成システム。一般的なCPU上で実時間よりはるかに速く、任意の長さの波形音楽を合成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2208.08706'
+  repo: marcoppasini/musika
+- id: riffusion-238d0e
+  title: Riffusion
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/riffusion/riffusion
+  year: 2022
+  tags:
+  - diffusion
+  - real-time
+  - spectrogram
+  - text-to-music
+  summary: A fine-tuned Stable Diffusion model that generates spectrogram images and converts them to audio, enabling near real-time text-prompted music generation and looping.
+  summary_ja: ファインチューニングしたStable Diffusionでスペクトログラム画像を生成し音声に変換することで、テキストプロンプトからほぼリアルタイムの音楽生成やループ生成を可能にする。
+  date_added: '2026-06-13'
+  source: seed
+  repo: riffusion/riffusion
+- id: muzic-f96cb4
+  title: Muzic
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/microsoft/muzic
+  year: 2021
+  tags:
+  - microsoft
+  - research
+  - symbolic
+  - transformer
+  summary: Microsoft's research project on AI music covering understanding and generation, bundling models for melody, accompaniment, lyric-to-melody, and structured symbolic composition.
+  summary_ja: 音楽の理解と生成を扱うMicrosoftのAI音楽研究プロジェクト。メロディ、伴奏、歌詞→メロディ、構造的な記号作曲などのモデルをまとめて提供する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: microsoft/muzic
+- id: symbolic-music-generation-with-diffusion-models-900b4f
+  title: Symbolic Music Generation with Diffusion Models
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2103.16091
+  year: 2021
+  tags:
+  - diffusion
+  - infilling
+  - symbolic
+  summary: Applies diffusion models to symbolic music by training over a continuous latent of note sequences, achieving strong unconditional generation and post-hoc conditional infilling.
+  summary_ja: 音符列の連続潜在表現上で拡散モデルを学習することで記号的音楽に拡散を適用し、強力な無条件生成と事後的な条件付き補間を実現する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2103.16091'
+- id: mmm-multi-track-music-machine-2104fe
+  title: MMM (Multi-Track Music Machine)
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2008.06048
+  year: 2020
+  tags:
+  - multi-track
+  - symbolic
+  - transformer
+  summary: A Transformer-based system for conditional multi-track symbolic music generation, offering track- and bar-level control while handling long-term dependencies.
+  summary_ja: 条件付きのマルチトラック記号音楽生成のためのトランスフォーマーベースのシステム。長期依存を扱いつつ、トラック単位・小節単位の制御を提供する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2008.06048'
+- id: muspy-1328c9
+  title: MusPy
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2008.01951
+    github: https://github.com/salu133445/muspy
+  year: 2020
+  tags:
+  - datasets
+  - symbolic
+  - toolkit
+  summary: An open-source Python toolkit for symbolic music generation, providing dataset management, data preprocessing, representations, and model evaluation utilities.
+  summary_ja: 記号的音楽生成のためのオープンソースPythonツールキット。データセット管理、前処理、表現、モデル評価のユーティリティを提供する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2008.01951'
+  repo: salu133445/muspy
+- id: deepj-b9d752
+  title: DeepJ
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/calclavia/DeepJ
+  year: 2018
+  tags:
+  - lstm
+  - polyphonic
+  - style
+  - symbolic
+  summary: A deep learning model for style-specific polyphonic music generation, able to compose in the style of particular composers or eras with controllable dynamics.
+  summary_ja: スタイル指定が可能なポリフォニック音楽生成のための深層学習モデル。特定の作曲家や時代のスタイルで、強弱を制御しながら作曲できる。
+  date_added: '2026-06-13'
+  source: seed
+  repo: calclavia/deepj
+- id: midinet-bcaf3f
+  title: MidiNet
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1703.10847
+  year: 2017
+  tags:
+  - cnn
+  - gan
+  - midi
+  - symbolic
+  summary: A convolutional GAN for symbolic melody generation in the MIDI domain, with conditional mechanisms and an extension to multiple MIDI channels.
+  summary_ja: MIDI領域での記号的メロディ生成のための畳み込みGAN。条件付け機構を持ち、複数のMIDIチャンネルへの拡張に対応する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '1703.10847'
+- id: musegan-89a111
+  title: MuseGAN
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1709.06298
+    github: https://github.com/salu133445/musegan
+  year: 2017
+  tags:
+  - gan
+  - multi-track
+  - symbolic
+  summary: A multi-track sequential GAN for symbolic music generation that models bass, drums, and other tracks jointly, capturing temporal dynamics and inter-track dependencies.
+  summary_ja: 記号的音楽生成のためのマルチトラック逐次GAN。ベースやドラムなどのトラックを同時にモデル化し、時間的ダイナミクスとトラック間の依存関係を捉える。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '1709.06298'
+  repo: salu133445/musegan
+- id: magenta-965573
+  title: Magenta
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/magenta/magenta
+  year: 2016
+  tags:
+  - google
+  - rnn
+  - symbolic
+  - toolkit
+  summary: Google's open research project for music and art generation with machine learning, providing models (MelodyRNN, MusicVAE, and more) and tools for symbolic and audio music creation.
+  summary_ja: 機械学習による音楽・アート生成のためのGoogleのオープンな研究プロジェクト。MelodyRNNやMusicVAEなどのモデルと、記号的・オーディオ音楽制作のためのツールを提供する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: magenta/magenta
+- id: gruv-c3f2f3
+  title: GRUV
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/MattVitelli/GRUV
+  year: 2015
+  tags:
+  - early
+  - rnn
+  - waveform
+  summary: An early algorithmic music generation project that uses LSTM/GRU recurrent networks to generate raw audio waveforms sample by sample.
+  summary_ja: LSTM/GRUの再帰型ネットワークを用い、生のオーディオ波形をサンプル単位で生成する初期のアルゴリズム作曲プロジェクト。
+  date_added: '2026-06-13'
+  source: seed
+  repo: mattvitelli/gruv
+- id: latentscore-bb43ff
+  title: LatentScore
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/prabal-rje/latentscore
+  tags:
+  - ambient
+  - cpu
+  - lightweight
+  - text-to-music
+  summary: A lightweight Python tool that generates ambient background music from text prompts and runs without a GPU, suited to simple BGM prototyping.
+  summary_ja: テキストプロンプトからアンビエントなBGMを生成する軽量なPythonツール。GPUなしで動作し、シンプルなBGMのプロトタイピングに向く。
+  date_added: '2026-06-13'
+  source: seed
+  repo: prabal-rje/latentscore
+- id: obsidian-neural-391b42
+  title: OBSIDIAN Neural
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/innermost47/ai-dj
+    website: https://obsidian-neural.com/
+  year: 2025
+  tags:
+  - interactive
+  - live
+  - real-time
+  - vst
+  summary: A real-time AI loop-generation VST3 plugin for live performance, featuring an 8-track MIDI-triggered sampler with text-to-audio and experimental draw-to-audio generation.
+  summary_ja: ライブ演奏向けのリアルタイムAIループ生成VST3プラグイン。テキスト→オーディオや実験的なドロー→オーディオ生成を備えた、MIDIトリガー式の8トラックサンプラーを搭載する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: innermost47/ai-dj
 - id: vits-085e0a
   title: VITS
   area: audio
@@ -181,7 +567,6 @@ entries:
   - tts
   summary: An end-to-end text-to-speech model combining variational inference and adversarial training, the basis for many open Japanese and character TTS voices.
   summary_ja: 変分推論と敵対的学習を組み合わせたエンドツーエンドの音声合成モデル。多くのオープンな日本語・キャラクター音声の基盤。
-  thumbnail: assets/thumbnails/vits-085e0a.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2106.06103'
@@ -199,7 +584,6 @@ entries:
   - voice-conversion
   summary: A popular open-source voice-conversion toolkit that retargets a source voice to a trained timbre, widely used for character voice and dubbing experiments.
   summary_ja: ソース音声を学習済みの声質に変換する人気のオープンソース声質変換ツールキット。キャラクターボイスやダビングの実験に広く使われる。
-  thumbnail: assets/thumbnails/rvc-retrieval-based-voice-conversion-c43d47.png
   date_added: '2026-06-13'
   source: seed
   repo: rvc-project/retrieval-based-voice-conversion-webui
@@ -219,7 +603,6 @@ entries:
   - skeleton
   summary: Automatically converts static 3D models into articulated assets by generating skeletons and skinning at scale from a large rigging dataset.
   summary_ja: 大規模なリギングデータセットからスケルトンとスキニングを大規模に生成し、静的な3Dモデルを関節のあるアセットに自動変換する。
-  thumbnail: assets/thumbnails/magicarticulate-8e4c1b.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2502.12135'
@@ -240,7 +623,6 @@ entries:
   - skeleton
   summary: An autoregressive transformer that rigs diverse 3D objects in a template-free manner by generating joints and skeletal hierarchy.
   summary_ja: 関節と骨格階層を生成することで、テンプレートを用いずに多様な3D物体をリギングする自己回帰トランスフォーマー。
-  thumbnail: assets/thumbnails/riganything-46484a.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2502.09615'
@@ -261,7 +643,6 @@ entries:
   - skeleton
   summary: A unified autoregressive framework that predicts skeletons and skinning weights for diverse 3D models to make them animation-ready.
   summary_ja: 多様な3Dモデルに対してスケルトンとスキニングウェイトを予測し、アニメーション可能にする統一的な自己回帰フレームワーク。
-  thumbnail: assets/thumbnails/unirig-0c5c59.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2504.12451'
@@ -282,7 +663,6 @@ entries:
   - skinning
   summary: Quickly prepares arbitrary 3D humanoid characters for animation by generating bones, skinning weights, and pose-ready structure.
   summary_ja: ボーン、スキニングウェイト、ポーズ対応の構造を生成し、任意の3D人型キャラクターを素早くアニメーション可能にする。
-  thumbnail: assets/thumbnails/make-it-animatable-c80797.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2411.18197'
@@ -301,7 +681,6 @@ entries:
   - skeleton
   summary: Predicts an animation skeleton and skinning weights directly from a 3D character mesh, automating a traditionally manual rigging step.
   summary_ja: 3Dキャラクターメッシュから、アニメーション用のスケルトンとスキニングウェイトを直接予測し、従来は手作業だったリギングを自動化する。
-  thumbnail: assets/thumbnails/rignet-neural-rigging-for-articulated-characters-2e0d57.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2005.00559'
@@ -322,7 +701,6 @@ entries:
   - volumetric
   summary: Predicts animation skeletons for 3D character models using a volumetric network that estimates joints and bone structure.
   summary_ja: 関節とボーン構造を推定するボリュメトリックネットワークを用いて、3Dキャラクターモデルのアニメーション用スケルトンを予測する。
-  thumbnail: assets/thumbnails/animskelvolnet-abec93.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1908.08506'
@@ -342,7 +720,6 @@ entries:
   - skinning
   summary: A classic method that automatically fits a given skeleton into a 3D character mesh and computes skinning weights for immediate animation.
   summary_ja: 与えられたスケルトンを3Dキャラクターメッシュに自動的に適合させ、即座にアニメーションできるようスキニングウェイトを計算する古典的手法。
-  thumbnail: assets/thumbnails/pinocchio-automatic-rigging-dcd549.png
   date_added: '2026-06-13'
   source: seed
   repo: elrond79/pinocchio
@@ -360,7 +737,6 @@ entries:
   - text-driven
   summary: Zero-shot text-driven generation and animation of 3D avatars by guiding a neural human model with CLIP, an early framework for describable digital humans.
   summary_ja: CLIPでニューラル人体モデルを誘導し、テキストからゼロショットで3Dアバターを生成・アニメーション化する初期のフレームワーク。
-  thumbnail: assets/thumbnails/avatarclip-b2cf92.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2205.08535'
@@ -381,7 +757,6 @@ entries:
   - neural-rendering
   summary: A geometry-aware 3D GAN using a hybrid explicit-implicit tri-plane representation to synthesize multi-view-consistent face images and 3D geometry from single-view photo collections.
   summary_ja: ハイブリッドな明示的・暗黙的トライプレーン表現を用いる幾何認識型3D GAN。単一視点の写真集合から多視点で一貫した顔画像と3D形状を合成する。
-  thumbnail: assets/thumbnails/eg3d-5e4a72.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2112.07945'
@@ -402,7 +777,6 @@ entries:
   - gaussian-splatting
   summary: Provides drag-style interactive editing of 3D Gaussian splatting scenes, propagating user-specified point drags into consistent 3D geometry changes.
   summary_ja: 3Dガウシアンスプラッティングシーンのドラッグ式インタラクティブ編集を提供し、ユーザー指定の点のドラッグを一貫した3D形状変化に伝播させる。
-  thumbnail: assets/thumbnails/drag-your-gaussian-e05d4e.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2501.18672'
@@ -423,7 +797,6 @@ entries:
   - multi-view-consistent
   summary: Performs text-driven editing of 3D Gaussian splatting scenes with depth-conditioned and attention-based multi-view consistent image edits.
   summary_ja: 深度条件付きおよびアテンションベースの多視点一貫した画像編集により、3Dガウシアンスプラッティングシーンのテキスト駆動編集を行う。
-  thumbnail: assets/thumbnails/gaussctrl-e47b41.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2403.08733'
@@ -443,7 +816,6 @@ entries:
   - segmentation
   summary: Augments 3D Gaussians with identity features to jointly reconstruct and segment open-world scenes, supporting editing operations like removal and inpainting.
   summary_ja: 3Dガウシアンに同一性特徴を付加してオープンワールドシーンを同時に復元・分割し、除去やインペイントなどの編集操作をサポートする。
-  thumbnail: assets/thumbnails/gaussian-grouping-516c6c.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2312.00732'
@@ -463,7 +835,6 @@ entries:
   - text-guided
   summary: Enables fast, controllable text-guided editing of 3D Gaussian splatting scenes through semantic tracing and constrained Gaussian updates.
   summary_ja: セマンティックトレーシングと制約付きガウシアン更新により、3Dガウシアンスプラッティングシーンの高速で制御可能なテキストガイド編集を可能にする。
-  thumbnail: assets/thumbnails/gaussianeditor-deb1dc.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.16037'
@@ -483,7 +854,6 @@ entries:
   - nerf
   summary: Edits reconstructed NeRF scenes from natural language instructions by iteratively updating input images with an image-conditioned diffusion editor.
   summary_ja: 画像条件付きの拡散エディタで入力画像を反復的に更新することで、自然言語の指示から復元済みNeRFシーンを編集する。
-  thumbnail: assets/thumbnails/instruct-nerf2nerf-4a8f79.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2303.12789'
@@ -504,7 +874,6 @@ entries:
   - part-based
   summary: A part-aware NeRF generative model that represents objects as a set of locally defined neural radiance fields enabling part-level control and editing.
   summary_ja: 物体を局所的に定義された複数のニューラルradiance fieldの集合として表現し、パーツ単位の制御と編集を可能にするパーツ認識型NeRF生成モデル。
-  thumbnail: assets/thumbnails/partnerf-49f042.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2303.09554'
@@ -525,11 +894,137 @@ entries:
   - part-based
   summary: An implicit shape representation decomposed into editable Gaussian parts, enabling part-level manipulation and editing of generated neural shapes.
   summary_ja: 編集可能なガウシアンパーツに分解された暗黙的形状表現で、生成されたニューラル形状のパーツ単位の操作と編集を可能にする。
-  thumbnail: assets/thumbnails/spaghetti-9acfd8.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2201.13168'
   repo: amirhertz/spaghetti
+- id: brepdiff-single-stage-b-rep-diffusion-model-f31b28
+  title: 'BrepDiff: Single-stage B-rep Diffusion Model'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/brepdiff/brepdiff
+    project: https://brepdiff.github.io/
+  year: 2025
+  tags:
+  - brep
+  - cad
+  - diffusion
+  summary: A single-stage diffusion model that directly generates boundary-representation (B-rep) CAD models, avoiding multi-stage pipelines for more robust parametric solid synthesis.
+  summary_ja: 境界表現(B-rep)のCADモデルを直接生成する単一段階の拡散モデル。多段階パイプラインを避け、より頑健なパラメトリックソリッド合成を実現する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: brepdiff/brepdiff
+- id: cad-gpt-cad-construction-sequences-with-multimodal-llms-ffd74e
+  title: 'CAD-GPT: CAD Construction Sequences with Multimodal LLMs'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.19663
+  year: 2025
+  tags:
+  - cad
+  - llm
+  - multimodal
+  - spatial-reasoning
+  summary: Synthesizes CAD construction sequences with a spatial-reasoning-enhanced multimodal LLM, generating editable modeling steps from text or single-image input.
+  summary_ja: 空間推論を強化したマルチモーダルLLMでCADの構築シーケンスを合成し、テキストや単一画像から編集可能なモデリング手順を生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2412.19663'
+- id: cad-recode-reverse-engineering-cad-code-from-point-clouds-b58547
+  title: 'CAD-Recode: Reverse Engineering CAD Code from Point Clouds'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.14042
+  year: 2025
+  tags:
+  - cad
+  - code-generation
+  - point-cloud
+  - reverse-engineering
+  summary: Reverse-engineers CAD models from point clouds by generating Python CAD code, recovering editable parametric construction programs from raw 3D scans.
+  summary_ja: 点群からPythonのCADコードを生成してCADモデルを逆解析し、生の3Dスキャンから編集可能なパラメトリック構築プログラムを復元する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2412.14042'
+- id: cad2program-2d-cad-drawings-to-3d-parametric-models-fefff6
+  title: 'CAD2Program: 2D CAD Drawings to 3D Parametric Models'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.11892
+    project: https://manycore-research.github.io/CAD2Program/
+  year: 2025
+  tags:
+  - cad
+  - reconstruction
+  - vision-language
+  summary: A vision-language approach that reconstructs 3D parametric models from 2D CAD drawings, predicting editable shape programs from orthographic engineering views.
+  summary_ja: 2DのCAD図面から3Dパラメトリックモデルを復元する視覚言語アプローチ。正投影の設計図から編集可能な形状プログラムを予測する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2412.11892'
+- id: flexcad-controllable-cad-generation-with-fine-tuned-llms-d63b48
+  title: 'FlexCAD: Controllable CAD Generation with Fine-tuned LLMs'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.05823
+  year: 2025
+  tags:
+  - cad
+  - controllable
+  - llm
+  summary: A controllable CAD generation method that fine-tunes large language models to produce parametric construction sequences, supporting versatile, hierarchy-aware editing and control.
+  summary_ja: 大規模言語モデルをファインチューニングしてパラメトリックな構築シーケンスを生成する制御可能なCAD生成手法。階層を意識した多用途な編集と制御に対応する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2411.05823'
+- id: hola-b-rep-generation-using-a-holistic-latent-representation-b26783
+  title: 'HoLa: B-Rep Generation using a Holistic Latent Representation'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.14257
+    project: https://vcc.tech/research/2025/HolaBrep
+  year: 2025
+  tags:
+  - brep
+  - cad
+  - diffusion
+  summary: Generates boundary-representation (B-rep) CAD solids from a holistic latent representation that jointly encodes geometry and topology, improving the validity of synthesized parametric models.
+  summary_ja: 幾何と位相を同時に符号化する全体的な潜在表現から境界表現(B-rep)のCADソリッドを生成し、合成されるパラメトリックモデルの妥当性を高める。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2504.14257'
+- id: text-to-cadquery-ddc065
+  title: Text-to-CadQuery
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.06507
+    github: https://github.com/Text-to-CadQuery/Text-to-CadQuery
+  year: 2025
+  tags:
+  - cad
+  - code-generation
+  - llm
+  - text-to-3d
+  summary: Generates CadQuery Python code from text prompts using large language models, so natural-language descriptions compile into editable parametric CAD models.
+  summary_ja: 大規模言語モデルを用いてテキストプロンプトからCadQueryのPythonコードを生成し、自然言語による記述を編集可能なパラメトリックCADモデルへとコンパイルする。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2505.06507'
+  repo: text-to-cadquery/text-to-cadquery
 - id: brepgen-4ec759
   title: BrepGen
   area: gen-3d
@@ -545,11 +1040,45 @@ entries:
   - diffusion
   summary: Directly generates boundary representation (B-rep) CAD solids using a diffusion model over a structured tree of geometric and topological entities.
   summary_ja: 幾何要素と位相要素の構造化ツリー上の拡散モデルを用いて、境界表現(B-rep)のCADソリッドを直接生成する。
-  thumbnail: assets/thumbnails/brepgen-4ec759.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2401.15563'
   repo: samxuxiang/brepgen
+- id: cadvlm-bridging-language-and-vision-for-parametric-cad-sketc-250aa4
+  title: 'CadVLM: Bridging Language and Vision for Parametric CAD Sketches'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.17457
+  year: 2024
+  tags:
+  - cad
+  - sketch
+  - vision-language
+  summary: A vision-language model that generates and autocompletes parametric CAD sketches, unifying visual and linguistic cues for sketch construction.
+  summary_ja: パラメトリックなCADスケッチを生成・自動補完する視覚言語モデル。視覚的手がかりと言語的手がかりを統合してスケッチを構築する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2409.17457'
+- id: don-t-mesh-with-me-csg-generation-via-code-gen-llm-8b2cec
+  title: 'Don''t Mesh with Me: CSG Generation via Code-Gen LLM'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15279
+  year: 2024
+  tags:
+  - cad
+  - code-generation
+  - csg
+  - llm
+  summary: Fine-tunes a code-generation LLM to output Constructive Solid Geometry (CSG) programs instead of meshes, producing compact, editable primitive-based 3D shapes.
+  summary_ja: コード生成LLMをファインチューニングし、メッシュではなく構成的ソリッド幾何(CSG)プログラムを出力させ、コンパクトで編集可能なプリミティブベースの3D形状を生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2411.15279'
 - id: text2cad-880d8e
   title: Text2CAD
   area: gen-3d
@@ -566,11 +1095,122 @@ entries:
   - transformer
   summary: Generates parametric CAD construction sequences from natural language text descriptions of varying levels of detail.
   summary_ja: さまざまな詳細度の自然言語テキスト記述から、パラメトリックなCAD構築シーケンスを生成する。
-  thumbnail: assets/thumbnails/text2cad-880d8e.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2411.06206'
   repo: sadilkhan/text2cad
+- id: plankassembly-3d-reconstruction-from-orthographic-views-b5fc49
+  title: 'PlankAssembly: 3D Reconstruction from Orthographic Views'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.05744
+    github: https://github.com/manycore-research/PlankAssembly
+    project: https://manycore-research.github.io/PlankAssembly/
+  year: 2023
+  tags:
+  - cad
+  - reconstruction
+  - shape-program
+  summary: Reconstructs 3D shapes from three orthographic views by learning shape programs, robustly recovering editable structure even from noisy or inconsistent engineering drawings.
+  summary_ja: 形状プログラムを学習して3つの正投影図から3D形状を復元し、ノイズや不整合のある設計図からも編集可能な構造を頑健に復元する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2308.05744'
+  repo: manycore-research/plankassembly
+- id: solidgen-autoregressive-b-rep-synthesis-1deea8
+  title: 'SolidGen: Autoregressive B-rep Synthesis'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2203.13944
+  year: 2023
+  tags:
+  - autoregressive
+  - brep
+  - cad
+  summary: An autoregressive model that directly synthesizes boundary-representation (B-rep) solids, generating vertices, edges, and faces without relying on construction-sequence supervision.
+  summary_ja: 境界表現(B-rep)のソリッドを直接合成する自己回帰モデル。構築シーケンスの教師データに頼らず、頂点・エッジ・面を生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2203.13944'
+- id: complexgen-cad-reconstruction-by-b-rep-chain-complex-generat-741751
+  title: 'ComplexGen: CAD Reconstruction by B-Rep Chain Complex Generation'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2205.14573
+    github: https://github.com/guohaoxiang/ComplexGen
+    project: https://haopan.github.io/complexgen.html
+  year: 2022
+  tags:
+  - brep
+  - cad
+  - reconstruction
+  summary: Reconstructs CAD models as a B-rep chain complex, jointly generating geometric primitives and their topological connectivity from input point clouds.
+  summary_ja: CADモデルをB-repの鎖複体として復元し、入力点群から幾何プリミティブとその位相的接続を同時に生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2205.14573'
+  repo: guohaoxiang/complexgen
+- id: free2cad-parsing-freehand-drawings-into-cad-commands-a3368c
+  title: 'Free2CAD: Parsing Freehand Drawings into CAD Commands'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/Enigma-li/Free2CAD
+    project: https://geometry.cs.ucl.ac.uk/projects/2022/free2cad/
+  year: 2022
+  tags:
+  - cad
+  - freehand
+  - sketch
+  summary: Parses freehand design drawings into sequential CAD modeling commands, turning rough sketches into editable parametric construction operations.
+  summary_ja: フリーハンドの設計ドローイングを連続的なCADモデリングコマンドへと解析し、ラフなスケッチを編集可能なパラメトリックな構築操作に変換する。
+  date_added: '2026-06-13'
+  source: seed
+  repo: enigma-li/free2cad
+- id: point2cyl-reverse-engineering-to-extrusion-cylinders-7dca5b
+  title: 'Point2Cyl: Reverse Engineering to Extrusion Cylinders'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2112.09329
+    github: https://github.com/mikacuy/point2cyl
+    project: https://point2cyl.github.io/
+  year: 2022
+  tags:
+  - cad
+  - reverse-engineering
+  - sketch-extrude
+  summary: Reverse-engineers 3D objects into editable extrusion cylinders, decomposing point clouds into sketch-extrude operations that recover parametric CAD structure.
+  summary_ja: 3D物体を編集可能な押し出しシリンダーへと逆解析し、点群をスケッチ・押し出し操作に分解してパラメトリックなCAD構造を復元する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2112.09329'
+  repo: mikacuy/point2cyl
+- id: reconstructing-editable-prismatic-cad-from-voxels-82bd30
+  title: Reconstructing Editable Prismatic CAD from Voxels
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2209.01161
+  year: 2022
+  tags:
+  - cad
+  - reconstruction
+  - sketch-extrude
+  summary: Recovers editable prismatic CAD models from rounded voxel inputs, converting approximate volumetric shapes into clean parametric solids with sketch-extrude structure.
+  summary_ja: 丸みのあるボクセル入力から編集可能なプリズム状CADモデルを復元し、近似的な体積形状をスケッチ・押し出し構造を持つ綺麗なパラメトリックソリッドに変換する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2209.01161'
 - id: skexgen-231781
   title: SkexGen
   area: gen-3d
@@ -587,11 +1227,49 @@ entries:
   - sketch-extrude
   summary: An autoregressive generative model for CAD sketch-and-extrude construction sequences using disentangled codebooks for diverse shape synthesis.
   summary_ja: CADのスケッチ・押し出し構築シーケンスのための自己回帰生成モデルで、分離されたコードブックを用いて多様な形状を合成する。
-  thumbnail: assets/thumbnails/skexgen-231781.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2207.04632'
   repo: samxuxiang/skexgen
+- id: vitruvion-a-generative-model-of-parametric-cad-sketches-895be8
+  title: 'Vitruvion: A Generative Model of Parametric CAD Sketches'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2109.14124
+    github: https://github.com/PrincetonLIPS/vitruvion
+    project: https://lips.cs.princeton.edu/vitruvion/
+  year: 2022
+  tags:
+  - autoregressive
+  - cad
+  - sketch
+  summary: A generative model of parametric CAD sketches that autoregressively synthesizes primitives and constraints, enabling sketch generation, completion, and conditional inference.
+  summary_ja: パラメトリックなCADスケッチの生成モデルで、プリミティブと拘束を自己回帰的に合成し、スケッチの生成・補完・条件付き推論を可能にする。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2109.14124'
+  repo: princetonlips/vitruvion
+- id: computer-aided-design-as-language-863330
+  title: Computer-Aided Design as Language
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2105.02769
+    github: https://github.com/deepmind/deepmind-research
+  year: 2021
+  tags:
+  - cad
+  - language-model
+  - sketch
+  summary: Casts parametric CAD construction as a language-modeling problem, generating CAD sketch-and-constraint sequences with a transformer over a domain-specific grammar.
+  summary_ja: パラメトリックなCAD構築を言語モデリング問題として定式化し、ドメイン固有の文法上でトランスフォーマーによりCADのスケッチ・拘束シーケンスを生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2105.02769'
+  repo: deepmind/deepmind-research
 - id: deepcad-16e960
   title: DeepCAD
   area: gen-3d
@@ -608,11 +1286,64 @@ entries:
   - sequence
   summary: A generative model of CAD command sequences that produces editable parametric CAD models rather than raw geometry.
   summary_ja: CADコマンド列の生成モデルで、生の形状ではなく編集可能なパラメトリックCADモデルを生成する。
-  thumbnail: assets/thumbnails/deepcad-16e960.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2105.09492'
   repo: chriswu1997/deepcad
+- id: engineering-sketch-generation-for-cad-9bb5bb
+  title: Engineering Sketch Generation for CAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2104.09621
+  year: 2021
+  tags:
+  - cad
+  - generation
+  - sketch
+  summary: Generates engineering sketches—the 2D constrained profiles underlying CAD models—using sequence models, a building block for downstream solid construction.
+  summary_ja: CADモデルの基礎となる2Dの拘束プロファイルであるエンジニアリングスケッチを系列モデルで生成する。後続のソリッド構築の構成要素となる。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2104.09621'
+- id: sketchgen-generating-constrained-cad-sketches-d621e5
+  title: 'SketchGen: Generating Constrained CAD Sketches'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2106.02711
+  year: 2021
+  tags:
+  - cad
+  - constraints
+  - sketch
+  summary: An autoregressive transformer that generates constrained CAD sketches, producing primitives together with the geometric constraints that make them editable parametric models.
+  summary_ja: 拘束付きのCADスケッチを生成する自己回帰トランスフォーマー。プリミティブと、それらを編集可能なパラメトリックモデルにする幾何拘束を併せて生成する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2106.02711'
+- id: sketch2cad-sequential-cad-modeling-by-sketching-in-context-22a02b
+  title: 'Sketch2CAD: Sequential CAD Modeling by Sketching in Context'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2009.04927
+    github: https://github.com/Enigma-li/Sketch2CAD
+    project: http://geometry.cs.ucl.ac.uk/projects/2020/sketch2cad/
+  year: 2020
+  tags:
+  - cad
+  - interactive
+  - sketch
+  summary: Enables sequential CAD modeling by interpreting user sketches in context, mapping each sketched gesture to a parametric CAD operation for interactive construction.
+  summary_ja: ユーザーのスケッチを文脈の中で解釈して逐次的なCADモデリングを可能にし、描かれた各ジェスチャをパラメトリックなCAD操作に対応付けて対話的に構築する。
+  date_added: '2026-06-13'
+  source: seed
+  arxiv_id: '2009.04927'
+  repo: enigma-li/sketch2cad
 - id: pixal3d-1a3924
   title: Pixal3D
   area: gen-3d
@@ -627,7 +1358,6 @@ entries:
   - image-to-3d
   summary: A 3D asset generation model from Tencent ARC in the flow-matching diffusion-transformer family for mesh and texture generation (SIGGRAPH 2026).
   summary_ja: Tencent ARCによる3Dアセット生成モデル。メッシュとテクスチャ生成を対象とするフローマッチング型拡散トランスフォーマー系に属する(SIGGRAPH 2026)。
-  thumbnail: assets/thumbnails/pixal3d-1a3924.png
   date_added: '2026-06-13'
   source: seed
   repo: tencentarc/pixal3d
@@ -646,7 +1376,6 @@ entries:
   - sparse
   summary: A scalable native-3D diffusion model using spatial-sparse attention to generate high-resolution shapes directly from images while sharply cutting training cost.
   summary_ja: 空間的に疎なアテンションを用いるスケーラブルなネイティブ3D拡散モデル。学習コストを大幅に削減しつつ、画像から直接高解像度の形状を生成する。
-  thumbnail: assets/thumbnails/direct3d-s2-4cc184.png
   date_added: '2026-06-13'
   source: seed
   repo: dreamtechai/direct3d-s2
@@ -664,7 +1393,6 @@ entries:
   - normal-bridge
   summary: Generates high-fidelity 3D geometry from images by bridging through normal maps, preserving fine surface detail that direct image-to-3D often loses.
   summary_ja: 法線マップを中間表現として橋渡しすることで画像から高忠実度な3D形状を生成し、直接的な画像→3Dでは失われがちな細かな表面ディテールを保持する。
-  thumbnail: assets/thumbnails/hi3dgen-bf0b7c.png
   date_added: '2026-06-13'
   source: seed
   repo: stable-x/stable3dgen
@@ -683,7 +1411,6 @@ entries:
   - pbr
   summary: Tencent's open, production-grade image-to-3D system that generates high-resolution shapes with PBR materials through a two-stage shape-then-texture pipeline.
   summary_ja: Tencentによるオープンで実運用品質の画像→3Dシステム。形状生成とテクスチャ生成の2段階パイプラインで、PBRマテリアル付きの高解像度な形状を生成する。
-  thumbnail: assets/thumbnails/hunyuan3d-2-1-ee7829.png
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuan3d-2.1
@@ -702,7 +1429,6 @@ entries:
   - texture
   summary: A large-scale open image-to-3D system pairing a shape diffusion transformer with texture synthesis to produce detailed textured meshes from a single image.
   summary_ja: 形状拡散トランスフォーマーとテクスチャ合成を組み合わせた大規模なオープン画像→3Dシステム。単一画像から詳細なテクスチャ付きメッシュを生成する。
-  thumbnail: assets/thumbnails/hunyuan3d-2-fdc17d.png
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuan3d-2
@@ -720,7 +1446,6 @@ entries:
   - simulation
   summary: Generates simulation-ready physical 3D assets from a single image, predicting geometry together with physical attributes for direct use in physics engines.
   summary_ja: 単一画像からシミュレーション可能な物理3Dアセットを生成し、形状と物理属性を同時に予測して物理エンジンで直接利用できるようにする。
-  thumbnail: assets/thumbnails/physx-anything-daa118.png
   date_added: '2026-06-13'
   source: seed
   repo: ziangcao0312/physx-anything
@@ -739,7 +1464,6 @@ entries:
   - open-weights
   summary: An open image-to-3D framework released with training code and a high-quality dataset, generating geometry and texture in two stages for asset creation.
   summary_ja: 学習コードと高品質データセットとともに公開されたオープンな画像→3Dフレームワーク。形状とテクスチャを2段階で生成し、アセット制作に用いられる。
-  thumbnail: assets/thumbnails/step1x-3d-844ec7.png
   date_added: '2026-06-13'
   source: seed
   repo: stepfun-ai/step1x-3d
@@ -758,7 +1482,6 @@ entries:
   - voxel
   summary: The successor to TRELLIS, using an object-centric voxel (O-Voxel) structured latent to generate higher-fidelity 3D assets from text or images.
   summary_ja: TRELLISの後継。オブジェクト中心のボクセル(O-Voxel)構造化潜在表現を用い、テキストや画像からより高忠実度の3Dアセットを生成する。
-  thumbnail: assets/thumbnails/trellis-2-8bb6e5.png
   date_added: '2026-06-13'
   source: seed
   repo: microsoft/trellis.2
@@ -776,7 +1499,6 @@ entries:
   - image-to-3d
   summary: A large rectified-flow transformer for high-fidelity image-to-3D shape generation, trained on a curated large-scale 3D dataset.
   summary_ja: 高忠実度な画像→3D形状生成のための大規模な整流フロー型トランスフォーマー。厳選された大規模3Dデータセットで学習されている。
-  thumbnail: assets/thumbnails/triposg-023c1d.png
   date_added: '2026-06-13'
   source: seed
   repo: vast-ai-research/triposg
@@ -794,7 +1516,6 @@ entries:
   - unified-latent
   summary: A unified-latent approach to 3D generation that encodes shapes into a single latent space for native 3D asset synthesis from text or images.
   summary_ja: 形状を単一の潜在空間に符号化する統一潜在表現による3D生成手法。テキストや画像からネイティブに3Dアセットを合成する。
-  thumbnail: assets/thumbnails/unilat3d-9947a7.png
   date_added: '2026-06-13'
   source: seed
   repo: unilat3d/unilat3d
@@ -812,7 +1533,6 @@ entries:
   - surface-reconstruction
   summary: Represents scenes with 2D oriented Gaussian disks instead of 3D ellipsoids for geometrically accurate radiance fields and improved surface reconstruction.
   summary_ja: 3D楕円体の代わりに2Dの方向付きガウシアン円盤でシーンを表現し、幾何的に正確なradiance fieldと改善された表面復元を実現する。
-  thumbnail: assets/thumbnails/2d-gaussian-splatting-7a5e1f.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2403.17888'
@@ -832,7 +1552,6 @@ entries:
   - mesh
   summary: Generates high-fidelity 3D meshes with a native 3D diffusion model followed by a normal-based surface refinement stage for smoother geometry.
   summary_ja: ネイティブな3D拡散モデルに法線ベースの表面精緻化段階を続けることで、より滑らかな形状を持つ高忠実度の3Dメッシュを生成する。
-  thumbnail: assets/thumbnails/craftsman-ea1156.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2405.14979'
@@ -852,7 +1571,6 @@ entries:
   - structured-latent
   summary: A structured 3D latent representation and rectified-flow transformer that generates high-quality 3D assets in multiple output formats from text or images.
   summary_ja: 構造化された3D潜在表現と整流フロー型トランスフォーマーにより、テキストや画像から複数の出力形式の高品質な3Dアセットを生成する。
-  thumbnail: assets/thumbnails/trellis-365aed.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2412.01506'
@@ -872,7 +1590,6 @@ entries:
   - text-to-3d
   summary: Uses generative Gaussian splatting with mesh extraction and texture refinement for efficient image-to-3D and text-to-3D content creation in minutes.
   summary_ja: 生成的ガウシアンスプラッティングにメッシュ抽出とテクスチャ精緻化を組み合わせ、数分で効率的な画像から3Dおよびテキストから3Dのコンテンツ生成を行う。
-  thumbnail: assets/thumbnails/dreamgaussian-da822b.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2309.16653'
@@ -891,7 +1608,6 @@ entries:
   - gaussian-splatting
   summary: Adds 3D smoothing and 2D Mip filters to 3D Gaussian splatting to eliminate aliasing artifacts across varying sampling rates and zoom levels.
   summary_ja: 3Dガウシアンスプラッティングに3D平滑化と2D Mipフィルタを追加し、さまざまなサンプリングレートやズーム倍率でのエイリアシング・アーティファクトを除去する。
-  thumbnail: assets/thumbnails/mip-splatting-bbe06c.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.16493'
@@ -911,7 +1627,6 @@ entries:
   - mesh
   summary: Reconstructs a 3D mesh from a single image in around 45 seconds without per-shape optimization by combining multi-view synthesis with a generalizable reconstruction module.
   summary_ja: 多視点合成と汎化可能な復元モジュールを組み合わせ、形状ごとの最適化なしに単一画像から約45秒で3Dメッシュを復元する。
-  thumbnail: assets/thumbnails/one-2-3-45-5e6353.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2306.16928'
@@ -931,7 +1646,6 @@ entries:
   - multi-view
   summary: Generates 3D objects from a single image using consistent multi-view generation combined with a 3D diffusion stage for improved quality and speed.
   summary_ja: 一貫した多視点生成と3D拡散段階を組み合わせ、単一画像から品質と速度を改善した3D物体を生成する。
-  thumbnail: assets/thumbnails/one-2-3-45-d6ae06.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.07885'
@@ -949,7 +1663,6 @@ entries:
   - surface-reconstruction
   summary: Aligns 3D Gaussians to scene surfaces to enable efficient and accurate mesh extraction and high-quality mesh-based rendering from Gaussian splatting.
   summary_ja: 3Dガウシアンをシーン表面に整列させ、ガウシアンスプラッティングから効率的かつ正確なメッシュ抽出と高品質なメッシュベースのレンダリングを可能にする。
-  thumbnail: assets/thumbnails/sugar-c0b2f0.png
   date_added: '2026-06-13'
   source: seed
   repo: anttwo/sugar
@@ -969,7 +1682,6 @@ entries:
   - novel-view
   summary: A diffusion model that synthesizes novel views of an object from a single image by conditioning on relative camera viewpoint, enabling zero-shot single-image 3D reconstruction.
   summary_ja: 相対的なカメラ視点を条件とし、単一画像から物体の新規視点を合成する拡散モデル。ゼロショットの単一画像3D復元を可能にする。
-  thumbnail: assets/thumbnails/zero-1-to-3-8966c5.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2303.11328'
@@ -989,7 +1701,6 @@ entries:
   - surface-reconstruction
   summary: Reconstructs surfaces from multi-view images by representing geometry as a signed distance function rendered through unbiased volume rendering.
   summary_ja: 形状を符号付き距離関数として表現し、バイアスのないボリュームレンダリングを通して描画することで、多視点画像から表面を復元する。
-  thumbnail: assets/thumbnails/neus-836c55.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2106.10689'
@@ -1010,7 +1721,6 @@ entries:
   - surface
   summary: Represents a 3D surface as a collection of learned parametric patches that are deformed to reconstruct shapes from point clouds or single images.
   summary_ja: 3D表面を学習されたパラメトリックパッチの集合として表現し、それらを変形させて点群や単一画像から形状を復元する。
-  thumbnail: assets/thumbnails/atlasnet-87e553.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1802.05384'
@@ -1029,7 +1739,6 @@ entries:
   - representation
   summary: A face-based autoregressive representation for high-fidelity and efficient mesh generation, predicting meshes face-by-face to improve detail and scalability.
   summary_ja: 高忠実度かつ効率的なメッシュ生成のための面ベースの自己回帰表現。メッシュを面単位で予測し、ディテールとスケーラビリティを向上させる。
-  thumbnail: assets/thumbnails/face-face-based-autoregressive-mesh-representation-7bda72.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2603.01515'
@@ -1047,7 +1756,6 @@ entries:
   - retopology
   summary: Artist-style mesh generation that assembles meshes from local patches ('mosaic') to scale to high face counts while preserving clean, usable topology.
   summary_ja: 局所パッチ(モザイク)からメッシュを組み立てることで、きれいで扱いやすいトポロジーを保ちつつ高い面数までスケールするアーティスト風メッシュ生成。
-  thumbnail: assets/thumbnails/meshmosaic-1f4aba.png
   date_added: '2026-06-13'
   source: seed
   repo: xrvitd/meshmosaic
@@ -1064,7 +1772,6 @@ entries:
   - retopology
   summary: An artist-mesh / re-topology generation method aimed at producing clean, animation-ready mesh topology from generated or scanned geometry (SIGGRAPH 2026).
   summary_ja: 生成またはスキャンされた形状から、きれいでアニメーションに適したメッシュトポロジーを作り出すことを目指したアーティストメッシュ/リトポロジー生成手法(SIGGRAPH 2026)。
-  thumbnail: assets/thumbnails/sato-7bbb23.png
   date_added: '2026-06-13'
   source: seed
   repo: xrvitd/sato
@@ -1084,7 +1791,6 @@ entries:
   - reinforcement-learning
   summary: Creates artist-style meshes with an autoregressive model trained with reinforcement learning to improve mesh quality and structure.
   summary_ja: メッシュの品質と構造を改善するため強化学習で訓練された自己回帰モデルにより、アーティスト風のメッシュを作成する。
-  thumbnail: assets/thumbnails/deepmesh-bfea68.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2503.15265'
@@ -1104,7 +1810,6 @@ entries:
   - vae
   summary: A 3D shape VAE with a salience-aware point sampling strategy that preserves geometric detail, serving as a latent backbone for native 3D diffusion generation.
   summary_ja: 顕著性を考慮した点サンプリング戦略で幾何ディテールを保持する3D形状VAE。ネイティブな3D拡散生成の潜在バックボーンとして機能する。
-  thumbnail: assets/thumbnails/dora-e70ed3.png
   date_added: '2026-06-13'
   source: seed
   repo: seed3d/dora
@@ -1122,7 +1827,6 @@ entries:
   - stability
   summary: Aligns 3D generators with simulation feedback so generated objects are physically sound (for example, standing stable under gravity) rather than only visually plausible.
   summary_ja: シミュレーションのフィードバックで3Dジェネレーターを整合させ、生成物が見た目だけでなく物理的に妥当(例えば重力下で安定して立つ)になるようにする。
-  thumbnail: assets/thumbnails/dso-aligning-3d-generators-with-simulation-e8b3c6.png
   date_added: '2026-06-13'
   source: seed
   repo: ruiningli/dso
@@ -1140,7 +1844,6 @@ entries:
   - representation
   summary: A contouring / mesh-extraction method that faithfully recovers sharp surface detail from implicit fields, supporting high-fidelity 3D shape generation.
   summary_ja: 暗黙的フィールドから鋭い表面のディテールを忠実に復元する輪郭抽出(メッシュ抽出)手法で、高忠実度の3D形状生成を支える。
-  thumbnail: assets/thumbnails/faithful-contouring-d47c9a.png
   date_added: '2026-06-13'
   source: seed
   repo: luo-yihao/faithc
@@ -1159,7 +1862,6 @@ entries:
   - mesh
   summary: Efficient artist-style mesh generation that decouples geometry into components to shorten token sequences and speed up autoregressive mesh synthesis.
   summary_ja: 形状をコンポーネントに分離してトークン列を短縮し、自己回帰的なメッシュ生成を高速化する、効率的なアーティスト風メッシュ生成手法。
-  thumbnail: assets/thumbnails/fastmesh-a0b6d3.png
   date_added: '2026-06-13'
   source: seed
   repo: jhkim0759/fastmesh
@@ -1177,7 +1879,6 @@ entries:
   - vecset
   summary: Accelerates VecSet-based 3D shape generation with a lightning vecset decoder and reconstruction optimizations, cutting mesh generation latency substantially.
   summary_ja: 高速なVecSetデコーダと再構成の最適化により、VecSetベースの3D形状生成を加速し、メッシュ生成のレイテンシを大幅に削減する。
-  thumbnail: assets/thumbnails/flashvdm-0cddfe.png
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/flashvdm
@@ -1195,7 +1896,6 @@ entries:
   - training-free
   summary: Training-free generation of articulated 3D objects with movable parts and joints by repurposing a pretrained 3D diffusion model, requiring no articulation dataset.
   summary_ja: 学習済みの3D拡散モデルを転用し、関節データセットを必要とせずに可動パーツや関節を持つ関節型3D物体を学習不要で生成する。
-  thumbnail: assets/thumbnails/freeart3d-64d999.png
   date_added: '2026-06-13'
   source: seed
   repo: czzzzh/freeart3d
@@ -1213,7 +1913,6 @@ entries:
   - representation
   summary: Represents 3D geometry as a distribution learned with a diffusion/flow model over surface points, providing a robust neural shape representation for generation.
   summary_ja: 3D形状を表面点上の分布として拡散/フローモデルで学習し、生成向けの頑健なニューラル形状表現を提供する。
-  thumbnail: assets/thumbnails/geometry-distributions-a4887b.png
   date_added: '2026-06-13'
   source: seed
   repo: 1zb/geomdist
@@ -1232,7 +1931,6 @@ entries:
   - part-based
   summary: Performs amodal 3D part completion, generating complete part geometry including occluded regions for decomposed 3D objects.
   summary_ja: アモーダルな3Dパーツ補完を行い、分解された3D物体について遮蔽領域を含む完全なパーツ形状を生成する。
-  thumbnail: assets/thumbnails/holopart-bef4ac.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2504.07943'
@@ -1252,7 +1950,6 @@ entries:
   - reward
   summary: Efficiently aligns 3D diffusion models using 2D rewards, improving generated geometry quality through reward-based post-training (NeurIPS 2025).
   summary_ja: 2D報酬を用いて3D拡散モデルを効率的に整合させ、報酬ベースの事後学習によって生成形状の品質を高める(NeurIPS 2025)。
-  thumbnail: assets/thumbnails/nabla-r2d3-b41532.png
   date_added: '2026-06-13'
   source: seed
   repo: mobiuslqm/nabla-r2d3
@@ -1272,7 +1969,6 @@ entries:
   - segmentation
   summary: Learns a feedforward part feature field on 3D shapes that yields consistent hierarchical part segmentations for downstream part-based tasks.
   summary_ja: 3D形状上にフィードフォワードのパーツ特徴フィールドを学習し、一貫した階層的パーツ分割を生成して下流のパーツベースのタスクに役立てる。
-  thumbnail: assets/thumbnails/partfield-0d3a93.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2504.11451'
@@ -1291,7 +1987,6 @@ entries:
   - simulation
   summary: Physical-grounded 3D asset generation that augments generated shapes with physical properties such as materials and kinematics so assets are simulation-ready.
   summary_ja: 生成した形状にマテリアルや運動学などの物理特性を付与する、物理に基づいた3Dアセット生成。アセットをそのままシミュレーションに使えるようにする。
-  thumbnail: assets/thumbnails/physx-3d-64a65f.png
   date_added: '2026-06-13'
   source: seed
   repo: ziangcao0312/physx-3d
@@ -1310,7 +2005,6 @@ entries:
   - vae
   summary: A sparse, high-resolution 3D shape representation and VAE designed to reconstruct fine geometric detail as a latent backbone for high-fidelity 3D generation.
   summary_ja: 細かな形状ディテールを復元するために設計された、疎で高解像度な3D形状表現とVAE。高忠実度な3D生成の潜在バックボーンとして用いられる。
-  thumbnail: assets/thumbnails/sparc3d-b6ea75.png
   date_added: '2026-06-13'
   source: seed
   repo: lizhihao6/sparc3d
@@ -1329,7 +2023,6 @@ entries:
   - vae
   summary: A 3D shape VAE built on a sparse flexible (SparseFlex) representation that reconstructs high-resolution meshes with fine detail and open surfaces.
   summary_ja: 疎で柔軟な(SparseFlex)表現に基づく3D形状VAE。高解像度のメッシュを細部や開いた表面まで含めて復元する。
-  thumbnail: assets/thumbnails/triposf-11321c.png
   date_added: '2026-06-13'
   source: seed
   repo: vast-ai-research/triposf
@@ -1349,7 +2042,6 @@ entries:
   - tokenization
   summary: Scales mesh generation via a blocked and patchified compressive tokenization that reduces sequence length, enabling generation of meshes with more faces.
   summary_ja: ブロック化・パッチ化された圧縮トークン化によりシーケンス長を削減し、より多くの面を持つメッシュの生成を可能にしてメッシュ生成をスケールさせる。
-  thumbnail: assets/thumbnails/bpt-blocked-and-patchified-tokenization-df996e.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2411.07025'
@@ -1369,7 +2061,6 @@ entries:
   - mesh
   summary: An autoregressive auto-encoder for artistic mesh generation that compresses mesh tokens to handle higher face counts and finer detail.
   summary_ja: 芸術的なメッシュ生成のための自己回帰オートエンコーダ。メッシュトークンを圧縮し、より多い面数と細かいディテールを扱う。
-  thumbnail: assets/thumbnails/edgerunner-2a3668.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2409.18114'
@@ -1388,7 +2079,6 @@ entries:
   - representation
   summary: An expressive representation of general 3D shapes that models open, non-watertight surfaces by parameterizing meshes on a manifold, supporting differentiable rendering and generation.
   summary_ja: メッシュを多様体上でパラメータ化することで、開いた非水密な表面も含む一般的な3D形状を表現する手法。微分可能レンダリングと生成に対応する。
-  thumbnail: assets/thumbnails/ghost-on-the-shell-gshell-5685d1.png
   date_added: '2026-06-13'
   source: seed
   repo: lzzcd001/gshell
@@ -1408,7 +2098,6 @@ entries:
   - text-to-3d
   summary: Unifies 3D mesh generation with large language models by representing mesh vertices and faces as text, enabling text-conditioned mesh generation within an LLM.
   summary_ja: メッシュの頂点と面をテキストとして表現することで3Dメッシュ生成を大規模言語モデルに統合し、LLM内でテキスト条件付きのメッシュ生成を可能にする。
-  thumbnail: assets/thumbnails/llama-mesh-ca3a9f.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2411.09595'
@@ -1429,7 +2118,6 @@ entries:
   - transformer
   summary: Converts shapes from various 3D representations into artist-created meshes using an autoregressive transformer, producing meshes with far fewer faces.
   summary_ja: 自己回帰トランスフォーマーを用いて様々な3D表現の形状をアーティスト作成風のメッシュに変換し、面数の大幅に少ないメッシュを生成する。
-  thumbnail: assets/thumbnails/meshanything-8a7539.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2406.10163'
@@ -1450,7 +2138,6 @@ entries:
   - tokenization
   summary: Improves artist-created mesh generation with an adjacent mesh tokenization scheme that increases efficiency and the number of faces that can be represented.
   summary_ja: 隣接メッシュトークン化方式により、表現可能な面数を増やしつつ効率を高め、アーティスト作成風のメッシュ生成を改善する。
-  thumbnail: assets/thumbnails/meshanything-v2-10ded2.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2408.02555'
@@ -1470,7 +2157,6 @@ entries:
   - transformer
   summary: Generates articulated meshes using structure-guided transformers that model object parts and their articulation jointly.
   summary_ja: オブジェクトのパーツとその関節構造を同時にモデル化する構造ガイド型トランスフォーマーを用いて、関節のあるメッシュを生成する。
-  thumbnail: assets/thumbnails/meshart-0e07b5.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2412.11596'
@@ -1490,7 +2176,6 @@ entries:
   - mesh
   summary: A generative 3D foundation model that uses a neural coordinate field to represent and autoregressively generate meshes at scale.
   summary_ja: ニューラル座標フィールドを用いてメッシュを表現し、大規模に自己回帰生成する生成的3D基盤モデル。
-  thumbnail: assets/thumbnails/meshxl-252dcd.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2405.20853'
@@ -1511,7 +2196,6 @@ entries:
   - transformer
   summary: Generates generic 3D meshes by first predicting pivot vertices that guide the subsequent autoregressive generation of the full mesh.
   summary_ja: まず後続のメッシュ全体の自己回帰生成を導くピボット頂点を予測することで、汎用的な3Dメッシュを生成する。
-  thumbnail: assets/thumbnails/pivotmesh-2752b8.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2405.16890'
@@ -1530,7 +2214,6 @@ entries:
   - real-time
   summary: Represents scenes as optimized 3D Gaussians for real-time, high-quality radiance-field rendering, now a dominant representation for captured 3D assets.
   summary_ja: シーンを最適化された3Dガウシアンで表現し、リアルタイムかつ高品質な放射輝度場レンダリングを実現。撮影した3Dアセットの主要表現として普及。
-  thumbnail: assets/thumbnails/3d-gaussian-splatting-for-real-time-radiance-field-rendering-d592ad.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2308.04079'
@@ -1550,7 +2233,6 @@ entries:
   - latent-set
   summary: A shape representation encoding 3D geometry as a set of latent vectors, designed for diffusion-based generative modeling of neural fields.
   summary_ja: 3D形状を潜在ベクトルの集合として符号化する形状表現で、ニューラルフィールドの拡散ベース生成モデリング向けに設計されている。
-  thumbnail: assets/thumbnails/3dshape2vecset-5c0535.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2301.11445'
@@ -1571,7 +2253,6 @@ entries:
   - implicit
   summary: A generative diffusion framework operating directly on continuous functions, applied to generating implicit 3D shape representations.
   summary_ja: 連続関数上で直接動作する生成的拡散フレームワークで、暗黙的な3D形状表現の生成に適用される。
-  thumbnail: assets/thumbnails/functional-diffusion-ce369e.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.15435'
@@ -1591,7 +2272,6 @@ entries:
   - mesh
   summary: Generates 3D meshes with a diffusion model operating on a deformable tetrahedral grid parameterization of geometry.
   summary_ja: 形状の変形可能な四面体グリッドのパラメータ化上で動作する拡散モデルにより、3Dメッシュを生成する。
-  thumbnail: assets/thumbnails/meshdiffusion-1565b7.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2303.08133'
@@ -1611,7 +2291,6 @@ entries:
   - transformer
   summary: Generates triangle meshes directly as sequences of tokens using a decoder-only transformer over a learned mesh vocabulary, producing compact artist-like topology.
   summary_ja: 学習されたメッシュ語彙上のデコーダのみのトランスフォーマーを用い、三角形メッシュをトークン列として直接生成し、コンパクトでアーティスト風のトポロジーを作り出す。
-  thumbnail: assets/thumbnails/meshgpt-28ea84.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.15475'
@@ -1631,7 +2310,6 @@ entries:
   - wavelet
   summary: Generates 3D shapes by running a diffusion model in the wavelet domain of a truncated signed distance field for efficient high-quality synthesis.
   summary_ja: 切り詰めた符号付き距離場のウェーブレット領域で拡散モデルを実行し、効率的に高品質な3D形状を合成する。
-  thumbnail: assets/thumbnails/neural-wavelet-domain-diffusion-c51331.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2302.00190'
@@ -1651,7 +2329,6 @@ entries:
   - voxel
   summary: Generates high-resolution sparse voxel hierarchies with a cascaded latent diffusion model for large-scale 3D object and scene generation.
   summary_ja: カスケード潜在拡散モデルにより高解像度の疎ボクセル階層を生成し、大規模な3D物体およびシーンの生成を行う。
-  thumbnail: assets/thumbnails/xcube-b16594.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2312.03806'
@@ -1670,7 +2347,6 @@ entries:
   - textured-mesh
   summary: A generative model that produces textured 3D meshes with complex topology directly, aimed at game-ready asset generation.
   summary_ja: 複雑なトポロジーを持つテクスチャ付き3Dメッシュを直接生成する生成モデル。ゲームで使えるアセット生成を目指す。
-  thumbnail: assets/thumbnails/get3d-a782fd.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2209.11163'
@@ -1689,7 +2365,6 @@ entries:
   - nerf
   summary: A multiresolution hash encoding that trains NeRFs and neural fields in seconds, a foundational speedup behind many image-to-3D reconstruction pipelines.
   summary_ja: マルチ解像度ハッシュエンコーディングによりNeRFやニューラルフィールドを数秒で学習。多くの画像→3D再構成パイプラインの基盤となる高速化技術。
-  thumbnail: assets/thumbnails/instant-neural-graphics-primitives-instant-ngp-088a60.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2201.05989'
@@ -1709,7 +2384,6 @@ entries:
   - shape-generation
   summary: Adapts a StyleGAN-style generator to signed distance fields for high-quality 3D shape generation with global and local discriminators.
   summary_ja: StyleGAN形式の生成器を符号付き距離場に適合させ、大域的・局所的識別器を用いて高品質な3D形状生成を行う。
-  thumbnail: assets/thumbnails/sdf-stylegan-eab7b2.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2206.12055'
@@ -1729,7 +2403,6 @@ entries:
   - sdf
   summary: A latent diffusion framework over truncated signed distance fields that supports multimodal 3D shape generation and completion conditioned on images or text.
   summary_ja: 切り詰めた符号付き距離場上の潜在拡散フレームワークで、画像やテキストを条件としたマルチモーダルな3D形状生成と補完をサポートする。
-  thumbnail: assets/thumbnails/sdfusion-d0997e.png
   date_added: '2026-06-13'
   source: seed
   repo: yccyenchicheng/sdfusion
@@ -1748,7 +2421,6 @@ entries:
   - mesh
   summary: A data-driven approach to mesh extraction from implicit fields that learns to reconstruct sharp features and correct local topology.
   summary_ja: 暗黙的フィールドからのメッシュ抽出のためのデータ駆動型手法で、鋭い特徴を復元し局所的なトポロジーを正しく扱うことを学習する。
-  thumbnail: assets/thumbnails/neural-marching-cubes-c34955.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2106.11272'
@@ -1768,7 +2440,6 @@ entries:
   - point-cloud
   summary: A probabilistic diffusion model on point-voxel representations that performs both unconditional 3D shape generation and shape completion from partial inputs.
   summary_ja: 点ボクセル表現上の確率的拡散モデルで、無条件の3D形状生成と部分入力からの形状補完の両方を行う。
-  thumbnail: assets/thumbnails/point-voxel-diffusion-pvd-661915.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2104.03670'
@@ -1788,7 +2459,6 @@ entries:
   - reconstruction
   summary: Combines convolutional features with occupancy prediction to represent detailed 3D geometry and reconstruct objects and scenes at scale.
   summary_ja: 畳み込み特徴と占有予測を組み合わせて詳細な3D形状を表現し、物体やシーンを大規模に復元する。
-  thumbnail: assets/thumbnails/convolutional-occupancy-networks-887883.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2003.04618'
@@ -1808,7 +2478,6 @@ entries:
   - transformer
   summary: An autoregressive generative model of 3D meshes that sequentially predicts mesh vertices and then faces using transformer-based pointer networks.
   summary_ja: トランスフォーマーベースのポインタネットワークを用い、メッシュの頂点を予測してから面を順次予測する3Dメッシュの自己回帰生成モデル。
-  thumbnail: assets/thumbnails/polygen-9d3342.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2002.10880'
@@ -1828,7 +2497,6 @@ entries:
   - representation
   summary: Implicit neural representations using periodic sine activation functions that capture fine detail and derivatives, applied to signals including 3D shapes.
   summary_ja: 周期的なサイン活性化関数を用いる暗黙的ニューラル表現で、細部や微分を捉え、3D形状を含む信号に適用される。
-  thumbnail: assets/thumbnails/siren-b981a6.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2006.09661'
@@ -1848,7 +2516,6 @@ entries:
   - shape-representation
   summary: Learns a continuous signed distance function conditioned on a latent code to represent a class of shapes, enabling shape representation, interpolation, and completion.
   summary_ja: 潜在コードを条件とする連続的な符号付き距離関数を学習して形状クラスを表現し、形状の表現・補間・補完を可能にする。
-  thumbnail: assets/thumbnails/deepsdf-365149.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1901.05103'
@@ -1868,7 +2535,6 @@ entries:
   - shape-generation
   summary: Represents and generates 3D shapes as sequences of parts using a sequence-to-sequence autoencoder for assembly-based shape synthesis.
   summary_ja: シーケンス間オートエンコーダを用いて3D形状をパーツの列として表現・生成し、組み立てベースの形状合成を行う。
-  thumbnail: assets/thumbnails/pq-net-662757.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1911.10949'
@@ -1889,7 +2555,6 @@ entries:
   - part-based
   summary: A hierarchical graph network that generates 3D shapes as structured arrangements of parts, encoding both geometry and part relationships.
   summary_ja: 3D形状をパーツの構造化された配置として生成する階層的グラフネットワークで、形状とパーツ間の関係の両方を符号化する。
-  thumbnail: assets/thumbnails/structurenet-300867.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1908.00575'
@@ -1909,7 +2574,6 @@ entries:
   - shape-representation
   summary: An implicit field decoder that predicts inside/outside for query points to learn generative models of 3D shapes with smooth surfaces.
   summary_ja: クエリ点の内外を予測する暗黙的フィールドデコーダで、滑らかな表面を持つ3D形状の生成モデルを学習する。
-  thumbnail: assets/thumbnails/im-net-40c70b.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1812.02822'
@@ -1929,7 +2593,6 @@ entries:
   - representation
   summary: A convolutional neural network that operates directly on mesh edges with learned pooling, providing a foundation for mesh-based geometric learning.
   summary_ja: 学習されたプーリングを用いてメッシュのエッジ上で直接動作する畳み込みニューラルネットワークで、メッシュベースの幾何学習の基盤を提供する。
-  thumbnail: assets/thumbnails/meshcnn-c8d58f.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1809.05910'
@@ -1950,7 +2613,6 @@ entries:
   - voxel
   summary: An early generative adversarial network that synthesizes 3D objects as voxel grids from a probabilistic latent space.
   summary_ja: 確率的潜在空間からボクセルグリッドとして3D物体を合成する初期の敵対的生成ネットワーク。
-  thumbnail: assets/thumbnails/3d-gan-9bcda0.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '1610.07584'
@@ -1967,7 +2629,6 @@ entries:
   - shape-generation
   summary: An open native-3D shape generation model and codebase focused on producing high-resolution geometry for downstream asset pipelines.
   summary_ja: 高解像度な形状の生成に重点を置いた、オープンなネイティブ3D形状生成モデルおよびコードベース。下流のアセットパイプラインで利用される。
-  thumbnail: assets/thumbnails/ultrashape-1-0-2266f6.png
   date_added: '2026-06-13'
   source: seed
   repo: pku-yuangroup/ultrashape-1.0
@@ -1985,7 +2646,6 @@ entries:
   - world-model
   summary: Tencent Hunyuan's open 3D world generation model that creates explorable, immersive 3D scenes and worlds from text or image prompts.
   summary_ja: Tencent Hunyuanによるオープンな3Dワールド生成モデル。テキストや画像のプロンプトから探索可能で没入感のある3Dシーン・ワールドを生成する。
-  thumbnail: assets/thumbnails/hunyuanworld-2-0-hy-world-2-0-58e9d2.png
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hy-world-2.0
@@ -2005,7 +2665,6 @@ entries:
   - scene-generation
   summary: Generates large, coherent 3D scenes by progressively growing and extending generated geometry beyond the initially observed region.
   summary_ja: 生成された形状を最初に観測された領域を超えて段階的に拡張・成長させることで、大規模で一貫した3Dシーンを生成する。
-  thumbnail: assets/thumbnails/worldgrow-376a34.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2510.21682'
@@ -2024,7 +2683,6 @@ entries:
   - text-to-3d
   summary: Generates physically stable, buildable brick (LEGO-style) structures from text, jointly reasoning about geometry and real-world structural stability (ICCV 2025 Best Paper).
   summary_ja: テキストから物理的に安定で組み立て可能なブロック(レゴ風)構造を生成し、形状と現実世界での構造的安定性を同時に推論する(ICCV 2025 Best Paper)。
-  thumbnail: assets/thumbnails/brickgpt-100634.png
   date_added: '2026-06-13'
   source: seed
   repo: avalovelace1/brickgpt
@@ -2042,7 +2700,6 @@ entries:
   - preferences
   summary: Aligns text-to-3D generation with human preferences via Direct Preference Optimization, steering optimization toward more preferred 3D outputs (ICML 2025).
   summary_ja: 直接選好最適化(DPO)によりテキスト→3D生成を人間の選好に整合させ、より好まれる3D出力へ最適化を誘導する(ICML 2025)。
-  thumbnail: assets/thumbnails/dreamdpo-43d3fe.png
   date_added: '2026-06-13'
   source: seed
   repo: zhenglinzhou/dreamdpo
@@ -2062,7 +2719,6 @@ entries:
   - text-to-3d
   summary: Introduces Variational Score Distillation, a particle-based variational framework that improves text-to-3D generation fidelity and diversity over score distillation sampling.
   summary_ja: 粒子ベースの変分フレームワークである変分スコア蒸留(VSD)を提案し、スコア蒸留サンプリングと比べてテキストから3D生成の忠実度と多様性を向上させる。
-  thumbnail: assets/thumbnails/prolificdreamer-45e0c2.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2305.16213'
@@ -2081,7 +2737,6 @@ entries:
   - score-distillation
   summary: Introduces score distillation sampling to optimize a NeRF from a pretrained 2D diffusion model, generating 3D objects from text with no 3D training data.
   summary_ja: スコア蒸留サンプリングを導入し、学習済みの2D拡散モデルからNeRFを最適化。3D学習データなしでテキストから3D物体を生成する。
-  thumbnail: assets/thumbnails/dreamfusion-text-to-3d-using-2d-diffusion-f298c7.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2209.14988'
@@ -2100,7 +2755,6 @@ entries:
   - text-to-3d
   summary: A coarse-to-fine text-to-3D approach that first produces a low-resolution neural field and then optimizes a textured mesh for higher-resolution content creation.
   summary_ja: 粗から精への手法によるテキストから3D生成。まず低解像度のニューラルフィールドを生成し、その後テクスチャ付きメッシュを最適化して高解像度のコンテンツを作成する。
-  thumbnail: assets/thumbnails/magic3d-2b4caf.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2211.10440'
@@ -2119,7 +2773,6 @@ entries:
   - ubisoft
   summary: Ubisoft La Forge's chain-of-rendering decomposition that estimates PBR materials from generated texture images, turning AI textures into game-ready material maps.
   summary_ja: Ubisoft La Forgeによる、生成されたテクスチャ画像からPBRマテリアルを推定する「レンダリング連鎖分解」。AIテクスチャをゲームで使えるマテリアルマップに変換する。
-  thumbnail: assets/thumbnails/chord-ubisoft-la-forge-e1bbad.png
   date_added: '2026-06-13'
   source: seed
   repo: ubisoft/ubisoft-laforge-chord
@@ -2138,7 +2791,6 @@ entries:
   - relighting
   summary: Generates physically-based materials (albedo, roughness, metallic, normal) for arbitrary 3D objects under varying illumination, producing relightable PBR assets.
   summary_ja: さまざまな照明条件下で任意の3D物体に対し物理ベースマテリアル(アルベド・粗さ・金属度・法線)を生成し、再ライティング可能なPBRアセットを作成する。
-  thumbnail: assets/thumbnails/material-anything-8a3e79.png
   date_added: '2026-06-13'
   source: seed
   repo: 3dtopia/materialanything
@@ -2156,7 +2808,6 @@ entries:
   - pbr
   summary: Multi-view consistent PBR material generation for 3D meshes, predicting albedo and material channels that stay coherent across viewpoints.
   summary_ja: 視点間で整合するアルベドやマテリアルチャンネルを予測する、3Dメッシュ向けの多視点一貫したPBRマテリアル生成。
-  thumbnail: assets/thumbnails/materialmvp-fa1573.png
   date_added: '2026-06-13'
   source: seed
   repo: zebinhe/materialmvp
@@ -2174,7 +2825,6 @@ entries:
   - texture
   summary: Native texture generation that synthesizes textures directly in 3D rather than by fusing multi-view 2D images, reducing seams and view-inconsistency artifacts.
   summary_ja: 多視点の2D画像を融合するのではなく3D上で直接テクスチャを合成するネイティブテクスチャ生成。継ぎ目や視点間の不整合アーティファクトを低減する。
-  thumbnail: assets/thumbnails/natex-native-texture-generation-dd1fd1.png
   date_added: '2026-06-13'
   source: seed
   repo: zeqiang-lai/natex
@@ -2192,7 +2842,6 @@ entries:
   - texture
   summary: A multi-view diffusion approach to mesh texture generation that improves cross-view consistency and detail for production texturing.
   summary_ja: 視点間の整合性とディテールを高める、メッシュテクスチャ生成のための多視点拡散手法。制作現場のテクスチャリングに向く。
-  thumbnail: assets/thumbnails/romantex-db9d05.png
   date_added: '2026-06-13'
   source: seed
   repo: oakshy/romantex
@@ -2210,7 +2859,6 @@ entries:
   - video-diffusion
   summary: Generates mesh textures by treating multi-view renders as a video sequence and leveraging a video diffusion model for spatially and temporally consistent results.
   summary_ja: 多視点レンダリングを動画シーケンスとして扱い、動画拡散モデルを活用して空間的・時間的に一貫したメッシュテクスチャを生成する。
-  thumbnail: assets/thumbnails/seqtex-150f04.png
   date_added: '2026-06-13'
   source: seed
   repo: vast-ai-research/seqtex
@@ -2229,7 +2877,6 @@ entries:
   - primitive
   summary: Generates high-quality 3D assets with PBR materials from text or images using a primitive-based latent diffusion representation.
   summary_ja: プリミティブベースの潜在拡散表現を用いて、テキストや画像からPBRマテリアル付きの高品質な3Dアセットを生成する。
-  thumbnail: assets/thumbnails/3dtopia-xl-382d4c.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2409.12957'
@@ -2248,7 +2895,6 @@ entries:
   - texture
   summary: Generates mesh textures by synchronizing a multi-view 2D diffusion process across rendered views, producing seamless texture maps without per-asset training.
   summary_ja: レンダリングした複数視点間で2D拡散プロセスを同期させてメッシュテクスチャを生成し、アセットごとの学習なしに継ぎ目のないテクスチャマップを作成する。
-  thumbnail: assets/thumbnails/syncmvd-8a2876.png
   date_added: '2026-06-13'
   source: seed
   repo: liu-yuxin/syncmvd
@@ -2267,7 +2913,6 @@ entries:
   - uv
   summary: A feed-forward diffusion model that generates high-resolution textures directly in UV space, enabling fast text- and image-guided texturing of 3D meshes.
   summary_ja: UV空間で直接高解像度テクスチャを生成するフィードフォワード型拡散モデル。テキストや画像で誘導した3Dメッシュの高速なテクスチャリングを可能にする。
-  thumbnail: assets/thumbnails/texgen-5d308f.png
   date_added: '2026-06-13'
   source: seed
   repo: cvmi-lab/texgen
@@ -2285,7 +2930,6 @@ entries:
   - uv-unwrapping
   summary: Part-based UV unwrapping of 3D meshes that segments a shape into parts and generates low-distortion UV charts with few seams, suited to production texturing.
   summary_ja: 3Dメッシュをパーツに分割し、歪みが小さくシームの少ないUVチャートを生成するパーツベースのUV展開。制作現場のテクスチャリングに適する。
-  thumbnail: assets/thumbnails/partuv-part-based-uv-unwrapping-a333b3.png
   date_added: '2026-06-13'
   source: seed
   repo: ericwang12/partuv
@@ -2304,7 +2948,6 @@ entries:
   - pose
   summary: Adds spatial conditioning (edges, depth, pose, scribbles) to diffusion models, enabling layout- and sketch-controlled generation central to production art workflows.
   summary_ja: エッジ・深度・ポーズ・線画などの空間的条件付けを拡散モデルに追加し、レイアウトやスケッチで制御した生成を可能にする。制作ワークフローの中核技術。
-  thumbnail: assets/thumbnails/controlnet-f9ea86.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2302.05543'
@@ -2324,7 +2967,6 @@ entries:
   - reference
   summary: A lightweight (~100MB) adapter that adds image-prompt conditioning to diffusion models, letting a reference image drive style or subject; handy for consistent character and style transfer.
   summary_ja: 拡散モデルに画像プロンプトの条件付けを追加する軽量（約100MB）アダプタ。参照画像でスタイルや被写体を制御でき、一貫したキャラクター・スタイル転写に便利。
-  thumbnail: assets/thumbnails/ip-adapter-679e42.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2308.06721'
@@ -2345,7 +2987,6 @@ entries:
   - instruction-editing
   summary: A 12B flow-matching model for instruction-based image editing that preserves characters and objects across iterative edits, supporting local and global edits plus style and character reference.
   summary_ja: 指示ベースの画像編集を行う120億パラメータのフローマッチングモデル。反復編集をまたいでキャラクターや物体を保持し、局所・全体の編集に加えスタイル・キャラクター参照に対応する。
-  thumbnail: assets/thumbnails/flux-1-kontext-dev-807f2a.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2506.15742'
@@ -2364,7 +3005,6 @@ entries:
   - unified
   summary: A unified model that handles text-to-image generation and instruction-based editing in one architecture, accepting interleaved text-and-image prompts for compositional edits.
   summary_ja: テキスト→画像生成と指示ベースの編集を単一アーキテクチャで扱う統合モデル。テキストと画像を交互に並べたプロンプトを受け取り、構成的な編集を行う。
-  thumbnail: assets/thumbnails/omnigen2-7d51b6.png
   date_added: '2026-06-13'
   source: seed
   repo: vectorspacelab/omnigen2
@@ -2381,7 +3021,6 @@ entries:
   - lineart
   summary: A sketch extractor that produces clean line art from anime and illustration images, useful for reference, retracing, and colorization pipelines.
   summary_ja: アニメやイラスト画像からきれいな線画を抽出するツール。参照・トレース・着色のパイプラインに役立つ。
-  thumbnail: assets/thumbnails/anime2sketch-1e0d95.png
   date_added: '2026-06-13'
   source: seed
   repo: mukosame/anime2sketch
@@ -2399,7 +3038,6 @@ entries:
   - upscaling
   summary: A free cross-platform desktop GUI for AI image upscaling (built on Real-ESRGAN and related models), a convenient front-end for batch-upscaling textures and illustrations.
   summary_ja: Real-ESRGANなどを基盤とする、無料でクロスプラットフォームのAI画像アップスケール用デスクトップGUI。テクスチャやイラストの一括アップスケールに便利なフロントエンド。
-  thumbnail: assets/thumbnails/upscayl-6331f2.png
   date_added: '2026-06-13'
   source: seed
   repo: upscayl/upscayl
@@ -2417,7 +3055,6 @@ entries:
   - gan
   summary: A blind face-restoration model from Tencent ARC that recovers realistic facial detail from degraded images, often paired with upscalers to clean up portraits and character art.
   summary_ja: 劣化画像から写実的な顔のディテールを復元するTencent ARCのブラインド顔復元モデル。アップスケーラーと組み合わせ、ポートレートやキャラクターアートの仕上げに使われる。
-  thumbnail: assets/thumbnails/gfpgan-732c56.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2101.04061'
@@ -2437,7 +3074,6 @@ entries:
   - upscaling
   summary: A practical blind super-resolution model with a dedicated anime model variant, widely used to upscale textures and anime frames while preserving line sharpness.
   summary_ja: 実用的なブラインド超解像モデル。アニメ専用モデルも提供され、線のシャープさを保ちつつテクスチャやアニメフレームのアップスケールに広く使われる。
-  thumbnail: assets/thumbnails/real-esrgan-8ccac0.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2107.10833'
@@ -2455,7 +3091,6 @@ entries:
   - upscaling
   summary: A CNN-based super-resolution and denoiser specialized for anime-style art, the long-standing baseline for upscaling illustrations and anime stills.
   summary_ja: アニメ調イラストに特化したCNNベースの超解像・ノイズ除去。イラストやアニメ静止画のアップスケールにおける定番のベースライン。
-  thumbnail: assets/thumbnails/waifu2x-449709.png
   date_added: '2026-06-13'
   source: seed
   repo: nagadomi/waifu2x
@@ -2475,7 +3110,6 @@ entries:
   - open-weights
   summary: An 8.9B FLUX.1-schnell-derived, fully Apache-2.0 text-to-image model trained on a broad artistic and photographic dataset, offered as an unrestricted open base for fine-tuning.
   summary_ja: FLUX.1-schnellから派生した89億パラメータのテキスト→画像モデル。Apache-2.0で完全公開され、幅広い芸術・写真データで学習。制約のないファインチューニング用ベースとして提供される。
-  thumbnail: assets/thumbnails/chroma-d14c56.png
   date_added: '2026-06-13'
   source: seed
   repo: lodestone-rock/flow
@@ -2492,7 +3126,6 @@ entries:
   - open-weights
   summary: An 8B single-stream diffusion-transformer text-to-image model from Baidu, released with open weights.
   summary_ja: Baiduによる80億パラメータの単一ストリーム拡散トランスフォーマー型テキスト→画像モデル。オープンウェイトで公開されている。
-  thumbnail: assets/thumbnails/ernie-image-17e150.png
   date_added: '2026-06-13'
   source: seed
   repo: baidu/ernie-image
@@ -2512,7 +3145,6 @@ entries:
   - open-weights
   summary: A 32B-parameter flow-matching model that unifies text-to-image generation, instruction editing, and multi-reference conditioning in one open-weights checkpoint, supporting character and style reference without fine-tuning.
   summary_ja: 320億パラメータのフローマッチングモデル。テキスト→画像生成、指示編集、複数参照の条件付けを単一のオープンウェイトに統合し、ファインチューニングなしでキャラクターやスタイルの参照に対応する。
-  thumbnail: assets/thumbnails/flux-2-dev-8e553e.png
   date_added: '2026-06-13'
   source: seed
   repo: black-forest-labs/flux2
@@ -2531,7 +3163,6 @@ entries:
   - open-weights
   summary: A 16B hybrid autoregressive-plus-diffusion text-to-image model from Zhipu AI, released with open weights.
   summary_ja: Zhipu AIによる160億パラメータの自己回帰＋拡散ハイブリッド型テキスト→画像モデル。オープンウェイトで公開されている。
-  thumbnail: assets/thumbnails/glm-image-416dd7.png
   date_added: '2026-06-13'
   source: seed
   repo: zai-org/glm-image
@@ -2549,7 +3180,6 @@ entries:
   - open-weights
   summary: A 17B sparse diffusion-transformer text-to-image model released with open weights, targeting state-of-the-art prompt adherence and image quality.
   summary_ja: 170億パラメータの疎な拡散トランスフォーマー型テキスト→画像モデル。オープンウェイトで公開され、最先端のプロンプト忠実度と画質を目指す。
-  thumbnail: assets/thumbnails/hidream-i1-c4b939.png
   date_added: '2026-06-13'
   source: seed
   repo: hidream-ai/hidream-i1
@@ -2566,7 +3196,6 @@ entries:
   - open-weights
   summary: An 80B mixture-of-experts text-to-image model from Tencent Hunyuan, one of the largest open-weight image generators, aimed at high-fidelity native-resolution synthesis.
   summary_ja: Tencent Hunyuanによる800億パラメータのMoE型テキスト→画像モデル。最大級のオープンウェイト画像生成モデルの一つで、高忠実度のネイティブ解像度合成を狙う。
-  thumbnail: assets/thumbnails/hunyuanimage-3-0-4d1392.png
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuanimage-3.0
@@ -2584,7 +3213,6 @@ entries:
   - open-weights
   summary: A compact 2.6B diffusion-transformer text-to-image model using a Gemma-2-2B text encoder, balancing quality and efficiency for accessible high-resolution generation.
   summary_ja: Gemma-2-2Bをテキストエンコーダに用いる、26億パラメータのコンパクトな拡散トランスフォーマー型テキスト→画像モデル。品質と効率を両立し、手軽な高解像度生成を実現する。
-  thumbnail: assets/thumbnails/lumina-image-2-0-f287d6.png
   date_added: '2026-06-13'
   source: seed
   repo: alpha-vllm/lumina-image-2.0
@@ -2602,7 +3230,6 @@ entries:
   - text-rendering
   summary: Alibaba's open-weight text-to-image family with notably strong in-image text rendering, including Chinese, and support for both generation and editing.
   summary_ja: Alibabaによるオープンウェイトのテキスト→画像モデル群。中国語を含む画像内テキスト描画が特に優れ、生成と編集の両方に対応する。
-  thumbnail: assets/thumbnails/qwen-image-af2c77.png
   date_added: '2026-06-13'
   source: seed
   repo: qwenlm/qwen-image
@@ -2621,7 +3248,6 @@ entries:
   - text-rendering
   summary: A 6B text-to-image model family from Alibaba's Tongyi-MAI, designed for efficient single-GPU high-quality generation with strong bilingual text rendering.
   summary_ja: AlibabaのTongyi-MAIによる60億パラメータのテキスト→画像モデル群。単一GPUでの効率的な高品質生成を志向し、優れた日英・中英のテキスト描画を備える。
-  thumbnail: assets/thumbnails/z-image-f90ea5.png
   date_added: '2026-06-13'
   source: seed
   repo: tongyi-mai/z-image
@@ -2641,7 +3267,6 @@ entries:
   - rectified-flow
   summary: A 12B-parameter rectified-flow transformer text-to-image family from Black Forest Labs; the guidance-distilled [dev] and 1-4 step [schnell] variants are a leading open-weights base for concept art and LoRA fine-tuning.
   summary_ja: Black Forest Labsによる120億パラメータの整流フロー型テキスト→画像モデル群。ガイダンス蒸留版[dev]と1〜4ステップの[schnell]は、コンセプトアートやLoRAファインチューニングの主要なオープンウェイト基盤。
-  thumbnail: assets/thumbnails/flux-1-dev-schnell-0c1bf5.png
   date_added: '2026-06-13'
   source: seed
   repo: black-forest-labs/flux
@@ -2660,7 +3285,6 @@ entries:
   - sdxl
   summary: An aesthetics-focused text-to-image model on the SDXL architecture, tuned for color, contrast, and human-centric detail; popular for polished concept-art looks.
   summary_ja: SDXLアーキテクチャ上で美的品質に特化したテキスト→画像モデル。色・コントラスト・人物の細部に最適化され、洗練されたコンセプトアート表現で人気。
-  thumbnail: assets/thumbnails/playground-v2-5-e1a8f2.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2402.17245'
@@ -2680,7 +3304,6 @@ entries:
   - open-weights
   summary: An efficient high-resolution (up to 4K) text-to-image model from NVIDIA using a linear diffusion transformer and deep-compression autoencoder, fast enough to run on laptop GPUs.
   summary_ja: 線形拡散トランスフォーマーと深層圧縮オートエンコーダを用いる、NVIDIAの効率的な高解像度（最大4K）テキスト→画像モデル。ノートPCのGPUでも動くほど高速。
-  thumbnail: assets/thumbnails/sana-0c5565.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2410.10629'
@@ -2701,7 +3324,6 @@ entries:
   - rectified-flow
   summary: An 8B MMDiT text-to-image model with three text encoders and rectified-flow training, Stability AI's open-weight flagship for high-resolution, prompt-faithful generation.
   summary_ja: 3つのテキストエンコーダと整流フロー学習を用いる80億パラメータのMMDiT型テキスト→画像モデル。高解像度かつプロンプト忠実な生成を担うStability AIのオープンウェイト旗艦。
-  thumbnail: assets/thumbnails/stable-diffusion-3-5-large-aeb0ca.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2403.03206'
@@ -2721,7 +3343,6 @@ entries:
   - text-rendering
   summary: A cascaded pixel-space diffusion model (64 to 256 to 1024px) with strong prompt and in-image text fidelity, useful when legible text such as signage or UI mockups matters.
   summary_ja: ピクセル空間でカスケード（64→256→1024px）する拡散モデル。プロンプト忠実度と画像内テキストの再現性が高く、看板やUIモックアップなど読める文字が必要な場面で有用。
-  thumbnail: assets/thumbnails/deepfloyd-if-3bb154.png
   date_added: '2026-06-13'
   source: seed
   repo: deep-floyd/if
@@ -2739,7 +3360,6 @@ entries:
   - open-weights
   summary: An open text-to-image latent diffusion model from AI Forever with a large language-model text encoder, supporting both generation and inpainting.
   summary_ja: AI Foreverによるオープンなテキスト→画像の潜在拡散モデル。大規模言語モデルのテキストエンコーダを備え、生成とインペインティングの両方に対応する。
-  thumbnail: assets/thumbnails/kandinsky-3-82014b.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2312.03511'
@@ -2759,7 +3379,6 @@ entries:
   - real-time
   summary: Distills diffusion models for 2-4 step generation; the LCM-LoRA variant accelerates existing SD/SDXL checkpoints, enabling near-real-time iteration for art ideation.
   summary_ja: 拡散モデルを2〜4ステップ生成へ蒸留する手法。LCM-LoRA版は既存のSD/SDXLチェックポイントを高速化し、アート発想のほぼリアルタイムな反復を可能にする。
-  thumbnail: assets/thumbnails/latent-consistency-models-lcm-lcm-lora-2ce4d6.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2310.04378'
@@ -2779,7 +3398,6 @@ entries:
   - high-resolution
   summary: A DiT-based text-to-image model trained at roughly 10% of SD1.5's cost, with the PixArt-Sigma extension reaching 4K; an efficient open backbone for high-resolution concept art.
   summary_ja: SD1.5の約10%の学習コストで訓練されたDiTベースのテキスト→画像モデル。拡張版PixArt-Sigmaは4Kに対応し、高解像度コンセプトアート向けの効率的なオープンバックボーン。
-  thumbnail: assets/thumbnails/pixart-alpha-pixart-sigma-c1d7a8.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2310.00426'
@@ -2799,7 +3417,6 @@ entries:
   - sdxl
   summary: A distilled SDXL using Adversarial Diffusion Distillation (ADD) for single-step, real-time text-to-image generation, useful for live previews and rapid iteration.
   summary_ja: 敵対的拡散蒸留（ADD）でSDXLを蒸留し、単一ステップでリアルタイムにテキスト→画像生成を行うモデル。ライブプレビューや高速な反復に有用。
-  thumbnail: assets/thumbnails/sdxl-turbo-59d7af.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.17042'
@@ -2817,7 +3434,6 @@ entries:
   - open-weights
   summary: A latent text-to-image diffusion model with a larger UNet and refiner stage; the open-weights backbone for most game/anime concept-art LoRA ecosystems.
   summary_ja: より大きなUNetとリファイナー段を備えた潜在拡散によるテキスト→画像モデル。ゲーム・アニメのコンセプトアート向けLoRAエコシステムの基盤となるオープンウェイトのバックボーン。
-  thumbnail: assets/thumbnails/stable-diffusion-xl-c780ae.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2307.01952'
@@ -2836,7 +3452,6 @@ entries:
   - open-weights
   summary: The 860M-parameter latent diffusion model that runs on consumer GPUs and anchors the largest ecosystem of anime/game LoRAs, embeddings, and ControlNets.
   summary_ja: コンシューマー向けGPUで動作する8.6億パラメータの潜在拡散モデル。アニメ・ゲーム向けLoRAや埋め込み、ControlNetの最大のエコシステムの土台。
-  thumbnail: assets/thumbnails/stable-diffusion-1-5-fcd11b.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2112.10752'
@@ -2855,7 +3470,6 @@ entries:
   - transcription
   summary: Detects panels, characters, and text in manga pages and generates an ordered transcript, supporting layout analysis and accessibility/translation tooling.
   summary_ja: 漫画ページからコマ・キャラクター・テキストを検出し、順序付きの書き起こしを生成する。レイアウト解析やアクセシビリティ・翻訳ツールを支える。
-  thumbnail: assets/thumbnails/the-manga-whisperer-magi-0ea517.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2401.10224'
@@ -2874,7 +3488,6 @@ entries:
   - transcription
   summary: A robust multilingual speech-recognition model used in localization pipelines for transcription and as a front-end to translation and dubbing.
   summary_ja: 頑健な多言語音声認識モデル。文字起こしや、翻訳・ダビングの前段として、ローカライズのパイプラインで使われる。
-  thumbnail: assets/thumbnails/whisper-56bbe9.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2212.04356'
@@ -2893,7 +3506,6 @@ entries:
   - open-weights
   summary: An efficient open-weights language model frequently used for narrative, quest, and design-document drafting in game writing tools.
   summary_ja: 効率的なオープンウェイトの言語モデル。ゲームの物語・クエスト・設計文書の下書きツールで広く使われる。
-  thumbnail: assets/thumbnails/mistral-7b-c81ddf.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2310.06825'
@@ -2912,7 +3524,6 @@ entries:
   - open-weights
   summary: A family of open foundation language models commonly fine-tuned for NPC dialogue, narrative drafting, and in-game text systems.
   summary_ja: NPC対話、物語の下書き、ゲーム内テキストシステム向けによくファインチューンされる、オープンな基盤言語モデル群。
-  thumbnail: assets/thumbnails/llama-618bfb.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2302.13971'
@@ -2931,7 +3542,6 @@ entries:
   - open-weights
   summary: An open-weights latent video diffusion model for image-to-video and short clip generation, a base for anime/game motion experiments and fine-tunes.
   summary_ja: 画像→動画や短尺クリップ生成に対応するオープンウェイトの潜在動画拡散モデル。アニメ・ゲームのモーション実験やファインチューンの土台。
-  thumbnail: assets/thumbnails/stable-video-diffusion-cd898c.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2311.15127'
@@ -2951,7 +3561,6 @@ entries:
   - tracking
   summary: A promptable segmentation model that tracks objects across video frames, the backbone of modern AI-assisted rotoscoping and matting tools.
   summary_ja: プロンプト可能なセグメンテーションモデルで、動画フレーム間で対象を追跡する。現代のAIロトスコープやマッティングツールの基盤。
-  thumbnail: assets/thumbnails/segment-anything-model-2-sam-2-0869a9.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2408.00714'
@@ -2970,7 +3579,6 @@ entries:
   - motion-module
   summary: Adds a plug-in motion module to personalized text-to-image diffusion models, animating existing image checkpoints and LoRAs into short clips.
   summary_ja: パーソナライズしたテキスト→画像拡散モデルにモーションモジュールを追加し、既存のチェックポイントやLoRAを短尺クリップにアニメーション化する。
-  thumbnail: assets/thumbnails/animatediff-52bb64.png
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2307.04725'
