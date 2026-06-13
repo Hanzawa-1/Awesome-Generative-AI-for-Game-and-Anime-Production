@@ -13,6 +13,14 @@ import os
 from openai import APIConnectionError, APITimeoutError, OpenAI, RateLimitError
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
+
+def _log_retry(state):
+    exc = state.outcome.exception() if state.outcome else None
+    sleep = getattr(state.next_action, "sleep", 0) if state.next_action else 0
+    name = type(exc).__name__ if exc else "error"
+    print(f"[llm] {name} (likely rate limit) — backing off {sleep:.0f}s "
+          f"(attempt {state.attempt_number}/5)", flush=True)
+
 PROVIDERS = {
     "gemini": dict(
         base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
@@ -50,6 +58,7 @@ class LLMClient:
         retry=retry_if_exception_type(_RETRYABLE),
         wait=wait_exponential(multiplier=2, min=2, max=60),
         stop=stop_after_attempt(5),
+        before_sleep=_log_retry,
         reraise=True,
     )
     def chat(self, messages, tools=None, tool_choice="auto", temperature: float = 0.2):

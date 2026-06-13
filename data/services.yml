@@ -1,4 +1,21 @@
 entries:
+- id: hedra-f6ef6f
+  title: Hedra
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.hedra.com/
+  year: 2024
+  tags:
+  - facial-animation
+  - lip-sync
+  - talking-head
+  summary: An advanced AI video creation platform that generates lifelike talking avatars with highly accurate lip-syncing and natural facial expressions from text or audio.
+  summary_ja: テキストまたは音声から、非常に正確なリップシンクと自然な表情を持つリアルな喋るアバターを生成する、高度なAI動画作成プラットフォーム。
+  thumbnail: assets/thumbnails/hedra-f6ef6f.png
+  date_added: '2026-06-13'
+  source: agent
 - id: cascadeur-b525d1
   title: Cascadeur
   area: animation
@@ -113,6 +130,110 @@ entries:
   thumbnail: assets/thumbnails/suno-719c52.png
   date_added: '2026-06-13'
   source: seed
+- id: nemisindo-3fa057
+  title: Nemisindo
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://nemisindo.com/
+  year: 2022
+  tags:
+  - game-audio
+  - procedural-audio
+  - unity
+  - unreal-engine
+  summary: An interactive procedural audio platform and plugin suite for Unreal Engine and Unity, enabling real-time, parameter-driven sound effects generation directly within game engines.
+  summary_ja: Unreal EngineおよびUnity向けのインタラクティブなプロシージャルオーディオプラットフォームおよびプラグインスイート。ゲームエンジン内でリアルタイムかつパラメータ駆動の効果音生成を可能にします。
+  thumbnail: assets/thumbnails/nemisindo-3fa057.png
+  date_added: '2026-06-13'
+  source: agent
+- id: gamesynth-e5abf2
+  title: GameSynth
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/web/en/products-gamesynth.html
+  year: 2015
+  tags:
+  - foley
+  - game-audio
+  - procedural-audio
+  - sound-effects
+  summary: A leading commercial procedural sound design tool by Tsugi, offering specialized synthesis models for impacts, whooshes, footsteps, engines, and weather effects with extensive game engine integration.
+  summary_ja: Tsugi社による主要な商用プロシージャルサウンドデザインツール。衝撃音、風切り音、足音、エンジン音、天候エフェクトなどの特化型合成モデルを提供し、ゲームエンジンとの高度な連携が可能です。
+  thumbnail: assets/thumbnails/gamesynth-e5abf2.png
+  date_added: '2026-06-13'
+  source: agent
+- id: ace-studio-e0c53b
+  title: ACE Studio
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://acestudio.ai/
+  year: 2023
+  tags:
+  - ai-vocals
+  - commercial
+  - svs
+  summary: A commercial AI-powered singing voice synthesis workstation that generates studio-quality vocals from MIDI and lyrics with precise control over pitch, vibrato, and emotion.
+  summary_ja: MIDIと歌詞からスタジオ品質のAIボーカルを生成する商用の歌声合成ワークステーション。ピッチ、ビブラート、感情表現などを精密にコントロール可能です。
+  thumbnail: assets/thumbnails/ace-studio-e0c53b.png
+  date_added: '2026-06-13'
+  source: agent
+- id: voisona-3b7d62
+  title: VoiSona
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://voisona.com/
+  year: 2022
+  tags:
+  - commercial
+  - svs
+  - vst
+  summary: An AI-based singing voice synthesis software developed by Techno-Speech, offering high-quality, realistic vocal generation with VSTi compatibility for DAW integration.
+  summary_ja: テクノスピーチ社が開発したAI歌声合成ソフトウェア。DAWと連携可能なVSTiプラグインに対応し、極めてリアルで高品質なボーカル生成を提供します。
+  thumbnail: assets/thumbnails/voisona-3b7d62.png
+  date_added: '2026-06-13'
+  source: agent
+- id: cevio-ai-55b690
+  title: CeVIO AI
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://cevio.jp/
+  year: 2021
+  tags:
+  - commercial
+  - deep-learning
+  - svs
+  summary: A next-generation voice synthesis platform utilizing deep learning to realistically replicate human singing and speaking voices with rich emotional expression.
+  summary_ja: ディープラーニング技術を用いて、人間の歌声や話し声を感情豊かにリアルに再現する次世代の音声・歌声合成プラットフォーム。
+  thumbnail: assets/thumbnails/cevio-ai-55b690.png
+  date_added: '2026-06-13'
+  source: agent
+- id: vocaloid-ecff3c
+  title: VOCALOID
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://www.vocaloid.com/en/
+  year: 2003
+  tags:
+  - commercial
+  - svs
+  - vocaloid
+  summary: Yamaha's industry-standard singing voice synthesis software, utilizing advanced AI engines in its latest versions to produce natural, highly expressive vocal performances.
+  summary_ja: ヤマハが開発した業界標準の歌声合成ソフトウェア。最新バージョンでは先進的なAIエンジンを採用し、自然で表現力豊かなボーカルパフォーマンスを実現しています。
+  thumbnail: assets/thumbnails/vocaloid-ecff3c.png
+  date_added: '2026-06-13'
+  source: agent
 - id: synthesizer-v-ee606e
   title: Synthesizer V
   area: audio
@@ -128,6 +249,40 @@ entries:
   thumbnail: assets/thumbnails/synthesizer-v-ee606e.png
   date_added: '2026-06-13'
   source: seed
+- id: cartesia-a7ccb9
+  title: Cartesia
+  area: audio
+  task: tts
+  kind: proprietary
+  links:
+    website: https://www.cartesia.ai/
+  year: 2024
+  tags:
+  - low-latency
+  - real-time
+  - tts
+  summary: A state-of-the-art real-time text-to-speech platform powered by the Sonic model, delivering ultra-low latency (under 100ms) and highly expressive, lifelike voices for interactive applications and AI agents.
+  summary_ja: Sonicモデルを搭載した最先端のリアルタイムテキスト読み上げプラットフォーム。100ミリ秒未満の超低遅延と、インタラクティブなアプリケーションやAIエージェント向けの極めて表現力豊かな音声を提供します。
+  thumbnail: assets/thumbnails/cartesia-a7ccb9.png
+  date_added: '2026-06-13'
+  source: agent
+- id: resemble-ai-f60fa2
+  title: Resemble AI
+  area: audio
+  task: tts
+  kind: proprietary
+  links:
+    website: https://www.resemble.ai/
+  year: 2019
+  tags:
+  - enterprise
+  - tts
+  - voice-cloning
+  summary: An enterprise-grade generative voice platform offering high-fidelity text-to-speech, real-time voice cloning, and deepfake detection with built-in watermarking.
+  summary_ja: 高精度なテキスト読み上げ、リアルタイム音声クローン、および透かし埋め込み技術を統合したディープフェイク検出機能を提供する、エンタープライズ向けの生成音声プラットフォーム。
+  thumbnail: assets/thumbnails/resemble-ai-f60fa2.png
+  date_added: '2026-06-13'
+  source: agent
 - id: elevenlabs-486fcf
   title: ElevenLabs
   area: audio
@@ -145,6 +300,40 @@ entries:
   thumbnail: assets/thumbnails/elevenlabs-486fcf.png
   date_added: '2026-06-13'
   source: seed
+- id: altered-studio-da4dae
+  title: Altered Studio
+  area: audio
+  task: voice-cloning
+  kind: proprietary
+  links:
+    website: https://www.altered.ai/
+  year: 2022
+  tags:
+  - voice-changer
+  - voice-cloning
+  - voice-conversion
+  summary: A professional AI voice content creation platform and voice changer that allows users to clone voices, morph speech into curated AI voices, and perform advanced audio editing for game and media production.
+  summary_ja: ゲームやメディア制作向けに、音声のクローニング、厳選されたAI音声へのモーフィング、高度なオーディオ編集を可能にするプロフェッショナルなAI音声コンテンツ作成プラットフォーム。
+  thumbnail: assets/thumbnails/altered-studio-da4dae.png
+  date_added: '2026-06-13'
+  source: agent
+- id: lovo-ai-457041
+  title: Lovo AI
+  area: audio
+  task: voice-cloning
+  kind: proprietary
+  links:
+    website: https://lovo.ai/
+  year: 2019
+  tags:
+  - tts
+  - voice-cloning
+  - voiceover
+  summary: An AI voice generator and text-to-speech platform featuring the Genny editor, which combines realistic voice cloning, multi-language synthesis, and video editing capabilities.
+  summary_ja: リアルな音声クローニング、多言語合成、ビデオ編集機能を統合した「Genny」エディタを提供する、AI音声生成およびテキスト読み上げプラットフォーム。
+  thumbnail: assets/thumbnails/lovo-ai-457041.png
+  date_added: '2026-06-13'
+  source: agent
 - id: mixamo-9a4b49
   title: Mixamo
   area: characters
@@ -260,6 +449,24 @@ entries:
   thumbnail: assets/thumbnails/spaitial-42ffaa.png
   date_added: '2026-06-13'
   source: seed
+- id: skybox-ai-ce17a3
+  title: Skybox AI
+  area: gen-3d
+  task: skybox-panorama
+  kind: proprietary
+  links:
+    website: https://www.blockadelabs.com/
+  year: 2023
+  tags:
+  - '360'
+  - generative-ai
+  - panorama
+  - skybox
+  summary: A web-based generative AI tool and API that creates high-quality, seamless 360-degree skyboxes and environments from text prompts or sketches, widely used in game engines like Unity and Unreal Engine.
+  summary_ja: テキストプロンプトやスケッチから、高品質でシームレスな360度スカイボックスや環境を生成するWebベースのジェネレーティブAIツールおよびAPI。UnityやUnreal Engineなどのゲームエンジンで広く利用されています。
+  thumbnail: assets/thumbnails/skybox-ai-ce17a3.png
+  date_added: '2026-06-13'
+  source: agent
 - id: rodin-hyper3d-37bed0
   title: Rodin (Hyper3D)
   area: gen-3d
@@ -549,6 +756,41 @@ entries:
   thumbnail: assets/thumbnails/jenova-ai-manga-generator-cee9e8.png
   date_added: '2026-06-13'
   source: seed
+- id: mantra-engine-9eeba1
+  title: Mantra Engine
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://mantra.co.jp/en/
+  year: 2020
+  tags:
+  - localization
+  - manga
+  - translation
+  - typesetting
+  summary: A professional cloud-based manga localization platform powered by proprietary language and image-processing AI, automating text detection, translation, and typesetting for publishers.
+  summary_ja: 独自の言語および画像処理AIを搭載したプロフェッショナル向けのクラウド型漫画ローカライズプラットフォーム。出版社向けにテキスト検出、翻訳、写植（タイポグラフィ）を自動化します。
+  thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
+  date_added: '2026-06-13'
+  source: agent
+- id: lokalise-3d4e31
+  title: Lokalise
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://lokalise.com/
+  year: 2017
+  tags:
+  - localization
+  - saas
+  - translation-management
+  summary: A popular commercial localization and translation management platform widely used by game developers to automate and streamline game localization workflows.
+  summary_ja: ゲーム開発者に広く使用されている、人気の商用ローカライズ・翻訳管理プラットフォーム。ゲームのローカライズワークフローを自動化し、効率化します。
+  thumbnail: assets/thumbnails/lokalise-3d4e31.png
+  date_added: '2026-06-13'
+  source: agent
 - id: deepl-676cdb
   title: DeepL
   area: text-design
@@ -582,6 +824,96 @@ entries:
   thumbnail: assets/thumbnails/inworld-ai-c4e760.png
   date_added: '2026-06-13'
   source: seed
+- id: mocha-pro-4b4000
+  title: Mocha Pro
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://borisfx.com/blog/top-6-ai-rotoscoping-tools-free-and-paid/
+  year: 2025
+  tags:
+  - masking
+  - rotoscoping
+  - tracking
+  - vfx
+  summary: An industry-standard planar tracking and masking software by Boris FX, featuring advanced AI-powered rotoscoping, face detection, and automated matte refinement tools.
+  summary_ja: Boris FX社による業界標準の平面トラッキングおよびマスキングソフトウェア。高度なAI搭載ロトスコープ、顔検出、自動マット微調整ツールを備える。
+  thumbnail: assets/thumbnails/mocha-pro-4b4000.png
+  date_added: '2026-06-13'
+  source: agent
+- id: beeble-4803d1
+  title: Beeble
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://beeble.ai/
+  year: 2024
+  tags:
+  - compositing
+  - relighting
+  - rotoscoping
+  - vfx
+  summary: An AI-powered video-to-VFX platform featuring studio-grade rotoscoping, background removal, and a node-based AI compositor for relighting and 3D compositing workflows.
+  summary_ja: スタジオグレードのロトスコープ、背景削除、リライティングや3Dコンポジットワークフロー用のノードベースAIコンポジターを備えた、AI搭載のVideo-to-VFXプラットフォーム。
+  thumbnail: assets/thumbnails/beeble-4803d1.png
+  date_added: '2026-06-13'
+  source: agent
+- id: slapshot-ai-78d9df
+  title: Slapshot AI
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://slapshot.ai/
+  year: 2024
+  tags:
+  - camera-tracking
+  - depth-map
+  - rotoscoping
+  - vfx
+  summary: An enterprise-grade AI-powered VFX toolkit that automates rotoscoping, camera tracking, depth map estimation, and generative retiming for high-resolution footage up to 8K.
+  summary_ja: 最大8Kの高解像度映像に対応し、ロトスコープ、カメラトラッキング、深度マップ推定、生成的なリタイミングを自動化するエンタープライズ向けのAI搭載VFXツールキット。
+  thumbnail: assets/thumbnails/slapshot-ai-78d9df.png
+  date_added: '2026-06-13'
+  source: agent
+- id: kling-ai-534089
+  title: Kling AI
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://kling.ai/
+  year: 2024
+  tags:
+  - 4k-video
+  - commercial-tool
+  - text-to-video
+  - video-generation
+  summary: A state-of-the-art commercial AI video generation platform developed by Kuaishou Technology. It supports native 4K video generation at 60fps, multi-shot storyboarding, precise motion control, and synchronized audio generation.
+  summary_ja: 快手（Kuaishou Technology）が開発した最先端の商用AI動画生成プラットフォーム。60fpsでのネイティブ4K動画生成、マルチショットの絵コンテ作成、精密なモーションコントロール、および同期されたオーディオ生成をサポートしています。
+  thumbnail: assets/thumbnails/kling-ai-534089.png
+  date_added: '2026-06-13'
+  source: agent
+- id: luma-dream-machine-eddc5b
+  title: Luma Dream Machine
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://lumalabs.ai/dream-machine
+  year: 2024
+  tags:
+  - cinematic
+  - commercial-tool
+  - text-to-video
+  - video-generation
+  summary: A commercial next-generation video generation model by Luma AI that creates high-quality, realistic cinematic shots from text instructions and images with fast generation speeds and consistent physics.
+  summary_ja: テキストの指示や画像から、高速な生成速度と一貫した物理法則を備えた高品質でリアルなシネマティックショットを作成する、Luma AIによる商用の次世代動画生成モデル。
+  thumbnail: assets/thumbnails/luma-dream-machine-eddc5b.png
+  date_added: '2026-06-13'
+  source: agent
 - id: pika-b588f4
   title: Pika
   area: video
@@ -613,3 +945,20 @@ entries:
   thumbnail: assets/thumbnails/runway-gen-dcf9b5.png
   date_added: '2026-06-13'
   source: seed
+- id: descript-2a8e52
+  title: Descript
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://www.descript.com/
+  year: 2020
+  tags:
+  - text-based-editing
+  - transcription
+  - video-editing
+  summary: Descript is an AI-powered collaborative audio and video editor that allows users to edit video by editing the transcribed text. It features automated transcription, AI voice generation, filler word removal, and studio sound enhancement.
+  summary_ja: Descriptは、文字起こしされたテキストを編集することで動画や音声を編集できる、AI搭載の協調型オーディオ・ビデオエディターです。自動文字起こし、AI音声生成、不要なつなぎ言葉の除去、スタジオ品質の音響補正などの機能を備えています。
+  thumbnail: assets/thumbnails/descript-2a8e52.png
+  date_added: '2026-06-13'
+  source: agent

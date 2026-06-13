@@ -86,9 +86,14 @@ keyword-brittle, so don't query arXiv blind):
    'abs:"talking head"') for the paper + id, search_github for the repo + stars, hf for model pages,
    semantic_scholar to resolve arXiv ids. For image / anime / illustration / checkpoint tasks, also
    check civitai for community models and LoRAs.
-3. If web search is sparse or rate-limited, fall back to querying arXiv / HF / GitHub directly.
+3. ALSO find PROPRIETARY / commercial tools that game/anime studios use for this task (these populate
+   the catalog's "Proprietary / Industry Tools" section). Web-search phrasings like
+   '<task> commercial tool', 'best <task> app / SaaS / API', '<task> studio software'. Submit each as
+   kind="proprietary" with a "website" link (no arXiv/repo needed).
+4. If web search is sparse or rate-limited, fall back to querying arXiv / HF / GitHub directly.
 
 Then call submit_entries ONCE with every new, valid entry. For each: the correct area/task id, a neutral
-English summary + a Japanese summary_ja, 2-4 short lowercase tags, and an arxiv_id OR github repo.
+English summary + a Japanese summary_ja, and 2-4 short lowercase tags. Open-source entries (kind="oss")
+need an arxiv_id OR a github repo; proprietary tools (kind="proprietary") need a website link.
 A few good entries beats none — never return an empty list if you found real work.
 """

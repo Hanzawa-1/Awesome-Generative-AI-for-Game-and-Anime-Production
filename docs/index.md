@@ -1,4 +1,4 @@
-# Awesome Generative AI for Game & Anime Production
+# Awesome Generative AI for Game & Anime Production { .brand-title }
 
 A curated, **self-updating** catalog of generative-AI / ML **tasks** for **game and anime
 production** — organized as an _Area → Task_ tree. Each task lists open-source models & papers

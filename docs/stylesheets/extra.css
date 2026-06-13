@@ -14,7 +14,36 @@
   --ms-border: #e3d9c6;       /* hairline borders */
   --ms-accent: #b5654a;       /* terracotta link/accent */
   --ms-accent-dark: #934c34;
-  --ms-radius: 0.7rem;        /* one card radius for the whole site */
+  --ms-radius: 0.3rem;        /* one tight radius: cards, corner badges, and tag chips */
+
+  /* Type roles: body / nav / UI = Inter (set via mkdocs theme.font — readable mixed-case);
+     headings = CODE (display); brand title = Pricedown. CODE is a display/all-caps face, so
+     it's used ONLY for headings + the brand, never for body copy. */
+}
+
+/* Pricedown — the Grand Theft Auto (San Andreas) logo typeface — for the site/brand title. */
+@font-face {
+  font-family: "Pricedown";
+  src: url("../assets/fonts/pricedown.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CODE (Fontfabric) — display face for page/section headings. */
+@font-face {
+  font-family: "CODE";
+  src: url("../assets/fonts/code-light.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CODE";
+  src: url("../assets/fonts/code-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* ---- Light (default) ---- */
@@ -61,6 +90,12 @@
   border-radius: 2rem;
   box-shadow: none;
 }
+/* The <input> doesn't inherit the form's font, so the typed query falls back to the
+   browser's default control font. Force the full body font stack (with fallbacks) so the
+   text the user types matches the page and the search results — even if the webfont fails. */
+.md-search__input {
+  font-family: var(--md-text-font-family);
+}
 .md-search__input::placeholder {
   color: var(--ms-muted);
 }
@@ -70,21 +105,49 @@
 .md-typeset h2,
 .md-typeset h3,
 .md-typeset h4 {
+  font-family: "CODE", var(--md-text-font-family);   /* display headings; body stays Inter */
   color: var(--ms-ink);
   font-weight: 600;
   letter-spacing: -0.01em;
 }
+/* Page / section headings use the CODE display face. */
 .md-typeset h1 {
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-family: "CODE", var(--md-text-font-family);
+  font-weight: 700;          /* CODE Bold */
+  letter-spacing: 0.01em;
 }
-/* the "<small>Area</small>" eyebrow above task titles -> mono, uppercase, muted */
+/* The site/brand title ("Awesome Generative AI…") keeps the GTA "Pricedown" face,
+   wherever it appears: the home H1, the header bar, and the sidebar brand title.
+   ([for="__drawer"] is specifically the brand title — NOT the section/ToC nav titles.) */
+/* Brand title uses Pricedown ONLY in the home H1 and the top header bar — NOT the left
+   nav panel (that brand title stays in the readable body font with the rest of the menu). */
+.md-typeset h1.brand-title,
+.md-header__title {
+  font-family: "Pricedown", var(--md-text-font-family);
+  font-weight: 400;          /* Pricedown is already heavy — avoid faux-bold */
+}
+/* The top banner brand ("Awesome Generative AI…") is the hero banner — make it bigger. */
+.md-header__title {
+  font-size: 1.6rem;
+}
+
+/* Search results render their titles as <h1>/<h2> inside .md-typeset, which would pick up the
+   CODE display face. Keep search results in the readable body font (size stays Material's). */
+.md-search-result .md-typeset h1,
+.md-search-result .md-typeset h2,
+.md-search-result .md-typeset h3 {
+  font-family: var(--md-text-font-family);
+  letter-spacing: normal;
+}
+/* the "<small>Area</small>" eyebrow above task titles -> uppercase category label.
+   CODE's Light weight is too faint at small sizes, so use Bold + a darker ink. */
 .md-typeset small {
   font-family: var(--md-code-font);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.66rem;
-  color: var(--ms-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ms-text);
 }
 
 /* ---- Pill buttons ---- */
@@ -149,10 +212,9 @@
   box-shadow: 0 1px 2px rgba(46, 40, 32, 0.04);
   transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease;
 }
+/* Hover: no lift, no drop-shadow — just outline the card in the CTA/button colour. */
 .md-typeset .grid.cards > ul > li:hover {
-  transform: translateY(-3px);
-  border-color: #d8cbb2;
-  box-shadow: 0 0.5rem 1.3rem rgba(46, 40, 32, 0.12);
+  border-color: var(--ms-accent);
 }
 
 /* Cards WITH a thumbnail: image is flush to the edges, text content is padded. */
@@ -223,20 +285,22 @@
   top: 0;
   background: var(--ms-accent);
   color: #fff;
-  border-bottom-left-radius: 0.5rem;
+  border-bottom-left-radius: var(--ms-radius);
 }
 /* provenance -> bottom-right */
 .md-typeset .grid.cards > ul > li .card-src {
   bottom: 0;
   background: var(--ms-tan);
   color: var(--ms-accent-dark);
-  border-top-left-radius: 0.5rem;
+  border-top-left-radius: var(--ms-radius);
 }
 
 /* Push tags + links to the bottom so they line up across a row. The summary
    absorbs the free space (no wrapper element, which would break the grid <ul>). */
 .md-typeset .grid.cards > ul > li > .card-summary {
   margin-bottom: auto;
+  text-align: justify;
+  hyphens: auto;        /* avoid large word gaps when justifying in narrow cards */
 }
 
 /* muted mono metadata (authors · year, counts) */
@@ -246,12 +310,13 @@
   font-size: 0.68rem;
 }
 
-/* mono tag chips */
+/* tag chips — CODE Bold + dark ink so the small uppercase labels stay legible on the tan fill */
 .md-typeset .grid.cards code {
   font-size: 0.64rem;
-  padding: 0.06rem 0.45rem;
+  font-weight: 700;
+  padding: 0.08rem 0.5rem;
   background: var(--ms-tan);
   border: 1px solid var(--ms-border);
-  border-radius: 2rem;
-  color: #6a5f4c;
+  border-radius: var(--ms-radius);   /* same tight radius as the cards — not a pill */
+  color: var(--ms-ink);
 }

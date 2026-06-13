@@ -29,8 +29,10 @@ from pipeline.merge import merge  # noqa: E402
 def main() -> int:
     ap = argparse.ArgumentParser(description="Backfill tasks below an entry-count threshold.")
     ap.add_argument("--below", type=int, default=10, help="Target tasks with fewer than this many entries.")
-    ap.add_argument("--per-task", type=int, default=50, help="Max new entries per task (0 = unlimited).")
-    ap.add_argument("--max-iters", type=int, default=40, help="Agent iterations per task.")
+    ap.add_argument("--per-task", type=int, default=10, help="Max new entries per task (0 = unlimited).")
+    ap.add_argument("--max-iters", type=int, default=18,
+                    help="Agent iterations per task. Higher = more thorough but much slower on rate-limited "
+                         "free tiers (each throttled call backs off up to ~60s).")
     ap.add_argument("--no-thumbnails", action="store_true", help="Skip thumbnail extraction at the end.")
     args = ap.parse_args()
 
