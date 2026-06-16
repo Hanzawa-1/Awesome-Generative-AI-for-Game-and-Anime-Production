@@ -134,6 +134,23 @@ entries:
   thumbnail: assets/thumbnails/move-ai-39c1e3.png
   date_added: '2026-06-13'
   source: seed
+- id: udio-5165b7
+  title: Udio
+  area: audio
+  task: music-bgm
+  kind: proprietary
+  links:
+    website: https://www.udio.com/
+  year: 2024
+  tags:
+  - bgm
+  - music-generation
+  - soundtrack
+  summary: A state-of-the-art generative AI music platform that creates high-fidelity, full-length songs with vocals and instrumentation from text prompts.
+  summary_ja: テキストプロンプトからボーカルや楽器演奏を含む高品質なフルレングスの楽曲を生成できる、最先端のジェネレーティブAI音楽プラットフォーム。
+  thumbnail: assets/thumbnails/udio-5165b7.png
+  date_added: '2026-06-16'
+  source: agent
 - id: mubert-08f9c6
   title: Mubert
   area: audio
@@ -236,6 +253,40 @@ entries:
   thumbnail: assets/thumbnails/gamesynth-e5abf2.png
   date_added: '2026-06-13'
   source: agent
+- id: audiokinetic-wwise-ec2f05
+  title: Audiokinetic Wwise
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://www.audiokinetic.com/en/wwise/
+  tags:
+  - audio-middleware
+  - game-audio
+  - interactive-audio
+  - sound-design
+  summary: A leading cross-platform interactive audio middleware solution for video games. It features a comprehensive suite of design tools, real-time synthesis plugins, and a powerful audio engine for creating complex, adaptive soundscapes.
+  summary_ja: ビデオゲーム向けの業界標準のクロスプラットフォーム対応インタラクティブオーディオミドルウェア。包括的なデザインツール、リアルタイム音響合成プラグイン、および複雑で適応的な音響空間を構築するための強力なオーディオエンジンを備えています。
+  thumbnail: assets/thumbnails/audiokinetic-wwise-ec2f05.png
+  date_added: '2026-06-16'
+  source: agent
+- id: metasounds-ad4116
+  title: MetaSounds
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/en-us/unreal-engine/metasounds-in-unreal-engine
+  tags:
+  - dsp-graph
+  - game-audio
+  - interactive-audio
+  - unreal-engine
+  summary: Unreal Engine 5's high-performance procedural audio system that provides sound designers with complete control over Digital Signal Processing (DSP) graphs. It enables sample-accurate timing, dynamic sound generation, and deep integration with game parameters.
+  summary_ja: Unreal Engine 5に搭載された高性能なプロシージャルオーディオシステム。サウンドデザイナーがDSP（デジタル信号処理）グラフを完全に制御でき、サンプル精度でのタイミング制御や、ゲームパラメータと深く連動した動的な音響生成を可能にします。
+  thumbnail: assets/thumbnails/metasounds-ad4116.png
+  date_added: '2026-06-16'
+  source: agent
 - id: ace-studio-e0c53b
   title: ACE Studio
   area: audio
@@ -286,6 +337,40 @@ entries:
   summary_ja: ディープラーニング技術を用いて、人間の歌声や話し声を感情豊かにリアルに再現する次世代の音声・歌声合成プラットフォーム。
   thumbnail: assets/thumbnails/cevio-ai-55b690.png
   date_added: '2026-06-13'
+  source: agent
+- id: neutrino-098a3c
+  title: NEUTRINO
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://studio-neutrino.com/
+  year: 2020
+  tags:
+  - freeware
+  - japanese
+  - neural-synthesizer
+  summary: A popular Japanese neural network-based singing voice synthesizer that runs as freeware. It generates highly realistic singing voices from MusicXML scores, widely used by creators in the anime and vocal synthesis communities.
+  summary_ja: 日本国内で広く利用されている、ニューラルネットワークベースのフリーウェア歌声合成エンジン。MusicXML形式の楽譜から極めてリアルな歌声を生成し、アニメやボカロなどのクリエイターコミュニティで多用されています。
+  thumbnail: assets/thumbnails/neutrino-098a3c.png
+  date_added: '2026-06-16'
+  source: agent
+- id: emvoice-af80c5
+  title: Emvoice
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://emvoiceapp.com/
+  year: 2019
+  tags:
+  - daw-integration
+  - vocal-plugin
+  - vst
+  summary: A next-generation vocal synthesis plugin (VST/AU/AAX) that allows music producers to create realistic singing voices by inputting lyrics and melody notes directly within their DAW.
+  summary_ja: 歌詞とメロディの音符をDAW内で直接入力することで、リアルな歌声を生成できる次世代のボーカル合成プラグイン（VST/AU/AAX）。
+  thumbnail: assets/thumbnails/emvoice-af80c5.png
+  date_added: '2026-06-16'
   source: agent
 - id: vocaloid-ecff3c
   title: VOCALOID
@@ -404,6 +489,42 @@ entries:
   thumbnail: assets/thumbnails/lovo-ai-457041.png
   date_added: '2026-06-13'
   source: agent
+- id: accurig-e7075e
+  title: AccuRig
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/auto-rig/accurig/
+  year: 2022
+  tags:
+  - reallusion
+  - rigging
+  - skeleton
+  - skinning
+  summary: AccuRig is a free, professional auto-rigging tool by Reallusion designed to quickly generate skeletal rigs and skin weights for 3D character models. It supports multi-point marker placement for humanoid characters, automatic finger rigging, and seamless export to major game engines and 3D software.
+  summary_ja: AccuRigは、Reallusion社が提供する無料のプロフェッショナル向け自動リギングツールであり、3Dキャラクターモデルの骨格リグとスキンウェイトを迅速に生成します。人型キャラクターのマルチポイントマーカー配置や自動指リギングに対応し、主要なゲームエンジンや3Dソフトウェアへのシームレスなエクスポートをサポートしています。
+  thumbnail: assets/thumbnails/accurig-e7075e.png
+  date_added: '2026-06-16'
+  source: agent
+- id: auto-rig-pro-6cdda0
+  title: Auto-Rig Pro
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://blendermarket.com/products/auto-rig-pro/
+  year: 2016
+  tags:
+  - addon
+  - blender
+  - rigging
+  - skeleton
+  summary: Auto-Rig Pro is a widely used commercial Blender addon for automatic character rigging, animation retargeting, and game engine export. It features a 'Smart' marker-based placement system to quickly generate bipedal and quadrupedal rigs with full IK/FK controls, optimized for Unity, Unreal Engine, and Godot.
+  summary_ja: Auto-Rig Proは、自動キャラクターリギング、アニメーションのリターゲット、ゲームエンジンへのエクスポートに対応した、広く使用されているBlender用の商用アドオンです。「Smart」マーカーベースの配置システムを備え、Unity、Unreal Engine、Godot向けに最適化された、完全なIK/FKコントロールを持つ二足歩行および四足歩行のリグを迅速に生成します。
+  thumbnail: assets/thumbnails/auto-rig-pro-6cdda0.png
+  date_added: '2026-06-16'
+  source: agent
 - id: mixamo-9a4b49
   title: Mixamo
   area: characters
@@ -420,6 +541,24 @@ entries:
   thumbnail: assets/thumbnails/mixamo-9a4b49.png
   date_added: '2026-06-13'
   source: seed
+- id: meshcapade-me-dca249
+  title: Meshcapade Me
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://me.meshcapade.com/
+  year: 2021
+  tags:
+  - 3d-avatar
+  - body-measurement
+  - digital-human
+  - smpl
+  summary: An AI-powered platform built on the SMPL body model that generates highly accurate, industry-standard 3D human avatars from photos, videos, or body measurements.
+  summary_ja: SMPLボディモデルをベースに構築されたAI搭載プラットフォームで、写真、ビデオ、または身体測定値から、高精度で業界標準の3D人間アバターを生成します。
+  thumbnail: assets/thumbnails/meshcapade-me-dca249.png
+  date_added: '2026-06-16'
+  source: agent
 - id: metahuman-creator-4597b5
   title: MetaHuman Creator
   area: characters

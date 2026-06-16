@@ -2159,6 +2159,110 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: facebookresearch/frankmocap
+- id: ace-step-70ff97
+  title: ACE-Step
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.00744
+    github: https://github.com/ace-step/ACE-Step-1.5
+  authors:
+  - Junmin Gong
+  - Yulin Song
+  - Wenxiao Zhao
+  - Sen Wang
+  - Shengyuan Xu
+  - Jing Guo
+  - Xuerui Yang
+  year: 2026
+  tags:
+  - local-ai
+  - music-generation
+  - suno-alternative
+  summary: A highly efficient open-source music foundation model designed to run locally on consumer hardware, generating high-quality full-length songs with vocals in seconds.
+  summary_ja: 一般的なコンシューマー向けハードウェアでローカル動作するように設計された、高効率なオープンソースの音楽基盤モデル。ボーカル入りの高品質なフルレングス楽曲を数秒で生成できます。
+  thumbnail: assets/thumbnails/ace-step-70ff97.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2602.00744'
+  repo: ace-step/ace-step-1.5
+- id: diffrhythm-b6acb1
+  title: DiffRhythm
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.01183
+    github: https://github.com/ASLP-lab/DiffRhythm
+  authors:
+  - Ziqian Ning
+  - Huakang Chen
+  - Yuepeng Jiang
+  - Chunbo Hao
+  - Guobin Ma
+  - Shuai Wang
+  - Jixun Yao
+  - Lei Xie
+  year: 2025
+  tags:
+  - diffusion
+  - lyrics-to-song
+  - music-generation
+  summary: A latent diffusion-based end-to-end music generation model that synthesizes full-length songs with expressive vocals and instrumental accompaniment directly from lyrics.
+  summary_ja: 潜在拡散モデル（Latent Diffusion）に基づくエンドツーエンドの音楽生成モデル。歌詞から表現力豊かなボーカルと伴奏を含むフルレングスの楽曲を直接合成します。
+  thumbnail: assets/thumbnails/diffrhythm-b6acb1.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2503.01183'
+  repo: aslp-lab/diffrhythm
+- id: yue-ca3e7a
+  title: YuE
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.08638
+    github: https://github.com/multimodal-art-projection/YuE
+  authors:
+  - Ruibin Yuan
+  - Hanfeng Lin
+  - Shuyue Guo
+  - Ge Zhang
+  - Jiahao Pan
+  - Yongyi Zang
+  - Haohe Liu
+  - Yiming Liang
+  year: 2025
+  tags:
+  - foundation-model
+  - lyrics-to-song
+  - music-generation
+  summary: An open-source foundation model for long-form music generation based on the LLaMA2 architecture, capable of generating full-length songs with coherent vocals and instrumental accompaniment from lyrics.
+  summary_ja: LLaMA2アーキテクチャをベースにしたオープンソースの長尺音楽生成基盤モデル。歌詞からボーカルと伴奏が調和したフルレングスの楽曲を生成することができます。
+  thumbnail: assets/thumbnails/yue-ca3e7a.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2503.08638'
+  repo: multimodal-art-projection/yue
+- id: audiocraft-ee6f3a
+  title: AudioCraft
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/facebookresearch/audiocraft
+  year: 2023
+  tags:
+  - audiocraft
+  - music-generation
+  - musicgen
+  summary: Meta's PyTorch library for deep learning research on audio generation, featuring MusicGen, a controllable text-to-music model with textual and melodic conditioning.
+  summary_ja: Metaが開発した音声生成のディープラーニング研究向けPyTorchライブラリ。テキストやメロディによる条件付けが可能な音楽生成モデル「MusicGen」を搭載しています。
+  thumbnail: assets/thumbnails/audiocraft-ee6f3a.png
+  date_added: '2026-06-16'
+  source: agent
+  repo: facebookresearch/audiocraft
 - id: audioldm-2-af2610
   title: AudioLDM 2
   area: audio
@@ -2639,6 +2743,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: cmajor-lang/cmajor
+- id: noisebandnet-2804bd
+  title: NoiseBandNet
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.08007
+    github: https://github.com/adrianbarahona/noisebandnet
+  authors:
+  - Adrián Barahona-Ríos
+  - Tom Collins
+  year: 2023
+  tags:
+  - ddsp
+  - filterbanks
+  - neural-synthesis
+  - sound-effects
+  summary: A neural sound synthesis model that uses filterbanks to generate controllable, time-varying sound effects. It allows designers to control the temporal and spectral characteristics of synthesized sounds, making it useful for interactive game audio.
+  summary_ja: フィルターバンクを用いて制御可能で時間変化する効果音を生成するニューラル音響合成モデル。時間的・スペクトル的特徴を制御でき、インタラクティブなゲームオーディオに適しています。
+  thumbnail: assets/thumbnails/noisebandnet-2804bd.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2307.08007'
+  repo: adrianbarahona/noisebandnet
 - id: prove-57805a
   title: ProVE
   area: audio
@@ -2683,6 +2811,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2110.07311'
+- id: ddsp-96b08c
+  title: DDSP
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2001.04643
+    github: https://github.com/magenta/ddsp
+  authors:
+  - Jesse Engel
+  - Lamtharn Hantrakul
+  - Chenjie Gu
+  - Adam Roberts
+  year: 2020
+  tags:
+  - dsp
+  - magenta
+  - neural-synthesis
+  - timbre-transfer
+  summary: A library that integrates classic digital signal processing elements (like oscillators, filters, and reverberation) with deep learning. It enables high-quality, interpretable, and data-efficient neural audio synthesis and timbre transfer.
+  summary_ja: オシレーターやフィルター、リバーブなどの古典的なデジタル信号処理（DSP）要素をディープラーニングと統合するライブラリ。高品質で解釈可能、かつデータ効率の良いニューラル音響合成や音色変換を可能にします。
+  thumbnail: assets/thumbnails/ddsp-96b08c.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2001.04643'
+  repo: magenta/ddsp
 - id: libpd-dfb433
   title: libpd
   area: audio
@@ -2759,6 +2913,63 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: supercollider/supercollider
+- id: the-synthesis-toolkit-in-c-stk-78678a
+  title: The Synthesis ToolKit in C++ (STK)
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/thestk/stk
+  authors:
+  - Perry R. Cook
+  - Gary P. Scavone
+  year: 1995
+  tags:
+  - cpp
+  - instrument-simulation
+  - physical-modeling
+  - synthesis
+  summary: A widely used open-source C++ library for real-time audio synthesis and physical modeling. It provides a set of unit generators and algorithms for creating physically modeled musical instruments and procedural sound effects.
+  summary_ja: リアルタイム音響合成と物理モデリングのための、広く使用されているオープンソースのC++ライブラリ。物理モデルに基づく楽器音やプロシージャルな効果音を作成するためのユニットジェネレーターとアルゴリズムを提供します。
+  thumbnail: assets/thumbnails/the-synthesis-toolkit-in-c-stk-78678a.png
+  date_added: '2026-06-16'
+  source: agent
+  repo: thestk/stk
+- id: hunyuanvideo-foley-5d8975
+  title: HunyuanVideo-Foley
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.16930
+    github: https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley
+    project: https://szczesnys.github.io/hunyuanvideo-foley/
+  authors:
+  - Shengwei An
+  - Yuan Ge
+  - Zhaofeng Shi
+  - Sicheng Yang
+  - Yuxuan Gu
+  - Zhiyong Wu
+  - Qiushi Zhu
+  - Jie Chen
+  - Yong Xu
+  - Zeng Zhao
+  - Rongjie Huang
+  - Zhou Zhao
+  year: 2025
+  tags:
+  - diffusion
+  - foley
+  - sfx
+  - video-to-audio
+  summary: HunyuanVideo-Foley is an open-source multimodal diffusion model for high-fidelity video-to-audio and text-to-audio foley generation, aligning visual and textual cues to generate synchronized sound effects.
+  summary_ja: 映像とテキストの入力から同期した高品質な効果音（フォーリー）を生成する、テンセントのオープンソース・マルチモーダル拡散モデル。
+  thumbnail: assets/thumbnails/hunyuanvideo-foley-5d8975.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2508.16930'
+  repo: tencent-hunyuan/hunyuanvideo-foley
 - id: audiolcm-fc7b8c
   title: AudioLCM
   area: audio
@@ -2818,6 +3029,62 @@ entries:
   source: agent
   arxiv_id: '2407.01494'
   repo: open-mmlab/foleycrafter
+- id: tango-2-2574e4
+  title: Tango 2
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.09956
+    github: https://github.com/declare-lab/tango
+  authors:
+  - Navonil Majumder
+  - Chia-Yu Hung
+  - Deepanway Ghosal
+  - Radha Chhabra
+  - Soujanya Poria
+  year: 2024
+  tags:
+  - diffusion
+  - dpo
+  - sfx
+  - text-to-audio
+  summary: Tango 2 is an aligned diffusion-based text-to-audio generation model fine-tuned using Direct Preference Optimization (DPO) to produce superior sound effects and environmental audio.
+  summary_ja: Direct Preference Optimization（DPO）を用いて微調整され、優れた効果音や環境音を出力する拡散ベースのテキスト音声生成モデル。
+  thumbnail: assets/thumbnails/tango-2-2574e4.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2404.09956'
+  repo: declare-lab/tango
+- id: make-an-audio-2-950c77
+  title: Make-An-Audio 2
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.18474
+    github: https://github.com/bytedance/Make-An-Audio-2
+  authors:
+  - Jiawei Huang
+  - Yi Ren
+  - Rongjie Huang
+  - Dongchao Yang
+  - Zhenhui Ye
+  - Chen Zhang
+  - Jinglin Liu
+  - Xiang Yin
+  year: 2023
+  tags:
+  - diffusion
+  - sfx
+  - text-to-audio
+  summary: Make-An-Audio 2 is a latent diffusion-based text-to-audio model that enhances temporal consistency and semantic alignment for high-fidelity sound effects generation.
+  summary_ja: 時間的な一貫性とセマンティックな整合性を高め、高品質な効果音を生成する潜在拡散ベースのテキスト音声生成モデル。
+  thumbnail: assets/thumbnails/make-an-audio-2-950c77.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2305.18474'
+  repo: bytedance/make-an-audio-2
 - id: tango-6053cd
   title: Tango
   area: audio
@@ -2844,6 +3111,64 @@ entries:
   source: agent
   arxiv_id: '2304.13731'
   repo: declare-lab/tango
+- id: soulx-singer-cf1447
+  title: SoulX-Singer
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.07803
+    github: https://github.com/Soul-AILab/SoulX-Singer
+  authors:
+  - Jiale Qian
+  - Hao Meng
+  - Tian Zheng
+  - Pengcheng Zhu
+  - Haopeng Lin
+  - Yuhang Dai
+  - Hanke Xie
+  - Wenxiao Cao
+  year: 2026
+  tags:
+  - svs
+  - voice-cloning
+  - zero-shot
+  summary: A high-quality, zero-shot singing voice synthesis system designed for industrial deployment. It supports controllable singing generation conditioned on symbolic musical scores (MIDI) or melodic guides, enabling zero-shot voice cloning.
+  summary_ja: 産業用デプロイ向けに設計された、高品質なゼロショット歌声合成（SVS）システム。MIDIなどの楽譜情報やメロディガイドを条件とした制御可能な歌声生成をサポートし、ゼロショットでのボイスクローニングを可能にします。
+  thumbnail: assets/thumbnails/soulx-singer-cf1447.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2602.07803'
+  repo: soul-ailab/soulx-singer
+- id: tcsinger-2-865c8f
+  title: TCSinger 2
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.14910
+    github: https://github.com/AaronZ345/TCSinger2
+  authors:
+  - Yu Zhang
+  - Wenxiang Guo
+  - Changhao Pan
+  - Dongyu Yao
+  - Zhiyuan Zhu
+  - Ziyue Jiang
+  - Yuhan Wang
+  - Tao Jin
+  year: 2025
+  tags:
+  - multilingual
+  - style-control
+  - zero-shot
+  summary: A customizable multilingual zero-shot singing voice synthesis system that operates without relying on phoneme and note boundary annotations. It supports multi-level style control via diverse prompts for high-quality cross-lingual singing.
+  summary_ja: 音素や音符の境界アノテーションに依存せずに動作する、カスタマイズ可能な多言語ゼロショット歌声合成システム。多様なプロンプトを介したマルチレベルのスタイル制御をサポートし、高品質なクロスリンガル歌唱を実現します。
+  thumbnail: assets/thumbnails/tcsinger-2-865c8f.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2505.14910'
+  repo: aaronz345/tcsinger2
 - id: fish-diffusion-6a2f1c
   title: Fish Diffusion
   area: audio
@@ -2908,6 +3233,32 @@ entries:
   source: agent
   arxiv_id: '2210.15987'
   repo: nnsvs/nnsvs
+- id: diffsinger-e0078d
+  title: DiffSinger
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2105.02446
+    github: https://github.com/MoonInTheRiver/DiffSinger
+  authors:
+  - Jinglin Liu
+  - Chengxi Li
+  - Yi Ren
+  - Feiyang Chen
+  - Zhou Zhao
+  year: 2021
+  tags:
+  - diffusion
+  - singing-synthesis
+  - svs
+  summary: An influential singing voice synthesis (SVS) system based on a shallow diffusion mechanism. It generates high-quality mel-spectrograms from music scores and lyrics, addressing over-smoothing and training instability issues in traditional models.
+  summary_ja: 浅い拡散モデル（Shallow Diffusion Mechanism）に基づく歌声合成システム。楽譜と歌詞から高品質なメルスペクトログラムを生成し、従来のモデルにおける過度な平滑化や学習の不安定性の課題を解決します。
+  thumbnail: assets/thumbnails/diffsinger-e0078d.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2105.02446'
+  repo: moonintheriver/diffsinger
 - id: openutau-05b715
   title: OpenUtau
   area: audio
@@ -3058,6 +3409,56 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hexgrad/kokoro
+- id: parler-tts-58a529
+  title: Parler-TTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.01912
+    github: https://github.com/huggingface/parler-tts
+    hf: https://huggingface.co/parler-tts
+  authors:
+  - Dan Lyth
+  - Simon King
+  year: 2024
+  tags:
+  - speech-synthesis
+  - tts
+  - voice-generation
+  summary: An open-source text-to-speech model and training library by Hugging Face that generates high-quality, natural-sounding speech controllable via natural language prompts specifying attributes like gender, background noise, speaking rate, and pitch.
+  summary_ja: Hugging Faceによるオープンソースのテキスト読み上げ（TTS）モデルおよび学習ライブラリ。性別、背景ノイズ、話速、ピッチなどを自然言語のプロンプトで指定し、高品質で自然な音声を制御・生成できる。
+  thumbnail: assets/thumbnails/parler-tts-58a529.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2402.01912'
+  repo: huggingface/parler-tts
+- id: matcha-tts-f09894
+  title: Matcha-TTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.03199
+    github: https://github.com/shivammehta25/Matcha-TTS
+  authors:
+  - Shivam Mehta
+  - Ruibo Tu
+  - Jonas Beskow
+  - Eva Szekely
+  - Gustav Eje Henter
+  year: 2023
+  tags:
+  - fast-inference
+  - flow-matching
+  - tts
+  summary: A fast, lightweight, and high-quality non-autoregressive text-to-speech architecture based on conditional flow matching (CFM) that achieves rapid synthesis with fewer steps.
+  summary_ja: 条件付きフローマッチング（CFM）に基づく、高速・軽量かつ高品質な非自己回帰型テキスト読み上げ（TTS）アーキテクチャ。少ないステップ数で迅速な音声合成を実現する。
+  thumbnail: assets/thumbnails/matcha-tts-f09894.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2309.03199'
+  repo: shivammehta25/matcha-tts
 - id: melotts-a19033
   title: MeloTTS
   area: audio
@@ -3122,6 +3523,36 @@ entries:
   source: seed
   arxiv_id: '2106.06103'
   repo: jaywalnut310/vits
+- id: maskgct-6e8729
+  title: MaskGCT
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.00750
+    github: https://github.com/open-mmlab/Amphion
+    hf: https://huggingface.co/amphion/MaskGCT
+  authors:
+  - Yuancheng Wang
+  - Haoyue Zhan
+  - Liwei Liu
+  - Ruihong Zeng
+  - Haotian Guo
+  - Jiachen Zheng
+  - Qiang Zhang
+  - Xueyao Zhang
+  year: 2024
+  tags:
+  - masked-generative-transformer
+  - tts
+  - voice-cloning
+  summary: A fully non-autoregressive zero-shot text-to-speech model that eliminates the need for explicit text-to-speech alignment and phone-level duration prediction. It uses a two-stage mask-and-predict paradigm with semantic and acoustic tokens to generate highly natural and similar voices.
+  summary_ja: テキストと音声の明示的なアライメントや音素レベルの音長予測を必要としない、完全非自己回帰型のゼロショットTTSモデル。セマンティックトークンとアコースティックトークンを用いた2段階のマスク＆予測パラダイムにより、極めて自然で類似度の高い音声を生成します。
+  thumbnail: assets/thumbnails/maskgct-6e8729.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2409.00750'
+  repo: open-mmlab/amphion
 - id: seed-vc-0ba943
   title: Seed-VC
   area: audio
@@ -3199,6 +3630,25 @@ entries:
   source: agent
   arxiv_id: '2312.09911'
   repo: open-mmlab/amphion
+- id: bark-15eabd
+  title: Bark
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    github: https://github.com/suno-ai/bark
+    hf: https://huggingface.co/suno/bark
+  year: 2023
+  tags:
+  - text-to-audio
+  - tts
+  - voice-cloning
+  summary: A transformer-based text-to-audio model that can generate highly realistic, multilingual speech, music, and background noise. It supports voice cloning and non-verbal communication like laughter, sighs, and crying.
+  summary_ja: Sunoによって開発された、トランスフォーマーベースのテキスト音声合成モデル。極めてリアルな多言語音声、音楽、環境音を生成でき、音声クローンや笑い声・ため息などの非言語表現にも対応しています。
+  thumbnail: assets/thumbnails/bark-15eabd.png
+  date_added: '2026-06-16'
+  source: agent
+  repo: suno-ai/bark
 - id: openvoice-82c133
   title: OpenVoice
   area: audio
@@ -3241,6 +3691,39 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: rvc-project/retrieval-based-voice-conversion-webui
+- id: vall-e-x-4ca180
+  title: VALL-E X
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.03926
+    github: https://github.com/Plachtaa/VALL-E-X
+  authors:
+  - Ziqiang Zhang
+  - Long Zhou
+  - Yakun Song
+  - Sanyuan Chen
+  - Yu Wu
+  - Shujie Liu
+  - Yaqi Chen
+  - Yan Lu
+  - Jinyu Li
+  - Sheng Zhao
+  - Furu Wei
+  year: 2023
+  tags:
+  - cross-lingual
+  - neural-codec
+  - tts
+  - voice-cloning
+  summary: An open-source implementation of Microsoft's cross-lingual neural codec language model for zero-shot text-to-speech and voice cloning. It can synthesize personalized speech in another language using only a 3-second audio prompt of an unseen speaker.
+  summary_ja: Microsoftの多言語対応ニューラルコーデック言語モデル「VALL-E X」のオープンソース実装。わずか3秒の未学習話者の音声プロンプトから、その話者の声質を維持したまま他言語でのパーソナライズされた音声を合成できます。
+  thumbnail: assets/thumbnails/vall-e-x-4ca180.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2303.03926'
+  repo: plachtaa/vall-e-x
 - id: coqui-tts-644773
   title: Coqui TTS
   area: audio
@@ -3259,6 +3742,63 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: coqui-ai/tts
+- id: anigen-unified-s-3-fields-for-animatable-3d-asset-generation-855342
+  title: 'AniGen: Unified S^3 Fields for Animatable 3D Asset Generation'
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.08746
+    github: https://github.com/VAST-AI-Research/AniGen
+  authors:
+  - Yi-Hua Huang
+  - Zi-Xin Zou
+  - Yuting He
+  - Chirui Chang
+  - Cheng-Feng Pu
+  - Ziyi Yang
+  - Yuan-Chen Guo
+  - Yan-Pei Cao
+  year: 2026
+  tags:
+  - 3d-generation
+  - rigging
+  - skeleton
+  - skinning
+  summary: AniGen is a unified framework that directly generates animation-ready 3D assets from a single image. It represents shape, skeleton, and skinning as mutually consistent Shape, Skeleton, and Skin (S^3) fields over a shared spatial domain, avoiding the topological inconsistencies of post-hoc auto-rigging.
+  summary_ja: AniGenは、単一の画像からアニメーション可能な3Dアセットを直接生成する統一フレームワークです。形状、骨格、スキンを、共有された空間ドメイン上で相互に一貫したShape、Skeleton、Skin（S^3）フィールドとして表現し、事後的な自動リギングで発生しがちなトポロジーの不整合を回避します。
+  thumbnail: assets/thumbnails/anigen-unified-s-3-fields-for-animatable-3d-asset-generation-855342.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2604.08746'
+  repo: vast-ai-research/anigen
+- id: anymate-a-dataset-and-baselines-for-learning-3d-object-riggi-f4adf2
+  title: 'Anymate: A Dataset and Baselines for Learning 3D Object Rigging'
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.06227
+    github: https://github.com/yfde/Anymate
+  authors:
+  - Yufan Deng
+  - Yuhao Zhang
+  - Chen Geng
+  - Shangzhe Wu
+  - Jiajun Wu
+  year: 2025
+  tags:
+  - dataset
+  - rigging
+  - skeleton
+  - skinning
+  summary: Anymate is a large-scale dataset of 230K 3D assets paired with expert-crafted rigging and skinning information, alongside a learning-based auto-rigging framework. The framework utilizes three sequential modules to predict joints, connectivity, and skinning weights directly from static 3D meshes.
+  summary_ja: Anymateは、専門家が作成したリギングおよびスキンウェイト情報を含む23万件の3Dアセットからなる大規模データセットと、学習ベースの自動リギングフレームワークです。このフレームワークは、静的な3Dメッシュから関節、接続性、スキンウェイトを直接予測する3つのシーケンシャルなモジュールで構成されています。
+  thumbnail: assets/thumbnails/anymate-a-dataset-and-baselines-for-learning-3d-object-riggi-f4adf2.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2505.06227'
+  repo: yfde/anymate
 - id: magicarticulate-8e4c1b
   title: MagicArticulate
   area: characters
@@ -3322,6 +3862,36 @@ entries:
   source: seed
   arxiv_id: '2504.12451'
   repo: vast-ai-research/unirig
+- id: humanrig-learning-automatic-rigging-for-humanoid-character-i-02d9e9
+  title: 'HumanRig: Learning Automatic Rigging for Humanoid Character in a Large Scale Dataset'
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.02317
+    github: https://github.com/c8241998/HumanRig
+  authors:
+  - Zedong Chu
+  - Feng Xiong
+  - Meiduo Liu
+  - Jinzhi Zhang
+  - Mingqi Shao
+  - Zhaoxu Sun
+  - Di Wang
+  - Mu Xu
+  year: 2024
+  tags:
+  - dataset
+  - humanoid
+  - rigging
+  - skinning
+  summary: HumanRig is a large-scale dataset and deep learning framework designed specifically for automatic humanoid character rigging. It features over 11,000 T-posed meshes with uniform skeleton topologies, enabling robust joint prediction and skinning weight estimation for diverse character designs.
+  summary_ja: HumanRigは、人型キャラクターの自動リギングに特化して設計された大規模データセットおよびディープラーニングフレームワークです。統一された骨格トポロジーを持つ11,000以上のTポーズメッシュを収録し、多様なキャラクターデザインに対する堅牢な関節予測とスキンウェイト推定を可能にします。
+  thumbnail: assets/thumbnails/humanrig-learning-automatic-rigging-for-humanoid-character-i-02d9e9.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2412.02317'
+  repo: c8241998/humanrig
 - id: make-it-animatable-c80797
   title: Make-It-Animatable
   area: characters
@@ -3557,6 +4127,59 @@ entries:
   source: agent
   arxiv_id: '2502.20220'
   repo: tobias-kirschstein/avat3r
+- id: exavatar-c9704a
+  title: ExAvatar
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.21686
+    github: https://github.com/mks0601/ExAvatar_RELEASE
+  authors:
+  - Gyeongsik Moon
+  - Takaaki Shiratori
+  - Shunsuke Saito
+  year: 2024
+  tags:
+  - 3d-avatar
+  - gaussian-splatting
+  - smpl-x
+  - whole-body
+  summary: A framework for learning expressive whole-body 3D human avatars from a short monocular video. It combines the SMPL-X whole-body parametric mesh model with 3D Gaussian Splatting (3DGS) to support body motions, facial expressions, and hand movements.
+  summary_ja: 短い単眼ビデオから、表情や手の動き、全身の動作をサポートする表現力豊かな3Dアバターを学習するフレームワーク。SMPL-Xパラメトリックメッシュモデルと3D Gaussian Splatting（3DGS）を組み合わせることで、詳細な表現を可能にしています。
+  thumbnail: assets/thumbnails/exavatar-c9704a.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2407.21686'
+  repo: mks0601/exavatar_release
+- id: gaussianavatars-1eef85
+  title: GaussianAvatars
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02069
+    github: https://github.com/ShenhanQian/GaussianAvatars
+  authors:
+  - Shenhan Qian
+  - Tobias Kirschstein
+  - Liam Schoneveld
+  - Davide Davoli
+  - Simon Giebenhain
+  - Matthias Nießner
+  year: 2023
+  tags:
+  - 3dmm
+  - facial-expression
+  - gaussian-splatting
+  - head-avatar
+  summary: A method for creating photorealistic head avatars that are fully controllable in terms of expression, pose, and viewpoint by rigging 3D Gaussian splats to a parametric morphable face model.
+  summary_ja: 3D Gaussian Splattingをパラメトリックなモーファブルフェイスモデルにリギングすることで、表情、ポーズ、視点を完全に制御可能なフォトリアルな3Dヘッドアバターを作成する手法。
+  thumbnail: assets/thumbnails/gaussianavatars-1eef85.png
+  date_added: '2026-06-16'
+  source: agent
+  arxiv_id: '2312.02069'
+  repo: shenhanqian/gaussianavatars
 - id: avatarclip-b2cf92
   title: AvatarCLIP
   area: characters
