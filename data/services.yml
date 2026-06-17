@@ -575,6 +575,95 @@ entries:
   thumbnail: assets/thumbnails/metahuman-creator-4597b5.png
   date_added: '2026-06-13'
   source: seed
+- id: character-creator-cc4-ebc16d
+  title: Character Creator (CC4)
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/character-creator/
+  year: 2022
+  tags:
+  - 3d-character
+  - realistic
+  - rigging
+  - stylized
+  summary: A premier 3D character creation and customization software widely used in game development and animation. It allows artists to generate, morph, and dress realistic or stylized 3D characters, complete with full-body and facial rigs compatible with Unreal Engine, Unity, Blender, and Maya.
+  summary_ja: ゲーム開発やアニメーション制作で広く使用されている、業界標準の3Dキャラクター作成・カスタマイズソフトウェア。リアルまたはデフォルメされた3Dキャラクターを生成、モーフ、着せ替えでき、Unreal Engine、Unity、Blender、Mayaと互換性のある全身およびフェイシャルリグを備えています。
+  thumbnail: assets/thumbnails/character-creator-cc4-ebc16d.png
+  date_added: '2026-06-17'
+  source: agent
+- id: vroid-studio-a40bc2
+  title: VRoid Studio
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://vroid.com/en/studio
+  year: 2021
+  tags:
+  - 3d-avatar
+  - anime-character
+  - pixiv
+  - vrm
+  summary: A free 3D character modeling software developed by Pixiv that allows users to create anime-style humanoid avatars. It features intuitive drawing-like tools for hair design, texture painting, and facial customization, exporting models in the standard VRM format.
+  summary_ja: pixivが開発した、直感的な操作でアニメ調の3Dキャラクター（アバター）を作成できる無料の3Dモデリングソフトウェア。絵を描くような感覚で髪型をデザインしたり、テクスチャをペイントしたり、表情をカスタマイズでき、標準的なVRM形式で出力可能です。
+  thumbnail: assets/thumbnails/vroid-studio-a40bc2.png
+  date_added: '2026-06-17'
+  source: agent
+- id: spline-ai-89a525
+  title: Spline AI
+  area: gen-3d
+  task: 3d-editing
+  kind: proprietary
+  links:
+    website: https://spline.design/
+  year: 2023
+  tags:
+  - 3d-editing
+  - browser-tool
+  - collaborative
+  summary: A collaborative, browser-based 3D design and editing tool that integrates generative AI features to generate and modify 3D objects, textures, and animations via natural language.
+  summary_ja: 自然言語プロンプトを介して3Dオブジェクト、テクスチャ、アニメーションの生成や編集を行える、ブラウザベースの協調型3Dデザイン・編集ツール。
+  thumbnail: assets/thumbnails/spline-ai-89a525.png
+  date_added: '2026-06-17'
+  source: agent
+- id: ragnar-cad-c079df
+  title: Ragnar CAD
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://ragnar.build/
+  year: 2025
+  tags:
+  - brep
+  - cad
+  - sketch-to-cad
+  - text-to-cad
+  summary: An AI-powered CAD platform that converts text descriptions and hand-drawn sketches into precise, editable 3D CAD models (B-Rep geometry) with STEP and STL export.
+  summary_ja: テキストの記述や手書きのスケッチを、STEPやSTL形式でエクスポート可能な高精度で編集可能な3D CADモデル（B-Repジオメトリ）に変換するAI搭載CADプラットフォーム。
+  thumbnail: assets/thumbnails/ragnar-cad-c079df.png
+  date_added: '2026-06-17'
+  source: agent
+- id: zoo-text-to-cad-ad65da
+  title: Zoo Text-to-CAD
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://zoo.dev/zookeeper
+  year: 2024
+  tags:
+  - api
+  - brep
+  - cad
+  - text-to-cad
+  summary: A conversational CAD agent and API (Zookeeper) that generates production-ready, editable B-Rep CAD files and meshes from natural language prompts, bypassing traditional mesh-only 3D generation.
+  summary_ja: 自然言語のプロンプトから、編集可能なB-Rep（境界表現）CADファイルやメッシュを生成する対話型CADエージェントおよびAPI（Zookeeper）。従来のメッシュのみの3D生成とは異なり、製造に適したCADデータを直接出力できる。
+  thumbnail: assets/thumbnails/zoo-text-to-cad-ad65da.png
+  date_added: '2026-06-17'
+  source: agent
 - id: meshy-c6012a
   title: Meshy
   area: gen-3d
@@ -592,6 +681,23 @@ entries:
   thumbnail: assets/thumbnails/meshy-c6012a.png
   date_added: '2026-06-13'
   source: seed
+- id: kaedim-2dc2c1
+  title: Kaedim
+  area: gen-3d
+  task: mesh-generation
+  kind: proprietary
+  links:
+    website: https://www.kaedim3d.com/
+  year: 2020
+  tags:
+  - game-assets
+  - image-to-3d
+  - mesh
+  summary: A professional AI-powered 3D asset creation platform that transforms 2D images, sketches, and reference packs into production-ready 3D meshes. It is widely used by game studios to accelerate asset pipelines while maintaining creative control.
+  summary_ja: 2D画像、スケッチ、リファレンスパックをプロダクション品質の3Dメッシュに変換する、プロフェッショナル向けのAI搭載3Dアセット作成プラットフォーム。ゲームスタジオでアセット制作パイプラインの高速化に広く使用されている。
+  thumbnail: assets/thumbnails/kaedim-2dc2c1.png
+  date_added: '2026-06-17'
+  source: agent
 - id: genie-google-deepmind-6f3f03
   title: Genie (Google DeepMind)
   area: gen-3d
