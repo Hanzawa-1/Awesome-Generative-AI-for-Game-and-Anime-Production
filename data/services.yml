@@ -970,6 +970,60 @@ entries:
   thumbnail: assets/thumbnails/psoft-pencil-4-d760d5.png
   date_added: '2026-06-18'
   source: agent
+- id: clipdrop-f01b6a
+  title: Clipdrop
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://clipdrop.co/
+  year: 2020
+  tags:
+  - cleanup
+  - image-editing
+  - inpainting
+  - outpainting
+  summary: An AI-powered visual editing suite by Stability AI/Jasper that offers advanced tools for object removal (Cleanup), image outpainting (Uncrop), relighting, and background replacement.
+  summary_ja: オブジェクト削除（Cleanup）、画像アウトペインティング（Uncrop）、リライティング、背景置換などの高度なツールを提供する、Stability AI/JasperによるAI搭載ビジュアル編集スイート。
+  thumbnail: assets/thumbnails/clipdrop-f01b6a.png
+  date_added: '2026-06-19'
+  source: agent
+- id: freepik-pikaso-4b244d
+  title: Freepik Pikaso
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.freepik.com/pikaso
+  year: 2023
+  tags:
+  - browser-based
+  - proprietary
+  - real-time
+  - sketch-to-image
+  summary: A free, browser-based real-time sketch-to-image generator that transforms rough drawings, shapes, and icons into detailed visual artwork instantly.
+  summary_ja: 大まかな描画、図形、アイコンを詳細なビジュアルアートワークに即座に変換する、無料のブラウザベースのリアルタイムスケッチ画像生成ツール。
+  thumbnail: assets/thumbnails/freepik-pikaso-4b244d.png
+  date_added: '2026-06-19'
+  source: agent
+- id: krea-ai-8a10e7
+  title: Krea AI
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.krea.ai/
+  year: 2023
+  tags:
+  - canvas
+  - proprietary
+  - real-time
+  - sketch-to-image
+  summary: A real-time AI creative suite featuring a live canvas workflow that instantly converts rough sketches and drawings into polished, high-quality images as the user draws.
+  summary_ja: ユーザーが描画するのと同時に、大まかなスケッチや図画を洗練された高品質な画像に即座に変換する、ライブキャンバスワークフローを備えたリアルタイムAIクリエイティブスイート。
+  thumbnail: assets/thumbnails/krea-ai-8a10e7.png
+  date_added: '2026-06-19'
+  source: agent
 - id: adobe-firefly-api-aa004e
   title: Adobe Firefly API
   area: image-2d

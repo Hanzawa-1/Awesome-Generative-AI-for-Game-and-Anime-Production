@@ -9242,6 +9242,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: delt06/urp-toon-shader
+- id: semanticcontrol-5cec19
+  title: SemanticControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.21938
+    github: https://github.com/mung3477/SemanticControl
+  authors:
+  - Woosung Joung
+  - Daewon Chae
+  - Jinkyu Kim
+  year: 2025
+  tags:
+  - conditioning
+  - controlnet
+  - training-free
+  summary: A training-free approach for handling loosely aligned visual conditions in ControlNet, enabling robust image generation even when spatial conditions do not perfectly match the text prompt.
+  summary_ja: ControlNetにおいて緩く整列された視覚的条件を処理するための学習不要のアプローチであり、空間的条件がテキストプロンプトと完全に一致しない場合でも堅牢な画像生成を可能にする。
+  thumbnail: assets/thumbnails/semanticcontrol-5cec19.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2509.21938'
+  repo: mung3477/semanticcontrol
 - id: controlnext-powerful-and-efficient-control-for-image-and-vid-e54d0f
   title: 'ControlNeXt: Powerful and Efficient Control for Image and Video Generation'
   area: image-2d
@@ -9297,6 +9321,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2404.06451'
+- id: videox-fun-9638ca
+  title: VideoX-Fun
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/aigc-apps/VideoX-Fun
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - flux
+  - video-generation
+  summary: A flexible framework for controllable image and video generation that hosts the official implementation of multi-functional ControlNet Union models, supporting Canny, depth, pose, and MLSD controls.
+  summary_ja: Canny、深度、ポーズ、MLSDなどの制御をサポートする多機能なControlNet Unionモデルの公式実装を提供する、制御可能な画像および動画生成のための柔軟なフレームワーク。
+  thumbnail: assets/thumbnails/videox-fun-9638ca.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: aigc-apps/videox-fun
 - id: controlnet-f9ea86
   title: ControlNet
   area: image-2d
@@ -9317,6 +9360,30 @@ entries:
   source: seed
   arxiv_id: '2302.05543'
   repo: lllyasviel/controlnet
+- id: controlnet-xs-f0d7d0
+  title: ControlNet-XS
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.06573
+    github: https://github.com/vislearn/ControlNet-XS
+  authors:
+  - Denis Zavadski
+  - Johann-Friedrich Feiden
+  - Carsten Rother
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - efficient
+  summary: A highly efficient architecture for controllable text-to-image generation that treats the control process as a feedback-control system, reducing model size and computational overhead while maintaining control quality.
+  summary_ja: 制御プロセスをフィードバック制御システムとして捉えることで、制御品質を維持しながらモデルサイズと計算オーバーヘッドを削減する、高効率なテキスト画像生成制御アーキテクチャ。
+  thumbnail: assets/thumbnails/controlnet-xs-f0d7d0.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2312.06573'
+  repo: vislearn/controlnet-xs
 - id: ip-adapter-679e42
   title: IP-Adapter
   area: image-2d
@@ -9362,6 +9429,33 @@ entries:
   source: agent
   arxiv_id: '2312.03079'
   repo: shariqfarooq123/loosecontrol
+- id: uni-controlnet-ec907b
+  title: Uni-ControlNet
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.16322
+    github: https://github.com/ShihaoZhaoZSH/Uni-ControlNet
+  authors:
+  - Shihao Zhao
+  - Dongdong Chen
+  - Jianmin Bao
+  - Wengang Zhou
+  - Lu Yuan
+  - Nenghai Yu
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - multi-control
+  summary: An all-in-one controllable diffusion framework that allows simultaneous utilization of multiple local and global controls in a flexible, composable manner within a single model using lightweight adapters.
+  summary_ja: 軽量なアダプターを使用し、単一のモデル内で複数の局所的および大域的な制御を柔軟かつ組み合わせ可能な方法で同時に利用できるようにする、オールインワンの制御可能拡散フレームワーク。
+  thumbnail: assets/thumbnails/uni-controlnet-ec907b.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2305.16322'
+  repo: shihaozhaozsh/uni-controlnet
 - id: flux-1-kontext-dev-807f2a
   title: FLUX.1 Kontext [dev]
   area: image-2d
@@ -9428,6 +9522,54 @@ entries:
   source: agent
   arxiv_id: '2403.06976'
   repo: tencentarc/brushnet
+- id: comfyui-inpaint-nodes-5cff12
+  title: ComfyUI Inpaint Nodes
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    github: https://github.com/Acly/comfyui-inpaint-nodes
+  year: 2024
+  tags:
+  - comfyui
+  - inpainting
+  - lama
+  - outpainting
+  summary: A collection of custom nodes for ComfyUI designed to improve inpainting and outpainting workflows, supporting models like Fooocus inpaint for SDXL, LaMa, and MAT.
+  summary_ja: SDXL用のFooocusインペイントモデル、LaMa、MATなどのモデルをサポートし、インペインティングおよびアウトペインティングのワークフローを改善するために設計されたComfyUI用カスタムノード群。
+  thumbnail: assets/thumbnails/comfyui-inpaint-nodes-5cff12.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: acly/comfyui-inpaint-nodes
+- id: designedit-ae06c6
+  title: DesignEdit
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.14487
+    github: https://github.com/design-edit/DesignEdit
+  authors:
+  - Yueru Jia
+  - Yuhui Yuan
+  - Aosong Cheng
+  - Chuke Wang
+  - Ji Li
+  - Huizhu Jia
+  - Shanghang Zhang
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - inpainting
+  - outpainting
+  summary: A training-free multi-layered latent diffusion framework that unifies various spatial-aware image editing tasks (such as inpainting, outpainting, moving, and resizing) by decomposing the image into layers.
+  summary_ja: 画像をレイヤーに分解することで、インペインティング、アウトペインティング、移動、リサイズなどの様々な空間認識画像編集タスクを統合する、トレーニング不要のマルチレイヤー潜在拡散フレームワーク。
+  thumbnail: assets/thumbnails/designedit-ae06c6.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2403.14487'
+  repo: design-edit/designedit
 - id: flux-controlnet-inpainting-c00cab
   title: FLUX ControlNet Inpainting
   area: image-2d
@@ -9446,6 +9588,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: alimama-creative/flux-controlnet-inpainting
+- id: anytext-0a4f05
+  title: AnyText
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.03054
+    github: https://github.com/tyxsspa/AnyText
+  authors:
+  - Yuxiang Tuo
+  - Wangmeng Xiang
+  - Jun-Yan He
+  - Yifeng Geng
+  - Xuansong Xie
+  year: 2023
+  tags:
+  - diffusion
+  - inpainting
+  - multilingual
+  - text-editing
+  summary: A diffusion-based multilingual visual text generation and editing model designed to render accurate and coherent text within images, supporting both text generation and text editing/inpainting.
+  summary_ja: 画像内に正確で一貫したテキストを描画するために設計された、拡散モデルベースの多言語ビジュアルテキスト生成および編集モデル。テキスト生成とテキスト編集・インペインティングの両方をサポートする。
+  thumbnail: assets/thumbnails/anytext-0a4f05.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2311.03054'
+  repo: tyxsspa/anytext
 - id: dragdiffusion-170304
   title: DragDiffusion
   area: image-2d
@@ -9475,6 +9644,33 @@ entries:
   source: agent
   arxiv_id: '2306.14435'
   repo: yujun-shi/dragdiffusion
+- id: hd-painter-757a7e
+  title: HD-Painter
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.14091
+    github: https://github.com/Picsart-AI-Research/HD-Painter
+  authors:
+  - Hayk Manukyan
+  - Andranik Sargsyan
+  - Barsegh Atanyan
+  - Zhangyang Wang
+  - Shant Navasardyan
+  - Humphrey Shi
+  year: 2023
+  tags:
+  - diffusion
+  - high-resolution
+  - inpainting
+  summary: A training-free approach for high-resolution and prompt-faithful text-guided image inpainting, improving alignment with user prompts and visual quality in masked regions.
+  summary_ja: ユーザープロンプトとの整合性とマスク領域の視覚的品質を向上させる、高解像度かつプロンプトに忠実なテキストガイド型画像インペインティングのためのトレーニング不要のアプローチ。
+  thumbnail: assets/thumbnails/hd-painter-757a7e.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2312.14091'
+  repo: picsart-ai-research/hd-painter
 - id: inpaint-anything-0bc8dc
   title: Inpaint Anything
   area: image-2d
@@ -9810,6 +10006,36 @@ entries:
   source: agent
   arxiv_id: '2108.01073'
   repo: ermongroup/sdedit
+- id: colorizediffusionxl-5d2fc3
+  title: ColorizeDiffusionXL
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.05971
+    github: https://github.com/tellurion-kanata/ColorizeDiffusionXL
+  authors:
+  - Dingkun Yan
+  - Xinrui Wang
+  - Ru Wang
+  - Zhuoru Li
+  - Jinze Yu
+  - Yusuke Iwasawa
+  - Yutaka Matsuo
+  - Jiaxian Guo
+  year: 2026
+  tags:
+  - colorization
+  - diffusion
+  - sdxl
+  - sketch
+  summary: An SDXL-based reference-guided sketch colorization framework that directly minimizes the distribution shift between training and test data, achieving high-resolution (1024px) character colorization and geometry disentanglement.
+  summary_ja: 学習データとテストデータの分布シフトを直接最小化することで、高解像度（1024px）のキャラクター彩色と幾何学的もつれ戻しを実現する、SDXLベースの参照画像ガイド型線画彩色フレームワーク。
+  thumbnail: assets/thumbnails/colorizediffusionxl-5d2fc3.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2603.05971'
+  repo: tellurion-kanata/colorizediffusionxl
 - id: instanceanimator-multi-instance-sketch-video-colorization-b0b340
   title: 'InstanceAnimator: Multi-Instance Sketch Video Colorization'
   area: image-2d
@@ -10164,6 +10390,31 @@ entries:
   source: agent
   arxiv_id: '2403.18342'
   repo: ykdai/basicpbc
+- id: lvcd-d856fc
+  title: LVCD
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.12960
+    github: https://github.com/luckyhzt/LVCD
+  authors:
+  - Zhitong Huang
+  - Mohan Zhang
+  - Jing Liao
+  year: 2024
+  tags:
+  - animation
+  - colorization
+  - diffusion
+  - video
+  summary: A video diffusion framework for reference-based lineart video colorization that leverages a pretrained video diffusion model with sketch-guided ControlNet and reference attention to produce temporally consistent, high-quality animation videos.
+  summary_ja: 事前学習済みのビデオ拡散モデルにスケッチガイド付きControlNetと参照アテンションを組み合わせることで、時間的一貫性のある高品質なアニメーション動画を生成する、参照画像ベースの線画動画彩色フレームワーク。
+  thumbnail: assets/thumbnails/lvcd-d856fc.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2409.12960'
+  repo: luckyhzt/lvcd
 - id: paint-bucket-colorization-using-anime-character-color-design-5e72e0
   title: Paint Bucket Colorization Using Anime Character Color Design Sheets
   area: image-2d
@@ -10192,6 +10443,31 @@ entries:
   source: agent
   arxiv_id: '2410.19424'
   repo: ykdai/basicpbc
+- id: style2paints-a76913
+  title: Style2Paints
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1706.03319
+    github: https://github.com/lllyasviel/style2paints
+  authors:
+  - Lvmin Zhang
+  - Yi Ji
+  - Xin Lin
+  year: 2017
+  tags:
+  - anime
+  - colorization
+  - gan
+  - sketch
+  summary: A pioneering AI-driven anime sketch colorization tool that allows users to colorize line art using style references and color hints, widely recognized for its high-quality and natural shading results.
+  summary_ja: スタイル参照画像やカラーヒントを用いて線画を自動彩色する、先駆的なAIアニメ線画彩色ツール。高品質で自然な陰影処理を実現することで広く知られている。
+  thumbnail: assets/thumbnails/style2paints-a76913.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '1706.03319'
+  repo: lllyasviel/style2paints
 - id: anilines-anime-lineart-extractor-29f61e
   title: AniLines (Anime Lineart Extractor)
   area: image-2d
@@ -10234,6 +10510,29 @@ entries:
   source: agent
   arxiv_id: '2501.00816'
   repo: rane7/mixsa
+- id: one-shot-reference-based-structure-aware-image-to-sketch-syn-d58081
+  title: One-Shot Reference-based Structure-Aware Image to Sketch Synthesis
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/Ref2Sketch-SA/Ref2Sketch-SA
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/33000
+  authors:
+  - Chang Wook Seo
+  - Amirsaman Ashtari
+  - Junyong Noh
+  year: 2025
+  tags:
+  - diffusion
+  - lineart
+  - sketch
+  summary: A training-free, adjustment-free sketch synthesis method that integrates high and low-frequency information during the diffusion process to generate sketches faithful to both the reference sketch style and the layout of the content image.
+  summary_ja: 拡散プロセスの過程で高周波および低周波情報を統合することにより、参照スケッチのスタイルとコンテンツ画像のレイアウトの両方に忠実なスケッチを生成する、訓練不要かつ調整不要のスケッチ合成手法。
+  thumbnail: assets/thumbnails/one-shot-reference-based-structure-aware-image-to-sketch-syn-d58081.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: ref2sketch-sa/ref2sketch-sa
 - id: representative-feature-extraction-during-diffusion-process-f-879ef2
   title: Representative Feature Extraction During Diffusion Process for Sketch Extraction with One Example
   area: image-2d
@@ -10260,6 +10559,31 @@ entries:
   source: agent
   arxiv_id: '2401.04362'
   repo: kwanyun/diffsketch
+- id: semi-supervised-reference-based-sketch-extraction-using-a-co-0ab242
+  title: Semi-supervised reference-based sketch extraction using a contrastive learning framework
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.14026
+    github: https://github.com/Chanuku/Semi_ref2sketch_code
+    project: https://chanuku.github.io/Semi_ref2sketch/
+  authors:
+  - Chang Wook Seo
+  - Amirsaman Ashtari
+  - Junyong Noh
+  year: 2024
+  tags:
+  - contrastive-learning
+  - lineart
+  - sketch
+  summary: A reference-based sketch extraction model trained with unpaired datasets via a contrastive learning framework, allowing users to extract sketches from color images while imitating the specific artistic style of a reference sketch.
+  summary_ja: コントラスティブ学習フレームワークを介して、一対になっていないデータセットで訓練可能な参照ベースの線画抽出モデル。参照するスケッチの特定の芸術的スタイルを模倣しながら、カラー画像から線画を抽出することができる。
+  thumbnail: assets/thumbnails/semi-supervised-reference-based-sketch-extraction-using-a-co-0ab242.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2407.14026'
+  repo: chanuku/semi_ref2sketch_code
 - id: stylized-face-sketch-extraction-via-generative-prior-with-li-0f5a63
   title: Stylized Face Sketch Extraction via Generative Prior with Limited Data
   area: image-2d
@@ -10287,6 +10611,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2403.11263'
+- id: reference-based-sketch-extraction-via-attention-mechanism-67f9d8
+  title: Reference Based Sketch Extraction via Attention Mechanism
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/ref2sketch/ref2sketch
+    paper: https://dl.acm.org/doi/10.1145/3550454.3555504
+  authors:
+  - Amirsaman Ashtari
+  - Chang Wook Seo
+  - Cholmin Kang
+  - Sihun Cha
+  - Junyong Noh
+  year: 2022
+  tags:
+  - attention
+  - lineart
+  - sketch
+  summary: A deep learning model that extracts sketches from color images using an attention mechanism to match the line style of a given reference sketch while preserving the structural content of the original image.
+  summary_ja: アテンション機構を用いて、元の画像の構造的なコンテンツを保持しながら、与えられた参照スケッチの線画スタイルに一致するようにカラー画像からスケッチを抽出するディープラーニングモデル。
+  thumbnail: assets/thumbnails/reference-based-sketch-extraction-via-attention-mechanism-67f9d8.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: ref2sketch/ref2sketch
 - id: anime2sketch-1e0d95
   title: Anime2Sketch
   area: image-2d
@@ -10800,6 +11149,34 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: fal-ai/aura-sr
+- id: mambair-05e629
+  title: MambaIR
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.15648
+    github: https://github.com/csguoh/MambaIR
+  authors:
+  - Hang Guo
+  - Jinmin Li
+  - Tao Dai
+  - Zhihao Ouyang
+  - Xudong Ren
+  - Shu-Tao Xia
+  year: 2024
+  tags:
+  - mamba
+  - state-space-model
+  - super-resolution
+  - upscaling
+  summary: MambaIR is a state-space model (SSM) baseline for image restoration and super-resolution, leveraging Mamba's linear complexity to capture long-range dependencies. It addresses the trade-off between global receptive fields and computational efficiency in traditional CNN and Transformer architectures.
+  summary_ja: MambaIRは、Mambaの線形計算量を活用して長距離の依存関係を捉える、画像復元および超解像のための状態空間モデル（SSM）ベースラインです。従来のCNNやTransformerアーキテクチャにおける、グローバルな受容野と計算効率のトレードオフを解決します。
+  thumbnail: assets/thumbnails/mambair-05e629.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2402.15648'
+  repo: csguoh/mambair
 - id: supir-771d70
   title: SUPIR
   area: image-2d
@@ -10884,6 +11261,35 @@ entries:
   source: agent
   arxiv_id: '2308.03364'
   repo: zhengchen1999/dat
+- id: hat-dfbb08
+  title: HAT
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.05239
+    github: https://github.com/XPixelGroup/HAT
+  authors:
+  - Xiangyu Chen
+  - Xintao Wang
+  - Wenlong Zhang
+  - Xiangtao Kong
+  - Yu Qiao
+  - Jiantao Zhou
+  - Chao Dong
+  year: 2023
+  tags:
+  - attention
+  - super-resolution
+  - transformer
+  - upscaling
+  summary: Hybrid Attention Transformer (HAT) combines channel attention and window-based self-attention to activate more input pixels for high-quality image restoration and super-resolution. It effectively exploits the potential of Transformer architectures in low-level vision tasks.
+  summary_ja: Hybrid Attention Transformer (HAT)は、チャネルアテンションとウィンドウベースのセルフアテンションを組み合わせることで、より多くの入力ピクセルを活性化し、高品質な画像復元および超解像を実現します。低レベルビジョンタスクにおけるTransformerアーキテクチャの可能性を効果的に引き出します。
+  thumbnail: assets/thumbnails/hat-dfbb08.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2309.05239'
+  repo: xpixelgroup/hat
 - id: omnisr-04027e
   title: OmniSR
   area: image-2d
@@ -10961,6 +11367,34 @@ entries:
   source: agent
   arxiv_id: '2311.16518'
   repo: cswry/seesr
+- id: srformer-b026b6
+  title: SRFormer
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.09735
+    github: https://github.com/HVision-NKU/SRFormer
+  authors:
+  - Yupeng Zhou
+  - Zhen Li
+  - Chun-Le Guo
+  - Li Liu
+  - Ming-Ming Cheng
+  - Qibin Hou
+  year: 2023
+  tags:
+  - attention
+  - super-resolution
+  - transformer
+  - upscaling
+  summary: SRFormer introduces Permuted Self-Attention (PSA) to enable large-window self-attention in Transformer-based image super-resolution models with significantly reduced computational overhead. It achieves state-of-the-art performance in classical, lightweight, and real-world image super-resolution tasks.
+  summary_ja: SRFormerは、計算コストを大幅に削減しつつ、Transformerベースの画像超解像モデルにおいて広範囲のセルフアテンションを可能にするPermuted Self-Attention（PSA）を導入します。古典的、軽量、および実世界の画像超解像タスクにおいて、最先端の性能を達成しています。
+  thumbnail: assets/thumbnails/srformer-b026b6.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2303.09735'
+  repo: hvision-nku/srformer
 - id: stablesr-43c7b1
   title: StableSR
   area: image-2d
@@ -11217,6 +11651,25 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: baidu/ernie-image
+- id: f-lite-c15a45
+  title: F-Lite
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    github: https://github.com/fal-ai/f-lite
+    hf: https://huggingface.co/Freepik/F-Lite
+  year: 2025
+  tags:
+  - copyright-safe
+  - diffusion
+  - text-to-image
+  summary: A 10-billion parameter open-source text-to-image model developed by Freepik and Fal.ai. It is trained exclusively on licensed, copyright-safe, and SFW content, offering high-quality image generation with ethical data sourcing.
+  summary_ja: FreepikとFal.aiが共同開発した、100億パラメータのオープンソースText-to-Imageモデル。ライセンス取得済みの著作権セーフかつSFW（職場向け）コンテンツのみで学習されており、倫理的なデータソースから高品質な画像を生成します。
+  thumbnail: assets/thumbnails/f-lite-c15a45.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: fal-ai/f-lite
 - id: flux-2-dev-8e553e
   title: FLUX.2 [dev]
   area: image-2d
@@ -11291,6 +11744,36 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuanimage-3.0
+- id: janus-pro-fa3226
+  title: Janus-Pro
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.17811
+    github: https://github.com/deepseek-ai/Janus
+    hf: https://huggingface.co/deepseek-ai/Janus-Pro-7B
+  authors:
+  - Xiaokang Chen
+  - Zhiyu Wu
+  - Xingchao Liu
+  - Zizheng Pan
+  - Wen Liu
+  - Zhenda Xie
+  - Xingkai Yu
+  - Chong Ruan
+  year: 2025
+  tags:
+  - autoregressive
+  - multimodal
+  - text-to-image
+  summary: An advanced unified multimodal understanding and generation framework by DeepSeek. It scales model size and training data to achieve state-of-the-art text-to-image generation and instruction-following capabilities alongside robust visual comprehension.
+  summary_ja: DeepSeekが開発した、高度な統一型マルチモーダル理解・生成フレームワーク。モデルサイズと学習データをスケールアップすることで、強力な視覚理解能力とともに、優れたテキストからの画像生成（Text-to-Image）および指示追従能力を実現しています。
+  thumbnail: assets/thumbnails/janus-pro-fa3226.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2501.17811'
+  repo: deepseek-ai/janus
 - id: lumina-image-2-0-f287d6
   title: Lumina-Image 2.0
   area: image-2d
@@ -11366,6 +11849,84 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: black-forest-labs/flux
+- id: hunyuan-dit-8d21c7
+  title: Hunyuan-DiT
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.08748
+    github: https://github.com/Tencent-Hunyuan/HunyuanDiT
+    hf: https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers
+  authors:
+  - Zikai Zhou
+  - Albert Wu
+  - Yong Zhang
+  - Yuxin Fan
+  - Bo Li
+  - Ying Shan
+  year: 2024
+  tags:
+  - bilingual
+  - diffusion
+  - text-to-image
+  - transformer
+  summary: A powerful multi-resolution diffusion transformer model with fine-grained understanding of both English and Chinese. It integrates a bilingual CLIP and a multilingual T5 encoder to achieve high-quality image synthesis and precise text-to-image alignment.
+  summary_ja: 英語と中国語の両方に対するきめ細かな理解力を備えた、強力な多解像度Diffusion Transformer（DiT）モデル。バイリンガルCLIPとマルチリンガルT5エンコーダーを統合し、高品質な画像合成と正確なテキストアライメントを実現しています。
+  thumbnail: assets/thumbnails/hunyuan-dit-8d21c7.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2405.08748'
+  repo: tencent-hunyuan/hunyuandit
+- id: kolors-6b86a3
+  title: Kolors
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    github: https://github.com/Kwai-Kolors/Kolors
+    hf: https://huggingface.co/Kwai-Kolors/Kolors
+  year: 2024
+  tags:
+  - bilingual
+  - diffusion
+  - text-to-image
+  summary: A large-scale text-to-image generation model based on latent diffusion, developed by Kuaishou. Trained on billions of text-image pairs, it excels in visual quality, complex semantic accuracy, and text rendering for both Chinese and English content.
+  summary_ja: Kuaishou（快手）が開発した、潜在拡散（latent diffusion）に基づく大規模なText-to-Image生成モデル。数十億のテキスト・画像ペアで学習されており、視覚的品質、複雑なセマンティクスの正確性、および中英両言語のテキスト描画において優れた性能を発揮します。
+  thumbnail: assets/thumbnails/kolors-6b86a3.png
+  date_added: '2026-06-19'
+  source: agent
+  repo: kwai-kolors/kolors
+- id: pixart-pixart-sigma-45e09b
+  title: PixArt-Σ (PixArt-Sigma)
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.04692
+    github: https://github.com/PixArt-alpha/PixArt-sigma
+    hf: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+  authors:
+  - Junsong Chen
+  - Chongjian Ge
+  - Enze Xie
+  - Yue Wu
+  - Lewei Lu
+  - Dahua Lin
+  - Ping Luo
+  year: 2024
+  tags:
+  - 4k
+  - diffusion
+  - text-to-image
+  - transformer
+  summary: A highly efficient Diffusion Transformer (DiT) model capable of generating high-fidelity 4K images. It introduces weak-to-strong training, a key-value compression mechanism, and a high-quality dataset to achieve superior text-to-image alignment and detail with significantly lower training costs.
+  summary_ja: 高精細な4K画像を生成可能な、極めて効率的なDiffusion Transformer（DiT）モデル。弱モデルから強モデルへの移行学習（weak-to-strong training）やKey-Value圧縮機構、高品質データセットを導入することで、大幅に低い学習コストで優れたテキストアライメントとディテールを実現しています。
+  thumbnail: assets/thumbnails/pixart-pixart-sigma-45e09b.png
+  date_added: '2026-06-19'
+  source: agent
+  arxiv_id: '2403.04692'
+  repo: pixart-alpha/pixart-sigma
 - id: playground-v2-5-e1a8f2
   title: Playground v2.5
   area: image-2d
