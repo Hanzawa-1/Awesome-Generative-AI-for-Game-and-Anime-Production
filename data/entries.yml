@@ -12122,6 +12122,26 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2112.10752'
+- id: gapfill-c1bc96
+  title: GapFill
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/marc2825/GapFill
+    project: https://marc2825.github.io/GapFill/
+  year: 2026
+  tags:
+  - anime
+  - colorization
+  - flat-color
+  - manga
+  summary: An interactive, deep-learning-assisted tool designed for professional anime and manga colorists to automatically detect and fill small unpainted gaps left by paint bucket tools.
+  summary_ja: ペイントツールのバケツ塗りなどで発生する小さな「塗り残し」を自動検出・自動彩色し、プロのアニメ・漫画彩色作業を効率化する深層学習支援型インタラクティブツール。
+  thumbnail: assets/thumbnails/gapfill-c1bc96.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: marc2825/gapfill
 - id: inkn-hue-enhancing-manga-colorization-from-multiple-priors-w-012674
   title: 'inkn''hue: Enhancing Manga Colorization from Multiple Priors with Alignment Multi-Encoder VAE'
   area: manga
@@ -12214,6 +12234,33 @@ entries:
   source: agent
   arxiv_id: '1706.06759'
   repo: dwangomediavillage/comicolorization
+- id: canvas-3cba16
+  title: CANVAS
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.13452
+  authors:
+  - Ishani Mondal
+  - Yiwen Song
+  - Mihir Parmar
+  - Palash Goyal
+  - Jordan Boyd-Graber
+  - Tomas Pfister
+  - Yale Song
+  year: 2026
+  tags:
+  - consistency
+  - multi-agent
+  - narrative
+  - storyboard
+  summary: A multi-agent framework that plans visual continuity across storyboard shots, ensuring consistent characters, stable environments, and smooth transitions in long-form visual narratives.
+  summary_ja: 絵コンテ（ストーリーボード）のカット間で視覚的な一貫性を計画し、長編のビジュアルナラティブにおいて一貫したキャラクター、安定した環境、スムーズな遷移を保証するマルチエージェントフレームワーク。
+  thumbnail: assets/thumbnails/canvas-3cba16.png
+  date_added: '2026-06-20'
+  source: agent
+  arxiv_id: '2604.13452'
 - id: mangaflow-59cfd1
   title: MangaFlow
   area: manga
@@ -12341,6 +12388,44 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: ogkalu2/comic-translate
+- id: koharu-8e606e
+  title: Koharu
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/mayocream/koharu
+  year: 2023
+  tags:
+  - manga
+  - ocr
+  - rust
+  - translation
+  summary: An open-source, local-first manga translation tool written in Rust that utilizes machine learning to automate text detection, OCR, translation, and inpainting. It provides a streamlined desktop application workflow for scanlation and comic localization.
+  summary_ja: テキスト検出、OCR、翻訳、インペインティングを自動化するために機械学習を利用する、Rustで書かれたローカルファーストのオープンソースマンガ翻訳ツール。コミックのローカライズ作業向けに、合理化されたデスクトップアプリケーションのワークフローを提供します。
+  thumbnail: assets/thumbnails/koharu-8e606e.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: mayocream/koharu
+- id: ballonstranslator-b7bc37
+  title: BallonsTranslator
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/dmMaze/BallonsTranslator
+  year: 2022
+  tags:
+  - manga
+  - ocr
+  - translation
+  - typesetting
+  summary: A deep learning-powered computer-aided comic and manga translation tool that supports automatic text detection, OCR, machine translation, text removal, and typesetting. It features a rich text editor and mask editing tools to assist translators in the scanlation workflow.
+  summary_ja: 自動テキスト検出、OCR、機械翻訳、文字消去、および写植をサポートする、ディープラーニング駆動のコミック・マンガ翻訳支援ツール。翻訳者の翻訳・写植作業を支援するためのリッチテキストエディタやマスク編集ツールを備えています。
+  thumbnail: assets/thumbnails/ballonstranslator-b7bc37.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: dmmaze/ballonstranslator
 - id: mokuro-047be2
   title: Mokuro
   area: manga
@@ -12397,6 +12482,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: kha-white/manga-ocr
+- id: sickzil-machine-9cf703
+  title: SickZil-Machine
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/KUR-creative/SickZil-Machine
+  year: 2020
+  tags:
+  - inpainting
+  - manga
+  - segmentation
+  - translation
+  summary: A deep learning-based manga and comic translation helper tool designed to automate the process of text isolation and removal. It employs image segmentation and inpainting models to clean speech bubbles and prepare pages for typesetting.
+  summary_ja: テキストの分離と消去のプロセスを自動化するために設計された、ディープラーニングベースのマンガ・コミック翻訳支援ツール。画像セグメンテーションとインペインティングモデルを採用し、吹き出しをクリーンにして写植の準備を行います。
+  thumbnail: assets/thumbnails/sickzil-machine-9cf703.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: kur-creative/sickzil-machine
 - id: towards-fully-automated-manga-translation-3d76e9
   title: Towards Fully Automated Manga Translation
   area: manga
@@ -12613,6 +12717,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2203.03396'
+- id: mangafilter-c7b21c
+  title: MangaFilter
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/MangaFilter
+    project: https://lllyasviel.github.io/MangaFilter/
+  year: 2021
+  tags:
+  - cvpr
+  - halftone
+  - manga
+  - screentone
+  summary: A framework that generates high-quality screentoned manga from digital illustrations by mimicking the professional manga creation workflow, including line drawing extraction, regular screentone shading, and irregular screentone pasting.
+  summary_ja: デジタルイラストからプロの漫画制作ワークフロー（線画抽出、規則的なスクリーントーン陰影、不規則なスクリーントーンの貼り付けなど）を模倣して、高品質なスクリーントーン付き漫画を生成するフレームワーク。
+  thumbnail: assets/thumbnails/mangafilter-c7b21c.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: lllyasviel/mangafilter
 - id: mangarestoration-d48789
   title: MangaRestoration
   area: manga
@@ -12661,6 +12785,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: msxie92/screenstyle
+- id: gamestringer-9d4ea6
+  title: GameStringer
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/rouges78/GameStringer
+  year: 2024
+  tags:
+  - game-dev
+  - llm
+  - localization
+  - translation
+  summary: An open-source, AI-powered game localization tool that supports major game engines including Unity, Unreal Engine, Godot, RPG Maker, and Ren'Py. It automatically scans, extracts, translates, and patches game strings using large language models.
+  summary_ja: Unity、Unreal Engine、Godot、RPG Maker、Ren'Pyなどの主要なゲームエンジンをサポートする、オープンソースのAI搭載ゲームローカライズツール。大規模言語モデルを使用して、ゲーム内の文字列を自動的にスキャン、抽出、翻訳、パッチ適用します。
+  thumbnail: assets/thumbnails/gamestringer-9d4ea6.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: rouges78/gamestringer
 - id: rstgametranslation-5617dc
   title: RSTGameTranslation
   area: text-design
@@ -12835,6 +12978,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: ggml-org/whisper.cpp
+- id: tolgee-53980c
+  title: Tolgee
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/tolgee/tolgee-platform
+  year: 2021
+  tags:
+  - i18n
+  - localization
+  - translation
+  - unreal-engine
+  summary: An open-source, developer-friendly localization platform featuring in-context translation editing, translation memory, and AI-powered machine translation. It offers native integrations with various frameworks and game engines, including a dedicated Unreal Engine plugin for runtime translation.
+  summary_ja: インコンテキスト翻訳編集、翻訳メモリ、AI搭載の機械翻訳を特徴とする、開発者フレンドリーなオープンソースのローカライズプラットフォーム。様々なフレームワークやゲームエンジンとのネイティブな統合を提供しており、ランタイム翻訳用の専用Unreal Engineプラグインも含まれています。
+  thumbnail: assets/thumbnails/tolgee-53980c.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: tolgee/tolgee-platform
 - id: argos-translate-2519bf
   title: Argos Translate
   area: text-design
@@ -12896,6 +13058,51 @@ entries:
   source: seed
   arxiv_id: '2310.06825'
   repo: mistralai/mistral-src
+- id: empowering-npc-dialogue-with-environmental-context-using-llm-ad4285
+  title: Empowering NPC Dialogue with Environmental Context Using LLMs and Panoramic Images
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.19192
+    paper: https://arxiv.org/pdf/2604.19192
+  authors:
+  - Grega Radež
+  - Ciril Bohak
+  year: 2026
+  tags:
+  - computer-vision
+  - context-aware
+  - dialogue
+  - npc
+  summary: A research paper presenting an approach to enhance game NPCs by combining LLMs with computer vision. By capturing panoramic images of the NPC's environment and applying semantic segmentation, the system provides NPCs with spatial awareness and environmental context for dialogue.
+  summary_ja: LLMとコンピュータビジョンを組み合わせることで、ゲーム内のNPCを強化するアプローチを提案する研究論文。NPCの周囲のパノラマ画像をキャプチャしてセマンティックセグメンテーションを適用することで、NPCに空間認識と環境コンテキストを提供し、より自然な対話を実現します。
+  thumbnail: assets/thumbnails/empowering-npc-dialogue-with-environmental-context-using-llm-ad4285.png
+  date_added: '2026-06-20'
+  source: agent
+  arxiv_id: '2604.19192'
+- id: efficient-tool-calling-multi-expert-npc-agent-for-commonsens-e0ba8b
+  title: Efficient Tool-Calling Multi-Expert NPC Agent for Commonsense Persona-Grounded Dialogue
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.01720
+    paper: https://arxiv.org/pdf/2511.01720
+  authors:
+  - Mahammad Nuriyev
+  year: 2025
+  tags:
+  - dialogue
+  - lora
+  - npc
+  - tool-calling
+  summary: A paper introducing a multi-expert system for creating NPCs capable of both natural dialogue and contextual action execution. It utilizes Qwen3 as the base model with LoRA adapters to instantiate specialists for tool calling, response interpretation, and direct dialogue.
+  summary_ja: 自然な対話とコンテキストに応じたアクション実行の両方が可能なNPCを作成するためのマルチエキスパートシステムを提案する論文。Qwen3をベースモデルとし、LoRAアダプターを用いてツール呼び出し、応答解釈、直接対話の専門家をインスタンス化します。
+  thumbnail: assets/thumbnails/efficient-tool-calling-multi-expert-npc-agent-for-commonsens-e0ba8b.png
+  date_added: '2026-06-20'
+  source: agent
+  arxiv_id: '2511.01720'
 - id: fixed-persona-slms-with-modular-memory-2425ba
   title: Fixed-Persona SLMs with Modular Memory
   area: text-design
@@ -12918,6 +13125,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.10277'
+- id: gigax-e03f86
+  title: Gigax
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/GigaxGames/gigax
+  year: 2024
+  tags:
+  - dialogue
+  - llm
+  - local
+  - npc
+  summary: An open-source framework and fine-tuned models (NPC-LLM) designed to run LLM-powered NPCs locally. It supports structured generation, memory management, and action execution based on game state.
+  summary_ja: ローカル環境でLLM駆動のNPCを実行するために設計されたオープンソースのフレームワークおよび微調整済みモデル（NPC-LLM）。構造化生成、メモリ管理、ゲーム状態に応じたアクション実行をサポートします。
+  thumbnail: assets/thumbnails/gigax-e03f86.png
+  date_added: '2026-06-20'
+  source: agent
+  repo: gigaxgames/gigax
 - id: llmunity-093010
   title: LLMUnity
   area: text-design

@@ -1248,6 +1248,42 @@ entries:
   thumbnail: assets/thumbnails/xai-grok-image-grok-imagine-9aa6c1.png
   date_added: '2026-06-13'
   source: seed
+- id: watashi-colorizer-fd5262
+  title: Watashi Colorizer
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://watashicolorizer.com/
+  year: 2026
+  tags:
+  - colorization
+  - manga
+  - translation
+  - webtoon
+  summary: An AI-powered proprietary tool designed for bulk manga, manhwa, and webtoon chapter colorization, featuring consistent character palettes, smart panel splitting, and multi-language translation.
+  summary_ja: キャラクターの配色パレットの一貫性維持、スマートなコマ割り分割、多言語翻訳機能を備えた、マンガやウェブトゥーンのチャプター一括彩色用のAI搭載プロプライエタリツール。
+  thumbnail: assets/thumbnails/watashi-colorizer-fd5262.png
+  date_added: '2026-06-20'
+  source: agent
+- id: comic-ai-9fa79e
+  title: Comic AI
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://comicai.com/
+  year: 2023
+  tags:
+  - character-design
+  - comic
+  - panel
+  - saas
+  summary: A professional web-based AI comic generator that allows users to design consistent characters, generate panels from scripts, and compose full comic pages.
+  summary_ja: 一貫したキャラクターデザイン、スクリプトからのコマ生成、および漫画ページ全体の構成を可能にする、プロフェッショナル向けのWebベースAIコミックジェネレーター。
+  thumbnail: assets/thumbnails/comic-ai-9fa79e.png
+  date_added: '2026-06-20'
+  source: agent
 - id: jenova-ai-manga-generator-cee9e8
   title: Jenova AI Manga Generator
   area: manga
@@ -1264,6 +1300,24 @@ entries:
   thumbnail: assets/thumbnails/jenova-ai-manga-generator-cee9e8.png
   date_added: '2026-06-13'
   source: seed
+- id: imagetrans-50d078
+  title: ImageTrans
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://www.basiccat.org/imagetrans/
+  year: 2020
+  tags:
+  - manga
+  - ocr
+  - translation
+  - typesetting
+  summary: A professional computer-aided image and comic translation software that integrates state-of-the-art OCR, machine translation, and automatic typesetting. It helps translators and publishers localize manga, manhua, and webtoons efficiently by automating text extraction and background restoration.
+  summary_ja: 最先端のOCR、機械翻訳、自動写植を統合した、プロフェッショナル向けの画像およびコミック翻訳支援ソフトウェア。テキスト抽出と背景復元を自動化することにより、翻訳者や出版社がマンガ、漫画、ウェブトゥーンを効率的にローカライズするのを支援します。
+  thumbnail: assets/thumbnails/imagetrans-50d078.png
+  date_added: '2026-06-20'
+  source: agent
 - id: mantra-engine-9eeba1
   title: Mantra Engine
   area: manga
@@ -1281,6 +1335,60 @@ entries:
   summary_ja: 独自の言語および画像処理AIを搭載したプロフェッショナル向けのクラウド型漫画ローカライズプラットフォーム。出版社向けにテキスト検出、翻訳、写植（タイポグラフィ）を自動化します。
   thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
   date_added: '2026-06-13'
+  source: agent
+- id: comic-life-4-b1f2b9
+  title: Comic Life 4
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://plasq.com/apps/comiclife4/mac/
+  year: 2024
+  tags:
+  - comic
+  - layout
+  - lettering
+  - software
+  summary: A widely used commercial software for comic page layout, panel design, and lettering, featuring templates, speech balloons, and customizable grids.
+  summary_ja: テンプレート、吹き出し、カスタマイズ可能なグリッドなどの機能を備え、コミックのページレイアウト、コマ割り設計、レタリングに広く使用されている商用ソフトウェア。
+  thumbnail: assets/thumbnails/comic-life-4-b1f2b9.png
+  date_added: '2026-06-20'
+  source: agent
+- id: crowdin-ai-eb04d1
+  title: Crowdin AI
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://crowdin.ai/
+  year: 2025
+  tags:
+  - ai-agent
+  - localization
+  - saas
+  - translation
+  summary: An AI-powered extension of the Crowdin localization platform that automates translation workflows using agentic AI, custom LLM prompts, and automated quality estimation. It supports seamless integration with development repositories and game engines.
+  summary_ja: エージェントAI、カスタムLLMプロンプト、自動品質評価を使用して翻訳ワークフローを自動化する、CrowdinローカライズプラットフォームのAI搭載拡張機能。開発リポジトリやゲームエンジンとのシームレスな統合をサポートします。
+  thumbnail: assets/thumbnails/crowdin-ai-eb04d1.png
+  date_added: '2026-06-20'
+  source: agent
+- id: gridly-6ed57f
+  title: Gridly
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.gridly.com/
+  year: 2020
+  tags:
+  - cms
+  - game-dev
+  - localization
+  - translation
+  summary: A spreadsheet-based content management and localization platform designed specifically for games and digital products. It features built-in AI translation, translation memory, and seamless integration with major game engines to streamline multilingual content delivery.
+  summary_ja: ゲームやデジタル製品向けに特別に設計された、スプレッドシートベースのコンテンツ管理およびローカライズプラットフォーム。組み込みのAI翻訳、翻訳メモリ、主要なゲームエンジンとのシームレスな統合を備え、多言語コンテンツの配信を効率化します。
+  thumbnail: assets/thumbnails/gridly-6ed57f.png
+  date_added: '2026-06-20'
   source: agent
 - id: lokalise-3d4e31
   title: Lokalise
@@ -1315,6 +1423,61 @@ entries:
   thumbnail: assets/thumbnails/deepl-676cdb.png
   date_added: '2026-06-13'
   source: seed
+- id: charisma-ai-b1aa8c
+  title: Charisma.ai
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://charisma.ai/
+  year: 2020
+  tags:
+  - dialogue
+  - interactive-storytelling
+  - npc
+  - unity
+  - unreal-engine
+  summary: An AI-powered interactive storytelling platform that enables creators to build dynamic, conversational narratives and virtual characters for games, VR, and entertainment. It features native integrations with popular game engines like Unity and Unreal Engine to power voice-driven, non-linear player interactions.
+  summary_ja: クリエイターがゲーム、VR、エンターテインメント向けに動的で対話的なストーリーやバーチャルキャラクターを構築できる、AI搭載のインタラクティブストーリーテリングプラットフォーム。UnityやUnreal Engineなどの主要ゲームエンジンとのネイティブ連携を備え、音声駆動の非線形なプレイヤーインタラクションを実現します。
+  thumbnail: assets/thumbnails/charisma-ai-b1aa8c.png
+  date_added: '2026-06-20'
+  source: agent
+- id: convai-470169
+  title: Convai
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://convai.com/
+  year: 2023
+  tags:
+  - conversational-ai
+  - dialogue
+  - npc
+  - sdk
+  summary: A conversational AI platform designed specifically for virtual worlds and games. It provides easy-to-integrate SDKs for Unity, Unreal Engine, and other platforms, enabling NPCs to have open-ended conversations, long-term memory, and spatial awareness.
+  summary_ja: 仮想世界やゲーム向けに特別に設計された会話型AIプラットフォーム。UnityやUnreal Engineなどの主要エンジン向けSDKを提供し、NPCに自由な会話能力、長期記憶、空間認識能力を持たせることができます。
+  thumbnail: assets/thumbnails/convai-470169.png
+  date_added: '2026-06-20'
+  source: agent
+- id: nvidia-ace-6d9c0e
+  title: NVIDIA ACE
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://developer.nvidia.com/ACE
+  year: 2023
+  tags:
+  - avatar
+  - dialogue
+  - npc
+  - speech
+  summary: A suite of technologies (Avatar Cloud Engine) that enables developers to bring digital humans and NPCs to life with generative AI. It includes microservices for speech recognition, text-to-speech, facial animation, and LLM-driven dialogue.
+  summary_ja: 生成AIを用いてデジタルヒューマンやNPCに命を吹き込むための技術スイート（Avatar Cloud Engine）。音声認識、テキスト読み上げ、表情アニメーション、LLM駆動の対話などのマイクロサービスを提供します。
+  thumbnail: assets/thumbnails/nvidia-ace-6d9c0e.png
+  date_added: '2026-06-20'
+  source: agent
 - id: inworld-ai-c4e760
   title: Inworld AI
   area: text-design
