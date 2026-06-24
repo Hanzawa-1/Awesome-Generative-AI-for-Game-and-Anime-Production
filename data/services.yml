@@ -544,6 +544,58 @@ entries:
   thumbnail: assets/thumbnails/metahuman-creator-4597b5.png
   date_added: '2026-06-13'
   source: seed
+- id: vroid-studio-a40bc2
+  title: VRoid Studio
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://vroid.com/en/studio
+  year: 2021
+  tags:
+  - 3d-avatar
+  - anime
+  - character-creator
+  - vrm
+  summary: A popular 3D character creation software developed by Pixiv that allows users to design and customize humanoid anime-style avatars. It features intuitive brush tools for hair modeling, texture painting, and clothing customization, exporting to the standard VRM format.
+  summary_ja: ピクシブが開発した、アニメ調の人型アバターをデザイン・カスタマイズできる人気の3Dキャラクター制作ソフトウェア。髪型のモデリング、テクスチャペイント、衣装のカスタマイズを直感的なブラシツールで行うことができ、標準的なVRM形式でエクスポート可能です。
+  thumbnail: assets/thumbnails/vroid-studio-a40bc2.png
+  date_added: '2026-06-24'
+  source: agent
+- id: faceform-wrap-8aac72
+  title: Faceform Wrap
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://faceform.com/
+  year: 2023
+  tags:
+  - 3d-scan
+  - blendshapes
+  - topology-transfer
+  summary: An industry-standard topology transfer and 3D scan processing tool that converts 3D scans of actor facial expressions into a consistent topology, widely used for facial rigging and blendshape creation in games and VFX.
+  summary_ja: 俳優の表情の3Dスキャンデータを一貫したトポロジに変換する、業界標準のトポロジ転送および3Dスキャン処理ツール。ゲームやVFXにおけるフェイシャルリギングやブレンドシェイプ作成に広く使用されている。
+  thumbnail: assets/thumbnails/faceform-wrap-8aac72.png
+  date_added: '2026-06-24'
+  source: agent
+- id: keentools-facebuilder-55d9fe
+  title: KeenTools FaceBuilder
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://keentools.io/products/facebuilder-for-blender
+  year: 2023
+  tags:
+  - blender-plugin
+  - blendshapes
+  - face-reconstruction
+  summary: A popular plugin for Blender and Nuke that allows artists to create photorealistic 3D human faces and heads from a single or multiple photos, featuring AI-powered auto-alignment, texture blending, and ARKit-compatible FACS blendshapes.
+  summary_ja: 単一または複数の写真からフォトリアルな3Dの顔や頭部を作成できる、BlenderおよびNuke用の人気プラグイン。AIによる自動アライメント、テクスチャブレンディング、ARKit互換のFACSブレンドシェイプなどの機能を備える。
+  thumbnail: assets/thumbnails/keentools-facebuilder-55d9fe.png
+  date_added: '2026-06-24'
+  source: agent
 - id: meshy-c6012a
   title: Meshy
   area: gen-3d
