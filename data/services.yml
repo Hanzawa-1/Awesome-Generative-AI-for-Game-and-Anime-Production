@@ -870,6 +870,59 @@ entries:
   thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
   date_added: '2026-06-13'
   source: seed
+- id: scenario-c18dd2
+  title: Scenario
+  area: image-2d
+  task: style-transfer-lora
+  kind: proprietary
+  links:
+    website: https://www.scenario.com/
+  year: 2023
+  tags:
+  - game-assets
+  - lora-training
+  - style-consistency
+  summary: A creative AI infrastructure platform designed for game developers to train custom Flux and SDXL LoRA models on proprietary art styles, ensuring visual consistency across game assets.
+  summary_ja: ゲーム開発者向けに設計されたクリエイティブAIインフラプラットフォーム。独自のゲームアートスタイルに基づいてカスタムのFluxやSDXL LoRAモデルをトレーニングし、アセット全体の視覚的一貫性を確保する。
+  thumbnail: assets/thumbnails/scenario-c18dd2.png
+  date_added: '2026-06-26'
+  source: agent
+- id: krea-ai-8a10e7
+  title: Krea AI
+  area: image-2d
+  task: super-resolution
+  kind: proprietary
+  links:
+    website: https://www.krea.ai/
+  year: 2023
+  tags:
+  - enhancer
+  - proprietary
+  - real-time
+  - upscaler
+  summary: A creative AI suite featuring a powerful real-time upscaler and enhancer capable of upscaling images up to 22K resolution while restoring fine details and textures.
+  summary_ja: 微細なディテールやテクスチャを復元しながら、画像を最大22K解像度までアップスケーリングできる強力なリアルタイムアップスケーラーおよびエンハンサーを備えたクリエイティブAIスイート。
+  thumbnail: assets/thumbnails/krea-ai-8a10e7.png
+  date_added: '2026-06-26'
+  source: agent
+- id: magnific-ai-282882
+  title: Magnific AI
+  area: image-2d
+  task: super-resolution
+  kind: proprietary
+  links:
+    website: https://www.magnific.com/
+  year: 2023
+  tags:
+  - enhancer
+  - generative
+  - proprietary
+  - upscaler
+  summary: A premium generative AI upscaler and enhancer that intelligently adds high-resolution details, textures, and sharpness to images and illustrations.
+  summary_ja: 画像やイラストに高解像度のディテール、テクスチャ、鮮明さをインテリジェントに追加する、プレミアムな生成AIアップスケーラーおよびエンハンサー。
+  thumbnail: assets/thumbnails/magnific-ai-282882.png
+  date_added: '2026-06-26'
+  source: agent
 - id: adobe-firefly-api-aa004e
   title: Adobe Firefly API
   area: image-2d
