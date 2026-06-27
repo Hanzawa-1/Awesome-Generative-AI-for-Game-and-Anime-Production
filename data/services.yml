@@ -1266,6 +1266,24 @@ entries:
   thumbnail: assets/thumbnails/jenova-ai-manga-generator-cee9e8.png
   date_added: '2026-06-13'
   source: seed
+- id: ismanga-e06967
+  title: IsManga
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://ismanga.com/
+  year: 2023
+  tags:
+  - browser-extension
+  - manga
+  - ocr
+  - translation
+  summary: A popular AI-powered manga translator available as a browser extension and mobile app that translates raw Japanese manga, Korean manhwa, and Chinese manhua in real-time while preserving the original layout.
+  summary_ja: ブラウザ拡張機能やモバイルアプリとして提供されている人気のAI漫画翻訳ツール。オリジナルのレイアウトを維持しながら、日本語の漫画、韓国のマンファ、中国のマンフアをリアルタイムで翻訳します。
+  thumbnail: assets/thumbnails/ismanga-e06967.png
+  date_added: '2026-06-27'
+  source: agent
 - id: mantra-engine-9eeba1
   title: Mantra Engine
   area: manga
@@ -1283,6 +1301,42 @@ entries:
   summary_ja: 独自の言語および画像処理AIを搭載したプロフェッショナル向けのクラウド型漫画ローカライズプラットフォーム。出版社向けにテキスト検出、翻訳、写植（タイポグラフィ）を自動化します。
   thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
   date_added: '2026-06-13'
+  source: agent
+- id: boords-1465cb
+  title: Boords
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://boords.com/
+  authors:
+  - Boords Team
+  year: 2023
+  tags:
+  - collaborative
+  - saas
+  - storyboard
+  summary: A popular web-based collaborative storyboarding platform that features an AI storyboard generator to turn scripts and text prompts into structured visual storyboard frames.
+  summary_ja: スクリプトやテキストプロンプトからAIを用いて構造化された絵コンテフレームを自動生成し、リアルタイムでの共同編集やエクスポートを可能にする、プロフェッショナル向けのWebベース絵コンテ作成プラットフォーム。
+  thumbnail: assets/thumbnails/boords-1465cb.png
+  date_added: '2026-06-27'
+  source: agent
+- id: comistitch-004caa
+  title: Comistitch
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://comistitch.com/
+  year: 2026
+  tags:
+  - halftone
+  - manga-generation
+  - screentone
+  summary: An AI-powered comic and manga creation platform that automates panel layout, inking, and screentone shading from text prompts or scripts.
+  summary_ja: テキストプロンプトやスクリプトから、コマ割り、インキング、スクリーントーンの陰影処理を自動化するAI搭載のコミック・漫画制作プラットフォーム。
+  thumbnail: assets/thumbnails/comistitch-004caa.png
+  date_added: '2026-06-27'
   source: agent
 - id: medibang-paint-6b70b1
   title: MediBang Paint
@@ -1320,6 +1374,24 @@ entries:
   thumbnail: assets/thumbnails/clip-studio-paint-d76627.png
   date_added: '2026-06-13'
   source: agent
+- id: magnaplay-6139fb
+  title: MagnaPlay
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.magnaplay.com/
+  year: 2023
+  tags:
+  - ai-translation
+  - game-dev
+  - localization
+  - translation
+  summary: An AI-powered game localization and translation platform designed specifically for game developers and publishers. It integrates with game development workflows to automate translation, manage translation memory, and perform quality assurance.
+  summary_ja: ゲーム開発者やパブリッシャー向けに特別に設計された、AI駆動のゲームローカライズ・翻訳プラットフォーム。ゲーム開発ワークフローと統合し、翻訳の自動化、翻訳メモリの管理、品質保証（QA）を効率化します。
+  thumbnail: assets/thumbnails/magnaplay-6139fb.png
+  date_added: '2026-06-27'
+  source: agent
 - id: phrase-470888
   title: Phrase
   area: text-design
@@ -1354,6 +1426,42 @@ entries:
   summary_ja: UnityやUnreal Engineとの連携機能を備え、ゲームやデジタル製品向けに特別に設計された、スプレッドシート形式のコンテンツ管理および継続的ローカライズプラットフォーム。
   thumbnail: assets/thumbnails/gridly-6ed57f.png
   date_added: '2026-06-13'
+  source: agent
+- id: localizely-6e6eae
+  title: Localizely
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://localizely.com/
+  year: 2019
+  tags:
+  - ai-translation
+  - localization
+  - saas
+  - translation
+  summary: A cloud-based translation management platform that streamlines software localization for web and mobile applications. It features AI-powered translation suggestions, translation memory, glossary management, and seamless integrations with development tools.
+  summary_ja: Webおよびモバイルアプリケーションのソフトウェアローカライズを効率化する、クラウドベースの翻訳管理プラットフォーム。AIを活用した翻訳提案、翻訳メモリ、用語集管理、開発ツールとのシームレスな連携機能を備えています。
+  thumbnail: assets/thumbnails/localizely-6e6eae.png
+  date_added: '2026-06-27'
+  source: agent
+- id: gitlocalize-219441
+  title: GitLocalize
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://gitlocalize.com/
+  year: 2017
+  tags:
+  - continuous-localization
+  - github
+  - localization
+  - translation
+  summary: A continuous localization platform designed specifically for GitHub-based projects. It tracks changes in repositories and allows teams to manage translations seamlessly, syncing translated files back via pull requests.
+  summary_ja: GitHubベースのプロジェクト向けに設計された継続的ローカライズプラットフォーム。リポジトリ内の変更を追跡し、シームレスに翻訳を管理して、翻訳済みファイルをプルリクエスト経由で自動同期します。
+  thumbnail: assets/thumbnails/gitlocalize-219441.png
+  date_added: '2026-06-27'
   source: agent
 - id: lokalise-3d4e31
   title: Lokalise
@@ -1423,6 +1531,24 @@ entries:
   summary_ja: 会話型AIを使用して、ゲーム、VR、トレーニングシミュレーション向けの動的なキャラクターや分岐するナラティブ体験を構築するインタラクティブストーリーテリングプラットフォーム。
   thumbnail: assets/thumbnails/charisma-ai-b1aa8c.png
   date_added: '2026-06-13'
+  source: agent
+- id: arcweave-16766f
+  title: Arcweave
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://arcweave.com/
+  year: 2024
+  tags:
+  - dialogue
+  - game-design
+  - narrative
+  - saas
+  summary: A collaborative, cloud-based visual narrative design platform for interactive storytelling and game writing. It features an integrated AI assistant for content generation, classification, and quality assurance, alongside native integrations for Unity, Unreal, and Godot.
+  summary_ja: インタラクティブなストーリーテリングやゲームシナリオ執筆のための、共同編集対応のクラウド型ビジュアルナラティブデザインプラットフォーム。コンテンツ生成、分類、品質保証を行う統合AIアシスタントを搭載し、Unity、Unreal、Godot向けのネイティブインテグレーションを提供します。
+  thumbnail: assets/thumbnails/arcweave-16766f.png
+  date_added: '2026-06-27'
   source: agent
 - id: articy-draft-x-729bbe
   title: articy:draft X
@@ -1495,6 +1621,24 @@ entries:
   summary_ja: 音声認識、音声合成、および大規模言語モデルを統合し、スマートNPCとのリアルタイムで台本のない会話を可能にする、商用プラットフォームおよびUnreal Engine向けプラグイン。
   thumbnail: assets/thumbnails/replica-studios-smart-npcs-f93024.png
   date_added: '2026-06-13'
+  source: agent
+- id: character-ai-def9a7
+  title: Character.ai
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://character.ai/
+  year: 2022
+  tags:
+  - chatbot
+  - dialogue
+  - persona
+  - roleplay
+  summary: A leading proprietary platform for creating and interacting with personalized AI characters and chatbots. It allows developers and writers to define detailed character personas, backgrounds, and speaking styles, serving as a major reference for dynamic character dialogue.
+  summary_ja: パーソナライズされたAIキャラクターやチャットボットを作成・対話するための、業界をリードするプロプライエタリなプラットフォーム。開発者やライターが詳細なキャラクターのペルソナ、背景、話し方を定義でき、動的なキャラクター対話の主要なリファレンスとなっている。
+  thumbnail: assets/thumbnails/character-ai-def9a7.png
+  date_added: '2026-06-27'
   source: agent
 - id: inworld-ai-c4e760
   title: Inworld AI

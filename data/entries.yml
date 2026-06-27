@@ -12282,6 +12282,33 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2112.10752'
+- id: enhancing-reference-based-sketch-colorization-via-separating-630288
+  title: Enhancing Reference-based Sketch Colorization via Separating Reference Representations
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.17620
+    paper: https://arxiv.org/abs/2508.17620
+  authors:
+  - Dingkun Yan
+  - Xinrui Wang
+  - Zhuoru Li
+  - Suguru Saito
+  - Yusuke Iwasawa
+  - Yutaka Matsuo
+  - Jiaxian Guo
+  year: 2025
+  tags:
+  - colorization
+  - diffusion
+  - sketch
+  summary: A reference-based sketch colorization framework that decomposes the colorization process into modular stages using distinct reference representations, including embedding guidance, style modification, and low-level transfer, to eliminate spatial artifacts and enhance visual quality.
+  summary_ja: 参照画像に基づく線画着色において、埋め込みガイダンス、スタイル修正、低レベル転送などの異なる参照表現を用いて着色プロセスをモジュール段階に分解し、空間的なアーティファクトを排除して視覚的品質を向上させるフレームワーク。
+  thumbnail: assets/thumbnails/enhancing-reference-based-sketch-colorization-via-separating-630288.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2508.17620'
 - id: image-referenced-sketch-colorization-based-on-animation-crea-256971
   title: Image Referenced Sketch Colorization Based on Animation Creation Workflow
   area: manga
@@ -12525,6 +12552,60 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.28173'
+- id: racig-retrieval-augmented-comic-image-generation-b4df11
+  title: 'RaCig: Retrieval Augmented Comic Image Generation'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.12517
+    github: https://github.com/ZulutionAI/RaCig
+  authors:
+  - Yunhao Shui
+  - Xuekuan Wang
+  - Feng Qiu
+  - Yuqiu Huang
+  - Jinzhu Li
+  - Haoyu Zheng
+  - Jinru Han
+  - Zuo Zeng
+  - Pengpeng Zhang
+  - Jiarui Han
+  - Keqiang Sun
+  year: 2025
+  tags:
+  - comic
+  - ip-adapter
+  - manga
+  - rag
+  summary: A retrieval-augmented comic image generation system (RaCig) designed to generate character-consistent story image sequences. It leverages CLIP-based text-to-image retrieval, IP-Adapter for reference character features, and ControlNet for pose guidance to maintain character identity and rich motion across panels.
+  summary_ja: キャラクターの一貫性を保ったストーリー画像シーケンスを生成するために設計された、検索拡張型コミック画像生成システム（RaCig）。CLIPベースのテキスト画像検索、キャラクター特徴用のIP-Adapter、およびポーズ制御用のControlNetを組み合わせることで、コマ間でのキャラクターの同一性と豊かな動きを維持します。
+  thumbnail: assets/thumbnails/racig-retrieval-augmented-comic-image-generation-b4df11.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2506.12517'
+  repo: zulutionai/racig
+- id: cinegen-ai-director-07821f
+  title: CineGen AI Director
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/UllrAI/CineGen-ShortDrama
+  authors:
+  - UllrAI
+  year: 2024
+  tags:
+  - animatic
+  - comic
+  - manga
+  - workflow
+  summary: An open-source AI motion comic, animatic, and video workbench that implements a "Script-to-Asset-to-Keyframe" workflow. It integrates Google Gemini and Veo models to achieve precise control over character consistency, scene continuity, and camera movements.
+  summary_ja: 「Script-to-Asset-to-Keyframe（脚本からアセット、そしてキーフレームへ）」のワークフローを実装した、オープンソースのAIモーションコミック・アニマティクス・動画ワークベンチ。Google GeminiおよびVeoモデルを統合し、キャラクターの一貫性、シーンの連続性、およびカメラワークの精密な制御を実現します。
+  thumbnail: assets/thumbnails/cinegen-ai-director-07821f.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: ullrai/cinegen-shortdrama
 - id: collaborative-comic-generation-2ab8f0
   title: Collaborative Comic Generation
   area: manga
@@ -12856,6 +12937,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hgmzhn/manga-translator-ui
+- id: tails-tell-tales-chapter-wide-manga-transcriptions-with-char-8aab75
+  title: 'Tails Tell Tales: Chapter-Wide Manga Transcriptions with Character Names'
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.00298
+    github: https://github.com/ragavsachdeva/magi
+  authors:
+  - Ragav Sachdeva
+  - Gyungin Shin
+  - Andrew Zisserman
+  year: 2024
+  tags:
+  - manga
+  - multimodal
+  - ocr
+  - transcription
+  summary: A multimodal framework that automatically generates dialogue transcripts for complete manga chapters. It detects text blocks, classifies them into essential or non-essential dialogue, clusters character faces, and matches texts to their speakers to ensure narrative consistency.
+  summary_ja: 漫画の1チャプター全体の対話文字起こしを自動生成するマルチモーダルフレームワーク。テキストブロックの検出と重要度の分類、キャラクターの顔のクラスタリング、およびテキストと発話者のマッチングを行い、一貫したナラティブの書き起こしを実現します。
+  thumbnail: assets/thumbnails/tails-tell-tales-chapter-wide-manga-transcriptions-with-char-8aab75.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2408.00298'
+  repo: ragavsachdeva/magi
 - id: comic-translate-577d27
   title: Comic Translate
   area: manga
@@ -12913,6 +13019,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: dmmaze/ballonstranslator
+- id: comic-translation-helper-0d0e92
+  title: Comic Translation Helper
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/jtl1207/comic-translation
+  year: 2022
+  tags:
+  - manga
+  - ocr
+  - translation
+  - typesetting
+  summary: A deep learning-based comic translation helper tool that integrates OCR text detection, translation, text removal, and automatic typesetting to streamline the scanlation workflow.
+  summary_ja: OCRによるテキスト検出、翻訳、画像からの文字消去、自動嵌字（写植）機能を統合し、漫画の翻訳・編集ワークフローを効率化するディープラーニングベースの支援ツール。
+  thumbnail: assets/thumbnails/comic-translation-helper-0d0e92.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: jtl1207/comic-translation
 - id: mokuro-047be2
   title: Mokuro
   area: manga
@@ -12988,6 +13113,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hanmin0822/misakatranslator
+- id: sickzil-machine-9cf703
+  title: SickZil-Machine
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/KUR-creative/SickZil-Machine
+  year: 2020
+  tags:
+  - inpainting
+  - manga
+  - scanlation
+  - text-removal
+  summary: A deep learning-based helper tool for manga and comic scanlation that automates the process of text detection and removal (inpainting) from speech bubbles and panels.
+  summary_ja: 漫画やコミックの翻訳・クリンナップ（スキャンレーション）作業を支援するディープラーニングベースのツール。吹き出しやコマ内のテキスト検出と自動消去（インペインティング）を自動化します。
+  thumbnail: assets/thumbnails/sickzil-machine-9cf703.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: kur-creative/sickzil-machine
 - id: towards-fully-automated-manga-translation-3d76e9
   title: Towards Fully Automated Manga Translation
   area: manga
@@ -13013,6 +13157,63 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2012.14271'
+- id: canvas-3cba16
+  title: CANVAS
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.13452
+    paper: https://arxiv.org/abs/2604.13452
+  authors:
+  - Ishani Mondal
+  - Yiwen Song
+  - Mihir Parmar
+  - Palash Goyal
+  - Jordan Boyd-Graber
+  - Tomas Pfister
+  - Yale Song
+  year: 2026
+  tags:
+  - continuity
+  - multi-agent
+  - storyboard
+  summary: A multi-agent framework that plans visual continuity across shots and panels for long-form visual storytelling, maintaining consistent characters, stable environments, and smooth scene transitions.
+  summary_ja: 長編のビジュアルストーリーテリングにおいて、一貫したキャラクター、安定した環境、スムーズなシーン遷移を維持するために、カットやパネル間の視覚的一貫性を明示的に計画するマルチエージェントフレームワーク。
+  thumbnail: assets/thumbnails/canvas-3cba16.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2604.13452'
+- id: storyblender-4d1040
+  title: StoryBlender
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.03315
+    github: https://github.com/EngineeringAI-LAB/StoryBlender
+    paper: https://arxiv.org/abs/2604.03315
+  authors:
+  - Bingliang Li
+  - Zhenhong Sun
+  - Jiaming Bian
+  - Yuehao Wu
+  - Yifu Wang
+  - Hongdong Li
+  - Yatao Bian
+  - Huadong Mo
+  year: 2026
+  tags:
+  - 3d
+  - blender
+  - storyboard
+  summary: A Blender extension for automated, editable, and inter-shot consistent 3D storyboard production, combining 2D diffusion generators with 3D animation workflows.
+  summary_ja: 2D拡散モデルによる生成と3Dアニメーションのワークフローを組み合わせ、カット間の一貫性と編集性を両立した3D絵コンテを自動生成するBlender拡張機能。
+  thumbnail: assets/thumbnails/storyblender-4d1040.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2604.03315'
+  repo: engineeringai-lab/storyblender
 - id: comfyui-panelforge-pixstri-3d9b17
   title: ComfyUI PanelForge (Pixstri)
   area: manga
@@ -13098,6 +13299,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: koesan/manga-panel-layoutgan
+- id: story2board-882dbc
+  title: Story2Board
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.09983
+    github: https://github.com/DavidDinkevich/Story2Board
+    paper: https://arxiv.org/abs/2508.09983
+  authors:
+  - David Dinkevich
+  - Matan Levy
+  - Omri Avrahami
+  - Dvir Samuel
+  - Dani Lischinski
+  year: 2025
+  tags:
+  - diffusion
+  - layout
+  - storyboard
+  summary: A training-free framework for expressive storyboard generation from natural language. It introduces Latent Panel Anchoring to preserve character reference across panels and Reciprocal Attention Value Mixing to maintain visual consistency.
+  summary_ja: 自然言語から表現力豊かな絵コンテ（ストーリーボード）を生成する、学習不要のフレームワーク。パネル間でキャラクターの同一性を維持するLatent Panel Anchoringと、視覚的一貫性を保つReciprocal Attention Value Mixingを導入しています。
+  thumbnail: assets/thumbnails/story2board-882dbc.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2508.09983'
+  repo: daviddinkevich/story2board
 - id: how-panel-layouts-define-manga-insights-from-visual-ablation-b4a0ce
   title: 'How Panel Layouts Define Manga: Insights from Visual Ablation Experiments'
   area: manga
@@ -13235,6 +13463,34 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: manga109/panel-order-estimator
+- id: automatic-comic-generation-with-stylistic-multi-page-layouts-a307a6
+  title: Automatic Comic Generation with Stylistic Multi-page Layouts
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2101.11111
+    paper: https://arxiv.org/abs/2101.11111
+  authors:
+  - Xin Yang
+  - Zongliang Ma
+  - Letian Yu
+  - Ying Cao
+  - Baocai Yin
+  - Xiaopeng Wei
+  - Qiang Zhang
+  - Rynson W. H. Lau
+  year: 2021
+  tags:
+  - comic-generation
+  - layout
+  - video-to-comic
+  summary: A fully automatic system for generating comic books from videos, featuring a multi-page layout framework that allocates stylized keyframes across pages and synthesizes visually interesting layouts.
+  summary_ja: ビデオからコミック本を自動生成するシステム。感情駆動型のテキストバルーン生成に加え、スタイライズされたキーフレームを複数ページに配分し、視覚的に魅力的なレイアウトを合成するマルチページレイアウトフレームワークを提案しています。
+  thumbnail: assets/thumbnails/automatic-comic-generation-with-stylistic-multi-page-layouts-a307a6.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2101.11111'
 - id: sketch2manga-0ca23d
   title: Sketch2Manga
   area: manga
@@ -13353,6 +13609,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2203.03396'
+- id: mangafilter-c7b21c
+  title: MangaFilter
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/MangaFilter
+    paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Generating_Manga_From_Illustrations_via_Mimicking_Manga_Creation_Workflow_CVPR_2021_paper.pdf
+    website: https://lllyasviel.github.io/MangaFilter/
+  authors:
+  - Lvmin Zhang
+  - Xinrui Wang
+  - Qingnan Fan
+  - Yi Ji
+  - Chunping Liu
+  year: 2021
+  tags:
+  - halftone
+  - manga-generation
+  - screentone
+  summary: 'A data-driven framework that converts digital illustrations into manga by separating them into three components: manga line drawings, regular screentones, and irregular screen textures.'
+  summary_ja: デジタルイラストを線画、規則的なスクリーントーン、不規則なスクリーンテクスチャの3つの要素に分離・変換することで、イラストから漫画を生成するデータ駆動型フレームワーク。
+  thumbnail: assets/thumbnails/mangafilter-c7b21c.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: lllyasviel/mangafilter
 - id: mangarestoration-d48789
   title: MangaRestoration
   area: manga
@@ -13401,6 +13683,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: msxie92/screenstyle
+- id: screentone-remover-5b7747
+  title: Screentone-Remover
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/natethegreate/Screentone-Remover
+  authors:
+  - Nathaniel Great
+  year: 2020
+  tags:
+  - descreening
+  - image-processing
+  - screentone
+  summary: A Python script with a graphical user interface that removes screentones from manga scans using digital signal processing techniques.
+  summary_ja: デジタル信号処理技術を用いて漫画のスキャン画像からスクリーントーンを除去する、グラフィカルユーザーインターフェースを備えたPythonスクリプト。
+  thumbnail: assets/thumbnails/screentone-remover-5b7747.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: natethegreate/screentone-remover
 - id: synthesis-of-screentone-patterns-of-manga-characters-ebd132
   title: Synthesis of Screentone Patterns of Manga Characters
   area: manga
@@ -13736,6 +14038,46 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: libretranslate/libretranslate
+- id: mozilla-pontoon-242901
+  title: Mozilla Pontoon
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/mozilla/pontoon
+    website: https://pontoon.mozilla.org/
+  year: 2014
+  tags:
+  - i18n
+  - localization
+  - pontoon
+  - translation
+  summary: Mozilla's open-source, web-based localization tool designed to localize web content and software in place. It provides a highly visual, context-aware translation interface that helps translators see how their translations fit into the actual UI.
+  summary_ja: Mozillaが開発するオープンソースのWebベース・ローカライズツール。実際のUI上で翻訳結果を確認しながら作業できる、視覚的かつコンテキストを意識した翻訳インターフェースを提供します。
+  thumbnail: assets/thumbnails/mozilla-pontoon-242901.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: mozilla/pontoon
+- id: weblate-700512
+  title: Weblate
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/WeblateOrg/weblate
+    website: https://weblate.org/
+  year: 2012
+  tags:
+  - i18n
+  - localization
+  - translation
+  - weblate
+  summary: An open-source, web-based continuous localization and translation management platform with tight version control integration. It supports automated machine translation, translation memory, and collaborative workflows for software and game development.
+  summary_ja: 強力なバージョン管理システム連携を備えた、オープンソースのWebベース連続ローカライズ・翻訳管理プラットフォーム。自動機械翻訳、翻訳メモリ、ソフトウェアやゲーム開発向けの共同作業ワークフローをサポートします。
+  thumbnail: assets/thumbnails/weblate-700512.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: weblateorg/weblate
 - id: from-world-gen-to-quest-line-cbadff
   title: From World-Gen to Quest-Line
   area: text-design
@@ -13763,6 +14105,34 @@ entries:
   source: agent
   arxiv_id: '2604.25482'
   repo: anon-researcher-rpg/dependency-driven-prompt-pipeline
+- id: all-stories-are-one-story-d63c30
+  title: All Stories Are One Story
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.02132
+  authors:
+  - Yunge Wen
+  - Chenliang Huang
+  - Hangyu Zhou
+  - Zhuo Zeng
+  - Chun Ming Louis Po
+  - Julian Togelius
+  - Timothy Merino
+  - Sam Earle
+  year: 2025
+  tags:
+  - emotional-arc
+  - narrative
+  - pcg
+  - rpg
+  summary: A procedural game narrative generation framework that incorporates emotional arcs as a structural backbone for both story progression and gameplay dynamics. It automatically populates story nodes with characters, items, and gameplay-relevant attributes, adjusting difficulty according to the emotional trajectory.
+  summary_ja: 感情のアーク（起伏）をストーリー進行とゲームプレイのダイナミクスの構造的骨組みとして取り入れた、プロシージャルなゲームナラティブ生成フレームワーク。ストーリーのノードにキャラクター、アイテム、ゲームプレイ属性を自動的に配置し、感情の軌跡に応じて難易度を調整します。
+  thumbnail: assets/thumbnails/all-stories-are-one-story-d63c30.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2508.02132'
 - id: bookworld-d86f76
   title: BookWorld
   area: text-design
@@ -13815,6 +14185,29 @@ entries:
   source: agent
   arxiv_id: '2509.04481'
   repo: rimichen/2025_narrativescene
+- id: snap-7c13bf
+  title: SNAP
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.11529
+  authors:
+  - Geonwoo Bang
+  - DongMyung Kim
+  - Hayoung Oh
+  year: 2025
+  tags:
+  - interactive-fiction
+  - llm
+  - narrative
+  - planning
+  summary: A plan-driven framework (Story and Narrative-based Agent with Planning) that structures interactive narratives into cell-based segments with explicit plans. This approach prevents narrative drift and spatiotemporal distortions in LLM-based conversational agents responding to diverse user inputs.
+  summary_ja: インタラクティブなストーリーを明示的な計画を持つセル単位のセグメントに構造化する、計画駆動型のフレームワーク（SNAP）。多様なユーザー入力に対応するLLMベースの対話エージェントにおいて、ストーリーの逸脱や時空間的な矛盾を防ぎます。
+  thumbnail: assets/thumbnails/snap-7c13bf.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2601.11529'
 - id: story2game-a99b16
   title: STORY2GAME
   area: text-design
@@ -13840,6 +14233,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2505.03547'
+- id: pangea-c0d0fb
+  title: PANGeA
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.19721
+    project: https://stephbuon.github.io/pangea
+  authors:
+  - Steph Buongiorno
+  - Lawrence Jake Klinkert
+  - Tanishq Chawla
+  - Zixin Zhuang
+  - Corey Clark
+  year: 2024
+  tags:
+  - narrative
+  - quest
+  - rpg
+  - unity
+  summary: A structured framework that leverages LLMs guided by high-level designer criteria to generate narrative content (settings, key items, NPCs, and dialogue) for turn-based RPGs. It features a custom memory system, a self-reflection validation system, and a Unity plug-in to ensure narrative consistency.
+  summary_ja: ゲームデザイナーの高レベルな基準に基づいてLLMを制御し、ターン制RPG向けのナラティブコンテンツ（設定、重要アイテム、NPC、対話など）を生成する構造化フレームワーク。カスタムメモリシステム、自己反省による検証システム、Unityプラグインを備え、ストーリーの一貫性を保証します。
+  thumbnail: assets/thumbnails/pangea-c0d0fb.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2404.19721'
 - id: mistral-7b-c81ddf
   title: Mistral 7B
   area: text-design
@@ -13911,6 +14330,28 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2510.13586'
+- id: efficient-tool-calling-multi-expert-npc-agent-for-commonsens-e0ba8b
+  title: Efficient Tool-Calling Multi-Expert NPC Agent for Commonsense Persona-Grounded Dialogue
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.01720
+    paper: https://arxiv.org/pdf/2511.01720
+  authors:
+  - Mahammad Nuriyev
+  year: 2025
+  tags:
+  - dialogue
+  - llm
+  - multi-agent
+  - tool-calling
+  summary: 'Presents a multi-expert NPC dialogue system using Qwen3 and LoRA adapters to instantiate three specialized agents: tool calling, tool-response interpretation, and direct dialogue. Designed for the Commonsense Persona-Grounded Dialogue Challenge (CPDC) 2025, it balances character consistency with functional task execution under strict latency constraints.'
+  summary_ja: Qwen3とLoRAアダプターを使用して、ツール呼び出し、ツール応答解釈、直接対話の3つの専門エージェントをインスタンス化するマルチエキスパートNPC対話システム。CPDC 2025向けに設計され、厳しい遅延制約下でキャラクターの一貫性と機能的なタスク実行を両立する。
+  thumbnail: assets/thumbnails/efficient-tool-calling-multi-expert-npc-agent-for-commonsens-e0ba8b.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2511.01720'
 - id: fixed-persona-slms-with-modular-memory-2425ba
   title: Fixed-Persona SLMs with Modular Memory
   area: text-design
@@ -13958,6 +14399,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.20200'
+- id: state-inference-based-prompting-for-natural-language-trading-02582b
+  title: State-Inference-Based Prompting for Natural Language Trading with Game NPCs
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.07203
+    paper: https://arxiv.org/pdf/2507.07203
+  authors:
+  - Minkyung Kim
+  - Junsik Kim
+  - Hwidong Bae
+  - Woongcheol Yang
+  - Sangdon Park
+  - Sohee Bae
+  year: 2025
+  tags:
+  - dialogue
+  - llm
+  - prompting
+  - trading
+  summary: Proposes State-Inference-Based Prompting (SIBP) to enable game NPCs to engage in natural language trading of items and currency with players. The framework prevents common LLM issues like item hallucination and calculation errors by strictly adhering to game state rules.
+  summary_ja: ゲームのNPCがプレイヤーとアイテムや通貨の自然言語取引を行えるようにする状態推論ベースのプロンプト（SIBP）を提案。ゲーム状態のルールに厳密に従うことで、アイテムのハルシネーションや計算ミスといった一般的なLLMの問題を防ぐ。
+  thumbnail: assets/thumbnails/state-inference-based-prompting-for-natural-language-trading-02582b.png
+  date_added: '2026-06-27'
+  source: agent
+  arxiv_id: '2507.07203'
 - id: a-survey-on-large-language-model-based-game-agents-f70423
   title: A Survey on Large Language Model-Based Game Agents
   area: text-design
@@ -14129,6 +14597,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: art-from-the-machine/mantella
+- id: sillytavern-5f6b47
+  title: SillyTavern
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/SillyTavern/SillyTavern
+  year: 2023
+  tags:
+  - dialogue
+  - frontend
+  - llm
+  - roleplay
+  summary: A highly customizable, open-source frontend for power users to interact with LLM-based characters and NPCs. It supports advanced features such as character cards, world info (lorebooks), expression images, and group chats, making it a popular tool for prototyping game dialogue.
+  summary_ja: LLMベースのキャラクターやNPCと対話するための、高度にカスタマイズ可能なオープンソースのフロントエンド。キャラクターカード、ワールド情報（ロアブック）、表情画像、グループチャットなどの高度な機能をサポートし、ゲーム対話のプロトタイピングに広く使用されている。
+  thumbnail: assets/thumbnails/sillytavern-5f6b47.png
+  date_added: '2026-06-27'
+  source: agent
+  repo: sillytavern/sillytavern
 - id: agentic-pcg-1e1627
   title: Agentic PCG
   area: text-design
