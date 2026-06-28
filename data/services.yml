@@ -1657,6 +1657,23 @@ entries:
   thumbnail: assets/thumbnails/inworld-ai-c4e760.png
   date_added: '2026-06-13'
   source: seed
+- id: haiper-af0b5e
+  title: Haiper
+  area: video
+  task: image-to-video
+  kind: proprietary
+  links:
+    website: https://haiper.ai/
+  year: 2024
+  tags:
+  - commercial
+  - image-to-video
+  - text-to-video
+  summary: A commercial AI video generation platform that offers advanced text-to-video and image-to-video tools, designed to produce high-quality, stable animations and short-form video content.
+  summary_ja: 高品質で安定したアニメーションやショートビデオコンテンツを制作するために設計された、高度なテキスト・ビデオおよび画像・ビデオ生成ツールを提供する商用AIビデオ生成プラットフォーム。
+  thumbnail: assets/thumbnails/haiper-af0b5e.png
+  date_added: '2026-06-28'
+  source: agent
 - id: viggle-ai-9d62ae
   title: Viggle AI
   area: video
@@ -1673,6 +1690,23 @@ entries:
   summary_ja: キャラクターのモーション転送に特化した人気の商用AIアニメーションプラットフォーム。モーションテンプレートやカスタム動画クリップを使用して、静止したキャラクター画像をアニメーション化できる。
   thumbnail: assets/thumbnails/viggle-ai-9d62ae.png
   date_added: '2026-06-14'
+  source: agent
+- id: autodesk-flow-studio-f04955
+  title: Autodesk Flow Studio
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://www.autodesk.com/products/flow-studio/overview
+  year: 2025
+  tags:
+  - compositing
+  - rotoscoping
+  - vfx
+  summary: A cloud-based, AI-powered 3D toolset that automatically animates, lights, and composes CG characters into live-action scenes, featuring automated actor masking, rotoscoping, and clean plate generation.
+  summary_ja: 実写シーンへのCGキャラクターの自動アニメーション、ライティング、合成を行うクラウドベースのAI搭載3Dツールセット。アクターの自動マスキング、ロトスコープ、クリーンプレート生成機能を備える。
+  thumbnail: assets/thumbnails/autodesk-flow-studio-f04955.png
+  date_added: '2026-06-28'
   source: agent
 - id: mocha-pro-4b4000
   title: Mocha Pro
@@ -1710,6 +1744,23 @@ entries:
   thumbnail: assets/thumbnails/beeble-4803d1.png
   date_added: '2026-06-13'
   source: agent
+- id: mask-prompter-4d75cf
+  title: Mask Prompter
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://blaceplugins.com/product/mask-prompter-3/
+  year: 2024
+  tags:
+  - after-effects
+  - masking
+  - plugin
+  summary: An AI-powered rotoscoping plugin for After Effects and Premiere Pro that allows users to generate precise masks and mattes using text prompts, bounding boxes, or points.
+  summary_ja: テキストプロンプト、バウンディングボックス、またはポイントを使用して、高精度なマスクやマットを生成できるAfter EffectsおよびPremiere Pro向けのAI搭載ロトスコーププラグイン。
+  thumbnail: assets/thumbnails/mask-prompter-4d75cf.png
+  date_added: '2026-06-28'
+  source: agent
 - id: slapshot-ai-78d9df
   title: Slapshot AI
   area: video
@@ -1727,6 +1778,23 @@ entries:
   summary_ja: 最大8Kの高解像度映像に対応し、ロトスコープ、カメラトラッキング、深度マップ推定、生成的なリタイミングを自動化するエンタープライズ向けのAI搭載VFXツールキット。
   thumbnail: assets/thumbnails/slapshot-ai-78d9df.png
   date_added: '2026-06-13'
+  source: agent
+- id: sora-2-a13e3f
+  title: Sora 2
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://openai.com/index/sora-2/
+  year: 2025
+  tags:
+  - audio-sync
+  - text-to-video
+  - video-generation
+  summary: OpenAI's advanced video generation model that features improved physical accuracy, realistic motion, synchronized dialogue, and sound effects.
+  summary_ja: 物理的な正確性、リアルな動き、同期された対話、および効果音を特徴とする、OpenAIの高度な動画生成モデル。
+  thumbnail: assets/thumbnails/sora-2-a13e3f.png
+  date_added: '2026-06-28'
   source: agent
 - id: google-veo-201d84
   title: Google Veo
@@ -1815,6 +1883,23 @@ entries:
   thumbnail: assets/thumbnails/vidu-50486a.png
   date_added: '2026-06-14'
   source: agent
+- id: vidu-ai-29e016
+  title: Vidu AI
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://www.vidu.com/
+  year: 2024
+  tags:
+  - image-to-video
+  - text-to-video
+  - video-generation
+  summary: A high-performance AI video generator capable of producing realistic, high-definition videos from text and image prompts with consistent character movements and physics.
+  summary_ja: テキストや画像プロンプトから、一貫したキャラクターの動きや物理挙動を持つ、リアルで高精細な動画を生成できる高性能AI動画生成ツール。
+  thumbnail: assets/thumbnails/vidu-ai-29e016.png
+  date_added: '2026-06-28'
+  source: agent
 - id: pika-b588f4
   title: Pika
   area: video
@@ -1862,6 +1947,40 @@ entries:
   summary_ja: Descriptは、文字起こしされたテキストを編集することで動画や音声を編集できる、AI搭載の協調型オーディオ・ビデオエディターです。自動文字起こし、AI音声生成、不要なつなぎ言葉の除去、スタジオ品質の音響補正などの機能を備えています。
   thumbnail: assets/thumbnails/descript-2a8e52.png
   date_added: '2026-06-13'
+  source: agent
+- id: topaz-video-ai-e3a43d
+  title: Topaz Video AI
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-video
+  year: 2023
+  tags:
+  - denoise
+  - stabilization
+  - upscaling
+  summary: A professional, industry-standard video enhancement software that utilizes deep learning for upscaling, motion interpolation, deinterlacing, and stabilization.
+  summary_ja: ディープラーニングを活用して、アップスケーリング、モーション補間、デインターレース、手ブレ補正を行う、プロフェッショナル向けかつ業界標準の動画品質向上ソフトウェア。
+  thumbnail: assets/thumbnails/topaz-video-ai-e3a43d.png
+  date_added: '2026-06-28'
+  source: agent
+- id: pixop-8c7163
+  title: Pixop
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://www.pixop.com/
+  year: 2020
+  tags:
+  - cloud
+  - restoration
+  - upscaling
+  summary: A cloud-based, ML-powered video enhancement and restoration platform designed for broadcasters and media companies, offering automated upscaling, denoising, and SDR-to-HDR conversion.
+  summary_ja: 放送局やメディア企業向けに設計された、クラウドベースの機械学習駆動型動画向上・復元プラットフォーム。自動アップスケーリング、ノイズ除去、SDRからHDRへの変換機能を提供する。
+  thumbnail: assets/thumbnails/pixop-8c7163.png
+  date_added: '2026-06-28'
   source: agent
 - id: goenhance-ai-f90ac6
   title: GoEnhance AI
