@@ -16,6 +16,24 @@ entries:
   thumbnail: assets/thumbnails/hedra-f6ef6f.png
   date_added: '2026-06-13'
   source: agent
+- id: rask-ai-ce082b
+  title: Rask AI
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.rask.ai/
+  year: 2023
+  tags:
+  - dubbing
+  - lip-sync
+  - localization
+  - voice-cloning
+  summary: A popular commercial video localization and dubbing platform that features advanced multi-speaker AI lip-syncing to match translated audio with natural mouth movements.
+  summary_ja: 翻訳された音声と自然な口の動きを一致させる、高度なマルチスピーカーAIリップシンク機能を備えた、人気の商用ビデオローカライズおよびダビングプラットフォーム。
+  thumbnail: assets/thumbnails/rask-ai-ce082b.png
+  date_added: '2026-06-29'
+  source: agent
 - id: sync-labs-8c71a6
   title: Sync Labs
   area: animation
@@ -51,6 +69,40 @@ entries:
   summary_ja: テキストまたは音声入力から顔画像をトーキングヘッド動画にアニメーション化する、主要な商用プラットフォームおよびAPI。バーチャルプレゼンターやローカライズ向けに、リアルなリップシンク、表情、自然な頭部の動きを生成します。
   thumbnail: assets/thumbnails/d-id-4168a0.png
   date_added: '2026-06-22'
+  source: agent
+- id: svfi-be3646
+  title: SVFI
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://store.steampowered.com/app/1692080/SVFI/
+  year: 2021
+  tags:
+  - anime-upscaling
+  - gui
+  - software
+  summary: A popular consumer-grade video frame interpolation and upscaling software widely used by anime fans and video creators. It integrates various AI models (such as RIFE and GMFSS) to convert low-framerate videos and image sequences into smooth, high-framerate footage.
+  summary_ja: アニメファンや動画クリエイターに広く利用されている、人気のコンシューマー向けビデオフレーム補間・アップスケーリングソフトウェア。RIFEやGMFSSなどの様々なAIモデルを統合し、低フレームレートの動画や連番画像を滑らかな高フレームレート映像に変換します。
+  thumbnail: assets/thumbnails/svfi-be3646.png
+  date_added: '2026-06-29'
+  source: agent
+- id: smoothvideo-project-26c5ff
+  title: SmoothVideo Project
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://www.svp-team.com/
+  year: 2011
+  tags:
+  - playback
+  - real-time
+  - software
+  summary: A well-established real-time frame interpolation software that increases video frame rates during playback. It utilizes GPU acceleration and advanced motion-vector algorithms to interpolate standard videos to 60 FPS, 120 FPS, or higher in real-time.
+  summary_ja: 再生中にビデオのフレームレートをリアルタイムで向上させる、実績のあるフレーム補間ソフトウェア。GPUアクセラレーションと高度な動きベクトルアルゴリズムを利用して、標準的な動画をリアルタイムで60 FPSや120 FPS以上に補間します。
+  thumbnail: assets/thumbnails/smoothvideo-project-26c5ff.png
+  date_added: '2026-06-29'
   source: agent
 - id: autodesk-motionbuilder-1b3117
   title: Autodesk MotionBuilder
@@ -121,6 +173,24 @@ entries:
   summary_ja: テキストプロンプトと機械学習支援ポージングを使用して、Unityエディタ内で直接、自然なキャラクターアニメーションを生成および編集できる、Unity公式のAI搭載アニメーションツール。
   thumbnail: assets/thumbnails/unity-muse-animate-daf4b5.png
   date_added: '2026-06-22'
+  source: agent
+- id: rokoko-vision-4206df
+  title: Rokoko Vision
+  area: animation
+  task: video-mocap
+  kind: proprietary
+  links:
+    website: https://www.rokoko.com/products/vision
+  year: 2023
+  tags:
+  - ai-mocap
+  - browser
+  - fbx
+  - mocap
+  summary: A browser-based AI motion capture tool that converts webcam footage or uploaded video files into 3D character animations, supporting dual-camera setups for higher precision and direct export to FBX.
+  summary_ja: ウェブカメラの映像やアップロードされた動画ファイルを3Dキャラクターアニメーションに変換するブラウザベースのAIモーションキャプチャツール。高精度な2台カメラ設定やFBXへの直接エクスポートに対応。
+  thumbnail: assets/thumbnails/rokoko-vision-4206df.png
+  date_added: '2026-06-29'
   source: agent
 - id: deepmotion-animate-3d-bf6f29
   title: DeepMotion (Animate 3D)
