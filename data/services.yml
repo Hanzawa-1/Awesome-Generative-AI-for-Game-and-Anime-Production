@@ -342,6 +342,24 @@ entries:
   thumbnail: assets/thumbnails/nemisindo-3fa057.png
   date_added: '2026-06-13'
   source: agent
+- id: metasounds-ad4116
+  title: MetaSounds
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/en-us/unreal-engine/metasounds-the-next-generation-sound-sources-in-unreal-engine
+  year: 2021
+  tags:
+  - dsp
+  - interactive
+  - procedural-audio
+  - unreal-engine
+  summary: Unreal Engine 5's built-in high-performance procedural audio engine that uses a digital signal processing (DSP) rendering graph to generate and control dynamic, interactive sound sources in real-time.
+  summary_ja: Unreal Engine 5に組み込まれた高性能なプロシージャルオーディオエンジン。デジタル信号処理（DSP）レンダリンググラフを使用して、動的でインタラクティブな音源をリアルタイムで生成・制御します。
+  thumbnail: assets/thumbnails/metasounds-ad4116.png
+  date_added: '2026-06-30'
+  source: agent
 - id: gamesynth-e5abf2
   title: GameSynth
   area: audio
@@ -564,6 +582,24 @@ entries:
   thumbnail: assets/thumbnails/lovo-ai-457041.png
   date_added: '2026-06-13'
   source: agent
+- id: accurig-e7075e
+  title: AccuRIG
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://actorcore.reallusion.com/auto-rig/accurig
+  year: 2022
+  tags:
+  - animation
+  - humanoid
+  - reallusion
+  - rigging
+  summary: A free, professional-grade automatic character rigging tool by Reallusion that automates skeletal structure creation and skinning for humanoid 3D models, with support for manual joint refinement.
+  summary_ja: 人型3Dモデルの骨格作成とスキニングを自動化する、Reallusion社による無料のプロフェッショナル向け自動キャラクターリギングツール。手動での関節微調整もサポートしています。
+  thumbnail: assets/thumbnails/accurig-e7075e.png
+  date_added: '2026-06-30'
+  source: agent
 - id: mixamo-9a4b49
   title: Mixamo
   area: characters
@@ -597,6 +633,24 @@ entries:
   summary_ja: 1枚の自撮り写真から、リアルで完全にリギングされたカスタマイズ可能なゲーム向け3Dアバターを生成するAI搭載アバター作成ツール。
   thumbnail: assets/thumbnails/avaturn-d2c667.png
   date_added: '2026-06-23'
+  source: agent
+- id: heygen-e05467
+  title: HeyGen
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://heygen.com/
+  year: 2020
+  tags:
+  - avatar
+  - commercial
+  - talking-head
+  - video-generation
+  summary: A leading commercial AI video generation platform that uses highly realistic talking avatars and voice cloning to create professional videos from text scripts.
+  summary_ja: テキストスクリプトからプロフェッショナルな動画を作成するために、非常にリアルなトーキングアバターと音声クローンを使用する、業界大手の商用AI動画生成プラットフォーム。
+  thumbnail: assets/thumbnails/heygen-e05467.png
+  date_added: '2026-06-30'
   source: agent
 - id: metahuman-creator-4597b5
   title: MetaHuman Creator
