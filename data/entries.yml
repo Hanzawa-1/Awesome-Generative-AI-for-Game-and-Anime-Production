@@ -9458,6 +9458,38 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hy-world-2.0
+- id: lyra-generative-3d-scene-reconstruction-via-video-diffusion-ab6732
+  title: 'Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.19296
+    github: https://github.com/nv-tlabs/lyra
+    project: https://research.nvidia.com/labs/toronto-ai/lyra/
+  authors:
+  - Sherwin Bahmani
+  - Jeong Joon Park
+  - Despoina Paschalidou
+  - Sanjeev Kopihal
+  - Yash Kant
+  - Gordon Wetzstein
+  - Andrea Tagliasacchi
+  - Sanja Fidler
+  - Francis Williams
+  year: 2025
+  tags:
+  - 3d-scene
+  - gaussian-splatting
+  - video-diffusion
+  - world-model
+  summary: A generative framework for 3D and 4D scene reconstruction that distills implicit 3D knowledge from camera-controlled video diffusion models into explicit 3D Gaussian Splatting representations. It supports generating explorable 3D environments from text, single images, or monocular videos.
+  summary_ja: カメラ制御ビデオ拡散モデルから得られる暗黙的な3D知識を、明示的な3Dガウシアン・スプラッティング（3DGS）表現へと蒸留する3D/4Dシーン再構成フレームワーク。テキスト、単一画像、または単眼ビデオから、探索可能な3D環境の生成を可能にします。
+  thumbnail: assets/thumbnails/lyra-generative-3d-scene-reconstruction-via-video-diffusion-ab6732.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2509.19296'
+  repo: nv-tlabs/lyra
 - id: spatialgen-edb768
   title: SpatialGen
   area: gen-3d
@@ -9510,6 +9542,36 @@ entries:
   source: seed
   arxiv_id: '2510.21682'
   repo: world-grow/worldgrow
+- id: echoscene-indoor-scene-generation-via-information-echo-over-86ccd7
+  title: 'EchoScene: Indoor Scene Generation via Information Echo over Scene Graph Diffusion'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.00915
+    github: https://github.com/ymxlzgy/echoscene
+    website: https://ymxlzgy.com/publication/echoscene/
+  authors:
+  - Guangyao Zhai
+  - Evin Pinar Örnek
+  - Dave Zhenyu Chen
+  - Ruotong Liao
+  - Yan Di
+  - Nassir Navab
+  - Federico Tombari
+  - Benjamin Busam
+  year: 2024
+  tags:
+  - 3d-scene
+  - diffusion-model
+  - scene-graph
+  summary: A generative model for interactive and controllable 3D indoor scene generation based on scene graphs. It uses a dual-branch diffusion model with an information echo scheme to coordinate shape and layout generation under global constraints.
+  summary_ja: シーングラフに基づいてインタラクティブかつ制御可能な3D屋内シーンを生成する拡散モデル。形状とレイアウトの生成をグローバルな制約下で調整する情報エコー（Information Echo）スキームを備えたデュアルブランチ拡散モデルを採用しています。
+  thumbnail: assets/thumbnails/echoscene-indoor-scene-generation-via-information-echo-over-86ccd7.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2405.00915'
+  repo: ymxlzgy/echoscene
 - id: midi-275798
   title: MIDI
   area: gen-3d
@@ -9569,6 +9631,61 @@ entries:
   source: agent
   arxiv_id: '2410.09049'
   repo: orangesodahub/scenecraft
+- id: wonderworld-interactive-3d-scene-generation-from-a-single-im-0eef9e
+  title: 'WonderWorld: Interactive 3D Scene Generation from a Single Image'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.09394
+    github: https://github.com/KovenYu/WonderWorld
+    website: https://kovenyu.com/wonderworld/
+  authors:
+  - Hong-Xing Yu
+  - Haoyi Duan
+  - Charles Herrmann
+  - William T. Freeman
+  - Jiajun Wu
+  year: 2024
+  tags:
+  - 3d-scene
+  - gaussian-splatting
+  - scene-generation
+  summary: A framework for interactive 3D scene generation and extrapolation from a single image. It uses Fast Layered Gaussian Surfels and guided depth diffusion to generate large-scale, visually coherent 3D environments with low latency.
+  summary_ja: 単一の画像からインタラクティブな3Dシーンの生成および外挿を行うフレームワーク。高速レイヤードガウシアンサーフェルとガイド付き深度拡散を用いることで、低遅延で視覚的に一貫した大規模な3D環境を構築します。
+  thumbnail: assets/thumbnails/wonderworld-interactive-3d-scene-generation-from-a-single-im-0eef9e.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2406.09394'
+  repo: kovenyu/wonderworld
+- id: holodeck-language-guided-generation-of-3d-embodied-ai-enviro-e3f4ee
+  title: 'Holodeck: Language Guided Generation of 3D Embodied AI Environments'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.09067
+    github: https://github.com/allenai/Holodeck
+    website: https://yueyang1996.github.io/holodeck/
+  authors:
+  - Yue Yang
+  - Ran Gong
+  - Yueqi Duan
+  - Yixin Zhu
+  - Song-Chun Zhu
+  - Chris Callison-Burch
+  year: 2023
+  tags:
+  - 3d-scene
+  - embodied-ai
+  - layout-generation
+  summary: A system that generates diverse, interactive 3D environments (such as arcades, spas, and museums) from user-supplied text prompts. It leverages GPT-4 for semantic planning and layout design, and populates the scene using a large collection of 3D assets from Objaverse.
+  summary_ja: ユーザーのテキストプロンプトから、ゲームセンターやスパ、美術館などの多様でインタラクティブな3D環境を自動生成するシステム。GPT-4を用いてセマンティックな配置計画を行い、Objaverseの膨大な3Dアセットコレクションを配置します。
+  thumbnail: assets/thumbnails/holodeck-language-guided-generation-of-3d-embodied-ai-enviro-e3f4ee.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2312.09067'
+  repo: allenai/holodeck
 - id: 360anything-geometry-free-lifting-of-images-and-videos-to-36-427bd4
   title: '360Anything: Geometry-Free Lifting of Images and Videos to 360°'
   area: gen-3d
@@ -9624,6 +9741,36 @@ entries:
   source: agent
   arxiv_id: '2605.17916'
   repo: jjrcn/panoworld
+- id: cubediff-5d3acf
+  title: CubeDiff
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.17162
+    github: https://github.com/Juan5713/OpenCubeDiff
+    project: https://cubediff.github.io/
+  authors:
+  - Nikolai Kalischek
+  - Michael Oechsle
+  - Fabian Manhardt
+  - Philipp Henzler
+  - Konrad Schindler
+  - Federico Tombari
+  year: 2025
+  tags:
+  - '360'
+  - cubemap
+  - diffusion
+  - panorama
+  - skybox
+  summary: A framework for generating high-quality 360-degree panoramas using a cubemap representation. It generates the six perspective faces of a cubemap in parallel using pretrained text-to-image diffusion models, ensuring cross-view consistency and seamless transitions without requiring correspondence-aware attention layers.
+  summary_ja: キューブマップ表現を使用して高品質な360度パノラマを生成するフレームワーク。事前学習済みのテキスト画像拡散モデルを使用してキューブマップの6つのパースペクティブ面を並行して生成し、対応関係を考慮したアテンション層を必要とせずに、クロスビューの一貫性とシームレスな遷移を保証する。
+  thumbnail: assets/thumbnails/cubediff-5d3acf.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2501.17162'
+  repo: juan5713/opencubediff
 - id: dit360-26fc13
   title: DiT360
   area: gen-3d
@@ -9702,6 +9849,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: chronos123/spnd
+- id: 360dvd-2e268c
+  title: 360DVD
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.06578
+    github: https://github.com/Akaneqwq/360DVD
+    project: https://akaneqwq.github.io/360DVD/
+  authors:
+  - Qian Wang
+  - Weiqi Li
+  - Chong Mou
+  - Xinhua Cheng
+  - Jian Zhang
+  year: 2024
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  - video-generation
+  summary: A controllable 360-degree video diffusion model that generates seamless panoramic videos from text prompts and camera trajectories. It introduces a latitude-aware adapter and a circular blending mechanism to ensure spatial-temporal consistency and seamless boundary transitions.
+  summary_ja: テキストプロンプトとカメラの軌跡からシームレスなパノラマ動画を生成する、制御可能な360度動画拡散モデル。緯度を考慮したアダプターと円形ブレンディング機構を導入し、時空間の一貫性とシームレスな境界遷移を保証する。
+  thumbnail: assets/thumbnails/360dvd-2e268c.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2401.06578'
+  repo: akaneqwq/360dvd
 - id: diffpano-scalable-and-consistent-text-to-panorama-generation-17b5e6
   title: 'DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion'
   area: gen-3d
@@ -9813,6 +9989,58 @@ entries:
   source: agent
   arxiv_id: '2307.03177'
   repo: panodiffusion/panodiffusion
+- id: panogen-fe5a5e
+  title: PanoGen
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.19195
+    github: https://github.com/jialuli-luka/PanoGen
+    project: https://pano-gen.github.io/
+  authors:
+  - Jialu Li
+  - Mohit Bansal
+  year: 2023
+  tags:
+  - '360'
+  - diffusion
+  - outpainting
+  - panorama
+  - skybox
+  summary: A text-conditioned panoramic environment generation framework that utilizes a pretrained text-to-image diffusion model to generate high-quality, consistent 360-degree panoramas. It uses a recursive outpainting scheme and a panoramic consistency loss to ensure seamless boundaries.
+  summary_ja: 事前学習済みのテキスト画像拡散モデルを利用して、高品質で一貫性のある360度パノラマを生成する、テキスト条件付きパノラマ環境生成フレームワーク。再帰的なアウトペインティング手法とパノラマ一貫性損失を使用して、シームレスな境界を保証する。
+  thumbnail: assets/thumbnails/panogen-fe5a5e.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2305.19195'
+  repo: jialuli-luka/panogen
+- id: terrafusion-fbaa8d
+  title: TerraFusion
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.04050
+    project: https://millennium-nova.github.io/terra-fusion-page/
+    paper: https://arxiv.org/pdf/2505.04050
+  authors:
+  - Kazuki Higo
+  - Toshiki Kanai
+  - Yuki Endo
+  - Yoshihiro Kanamori
+  year: 2025
+  tags:
+  - diffusion
+  - sketch
+  - terrain
+  - texture
+  summary: A latent diffusion-based framework that simultaneously generates terrain heightmaps and textures in a fused latent space, supporting intuitive user control through rough sketches of valleys, ridgelines, and cliffs.
+  summary_ja: 融合された潜在空間内で地形のハイトマップとテクスチャを同時に生成する潜在拡散ベースのフレームワーク。谷、尾根、崖のラフなスケッチによる直感的なユーザー制御をサポートする。
+  thumbnail: assets/thumbnails/terrafusion-fbaa8d.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2505.04050'
 - id: terrain-diffusion-25f090
   title: Terrain Diffusion
   area: gen-3d
@@ -9836,6 +10064,30 @@ entries:
   source: agent
   arxiv_id: '2512.08309'
   repo: xandergos/terrain-diffusion
+- id: adaptive-diffusion-terrain-generator-adtg-04e103
+  title: Adaptive Diffusion Terrain Generator (ADTG)
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.10766
+    github: https://github.com/youwyu/Adaptive-Diffusion-Terrain
+  authors:
+  - Youwei Yu
+  - Junhong Xu
+  - Lantao Liu
+  year: 2024
+  tags:
+  - diffusion
+  - rl
+  - terrain
+  summary: A novel method that leverages Denoising Diffusion Probabilistic Models to dynamically expand existing training environments by adding more diverse and complex terrains adaptive to the current policy.
+  summary_ja: Denoising Diffusion Probabilistic Models（DDPM）を活用し、現在のポリシーに適応した多様で複雑な地形を追加することで、既存のトレーニング環境を動的に拡張する新しい手法。
+  thumbnail: assets/thumbnails/adaptive-diffusion-terrain-generator-adtg-04e103.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2410.10766'
+  repo: youwyu/adaptive-diffusion-terrain
 - id: gaussiancity-44c4a6
   title: GaussianCity
   area: gen-3d
@@ -9953,6 +10205,25 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: jaysmito101/terraforge3d
+- id: fastnoise2-fecf5d
+  title: FastNoise2
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    github: https://github.com/Auburn/FastNoise2
+  year: 2020
+  tags:
+  - library
+  - noise
+  - procedural
+  - terrain
+  summary: A modular node graph based noise generation library using SIMD, C++17, and templates, widely used in game engines for real-time procedural terrain and world generation.
+  summary_ja: SIMD、C++17、およびテンプレートを使用したモジュール式のノードグラフベースのノイズ生成ライブラリ。ゲームエンジンでリアルタイムの手続き型地形およびワールド生成に広く使用されている。
+  thumbnail: assets/thumbnails/fastnoise2-fecf5d.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: auburn/fastnoise2
 - id: infinite-nature-1b1f72
   title: Infinite Nature
   area: gen-3d
@@ -10103,6 +10374,31 @@ entries:
   source: agent
   arxiv_id: '2406.00093'
   repo: sunzey/bootstrap3d
+- id: gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-8985a2
+  title: 'GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.08529
+    github: https://github.com/hustvl/GaussianDreamer
+  authors:
+  - Taoran Yi
+  - Jiemin Fang
+  - Xinggang Wang
+  - Wenyu Liu
+  year: 2023
+  tags:
+  - diffusion-models
+  - gaussian-splatting
+  - text-to-3d
+  summary: A text-to-3D generation framework that bridges 2D and 3D diffusion models to rapidly synthesize high-quality 3D assets using 3D Gaussian Splatting.
+  summary_ja: 2Dおよび3Dの拡散モデルを架橋し、3D Gaussian Splattingを用いて高品質な3Dアセットを高速に合成するテキストto 3D生成フレームワーク。
+  thumbnail: assets/thumbnails/gaussiandreamer-fast-generation-from-text-to-3d-gaussians-by-8985a2.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2310.08529'
+  repo: hustvl/gaussiandreamer
 - id: luciddreamer-interval-score-matching-358c45
   title: LucidDreamer (Interval Score Matching)
   area: gen-3d
@@ -10207,6 +10503,37 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ubisoft/ubisoft-laforge-chord
+- id: lumitex-f1ab17
+  title: LumiTex
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.19437
+    github: https://github.com/LumiTexPBR/LumiTex
+    paper: https://arxiv.org/pdf/2511.19437
+  authors:
+  - Jingzhi Bao
+  - Hongze Chen
+  - Lingting Zhu
+  - Chenyu Liu
+  - Runze Zhang
+  - Keyang Luo
+  - Zeyu Hu
+  - Weikai Chen
+  year: 2025
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: An end-to-end PBR texture generation framework that addresses material decomposition under limited illumination cues and seamless, view-consistent texture completion. It utilizes a multi-branch generation pipeline to produce high-fidelity, engine-ready PBR maps.
+  summary_ja: 限定的な照明情報からの質感分解と、シームレスで視点一貫性のあるテクスチャ補完を解決するエンドツーエンドのPBRテクスチャ生成フレームワーク。マルチブランチ生成パイプラインにより、ゲームエンジンで即座に利用可能な高品質なPBRマップを生成します。
+  thumbnail: assets/thumbnails/lumitex-f1ab17.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2511.19437'
+  repo: lumitexpbr/lumitex
 - id: material-anything-8a3e79
   title: Material Anything
   area: gen-3d
@@ -10244,6 +10571,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: zebinhe/materialmvp
+- id: matlat-a98e97
+  title: MatLat
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.17302
+    github: https://github.com/KAIST-Visual-AI-Group/MatLat
+    project: https://matlat-proj.github.io/
+    paper: https://arxiv.org/pdf/2512.17302
+  authors:
+  - Kyeongmin Yeo
+  - Yunhong Min
+  - Jaihoon Kim
+  - Minhyuk Sung
+  year: 2025
+  tags:
+  - latent-space
+  - material
+  - pbr
+  - texture
+  summary: A generative framework for producing high-quality PBR textures on 3D meshes by learning a dedicated material latent space (MatLat) through targeted fine-tuning of pretrained latent image generative models. It avoids distribution shifts when encoding additional PBR channels, enabling accurate representation of rough, metallic, and mixed materials.
+  summary_ja: 事前学習済みの潜在画像生成モデルをファインチューニングし、独自の材料潜在空間（MatLat）を学習することで、3Dメッシュ上に高品質なPBRテクスチャを生成するフレームワーク。追加のPBRチャンネルをエンコードする際の分布シフトを防ぎ、粗さ、金属度、混合素材などを正確に表現します。
+  thumbnail: assets/thumbnails/matlat-a98e97.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2512.17302'
+  repo: kaist-visual-ai-group/matlat
 - id: natex-native-texture-generation-dd1fd1
   title: 'NaTex: Native Texture Generation'
   area: gen-3d
@@ -10409,6 +10764,39 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: liu-yuxin/syncmvd
+- id: texgaussian-8b3265
+  title: TexGaussian
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.19654
+    github: https://github.com/ymxbj/TexGaussian
+    project: https://3d-aigc.github.io/TexGaussian/
+    paper: https://arxiv.org/pdf/2411.19654
+  authors:
+  - Bojun Xiong
+  - Jialun Liu
+  - Jiakui Hu
+  - Chenming Wu
+  - Jinbo Wu
+  - Xing Liu
+  - Chen Zhao
+  - Errui Ding
+  - Zhouhui Lian
+  year: 2024
+  tags:
+  - gaussian-splatting
+  - material
+  - mesh
+  - pbr
+  summary: A fast and high-fidelity PBR material generation model that operates directly in 3D space using octree-based 3D Gaussian Splatting. It generates globally consistent PBR materials for untextured 3D meshes from textual descriptions, ensuring compatibility with modern graphics engines.
+  summary_ja: オクトリーベースの3D Gaussian Splattingを用いて、3D空間上で直接高速かつ高精度にPBRマテリアルを生成するモデル。テキスト記述からテクスチャのない3Dメッシュに対してグローバルに一貫したPBRマテリアルを生成し、最新のグラフィックスエンジンとの互換性を確保します。
+  thumbnail: assets/thumbnails/texgaussian-8b3265.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2411.19654'
+  repo: ymxbj/texgaussian
 - id: texgen-5d308f
   title: TEXGen
   area: gen-3d
@@ -10496,6 +10884,24 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: fishwowater/open3dstudio
+- id: retopoflow-a29114
+  title: RetopoFlow
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/CGCookie/retopoflow
+  year: 2026
+  tags:
+  - blender
+  - mesh
+  - retopology
+  summary: A comprehensive suite of retopology tools for Blender that provides an interactive, artist-friendly workflow for manual and semi-automated quad mesh reconstruction. It features tools like Contours, PolyStrips, and PolyPen to help artists draw clean topology directly over high-poly sculpts.
+  summary_ja: Blender用の包括的なリトポロジーツールスイート。Contours、PolyStrips、PolyPenなどのツールを備え、ハイポリゴンモデル上で直接クリーンな四角形トポロジーを描画できる、アーティストフレンドリーな手動・半自動ワークフローを提供します。
+  thumbnail: assets/thumbnails/retopoflow-a29114.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: cgcookie/retopoflow
 - id: squadgen-generating-simple-quad-layouts-via-chart-distance-f-83fb48
   title: 'SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields'
   area: gen-3d
@@ -10524,6 +10930,64 @@ entries:
   source: agent
   arxiv_id: '2604.27329'
   repo: youkang-kong/squadgen
+- id: artuv-artist-style-uv-unwrapping-e3f50c
+  title: 'ArtUV: Artist-style UV Unwrapping'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.20710
+    github: https://github.com/chenyg59/ArtUV
+    project: https://chenyg59.github.io/ArtUV/
+  authors:
+  - Yuguang Chen
+  - Xinhai Liu
+  - Yang Li
+  - Victor Cheung
+  - Zhuo Chen
+  - Dongyu Zhang
+  - Chunchao Guo
+  year: 2025
+  tags:
+  - mesh
+  - unwrapping
+  - uv
+  summary: An automated, end-to-end method for generating artist-style UV unwrapping. It simulates the professional UV mapping workflow by dividing it into surface seam prediction and artist-style UV parameterization to produce overlap-free, low-distortion, and clean UV islands.
+  summary_ja: プロのUVマッピングプロセスを模倣し、表面のシーム（継ぎ目）予測とアーティストスタイルのUVパラメータ化の2段階に分けることで、オーバーラップのない低歪みでクリーンなUVアイランドを自動生成する手法。
+  thumbnail: assets/thumbnails/artuv-artist-style-uv-unwrapping-e3f50c.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2509.20710'
+  repo: chenyg59/artuv
+- id: crossgen-learning-and-generating-cross-fields-for-quad-meshi-5a78eb
+  title: 'CrossGen: Learning and Generating Cross Fields for Quad Meshing'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.07020
+    github: https://github.com/QiujieDong/CrossGen
+  authors:
+  - Qiujie Dong
+  - Jiepeng Wang
+  - Rui Xu
+  - Cheng Lin
+  - Yuan Liu
+  - Shiqing Xin
+  - Zichun Zhong
+  - Xin Li
+  year: 2025
+  tags:
+  - mesh
+  - quad
+  - retopology
+  summary: A deep learning framework that supports both feed-forward prediction and latent generative modeling of cross fields for quad mesh generation. It unifies geometry and cross field representations within a joint latent space to balance computational efficiency and generation quality.
+  summary_ja: クアッド（四角形）メッシュ生成のためのクロスフィールドの順方向予測と潜在生成モデリングの両方をサポートするディープラーニングフレームワーク。幾何学とクロスフィールドの表現を共通の潜在空間に統合し、計算効率と生成品質を両立します。
+  thumbnail: assets/thumbnails/crossgen-learning-and-generating-cross-fields-for-quad-meshi-5a78eb.png
+  date_added: '2026-07-02'
+  source: agent
+  arxiv_id: '2506.07020'
+  repo: qiujiedong/crossgen
 - id: partuv-part-based-uv-unwrapping-a333b3
   title: 'PartUV: Part-Based UV Unwrapping'
   area: gen-3d
@@ -10542,6 +11006,24 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ericwang12/partuv
+- id: pixel-unwrapper-03bdf0
+  title: Pixel Unwrapper
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/noio/Pixel-Unwrapper
+  year: 2024
+  tags:
+  - blender
+  - pixel-art
+  - uv
+  summary: A Blender add-on designed for UV unwrapping in pixel art and lo-fi 3D game production. It automatically scales and aligns UV islands to match the target pixel density and snap to pixel boundaries, eliminating texture filtering artifacts.
+  summary_ja: ピクセルアートやローファイな3Dゲーム制作向けに設計されたBlender用UV展開アドオン。UVアイランドを自動的にスケーリングし、ターゲットのピクセル密度に合わせてピクセル境界にスナップさせることで、テクスチャのフィルタリングによるアーティファクトを防ぎます。
+  thumbnail: assets/thumbnails/pixel-unwrapper-03bdf0.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: noio/pixel-unwrapper
 - id: instant-meshes-0afe69
   title: Instant Meshes
   area: gen-3d
@@ -10831,6 +11313,48 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: gaolingx/genshincelshaderurp
+- id: godot-4-cel-shader-2cd0a6
+  title: Godot 4 Cel Shader
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/eldskald/godot4-cel-shader
+  authors:
+  - eldskald
+  year: 2023
+  tags:
+  - gamedev
+  - godot
+  - shader
+  - toon-shading
+  summary: A complete, highly customizable cel shader demo for Godot 4, supporting custom lighting, specular highlights, rim lighting, outlines, and shadow control.
+  summary_ja: カスタムライティング、スペキュラハイライト、リムライト、アウトライン、シャドウ制御などをサポートする、Godot 4向けの完全かつ高度にカスタマイズ可能なセルシェーダーデモ。
+  thumbnail: assets/thumbnails/godot-4-cel-shader-2cd0a6.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: eldskald/godot4-cel-shader
+- id: goo-engine-3c8f83
+  title: Goo Engine
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/dillongoostudios/goo-engine
+  authors:
+  - DillonGoo Studios
+  year: 2023
+  tags:
+  - anime
+  - blender
+  - npr
+  - rendering
+  summary: A custom build of Blender developed by DillonGoo Studios, specifically modified for non-photorealistic rendering (NPR) and 3D anime production. It introduces custom shader nodes to the Eevee engine and advanced light groups to streamline the creation of stylized cel-shaded art.
+  summary_ja: DillonGoo Studiosによって開発された、非実写系レンダリング（NPR）および3Dアニメ制作に特化したBlenderのカスタムビルド。Eeveeエンジンへのカスタムシェーダーノードの追加や、高度なライトグループ機能により、スタイライズされたセルルック（セルシェーディング）表現の制作を効率化します。
+  thumbnail: assets/thumbnails/goo-engine-3c8f83.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: dillongoostudios/goo-engine
 - id: unreal-engine-cel-shading-ashtonland-fork-c4fbff
   title: Unreal Engine Cel Shading (Ashtonland Fork)
   area: image-2d
@@ -10927,6 +11451,27 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: unity-technologies/com.unity.toonshader
+- id: liltoon-c557ef
+  title: lilToon
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/lilxyzw/lilToon
+  authors:
+  - lilxyzw
+  year: 2020
+  tags:
+  - avatar
+  - toon-shader
+  - unity
+  - vrchat
+  summary: A highly feature-rich toon shader for Unity, widely used in the VRChat and anime avatar communities. It offers extensive customization options for outlines, shadows, emission, and stylized lighting effects.
+  summary_ja: VRChatやアニメアバターのコミュニティで広く使用されている、非常に多機能なUnity向けトゥーンシェーダー。アウトライン、シャドウ、エミッション、スタイライズされたライティング効果など、豊富なカスタマイズオプションを提供します。
+  thumbnail: assets/thumbnails/liltoon-c557ef.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: lilxyzw/liltoon
 - id: poiyomi-toon-shader-6a73eb
   title: Poiyomi Toon Shader
   area: image-2d
@@ -10946,6 +11491,27 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: poiyomi/poiyomitoonshader
+- id: unity-arc-system-works-shader-1853ff
+  title: UNITY-Arc-system-Works-Shader
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/Aerthas/UNITY-Arc-system-Works-Shader
+  authors:
+  - Aerthas
+  year: 2020
+  tags:
+  - amplify-shader
+  - guilty-gear
+  - toon-shading
+  - unity
+  summary: A Unity shader created using Amplify Shader Editor to emulate the iconic cel-shaded art style of Arc System Works games like Guilty Gear and Dragon Ball FighterZ.
+  summary_ja: Amplify Shader Editorを使用して作成されたUnity向けシェーダー。GUILTY GEARやドラゴンボール ファイターズといったアークシステムワークス作品の象徴的なセルシェーディング表現を再現します。
+  thumbnail: assets/thumbnails/unity-arc-system-works-shader-1853ff.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: aerthas/unity-arc-system-works-shader
 - id: unitychantoonshaderver2-uts2-f67e95
   title: UnityChanToonShaderVer2 (UTS2)
   area: image-2d
@@ -10984,6 +11550,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: delt06/urp-toon-shader
+- id: mtoon-9c0de1
+  title: MToon
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/Santarh/MToon
+  authors:
+  - Santarh
+  year: 2018
+  tags:
+  - avatar
+  - toon-shader
+  - unity
+  - vrm
+  summary: A toon shader designed for Unity that supports global illumination, serving as the standard rendering material for the VRM avatar format. It ensures consistent, high-quality cel-shaded appearance across different virtual platforms.
+  summary_ja: グローバルイルミネーションに対応したUnity向けのトゥーンシェーダーで、VRMアバターフォーマットの標準レンダリングマテリアルとして採用されています。異なる仮想プラットフォーム間でも一貫した高品質なセルシェーディング表現を実現します。
+  thumbnail: assets/thumbnails/mtoon-9c0de1.png
+  date_added: '2026-07-02'
+  source: agent
+  repo: santarh/mtoon
 - id: minimal-impact-controlnet-f3f5da
   title: Minimal Impact ControlNet
   area: image-2d

@@ -997,6 +997,24 @@ entries:
   thumbnail: assets/thumbnails/world-creator-f12767.png
   date_added: '2026-06-25'
   source: agent
+- id: sloyd-ai-466359
+  title: Sloyd AI
+  area: gen-3d
+  task: text-to-3d
+  kind: proprietary
+  links:
+    website: https://www.sloyd.ai/
+  year: 2021
+  tags:
+  - 3d-generation
+  - game-ready
+  - parametric
+  - text-to-3d
+  summary: An AI-powered 3D modeling platform designed to generate game-ready, textured, and customizable 3D assets from text prompts or parametric templates.
+  summary_ja: テキストプロンプトやパラメータテンプレートから、ゲーム対応のテクスチャ付きカスタマイズ可能3Dアセットを生成する、AI搭載の3Dモデリングプラットフォーム。
+  thumbnail: assets/thumbnails/sloyd-ai-466359.png
+  date_added: '2026-07-02'
+  source: agent
 - id: rodin-hyper3d-37bed0
   title: Rodin (Hyper3D)
   area: gen-3d
@@ -1028,6 +1046,24 @@ entries:
   thumbnail: assets/thumbnails/tripo-a95a86.png
   date_added: '2026-06-13'
   source: seed
+- id: adobe-substance-3d-sampler-95c530
+  title: Adobe Substance 3D Sampler
+  area: gen-3d
+  task: texture-pbr
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/substance3d/apps/sampler.html
+  year: 2021
+  tags:
+  - image-to-material
+  - material
+  - pbr
+  - photogrammetry
+  summary: An industry-standard tool for 3D material authoring and photogrammetry that features AI-powered 'Image to Material' capabilities. It uses machine learning to automatically convert single real-world photographs into complete, high-quality PBR materials with accurate normal, roughness, metallic, and height maps.
+  summary_ja: AI搭載の『Image to Material』機能を備えた、3Dマテリアル作成およびフォトグラメトリの業界標準ツール。機械学習を用いて、現実世界の1枚の写真から、正確なノーマル、ラフネス、メタリック、ハイトマップを含む完全な高品質PBRマテリアルを自動的に生成します。
+  thumbnail: assets/thumbnails/adobe-substance-3d-sampler-95c530.png
+  date_added: '2026-07-02'
+  source: agent
 - id: quadremesher-e35c8b
   title: QuadRemesher
   area: gen-3d
@@ -1063,6 +1099,24 @@ entries:
   summary_ja: ゲーム開発やVFX業界で広く使用されている、プロフェッショナル向けの業界標準UVマッピング・展開ソフトウェア。高速かつ高精度な展開と高度なパッキングアルゴリズムを特徴とします。
   thumbnail: assets/thumbnails/rizomuv-11f4de.png
   date_added: '2026-06-25'
+  source: agent
+- id: novelai-diffusion-v4-5-faee7e
+  title: NovelAI Diffusion V4.5
+  area: image-2d
+  task: anime-character-design
+  kind: proprietary
+  links:
+    website: https://novelai.net/v4
+  year: 2026
+  tags:
+  - anime
+  - character
+  - diffusion
+  - proprietary
+  summary: A state-of-the-art proprietary anime image generator featuring advanced multi-character prompting, natural language understanding, action tags, and precise character positioning.
+  summary_ja: 高度な複数キャラクタープロンプト、自然言語理解、アクションタグ、正確なキャラクター配置機能を備えた、最先端の商用アニメ画像生成サービス。
+  thumbnail: assets/thumbnails/novelai-diffusion-v4-5-faee7e.png
+  date_added: '2026-07-02'
   source: agent
 - id: novelai-image-generation-e5a52e
   title: NovelAI Image Generation
