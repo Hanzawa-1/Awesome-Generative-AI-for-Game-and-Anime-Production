@@ -1136,6 +1136,24 @@ entries:
   thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
   date_added: '2026-06-13'
   source: seed
+- id: stable-doodle-0ad9ed
+  title: Stable Doodle
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://stability.ai/news-updates/clipdrop-launches-stable-doodle
+  year: 2023
+  tags:
+  - doodle
+  - sdxl
+  - sketch
+  - t2i-adapter
+  summary: A user-friendly sketch-to-image tool by Stability AI that converts simple hand-drawn doodles into high-quality, stylized images using Stable Diffusion XL and T2I-Adapter.
+  summary_ja: Stable Diffusion XL と T2I-Adapter を使用して、シンプルな手書きの落書きを高品質でスタイライズされた画像に変換する、Stability AI による使いやすいスケッチ・トゥ・イメージツール。
+  thumbnail: assets/thumbnails/stable-doodle-0ad9ed.png
+  date_added: '2026-07-03'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d

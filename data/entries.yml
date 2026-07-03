@@ -11571,6 +11571,60 @@ entries:
   date_added: '2026-07-02'
   source: agent
   repo: santarh/mtoon
+- id: condition-preference-optimization-f4c31a
+  title: Condition Preference Optimization
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.04753
+    github: https://github.com/ZonglinL/CPO
+    website: https://zonglinl.github.io/CPO_page/
+  authors:
+  - Zonglin Lyu
+  - Ming Li
+  - Xinxin Liu
+  - Chen Chen
+  year: 2025
+  tags:
+  - controllability
+  - controlnet
+  - diffusion
+  - preference-optimization
+  summary: A preference learning method for controllable image generation that directly contrasts input control conditions instead of raw images, eliminating confounding factors and significantly improving controllability across multiple control types.
+  summary_ja: 生成された画像ではなく入力制御条件を直接比較することで、交絡因子を排除し、複数の制御タイプにわたって制御性を大幅に向上させる、制御可能な画像生成のための好みの学習手法。
+  thumbnail: assets/thumbnails/condition-preference-optimization-f4c31a.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2511.04753'
+  repo: zonglinl/cpo
+- id: dc-controlnet-914410
+  title: DC-ControlNet
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.14779
+    github: https://github.com/um-lab/DC-ControlNet
+    website: https://um-lab.github.io/DC-ControlNet/
+  authors:
+  - Hongji Yang
+  - Wencheng Han
+  - Yucheng Zhou
+  - Jianbing Shen
+  year: 2025
+  tags:
+  - conditioning
+  - controlnet
+  - diffusion
+  - multi-condition
+  summary: A highly flexible and precisely controllable framework for multi-condition image generation that decouples global control conditions into a hierarchical system of distinct elements, contents, and layouts.
+  summary_ja: グローバルな制御条件を個別の要素、コンテンツ、レイアウトの階層的なシステムに分離することで、複数条件による画像生成を高度かつ精密に制御するフレームワーク。
+  thumbnail: assets/thumbnails/dc-controlnet-914410.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2502.14779'
+  repo: um-lab/dc-controlnet
 - id: minimal-impact-controlnet-f3f5da
   title: Minimal Impact ControlNet
   area: image-2d
@@ -11599,6 +11653,32 @@ entries:
   date_added: '2026-06-26'
   source: agent
   arxiv_id: '2506.01672'
+- id: semanticcontrol-5cec19
+  title: SemanticControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.21938
+    github: https://github.com/mung3477/SemanticControl
+    website: https://mung3477.github.io/semantic-control/
+  authors:
+  - Woosung Joung
+  - Daewon Chae
+  - Jinkyu Kim
+  year: 2025
+  tags:
+  - controlnet
+  - diffusion
+  - misalignment
+  - training-free
+  summary: A training-free approach that enables text-to-image diffusion models to effectively utilize loosely aligned or misaligned visual conditions in ControlNet while preserving text fidelity.
+  summary_ja: テキストの忠実度を維持しながら、ControlNetにおける不完全に整列した、または位置ずれした視覚的条件をテキスト画像拡散モデルが効果的に活用できるようにする、トレーニング不要のアプローチ。
+  thumbnail: assets/thumbnails/semanticcontrol-5cec19.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2509.21938'
+  repo: mung3477/semanticcontrol
 - id: controlnext-powerful-and-efficient-control-for-image-and-vid-e54d0f
   title: 'ControlNeXt: Powerful and Efficient Control for Image and Video Generation'
   area: image-2d
@@ -11888,6 +11968,39 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vectorspacelab/omnigen2
+- id: turbofill-727ead
+  title: TurboFill
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.00996
+    project: https://liangbinxie.github.io/projects/TurboFill/
+    paper: https://arxiv.org/pdf/2504.00996
+  authors:
+  - Liangbin Xie
+  - Daniil Pakhomov
+  - Zhonghao Wang
+  - Zongze Wu
+  - Ziyan Chen
+  - Yuqian Zhou
+  - Haitian Zheng
+  - Zhifei Zhang
+  - Zhe Lin
+  - Jiantao Zhou
+  - Chao Dong
+  year: 2025
+  tags:
+  - cvpr2025
+  - diffusion
+  - few-step
+  - inpainting
+  summary: A fast image inpainting model that adapts a few-step text-to-image diffusion model (like DMD2) with an inpainting adapter, achieving high-quality, structurally consistent, and visually harmonious inpainting in just 4 steps.
+  summary_ja: わずか4ステップで高品質かつ構造的に一貫した調和のとれたインペインティングを実現するため、少数ステップのテキスト画像拡散モデル（DMD2など）にインペインティングアダプターを適応させた高速画像インペインティングモデル。
+  thumbnail: assets/thumbnails/turbofill-727ead.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2504.00996'
 - id: brushedit-051c0b
   title: BrushEdit
   area: image-2d
@@ -11944,6 +12057,37 @@ entries:
   source: agent
   arxiv_id: '2403.06976'
   repo: tencentarc/brushnet
+- id: edicho-8c8b25
+  title: Edicho
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.21079
+    github: https://github.com/ant-research/edicho
+    paper: https://arxiv.org/pdf/2412.21079
+  authors:
+  - Qingyan Bai
+  - Hao Ouyang
+  - Yinghao Xu
+  - Qiuyu Wang
+  - Ceyuan Yang
+  - Ka Leong Cheng
+  - Yujun Shen
+  - Qifeng Chen
+  year: 2024
+  tags:
+  - diffusion
+  - iccv2025
+  - image-editing
+  - training-free
+  summary: A training-free image editing framework based on diffusion models that enables consistent editing across in-the-wild images by utilizing explicit image correspondence to direct the editing process.
+  summary_ja: 明示的な画像対応関係を利用して編集プロセスを指示することにより、野生の画像間で一貫した編集を可能にする、拡散モデルに基づくトレーニングフリーの画像編集フレームワーク。
+  thumbnail: assets/thumbnails/edicho-8c8b25.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2412.21079'
+  repo: ant-research/edicho
 - id: flux-controlnet-inpainting-c00cab
   title: FLUX ControlNet Inpainting
   area: image-2d
@@ -12073,6 +12217,28 @@ entries:
   source: agent
   arxiv_id: '2304.06790'
   repo: geekyutao/inpaint-anything
+- id: inpaint-web-dcc719
+  title: Inpaint-Web
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    github: https://github.com/lxfater/inpaint-web
+    website: https://inpaintweb.lxfater.com/
+  authors:
+  - lxfater
+  year: 2023
+  tags:
+  - browser-tool
+  - inpainting
+  - wasm
+  - webgpu
+  summary: A free and open-source inpainting and image-upscaling tool powered by WebGPU and WebAssembly (WASM) that runs entirely client-side in the browser.
+  summary_ja: WebGPUとWebAssembly（WASM）を搭載し、ブラウザ上のクライアントサイドで完全に動作する、無料かつオープンソースのインペインティングおよび画像アップスケーリングツール。
+  thumbnail: assets/thumbnails/inpaint-web-dcc719.png
+  date_added: '2026-07-03'
+  source: agent
+  repo: lxfater/inpaint-web
 - id: ledits-a5b281
   title: LEDITS++
   area: image-2d
@@ -12616,6 +12782,56 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2503.16948'
+- id: ganime-generating-anime-and-manga-character-drawings-from-sk-6862e0
+  title: 'GANime: Generating Anime and Manga Character Drawings from Sketches with Deep Learning'
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.09207
+    github: https://github.com/taivu1998/GANime
+  authors:
+  - Tai Vu
+  - Robert Yang
+  year: 2025
+  tags:
+  - anime
+  - colorization
+  - gan
+  - sketch
+  summary: A deep learning framework that explores image-to-image translation models, specifically Conditional GANs (C-GANs), to automate the colorization of anime and manga character sketches. It generates high-resolution, fully colorized illustrations directly from raw line drawings.
+  summary_ja: アニメやマンガのキャラクターのスケッチ着色を自動化するために、条件付きGAN（C-GAN）をはじめとする画像変換モデルを探索するディープラーニングフレームワーク。生の線画から直接、高解像度で完全に彩色されたイラストを生成します。
+  thumbnail: assets/thumbnails/ganime-generating-anime-and-manga-character-drawings-from-sk-6862e0.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2508.09207'
+  repo: taivu1998/ganime
+- id: longanimation-long-animation-generation-with-dynamic-global-b13e2a
+  title: 'LongAnimation: Long Animation Generation with Dynamic Global-Local Memory'
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.01945
+    github: https://github.com/CN-makers/LongAnimation
+  authors:
+  - Nan Chen
+  - Mengqi Huang
+  - Yihao Meng
+  - Zhendong Mao
+  year: 2025
+  tags:
+  - animation
+  - colorization
+  - diffusion
+  - video-colorization
+  summary: A video generation framework designed for long-term animation line art colorization. It introduces a dynamic global-local memory mechanism to maintain global color consistency and character identity across long sequences, overcoming the limitations of local frame-overlapping paradigms.
+  summary_ja: 長時間の動画アニメーション線画着色のために設計されたビデオ生成フレームワーク。動的なグローバル・ローカルメモリ機構を導入することで、長時間のシーケンスにわたってグローバルな色彩の一貫性とキャラクターのアイデンティティを維持し、従来の局所的なフレーム重複手法の限界を克服します。
+  thumbnail: assets/thumbnails/longanimation-long-animation-generation-with-dynamic-global-b13e2a.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2507.01945'
+  repo: cn-makers/longanimation
 - id: mangadit-reference-guided-line-art-colorization-with-hierarc-197bb5
   title: 'MangaDiT: Reference-Guided Line Art Colorization with Hierarchical Attention in Diffusion Transformers'
   area: image-2d
@@ -12990,6 +13206,25 @@ entries:
   date_added: '2026-06-26'
   source: agent
   arxiv_id: '2502.08642'
+- id: anyline-ae6079
+  title: Anyline
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/TheMistoAI/ComfyUI-Anyline
+  year: 2024
+  tags:
+  - controlnet
+  - lineart
+  - preprocessor
+  - sketch
+  summary: A fast and accurate ControlNet line preprocessor designed to extract clean object edges, fine image details, and textual content from various images, optimized for Stable Diffusion workflows.
+  summary_ja: さまざまな画像からクリーンなオブジェクトのエッジ、微細なディテール、テキストコンテンツを正確に抽出する、Stable Diffusionワークフロー向けに最適化された高速かつ高精度なControlNet線画プリプロセッサ。
+  thumbnail: assets/thumbnails/anyline-ae6079.png
+  date_added: '2026-07-03'
+  source: agent
+  repo: themistoai/comfyui-anyline
 - id: comfyui-img2drawingassistants-386c37
   title: ComfyUI Img2DrawingAssistants
   area: image-2d
@@ -13035,6 +13270,32 @@ entries:
   source: agent
   arxiv_id: '2401.04362'
   repo: kwanyun/diffsketch
+- id: semi-supervised-reference-based-sketch-extraction-0ab242
+  title: Semi-supervised Reference-based Sketch Extraction
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.14026
+    github: https://github.com/Chanuku/Semi_ref2sketch_code
+    project: https://chanuku.github.io/Semi_ref2sketch/
+  authors:
+  - Chang Wook Seo
+  - Amirsaman Ashtari
+  - Junyong Noh
+  year: 2024
+  tags:
+  - contrastive-learning
+  - lineart
+  - sketch
+  - style-transfer
+  summary: A multi-modal sketch extraction framework that imitates the style of a given reference sketch using unpaired training data in a semi-supervised contrastive learning manner.
+  summary_ja: 半教師あり対照学習手法を用いて、一対になっていないトレーニングデータから指定された参照線画のスタイルを模倣する、マルチモーダルな線画抽出フレームワーク。
+  thumbnail: assets/thumbnails/semi-supervised-reference-based-sketch-extraction-0ab242.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2407.14026'
+  repo: chanuku/semi_ref2sketch_code
 - id: stylized-face-sketch-extraction-via-generative-prior-with-li-0f5a63
   title: Stylized Face Sketch Extraction via Generative Prior with Limited Data
   area: image-2d
@@ -13228,6 +13489,36 @@ entries:
   date_added: '2026-06-26'
   source: agent
   arxiv_id: '2502.14007'
+- id: dreamomni3-d53d60
+  title: DreamOmni3
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.22525
+    github: https://github.com/JIA-Lab-research/DreamOmni3
+  authors:
+  - Bin Xia
+  - Bohao Peng
+  - Jiyang Liu
+  - Sitong Wu
+  - Jingyao Li
+  - Junjia Huang
+  - Xu Zhao
+  - Yitong Wang
+  year: 2025
+  tags:
+  - editing
+  - multimodal
+  - scribble
+  - sketch
+  summary: A unified multimodal transformer-diffusion framework that supports scribble-based image editing and generation by combining user text, images, and freehand sketches.
+  summary_ja: ユーザーのテキスト、画像、手書きスケッチを組み合わせることで、スクリブル（落書き）ベースの画像編集と生成をサポートする、統一されたマルチモーダルなトランスフォーマー・拡散フレームワーク。
+  thumbnail: assets/thumbnails/dreamomni3-d53d60.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2512.22525'
+  repo: jia-lab-research/dreamomni3
 - id: controlnet-improving-conditional-controls-with-efficient-con-2ebdb0
   title: 'ControlNet++: Improving Conditional Controls with Efficient Consistency Feedback'
   area: image-2d
@@ -13280,6 +13571,25 @@ entries:
   source: agent
   arxiv_id: '2403.12036'
   repo: gaparmar/img2img-turbo
+- id: flowty-realtime-lcm-canvas-aab0c8
+  title: flowty-realtime-lcm-canvas
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    github: https://github.com/flowtyone/flowty-realtime-lcm-canvas
+  year: 2023
+  tags:
+  - canvas
+  - lcm
+  - realtime
+  - sketch
+  summary: A real-time sketch-to-image interactive canvas interface built with Gradio and powered by Latent Consistency Models (LCM) and LCM-LoRA.
+  summary_ja: Latent Consistency Models (LCM) と LCM-LoRA を搭載し、Gradio で構築されたリアルタイムのスケッチ・トゥ・イメージ対話型キャンバスインターフェース。
+  thumbnail: assets/thumbnails/flowty-realtime-lcm-canvas-aab0c8.png
+  date_added: '2026-07-03'
+  source: agent
+  repo: flowtyone/flowty-realtime-lcm-canvas
 - id: inversion-by-inversion-exemplar-based-sketch-to-photo-synthe-843494
   title: 'Inversion-by-Inversion: Exemplar-based Sketch-to-Photo Synthesis via Stochastic Differential Equations without Training'
   area: image-2d
@@ -13327,6 +13637,26 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: acly/krita-ai-diffusion
+- id: scribble-diffusion-fcbe94
+  title: Scribble Diffusion
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    github: https://github.com/replicate/scribble-diffusion
+    website: https://scribblediffusion.com/
+  year: 2023
+  tags:
+  - controlnet
+  - diffusion
+  - scribble
+  - sketch
+  summary: An open-source web application that converts rough hand-drawn sketches into refined, detailed images using ControlNet and Stable Diffusion via the Replicate API.
+  summary_ja: ControlNetとStable DiffusionをReplicate API経由で利用し、手書きのラフなスケッチを詳細で洗練された画像に変換するオープンソースのWebアプリケーション。
+  thumbnail: assets/thumbnails/scribble-diffusion-fcbe94.png
+  date_added: '2026-07-03'
+  source: agent
+  repo: replicate/scribble-diffusion
 - id: sketch-a-sketch-controlling-diffusion-based-image-generation-db67ef
   title: 'Sketch-a-Sketch: Controlling diffusion-based image generation with just a few strokes'
   area: image-2d
@@ -13429,6 +13759,30 @@ entries:
   source: agent
   arxiv_id: '2606.20506'
   repo: blue2giant/freestyle
+- id: i2l-image-to-lora-fcfbb6
+  title: i2L (image-to-LoRA)
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.13809
+    github: https://github.com/modelscope/DiffSynth-Studio
+    hf: https://huggingface.co/DiffSynth-Studio/Qwen-Image-i2L
+  authors:
+  - Zhongjie Duan
+  - Yingda Chen
+  year: 2026
+  tags:
+  - hypernetwork
+  - lora
+  - style-transfer
+  summary: A framework that amortizes style LoRA training into a single forward pass, directly predicting LoRA weights from reference images to enable instant style transfer without per-style optimization.
+  summary_ja: スタイルLoRAの学習を1回のフォワードパスに圧縮し、参照画像からLoRAの重みを直接予測することで、スタイルごとの追加学習なしで即座にスタイル転送を可能にするフレームワーク。
+  thumbnail: assets/thumbnails/i2l-image-to-lora-fcfbb6.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2606.13809'
+  repo: modelscope/diffsynth-studio
 - id: telestyle-content-preserving-style-transfer-in-images-and-vi-767e3e
   title: 'TeleStyle: Content-Preserving Style Transfer in Images and Videos'
   area: image-2d
@@ -13539,6 +13893,35 @@ entries:
   source: agent
   arxiv_id: '2508.18966'
   repo: bytedance/uso
+- id: csgo-e3f98c
+  title: CSGO
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.16766
+    github: https://github.com/instantX-research/CSGO
+  authors:
+  - Peng Xing
+  - Haofan Wang
+  - Yanpeng Sun
+  - Qixun Wang
+  - Xu Bai
+  - Hao Ai
+  - Renyuan Huang
+  - Zechao Li
+  year: 2024
+  tags:
+  - content-preservation
+  - diffusion
+  - style-transfer
+  summary: A framework for content-style composition in text-to-image generation that achieves high-fidelity style transfer and content preservation using a curated dataset of stylized image triplets.
+  summary_ja: スタイル化された画像トリプレットのデータセットを用いて、高い忠実度のスタイル転送とコンテンツ保持をテキスト画像生成で実現するフレームワーク。
+  thumbnail: assets/thumbnails/csgo-e3f98c.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2408.16766'
+  repo: instantx-research/csgo
 - id: diffstyler-diffusion-based-localized-image-style-transfer-34aae1
   title: 'DiffStyler: Diffusion-based Localized Image Style Transfer'
   area: image-2d
@@ -13686,6 +14069,34 @@ entries:
   source: agent
   arxiv_id: '2412.08503'
   repo: westlake-agi-lab/stylestudio
+- id: dreamstyler-7efcc5
+  title: DreamStyler
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.06933
+    github: https://github.com/webtoon/dreamstyler
+  authors:
+  - Namhyuk Ahn
+  - Junsoo Lee
+  - Chunggi Lee
+  - Kunhee Kim
+  - Daesik Kim
+  - Seung-Hun Nam
+  - Kibeom Hong
+  year: 2023
+  tags:
+  - diffusion
+  - style-inversion
+  - style-transfer
+  summary: A framework designed for artistic image synthesis and style transfer that optimizes style inversion with text-to-image diffusion models, capturing unique brushwork and color tones.
+  summary_ja: テキスト画像拡散モデルを用いたスタイルインバージョンを最適化し、独特の筆致や色調を捉えることで、芸術的な画像合成とスタイル転送を実現するフレームワーク。
+  thumbnail: assets/thumbnails/dreamstyler-7efcc5.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2309.06933'
+  repo: webtoon/dreamstyler
 - id: style-aligned-image-generation-via-shared-attention-6803fc
   title: Style Aligned Image Generation via Shared Attention
   area: image-2d
@@ -13826,6 +14237,57 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: philz1337x/clarity-upscaler
+- id: drct-saving-image-super-resolution-away-from-information-bot-408c13
+  title: 'DRCT: Saving Image Super-resolution away from Information Bottleneck'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.00722
+    github: https://github.com/ming053l/DRCT
+  authors:
+  - Chih-Chung Hsu
+  - Chia-Ming Lee
+  - Yi-Shiuan Chou
+  year: 2024
+  tags:
+  - ntire
+  - super-resolution
+  - transformer
+  summary: A state-of-the-art image super-resolution model based on dense relation connections and vision transformers, designed to mitigate the information bottleneck in deep networks.
+  summary_ja: 深層ネットワークにおける情報ボトルネックを緩和するために設計された、密な関係接続とビジョントランスフォーマーに基づく最先端の画像超解像モデル。
+  thumbnail: assets/thumbnails/drct-saving-image-super-resolution-away-from-information-bot-408c13.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2404.00722'
+  repo: ming053l/drct
+- id: mambair-a-simple-baseline-for-image-restoration-with-state-s-05e629
+  title: 'MambaIR: A Simple Baseline for Image Restoration with State-Space Model'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.15648
+    github: https://github.com/csguoh/MambaIR
+  authors:
+  - Hang Guo
+  - Jinmin Li
+  - Tao Dai
+  - Zhihao Ouyang
+  - Xudong Ren
+  - Shu-Tao Xia
+  year: 2024
+  tags:
+  - image-restoration
+  - mamba
+  - super-resolution
+  summary: A state-space model (SSM) based image restoration baseline that utilizes the selective structured state-space model (Mamba) to achieve linear complexity with respect to image size while maintaining a global receptive field.
+  summary_ja: 画像サイズに対して線形な計算複雑性を持ちながら、グローバルな受容野を維持するために、選択的構造化状態空間モデル（Mamba）を利用した画像復元ベースライン。
+  thumbnail: assets/thumbnails/mambair-a-simple-baseline-for-image-restoration-with-state-s-05e629.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2402.15648'
+  repo: csguoh/mambair
 - id: supir-771d70
   title: SUPIR
   area: image-2d
@@ -14047,6 +14509,33 @@ entries:
   source: agent
   arxiv_id: '2311.14760'
   repo: wyf0912/sinsr
+- id: srformer-permuted-self-attention-for-single-image-super-reso-b026b6
+  title: 'SRFormer: Permuted Self-Attention for Single Image Super-Resolution'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.09735
+    github: https://github.com/HVision-NKU/SRFormer
+  authors:
+  - Yupeng Zhou
+  - Zhen Li
+  - Chun-Le Guo
+  - Li Liu
+  - Ming-Ming Cheng
+  - Qibin Hou
+  year: 2023
+  tags:
+  - attention
+  - super-resolution
+  - transformer
+  summary: An efficient Transformer-based single image super-resolution model that introduces permuted self-attention (PSA) to enjoy the benefits of large window self-attention with reduced computational overhead.
+  summary_ja: 計算オーバーヘッドを削減しつつ、大きなウィンドウの自己アテンションの利点を享受するために、置換自己アテンション（PSA）を導入した効率的なTransformerベースの単一画像超解像モデル。
+  thumbnail: assets/thumbnails/srformer-permuted-self-attention-for-single-image-super-reso-b026b6.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2303.09735'
+  repo: hvision-nku/srformer
 - id: stablesr-43c7b1
   title: StableSR
   area: image-2d
@@ -14073,6 +14562,31 @@ entries:
   source: agent
   arxiv_id: '2305.07015'
   repo: iceclear/stablesr
+- id: animesr-learning-real-world-super-resolution-models-for-anim-86abac
+  title: 'AnimeSR: Learning Real-World Super-Resolution Models for Animation Videos'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2206.07038
+    github: https://github.com/TencentARC/AnimeSR
+  authors:
+  - Yanze Wu
+  - Xintao Wang
+  - Gen Li
+  - Ying Shan
+  year: 2022
+  tags:
+  - anime
+  - super-resolution
+  - video-sr
+  summary: A real-world super-resolution model specifically designed for animation videos, which learns degradation operators from real low-quality anime videos to synthesize realistic training data.
+  summary_ja: アニメ動画向けに特別に設計された実世界超解像モデル。実際の低品質なアニメ動画から劣化オペレータを学習し、現実的な訓練データを合成する。
+  thumbnail: assets/thumbnails/animesr-learning-real-world-super-resolution-models-for-anim-86abac.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2206.07038'
+  repo: tencentarc/animesr
 - id: hat-1f36e9
   title: HAT
   area: image-2d
@@ -14377,6 +14891,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuanimage-3.0
+- id: janus-pro-unified-multimodal-understanding-and-generation-wi-fa3226
+  title: 'Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.17811
+    github: https://github.com/deepseek-ai/Janus
+  authors:
+  - Xiaokang Chen
+  - Zhiyu Wu
+  - Xingchao Liu
+  - Zizheng Pan
+  - Wen Liu
+  - Zhenda Xie
+  - Xingkai Yu
+  - Chong Ruan
+  year: 2025
+  tags:
+  - autoregressive
+  - multimodal
+  - text-to-image
+  summary: An advanced unified multimodal model by DeepSeek that decouples visual encoding to excel at both multimodal understanding and high-quality text-to-image generation.
+  summary_ja: DeepSeekが開発した先進的な統一マルチモーダルモデル。視覚エンコーディングを分離することで、マルチモーダル理解と高品質なテキストからの画像生成の両方で優れた性能を発揮します。
+  thumbnail: assets/thumbnails/janus-pro-unified-multimodal-understanding-and-generation-wi-fa3226.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2501.17811'
+  repo: deepseek-ai/janus
 - id: lumina-image-2-0-f287d6
   title: Lumina-Image 2.0
   area: image-2d
@@ -14512,6 +15055,34 @@ entries:
   source: agent
   arxiv_id: '2410.13848'
   repo: deepseek-ai/janus
+- id: llamagen-autoregressive-model-beats-diffusion-llama-for-scal-2967e5
+  title: 'LlamaGen: Autoregressive Model Beats Diffusion: Llama for Scalable Image Generation'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.06525
+    github: https://github.com/FoundationVision/LlamaGen
+  authors:
+  - Peize Sun
+  - Yi Jiang
+  - Shoufa Chen
+  - Shilong Zhang
+  - Bingyue Peng
+  - Ping Luo
+  - Zehuan Yuan
+  year: 2024
+  tags:
+  - autoregressive
+  - llama
+  - text-to-image
+  summary: A family of image generation models that applies the vanilla autoregressive next-token prediction paradigm of large language models to the visual generation domain.
+  summary_ja: 大規模言語モデルの次トークン予測パラダイムを画像生成領域に直接適用し、従来の拡散モデルに匹敵する高品質な画像生成を実現する自己回帰型モデル。
+  thumbnail: assets/thumbnails/llamagen-autoregressive-model-beats-diffusion-llama-for-scal-2967e5.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2406.06525'
+  repo: foundationvision/llamagen
 - id: pixart-sigma-45e09b
   title: PixArt-Sigma
   area: image-2d
@@ -14582,6 +15153,36 @@ entries:
   source: seed
   arxiv_id: '2410.10629'
   repo: nvlabs/sana
+- id: show-o-one-single-transformer-to-unify-multimodal-understand-7ae5fd
+  title: 'Show-o: One Single Transformer to Unify Multimodal Understanding and Generation'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.12528
+    github: https://github.com/showlab/Show-o
+  authors:
+  - Jinheng Xie
+  - Weijia Mao
+  - Zechen Bai
+  - David Junhao Zhang
+  - Weihao Wang
+  - Kevin Qinghong Lin
+  - Yuchao Gu
+  - Zhijie Chen
+  year: 2024
+  tags:
+  - diffusion
+  - multimodal
+  - text-to-image
+  - transformer
+  summary: A unified transformer model that integrates autoregressive and discrete diffusion modeling to support both multimodal understanding and high-quality text-to-image generation.
+  summary_ja: 自己回帰モデリングと離散拡散モデリングを統合し、マルチモーダルな理解と高品質なテキストからの画像生成を単一のトランスフォーマーで実現する統一モデル。
+  thumbnail: assets/thumbnails/show-o-one-single-transformer-to-unify-multimodal-understand-7ae5fd.png
+  date_added: '2026-07-03'
+  source: agent
+  arxiv_id: '2408.12528'
+  repo: showlab/show-o
 - id: stable-diffusion-3-5-1a118c
   title: Stable Diffusion 3.5
   area: image-2d
