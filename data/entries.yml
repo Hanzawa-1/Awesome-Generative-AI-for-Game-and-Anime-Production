@@ -15627,6 +15627,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.28173'
+- id: one-kiss-emojis-as-agents-of-genre-flux-in-generative-comics-ae2bb7
+  title: 'One Kiss: Emojis as Agents of Genre Flux in Generative Comics'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.16359
+    paper: https://arxiv.org/pdf/2603.16359
+  authors:
+  - Xiruo Wang
+  - Xinyi Jiang
+  - Ziqi Lyu
+  year: 2026
+  tags:
+  - co-creative
+  - comic
+  - emoji
+  - storytelling
+  summary: A co-creative comic generation system that introduces affective steering, allowing users to guide the tone and visual genre of their stories through emoji inputs instead of explicit text prompts.
+  summary_ja: 「感情的ステアリング（Affective Steering）」を導入した共同創作コミック生成システム。ユーザーは明示的なテキストプロンプトの代わりに絵文字を入力することで、ストーリーのトーンや視覚的ジャンルを直感的に誘導できます。
+  thumbnail: assets/thumbnails/one-kiss-emojis-as-agents-of-genre-flux-in-generative-comics-ae2bb7.png
+  date_added: '2026-07-04'
+  source: agent
+  arxiv_id: '2603.16359'
 - id: racig-retrieval-augmented-comic-image-generation-b4df11
   title: 'RaCig: Retrieval Augmented Comic Image Generation'
   area: manga
@@ -15920,6 +15944,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2509.24331'
+- id: paddleocr-vl-for-manga-a72ab7
+  title: PaddleOCR-VL-For-Manga
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/jzhang533/PaddleOCR-VL-For-Manga
+    hf: https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga
+  year: 2025
+  tags:
+  - manga
+  - ocr
+  - paddleocr
+  - text-detection
+  summary: An open-source OCR model fine-tuned from PaddleOCR-VL specifically for Japanese manga text recognition. Trained on Manga109-s and 1.5 million synthetic samples, it achieves high accuracy on manga speech bubbles, vertical text, and stylized fonts.
+  summary_ja: 日本語の漫画テキスト認識に特化してPaddleOCR-VLから微調整されたオープンソースのOCRモデル。Manga109-sと150万件の合成サンプルでトレーニングされ、漫画の吹き出し、縦書き、および装飾フォントに対して高い認識精度を実現している。
+  thumbnail: assets/thumbnails/paddleocr-vl-for-manga-a72ab7.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: jzhang533/paddleocr-vl-for-manga
 - id: re-verse-44af0b
   title: Re:Verse
   area: manga
@@ -16612,6 +16656,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: dmmaze/sketch2manga
+- id: efficient-halftoning-via-deep-reinforcement-learning-e31bcc
+  title: Efficient Halftoning via Deep Reinforcement Learning
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.12152
+    paper: https://arxiv.org/pdf/2304.12152
+  authors:
+  - Haitian Jiang
+  - Dongliang Xiong
+  - Xiaowen Jiang
+  - Li Ding
+  - Liang Chen
+  - Kai Huang
+  year: 2023
+  tags:
+  - halftone
+  - reinforcement-learning
+  - screentone
+  summary: A digital halftoning method based on deep reinforcement learning that generates high-quality halftone images with preserved structural details and blue-noise properties.
+  summary_ja: 構造的な詳細とブルーノイズ特性を維持した高品質なハーフトーン画像を生成する、深層強化学習に基づいたデジタルハーフトーン生成手法。
+  thumbnail: assets/thumbnails/efficient-halftoning-via-deep-reinforcement-learning-e31bcc.png
+  date_added: '2026-07-04'
+  source: agent
+  arxiv_id: '2304.12152'
 - id: manga-rescreening-with-interpretable-screentone-representati-78a181
   title: Manga Rescreening with Interpretable Screentone Representation
   area: manga
@@ -16660,6 +16730,55 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2305.08325'
+- id: taming-reversible-halftoning-via-predictive-luminance-424454
+  title: Taming Reversible Halftoning via Predictive Luminance
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.08309
+    paper: https://arxiv.org/pdf/2306.08309
+  authors:
+  - Cheuk-Kit Lau
+  - Menghan Xia
+  - Tien-Tsin Wong
+  year: 2023
+  tags:
+  - halftone
+  - image-processing
+  - screentone
+  summary: A novel reversible halftoning technique that converts color images into binary halftones while allowing full restoration to their original color versions using convolutional neural networks and a noise incentive block.
+  summary_ja: 畳み込みニューラルネットワークとノイズインセンティブブロックを使用し、カラー画像をバイナリハーフトーンに変換しつつ、元のカラー画像へ完全に復元することを可能にする新しい可逆ハーフトーン技術。
+  thumbnail: assets/thumbnails/taming-reversible-halftoning-via-predictive-luminance-424454.png
+  date_added: '2026-07-04'
+  source: agent
+  arxiv_id: '2306.08309'
+- id: halftoning-with-multi-agent-deep-reinforcement-learning-d30d05
+  title: Halftoning with Multi-Agent Deep Reinforcement Learning
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2207.11408
+    paper: https://arxiv.org/pdf/2207.11408
+  authors:
+  - Haitian Jiang
+  - Dongliang Xiong
+  - Xiaowen Jiang
+  - Aiguo Yin
+  - Li Ding
+  - Kai Huang
+  year: 2022
+  tags:
+  - halftone
+  - multi-agent-rl
+  - screentone
+  summary: Proposes HALFTONERS, a digital halftoning method based on multi-agent deep reinforcement learning that learns a shared policy to generate high-quality halftone images with blue-noise properties.
+  summary_ja: マルチエージェント深層強化学習に基づき、共有ポリシーを学習することでブルーノイズ特性を持つ高品質なハーフトーン画像を生成するデジタルハーフトーン手法「HALFTONERS」を提案。
+  thumbnail: assets/thumbnails/halftoning-with-multi-agent-deep-reinforcement-learning-d30d05.png
+  date_added: '2026-07-04'
+  source: agent
+  arxiv_id: '2207.11408'
 - id: screentone-preserved-manga-retargeting-e88966
   title: Screentone-Preserved Manga Retargeting
   area: manga
@@ -16856,6 +16975,24 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2402.17733'
+- id: translation-agent-a72e41
+  title: Translation Agent
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/andrewyng/translation-agent
+  year: 2024
+  tags:
+  - agent
+  - llm
+  - translation
+  summary: An open-source translation tool that uses an agentic reflection workflow (translation, reflection, and refinement) to produce highly accurate and context-aware translations.
+  summary_ja: エージェント的なリフレクション（翻訳、自己評価、修正）ワークフローを用いることで、文脈に即した高精度な翻訳を実現するオープンソースの翻訳ツール。
+  thumbnail: assets/thumbnails/translation-agent-a72e41.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: andrewyng/translation-agent
 - id: alma-2ca3df
   title: ALMA
   area: text-design
@@ -16963,6 +17100,24 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2209.08827'
+- id: buzz-072488
+  title: Buzz
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/chidiwilliams/buzz
+  year: 2022
+  tags:
+  - offline
+  - transcription
+  - whisper
+  summary: An offline transcription and translation tool powered by OpenAI's Whisper, allowing users to transcribe and translate audio files locally.
+  summary_ja: OpenAIのWhisperを搭載したオフライン文字起こし・翻訳ツール。ローカル環境で音声ファイルをテキスト化し、多言語に翻訳することができる。
+  thumbnail: assets/thumbnails/buzz-072488.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: chidiwilliams/buzz
 - id: no-language-left-behind-nllb-200-e3e3d2
   title: No Language Left Behind (NLLB-200)
   area: text-design
@@ -17133,6 +17288,24 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: mozilla/pontoon
+- id: mort-dc091b
+  title: MORT
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/killkimno/MORT
+  year: 2013
+  tags:
+  - game-translation
+  - ocr
+  - real-time
+  summary: A real-time game translator that captures in-game text using OCR (Tesseract, NHocr, or Windows OCR) and translates it on the fly using various translation APIs.
+  summary_ja: OCR（Tesseract、NHocr、Windows OCRなど）を用いてゲーム内のテキストをリアルタイムに抽出し、各種翻訳APIを介してその場で翻訳・表示するゲーム翻訳ツール。
+  thumbnail: assets/thumbnails/mort-dc091b.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: killkimno/mort
 - id: weblate-700512
   title: Weblate
   area: text-design
@@ -17153,6 +17326,25 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
+- id: drama-engine-227966
+  title: Drama Engine
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/Write-with-LAIKA/drama-engine
+  year: 2026
+  tags:
+  - agent
+  - llm
+  - narrative
+  - typescript
+  summary: A model- and provider-agnostic TypeScript framework for building narrative agents and agentic interactions with large language models, designed to execute directly in browsers for front-end game and story development.
+  summary_ja: フロントエンドのゲーム開発やストーリー制作向けに、ブラウザ上で直接実行できるように設計された、大規模言語モデルを用いたナラティブエージェントおよびエージェント間相互作用を構築するためのモデル・プロバイダー非依存のTypeScriptフレームワーク。
+  thumbnail: assets/thumbnails/drama-engine-227966.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: write-with-laika/drama-engine
 - id: from-world-gen-to-quest-line-cbadff
   title: From World-Gen to Quest-Line
   area: text-design
@@ -17236,6 +17428,25 @@ entries:
   source: agent
   arxiv_id: '2504.14538'
   repo: alienet1109/bookworld
+- id: codi-5202db
+  title: CoDi
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/Speeditidious/CoDi
+  year: 2025
+  tags:
+  - agent
+  - llm
+  - narrative
+  - story
+  summary: An open-source multi-agent framework that adopts a director-actor paradigm to generate interactive stories from user inputs. It coordinates planner, character, director, and editor agents to maintain narrative goals and adaptively introduce new events.
+  summary_ja: プランナー、キャラクター、ディレクター、エディターのエージェントを協調させ、ユーザーの入力からインタラクティブなストーリーを生成する、監督・俳優（ディレクター・アクター）パラダイムを採用したオープンソースのマルチエージェントフレームワーク。
+  thumbnail: assets/thumbnails/codi-5202db.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: speeditidious/codi
 - id: narrative-to-scene-generation-1fd0b4
   title: Narrative-to-Scene Generation
   area: text-design
@@ -17377,6 +17588,32 @@ entries:
   source: agent
   arxiv_id: '2604.19192'
   repo: ul-fri-lgm/environment-aware-npc-llm
+- id: persona-pruner-eed494
+  title: Persona-Pruner
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.14695
+    github: https://github.com/jsu-kim/Persona-Pruner
+  authors:
+  - Jinsu Kim
+  - Jihoon Tack
+  - Noah Lee
+  - Jongheon Jeong
+  year: 2026
+  tags:
+  - dialogue
+  - npc
+  - persona
+  - pruning
+  summary: A framework for sculpting lightweight, persona-specific language models from larger generalist models. It reduces computational costs and latency, making it highly suitable for deploying multiple distinct NPC personalities simultaneously on consumer hardware.
+  summary_ja: 大規模な汎用言語モデルから、軽量で特定のペルソナに特化した言語モデルを構築するためのフレームワーク。計算コストと遅延を削減し、コンシューマー向けハードウェア上で複数の異なるNPCパーソナリティを同時に展開するのに適しています。
+  thumbnail: assets/thumbnails/persona-pruner-eed494.png
+  date_added: '2026-07-04'
+  source: agent
+  arxiv_id: '2606.14695'
+  repo: jsu-kim/persona-pruner
 - id: deflanderization-for-game-dialogue-balancing-character-authe-b4993c
   title: 'Deflanderization for Game Dialogue: Balancing Character Authenticity with Task Execution in LLM-based NPCs'
   area: text-design
@@ -17568,6 +17805,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: undreamai/llmunity
+- id: soul-of-waifu-c978dd
+  title: Soul of Waifu
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/jofizcd/Soul-of-Waifu
+  year: 2024
+  tags:
+  - dialogue
+  - live2d
+  - npc
+  - roleplay
+  summary: An offline, uncensored desktop engine for AI roleplay and character companionship. It supports local LLMs, Live2D/VRM avatar integration, voice chat, and long-term memory to bring stylized anime characters to life with emotional depth.
+  summary_ja: AIロールプレイやキャラクターのコンパニオンシップのための、オフラインで無制限のデスクトップエンジン。ローカルLLM、Live2D/VRMアバターの統合、ボイスチャット、長期記憶をサポートし、スタイライズされたアニメキャラクターに感情豊かな命を吹き込みます。
+  thumbnail: assets/thumbnails/soul-of-waifu-c978dd.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: jofizcd/soul-of-waifu
 - id: unrealgenaisupport-122fc9
   title: UnrealGenAISupport
   area: text-design
@@ -17672,6 +17928,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: art-from-the-machine/mantella
+- id: risuai-b389c8
+  title: RisuAI
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/kwaroran/Risuai
+  year: 2023
+  tags:
+  - dialogue
+  - frontend
+  - npc
+  - roleplay
+  summary: A feature-rich, cross-platform open-source frontend for LLM-based roleplaying and character interaction. It supports multiple API backends, custom regex functions, and interactive assets to create immersive, highly customizable dialogue experiences.
+  summary_ja: LLMベースのロールプレイやキャラクターインタラクションのための、機能豊富でクロスプラットフォームなオープンソースのフロントエンド。複数のAPIバックエンド、カスタム正規表現機能、インタラクティブなアセットをサポートし、没入感のある高度にカスタマイズ可能な対話体験を提供します。
+  thumbnail: assets/thumbnails/risuai-b389c8.png
+  date_added: '2026-07-04'
+  source: agent
+  repo: kwaroran/risuai
 - id: sillytavern-5f6b47
   title: SillyTavern
   area: text-design

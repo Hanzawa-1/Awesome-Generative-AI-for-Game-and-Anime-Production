@@ -1500,6 +1500,60 @@ entries:
   thumbnail: assets/thumbnails/anicomic-ai-903155.png
   date_added: '2026-06-13'
   source: agent
+- id: anifusion-ba45ec
+  title: Anifusion
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://anifusion.ai/
+  year: 2026
+  tags:
+  - character-consistency
+  - comic
+  - manga
+  - publishing
+  summary: An AI-powered manga and comic generation platform designed for self-publishing creators, offering multi-page project workflows, character consistency tools, and layout options optimized for platforms like Amazon KDP.
+  summary_ja: 自己出版クリエイター向けに設計されたAI搭載のマンガ・コミック生成プラットフォーム。Amazon KDPなどのプラットフォームに最適化された複数ページのプロジェクトワークフロー、キャラクターの一貫性維持ツール、レイアウトオプションを提供します。
+  thumbnail: assets/thumbnails/anifusion-ba45ec.png
+  date_added: '2026-07-04'
+  source: agent
+- id: dashtoon-studio-baaeb6
+  title: Dashtoon Studio
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://dashtoon.com/
+  year: 2024
+  tags:
+  - character-consistency
+  - comic
+  - manga
+  - webtoon
+  summary: An AI-powered comic creation platform that enables creators to convert text stories into fully illustrated comics, manga, or webtoons with consistent character models and automated panel layouts.
+  summary_ja: テキストのストーリーを、一貫したキャラクターモデルと自動化されたコマ割りレイアウトを備えたイラスト付きコミック、マンガ、またはウェブトゥーンに変換できるAI搭載のコミック制作プラットフォーム。
+  thumbnail: assets/thumbnails/dashtoon-studio-baaeb6.png
+  date_added: '2026-07-04'
+  source: agent
+- id: komikoai-e331b3
+  title: KomikoAI
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://komiko.app/
+  year: 2024
+  tags:
+  - anime
+  - colorization
+  - comic
+  - manga
+  summary: An AI-powered creative platform for anime, manga, and comic generation, featuring character creation, an infinite canvas, automated panel generation, and line art colorization tools.
+  summary_ja: キャラクター制作、無限キャンバス、自動コマ割り生成、線画着色ツールなどを備えた、アニメ、マンガ、コミック生成のためのAI搭載クリエイティブプラットフォーム。
+  thumbnail: assets/thumbnails/komikoai-e331b3.png
+  date_added: '2026-07-04'
+  source: agent
 - id: llamagen-ai-71c2b8
   title: LlamaGen.Ai
   area: manga
@@ -1568,6 +1622,24 @@ entries:
   thumbnail: assets/thumbnails/ismanga-e06967.png
   date_added: '2026-06-27'
   source: agent
+- id: orange-inc-7a26d4
+  title: Orange Inc.
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://orange.inc/
+  year: 2021
+  tags:
+  - claude
+  - lettering
+  - localization
+  - translation
+  summary: A Japanese manga localization startup that utilizes AI-assisted technologies (including Anthropic's Claude) to automate manga translation, lettering, and typesetting. The platform accelerates the translation process up to ten times faster than traditional methods while maintaining human-in-the-loop quality control.
+  summary_ja: AI技術（AnthropicのClaudeなど）を活用して、漫画の翻訳、写植、レタリングを自動化する日本の漫画ローカライズスタートアップ。従来の最大10倍の速度で翻訳プロセスを高速化しつつ、人間のチェックによる品質管理を維持している。
+  thumbnail: assets/thumbnails/orange-inc-7a26d4.png
+  date_added: '2026-07-04'
+  source: agent
 - id: mantra-engine-9eeba1
   title: Mantra Engine
   area: manga
@@ -1585,6 +1657,24 @@ entries:
   summary_ja: 独自の言語および画像処理AIを搭載したプロフェッショナル向けのクラウド型漫画ローカライズプラットフォーム。出版社向けにテキスト検出、翻訳、写植（タイポグラフィ）を自動化します。
   thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
   date_added: '2026-06-13'
+  source: agent
+- id: comicsmaker-2123fb
+  title: ComicsMaker
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.comicsmaker.ai/
+  year: 2024
+  tags:
+  - comic
+  - creator
+  - layout
+  - manga
+  summary: An AI-powered comic strip and manga creator that helps users design pages, generate artwork, and arrange panels into cohesive layouts.
+  summary_ja: ユーザーがページをデザインし、アートワークを生成し、コマをまとまりのあるレイアウトに配置するのを支援する、AI搭載のコミックストリップおよび漫画クリエイター。
+  thumbnail: assets/thumbnails/comicsmaker-2123fb.png
+  date_added: '2026-07-04'
   source: agent
 - id: boords-1465cb
   title: Boords
@@ -1815,6 +1905,24 @@ entries:
   summary_ja: 会話型AIを使用して、ゲーム、VR、トレーニングシミュレーション向けの動的なキャラクターや分岐するナラティブ体験を構築するインタラクティブストーリーテリングプラットフォーム。
   thumbnail: assets/thumbnails/charisma-ai-b1aa8c.png
   date_added: '2026-06-13'
+  source: agent
+- id: loreweaver-287320
+  title: LoreWeaver
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://www.loreweaver.ink/
+  year: 2026
+  tags:
+  - middleware
+  - narrative
+  - story
+  - world-building
+  summary: An AI-powered narrative design platform featuring 'Architect' for extracting and structuring lore from documents into engine-ready exports, and 'Director,' an on-device AI Game Master middleware that generates constraint-validated emergent narratives and dynamic story arcs.
+  summary_ja: ドキュメントから設定資料を抽出・構造化してゲームエンジン向けに出力する「Architect」と、制約検証済みの創発的ナラティブや動的なストーリー展開をオンデバイスで生成するAIゲームマスターミドルウェア「Director」を備えた、AI搭載ナラティブデザインプラットフォーム。
+  thumbnail: assets/thumbnails/loreweaver-287320.png
+  date_added: '2026-07-04'
   source: agent
 - id: arcweave-16766f
   title: Arcweave
