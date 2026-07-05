@@ -2049,6 +2049,23 @@ entries:
   thumbnail: assets/thumbnails/inworld-ai-c4e760.png
   date_added: '2026-06-13'
   source: seed
+- id: runway-gen-3-alpha-e4a2f9
+  title: Runway Gen-3 Alpha
+  area: video
+  task: image-to-video
+  kind: proprietary
+  links:
+    website: https://runwayml.com/research/introducing-gen-3-alpha
+  year: 2024
+  tags:
+  - control
+  - image-to-video
+  - proprietary
+  summary: A frontier proprietary video generation model by Runway that offers high-fidelity, consistent, and highly controllable text-to-video and image-to-video synthesis.
+  summary_ja: Runwayが提供する最先端の商用動画生成モデル。高忠実度で一貫性があり、高度に制御可能なテキスト・動画変換および画像・動画変換の合成機能を提供します。
+  thumbnail: assets/thumbnails/runway-gen-3-alpha-e4a2f9.png
+  date_added: '2026-07-05'
+  source: agent
 - id: viggle-ai-9d62ae
   title: Viggle AI
   area: video
@@ -2255,6 +2272,42 @@ entries:
   thumbnail: assets/thumbnails/descript-2a8e52.png
   date_added: '2026-06-13'
   source: agent
+- id: pixop-8c7163
+  title: Pixop
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://www.pixop.com/
+  year: 2024
+  tags:
+  - cloud
+  - remaster
+  - restoration
+  - upscaling
+  summary: A cloud-based AI video remastering and upscaling platform designed for broadcasters, creators, and content owners to restore and upscale video archives to 4K/8K.
+  summary_ja: 放送事業者やクリエイター、コンテンツ所有者向けに設計された、動画アーカイブを4K/8Kに復元・アップスケーリングするためのクラウドベースのAI動画リマスタリング・アップスケーリングプラットフォーム。
+  thumbnail: assets/thumbnails/pixop-8c7163.png
+  date_added: '2026-07-05'
+  source: agent
+- id: topaz-video-ai-e3a43d
+  title: Topaz Video AI
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-video
+  year: 2024
+  tags:
+  - denoise
+  - desktop
+  - restoration
+  - upscaling
+  summary: A professional, industry-standard desktop software for AI-powered video enhancement, upscaling, deinterlacing, motion stabilization, and frame rate conversion.
+  summary_ja: AIを活用した動画のアップスケーリング、デインターレース、手ブレ補正、フレームレート変換などを提供する、プロフェッショナル向けの業界標準デスクトップソフトウェア。
+  thumbnail: assets/thumbnails/topaz-video-ai-e3a43d.png
+  date_added: '2026-07-05'
+  source: agent
 - id: goenhance-ai-f90ac6
   title: GoEnhance AI
   area: video
@@ -2272,4 +2325,40 @@ entries:
   summary_ja: スムーズなモーショントラッキングにより、既存の映像をアニメ、クレイアニメ、ピクサー風などの芸術的なスタイルに変換できる商用のAIビデオスタイル転送プラットフォーム。
   thumbnail: assets/thumbnails/goenhance-ai-f90ac6.png
   date_added: '2026-06-14'
+  source: agent
+- id: domoai-73ed2b
+  title: DomoAI
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://www.domoai.app/
+  year: 2023
+  tags:
+  - anime
+  - commercial
+  - style-transfer
+  - video-to-video
+  summary: A popular commercial AI video generation and animation platform that specializes in video-to-video style transfer. It allows creators to instantly transform real-world footage into anime, cartoon, 3D, or other artistic styles while maintaining motion consistency.
+  summary_ja: ビデオ間のスタイル変換（Video-to-Video）に特化した、人気の商用AI動画生成・アニメーションプラットフォーム。実写映像の動きの一貫性を保ちながら、アニメ、カートゥーン、3D、その他の芸術的なスタイルへ瞬時に変換することができます。
+  thumbnail: assets/thumbnails/domoai-73ed2b.png
+  date_added: '2026-07-05'
+  source: agent
+- id: kaiber-02b3ba
+  title: Kaiber
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://kaiber.ai/
+  year: 2023
+  tags:
+  - audio-reactive
+  - commercial
+  - music-video
+  - style-transfer
+  summary: An AI-powered creative studio designed for artists and musicians, offering advanced video generation and style transfer tools. It features audio-reactivity to sync visual style transformations with music beats, making it widely used for music videos and artistic content.
+  summary_ja: アーティストやミュージシャン向けに設計されたAIクリエイティブスタジオ。高度な動画生成およびスタイル変換ツールを提供します。音楽のビートに合わせて視覚的なスタイル変化を同期させるオーディオリアクティブ機能を備え、ミュージックビデオや芸術的なコンテンツ制作に広く使用されています。
+  thumbnail: assets/thumbnails/kaiber-02b3ba.png
+  date_added: '2026-07-05'
   source: agent
