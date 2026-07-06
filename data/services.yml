@@ -34,6 +34,40 @@ entries:
   thumbnail: assets/thumbnails/sync-labs-8c71a6.png
   date_added: '2026-06-22'
   source: agent
+- id: nvidia-omniverse-audio2face-f4bd1c
+  title: NVIDIA Omniverse Audio2Face
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.nvidia.com/en-us/omniverse/apps/audio2face/
+  year: 2021
+  tags:
+  - 3d-avatar
+  - facial-animation
+  - lip-sync
+  summary: An AI-powered application by NVIDIA that simplifies the animation of 3D characters to match any voice-over track. It generates realistic facial expressions and lip-sync in real-time, supporting integration with Unreal Engine (MetaHumans) and other 3D pipelines.
+  summary_ja: 音声トラックに合わせて3Dキャラクターの表情アニメーションを簡略化する、NVIDIAのAI搭載アプリケーション。リアルタイムでリアルな表情やリップシンクを生成し、Unreal Engine（MetaHuman）やその他の3Dパイプラインとの統合をサポートする。
+  thumbnail: assets/thumbnails/nvidia-omniverse-audio2face-f4bd1c.png
+  date_added: '2026-07-06'
+  source: agent
+- id: jali-research-7f5c56
+  title: JALI Research
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://jaliresearch.com/
+  year: 2020
+  tags:
+  - facial-animation
+  - lip-sync
+  - procedural
+  summary: A high-end procedural animation technology and software suite that automates multilingual lip-sync and expressive facial animation. It integrates with Maya and game engines like Unreal Engine, providing animators with precise directorial control.
+  summary_ja: 多言語のリップシンクと表情豊かなフェイシャルアニメーションを自動化する、ハイエンドなプロシージャルアニメーション技術およびソフトウェアスイート。MayaやUnreal Engineなどのゲームエンジンと統合し、アニメーターに精密な演出コントロールを提供する。
+  thumbnail: assets/thumbnails/jali-research-7f5c56.png
+  date_added: '2026-07-06'
+  source: agent
 - id: d-id-4168a0
   title: D-ID
   area: animation
@@ -51,6 +85,24 @@ entries:
   summary_ja: テキストまたは音声入力から顔画像をトーキングヘッド動画にアニメーション化する、主要な商用プラットフォームおよびAPI。バーチャルプレゼンターやローカライズ向けに、リアルなリップシンク、表情、自然な頭部の動きを生成します。
   thumbnail: assets/thumbnails/d-id-4168a0.png
   date_added: '2026-06-22'
+  source: agent
+- id: svfi-be3646
+  title: SVFI
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://store.steampowered.com/app/1692080/SVFI/
+  year: 2021
+  tags:
+  - anime
+  - frame-interpolation
+  - gaming
+  - steam
+  summary: A popular commercial video frame interpolation and enhancement tool on Steam, widely used by creators to convert low-framerate anime and gameplay footage into smooth high-framerate videos.
+  summary_ja: Steamで提供されている人気の商用ビデオフレーム補間・高画質化ツール。クリエイターの間で広く利用されており、低フレームレートのアニメやゲーム映像を滑らかな高フレームレート動画に変換します。
+  thumbnail: assets/thumbnails/svfi-be3646.png
+  date_added: '2026-07-06'
   source: agent
 - id: autodesk-motionbuilder-1b3117
   title: Autodesk MotionBuilder
@@ -121,6 +173,57 @@ entries:
   summary_ja: テキストプロンプトと機械学習支援ポージングを使用して、Unityエディタ内で直接、自然なキャラクターアニメーションを生成および編集できる、Unity公式のAI搭載アニメーションツール。
   thumbnail: assets/thumbnails/unity-muse-animate-daf4b5.png
   date_added: '2026-06-22'
+  source: agent
+- id: rokoko-vision-4206df
+  title: Rokoko Vision
+  area: animation
+  task: video-mocap
+  kind: proprietary
+  links:
+    website: https://www.rokoko.com/products/vision
+  year: 2023
+  tags:
+  - mocap
+  - pose-estimation
+  - webcam
+  summary: A browser-based AI motion capture tool that converts webcam footage or uploaded video files into 3D character animations. It supports single-camera tracking, foot lock filters, and exports to standard formats like FBX for integration with Blender, Unreal Engine, and Unity.
+  summary_ja: ウェブカメラの映像やアップロードされた動画ファイルを3Dキャラクターアニメーションに変換する、ブラウザベースAIモーションキャプチャツール。シングルカメラトラッキング、フットロックフィルターに対応し、Blender、Unreal Engine、Unityなどと連携可能なFBX形式でエクスポートできる。
+  thumbnail: assets/thumbnails/rokoko-vision-4206df.png
+  date_added: '2026-07-06'
+  source: agent
+- id: wonder-studio-71ad4c
+  title: Wonder Studio
+  area: animation
+  task: video-mocap
+  kind: proprietary
+  links:
+    website: https://wonderdynamics.com/
+  year: 2023
+  tags:
+  - actor-replacement
+  - mocap
+  - vfx
+  summary: An AI-powered cloud platform that automatically animates, lights, and composes 3D CG characters into live-action video. It performs multi-camera or single-camera motion capture, camera tracking, and actor replacement, exporting clean FBX/OBJ motion data and camera tracks to Blender, Maya, or Unreal Engine.
+  summary_ja: 実写映像内の人物を3DのCGキャラクターに自動で置き換え、アニメーション、ライティング、合成を行うAI搭載クラウドプラットフォーム。マルチカメラまたはシングルカメラのモーションキャプチャ、カメラトラッキングを実行し、Blender、Maya、Unreal Engine向けにクリーンなFBX/OBJモーションデータやカメラ軌道を出力できる。
+  thumbnail: assets/thumbnails/wonder-studio-71ad4c.png
+  date_added: '2026-07-06'
+  source: agent
+- id: kinetix-ce4843
+  title: Kinetix
+  area: animation
+  task: video-mocap
+  kind: proprietary
+  links:
+    website: https://kinetix.tech/
+  year: 2020
+  tags:
+  - emotes
+  - mocap
+  - retargeting
+  summary: An AI-powered 3D human motion platform that converts video clips into custom 3D character animations and emotes. It automates motion capture, cleaning, and retargeting, allowing creators to apply animations to any compatible 3D avatar and stream them directly into games or virtual worlds.
+  summary_ja: 動画クリップをカスタム3Dキャラクターアニメーションやエモートに変換する、AI搭載の3Dヒューマンモーションプラットフォーム。モーションキャプチャ、クリーンアップ、リターゲティングを自動化し、クリエイターが互換性のある3Dアバターにアニメーションを適用して、ゲームや仮想世界に直接配信できるようにする。
+  thumbnail: assets/thumbnails/kinetix-ce4843.png
+  date_added: '2026-07-06'
   source: agent
 - id: deepmotion-animate-3d-bf6f29
   title: DeepMotion (Animate 3D)

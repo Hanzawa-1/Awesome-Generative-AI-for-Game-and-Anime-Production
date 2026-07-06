@@ -27,6 +27,36 @@ entries:
   source: agent
   arxiv_id: '2507.03905'
   repo: antgroup/echomimic_v3
+- id: hunyuanvideo-avatar-68760c
+  title: HunyuanVideo-Avatar
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.20156
+    github: https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
+    hf: https://huggingface.co/tencent/HunyuanVideo-Avatar
+  authors:
+  - Yi Chen
+  - Sen Liang
+  - Zixiang Zhou
+  - Ziyao Huang
+  - Yifeng Ma
+  - Junshu Tang
+  - Qin Lin
+  - Yuan Zhang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - lip-sync
+  - talking-head
+  summary: A multimodal diffusion transformer (MM-DiT) based model by Tencent that generates dynamic, emotion-controllable, and multi-character talking avatar videos from audio conditions. It supports animating any input avatar image with high fidelity and precise lip-sync.
+  summary_ja: 音声条件からダイナミックで感情制御可能、かつ複数キャラクターのトーキングアバター動画を生成する、Tencentのマルチモーダル拡散トランスフォーマー（MM-DiT）ベースのモデル。任意の入力アバター画像を高品質かつ正確なリップシンクでアニメーション化できる。
+  thumbnail: assets/thumbnails/hunyuanvideo-avatar-68760c.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2505.20156'
+  repo: tencent-hunyuan/hunyuanvideo-avatar
 - id: aniportrait-b9efec
   title: AniPortrait
   area: animation
@@ -531,6 +561,36 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: fannovel16/comfyui-frame-interpolation
+- id: dynamicrafter-514337
+  title: DynamiCrafter
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.12190
+    github: https://github.com/Doubiiu/DynamiCrafter
+  authors:
+  - Jinbo Xing
+  - Menghan Xia
+  - Yong Zhang
+  - Haoxin Chen
+  - Wangbo Yu
+  - Hanyuan Liu
+  - Xintao Wang
+  - Tien-Tsin Wong
+  year: 2023
+  tags:
+  - diffusion
+  - frame-interpolation
+  - inbetweening
+  - keyframe
+  summary: A generative video diffusion model that animates open-domain images and supports high-quality frame interpolation (inbetweening) by conditioning on starting and ending keyframes.
+  summary_ja: オープンドメインの画像をアニメーション化する生成ビデオ拡散モデル。開始キーフレームと終了キーフレームを条件付けることで、高品質なフレーム補間（インビトウィーニング）をサポートします。
+  thumbnail: assets/thumbnails/dynamicrafter-514337.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2310.12190'
+  repo: doubiiu/dynamicrafter
 - id: extracting-motion-and-appearance-via-inter-frame-attention-f-9fe3a1
   title: Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation
   area: animation
@@ -558,6 +618,25 @@ entries:
   source: agent
   arxiv_id: '2303.00440'
   repo: mcg-nju/ema-vfi
+- id: gmfss-589cdd
+  title: GMFSS
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    github: https://github.com/routineLife1/GMFSS
+  year: 2023
+  tags:
+  - anime
+  - frame-interpolation
+  - gmflow
+  - vfi
+  summary: An open-source video frame interpolation framework based on GMFlow, specifically optimized for anime and cartoon footage to produce smooth motion transitions.
+  summary_ja: GMFlowをベースにしたオープンソースのビデオフレーム補間フレームワーク。特にアニメやカートゥーン映像向けに最適化されており、滑らかな動きの遷移を実現します。
+  thumbnail: assets/thumbnails/gmfss-589cdd.png
+  date_added: '2026-07-06'
+  source: agent
+  repo: routinelife1/gmfss
 - id: film-bdfa70
   title: FILM
   area: animation
@@ -674,6 +753,77 @@ entries:
   source: agent
   arxiv_id: '2111.12792'
   repo: shuhongchen/eisai-anime-interpolator
+- id: reactor-reinforcement-learning-for-physics-aware-motion-reta-807216
+  title: 'ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.06593
+  authors:
+  - David Müller
+  - Agon Serifi
+  - Sammy Christen
+  - Ruben Grandia
+  - Espen Knoop
+  - Moritz Bächer
+  year: 2026
+  tags:
+  - physics-simulation
+  - reinforcement-learning
+  - retargeting
+  summary: A physics-aware motion retargeting framework from Disney Research that uses a bilevel optimization scheme combining reinforcement learning and physics simulation to adapt human kinematic reference motions to robot morphologies while avoiding physical inconsistencies like foot sliding and self-collisions.
+  summary_ja: ディズニーリサーチによる物理対応モーションリターゲットフレームワーク。強化学習と物理シミュレーションを組み合わせた二段階最適化スキームを使用し、足の滑りや自己衝突などの物理的な不整合を回避しながら、人間の運動学的基準モーションをロボットの形態に適応させる。
+  thumbnail: assets/thumbnails/reactor-reinforcement-learning-for-physics-aware-motion-reta-807216.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2605.06593'
+- id: skinned-motion-retargeting-with-spatially-adaptive-interacti-8d494d
+  title: Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.19355
+    website: https://suzyn.github.io/space_page/
+  authors:
+  - Soojin Choi
+  - Seokhyeon Hong
+  - Chaelin Kim
+  - Junghyun Nam
+  - Junhyuk Jeon
+  - Junyong Noh
+  year: 2026
+  tags:
+  - geometry-aware
+  - interaction
+  - retargeting
+  - skinned-character
+  summary: A geometry-aware motion retargeting framework that preserves interaction semantics, such as self-contact and near-body proximity, across characters with varying body shapes by performing proximity matching over dynamically adapted anchors.
+  summary_ja: 動的に適応されたアンカー上で近接マッチングを行うことにより、異なる体型を持つキャラクター間で自己接触や身体近傍の近接性などのインタラクションの意味論を維持する、ジオメトリ対応のモーションリターゲットフレームワーク。
+  thumbnail: assets/thumbnails/skinned-motion-retargeting-with-spatially-adaptive-interacti-8d494d.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2605.19355'
+- id: soma-retargeter-2a997b
+  title: SOMA Retargeter
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/NVIDIA/soma-retargeter
+  year: 2026
+  tags:
+  - humanoid
+  - mocap
+  - retargeting
+  - warp
+  summary: A GPU-accelerated library from NVIDIA that converts SOMA human motion captures (BVH) into humanoid robot joint animation using GPU-optimized inverse kinematics via Newton and NVIDIA Warp. It handles proportional human-to-robot scaling, multi-objective IK solving with joint limits, feet stabilization, and per-DOF joint limit clamping.
+  summary_ja: NVIDIAによるGPU加速ライブラリで、NewtonおよびNVIDIA Warpを介したGPU最適化逆運動学（IK）を用いて、SOMA人間モーションキャプチャ（BVH）をヒューマノイドロボットの関節アニメーションに変換する。比例的な人間からロボットへのスケーリング、関節制限を伴う多目的IKソルバー、足の接地安定化、および自由度ごとの関節制限クランプを処理する。
+  thumbnail: assets/thumbnails/soma-retargeter-2a997b.png
+  date_added: '2026-07-06'
+  source: agent
+  repo: nvidia/soma-retargeter
 - id: soma-unifying-parametric-human-body-models-190a2c
   title: 'SOMA: Unifying Parametric Human Body Models'
   area: animation
@@ -731,6 +881,36 @@ entries:
   source: agent
   arxiv_id: '2510.02252'
   repo: yanjieze/gmr
+- id: ikmr-implicit-kinodynamic-motion-retargeting-a28691
+  title: 'IKMR: Implicit Kinodynamic Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.15443
+    github: https://github.com/Cybercal/IKMR
+  authors:
+  - Xingyu Chen
+  - Hanyu Wu
+  - Sikai Wu
+  - Mingliang Zhou
+  - Diyun Xiang
+  - Haodong Zhang
+  - Yangchen Zhou
+  - Yukang Gao
+  year: 2025
+  tags:
+  - humanoid
+  - imitation-learning
+  - retargeting
+  - robotics
+  summary: A scalable and efficient motion retargeting framework designed for human-to-humanoid imitation learning that considers both kinematics and dynamics to produce smooth, physically feasible, and jitter-free robot trajectories from noisy human motion data.
+  summary_ja: 人間からヒューマノイドへの模倣学習向けに設計された、スケーラブルで効率的なモーションリターゲットフレームワーク。運動学と力学の両方を考慮することで、ノイズの多い人間のモーションデータから、滑らかで物理的に実現可能かつジッターのないロボット軌道を生成する。
+  thumbnail: assets/thumbnails/ikmr-implicit-kinodynamic-motion-retargeting-a28691.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2509.15443'
+  repo: cybercal/ikmr
 - id: reconform-real-time-contact-aware-motion-retargeting-for-mor-33fe9a
   title: 'ReConForM: Real-time Contact-aware Motion Retargeting for more Diverse Character Morphologies'
   area: animation
@@ -992,6 +1172,35 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2505.12619'
+- id: kungfubot-1987ce
+  title: KungfuBot
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.12851
+    github: https://github.com/TeleHuman/PBHC
+  authors:
+  - Weiji Xie
+  - Jinrui Han
+  - Jiakun Zheng
+  - Huanyu Li
+  - Xinzhe Liu
+  - Jiyuan Shi
+  - Weinan Zhang
+  - Chenjia Bai
+  year: 2025
+  tags:
+  - humanoid-control
+  - motion-tracking
+  - physics
+  summary: A physics-based humanoid control framework designed to master highly-dynamic human behaviors such as Kungfu and dancing through multi-step motion processing and adaptive motion tracking.
+  summary_ja: 複数ステップのモーション処理と適応型モーショントラッキングを通じて、カンフーやダンスなどの高度にダイナミックな人間の動作を習得するために設計された、物理ベースの人型ロボット制御フレームワーク。
+  thumbnail: assets/thumbnails/kungfubot-1987ce.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2506.12851'
+  repo: telehuman/pbhc
 - id: pixie-physics-from-pixels-42aa69
   title: 'Pixie: Physics from Pixels'
   area: animation
@@ -1179,6 +1388,85 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: y-zheng18/physavatar
+- id: diffmimic-32f80f
+  title: DiffMimic
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.03274
+    github: https://github.com/jiawei-ren/diffmimic
+  authors:
+  - Jiawei Ren
+  - Cunjun Yu
+  - Siwei Chen
+  - Xiao Ma
+  - Liang Pan
+  - Ziwei Liu
+  year: 2023
+  tags:
+  - differentiable-physics
+  - motion-mimicking
+  - physics
+  summary: An efficient motion mimicking framework for physics-based character animation that leverages differentiable physics simulators to avoid heavy reinforcement learning reward engineering.
+  summary_ja: 微分可能な物理シミュレータを活用することで、重い強化学習の報酬設計を回避し、物理ベースのキャラクターアニメーションにおける効率的な動作模倣を実現するフレームワーク。
+  thumbnail: assets/thumbnails/diffmimic-32f80f.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2304.03274'
+  repo: jiawei-ren/diffmimic
+- id: insactor-7afbda
+  title: InsActor
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.17135
+    github: https://github.com/MotrixLab/insactor
+  authors:
+  - Jiawei Ren
+  - Mingyuan Zhang
+  - Cunjun Yu
+  - Xiao Ma
+  - Liang Pan
+  - Ziwei Liu
+  year: 2023
+  tags:
+  - character-control
+  - diffusion
+  - physics
+  summary: A generative framework that leverages diffusion-based human motion models to produce instruction-driven, physically simulated character animations.
+  summary_ja: 拡散ベースの人体運動モデルを活用し、指示（テキスト）駆動型の物理シミュレーションによるキャラクターアニメーションを生成するフレームワーク。
+  thumbnail: assets/thumbnails/insactor-7afbda.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2312.17135'
+  repo: motrixlab/insactor
+- id: controlvae-6e6979
+  title: ControlVAE
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2210.06063
+    github: https://github.com/heyuanYao-pku/Control-VAE
+  authors:
+  - Heyuan Yao
+  - Zhenhua Song
+  - Baoquan Chen
+  - Libin Liu
+  year: 2022
+  tags:
+  - character-control
+  - physics
+  - vae
+  summary: A model-based framework for learning generative motion control policies based on variational autoencoders (VAE), enabling realistic and interactive control of simulated characters.
+  summary_ja: 変分オートエンコーダ（VAE）に基づく生成的な運動制御ポリシーを学習するためのモデルベースのフレームワークであり、シミュレートされたキャラクターのリアルでインタラクティブな制御を可能にする。
+  thumbnail: assets/thumbnails/controlvae-6e6979.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2210.06063'
+  repo: heyuanyao-pku/control-vae
 - id: multianimate-02e7e6
   title: MultiAnimate
   area: animation
@@ -1263,6 +1551,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2502.06145'
+- id: animate-x-8bae87
+  title: Animate-X++
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.09454
+    github: https://github.com/Lucaria-Academy/Animate-X-plusplus
+    paper: https://arxiv.org/pdf/2508.09454
+  authors:
+  - Shuai Tan
+  - Biao Gong
+  - Zhuoxin Liu
+  - Yan Wang
+  - Xi Chen
+  - Yifan Feng
+  - Hengshuang Zhao
+  year: 2025
+  tags:
+  - character-animation
+  - dynamic-background
+  - pose-guided
+  summary: An extension of the Animate-X framework that supports dynamic, text-driven backgrounds alongside universal character animation, utilizing a Diffusion Transformer (DiT) architecture.
+  summary_ja: 汎用キャラクターアニメーションに加え、テキスト駆動型の動的背景の生成をサポートする、Diffusion Transformer（DiT）アーキテクチャを採用したAnimate-Xフレームワークの拡張版。
+  thumbnail: assets/thumbnails/animate-x-8bae87.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2508.09454'
+  repo: lucaria-academy/animate-x-plusplus
 - id: dynamictrl-b22508
   title: DynamiCtrl
   area: animation
@@ -1351,6 +1668,65 @@ entries:
   source: agent
   arxiv_id: '2512.13465'
   repo: ryan-w2024/poseanything
+- id: unianimate-dit-abd1cd
+  title: UniAnimate-DiT
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.11289
+    github: https://github.com/ali-vilab/UniAnimate-DiT
+    paper: https://arxiv.org/pdf/2504.11289
+  authors:
+  - Xiang Wang
+  - Shiwei Zhang
+  - Longxiang Tang
+  - Yingya Zhang
+  - Changxin Gao
+  - Yuehuan Wang
+  - Nong Sang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - pose-guided
+  - wan2.1
+  summary: An advanced human image animation framework that leverages the large-scale video diffusion transformer Wan2.1 with LoRA fine-tuning and a lightweight pose encoder for consistent and high-quality motion generation.
+  summary_ja: 大規模ビデオ拡散トランスフォーマー「Wan2.1」を活用し、LoRA微調整と軽量ポーズエンコーダーを組み合わせることで、一貫性のある高品質な動作生成を実現する高度な人間画像アニメーションフレームワーク。
+  thumbnail: assets/thumbnails/unianimate-dit-abd1cd.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2504.11289'
+  repo: ali-vilab/unianimate-dit
+- id: animate-x-9665ab
+  title: Animate-X
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.10306
+    github: https://github.com/antgroup/animate-x
+    paper: https://arxiv.org/pdf/2410.10306
+  authors:
+  - Shuai Tan
+  - Biao Gong
+  - Xiang Wang
+  - Shiwei Zhang
+  - Dandan Zheng
+  - Ruobing Zheng
+  - Kecheng Zheng
+  - Jingdong Chen
+  year: 2024
+  tags:
+  - character-animation
+  - diffusion
+  - pose-guided
+  summary: A universal character image animation framework based on latent diffusion models that generalizes well to anthropomorphic, anime, and 3D characters. It introduces an enhanced motion representation to capture complex movement patterns.
+  summary_ja: 擬人化キャラクター、アニメ、3Dキャラクターなど、多様なキャラクタータイプに対応する潜在拡散モデルベースの汎用アニメーションフレームワーク。複雑な動作パターンを捉えるための強化されたモーション表現を導入。
+  thumbnail: assets/thumbnails/animate-x-9665ab.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2410.10306'
+  repo: antgroup/animate-x
 - id: champ-5c1b50
   title: Champ
   area: animation
@@ -1426,6 +1802,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: tmelyralab/musepose
+- id: stableanimator-17e2f7
+  title: StableAnimator
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17697
+    github: https://github.com/Francis-Rings/StableAnimator
+    paper: https://arxiv.org/pdf/2411.17697
+  authors:
+  - Shuyuan Tu
+  - Zhen Xing
+  - Xintong Han
+  - Zhi-Qi Cheng
+  - Qi Dai
+  - Chong Luo
+  - Zuxuan Wu
+  year: 2024
+  tags:
+  - diffusion
+  - identity-preserving
+  - pose-guided
+  summary: An end-to-end identity-preserving video diffusion framework for human image animation that synthesizes high-quality videos conditioned on a reference image and a sequence of poses without post-processing.
+  summary_ja: リファレンス画像とポーズシーケンスを条件として、後処理なしで高品質なビデオを合成する、エンドツーエンドのアイデンティティ保持型ビデオ拡散フレームワーク。
+  thumbnail: assets/thumbnails/stableanimator-17e2f7.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2411.17697'
+  repo: francis-rings/stableanimator
 - id: unianimate-63643d
   title: UniAnimate
   area: animation
@@ -1481,6 +1886,31 @@ entries:
   source: agent
   arxiv_id: '2311.17117'
   repo: humanaigc/animateanyone
+- id: gpc-large-scale-generative-pretraining-for-transferable-moto-a9702d
+  title: 'GPC: Large-Scale Generative Pretraining for Transferable Motor Control'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.29148
+    project: https://xbpeng.github.io/projects/GPC/index.html
+  authors:
+  - Yi Shi
+  - Yifeng Jiang
+  - Chen Tessler
+  - Xue Bin Peng
+  year: 2026
+  tags:
+  - physics
+  - procedural
+  - rl
+  - transformer
+  summary: Generative Pretrained Controllers (GPC) leverage tokenization and next-token modeling to create general-purpose, reusable generative controllers from large-scale motion datasets using reinforcement learning.
+  summary_ja: トークン化と次トークン予測モデリングを活用し、強化学習を用いて大規模なモーションデータセットから汎用的かつ再利用可能な生成型コントローラ（GPC）を構築するフレームワーク。
+  thumbnail: assets/thumbnails/gpc-large-scale-generative-pretraining-for-transferable-moto-a9702d.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2606.29148'
 - id: nap-control-bdaa38
   title: NaP-Control
   area: animation
@@ -1584,6 +2014,35 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2407.10481'
+- id: calm-conditional-adversarial-latent-models-for-directable-vi-c1a312
+  title: 'CALM: Conditional Adversarial Latent Models for Directable Virtual Characters'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.02195
+    github: https://github.com/NVlabs/CALM
+    project: https://xbpeng.github.io/projects/CALM/index.html
+  authors:
+  - Chen Tessler
+  - Yoni Kasten
+  - Yunrong Guo
+  - Shie Mannor
+  - Gal Chechik
+  - Xue Bin Peng
+  year: 2023
+  tags:
+  - behavior
+  - physics
+  - procedural
+  - rl
+  summary: A framework for generating diverse and directable behaviors for user-controlled interactive virtual characters using conditional adversarial latent models. It jointly learns a control policy and a motion encoder to reconstruct key characteristics of given motions.
+  summary_ja: 条件付き敵対的潜在モデル（CALM）を用いて、ユーザーが操作可能なインタラクティブな仮想キャラクター向けに、多様で指示可能な動作を生成するフレームワーク。制御ポリシーとモーションエンコーダを共同で学習し、与えられた運動の主要な特徴を再構成します。
+  thumbnail: assets/thumbnails/calm-conditional-adversarial-latent-models-for-directable-vi-c1a312.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2305.02195'
+  repo: nvlabs/calm
 - id: moconvq-unified-physics-based-motion-control-via-scalable-di-b0f779
   title: 'MoConVQ: Unified Physics-Based Motion Control via Scalable Discrete Representations'
   area: animation
@@ -1638,6 +2097,55 @@ entries:
   source: agent
   arxiv_id: '2301.13868'
   repo: nv-tlabs/padl
+- id: physdiff-physics-guided-human-motion-diffusion-model-039aa6
+  title: 'PhysDiff: Physics-Guided Human Motion Diffusion Model'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.02500
+    project: https://nvlabs.github.io/PhysDiff/
+  authors:
+  - Ye Yuan
+  - Jiaming Song
+  - Umar Iqbal
+  - Arash Vahdat
+  - Jan Kautz
+  year: 2022
+  tags:
+  - diffusion
+  - physics
+  - procedural
+  summary: A physics-guided human motion diffusion model that incorporates physical constraints into the diffusion process via a physics-based motion projection module, eliminating artifacts like floating and foot sliding.
+  summary_ja: 物理シミュレータ内でのモーションイミテーションを用いた物理ベースの運動投影モジュールを介して、拡散プロセスに物理的制約を組み込み、浮遊や足の滑りなどのアーティファクトを排除する物理ガイド付き人間運動拡散モデル。
+  thumbnail: assets/thumbnails/physdiff-physics-guided-human-motion-diffusion-model-039aa6.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2212.02500'
+- id: unicon-universal-neural-controller-for-physics-based-charact-e3a169
+  title: 'UniCon: Universal Neural Controller For Physics-based Character Motion'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2011.15119
+    project: https://nv-tlabs.github.io/unicon/
+  authors:
+  - Tingwu Wang
+  - Yunrong Guo
+  - Maria Shugrina
+  - Sanja Fidler
+  year: 2020
+  tags:
+  - physics
+  - procedural
+  - rl
+  summary: A physics-based universal neural controller that learns to master thousands of motions with different styles by training on large-scale motion datasets using reinforcement learning.
+  summary_ja: 強化学習を用いて大規模なモーションデータセットで学習することにより、異なるスタイルの数千もの動作を習得することを可能にする、物理ベースのユニバーサルニューラルコントローラ。
+  thumbnail: assets/thumbnails/unicon-universal-neural-controller-for-physics-based-charact-e3a169.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2011.15119'
 - id: ai4animation-ed9a6c
   title: AI4Animation
   area: animation
@@ -1657,6 +2165,31 @@ entries:
   date_added: '2026-06-22'
   source: agent
   repo: sebastianstarke/ai4animation
+- id: deepmimic-example-guided-deep-reinforcement-learning-of-phys-3f59f3
+  title: 'DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1804.02717
+    github: https://github.com/xbpeng/DeepMimic
+  authors:
+  - Xue Bin Peng
+  - Pieter Abbeel
+  - Sergey Levine
+  - Michiel van de Panne
+  year: 2018
+  tags:
+  - physics
+  - procedural
+  - rl
+  summary: A foundational framework that uses deep reinforcement learning to train simulated humanoids to imitate a wide variety of highly dynamic and complex motion skills from reference motion capture data.
+  summary_ja: 深層強化学習を用いて、シミュレーション上の人型キャラクターに、参照用モーションキャプチャデータから非常にダイナミックで複雑な運動スキルを模倣させるための基礎的なフレームワーク。
+  thumbnail: assets/thumbnails/deepmimic-example-guided-deep-reinforcement-learning-of-phys-3f59f3.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '1804.02717'
+  repo: xbpeng/deepmimic
 - id: unity-ml-agents-717114
   title: Unity ML-Agents
   area: animation
@@ -1890,6 +2423,35 @@ entries:
   source: agent
   arxiv_id: '2502.02358'
   repo: diouo/motionlab
+- id: tstmotion-training-free-scene-aware-text-to-motion-generatio-f8afa7
+  title: 'TSTMotion: Training-free Scene-aware Text-to-motion Generation'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.01182
+    github: https://github.com/Diouo/TSTMotion
+  authors:
+  - Ziyan Guo
+  - Haoxuan Qu
+  - Hossein Rahmani
+  - Dewen Soh
+  - Ping Hu
+  - Qiuhong Ke
+  - Jun Liu
+  year: 2025
+  tags:
+  - 3d-scene
+  - scene-aware
+  - text-to-motion
+  - training-free
+  summary: TSTMotion is a training-free, scene-aware text-to-motion generation framework. It enables the synthesis of realistic human motion sequences interacting with diverse 3D indoor environments without requiring expensive ground-truth scene-motion training data.
+  summary_ja: TSTMotionは、追加の学習を必要としない、3Dシーンを考慮したテキストからのモーション生成フレームワークです。高コストな実測のシーン・モーション学習データを必要とせず、多様な3D屋内環境と相互作用するリアルな人間モーションシーケンスの合成を可能にします。
+  thumbnail: assets/thumbnails/tstmotion-training-free-scene-aware-text-to-motion-generatio-f8afa7.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2505.01182'
+  repo: diouo/tstmotion
 - id: animationgpt-96bdf1
   title: AnimationGPT
   area: animation
@@ -1914,6 +2476,33 @@ entries:
   date_added: '2026-06-22'
   source: agent
   repo: fyyakaxyy/animationgpt
+- id: sopo-text-to-motion-generation-using-semi-online-preference-bd5692
+  title: 'SoPo: Text-to-Motion Generation Using Semi-Online Preference Optimization'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.05095
+    github: https://github.com/Xiaofeng-Tan/SoPo
+    project: https://sopo-motion.github.io/
+  authors:
+  - Xiaofeng Tan
+  - Hongsong Wang
+  - Xin Geng
+  - Pan Zhou
+  year: 2024
+  tags:
+  - diffusion-model
+  - fine-tuning
+  - preference-optimization
+  - text-to-motion
+  summary: SoPo (Semi-Online Preference Optimization) is a reinforcement learning-based fine-tuning framework for text-to-motion models. It combines the advantages of online and offline direct preference optimization (DPO) to consistently generate high-quality, human-preferred 3D motions while avoiding overfitting and biased sampling.
+  summary_ja: SoPo（Semi-Online Preference Optimization）は、テキストからモーションを生成するモデル向けの強化学習ベースの微調整フレームワークです。オンラインとオフラインの直接嗜好最適化（DPO）の利点を組み合わせることで、過学習やサンプリングの偏りを防ぎつつ、高品質で人間の好みに合致した3Dモーションを一貫して生成します。
+  thumbnail: assets/thumbnails/sopo-text-to-motion-generation-using-semi-online-preference-bd5692.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2412.05095'
+  repo: xiaofeng-tan/sopo
 - id: human-motion-diffusion-model-mdm-585afd
   title: Human Motion Diffusion Model (MDM)
   area: animation
@@ -1933,6 +2522,58 @@ entries:
   source: seed
   arxiv_id: '2209.14916'
   repo: guytevet/motion-diffusion-model
+- id: onlinehmr-557654
+  title: OnlineHMR
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.17355
+    github: https://github.com/Tsukasane/Video-OnlineHMR
+    paper: https://arxiv.org/pdf/2603.17355.pdf
+  authors:
+  - Yiwen Zhao
+  - Ce Zheng
+  - Yufu Wang
+  - Hsueh-Han Daniel Yang
+  - Liting Wen
+  - Laszlo A. Jeni
+  year: 2026
+  tags:
+  - human-mesh-recovery
+  - mocap
+  - pose-estimation
+  summary: A fully online framework for video-based world-grounded human mesh recovery that operates in real-time without relying on future frames or global optimization. It is highly suitable for interactive scenarios like AR/VR, telepresence, and real-time motion capture.
+  summary_ja: 未来のフレームやグローバルな最適化に依存せず、リアルタイムで動作するビデオベースの世界座標系3D人間メッシュ復元フレームワーク。AR/VR、テレプレゼンス、リアルタイムのモーションキャプチャなどのインタラクティブなシナリオに最適。
+  thumbnail: assets/thumbnails/onlinehmr-557654.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2603.17355'
+  repo: tsukasane/video-onlinehmr
+- id: perspose-62dfbc
+  title: PersPose
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.17239
+    github: https://github.com/KenAdamsJoseph/PersPose
+    paper: https://arxiv.org/pdf/2508.17239.pdf
+  authors:
+  - Xiaoyang Hao
+  - Han Li
+  year: 2025
+  tags:
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: A monocular 3D human pose estimation framework that introduces Perspective Encoding and Perspective Rotation to incorporate camera intrinsics directly into cropped images. This resolves depth ambiguity and significantly improves the accuracy of 3D joint reconstruction from single-camera video.
+  summary_ja: カメラの内部パラメータをクロップ画像に直接組み込む「パースペクティブ・エンコーディング」と「パースペクティブ・ローテーション」を導入した単眼3D人間姿勢推定フレームワーク。奥行きの曖昧さを解消し、シングルカメラ動画からの3D関節復元の精度を大幅に向上させる。
+  thumbnail: assets/thumbnails/perspose-62dfbc.png
+  date_added: '2026-07-06'
+  source: agent
+  arxiv_id: '2508.17239'
+  repo: kenadamsjoseph/perspose
 - id: multi-hmr-bd5c0f
   title: Multi-HMR
   area: animation
