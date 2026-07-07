@@ -375,6 +375,24 @@ entries:
   thumbnail: assets/thumbnails/nemisindo-3fa057.png
   date_added: '2026-06-13'
   source: agent
+- id: dsp-motion-69f65e
+  title: DSP Motion
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/web/en/products-dspmotion.html
+  year: 2020
+  tags:
+  - animation
+  - procedural-audio
+  - sfx
+  - sound-design
+  summary: A commercial procedural sound design tool by Tsugi that allows sound designers and animators to generate dynamic sound effects for motion graphics, character animations, and games by drawing shapes with a mouse or graphics tablet.
+  summary_ja: マウスやペンタブレットで図形を描くことで、モーショングラフィックス、キャラクターアニメーション、ゲーム向けのダイナミックな効果音を生成できる、Tsugi による商用のプロシージャル音響デザインツール。
+  thumbnail: assets/thumbnails/dsp-motion-69f65e.png
+  date_added: '2026-07-07'
+  source: agent
 - id: gamesynth-e5abf2
   title: GameSynth
   area: audio
@@ -545,6 +563,24 @@ entries:
   summary_ja: 高精度なテキスト読み上げ、リアルタイム音声クローン、および透かし埋め込み技術を統合したディープフェイク検出機能を提供する、エンタープライズ向けの生成音声プラットフォーム。
   thumbnail: assets/thumbnails/resemble-ai-f60fa2.png
   date_added: '2026-06-13'
+  source: agent
+- id: respeecher-10e162
+  title: Respeecher
+  area: audio
+  task: tts
+  kind: proprietary
+  links:
+    website: https://www.respeecher.com/
+  year: 2018
+  tags:
+  - game-production
+  - speech-synthesis
+  - voice-cloning
+  - voice-conversion
+  summary: An enterprise-grade voice cloning and speech synthesis platform widely used in Hollywood films and AAA game production to replicate and transform voices with high emotional fidelity.
+  summary_ja: ハリウッド映画やAAAゲーム制作で広く使用されている、エンタープライズ向けの音声クローニングおよび音声合成プラットフォーム。高い感情再現度で音声を複製・変換します。
+  thumbnail: assets/thumbnails/respeecher-10e162.png
+  date_added: '2026-07-07'
   source: agent
 - id: elevenlabs-486fcf
   title: ElevenLabs
