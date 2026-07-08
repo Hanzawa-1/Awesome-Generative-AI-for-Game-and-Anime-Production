@@ -683,6 +683,24 @@ entries:
   thumbnail: assets/thumbnails/metahuman-creator-4597b5.png
   date_added: '2026-06-13'
   source: seed
+- id: character-creator-4-2d061a
+  title: Character Creator 4
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/character-creator/
+  year: 2022
+  tags:
+  - 3d-human
+  - character-creator
+  - rigging
+  - stylized
+  summary: Reallusion's professional 3D character creation and animation rigging software designed to easily generate, import, and customize stylized or realistic character assets.
+  summary_ja: Reallusionが提供するプロフェッショナル向けの3Dキャラクター作成・アニメーションリギングソフトウェア。デフォルメまたはリアルなキャラクターアセットを簡単に生成、インポート、カスタマイズできます。
+  thumbnail: assets/thumbnails/character-creator-4-2d061a.png
+  date_added: '2026-07-08'
+  source: agent
 - id: vroid-studio-a40bc2
   title: VRoid Studio
   area: characters
@@ -735,6 +753,26 @@ entries:
   thumbnail: assets/thumbnails/keentools-facebuilder-55d9fe.png
   date_added: '2026-06-24'
   source: agent
+- id: ngskintools-v2-39804d
+  title: ngSkinTools v2
+  area: characters
+  task: skinning
+  kind: proprietary
+  links:
+    website: https://www.ngskintools.com/
+  authors:
+  - Viktoras Makauskas
+  year: 2021
+  tags:
+  - maya
+  - plugin
+  - skinning
+  - weights
+  summary: An industry-standard skinning plugin for Autodesk Maya that introduces layer-based weight painting, any-pose mirroring, enhanced paint brushes, and advanced smoothing algorithms.
+  summary_ja: レイヤーベースのウェイトペイント、任意のポーズでのミラーリング、強化されたペイントブラシ、高度な平滑化アルゴリズムを導入した、Autodesk Maya向けの業界標準スキンゲプラグイン。
+  thumbnail: assets/thumbnails/ngskintools-v2-39804d.png
+  date_added: '2026-07-08'
+  source: agent
 - id: meshy-c6012a
   title: Meshy
   area: gen-3d
@@ -752,6 +790,23 @@ entries:
   thumbnail: assets/thumbnails/meshy-c6012a.png
   date_added: '2026-06-13'
   source: seed
+- id: tripo-ai-9f10e4
+  title: Tripo AI
+  area: gen-3d
+  task: mesh-generation
+  kind: proprietary
+  links:
+    website: https://www.tripo3d.ai/
+  year: 2023
+  tags:
+  - image-to-3d
+  - mesh
+  - text-to-3d
+  summary: A professional AI 3D workspace that generates high-quality 3D meshes from text, images, or sketches, featuring intelligent part segmentation, automatic rigging, and PBR texturing.
+  summary_ja: テキスト、画像、またはスケッチから高品質な3Dメッシュを生成するプロフェッショナルなAI 3Dワークスペース。インテリジェントなパーツ分割、自動リギング、PBRテクスチャリング機能を備える。
+  thumbnail: assets/thumbnails/tripo-ai-9f10e4.png
+  date_added: '2026-07-08'
+  source: agent
 - id: atlas-ai-studio-48f967
   title: Atlas AI Studio
   area: gen-3d
