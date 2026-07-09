@@ -1010,6 +1010,23 @@ entries:
   thumbnail: assets/thumbnails/tripo-a95a86.png
   date_added: '2026-06-13'
   source: seed
+- id: tractive-2feff7
+  title: Tractive
+  area: gen-3d
+  task: uv-retopology
+  kind: proprietary
+  links:
+    website: https://www.tractive.ai/
+  year: 2025
+  tags:
+  - auto-retopo
+  - mesh-optimization
+  - retopology
+  summary: Tractive is an AI-powered retopology tool designed to automate the process of converting high-resolution 3D meshes into clean, game-ready low-polygon models. It features a native desktop application capable of handling high-vertex reference meshes efficiently.
+  summary_ja: Tractiveは、高解像度の3Dメッシュをクリーンでゲームに即した低ポリゴンモデルに変換するプロセスを自動化するために設計された、AI搭載のリトポロジーツールです。高頂点数の参照メッシュを効率的に処理できるネイティブのデスクトップアプリケーションを提供します。
+  thumbnail: assets/thumbnails/tractive-2feff7.png
+  date_added: '2026-07-09'
+  source: agent
 - id: quadremesher-e35c8b
   title: QuadRemesher
   area: gen-3d
@@ -1064,6 +1081,26 @@ entries:
   thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
   date_added: '2026-06-13'
   source: seed
+- id: flat-kit-4ad69a
+  title: Flat Kit
+  area: image-2d
+  task: cel-shading
+  kind: proprietary
+  links:
+    website: https://flatkit.dustyroom.com/
+  authors:
+  - Dustyroom
+  year: 2020
+  tags:
+  - asset-store
+  - cel-shading
+  - stylized
+  - unity
+  summary: A popular commercial asset package for Unity that provides a complete set of stylized shaders, cel shading, water rendering, and outline effects to achieve a minimalist flat look.
+  summary_ja: ミニマリストなフラットルックを実現するための、スタイライズされたシェーダー、セルシェーディング、水レンダリング、アウトラインエフェクトの完全なセットを提供する、Unity用の人気のある商用アセットパッケージ。
+  thumbnail: assets/thumbnails/flat-kit-4ad69a.png
+  date_added: '2026-07-09'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d
