@@ -1533,6 +1533,42 @@ entries:
   thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
   date_added: '2026-06-13'
   source: agent
+- id: anifusion-ba45ec
+  title: Anifusion
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://anifusion.ai/
+  year: 2024
+  tags:
+  - layout
+  - manga
+  - panel
+  - storyboard
+  summary: A comprehensive AI manga and comic creation studio featuring built-in panel layout presets, flexible grids, and text-to-manga generation tools.
+  summary_ja: 組み込みのコマ割りレイアウトプリセット、柔軟なグリッド、およびテキストからマンガを生成するツールを備えた、包括的なAIマンガ・コミック制作スタジオ。
+  thumbnail: assets/thumbnails/anifusion-ba45ec.png
+  date_added: '2026-07-11'
+  source: agent
+- id: dashtoon-studio-baaeb6
+  title: Dashtoon Studio
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://dashtoon.com/
+  year: 2024
+  tags:
+  - comic
+  - layout
+  - panel
+  - storyboard
+  summary: An AI-powered comic and manga creation platform that allows creators to convert stories into multi-panel layouts, maintain character consistency, and customize panel compositions.
+  summary_ja: ストーリーをマルチパネルのレイアウトに変換し、キャラクターの一貫性を維持しながら、コマ割りの構成をカスタマイズできるAI搭載のコミック・マンガ制作プラットフォーム。
+  thumbnail: assets/thumbnails/dashtoon-studio-baaeb6.png
+  date_added: '2026-07-11'
+  source: agent
 - id: boords-1465cb
   title: Boords
   area: manga
@@ -1568,6 +1604,23 @@ entries:
   summary_ja: テキストプロンプトやスクリプトから、コマ割り、インキング、スクリーントーンの陰影処理を自動化するAI搭載のコミック・漫画制作プラットフォーム。
   thumbnail: assets/thumbnails/comistitch-004caa.png
   date_added: '2026-06-27'
+  source: agent
+- id: screentone-eternal-4e3e76
+  title: ScreenTone Eternal
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://screentoneeternal.com/
+  year: 2024
+  tags:
+  - color-separation
+  - halftone
+  - screentone
+  summary: A procedural, deterministic color separation and halftone engine designed for screen printing, DTF, and digital manga production.
+  summary_ja: スクリーン印刷、DTF、およびデジタルマンガ制作向けに設計された、プロシージャルかつ決定論的な色分解およびハーフトーン生成エンジン。
+  thumbnail: assets/thumbnails/screentone-eternal-4e3e76.png
+  date_added: '2026-07-11'
   source: agent
 - id: medibang-paint-6b70b1
   title: MediBang Paint
@@ -1781,6 +1834,24 @@ entries:
   thumbnail: assets/thumbnails/arcweave-16766f.png
   date_added: '2026-06-27'
   source: agent
+- id: rpggo-661074
+  title: RPGGO
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://www.rpggo.ai/
+  year: 2024
+  tags:
+  - narrative-generation
+  - no-code
+  - npc
+  - rpg-maker
+  summary: RPGGO is an AI-powered, no-code platform for creating and playing text-based RPGs, leveraging a generative game engine to produce dynamic narratives, intelligent NPCs with memory, and real-time visuals.
+  summary_ja: RPGGOは、テキストベースのRPGを作成・プレイするためのAI搭載ノーコードプラットフォームであり、生成型ゲームエンジンを活用して、動的なナラティブ、メモリを持つインテリジェントなNPC、リアルタイムのビジュアルを生成します。
+  thumbnail: assets/thumbnails/rpggo-661074.png
+  date_added: '2026-07-11'
+  source: agent
 - id: articy-draft-x-729bbe
   title: articy:draft X
   area: text-design
@@ -1798,6 +1869,24 @@ entries:
   summary_ja: インタラクティブなストーリーの執筆、会話ツリーの管理、クエストの計画を行うためのプロフェッショナル向けナラティブデザインおよびデータベースツール。ソフトウェア内で直接AIによるセリフ（barks）や会話を生成できるAI拡張機能を備える。
   thumbnail: assets/thumbnails/articy-draft-x-729bbe.png
   date_added: '2026-06-13'
+  source: agent
+- id: novelai-8b8b4d
+  title: NovelAI
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://novelai.net/
+  year: 2021
+  tags:
+  - commercial
+  - lorebook
+  - novel-generation
+  - storytelling
+  summary: NovelAI is a popular commercial AI-assisted storytelling and image generation platform that provides advanced natural language processing models for creative writing, lorebook management, and interactive narrative generation.
+  summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
+  thumbnail: assets/thumbnails/novelai-8b8b4d.png
+  date_added: '2026-07-11'
   source: agent
 - id: gladecore-043d8d
   title: GladeCore

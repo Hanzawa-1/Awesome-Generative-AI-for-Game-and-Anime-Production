@@ -15771,6 +15771,25 @@ entries:
   source: agent
   arxiv_id: '2412.11815'
   repo: tencentarc/colorflow
+- id: adeleine-automatic-line-art-colorization-with-hints-87f5f4
+  title: 'Adeleine: Automatic Line Art Colorization with Hints'
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/SerialLain3170/adeleine
+  year: 2023
+  tags:
+  - colorization
+  - deep-learning
+  - lineart
+  - manga-colorization
+  summary: Adeleine is an open-source tool for automatic and semi-automatic line art colorization. It supports colorizing black-and-white drawings with or without user-provided color hints, leveraging deep learning models to streamline the illustration workflow.
+  summary_ja: Adeleineは、自動および半自動の線画着色のためのオープンソースツールです。ユーザーが提供するカラーヒントの有無にかかわらず、白黒のドローイングを着色することをサポートし、ディープラーニングモデルを活用してイラスト制作のワークフローを効率化します。
+  thumbnail: assets/thumbnails/adeleine-automatic-line-art-colorization-with-hints-87f5f4.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: seriallain3170/adeleine
 - id: inkn-hue-enhancing-manga-colorization-from-multiple-priors-w-012674
   title: 'inkn''hue: Enhancing Manga Colorization from Multiple Priors with Alignment Multi-Encoder VAE'
   area: manga
@@ -15838,6 +15857,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2107.07943'
+- id: tag2pix-line-art-colorization-using-text-tag-with-secat-and-fa8e4e
+  title: 'Tag2Pix: Line Art Colorization Using Text Tag With SECat and Changing Loss'
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1908.05840
+    github: https://github.com/blandocs/Tag2Pix
+    paper: https://arxiv.org/pdf/1908.05840
+  authors:
+  - Hyunsu Kim
+  - Ho Young Jhoo
+  - Eunhyeok Park
+  - Sungjoo Yoo
+  year: 2019
+  tags:
+  - colorization
+  - gan
+  - lineart
+  - manga-colorization
+  summary: Tag2Pix is a generative adversarial network (GAN) framework for line art colorization that takes a grayscale line art and text tags as input to produce high-quality colored illustrations. It utilizes a semantic extraction network and a custom generator with SECat (Squeeze-and-Excitation Color Attention) to guide the colorization process based on user-defined tags.
+  summary_ja: Tag2Pixは、グレースケールの線画とテキストタグを入力として受け取り、高品質なカラーイラストを生成する敵対的生成ネットワーク（GAN）フレームワークです。セマンティック抽出ネットワークと、SECat（Squeeze-and-Excitation Color Attention）を備えたカスタムジェネレータを活用し、ユーザーが定義したタグに基づいて着色プロセスを制御します。
+  thumbnail: assets/thumbnails/tag2pix-line-art-colorization-using-text-tag-with-secat-and-fa8e4e.png
+  date_added: '2026-07-11'
+  source: agent
+  arxiv_id: '1908.05840'
+  repo: blandocs/tag2pix
 - id: comicolorization-semi-automatic-manga-colorization-2b8ef1
   title: 'Comicolorization: Semi-Automatic Manga Colorization'
   area: manga
@@ -16342,6 +16388,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hgmzhn/manga-translator-ui
+- id: mangatranslator-e6bc7c
+  title: MangaTranslator
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/meangrinch/MangaTranslator
+  year: 2024
+  tags:
+  - flux
+  - sam2
+  - translation
+  - yolo
+  summary: A modern Gradio-based web application for manga translation that utilizes YOLO and SAM 2 for speech bubble segmentation, FLUX models for inpainting, and LLMs for OCR and translation.
+  summary_ja: YOLOやSAM 2による吹き出しのセグメンテーション、FLUXモデルによるインペインティング、LLMによるOCRと翻訳を活用する、Gradioベースのモダンなオープンソース漫画翻訳Webアプリケーション。
+  thumbnail: assets/thumbnails/mangatranslator-e6bc7c.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: meangrinch/mangatranslator
 - id: tails-tell-tales-chapter-wide-manga-transcriptions-with-char-8aab75
   title: 'Tails Tell Tales: Chapter-Wide Manga Transcriptions with Character Names'
   area: manga
@@ -16405,6 +16470,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: mayocream/koharu
+- id: momotranslator-a612b8
+  title: MomoTranslator
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/alicewish/MomoTranslator
+  year: 2023
+  tags:
+  - chatgpt
+  - ocr
+  - opencv
+  - translation
+  summary: A computer-aided comic translation tool primarily based on OpenCV that detects panels and speech bubbles, sorts them, and integrates with translation APIs like Google and ChatGPT.
+  summary_ja: 主にOpenCVをベースとし、コマや吹き出しの検出、それらのソート、GoogleやChatGPTなどの翻訳APIとの連携を行う、コンピュータ支援型の漫画翻訳ツール。
+  thumbnail: assets/thumbnails/momotranslator-a612b8.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: alicewish/momotranslator
 - id: ballonstranslator-b7bc37
   title: BallonsTranslator
   area: manga
@@ -17088,6 +17172,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: msxie92/screenstyle
+- id: screentone-generator-d912fa
+  title: Screentone Generator
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/sensai7/screentone-generator
+    website: https://sensai7.github.io/screentone-generator/
+  year: 2020
+  tags:
+  - generator
+  - manga
+  - screentone
+  summary: A web-based tool designed for generating custom screentone patterns for manga drawing, illustration, and digital retouching.
+  summary_ja: マンガの作画やイラスト、デジタルレタッチ向けにカスタムスクリーントーンパターンを生成するために設計されたWebベースのツール。
+  thumbnail: assets/thumbnails/screentone-generator-d912fa.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: sensai7/screentone-generator
 - id: screentone-remover-5b7747
   title: Screentone-Remover
   area: manga
@@ -17108,6 +17211,24 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: natethegreate/screentone-remover
+- id: halftone-converter-eb91ce
+  title: Halftone Converter
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/curegit/halftone-converter
+  year: 2019
+  tags:
+  - halftone
+  - image-processing
+  - screentone
+  summary: An open-source image converter that creates high-quality halftone images in Gray, RGB, and CMYK color spaces using the Cairo graphics library.
+  summary_ja: Cairoグラフィックスライブラリを使用して、Gray、RGB、CMYK色空間の高品質なハーフトーン画像を生成するオープンソースの画像変換ツール。
+  thumbnail: assets/thumbnails/halftone-converter-eb91ce.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: curegit/halftone-converter
 - id: synthesis-of-screentone-patterns-of-manga-characters-ebd132
   title: Synthesis of Screentone Patterns of Manga Characters
   area: manga
@@ -17253,6 +17374,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: dominostars/playtranslate
+- id: sakurallm-c85335
+  title: SakuraLLM
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/SakuraLLM/SakuraLLM
+  authors:
+  - SakuraLLM Team
+  year: 2023
+  tags:
+  - galgame
+  - japanese-to-chinese
+  - llm
+  - translation
+  summary: An open-source large language model specifically fine-tuned using SFT and RLHF for high-quality Japanese-to-Chinese translation of light novels and Galgames (visual novels).
+  summary_ja: ライトノベルや美少女ゲーム（Galgame）の日中翻訳に特化し、SFTおよびRLHFを用いて微調整されたオープンソースの高品質な大規模言語モデル。
+  thumbnail: assets/thumbnails/sakurallm-c85335.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: sakurallm/sakurallm
 - id: seamlessm4t-cc3882
   title: SeamlessM4T
   area: text-design
@@ -17443,6 +17585,48 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: libretranslate/libretranslate
+- id: kuriimu2-6ca405
+  title: Kuriimu2
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/FanTranslatorsInternational/Kuriimu2
+  authors:
+  - FanTranslatorsInternational
+  year: 2018
+  tags:
+  - game-translation
+  - modding
+  - rom-hacking
+  - toolkit
+  summary: A general-purpose game translation project manager and toolkit designed for fan translators, ROM hackers, and game modders to inspect, extract, edit, and rebuild game resources.
+  summary_ja: ファン翻訳者やROMハッカー、ゲームモッダー向けに設計された、ゲームリソースの検査、抽出、編集、再構築を行うための汎用ゲーム翻訳プロジェクト管理・ツールキット。
+  thumbnail: assets/thumbnails/kuriimu2-6ca405.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: fantranslatorsinternational/kuriimu2
+- id: xunity-autotranslator-3133af
+  title: XUnity.AutoTranslator
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/bbepis/XUnity.AutoTranslator
+  authors:
+  - bbepis
+  year: 2018
+  tags:
+  - autotranslate
+  - real-time
+  - translation
+  - unity
+  summary: A highly popular open-source tool that hooks into Unity-based games to provide real-time, on-the-fly text translation using various online and offline translation APIs.
+  summary_ja: Unity製ゲームにフックし、様々なオンライン・オフライン翻訳APIを利用してゲーム内テキストをリアルタイムに自動翻訳する非常に人気の高いオープンソースツール。
+  thumbnail: assets/thumbnails/xunity-autotranslator-3133af.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: bbepis/xunity.autotranslator
 - id: mozilla-pontoon-242901
   title: Mozilla Pontoon
   area: text-design
@@ -17683,6 +17867,25 @@ entries:
   source: seed
   arxiv_id: '2310.06825'
   repo: mistralai/mistral-src
+- id: agent-worlds-471d0c
+  title: Agent-Worlds
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/israriqbal/agent-ecologies
+  year: 2026
+  tags:
+  - agent
+  - dialogue
+  - mcp
+  - npc
+  summary: An open-source multi-agent operating system designed for LLM-powered NPCs that exist autonomously in a persistent 2D environment, orchestrating interactions between multiple models using the Model Context Protocol.
+  summary_ja: Model Context Protocol（MCP）を使用して複数のモデル間の相互作用を調整し、永続的な2D環境で自律的に存在するLLM搭載NPC向けに設計された、オープンソースのマルチエージェントオペレーティングシステム。
+  thumbnail: assets/thumbnails/agent-worlds-471d0c.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: israriqbal/agent-ecologies
 - id: environment-aware-npc-dialogue-ad4285
   title: Environment-Aware NPC Dialogue
   area: text-design
@@ -17898,6 +18101,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: undreamai/llmunity
+- id: soulx-65408d
+  title: SoulX
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/SentiVerse-AI/soulx
+  year: 2024
+  tags:
+  - bittensor
+  - dialogue
+  - llm
+  - npc
+  summary: An open-source, role-conditioned, and memory-aware language model and protocol designed to generate in-character NPC dialogues and actions in dynamic game worlds, operating as a decentralized Bittensor subnet.
+  summary_ja: 分散型のBittensorサブネットとして動作し、動的なゲーム世界において、役割に応じた記憶対応のNPC対話やアクションを生成するために設計された、オープンソースの言語モデルおよびプロトコル。
+  thumbnail: assets/thumbnails/soulx-65408d.png
+  date_added: '2026-07-11'
+  source: agent
+  repo: sentiverse-ai/soulx
 - id: unrealgenaisupport-122fc9
   title: UnrealGenAISupport
   area: text-design
