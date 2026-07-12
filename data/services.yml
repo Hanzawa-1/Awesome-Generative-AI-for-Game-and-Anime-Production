@@ -1994,6 +1994,24 @@ entries:
   thumbnail: assets/thumbnails/viggle-ai-9d62ae.png
   date_added: '2026-06-14'
   source: agent
+- id: boris-fx-mocha-pro-6d0cc4
+  title: Boris FX Mocha Pro
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://borisfx.com/products/mocha-pro/
+  year: 2025
+  tags:
+  - matte-refine
+  - planar-tracking
+  - rotoscoping
+  - vfx
+  summary: Mocha Pro is an industry-standard planar tracking and rotoscoping software that features advanced AI-powered masking tools, including Matte Refine ML, Object Brush, and Matte Assist. It is widely used in professional VFX and post-production studios to generate clean mattes and track organic surfaces.
+  summary_ja: Mocha Proは、Matte Refine ML、Object Brush、Matte Assistなどの高度なAI搭載マスキングツールを備えた、業界標準の平面トラッキングおよびロトスコープソフトウェアです。プロのVFXやポストプロダクションスタジオで、クリーンなマットの生成や有機的な表面の追跡に広く使用されています。
+  thumbnail: assets/thumbnails/boris-fx-mocha-pro-6d0cc4.png
+  date_added: '2026-07-12'
+  source: agent
 - id: mocha-pro-4b4000
   title: Mocha Pro
   area: video
@@ -2118,6 +2136,23 @@ entries:
   thumbnail: assets/thumbnails/minimax-ai-video-generator-2fce03.png
   date_added: '2026-06-14'
   source: agent
+- id: runway-gen-3-alpha-e4a2f9
+  title: Runway Gen-3 Alpha
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://runwayml.com/
+  year: 2024
+  tags:
+  - commercial
+  - text-to-video
+  - video-generation
+  summary: A state-of-the-art commercial video generation model developed by RunwayML, offering high-fidelity, temporally consistent video synthesis with advanced camera controls and motion brush features.
+  summary_ja: RunwayMLが開発した最先端の商用動画生成モデル。高度なカメラコントロールやモーションブラシ機能を備え、極めて高い忠実度と時間的一貫性を持つ動画を合成できます。
+  thumbnail: assets/thumbnails/runway-gen-3-alpha-e4a2f9.png
+  date_added: '2026-07-12'
+  source: agent
 - id: vidu-50486a
   title: Vidu
   area: video
@@ -2200,4 +2235,21 @@ entries:
   summary_ja: スムーズなモーショントラッキングにより、既存の映像をアニメ、クレイアニメ、ピクサー風などの芸術的なスタイルに変換できる商用のAIビデオスタイル転送プラットフォーム。
   thumbnail: assets/thumbnails/goenhance-ai-f90ac6.png
   date_added: '2026-06-14'
+  source: agent
+- id: domoai-73ed2b
+  title: DomoAI
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://www.domoai.app/
+  year: 2023
+  tags:
+  - commercial
+  - style-transfer
+  - video-to-anime
+  summary: A commercial AI animation platform and creative studio specializing in high-quality video-to-video style transfer. It allows users to convert real-world footage into anime, 3D cartoon, and various artistic styles while keeping the original motion intact.
+  summary_ja: 高品質なビデオ間スタイル転送に特化した商用のAIアニメーションプラットフォーム。元の動きを維持したまま、実写映像をアニメ、3Dカートゥーン、その他様々な芸術的スタイルに変換できます。
+  thumbnail: assets/thumbnails/domoai-73ed2b.png
+  date_added: '2026-07-12'
   source: agent
