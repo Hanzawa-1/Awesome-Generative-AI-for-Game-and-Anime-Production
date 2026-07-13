@@ -88,6 +88,42 @@ entries:
   thumbnail: assets/thumbnails/plask-fcd31c.png
   date_added: '2026-06-22'
   source: agent
+- id: rokoko-studio-2b0932
+  title: Rokoko Studio
+  area: animation
+  task: motion-retargeting
+  kind: proprietary
+  links:
+    website: https://www.rokoko.com/
+  year: 2020
+  tags:
+  - blender-plugin
+  - commercial
+  - mocap
+  - retargeting
+  summary: A popular commercial motion capture and retargeting software suite that allows creators to record, visualize, and retarget full-body, facial, and finger animations to custom 3D characters with real-time integration for Blender, Maya, and Unreal Engine.
+  summary_ja: クリエイターが全身、顔、指のアニメーションを記録、視覚化し、カスタム3Dキャラクターにリターゲティングできる人気の商用モーションキャプチャおよびリターゲティングソフトウェア。Blender、Maya、Unreal Engineとのリアルタイム連携に対応する。
+  thumbnail: assets/thumbnails/rokoko-studio-2b0932.png
+  date_added: '2026-07-13'
+  source: agent
+- id: reallusion-iclone-a6ba5f
+  title: Reallusion iClone
+  area: animation
+  task: motion-retargeting
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/iclone/
+  year: 2005
+  tags:
+  - animation
+  - character-creation
+  - commercial
+  - retargeting
+  summary: A professional real-time 3D animation and character creation software that features advanced motion retargeting, motion editing, and live motion capture integration for game development and film production.
+  summary_ja: ゲーム開発や映画制作向けの高度なモーションリターゲティング、モーション編集、ライブモーションキャプチャ連携機能を備えた、プロフェッショナルなリアルタイム3Dアニメーションおよびキャラクター作成ソフトウェア。
+  thumbnail: assets/thumbnails/reallusion-iclone-a6ba5f.png
+  date_added: '2026-07-13'
+  source: agent
 - id: cascadeur-b525d1
   title: Cascadeur
   area: animation
@@ -104,6 +140,41 @@ entries:
   thumbnail: assets/thumbnails/cascadeur-b525d1.png
   date_added: '2026-06-13'
   source: seed
+- id: naturalmotion-euphoria-ca6c50
+  title: NaturalMotion Euphoria
+  area: animation
+  task: procedural-animation
+  kind: proprietary
+  links:
+    website: https://en.wikipedia.org/wiki/Euphoria_(software)
+  year: 2006
+  tags:
+  - middleware
+  - physics
+  - procedural-animation
+  summary: A legendary game animation middleware based on Dynamic Motion Synthesis (DMS) that simulates 3D character biomechanics and physics in real-time.
+  summary_ja: 3Dキャラクターのバイオメカニクスと物理挙動をリアルタイムでシミュレートする、Dynamic Motion Synthesis（DMS）に基づいた伝説的なゲームアニメーションミドルウェア。
+  thumbnail: assets/thumbnails/naturalmotion-euphoria-ca6c50.png
+  date_added: '2026-07-13'
+  source: agent
+- id: saymotion-3d9fad
+  title: SayMotion
+  area: animation
+  task: text-to-motion
+  kind: proprietary
+  links:
+    website: https://www.deepmotion.com/saymotion
+  year: 2024
+  tags:
+  - motion-generation
+  - online-tool
+  - proprietary
+  - text-to-motion
+  summary: A web-based generative AI platform by DeepMotion that transforms text prompts into high-fidelity 3D character animations, supporting exports to FBX, GLB, and BVH formats.
+  summary_ja: テキストプロンプトを高品質な3Dキャラクターアニメーションに変換する、DeepMotionによるWebベースの生成AIプラットフォーム。FBX、GLB、BVH形式でのエクスポートに対応しています。
+  thumbnail: assets/thumbnails/saymotion-3d9fad.png
+  date_added: '2026-07-13'
+  source: agent
 - id: unity-muse-animate-daf4b5
   title: Unity Muse Animate
   area: animation
