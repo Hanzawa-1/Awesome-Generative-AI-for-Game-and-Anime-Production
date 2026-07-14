@@ -448,6 +448,23 @@ entries:
   thumbnail: assets/thumbnails/cevio-ai-55b690.png
   date_added: '2026-06-13'
   source: agent
+- id: neutrino-098a3c
+  title: NEUTRINO
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://studio-neutrino.com/
+  year: 2020
+  tags:
+  - freeware
+  - neural-network
+  - neutrino
+  summary: A freeware neural network-based singing voice synthesizer that generates highly natural singing voices from MusicXML score files. It is widely used in the anime and indie music scenes in Japan, featuring popular voice libraries like Tohoku Kiritan.
+  summary_ja: MusicXML形式の楽譜ファイルから極めて自然な歌声を生成する、ニューラルネットワークベースのフリーウェア歌声合成エンジン。東北きりたんなどの人気音声ライブラリを擁し、アニメやインディーズ音楽制作で広く利用されています。
+  thumbnail: assets/thumbnails/neutrino-098a3c.png
+  date_added: '2026-07-14'
+  source: agent
 - id: vocaloid-ecff3c
   title: VOCALOID
   area: audio
@@ -565,6 +582,42 @@ entries:
   thumbnail: assets/thumbnails/lovo-ai-457041.png
   date_added: '2026-06-13'
   source: agent
+- id: accurig-e7075e
+  title: AccuRIG
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://actorcore.reallusion.com/auto-rig/accurig
+  year: 2022
+  tags:
+  - auto-rigging
+  - character
+  - reallusion
+  - retargeting
+  summary: A free, user-friendly auto-rigging and motion retargeting tool by Reallusion designed to quickly generate skeletal structures and skin weights for 3D characters.
+  summary_ja: Reallusionによる無料かつユーザーフレンドリーな自動リギングおよびモーションリターゲットツールであり、3Dキャラクターの骨格構造とスキンウェイトを迅速に生成するように設計されています。
+  thumbnail: assets/thumbnails/accurig-e7075e.png
+  date_added: '2026-07-14'
+  source: agent
+- id: auto-rig-pro-6cdda0
+  title: Auto-Rig Pro
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://artell.gumroad.com/l/autorigpro
+  year: 2019
+  tags:
+  - blender-addon
+  - retargeting
+  - rigging
+  - skinning
+  summary: An advanced automatic rigging and skinning addon for Blender that simplifies character setup, retargets animations, and provides optimized FBX/GLTF exports for game engines.
+  summary_ja: Blender用の高度な自動リギングおよびスキニングアドオンであり、キャラクターのセットアップを簡素化し、アニメーションをリターゲットし、ゲームエンジン向けに最適化されたFBX/GLTFエクスポートを提供します。
+  thumbnail: assets/thumbnails/auto-rig-pro-6cdda0.png
+  date_added: '2026-07-14'
+  source: agent
 - id: mixamo-9a4b49
   title: Mixamo
   area: characters
@@ -598,6 +651,23 @@ entries:
   summary_ja: 1枚の自撮り写真から、リアルで完全にリギングされたカスタマイズ可能なゲーム向け3Dアバターを生成するAI搭載アバター作成ツール。
   thumbnail: assets/thumbnails/avaturn-d2c667.png
   date_added: '2026-06-23'
+  source: agent
+- id: meshcapade-4680ff
+  title: Meshcapade
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://meshcapade.com/
+  year: 2020
+  tags:
+  - 3d-avatar
+  - avatar
+  - smpl
+  summary: An AI-powered platform that generates realistic 3D human avatars and motion capture data from photos, videos, or 3D scans using the SMPL body model.
+  summary_ja: SMPLボディモデルを使用し、写真、動画、または3Dスキャンからリアルな3D人間アバターとモーションキャプチャデータを生成するAI搭載プラットフォーム。
+  thumbnail: assets/thumbnails/meshcapade-4680ff.png
+  date_added: '2026-07-14'
   source: agent
 - id: metahuman-creator-4597b5
   title: MetaHuman Creator
