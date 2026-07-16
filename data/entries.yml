@@ -10060,6 +10060,64 @@ entries:
   source: seed
   arxiv_id: '2510.21682'
   repo: world-grow/worldgrow
+- id: 3d-scenedreamer-8488d2
+  title: 3D-SceneDreamer
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.09439
+    github: https://github.com/franklinz233/3D_Scene_Generation
+  authors:
+  - Frank Zhang
+  - Yibo Zhang
+  - Quan Zheng
+  - Rui Ma
+  - Wei Hua
+  - Hujun Bao
+  - Weiwei Xu
+  - Changqing Zou
+  year: 2024
+  tags:
+  - consistency
+  - scene-generation
+  - text-to-3d
+  summary: A text-driven 3D-consistent scene generation framework that addresses error accumulation in geometry and appearance by leveraging generative models to create consistent 3D environments.
+  summary_ja: 生成モデルを活用して一貫した3D環境を作成することにより、幾何学と外観の誤差累積を解消する、テキスト駆動型の3D一貫シーン生成フレームワーク。
+  thumbnail: assets/thumbnails/3d-scenedreamer-8488d2.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2403.09439'
+  repo: franklinz233/3d_scene_generation
+- id: director3d-e03e0e
+  title: Director3D
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.17601
+    github: https://github.com/imlixinyang/Director3D
+  authors:
+  - Xinyang Li
+  - Zhangyu Lai
+  - Linning Xu
+  - Yansong Qu
+  - Liujuan Cao
+  - Shengchuan Zhang
+  - Bo Dai
+  - Rongrong Ji
+  year: 2024
+  tags:
+  - gaussian-splatting
+  - scene-generation
+  - text-to-3d
+  summary: A text-to-3D generation framework designed for real-world datasets, generating both realistic 3D scenes using 3D Gaussian Splatting and camera trajectories from text prompts.
+  summary_ja: テキストプロンプトからリアルな3Dシーン（3D Gaussian Splattingを使用）とカメラ軌道の両方を生成する、実世界のデータセット向けに設計されたテキストto 3D生成フレームワーク。
+  thumbnail: assets/thumbnails/director3d-e03e0e.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2406.17601'
+  repo: imlixinyang/director3d
 - id: midi-275798
   title: MIDI
   area: gen-3d
@@ -10119,6 +10177,55 @@ entries:
   source: agent
   arxiv_id: '2410.09049'
   repo: orangesodahub/scenecraft
+- id: sceneteller-e89b09
+  title: SceneTeller
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.20727
+    github: https://github.com/sceneteller/SceneTeller
+  authors:
+  - Başak Melis Öcal
+  - Maxim Tatarchenko
+  - Sezer Karaoglu
+  - Theo Gevers
+  year: 2024
+  tags:
+  - indoor-scene
+  - room-design
+  - text-to-3d
+  summary: A text-based 3D room design framework that generates high-quality indoor 3D scenes from natural language descriptions, facilitating interactive room planning and environment design.
+  summary_ja: 自然言語の記述から高品質な屋内3Dシーンを生成し、インタラクティブな部屋のプランニングや環境デザインを容易にする、テキストベースの3Dルームデザインフレームワーク。
+  thumbnail: assets/thumbnails/sceneteller-e89b09.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2407.20727'
+  repo: sceneteller/sceneteller
+- id: scenedreamer-baedcf
+  title: SceneDreamer
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2302.01330
+    github: https://github.com/FrozenBurning/SceneDreamer
+  authors:
+  - Zhaoxi Chen
+  - Guangcong Wang
+  - Ziwei Liu
+  year: 2023
+  tags:
+  - generative-model
+  - landscape-generation
+  - unbounded-scene
+  summary: An unconditional generative model for unbounded 3D scenes that synthesizes large-scale 3D landscapes from random noise, trained solely on in-the-wild 2D image collections without 3D annotations.
+  summary_ja: 3Dアノテーションなしの野生の2D画像コレクションのみから学習し、ランダムノイズから大規模な3D景観を合成する、境界のない3Dシーン向けの無条件生成モデル。
+  thumbnail: assets/thumbnails/scenedreamer-baedcf.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2302.01330'
+  repo: frozenburning/scenedreamer
 - id: 360anything-geometry-free-lifting-of-images-and-videos-to-36-427bd4
   title: '360Anything: Geometry-Free Lifting of Images and Videos to 360°'
   area: gen-3d
@@ -10363,6 +10470,53 @@ entries:
   source: agent
   arxiv_id: '2307.03177'
   repo: panodiffusion/panodiffusion
+- id: mesa-851bc2
+  title: MESA
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.07210
+  authors:
+  - Paul Borne--Pons
+  - Mikolaj Czerkawski
+  - Rosalie Martin
+  - Romain Rouffet
+  year: 2025
+  tags:
+  - diffusion
+  - terrain
+  - text-to-terrain
+  summary: A text-driven terrain generation model trained on global remote sensing data (Copernicus), enabling high-quality terrain heightmap synthesis from natural language descriptions.
+  summary_ja: 全球リモートセンシングデータ（Copernicus）で訓練されたテキスト駆動型の地形生成モデルで、自然言語の説明から高品質な地形ハイトマップを合成可能です。
+  thumbnail: assets/thumbnails/mesa-851bc2.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2504.07210'
+- id: terrafusion-fbaa8d
+  title: TerraFusion
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.04050
+  authors:
+  - Kazuki Higo
+  - Toshiki Kanai
+  - Yuki Endo
+  - Yoshihiro Kanamori
+  year: 2025
+  tags:
+  - diffusion
+  - heightmap
+  - terrain
+  - texture
+  summary: A latent diffusion model framework that jointly generates terrain heightmaps and textures, capturing the inherent correlation between terrain geometry and surface color.
+  summary_ja: 地形のジオメトリと表面色の相関関係を捉え、地形のハイトマップとテクスチャを共同で生成する潜在拡散モデル（LDM）フレームワーク。
+  thumbnail: assets/thumbnails/terrafusion-fbaa8d.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2505.04050'
 - id: terrain-diffusion-25f090
   title: Terrain Diffusion
   area: gen-3d
@@ -10465,6 +10619,37 @@ entries:
   source: agent
   arxiv_id: '2309.00610'
   repo: hzxie/citydreamer
+- id: infinigen-aef0c8
+  title: Infinigen
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.09310
+    github: https://github.com/princeton-vl/infinigen
+    project: https://infinigen.org/
+  authors:
+  - Alexander Raistrick
+  - Lahav Lipson
+  - Zeyu Ma
+  - Lingjie Mei
+  - Mingzhe Wang
+  - Yiming Zuo
+  - Karhan Kayan
+  - Hongyu Wen
+  year: 2023
+  tags:
+  - blender
+  - procedural
+  - terrain
+  - world
+  summary: A procedural generator of photorealistic 3D scenes of the natural world, generating everything from scratch via randomized mathematical rules. It offers broad coverage of plants, animals, terrains, and natural phenomena.
+  summary_ja: ランダム化された数学的ルールを介して、すべての3Dアセットやテクスチャをゼロから生成する、フォトリアルな自然界の3Dシーン用手続き型（プロシージャル）ジェネレーター。植物、動物、地形、自然現象などを幅広くカバーします。
+  thumbnail: assets/thumbnails/infinigen-aef0c8.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2306.09310'
+  repo: princeton-vl/infinigen
 - id: terrain3d-0e90c3
   title: Terrain3D
   area: gen-3d
@@ -10653,6 +10838,36 @@ entries:
   source: agent
   arxiv_id: '2406.00093'
   repo: sunzey/bootstrap3d
+- id: dreamcraft3d-303aad
+  title: DreamCraft3D++
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.12928
+    github: https://github.com/MrTornado24/DreamCraft3D_Plus
+    paper: https://arxiv.org/pdf/2410.12928
+  authors:
+  - Jingxiang Sun
+  - Cheng Peng
+  - Ruizhi Shao
+  - Yuan-Chen Guo
+  - Xiaochen Zhao
+  - Yangguang Li
+  - Yanpei Cao
+  - Bo Zhang
+  year: 2024
+  tags:
+  - 3d-generation
+  - diffusion
+  - text-to-3d
+  summary: An advanced hierarchical 3D asset generation framework that extends DreamCraft3D by replacing the slow geometry optimization stage with a feed-forward multi-plane reconstruction model, accelerating generation speed by 1000x while maintaining high-fidelity geometry and texture details.
+  summary_ja: 従来のDreamCraft3Dを拡張し、時間のかかる形状最適化ステージをフィードフォワード型のマルチプレーン再構成モデルに置き換えることで、生成速度を1000倍に高速化しつつ、高精度な形状とテクスチャ詳細を維持する高度な階層的3Dアセット生成フレームワーク。
+  thumbnail: assets/thumbnails/dreamcraft3d-303aad.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2410.12928'
+  repo: mrtornado24/dreamcraft3d_plus
 - id: luciddreamer-interval-score-matching-358c45
   title: LucidDreamer (Interval Score Matching)
   area: gen-3d
@@ -10738,6 +10953,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2211.10440'
+- id: videoneumat-06efb2
+  title: VideoNeuMat
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.07272
+    github: https://github.com/bowenxueai/VideoNeuMat
+  authors:
+  - Bowen Xue
+  - Saeed Hadadan
+  - Zheng Zeng
+  - Fabrice Rousselle
+  - Zahra Montazeri
+  - Milos Hasan
+  year: 2026
+  tags:
+  - material
+  - pbr
+  - texture
+  - video-diffusion
+  summary: A two-stage pipeline that extracts reusable neural material assets from video diffusion models by fine-tuning a video model and performing inverse rendering.
+  summary_ja: ビデオ生成モデルを微調整し、逆レンダリングを行うことで、ビデオ拡散モデルから再利用可能なニューラルマテリアルアセットを抽出する2段階のパイプライン。
+  thumbnail: assets/thumbnails/videoneumat-06efb2.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2602.07272'
+  repo: bowenxueai/videoneumat
 - id: chord-ubisoft-la-forge-e1bbad
   title: Chord (Ubisoft La Forge)
   area: gen-3d
@@ -10757,6 +11000,32 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ubisoft/ubisoft-laforge-chord
+- id: mate-e720c7
+  title: MatE
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.18312
+    github: https://github.com/TIPTOEHIGHERZ/MaterialExtraction
+  authors:
+  - Zeyu Zhang
+  - Wei Zhai
+  - Jian Yang
+  - Yang Cao
+  year: 2025
+  tags:
+  - material
+  - pbr
+  - svbrdf
+  - texture
+  summary: A method for high-fidelity PBR material extraction from a single image under unconstrained real-world conditions, utilizing geometric priors to perform rectification and reduce distortion.
+  summary_ja: 幾何学的プライアを利用して歪みを補正・軽減し、制約のない現実世界の単一画像から高精度なPBRマテリアルを抽出する手法。
+  thumbnail: assets/thumbnails/mate-e720c7.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2512.18312'
+  repo: tiptoehigherz/materialextraction
 - id: material-anything-8a3e79
   title: Material Anything
   area: gen-3d
@@ -10794,6 +11063,31 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: zebinhe/materialmvp
+- id: matspray-3ed59a
+  title: MatSpray
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.18314
+    github: https://github.com/cgtuebingen/MatSpray
+  authors:
+  - Philipp Langsteiner
+  - Jan-Niklas Dihlmann
+  - Hendrik P. A. Lensch
+  year: 2025
+  tags:
+  - gaussian-splatting
+  - material
+  - pbr
+  - texture
+  summary: A framework that fuses 2D material world knowledge from diffusion models into 3D Gaussian Splatting geometry to reconstruct relightable assets with spatially varying PBR parameters.
+  summary_ja: 拡散モデルからの2Dマテリアル知識を3D Gaussian Splattingの幾何構造に融合させ、空間的に変化するPBRパラメータを持つ再ライティング可能なアセットを再構成するフレームワーク。
+  thumbnail: assets/thumbnails/matspray-3ed59a.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2512.18314'
+  repo: cgtuebingen/matspray
 - id: natex-native-texture-generation-dd1fd1
   title: 'NaTex: Native Texture Generation'
   area: gen-3d
@@ -10959,6 +11253,36 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: liu-yuxin/syncmvd
+- id: texgaussian-8b3265
+  title: TexGaussian
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.19654
+    github: https://github.com/ymxbj/TexGaussian
+  authors:
+  - Bojun Xiong
+  - Jialun Liu
+  - Jiakui Hu
+  - Chenming Wu
+  - Jinbo Wu
+  - Xing Liu
+  - Chen Zhao
+  - Errui Ding
+  year: 2024
+  tags:
+  - gaussian-splatting
+  - material
+  - pbr
+  - texture
+  summary: A novel method that uses octant-aligned 3D Gaussian Splatting for rapid, high-quality Physically Based Rendering (PBR) material generation from text or image inputs.
+  summary_ja: テキストや画像入力から、高品質な物理ベースレンダリング（PBR）マテリアルを高速に生成するために、オクタント整列された3D Gaussian Splattingを使用する新しい手法。
+  thumbnail: assets/thumbnails/texgaussian-8b3265.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2411.19654'
+  repo: ymxbj/texgaussian
 - id: texgen-5d308f
   title: TEXGen
   area: gen-3d
@@ -11027,6 +11351,30 @@ entries:
   source: agent
   arxiv_id: '2606.10050'
   repo: 01c-amara/neuraluvatlas
+- id: dreamuv-flow-matching-24c5bc
+  title: DreamUV (Flow Matching)
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.22445
+    paper: https://arxiv.org/pdf/2606.22445.pdf
+  authors:
+  - Quanyuan Ruan
+  - Jiabao Lei
+  - Xingyi Du
+  - Xifeng Gao
+  year: 2026
+  tags:
+  - flow-matching
+  - generative
+  - uv-unwrap
+  summary: A generative flow matching framework for UV unwrapping that produces artist-like UV layouts with straightened seams, axis-aligned islands, and flexible interior deformation.
+  summary_ja: 直線化されたシーム、軸に整列したアイランド、柔軟な内部変形など、プロのアーティストが作成したようなUVレイアウトを生成する、フローマッチングを用いたエンドツーエンドのUV展開フレームワーク。
+  thumbnail: assets/thumbnails/dreamuv-flow-matching-24c5bc.png
+  date_added: '2026-07-16'
+  source: agent
+  arxiv_id: '2606.22445'
 - id: open3dstudio-786cdd
   title: Open3DStudio
   area: gen-3d
@@ -11092,6 +11440,42 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ericwang12/partuv
+- id: autoremesher-5ccddd
+  title: AutoRemesher
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/huxingyi/autoremesher
+  year: 2020
+  tags:
+  - quad
+  - remeshing
+  - retopology
+  summary: An open-source automatic quad remeshing tool that converts 3D scans or sculpts into clean, low-poly, all-quad geometry.
+  summary_ja: 3Dスキャンやスカルプトモデルをクリーンでローポリゴンなオールクワッド（四角ポリゴン）幾何構造に変換する、オープンソースの自動クワッドリメッシュツール。
+  thumbnail: assets/thumbnails/autoremesher-5ccddd.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: huxingyi/autoremesher
+- id: quadriflow-264012
+  title: QuadriFlow
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/hjwdzh/QuadriFlow
+  year: 2018
+  tags:
+  - quad
+  - remeshing
+  - retopology
+  summary: A scalable and robust method for quadrangulation that efficiently produces quadrilateral surface meshes with fewer singularities based on instant field-aligned meshes.
+  summary_ja: インスタントフィールドアライメントメッシュに基づき、特異点の少ない四角形サーフェスメッシュを効率的に生成する、スケーラブルで堅牢な自動クワッドリメッシュ手法。
+  thumbnail: assets/thumbnails/quadriflow-264012.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: hjwdzh/quadriflow
 - id: instant-meshes-0afe69
   title: Instant Meshes
   area: gen-3d
@@ -11293,6 +11677,25 @@ entries:
   source: agent
   arxiv_id: '2207.05378'
   repo: megvii-research/ijcai2023-conr
+- id: godot-anime-sdf-shader-kit-52a640
+  title: Godot Anime SDF Shader Kit
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/albanogiovanni/godot-anime-sdf-shader
+  year: 2026
+  tags:
+  - cel-shading
+  - godot
+  - sdf
+  - toon-shader
+  summary: An advanced procedural anime cel shader kit for Godot 4 featuring an SDF-based face shader with dynamic symmetry, stable world-space lighting, and dynamic Z-depth outlines.
+  summary_ja: Godot 4向けに設計された高度なプロシージャルアニメセルシェーダーキット。動的対称性を備えたSDFベースの顔シェーダー、安定したワールド空間ライティング、および動的なZ深度アウトラインを特徴としています。
+  thumbnail: assets/thumbnails/godot-anime-sdf-shader-kit-52a640.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: albanogiovanni/godot-anime-sdf-shader
 - id: workflow-aware-structured-layer-decomposition-for-illustrati-a620fe
   title: Workflow-Aware Structured Layer Decomposition for Illustration Production
   area: image-2d
@@ -11362,6 +11765,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: jasonma0012/mooatoon
+- id: urp-toon-shader-740624
+  title: URP Toon Shader
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/ChiliMilk/URP_Toon
+  year: 2024
+  tags:
+  - cel-shading
+  - toon-shader
+  - unity
+  - urp
+  summary: A high-quality toon shader for Unity's Universal Render Pipeline (URP) that supports double shading, ramp map shadows, and precomputed SDF face shadow masks for Genshin Impact-style character rendering.
+  summary_ja: UnityのUniversal Render Pipeline (URP)向けに設計された高品質なトゥーンシェーダー。2段階のシャドウ、ランプマップ、および原神スタイルのキャラクター表現を可能にする事前計算されたSDF顔陰マスクに対応しています。
+  thumbnail: assets/thumbnails/urp-toon-shader-740624.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: chilimilk/urp_toon
 - id: genshincelshaderurp-07b391
   title: GenshinCelShaderURP
   area: image-2d
@@ -11381,6 +11803,25 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: gaolingx/genshincelshaderurp
+- id: mtoon-9c0de1
+  title: MToon
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/Santarh/MToon
+  year: 2023
+  tags:
+  - cel-shading
+  - toon-shader
+  - unity
+  - vrm
+  summary: The standard toon shader for the VRM avatar format in Unity, supporting global illumination, outline rendering, and highly optimized stylized shading for VTubers and anime characters.
+  summary_ja: UnityにおけるVRMアバターフォーマットの標準トゥーンシェーダー。グローバルイルミネーション、アウトライン描画、およびVTuberやアニメキャラクター向けの高度に最適化されたスタイライズドシェーディングをサポートします。
+  thumbnail: assets/thumbnails/mtoon-9c0de1.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: santarh/mtoon
 - id: unreal-engine-cel-shading-ashtonland-fork-c4fbff
   title: Unreal Engine Cel Shading (Ashtonland Fork)
   area: image-2d
@@ -11419,6 +11860,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: delt06/toon-rp
+- id: unitoon-bd0860
+  title: UniToon
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/yoship1639/UniToon
+  year: 2022
+  tags:
+  - cel-shading
+  - pbr
+  - toon-shader
+  - unity
+  summary: A physically-based toon shader for Unity designed to seamlessly blend toon aesthetics with physically-based rendering (PBR) environments without requiring custom shader keywords.
+  summary_ja: カスタムシェーダーキーワードを必要とせず、トゥーンの美学と物理ベースレンダリング（PBR）環境をシームレスに融合させるために設計された、Unity向けの物理ベーストゥーンシェーダー。
+  thumbnail: assets/thumbnails/unitoon-bd0860.png
+  date_added: '2026-07-16'
+  source: agent
+  repo: yoship1639/unitoon
 - id: celshadingwithfringeshadow-urp-a6b0b4
   title: CelShadingWithFringeShadow_URP
   area: image-2d

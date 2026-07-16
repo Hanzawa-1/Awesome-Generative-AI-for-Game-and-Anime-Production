@@ -993,6 +993,23 @@ entries:
   thumbnail: assets/thumbnails/rizomuv-11f4de.png
   date_added: '2026-06-25'
   source: agent
+- id: simplygon-608b5f
+  title: Simplygon
+  area: gen-3d
+  task: uv-retopology
+  kind: proprietary
+  links:
+    website: https://www.simplygon.com/
+  year: 2006
+  tags:
+  - lod
+  - mesh-optimization
+  - retopology
+  summary: The industry-standard 3D optimization and Level of Detail (LOD) generation software used in AAA game development to automate mesh reduction, material baking, and retopology.
+  summary_ja: AAAゲーム開発でメッシュ削減、マテリアルベイク、リトポロジを自動化するために使用される、業界標準の3D最適化およびLOD（Level of Detail）生成ソフトウェア。
+  thumbnail: assets/thumbnails/simplygon-608b5f.png
+  date_added: '2026-07-16'
+  source: agent
 - id: novelai-image-generation-e5a52e
   title: NovelAI Image Generation
   area: image-2d
@@ -1011,6 +1028,24 @@ entries:
   thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
   date_added: '2026-06-13'
   source: seed
+- id: psoft-pencil-4-d760d5
+  title: PSOFT Pencil+ 4
+  area: image-2d
+  task: cel-shading
+  kind: proprietary
+  links:
+    website: https://www.psoft.co.jp/en/product/pencil/3dsmax/
+  year: 2018
+  tags:
+  - anime-production
+  - cel-shading
+  - contour-line
+  - npr
+  summary: A legendary non-photorealistic rendering plugin widely used in the Japanese anime industry to produce high-quality cel shading, hand-drawn pencil sketches, and precise contour lines within 3ds Max, Maya, Blender, and Unity.
+  summary_ja: 日本のデジタルアニメ業界で広く使用されている伝説的な非実写レンダリングプラグイン。3ds Max、Maya、Blender、Unity内で、高品質なセルシェーディング、手描き風の鉛筆画、および精密な輪郭線を描画します。
+  thumbnail: assets/thumbnails/psoft-pencil-4-d760d5.png
+  date_added: '2026-07-16'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d
