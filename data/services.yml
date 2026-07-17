@@ -1046,6 +1046,42 @@ entries:
   thumbnail: assets/thumbnails/psoft-pencil-4-d760d5.png
   date_added: '2026-07-16'
   source: agent
+- id: newarc-ai-b818bc
+  title: NewArc.ai
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.newarc.ai/
+  year: 2023
+  tags:
+  - fashion
+  - product-design
+  - render
+  - sketch-to-image
+  summary: A commercial AI sketch-to-image generator tailored for fashion, footwear, and product designers to transform rough outlines and drawings into high-fidelity photos and renders.
+  summary_ja: ファッション、フットウェア、プロダクトデザイナー向けに調整された商用のAIスケッチ画像生成ツールで、ラフな輪郭やドローイングを高精度な写真やレンダリング画像に変換します。
+  thumbnail: assets/thumbnails/newarc-ai-b818bc.png
+  date_added: '2026-07-17'
+  source: agent
+- id: vizcom-8271cc
+  title: Vizcom
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://vizcom.com/
+  year: 2023
+  tags:
+  - concept-art
+  - industrial-design
+  - render
+  - sketch-to-image
+  summary: An AI-powered design platform widely used by industrial and concept designers to instantly render hand-drawn or digital sketches into photorealistic 3D-like product visuals.
+  summary_ja: 手書きやデジタルのスケッチを、フォトリアルな3D風のプロダクトビジュアルに即座にレンダリングする、インダストリアルデザイナーやコンセプトアーティストに広く使用されているAIデザインプラットフォーム。
+  thumbnail: assets/thumbnails/vizcom-8271cc.png
+  date_added: '2026-07-17'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d

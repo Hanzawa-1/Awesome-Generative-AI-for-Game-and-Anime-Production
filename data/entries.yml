@@ -12076,6 +12076,91 @@ entries:
   source: agent
   arxiv_id: '2404.09967'
   repo: hl-hanlin/ctrl-adapter
+- id: ctrl-x-controlling-structure-and-appearance-for-text-to-imag-86c7f1
+  title: 'Ctrl-X: Controlling Structure and Appearance for Text-To-Image Generation Without Guidance'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.07540
+    github: https://github.com/genforce/ctrl-x
+    project: https://genforce.github.io/ctrl-x/
+  authors:
+  - Kuan Heng Lin
+  - Sicheng Mo
+  - Ben Klingher
+  - Fangzhou Mu
+  - Bolei Zhou
+  year: 2024
+  tags:
+  - appearance-transfer
+  - controlnet
+  - structure-control
+  - training-free
+  summary: A training-free and guidance-free framework for text-to-image diffusion models that enables precise control over both structure and appearance by designing feed-forward structure control and semantic-aware appearance transfer.
+  summary_ja: 追加の学習やガイダンスを必要とせず、フィードフォワード構造制御とセマンティックを考慮した外観転送を設計することで、テキストから画像への拡散モデルにおいて構造と外観の両方を精密に制御できるフレームワーク。
+  thumbnail: assets/thumbnails/ctrl-x-controlling-structure-and-appearance-for-text-to-imag-86c7f1.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2406.07540'
+  repo: genforce/ctrl-x
+- id: instantid-zero-shot-identity-preserving-generation-in-second-037996
+  title: 'InstantID: Zero-shot Identity-Preserving Generation in Seconds'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.07519
+    github: https://github.com/instantX-research/InstantID
+    project: https://instantid.github.io/
+  authors:
+  - Qixun Wang
+  - Xu Bai
+  - Haofan Wang
+  - Ziyuxuan Zhang
+  - Song Cen
+  - Xu Han
+  year: 2024
+  tags:
+  - controlnet
+  - face-conditioning
+  - identity-preserving
+  - sdxl
+  summary: A tuning-free, identity-preserving generation method that utilizes a specialized ControlNet to condition on facial landmarks and identity features, enabling high-fidelity character generation from a single reference image.
+  summary_ja: 特化型ControlNetを利用して顔のランドマークとアイデンティティ特徴を条件付けることで、単一の参照画像から高精度なキャラクター生成を可能にする、チューニングフリーのアイデンティティ保持生成手法。
+  thumbnail: assets/thumbnails/instantid-zero-shot-identity-preserving-generation-in-second-037996.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2401.07519'
+  repo: instantx-research/instantid
+- id: ominicontrol-minimal-and-universal-control-for-diffusion-tra-e3d2ef
+  title: 'OminiControl: Minimal and Universal Control for Diffusion Transformer'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15098
+    github: https://github.com/Yuanshi9815/OminiControl
+    hf: https://huggingface.co/Yuanshi/OminiControl
+  authors:
+  - Zhenxiong Tan
+  - Songhua Liu
+  - Xingyi Yang
+  - Qiaochu Xue
+  - Xinchao Wang
+  year: 2024
+  tags:
+  - controlnet
+  - dit
+  - flux
+  - parameter-efficient
+  summary: A parameter-efficient and versatile framework that integrates spatially-aligned and subject-driven image conditions into pre-trained Diffusion Transformer (DiT) architectures like FLUX.1.
+  summary_ja: FLUX.1などの事前学習済みDiffusion Transformer（DiT）アーキテクチャに対して、空間的に整合した条件や被写体駆動型の画像条件を最小限のパラメータ追加で統合する汎用的なフレームワーク。
+  thumbnail: assets/thumbnails/ominicontrol-minimal-and-universal-control-for-diffusion-tra-e3d2ef.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2411.15098'
+  repo: yuanshi9815/ominicontrol
 - id: smartcontrol-enhancing-controlnet-for-handling-rough-visual-521de9
   title: 'SmartControl: Enhancing ControlNet for Handling Rough Visual Conditions'
   area: image-2d
@@ -12222,6 +12307,37 @@ entries:
   source: agent
   arxiv_id: '2305.16322'
   repo: shihaozhaozsh/uni-controlnet
+- id: x-adapter-adding-universal-compatibility-of-plugins-for-upgr-743839
+  title: 'X-Adapter: Adding Universal Compatibility of Plugins for Upgraded Diffusion Model'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02238
+    github: https://github.com/showlab/X-Adapter
+    project: https://showlab.github.io/X-Adapter/
+  authors:
+  - Chun-Chieh Chang
+  - Yikai Wang
+  - Yu-Chuan Su
+  - Jiun-Yu Yeh
+  - Yen-Yu Lin
+  - Ning Xu
+  - Sheng-Wei Huang
+  - Min Sun
+  year: 2023
+  tags:
+  - adapter
+  - compatibility
+  - controlnet
+  - sdxl
+  summary: A universal adapter framework that enables pre-trained plug-and-play modules (such as SD 1.5 ControlNets and LoRAs) to work directly with upgraded text-to-image diffusion models like SDXL without retraining.
+  summary_ja: SD 1.5用のControlNetやLoRAなどの事前学習済みプラグインを、再学習することなくSDXLなどのアップグレードされたテキスト画像拡散モデルで直接動作可能にするユニバーサルアダプターフレームワーク。
+  thumbnail: assets/thumbnails/x-adapter-adding-universal-compatibility-of-plugins-for-upgr-743839.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2312.02238'
+  repo: showlab/x-adapter
 - id: moebius-145641
   title: Moebius
   area: image-2d
@@ -12385,6 +12501,88 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: alimama-creative/flux-controlnet-inpainting
+- id: paint-by-inpaint-learning-to-add-image-objects-by-removing-t-b2f2f0
+  title: 'Paint by Inpaint: Learning to Add Image Objects by Removing Them First'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.18212
+    github: https://github.com/RotsteinNoam/Paint-by-Inpaint
+    project: https://rotsteinnoam.github.io/Paint-by-Inpaint/
+  authors:
+  - Noam Rotstein
+  - Amit Wasserman
+  - Ron Mokady
+  - Amit H. Bermano
+  - Daniel Cohen-Or
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - inpainting
+  summary: A mask-free, instruction-following image editing framework that trains a diffusion model to add objects to images by learning to inverse the inpainting process.
+  summary_ja: インペインティングプロセスを逆転させる学習を行うことで、画像にオブジェクトを追加する拡散モデルを訓練する、マスク不要の指示追従型画像編集フレームワーク。
+  thumbnail: assets/thumbnails/paint-by-inpaint-learning-to-add-image-objects-by-removing-t-b2f2f0.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2404.18212'
+  repo: rotsteinnoam/paint-by-inpaint
+- id: strdiffusion-structure-matters-tackling-the-semantic-discrep-fb69d4
+  title: 'StrDiffusion: Structure Matters: Tackling the Semantic Discrepancy in Diffusion-Based Image Inpainting'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.19898
+    github: https://github.com/htyjers/StrDiffusion
+  authors:
+  - Biao Qian
+  - Yao Meng
+  - Hefei Ling
+  - Tengteng Huang
+  - Aimin Liu
+  - Jiafen Xie
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - inpainting
+  summary: A structure-guided diffusion model for image inpainting that reformulates the conventional texture denoising process under the guidance of an auxiliary sparse structure to resolve semantic discrepancies.
+  summary_ja: 構造ガイド付きの画像インペインティング用拡散モデル。補助的なスパース構造のガイダンスの下でデノイジングプロセスを再構成し、セマンティックな不一致を解消します。
+  thumbnail: assets/thumbnails/strdiffusion-structure-matters-tackling-the-semantic-discrep-fb69d4.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2403.19898'
+  repo: htyjers/strdiffusion
+- id: anydoor-zero-shot-object-level-image-customization-690150
+  title: 'AnyDoor: Zero-shot Object-level Image Customization'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.09481
+    github: https://github.com/ali-vilab/AnyDoor
+    project: https://ali-vilab.github.io/AnyDoor-Page/
+  authors:
+  - Xi Chen
+  - Lianghua Huang
+  - Yu Liu
+  - Yujun Shen
+  - Deli Zhao
+  - Hengshuang Zhao
+  year: 2023
+  tags:
+  - diffusion
+  - image-editing
+  - inpainting
+  summary: A diffusion-based image generator designed for zero-shot object-level image customization, allowing users to seamlessly teleport target objects into new scenes at specified locations with desired shapes.
+  summary_ja: ユーザーが指定した位置や形状で、対象のオブジェクトを新しいシーンにシームレスにテレポートさせることができる、ゼロショットのオブジェクトレベル画像カスタマイズ向け拡散モデル。
+  thumbnail: assets/thumbnails/anydoor-zero-shot-object-level-image-customization-690150.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2307.09481'
+  repo: ali-vilab/anydoor
 - id: anytext-0a4f05
   title: AnyText
   area: image-2d
@@ -13319,6 +13517,31 @@ entries:
   source: agent
   arxiv_id: '2410.19424'
   repo: ykdai/basicpbc
+- id: style2paints-1848c5
+  title: Style2Paints
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/style2paints
+    website: https://style2paints.github.io/
+  authors:
+  - Lvmin Zhang
+  - Chengze Li
+  - Tien-Tsin Wong
+  - Yi Ji
+  - Chunping Liu
+  year: 2018
+  tags:
+  - colorization
+  - flat-color
+  - interactive
+  summary: An AI-driven line art colorization tool that splits the colorization process into color planning (drafting) and rendering stages, allowing users to colorize line art with high-quality results and layered outputs.
+  summary_ja: 線画の彩色プロセスをカラープランニング（下書き）とレンダリングの2段階に分割し、高品質な彩色結果とレイヤー化された出力を可能にするAI駆動の線画彩色ツール。
+  thumbnail: assets/thumbnails/style2paints-1848c5.png
+  date_added: '2026-07-17'
+  source: agent
+  repo: lllyasviel/style2paints
 - id: anilines-anime-lineart-extractor-29f61e
   title: AniLines (Anime Lineart Extractor)
   area: image-2d
@@ -13413,6 +13636,25 @@ entries:
   date_added: '2026-06-26'
   source: agent
   arxiv_id: '2502.08642'
+- id: anyline-comfyui-anyline-ae6079
+  title: Anyline (ComfyUI-Anyline)
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/TheMistoAI/ComfyUI-Anyline
+  year: 2024
+  tags:
+  - comfyui
+  - controlnet
+  - lineart
+  - preprocessor
+  summary: A fast, accurate, and highly detailed line detection preprocessor designed for ControlNet and image conditioning. It excels at extracting clean object edges, fine details, and textual content from a wide variety of input images.
+  summary_ja: ControlNetや画像条件付け向けに設計された、高速かつ高精度で詳細な線画抽出プリプロセッサ。多様な入力画像から、オブジェクトの輪郭、微細なディテール、テキストコンテンツをきれいに抽出することに優れています。
+  thumbnail: assets/thumbnails/anyline-comfyui-anyline-ae6079.png
+  date_added: '2026-07-17'
+  source: agent
+  repo: themistoai/comfyui-anyline
 - id: comfyui-img2drawingassistants-386c37
   title: ComfyUI Img2DrawingAssistants
   area: image-2d
@@ -13432,6 +13674,25 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: isi-dev/comfyui-img2drawingassistants
+- id: deep-sketch-vectorization-91f8c4
+  title: Deep Sketch Vectorization
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/Nauhcnay/Deep-Sketch-Vectorization
+  year: 2024
+  tags:
+  - siggraph
+  - sketch
+  - svg
+  - vectorization
+  summary: A sketch vectorization framework that treats the task as a surface extraction problem from an unsigned distance field. It utilizes a two-stage neural network and a dual contouring post-processing algorithm to convert raster sketches into clean vector curves.
+  summary_ja: スケッチのベクトル化を符号なし距離場からの曲面抽出問題として扱うフレームワーク。2段階のニューラルネットワークとデュアルコントゥアリング後処理アルゴリズムを利用して、ラスター形式のスケッチをクリーンなベクター曲線に変換します。
+  thumbnail: assets/thumbnails/deep-sketch-vectorization-91f8c4.png
+  date_added: '2026-07-17'
+  source: agent
+  repo: nauhcnay/deep-sketch-vectorization
 - id: representative-feature-extraction-during-diffusion-process-f-879ef2
   title: Representative Feature Extraction During Diffusion Process for Sketch Extraction with One Example
   area: image-2d
@@ -13485,6 +13746,56 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2403.11263'
+- id: semi-supervised-reference-based-sketch-extraction-0ab242
+  title: Semi-supervised Reference-based Sketch Extraction
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.14026
+    github: https://github.com/Chanuku/Semi_ref2sketch_code
+  authors:
+  - Chang Wook Seo
+  - Amirsaman Ashtari
+  - Junyong Noh
+  year: 2023
+  tags:
+  - contrastive-learning
+  - lineart
+  - sketch
+  - style-transfer
+  summary: A multi-modal sketch extraction framework that imitates the style of a given reference sketch using unpaired data training in a semi-supervised manner. It leverages contrastive learning to align content and style features for personalized line-art generation.
+  summary_ja: 半教師あり学習とペアなしデータ訓練を用いて、与えられた参照スケッチのスタイルを模倣するマルチモーダル線画抽出フレームワーク。対照学習を活用してコンテンツとスタイルの特徴を整合させ、パーソナライズされた線画を生成します。
+  thumbnail: assets/thumbnails/semi-supervised-reference-based-sketch-extraction-0ab242.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2407.14026'
+  repo: chanuku/semi_ref2sketch_code
+- id: informative-drawings-7d9da6
+  title: Informative Drawings
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2203.12691
+    github: https://github.com/carolineec/informative-drawings
+  authors:
+  - Caroline Chan
+  - Fredo Durand
+  - Phillip Isola
+  year: 2022
+  tags:
+  - geometry
+  - lineart
+  - sketch
+  - unpaired
+  summary: An unpaired image-to-image translation method that learns to generate line drawings conveying both the 3D geometry and semantic meaning of input photographs. It produces clean, artistic sketches without requiring paired training data.
+  summary_ja: 入力写真の3次元幾何学と意味的な情報の両方を伝える線画を生成する、ペアデータ不要の画像変換手法。ペアの訓練データを必要とせずに、クリーンで芸術的なスケッチを作成します。
+  thumbnail: assets/thumbnails/informative-drawings-7d9da6.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2203.12691'
+  repo: carolineec/informative-drawings
 - id: anime2sketch-1e0d95
   title: Anime2Sketch
   area: image-2d
@@ -13823,6 +14134,52 @@ entries:
   source: agent
   arxiv_id: '2211.13752'
   repo: ogkalu2/sketch-guided-stable-diffusion
+- id: anystyle-a-single-lora-is-sufficient-for-image-guided-style-34ca71
+  title: 'AnyStyle: A Single LoRA is Sufficient for Image-Guided Style Transfer'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.04677
+    github: https://github.com/Yvan1001/AnyStyle
+  authors:
+  - Yongwen Lai
+  - Chaoqun Wang
+  year: 2026
+  tags:
+  - diffusion
+  - lora
+  - style-transfer
+  summary: A streamlined framework for image-guided style transfer that uses a single style LoRA adapter combined with training-free structural guidance derived from the content image's internal attention layers to achieve a balanced content-style composition.
+  summary_ja: 1つのスタイルLoRAアダプターと、コンテンツ画像の内部アテンション層から得られるトレーニングフリーの構造ガイダンスを組み合わせることで、コンテンツとスタイルのバランスの取れた合成を実現する、画像誘導型スタイル転送の合理化されたフレームワーク。
+  thumbnail: assets/thumbnails/anystyle-a-single-lora-is-sufficient-for-image-guided-style-34ca71.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2607.04677'
+  repo: yvan1001/anystyle
+- id: compressing-image-style-training-into-a-single-model-forward-fcfbb6
+  title: Compressing Image Style Training into a Single Model Forward
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.13809
+    github: https://github.com/Merserk/ComfyUI-i2L
+  authors:
+  - Zhongjie Duan
+  - Yingda Chen
+  year: 2026
+  tags:
+  - diffusion
+  - lora
+  - style-transfer
+  summary: Introduces i2L (image-to-LoRA), a framework that amortizes style LoRA training into a single forward pass of a neural network, enabling instant generation of style LoRA weights from reference images without traditional fine-tuning.
+  summary_ja: 従来のファインチューニングを必要とせず、参照画像からニューラルネットワークの1回のフォワードパスでスタイルLoRAの重みを即座に生成するフレームワーク「i2L (image-to-LoRA)」を提案します。
+  thumbnail: assets/thumbnails/compressing-image-style-training-into-a-single-model-forward-fcfbb6.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2606.13809'
+  repo: merserk/comfyui-i2l
 - id: freestyle-free-control-of-style-content-dual-reference-gener-708833
   title: 'FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining'
   area: image-2d
@@ -13906,6 +14263,33 @@ entries:
   source: agent
   arxiv_id: '2503.10614'
   repo: 000linlin/consislora
+- id: style-composition-within-distinct-lora-modules-for-tradition-a2da8b
+  title: Style Composition within Distinct LoRA modules for Traditional Art
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.11986
+    github: https://github.com/Wonhark/WCCV_Style-Composition-within-Distinct-LoRA-modules-for-Traditional-Art
+  authors:
+  - Jaehyun Lee
+  - Wonhark Park
+  - Wonsik Shin
+  - Hyunho Lee
+  - Hyoung Min Na
+  - Nojun Kwak
+  year: 2025
+  tags:
+  - diffusion
+  - lora
+  - style-transfer
+  summary: Proposes a zero-shot diffusion pipeline that blends multiple artistic styles by performing style composition on predicted noise-clean latents during each timestep of the flow matching denoising process using distinct LoRA modules.
+  summary_ja: フローマッチングのノイズ除去プロセスの各タイムステップにおいて、個別のLoRAモジュールを用いて予測されたノイズ除去潜在変数上でスタイル合成を行うことで、複数の芸術的スタイルを自然にブレンドするゼロショット拡散パイプライン。
+  thumbnail: assets/thumbnails/style-composition-within-distinct-lora-modules-for-tradition-a2da8b.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2507.11986'
+  repo: wonhark/wccv_style-composition-within-distinct-lora-modules-for-traditional-art
 - id: stylessp-sampling-startpoint-enhancement-for-training-free-d-e4dc1f
   title: 'StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer'
   area: image-2d
@@ -14249,6 +14633,86 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: philz1337x/clarity-upscaler
+- id: osediff-one-step-effective-diffusion-network-for-real-world-5a9ddd
+  title: 'OSEDiff: One-Step Effective Diffusion Network for Real-World Image Super-Resolution'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.08177
+    github: https://github.com/cswry/OSEDiff
+  authors:
+  - Rongyuan Wu
+  - Lingchen Sun
+  - Zhengqiang Zhang
+  - Lei Zhang
+  year: 2024
+  tags:
+  - diffusion
+  - neurips
+  - one-step
+  - super-resolution
+  summary: An efficient one-step diffusion network for real-world image super-resolution that reduces inference steps and controls stochasticity to produce high-quality, consistent details.
+  summary_ja: 推論ステップ数を削減し、確率性を制御することで、高品質で一貫した詳細を生成する、実世界画像超解像のための効率的な1ステップ拡散ネットワーク。
+  thumbnail: assets/thumbnails/osediff-one-step-effective-diffusion-network-for-real-world-5a9ddd.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2406.08177'
+  repo: cswry/osediff
+- id: pisa-sr-pixel-level-and-semantic-level-adjustable-super-reso-a445ef
+  title: 'PiSA-SR: Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.03017
+    github: https://github.com/csslc/PiSA-SR
+  authors:
+  - Lingchen Sun
+  - Rongyuan Wu
+  - Zhiyuan Ma
+  - Shuaizheng Liu
+  - Qiaosi Yi
+  - Lei Zhang
+  year: 2024
+  tags:
+  - cvpr
+  - diffusion
+  - lora
+  - super-resolution
+  summary: A diffusion-based super-resolution framework that uses a Dual-LoRA approach to separate and adjust pixel-level fidelity and semantic-level perceptual quality during inference.
+  summary_ja: 推論時にピクセルレベルの忠実度とセマンティックレベルの知覚品質を分離・調整するために、Dual-LoRAアプローチを採用した拡散ベースの超解像フレームワーク。
+  thumbnail: assets/thumbnails/pisa-sr-pixel-level-and-semantic-level-adjustable-super-reso-a445ef.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2412.03017'
+  repo: csslc/pisa-sr
+- id: stablesr-exploiting-diffusion-prior-for-real-world-image-sup-21326e
+  title: 'StableSR: Exploiting Diffusion Prior for Real-World Image Super-Resolution'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.01717
+    github: https://github.com/IceClear/StableSR
+  authors:
+  - Jianyi Wang
+  - Zongsheng Yue
+  - Shuwei Shi
+  - Chen Change Loy
+  year: 2024
+  tags:
+  - diffusion
+  - ijcv
+  - stable-diffusion
+  - super-resolution
+  summary: A generic image super-resolution method that leverages the generative priors of Stable Diffusion to achieve high-fidelity, arbitrary-scale upscaling.
+  summary_ja: Stable Diffusionの生成的な事前知識を活用し、高忠実度かつ任意のスケールでのアップスケーリングを実現する汎用的な画像超解像手法。
+  thumbnail: assets/thumbnails/stablesr-exploiting-diffusion-prior-for-real-world-image-sup-21326e.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2404.01717'
+  repo: iceclear/stablesr
 - id: supir-771d70
   title: SUPIR
   area: image-2d
@@ -14540,6 +15004,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: bilibili/ailab
+- id: swin2sr-swinv2-transformer-for-compressed-image-super-resolu-a61afe
+  title: 'Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2209.11345
+    github: https://github.com/mv-lab/swin2sr
+  authors:
+  - Marcos V. Conde
+  - Ui-Jin Choi
+  - Maxime Burchi
+  - Radu Timofte
+  year: 2022
+  tags:
+  - compression
+  - eccv
+  - super-resolution
+  - transformer
+  summary: An image restoration and super-resolution model based on the SwinV2 Transformer, specifically optimized for compressed images and video game textures.
+  summary_ja: 圧縮画像やゲームテクスチャ向けに最適化された、SwinV2 Transformerに基づく画像復元および超解像モデル。
+  thumbnail: assets/thumbnails/swin2sr-swinv2-transformer-for-compressed-image-super-resolu-a61afe.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2209.11345'
+  repo: mv-lab/swin2sr
 - id: upscayl-6331f2
   title: Upscayl
   area: image-2d
@@ -14800,6 +15290,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuanimage-3.0
+- id: janus-pro-fa3226
+  title: Janus-Pro
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.17811
+    github: https://github.com/deepseek-ai/Janus
+  authors:
+  - Xiaokang Chen
+  - Zhiyu Wu
+  - Xingchao Liu
+  - Zizheng Pan
+  - Wen Liu
+  - Zhenda Xie
+  - Xingkai Yu
+  - Chong Ruan
+  year: 2025
+  tags:
+  - diffusion
+  - multimodal
+  - text-to-image
+  summary: Janus-Pro is an advanced unified multimodal understanding and generation model by DeepSeek. It features an optimized training strategy, expanded training data, and scaled model sizes, achieving state-of-the-art text-to-image instruction-following and generation stability.
+  summary_ja: Janus-Proは、DeepSeekによる高度な統一型マルチモーダル理解・生成モデルです。最適化された学習戦略、拡張された学習データ、およびモデル規模のスケールアップを特徴とし、最先端のテキストから画像への指示追従性と生成の安定性を実現しています。
+  thumbnail: assets/thumbnails/janus-pro-fa3226.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2501.17811'
+  repo: deepseek-ai/janus
 - id: lumina-image-2-0-f287d6
   title: Lumina-Image 2.0
   area: image-2d
@@ -14855,6 +15374,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tongyi-mai/z-image
+- id: emu3-ab3bda
+  title: Emu3
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.18869
+    github: https://github.com/baaivision/Emu3
+  authors:
+  - Xinlong Wang
+  - Xiaosong Zhang
+  - Zhengxiong Luo
+  - Quan Sun
+  - Yufeng Cui
+  - Jinsheng Wang
+  - Fan Zhang
+  - Yueze Wang
+  year: 2024
+  tags:
+  - autoregressive
+  - multimodal
+  - text-to-image
+  summary: Emu3 is a state-of-the-art native multimodal model suite trained solely with next-token prediction. It tokenizes images, text, and videos into a discrete space, demonstrating powerful text-to-image generation and multimodal understanding capabilities.
+  summary_ja: Emu3は、ネクストトークン予測のみで学習された最先端のネイティブマルチモーダルモデル群です。画像、テキスト、動画を離散空間にトークン化し、強力なテキストからの画像生成およびマルチモーダル理解能力を示します。
+  thumbnail: assets/thumbnails/emu3-ab3bda.png
+  date_added: '2026-07-17'
+  source: agent
+  arxiv_id: '2409.18869'
+  repo: baaivision/emu3
 - id: flux-1-dev-schnell-0c1bf5
   title: FLUX.1 [dev] / [schnell]
   area: image-2d
@@ -14935,6 +15483,25 @@ entries:
   source: agent
   arxiv_id: '2410.13848'
   repo: deepseek-ai/janus
+- id: kolors-6b86a3
+  title: Kolors
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    github: https://github.com/Kwai-Kolors/Kolors
+    website: https://huggingface.co/Kwai-Kolors
+  year: 2024
+  tags:
+  - bilingual
+  - diffusion
+  - text-to-image
+  summary: Kolors is a large-scale text-to-image generation model based on latent diffusion, developed by Kuaishou. It excels in visual quality, complex semantic accuracy, and text rendering for both Chinese and English prompts.
+  summary_ja: Kolorsは、快手（Kuaishou）によって開発された潜在拡散モデルに基づく大規模なテキストから画像への生成モデルです。中国語と英語のプロンプトにおいて、視覚的品質、複雑な意味の正確性、およびテキスト描画に優れています。
+  thumbnail: assets/thumbnails/kolors-6b86a3.png
+  date_added: '2026-07-17'
+  source: agent
+  repo: kwai-kolors/kolors
 - id: pixart-sigma-45e09b
   title: PixArt-Sigma
   area: image-2d
