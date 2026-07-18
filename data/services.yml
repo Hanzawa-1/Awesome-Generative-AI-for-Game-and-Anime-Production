@@ -1428,6 +1428,42 @@ entries:
   thumbnail: assets/thumbnails/anicomic-ai-903155.png
   date_added: '2026-06-13'
   source: agent
+- id: anifusion-ba45ec
+  title: Anifusion
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://anifusion.ai/
+  year: 2024
+  tags:
+  - comic
+  - editor
+  - layout
+  - manga
+  summary: An all-in-one AI manga and comic creation studio that provides built-in panel layouts, text-to-manga generation, speech bubble editing, and character consistency tools.
+  summary_ja: 組み込みのコマ割りレイアウト、テキストからの漫画生成、吹き出し編集、キャラクターの一貫性維持ツールを提供する、オールインワンのAI漫画・コミック制作スタジオ。
+  thumbnail: assets/thumbnails/anifusion-ba45ec.png
+  date_added: '2026-07-18'
+  source: agent
+- id: dashtoon-studio-baaeb6
+  title: Dashtoon Studio
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://dashtoon.com/
+  year: 2024
+  tags:
+  - comic
+  - manga
+  - studio
+  - webtoon
+  summary: A commercial AI-powered comic and manga creation platform that enables creators to generate consistent characters, design panel layouts, and publish digital comics.
+  summary_ja: クリエイターが一貫したキャラクターの生成、コマ割りのデザイン、デジタルコミックの出版を行える、商用のAI搭載コミック・漫画制作プラットフォーム。
+  thumbnail: assets/thumbnails/dashtoon-studio-baaeb6.png
+  date_added: '2026-07-18'
+  source: agent
 - id: llamagen-ai-71c2b8
   title: LlamaGen.Ai
   area: manga
@@ -1496,6 +1532,24 @@ entries:
   thumbnail: assets/thumbnails/ismanga-e06967.png
   date_added: '2026-06-27'
   source: agent
+- id: torii-image-translator-bb484c
+  title: Torii Image Translator
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://toriitranslate.com/
+  year: 2023
+  tags:
+  - browser-extension
+  - manga
+  - translation
+  - webtoon
+  summary: A popular commercial browser extension and web tool powered by AI for real-time, on-image translation of manga, manhwa, and webtoons.
+  summary_ja: 漫画、マンファ（韓国漫画）、ウェブトゥーンの画像をリアルタイムで翻訳・置換する、AI搭載の商用ブラウザ拡張機能およびWebツール。
+  thumbnail: assets/thumbnails/torii-image-translator-bb484c.png
+  date_added: '2026-07-18'
+  source: agent
 - id: mantra-engine-9eeba1
   title: Mantra Engine
   area: manga
@@ -1532,6 +1586,24 @@ entries:
   summary_ja: スクリプトやテキストプロンプトからAIを用いて構造化された絵コンテフレームを自動生成し、リアルタイムでの共同編集やエクスポートを可能にする、プロフェッショナル向けのWebベース絵コンテ作成プラットフォーム。
   thumbnail: assets/thumbnails/boords-1465cb.png
   date_added: '2026-06-27'
+  source: agent
+- id: comic-life-d847a2
+  title: Comic Life
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://plasq.com/apps/comiclife/macwin/
+  year: 2013
+  tags:
+  - comic
+  - editor
+  - layout
+  - lettering
+  summary: A popular proprietary software for creating comic layouts, panels, speech bubbles, and lettering from images, widely used by educators and creators.
+  summary_ja: 画像からコミックのレイアウト、コマ、吹き出し、レタリングを作成するための人気のプロプライエタリ・ソフトウェア。教育関係者やクリエイターに広く使用されています。
+  thumbnail: assets/thumbnails/comic-life-d847a2.png
+  date_added: '2026-07-18'
   source: agent
 - id: comistitch-004caa
   title: Comistitch
@@ -1586,6 +1658,24 @@ entries:
   thumbnail: assets/thumbnails/clip-studio-paint-d76627.png
   date_added: '2026-06-13'
   source: agent
+- id: dialogueforge-dc1693
+  title: DialogueForge
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.dialogueforge.app/
+  year: 2024
+  tags:
+  - ai-translation
+  - dubbing
+  - saas
+  - voice-cloning
+  summary: An AI-powered game localization and dubbing platform designed for indie studios to translate, voice, and export game dialogue with character voice preservation and engine-ready exports.
+  summary_ja: インディーゲームスタジオ向けに設計されたAI搭載のゲームローカライズおよびダビングプラットフォーム。キャラクターの声を維持した翻訳、音声生成、ゲームエンジン対応の書き出しを可能にする。
+  thumbnail: assets/thumbnails/dialogueforge-dc1693.png
+  date_added: '2026-07-18'
+  source: agent
 - id: magnaplay-6139fb
   title: MagnaPlay
   area: text-design
@@ -1638,6 +1728,24 @@ entries:
   summary_ja: UnityやUnreal Engineとの連携機能を備え、ゲームやデジタル製品向けに特別に設計された、スプレッドシート形式のコンテンツ管理および継続的ローカライズプラットフォーム。
   thumbnail: assets/thumbnails/gridly-6ed57f.png
   date_added: '2026-06-13'
+  source: agent
+- id: localazy-8362a7
+  title: Localazy
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://localazy.com/
+  year: 2020
+  tags:
+  - ai-translation
+  - game-localization
+  - saas
+  - tms
+  summary: An automated localization platform that simplifies translation for developers and game studios, featuring context-aware AI translation, OTA updates, and collaborative workflows.
+  summary_ja: 開発者やゲームスタジオ向けに翻訳プロセスを簡素化する自動ローカライズプラットフォーム。文脈を考慮したAI翻訳、OTA（Over-The-Air）アップデート、共同ワークフローを特徴とする。
+  thumbnail: assets/thumbnails/localazy-8362a7.png
+  date_added: '2026-07-18'
   source: agent
 - id: localizely-6e6eae
   title: Localizely

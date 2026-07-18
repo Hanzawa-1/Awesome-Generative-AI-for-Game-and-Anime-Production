@@ -15800,6 +15800,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2502.19937'
+- id: colorcomic-8a9ca1
+  title: ColorComic
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/vikast908/ColorComic
+  authors:
+  - vikast908
+  year: 2024
+  tags:
+  - colorization
+  - local
+  - manga
+  - pdf
+  summary: An open-source tool for colorizing black-and-white manga and manhwa PDFs locally using deep learning, supporting both automatic colorization and reference-guided modes with sparse color hints.
+  summary_ja: ディープラーニングを用いて白黒の漫画やマンファのPDFをローカルで自動着色するオープンソースツール。自動着色モードと、少数のカラーヒントを用いた参照画像ガイド付きモードの両方をサポートする。
+  thumbnail: assets/thumbnails/colorcomic-8a9ca1.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: vikast908/colorcomic
 - id: colorflow-737136
   title: ColorFlow
   area: manga
@@ -15830,6 +15851,28 @@ entries:
   source: agent
   arxiv_id: '2412.11815'
   repo: tencentarc/colorflow
+- id: example-based-manga-colorization-c9f352
+  title: Example-Based Manga Colorization
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/linshys/Example_Based_Manga_Colorization---cGAN
+    hf: https://huggingface.co/Keiser41/Example_Based_Manga_Colorization
+  authors:
+  - linshys
+  year: 2023
+  tags:
+  - cgan
+  - colorization
+  - manga
+  - reference-based
+  summary: An exemplar-based manga colorization framework that uses a conditional generative adversarial network (cGAN) to transfer color features from a reference image to a grayscale manga or sketch while preserving structural details.
+  summary_ja: 参照画像からグレースケールの漫画や線画に色特徴を転送し、構造的な詳細を維持しながら着色を行う、条件付き敵対的生成ネットワーク（cGAN）を用いた参照ベースの漫画自動着色フレームワーク。
+  thumbnail: assets/thumbnails/example-based-manga-colorization-c9f352.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: linshys/example_based_manga_colorization---cgan
 - id: inkn-hue-enhancing-manga-colorization-from-multiple-priors-w-012674
   title: 'inkn''hue: Enhancing Manga Colorization from Multiple Priors with Alignment Multi-Encoder VAE'
   area: manga
@@ -15922,6 +15965,25 @@ entries:
   source: agent
   arxiv_id: '1706.06759'
   repo: dwangomediavillage/comicolorization
+- id: ai-comic-generator-5c050b
+  title: AI-Comic-Generator
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/Dapeng960208/AI-Comic-Generator
+  year: 2026
+  tags:
+  - comic
+  - gemini
+  - manga
+  - storyboard
+  summary: An open-source AI-powered manga creation tool that transforms text stories into fully illustrated comics using Google Gemini models, featuring automatic storyboard generation, character consistency checks, and a visual editor.
+  summary_ja: Google Geminiモデルを使用してテキストストーリーを完全なイラスト付きコミックに変換するオープンソースのAI搭載漫画制作ツール。自動絵コンテ生成、キャラクターの一貫性チェック、ビジュアルエディタなどの機能を備える。
+  thumbnail: assets/thumbnails/ai-comic-generator-5c050b.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: dapeng960208/ai-comic-generator
 - id: aicomicbuilder-39ce86
   title: AIComicBuilder
   area: manga
@@ -15991,6 +16053,25 @@ entries:
   source: agent
   arxiv_id: '2604.17195'
   repo: ll3rd/dreamshot-code
+- id: manga-autonoma-a65833
+  title: Manga-Autonoma
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/FURUYAN1234/nano-banana-pro
+  year: 2026
+  tags:
+  - 4-koma
+  - autonomous
+  - gemini
+  - manga
+  summary: An autonomous AI four-panel manga production system that leverages Gemini and OpenAI APIs to automate the entire process from script writing to panel layout and image generation.
+  summary_ja: GeminiおよびOpenAIのAPIを活用し、脚本執筆からコマ割り、画像生成までの全プロセスを自動化する、自律型のAI 4コマ漫画制作システム。
+  thumbnail: assets/thumbnails/manga-autonoma-a65833.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: furuyan1234/nano-banana-pro
 - id: mangaflow-59cfd1
   title: MangaFlow
   area: manga
@@ -16016,6 +16097,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.28173'
+- id: one-kiss-emojis-as-agents-of-genre-flux-in-generative-comics-ae2bb7
+  title: 'One Kiss: Emojis as Agents of Genre Flux in Generative Comics'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.16359
+    paper: https://arxiv.org/pdf/2603.16359
+  authors:
+  - Xiruo Wang
+  - Xinyi Jiang
+  - Ziqi Lyu
+  year: 2026
+  tags:
+  - comic
+  - emoji
+  - manga
+  - panel
+  summary: A co-creative comic generation system that introduces affective steering, allowing users to define structural pacing by sketching panel frames and set atmospheric tone by pairing keywords with emojis.
+  summary_ja: パネルフレームのスケッチによって構造的なペースを定義し、キーワードと絵文字を組み合わせることで雰囲気のトーンを設定する、感情的ステアリングを導入した共同創作型コミック生成システム。
+  thumbnail: assets/thumbnails/one-kiss-emojis-as-agents-of-genre-flux-in-generative-comics-ae2bb7.png
+  date_added: '2026-07-18'
+  source: agent
+  arxiv_id: '2603.16359'
 - id: racig-retrieval-augmented-comic-image-generation-b4df11
   title: 'RaCig: Retrieval Augmented Comic Image Generation'
   area: manga
@@ -16401,6 +16506,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hgmzhn/manga-translator-ui
+- id: mangatranslator-e6bc7c
+  title: MangaTranslator
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/meangrinch/MangaTranslator
+  year: 2024
+  tags:
+  - llm
+  - manga
+  - ocr
+  - translation
+  summary: A modern Gradio-based web application for automating manga translation using YOLO and SAM 2.1/3 for speech bubble detection, FLUX for text inpainting, and LLMs for OCR and translation.
+  summary_ja: YOLOとSAM 2.1/3による吹き出し検出、FLUXによるテキスト消去、LLMによるOCRと翻訳を組み合わせた、Gradioベースのモダンな自動漫画翻訳Webアプリケーション。
+  thumbnail: assets/thumbnails/mangatranslator-e6bc7c.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: meangrinch/mangatranslator
 - id: tails-tell-tales-chapter-wide-manga-transcriptions-with-char-8aab75
   title: 'Tails Tell Tales: Chapter-Wide Manga Transcriptions with Character Names'
   area: manga
@@ -16816,6 +16940,56 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2412.19141'
+- id: mangadiffusion-d5c36e
+  title: MangaDiffusion
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/siyuch-fdu/MangaDiffusion
+    project: https://siyuch-fdu.github.io/MangaDiffusion/
+  authors:
+  - Siyu Chen
+  - Dengjie Li
+  - Zenghao Bao
+  - Yao Zhou
+  - Lingfeng Tan
+  - Yujie Zhong
+  - Zheng Zhao
+  year: 2024
+  tags:
+  - diffusion
+  - generation
+  - layout
+  - manga
+  summary: A layout-controllable diffusion model designed for multi-panel manga generation from plain text, facilitating both intra-panel and inter-panel information interaction.
+  summary_ja: プレーンテキストからマルチパネルのマンガを生成するために設計されたレイアウト制御可能な拡散モデル。パネル内およびパネル間の情報相互作用を促進します。
+  thumbnail: assets/thumbnails/mangadiffusion-d5c36e.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: siyuch-fdu/mangadiffusion
+- id: sp-mangaediter-e04bfa
+  title: SP-MangaEditer
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/new-sankaku/SP-MangaEditer
+    website: https://new-sankaku.github.io/SP-MangaEditer/
+  authors:
+  - new-sankaku
+  year: 2024
+  tags:
+  - editor
+  - layout
+  - manga
+  - webui
+  summary: An open-source client-side web application for creating manga-like illustrations, featuring preset comic panel layouts, custom panel shapes, colors, line widths, and integration with Stable Diffusion WebUI.
+  summary_ja: プリセットのコマ割りレイアウト、カスタムのコマ形状、色、線の太さの調整機能を備え、Stable Diffusion WebUIとの連携もサポートする、マンガ風イラスト作成用のオープンソースのクライアントサイドWebアプリケーション。
+  thumbnail: assets/thumbnails/sp-mangaediter-e04bfa.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: new-sankaku/sp-mangaediter
 - id: the-manga-whisperer-magi-0ea517
   title: The Manga Whisperer (Magi)
   area: manga
@@ -16955,6 +17129,46 @@ entries:
   date_added: '2026-06-27'
   source: agent
   arxiv_id: '2101.11111'
+- id: inference-time-trajectory-optimization-for-manga-image-editi-51ccdb
+  title: Inference-time Trajectory Optimization for Manga Image Editing
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.27790
+    paper: https://arxiv.org/abs/2603.27790
+  authors:
+  - Ryosuke Furuta
+  year: 2026
+  tags:
+  - diffusion
+  - manga-editing
+  - screentone
+  summary: Proposes an inference-time adaptation method that optimizes the generation trajectory of a pretrained diffusion model to perform high-quality manga image editing, including screentone synthesis and mask-free text removal, using only the input image itself.
+  summary_ja: 入力画像のみを用いて事前学習済み拡散モデルの生成軌道を最適化するインファレンス時適応手法を提案し、スクリーントーン合成やマスク不要のテキスト除去などの高品質な漫画画像編集を実現します。
+  thumbnail: assets/thumbnails/inference-time-trajectory-optimization-for-manga-image-editi-51ccdb.png
+  date_added: '2026-07-18'
+  source: agent
+  arxiv_id: '2603.27790'
+- id: screentone-generator-d912fa
+  title: Screentone Generator
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/sensai7/screentone-generator
+    website: https://sensai7.github.io/screentone-generator/
+  year: 2024
+  tags:
+  - generator
+  - halftone
+  - screentone
+  summary: An open-source web-based tool designed for manga artists to procedurally generate customizable screentone and halftone patterns for drawing and retouching.
+  summary_ja: 漫画家が作画やレタッチ用にカスタマイズ可能なスクリーントーンやハーフトーンパターンをプロシージャルに生成できる、オープンソースのウェブベースツール。
+  thumbnail: assets/thumbnails/screentone-generator-d912fa.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: sensai7/screentone-generator
 - id: sketch2manga-0ca23d
   title: Sketch2Manga
   area: manga
@@ -17245,6 +17459,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2402.17733'
+- id: videolingo-aaf796
+  title: VideoLingo
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/Huanshere/VideoLingo
+  year: 2024
+  tags:
+  - dubbing
+  - subtitle
+  - translation
+  - whisper
+  summary: An open-source, fully automated AI video subtitle and translation pipeline that handles Netflix-level subtitle cutting, translation, alignment, and dubbing using Whisper and LLMs.
+  summary_ja: WhisperやLLMを使用して、Netflixレベルの字幕分割、翻訳、アライメント、ダビングを処理する、オープンソースの完全自動化AIビデオ字幕・翻訳パイプライン。
+  thumbnail: assets/thumbnails/videolingo-aaf796.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: huanshere/videolingo
 - id: alma-2ca3df
   title: ALMA
   area: text-design
@@ -17291,6 +17524,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: systran/faster-whisper
+- id: lunatranslator-8188d7
+  title: LunaTranslator
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/HIllya51/LunaTranslator
+  year: 2023
+  tags:
+  - galgame
+  - ocr
+  - translation
+  - visual-novel
+  summary: An open-source visual novel and GalGame translator that supports text hooking, OCR, and various AI translation engines to provide real-time in-game translation.
+  summary_ja: テキストフック、OCR、各種AI翻訳エンジンをサポートし、リアルタイムのゲーム内翻訳を提供するオープンソースのビジュアルノベル・美少女ゲーム向け翻訳ツール。
+  thumbnail: assets/thumbnails/lunatranslator-8188d7.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: hillya51/lunatranslator
 - id: playtranslate-7d7301
   title: PlayTranslate
   area: text-design
@@ -17542,6 +17794,25 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
+- id: doc-story-generation-v2-b9ede3
+  title: DOC Story Generation V2
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/facebookresearch/doc-storygen-v2
+  year: 2026
+  tags:
+  - llm
+  - narrative
+  - planning
+  - storytelling
+  summary: An updated codebase by Meta Research based on the Detailed Outline Control (DOC) framework, modified to work with modern open-source and chat-based large language models for long-form story generation.
+  summary_ja: Detailed Outline Control (DOC) フレームワークに基づき、最新のオープンソースおよびチャットベースの大規模言語モデルで動作するように修正された、Meta Researchによる長編ストーリー生成用の更新コードベース。
+  thumbnail: assets/thumbnails/doc-story-generation-v2-b9ede3.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: facebookresearch/doc-storygen-v2
 - id: from-world-gen-to-quest-line-cbadff
   title: From World-Gen to Quest-Line
   area: text-design
@@ -17569,6 +17840,54 @@ entries:
   source: agent
   arxiv_id: '2604.25482'
   repo: anon-researcher-rpg/dependency-driven-prompt-pipeline
+- id: magnet-character-grounded-multi-agent-story-generation-for-l-2e2c9d
+  title: 'MAGNET: Character-Grounded Multi-Agent Story Generation for Long-Form Narratives'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.00918
+    paper: https://arxiv.org/pdf/2607.00918
+  authors:
+  - Aayush Aluru
+  - Chloe Ho
+  - Muhammad Hammouri
+  - Kerry Luo
+  - Myra Malik
+  - Ryan Lagasse
+  - Arjun Bahuguna
+  - Vasu Sharma
+  year: 2026
+  tags:
+  - llm
+  - multi-agent
+  - narrative
+  - storytelling
+  summary: A multi-agent goal-driven narrative engine for storytelling that generates long-form stories with persona-grounded character agents proposing actions based on a shared world state and evolving story goals.
+  summary_ja: 共有された世界の状態と進化するストーリー目標に基づいて、ペルソナに基づいたキャラクターエージェントが行動を提案し、長編ストーリーを生成するマルチエージェント目標駆動型ナラティブエンジン。
+  thumbnail: assets/thumbnails/magnet-character-grounded-multi-agent-story-generation-for-l-2e2c9d.png
+  date_added: '2026-07-18'
+  source: agent
+  arxiv_id: '2607.00918'
+- id: novelclaw-dae5f0
+  title: NovelClaw
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/iLearn-Lab/NovelClaw
+  year: 2026
+  tags:
+  - multi-agent
+  - narrative
+  - rag
+  - storytelling
+  summary: A dynamic-memory-first collaborative AI framework for long-form story generation, chapter planning, and coherent narrative writing using multi-agent orchestration and RAG.
+  summary_ja: マルチエージェントのオーケストレーションとRAGを使用し、長編ストーリー生成、章の計画、一貫したナラティブ執筆を行うための、ダイナミックメモリ優先の協調型AIフレームワーク。
+  thumbnail: assets/thumbnails/novelclaw-dae5f0.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: ilearn-lab/novelclaw
 - id: all-stories-are-one-story-d63c30
   title: All Stories Are One Story
   area: text-design
@@ -17649,6 +17968,25 @@ entries:
   source: agent
   arxiv_id: '2509.04481'
   repo: rimichen/2025_narrativescene
+- id: questgen-90c48e
+  title: Questgen
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/the-tale/questgen
+  year: 2025
+  tags:
+  - narrative
+  - pcg
+  - procedural-generation
+  - quest
+  summary: A Python library for automatic non-linear quest generation that allows the creation of nested, non-linear quests with events and constraints based on a world description given as predicates.
+  summary_ja: 述語として与えられた世界の説明に基づいて、イベントや制約を持つネストされた非線形クエストを作成できる、自動非線形クエスト生成用のPythonライブラリ。
+  thumbnail: assets/thumbnails/questgen-90c48e.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: the-tale/questgen
 - id: snap-7c13bf
   title: SNAP
   area: text-design
@@ -17742,6 +18080,52 @@ entries:
   source: seed
   arxiv_id: '2310.06825'
   repo: mistralai/mistral-src
+- id: doc-detailed-outline-control-for-long-story-generation-1ee689
+  title: 'DOC: Detailed Outline Control for Long Story Generation'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.10077
+    paper: https://arxiv.org/pdf/2212.10077
+  authors:
+  - Kevin Yang
+  - Dan Klein
+  - Nanyun Peng
+  - Yuandong Tian
+  year: 2022
+  tags:
+  - coherence
+  - narrative
+  - planning
+  - storytelling
+  summary: A framework for improving long-range plot coherence in several-thousand-word stories using a detailed outliner to create hierarchically structured outlines and a detailed controller to enforce them during generation.
+  summary_ja: 階層構造のプロットを作成する詳細アウトライナーと、生成中にそれを強制する詳細コントローラーを使用し、数千語に及ぶストーリーの長期的な一貫性を向上させるフレームワーク。
+  thumbnail: assets/thumbnails/doc-detailed-outline-control-for-long-story-generation-1ee689.png
+  date_added: '2026-07-18'
+  source: agent
+  arxiv_id: '2212.10077'
+- id: agent-ecologies-471d0c
+  title: Agent Ecologies
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/israriqbal/agent-ecologies
+  authors:
+  - israriqbal
+  year: 2026
+  tags:
+  - mcp
+  - multi-agent
+  - npc
+  - simulation
+  summary: A multi-agent operating system designed for LLM-powered non-player characters that exist autonomously in a persistent 2D environment. Built on the Model Context Protocol (MCP), it orchestrates interactions between multiple LLMs to create characters with memory, purpose, and dynamic dialogue.
+  summary_ja: 永続的な2D環境で自律的に存在するLLM搭載のNPC向けに設計されたマルチエージェント・オペレーティングシステム。Model Context Protocol（MCP）に基づいて構築され、複数のLLM間の相互作用を調整し、記憶、目的、動的な対話を持つキャラクターを作成します。
+  thumbnail: assets/thumbnails/agent-ecologies-471d0c.png
+  date_added: '2026-07-18'
+  source: agent
+  repo: israriqbal/agent-ecologies
 - id: environment-aware-npc-dialogue-ad4285
   title: Environment-Aware NPC Dialogue
   area: text-design
@@ -18080,6 +18464,33 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: sillytavern/sillytavern
+- id: knudge-fd45a2
+  title: KNUDGE
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.10618
+    paper: https://arxiv.org/pdf/2212.10618
+  authors:
+  - Nathaniel Weir
+  - Ryan Thomas
+  - Randolph D'Amore
+  - Kellie Hill
+  - Benjamin Van Durme
+  - Harsh Jhamtani
+  year: 2022
+  tags:
+  - benchmark
+  - dataset
+  - dialogue-tree
+  - lore-faithful
+  summary: A benchmark dataset and task (Knowledge Constrained User-NPC Dialogue Generation) constructed from side quest dialogues in Obsidian Entertainment's The Outer Worlds. It evaluates the ability of language models to generate branching dialogue trees that are ontologically faithful to quest specifications and game lore.
+  summary_ja: Obsidian Entertainmentの『The Outer Worlds』のサイドクエストの対話から構築されたベンチマークデータセットおよびタスク（知識制約付きユーザー・NPC対話生成）。クエストの仕様やゲームの伝承（ロア）に対してオントロジー的に忠実な、分岐する対話ツリーを生成する言語モデルの能力を評価します。
+  thumbnail: assets/thumbnails/knudge-fd45a2.png
+  date_added: '2026-07-18'
+  source: agent
+  arxiv_id: '2212.10618'
 - id: agentic-pcg-1e1627
   title: Agentic PCG
   area: text-design
