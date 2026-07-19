@@ -2012,6 +2012,24 @@ entries:
   thumbnail: assets/thumbnails/mocha-pro-4b4000.png
   date_added: '2026-06-13'
   source: agent
+- id: adobe-after-effects-roto-brush-119c8b
+  title: Adobe After Effects Roto Brush
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/aftereffects.html
+  year: 2024
+  tags:
+  - adobe
+  - after-effects
+  - matting
+  - rotoscoping
+  summary: An industry-standard AI-powered rotoscoping tool integrated into Adobe After Effects that automates the separation of foreground subjects from backgrounds using advanced machine learning.
+  summary_ja: Adobe After Effectsに統合された業界標準のAI搭載ロトスコープツールであり、高度な機械学習を用いて前景の被写体と背景の分離を自動化します。
+  thumbnail: assets/thumbnails/adobe-after-effects-roto-brush-119c8b.png
+  date_added: '2026-07-19'
+  source: agent
 - id: beeble-4803d1
   title: Beeble
   area: video
@@ -2047,6 +2065,24 @@ entries:
   summary_ja: 最大8Kの高解像度映像に対応し、ロトスコープ、カメラトラッキング、深度マップ推定、生成的なリタイミングを自動化するエンタープライズ向けのAI搭載VFXツールキット。
   thumbnail: assets/thumbnails/slapshot-ai-78d9df.png
   date_added: '2026-06-13'
+  source: agent
+- id: runway-green-screen-67ddef
+  title: Runway Green Screen
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://runwayml.com/
+  year: 2023
+  tags:
+  - background-removal
+  - rotoscoping
+  - runway
+  - web-tool
+  summary: A professional web-based AI tool for instant video background removal and rotoscoping, allowing creators to isolate subjects with just a few clicks.
+  summary_ja: わずか数クリックで被写体を分離できる、プロフェッショナルなウェブベースのAI動画背景削除・ロトスコープツール。
+  thumbnail: assets/thumbnails/runway-green-screen-67ddef.png
+  date_added: '2026-07-19'
   source: agent
 - id: google-veo-201d84
   title: Google Veo
@@ -2166,6 +2202,24 @@ entries:
   thumbnail: assets/thumbnails/runway-gen-dcf9b5.png
   date_added: '2026-06-13'
   source: seed
+- id: runway-ai-magic-tools-d4fb7e
+  title: Runway AI Magic Tools
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runwayml.com/
+  year: 2023
+  tags:
+  - cloud-based
+  - inpainting
+  - proprietary
+  - video-editing
+  summary: A comprehensive suite of cloud-based generative AI tools for video editing, featuring advanced video inpainting, motion brush, object removal, and style transfer. It is widely adopted in professional film and game production pipelines for rapid visual effects prototyping.
+  summary_ja: 高度なビデオインペインティング、モーションブラシ、オブジェクト除去、スタイル転送などを備えた、クラウドベースの動画編集用生成AIツールスイート。迅速な視覚効果のプロトタイピングのために、プロの映画やゲーム制作パイプラインで広く採用されています。
+  thumbnail: assets/thumbnails/runway-ai-magic-tools-d4fb7e.png
+  date_added: '2026-07-19'
+  source: agent
 - id: descript-2a8e52
   title: Descript
   area: video
@@ -2200,4 +2254,22 @@ entries:
   summary_ja: スムーズなモーショントラッキングにより、既存の映像をアニメ、クレイアニメ、ピクサー風などの芸術的なスタイルに変換できる商用のAIビデオスタイル転送プラットフォーム。
   thumbnail: assets/thumbnails/goenhance-ai-f90ac6.png
   date_added: '2026-06-14'
+  source: agent
+- id: domoai-73ed2b
+  title: DomoAI
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://domoai.app/
+  year: 2023
+  tags:
+  - anime
+  - commercial
+  - video-style-transfer
+  - video-to-video
+  summary: A popular commercial AI video generation and editing platform specializing in high-quality video-to-video style transfer. It allows creators to transform real-world footage into various artistic styles, including Japanese anime, 3D cartoon, and sketch, while maintaining motion continuity and lip-syncing.
+  summary_ja: 高品質なビデオ・ツー・ビデオのスタイル変換に特化した、人気の商用AI動画生成・編集プラットフォーム。実写映像の動きの連続性やリップシンクを維持しながら、日本のアニメ、3Dカートゥーン、スケッチなど、さまざまな芸術的スタイルに変換できます。
+  thumbnail: assets/thumbnails/domoai-73ed2b.png
+  date_added: '2026-07-19'
   source: agent
