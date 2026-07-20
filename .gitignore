@@ -16,6 +16,11 @@ docs/SUMMARY.md
 docs/SUMMARY.ja.md
 docs/javascripts/nav-counts.js
 
+# Generated thumbnails — produced at deploy build time (see deploy.yml), never committed.
+# Only the static placeholder is tracked.
+docs/assets/thumbnails/*
+!docs/assets/thumbnails/placeholder.svg
+
 # Python
 __pycache__/
 *.py[cod]

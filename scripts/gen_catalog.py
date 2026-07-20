@@ -100,8 +100,12 @@ def _link_row(links, loc: str) -> list[str]:
 
 def _thumb(e) -> str:
     """Prefer the entry's thumbnail field; else an on-disk PNG by id; else the placeholder.
-    The on-disk fallback keeps previews working even if a re-seed cleared the thumbnail field."""
-    if e.thumbnail:
+
+    Thumbnails are generated at deploy build time and are NOT committed (see deploy.yml), so we
+    only reference a file that actually exists on disk right now. Otherwise fall back to the
+    placeholder — this keeps ``mkdocs build --strict`` from breaking on a missing image in any
+    build where thumbnails weren't generated (e.g. the sweep's sanity build)."""
+    if e.thumbnail and (DOCS / e.thumbnail).exists():
         return e.thumbnail
     if (DOCS / "assets" / "thumbnails" / f"{e.id}.png").exists():
         return f"assets/thumbnails/{e.id}.png"
