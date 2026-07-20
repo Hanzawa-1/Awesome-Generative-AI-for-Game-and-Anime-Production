@@ -1,10 +1,10 @@
 name: Daily catalog sweep
 
-# Researches one auto-sized slice of the task list each day and commits it to the current
-# ISO-week branch (bot/catalog/<year>-w<week>). The ISO week rolls over Monday 00:00 UTC
-# (= 09:00 JST), so Monday's run opens a fresh weekly PR and Tue-Sun add a daily commit each
-# -> ~7 commits per weekly PR. The per-day task count is derived from the live taxonomy, so
-# it adapts automatically when tasks are added/removed.
+# Researches one auto-sized slice of the task list each day and commits it STRAIGHT TO main.
+# The per-day task count is derived from the live taxonomy, so it adapts automatically when
+# tasks are added/removed. Committing directly to main (instead of accumulating a weekly PR)
+# means every run starts from the latest main and lands immediately, so consecutive runs never
+# diverge or conflict with one another.
 
 on:
   schedule:
@@ -18,13 +18,12 @@ on:
         description: "Agent iterations per task"
         default: "25"
       dry_run:
-        description: "Run the sweep but skip commit/push/PR"
+        description: "Run the sweep but skip commit/push"
         type: boolean
         default: false
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: catalog-sweep
@@ -51,37 +50,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
       - uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
       - name: Install dependencies
         run: uv sync
 
-      - name: Resolve week branch + day index
+      - name: Resolve day index
         id: plan
         run: |
-          BRANCH="bot/catalog/$(date -u +'%G-w%V')"
           DAY="${{ github.event.inputs.day }}"
           if [ -z "$DAY" ]; then DAY=$(( $(date -u +'%u') - 1 )); fi
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
           echo "day=$DAY" >> "$GITHUB_OUTPUT"
-          echo "Week branch: $BRANCH | day index: $DAY"
+          echo "Day index: $DAY"
 
-      - name: Check out this week's branch
+      - name: Configure git identity
         run: |
-          BRANCH="${{ steps.plan.outputs.branch }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
-            git fetch origin "$BRANCH"
-            git checkout -B "$BRANCH" "origin/$BRANCH"   # continue this week's branch
-          else
-            git checkout -B "$BRANCH" origin/main         # first run of the week
-          fi
 
       - name: Run daily sweep
-        run: uv run python scripts/daily_sweep.py --day ${{ steps.plan.outputs.day }} --pr-body pr_body.md
+        # Thumbnails are generated at deploy build time (see deploy.yml), not here — the sweep
+        # only touches the YAML data, keeping the repo free of committed PNGs.
+        run: uv run python scripts/daily_sweep.py --day ${{ steps.plan.outputs.day }} --no-thumbnails --pr-body pr_body.md
 
       - name: Validate + build (sanity)
         run: |
@@ -89,31 +83,28 @@ jobs:
           uv run python scripts/gen_catalog.py
           uv run mkdocs build --strict
 
-      - name: Commit, push + ensure weekly PR
+      - name: Commit + push to main
         if: github.event.inputs.dry_run != 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: commit
         run: |
-          BRANCH="${{ steps.plan.outputs.branch }}"
-          git add data docs/assets/thumbnails
+          git add data
           if git diff --cached --quiet; then
             echo "No new catalog changes this run."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(catalog): sweep $(date -u +'%Y-%m-%d') (day ${{ steps.plan.outputs.day }})"
-            git push origin "$BRANCH"
+            # A human commit could land on main during the ~90-min run; rebase onto it before
+            # pushing so we fast-forward cleanly instead of racing.
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
-          # Open a PR whenever the week branch is ahead of main — not just when THIS run
-          # added something — so a branch from a prior run that failed to open its PR still
-          # gets one. Labels must exist first (gh does not auto-create them).
-          if [ -z "$(git rev-list origin/main..HEAD)" ]; then
-            echo "Branch not ahead of main; no PR needed."
-          elif gh pr view "$BRANCH" >/dev/null 2>&1; then
-            echo "PR already open for $BRANCH."
-          else
-            gh label create automated   --color 1f6feb --description "Opened by the catalog sweep" --force || true
-            gh label create needs-review --color d4c5f9 --description "Awaiting human review"        --force || true
-            gh pr create --base main --head "$BRANCH" \
-              --title "Weekly catalog update — $(date -u +'%G-w%V')" \
-              --body-file pr_body.md \
-              --label automated --label needs-review
-          fi
+
+      - name: Trigger Pages deploy
+        # Pushes made with the default GITHUB_TOKEN do NOT trigger other workflows, so the
+        # deploy-on-push in deploy.yml would never fire for a bot commit. workflow_dispatch is
+        # the documented exception, so kick the deploy explicitly whenever this run pushed.
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
