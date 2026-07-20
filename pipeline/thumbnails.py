@@ -77,6 +77,11 @@ def save_image(data: bytes, out_path: Path, max_edge: int = MAX_EDGE) -> bool:
 def from_arxiv_pdf(arxiv_id: str, out_path: Path) -> bool:
     import fitz  # PyMuPDF; imported lazily so non-thumbnail code paths don't need it
 
+    # Many arXiv PDFs carry Screen/multimedia annotations MuPDF can't build appearance streams
+    # for; it prints "MuPDF error: ..." to stderr per annotation but still renders fine. Silence
+    # that chatter so build logs stay readable (real failures are still caught below).
+    fitz.TOOLS.mupdf_display_errors(False)
+
     r = _http_get(f"https://arxiv.org/pdf/{arxiv_id}")
     if not r:
         return False
