@@ -446,6 +446,35 @@ entries:
   source: agent
   arxiv_id: '2211.12194'
   repo: opentalker/sadtalker
+- id: videoretalking-32fdcd
+  title: VideoReTalking
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2211.14758
+    github: https://github.com/OpenTalker/VideoReTalking
+  authors:
+  - Yong Zhang
+  - Menghan Xia
+  - Fei Yin
+  - Mingrui Zhu
+  - Xuan Wang
+  - Jue Wang
+  - Nannan Wang
+  year: 2022
+  tags:
+  - audio-driven
+  - facial
+  - lip-sync
+  - video-editing
+  summary: A generic system for audio-based talking-head video editing that decouples the process into expression editing, lip-syncing, and face enhancement, producing high-quality results on in-the-wild videos.
+  summary_ja: 表情編集、リップシンク、顔高画質化の3段階にプロセスを分離することで、実世界の動画に対して高品質な音声同期編集を行うシステム。
+  thumbnail: assets/thumbnails/videoretalking-32fdcd.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2211.14758'
+  repo: opentalker/videoretalking
 - id: wav2lip-53a0a1
   title: Wav2Lip
   area: animation
@@ -471,6 +500,34 @@ entries:
   source: agent
   arxiv_id: '2008.10010'
   repo: rudrabha/wav2lip
+- id: mog-vfi-9991a5
+  title: MoG-VFI
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.03699
+    github: https://github.com/MCG-NJU/MoG-VFI
+  authors:
+  - Guozhen Zhang
+  - Yuhan Zhu
+  - Yutao Cui
+  - Xiaotong Zhao
+  - Kai Ma
+  - Limin Wang
+  year: 2025
+  tags:
+  - animation
+  - diffusion
+  - inbetweening
+  - motion-aware
+  summary: A generative video frame interpolation framework that bridges the gap between flow-based motion stability and generative flexibility by integrating explicit motion guidance.
+  summary_ja: フローベースの動きの安定性と生成モデルの柔軟性を融合し、明示的なモーションガイダンスを統合することで高品質な中間フレームを合成するフレーム補間フレームワーク。
+  thumbnail: assets/thumbnails/mog-vfi-9991a5.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2501.03699'
+  repo: mcg-nju/mog-vfi
 - id: momo-c653e4
   title: MoMo
   area: animation
@@ -498,6 +555,36 @@ entries:
   source: agent
   arxiv_id: '2406.17256'
   repo: jhlew/momo
+- id: framer-fd8320
+  title: Framer
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.18978
+    github: https://github.com/aim-uofa/Framer
+  authors:
+  - Wen Wang
+  - Qiuyu Wang
+  - Kecheng Zheng
+  - Hao Ouyang
+  - Zhekai Chen
+  - Biao Gong
+  - Hao Chen
+  - Yujun Shen
+  year: 2024
+  tags:
+  - animation
+  - inbetweening
+  - interactive
+  - keypoint
+  summary: An interactive frame interpolation framework that allows users to customize the transition process between two keyframes by tailoring the trajectories of selected keypoints.
+  summary_ja: ユーザーが選択したキーポイントの軌跡をカスタマイズすることで、2つのキーフレーム間の遷移プロセスを制御できるインタラクティブなフレーム補間フレームワーク。
+  thumbnail: assets/thumbnails/framer-fd8320.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2410.18978'
+  repo: aim-uofa/framer
 - id: generalizable-implicit-motion-modeling-for-video-frame-inter-700f4d
   title: Generalizable Implicit Motion Modeling for Video Frame Interpolation
   area: animation
@@ -684,6 +771,32 @@ entries:
   source: agent
   arxiv_id: '2404.06913'
   repo: mcg-nju/sgm-vfi
+- id: thin-plate-spline-based-interpolation-for-animation-line-inb-e9b79d
+  title: Thin-Plate Spline-based Interpolation for Animation Line Inbetweening
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.09131
+    github: https://github.com/Tian-one/tps-inbetween
+  authors:
+  - Tianyi Zhu
+  - Wei Shang
+  - Dongwei Ren
+  - Wangmeng Zuo
+  year: 2024
+  tags:
+  - animation
+  - inbetweening
+  - lineart
+  - tps
+  summary: A specialized line art inbetweening method that utilizes thin-plate spline-based transformation to model keypoint correspondences and handle large motions and line disconnections in animation line drawings.
+  summary_ja: 薄板スプライン（TPS）変換を利用してキーポイントの対応関係をモデル化し、アニメーション線画における大きな動きや線の途切れを効果的に処理する線画補間（中割り）手法。
+  thumbnail: assets/thumbnails/thin-plate-spline-based-interpolation-for-animation-line-inb-e9b79d.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2408.09131'
+  repo: tian-one/tps-inbetween
 - id: tooncrafter-generative-cartoon-interpolation-6c86db
   title: 'ToonCrafter: Generative Cartoon Interpolation'
   area: animation
@@ -920,6 +1033,84 @@ entries:
   source: agent
   arxiv_id: '2111.12792'
   repo: shuhongchen/eisai-anime-interpolator
+- id: anyact-towards-human-reenactment-of-character-motion-from-vi-2ac9f7
+  title: 'AnyAct: Towards Human Reenactment of Character Motion From Video'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.15497
+    project: https://liuhanchen-github.github.io/AnyAct.github.io/
+  authors:
+  - Liuhan Chen
+  - Lei Zhong
+  - Jiewei Wang
+  - Qin Shuai
+  - Li Yuan
+  - Leidong Fan
+  - Qing Li
+  - Kanglin Liu
+  year: 2026
+  tags:
+  - character-animation
+  - motion-retargeting
+  - video-to-motion
+  summary: A framework that formulates character-video-driven human reenactment as conditional human motion generation from transferable sparse local 2D articulated motion, reinterpreting non-human character motion as plausible human performances.
+  summary_ja: キャラクターのビデオから人間の再現動作を生成するフレームワーク。転送可能な疎なローカル2D関節運動から条件付きの人間モーション生成として定式化し、非人間キャラクターの動きを妥当な人間のパフォーマンスとして再解釈します。
+  thumbnail: assets/thumbnails/anyact-towards-human-reenactment-of-character-motion-from-vi-2ac9f7.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2605.15497'
+- id: reactor-reinforcement-learning-for-physics-aware-motion-reta-807216
+  title: 'ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.06593
+  authors:
+  - David Müller
+  - Agon Serifi
+  - Sammy Christen
+  - Ruben Grandia
+  - Espen Knoop
+  - Moritz Bächer
+  year: 2026
+  tags:
+  - motion-retargeting
+  - physics-based
+  - reinforcement-learning
+  summary: A bilevel optimization framework that jointly adapts reference motions to a target morphology while training a tracking policy using reinforcement learning in a physics simulation to prevent physical inconsistencies like foot sliding and self-collisions.
+  summary_ja: 物理シミュレーション内での強化学習を用いてトラッキングポリシーをトレーニングしながら、参照モーションをターゲットの形態に共同で適応させ、足の滑りや自己衝突などの物理的な不整合を防ぐバイレベル最適化フレームワーク。
+  thumbnail: assets/thumbnails/reactor-reinforcement-learning-for-physics-aware-motion-reta-807216.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2605.06593'
+- id: skinned-motion-retargeting-with-spatially-adaptive-interacti-8d494d
+  title: Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.19355
+  authors:
+  - Soojin Choi
+  - Seokhyeon Hong
+  - Chaelin Kim
+  - Junghyun Nam
+  - Junhyuk Jeon
+  - Junyong Noh
+  year: 2026
+  tags:
+  - geometry-aware
+  - motion-retargeting
+  - skinned-character
+  summary: A geometry-aware motion retargeting framework that transfers motion between skinned characters with varying body shapes by leveraging proximity matching over spatially adaptive anchors to preserve interaction semantics like self-contact.
+  summary_ja: 異なる体型を持つスキンキャラクター間で、自己接触などの相互作用のセマンティクスを維持しながらモーションを転送する、空間適応型アンカー上の近接マッチングを活用したジオメトリ認識型モーションリターゲットフレームワーク。
+  thumbnail: assets/thumbnails/skinned-motion-retargeting-with-spatially-adaptive-interacti-8d494d.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2605.19355'
 - id: soma-unifying-parametric-human-body-models-190a2c
   title: 'SOMA: Unifying Parametric Human Body Models'
   area: animation
@@ -1211,6 +1402,65 @@ entries:
   source: agent
   arxiv_id: '2003.14401'
   repo: inrainbws/transmomo.pytorch
+- id: gpc-large-scale-generative-pretraining-for-transferable-moto-a9702d
+  title: 'GPC: Large-Scale Generative Pretraining for Transferable Motor Control'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.29148
+    project: https://yi-shi94.github.io/gpc-page/
+    paper: https://arxiv.org/abs/2606.29148
+  authors:
+  - Yi Shi
+  - Yifeng Jiang
+  - Chen Tessler
+  - Xue Bin Peng
+  year: 2026
+  tags:
+  - humanoid
+  - physics
+  - pretraining
+  - transformer
+  summary: A framework for pretraining reusable generative controllers on large-scale motion datasets. It tokenizes motor skills into discrete latent codes using Finite Scalar Quantization (FSQ) and trains a transformer-based generative controller via next-token prediction, which can then be efficiently fine-tuned for downstream tasks.
+  summary_ja: 大規模なモーションデータセットで再利用可能な生成コントローラを事前学習するためのフレームワーク。有限スカラー量子化（FSQ）を用いて運動スキルを離散的な潜在コードにトークン化し、次のトークン予測を介してトランスフォーマーベースの生成コントローラを学習させ、下流タスク向けに効率的に微調整できます。
+  thumbnail: assets/thumbnails/gpc-large-scale-generative-pretraining-for-transferable-moto-a9702d.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2606.29148'
+- id: interagent-physics-based-multi-agent-command-execution-via-d-c90036
+  title: 'InterAgent: Physics-based Multi-agent Command Execution via Diffusion on Interaction Graphs'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.07410
+    github: https://github.com/BinLee26/InterAgent
+    project: https://binlee26.github.io/InterAgent-Page/
+    paper: https://arxiv.org/abs/2512.07410
+  authors:
+  - Bin Li
+  - Ruichi Zhang
+  - Han Liang
+  - Jingyan Zhang
+  - Juze Zhang
+  - Xin Chen
+  - Lan Xu
+  - Jingyi Yu
+  - Jingya Wang
+  year: 2026
+  tags:
+  - diffusion
+  - humanoid
+  - multi-agent
+  - physics
+  summary: A text-driven, physics-based dual-humanoid agent control framework that models multi-agent interactions using diffusion on interaction graphs. It enables physically plausible, contact-rich interactions between multiple simulated characters based on textual commands.
+  summary_ja: 相互作用グラフ上の拡散モデルを用いてマルチエージェントの相互作用をモデル化する、テキスト駆動型かつ物理ベースのデュアルヒューマノイド制御フレームワーク。テキストコマンドに基づいて、複数のシミュレーションキャラクター間の物理的に妥当で接触の多い相互作用を可能にします。
+  thumbnail: assets/thumbnails/interagent-physics-based-multi-agent-command-execution-via-d-c90036.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2512.07410'
+  repo: binlee26/interagent
 - id: neural-assistive-impulses-synthesizing-exaggerated-motions-f-98f8ca
   title: 'Neural Assistive Impulses: Synthesizing Exaggerated Motions for Physics-based Characters'
   area: animation
@@ -1259,6 +1509,37 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2603.13228'
+- id: script-scalable-diffusion-policy-with-multi-stage-training-f-d14e5d
+  title: 'SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.22894
+    project: https://zhanglele12138.github.io/SCRIPT/
+    paper: https://arxiv.org/abs/2605.22894
+  authors:
+  - Jingyan Zhang
+  - Han Liang
+  - Ruichi Zhang
+  - Bin Li
+  - Juze Zhang
+  - Xin Chen
+  - Jingya Wang
+  - Lan Xu
+  - Jingyi Yu
+  year: 2026
+  tags:
+  - diffusion
+  - humanoid
+  - physics
+  - transformer
+  summary: A scalable diffusion policy with a multi-stage training framework for language-driven physics-based humanoid control. It features a Joint Action-State-Text Diffusion Transformer (JAST-DiT) that models actions, physical states, and text as dedicated token streams coupled through joint attention.
+  summary_ja: 言語駆動型の物理ベースヒューマノイド制御のための、マルチステージ学習フレームワークを備えたスケーラブルな拡散ポリシー。アクション、物理状態、テキストを専用のトークンストリームとして表現し、共同アテンションを介して結合するJoint Action-State-Text Diffusion Transformer（JAST-DiT）を特徴としています。
+  thumbnail: assets/thumbnails/script-scalable-diffusion-policy-with-multi-stage-training-f-d14e5d.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2605.22894'
 - id: beyondmimic-from-motion-tracking-to-versatile-humanoid-contr-765745
   title: 'BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion'
   area: animation
@@ -1312,6 +1593,38 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2505.12619'
+- id: metamotivo-zero-shot-whole-body-humanoid-control-via-behavio-0c14b6
+  title: 'MetaMotivo: Zero-Shot Whole-Body Humanoid Control via Behavioral Foundation Models'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.11054
+    github: https://github.com/facebookresearch/metamotivo
+    paper: https://arxiv.org/abs/2504.11054
+    website: https://metamotivo.metademolab.com/
+  authors:
+  - Andrea Tirinzoni
+  - Ahmed Touati
+  - Jesse Farebrother
+  - Mateusz Guzek
+  - Anssi Kanervisto
+  - Yingchen Xu
+  - Alessandro Lazaric
+  - Matteo Pirotta
+  year: 2025
+  tags:
+  - foundation-model
+  - humanoid
+  - physics
+  - rl
+  summary: A behavioral foundation model pre-trained with unsupervised reinforcement learning to control the movements of a complex virtual humanoid agent. It can solve unseen tasks such as motion tracking, pose reaching, and reward optimization via zero-shot inference without additional fine-tuning.
+  summary_ja: 複雑な仮想ヒューマノイドエージェントの動きを制御するために、教師なし強化学習で事前学習された行動基盤モデル。追加の微調整を行うことなく、ゼロショット推論を介してモーション追跡、ポーズ到達、報酬最適化などの未見のタスクを解決できます。
+  thumbnail: assets/thumbnails/metamotivo-zero-shot-whole-body-humanoid-control-via-behavio-0c14b6.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2504.11054'
+  repo: facebookresearch/metamotivo
 - id: pixie-physics-from-pixels-42aa69
   title: 'Pixie: Physics from Pixels'
   area: animation
@@ -1499,6 +1812,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: y-zheng18/physavatar
+- id: adaptnet-policy-adaptation-for-physics-based-character-contr-12ce06
+  title: 'AdaptNet: Policy Adaptation for Physics-Based Character Control'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.00239
+    github: https://github.com/xupei0610/AdaptNet
+    project: https://pei-xu.github.io/AdaptNet
+    paper: https://arxiv.org/abs/2310.00239
+  authors:
+  - Pei Xu
+  - Kaixiang Xie
+  - Ioannis Karamouzas
+  - Victor Zordan
+  year: 2023
+  tags:
+  - character-control
+  - physics
+  - policy-adaptation
+  - rl
+  summary: A policy adaptation framework for physics-based character control that modifies the latent space of existing policies to allow new behaviors to be quickly learned from similar tasks instead of training from scratch.
+  summary_ja: 既存のポリシーの潜在空間を修正することで、スクラッチから学習する代わりに、類似のタスクから新しい動作を迅速に学習できるようにする、物理ベースのキャラクター制御用ポリシー適応フレームワーク。
+  thumbnail: assets/thumbnails/adaptnet-policy-adaptation-for-physics-based-character-contr-12ce06.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2310.00239'
+  repo: xupei0610/adaptnet
 - id: c-ase-learning-conditional-adversarial-skill-embeddings-for-c44fae
   title: 'C-ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters'
   area: animation
@@ -1805,6 +2146,26 @@ entries:
   source: agent
   arxiv_id: '2512.13465'
   repo: ryan-w2024/poseanything
+- id: animate-x-9665ab
+  title: Animate-X
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.10306
+    github: https://github.com/antgroup/animate-x
+  year: 2024
+  tags:
+  - character-animation
+  - diffusion
+  - pose-guided
+  summary: A universal character animation framework based on latent diffusion models that generalizes across human, anthropomorphic, and non-human characters by combining explicit and implicit pose indicators.
+  summary_ja: 顕在的および潜在的なポーズ指標を組み合わせることで、人間、擬人化キャラクター、非人間キャラクター全般に一般化可能な、潜在拡散モデルに基づく汎用キャラクターアニメーションフレームワーク。
+  thumbnail: assets/thumbnails/animate-x-9665ab.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2410.10306'
+  repo: antgroup/animate-x
 - id: champ-5c1b50
   title: Champ
   area: animation
@@ -1834,6 +2195,26 @@ entries:
   source: agent
   arxiv_id: '2403.14781'
   repo: fudan-generative-vision/champ
+- id: dispose-3c4808
+  title: DisPose
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.09349
+    github: https://github.com/lihxxx/DisPose
+  year: 2024
+  tags:
+  - diffusion
+  - disentanglement
+  - pose-guided
+  summary: A controllable human image animation method that disentangles sparse skeleton pose guidance into motion field guidance and keypoint correspondence, improving generalization across different body shapes.
+  summary_ja: 疎な骨格ポーズのガイダンスをモーションフィールドのガイダンスとキーポイントの対応関係に解きほぐすことで、異なる体型間での一般化性能を向上させた、制御可能な人物画像アニメーション手法。
+  thumbnail: assets/thumbnails/dispose-3c4808.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2412.09349'
+  repo: lihxxx/dispose
 - id: follow-your-pose-v2-840664
   title: Follow-Your-Pose v2
   area: animation
@@ -1932,6 +2313,26 @@ entries:
   source: agent
   arxiv_id: '2406.01188'
   repo: ali-vilab/unianimate
+- id: vividpose-ccbb4c
+  title: VividPose
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.18156
+    github: https://github.com/Kelu007/VividPose
+  year: 2024
+  tags:
+  - diffusion
+  - pose-guided
+  - svd
+  summary: An end-to-end human image animation framework that leverages the motion-aware prior knowledge of Stable Video Diffusion (SVD) to generate temporally consistent and smooth videos from a single reference image and pose sequence.
+  summary_ja: Stable Video Diffusion（SVD）の動き認識事前知識を活用し、1枚の参照画像とポーズシーケンスから時間的一貫性と滑らかさに優れた動画を生成する、エンドツーエンドの人物画像アニメーションフレームワーク。
+  thumbnail: assets/thumbnails/vividpose-ccbb4c.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2405.18156'
+  repo: kelu007/vividpose
 - id: animate-anyone-9a3cbe
   title: Animate Anyone
   area: animation
@@ -1989,6 +2390,74 @@ entries:
   source: agent
   arxiv_id: '2311.16498'
   repo: magic-research/magic-animate
+- id: moore-animateanyone-d61538
+  title: Moore-AnimateAnyone
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    github: https://github.com/MooreThreads/Moore-AnimateAnyone
+  year: 2023
+  tags:
+  - animate-anyone
+  - diffusion
+  - pose-guided
+  summary: A popular open-source implementation and reproduction of the AnimateAnyone framework for character animation and face reenactment.
+  summary_ja: キャラクターアニメーションおよび顔の表情再現のためのフレームワーク「AnimateAnyone」の、人気のあるオープンソース実装および再現プロジェクト。
+  thumbnail: assets/thumbnails/moore-animateanyone-d61538.png
+  date_added: '2026-07-20'
+  source: agent
+  repo: moorethreads/moore-animateanyone
+- id: devi-d7dc8b
+  title: DeVI
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.20841
+  authors:
+  - Hyeonwoo Kim
+  - Jeonghwan Kim
+  - Kyungwon Cho
+  - Hanbyul Joo
+  year: 2026
+  tags:
+  - interaction
+  - physics
+  - rl
+  - video
+  summary: A framework that leverages 2D synthetic videos from generative models to train physics-based characters to perform complex, dexterous human-object interactions in 3D physical simulations.
+  summary_ja: 生成モデルから得られる2D合成ビデオを活用し、3D物理シミュレーション内で複雑で器用な人間と物体の相互作用を実行する物理ベースのキャラクターを訓練するフレームワーク。
+  thumbnail: assets/thumbnails/devi-d7dc8b.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2604.20841'
+- id: maskadapt-5ad98f
+  title: MaskAdapt
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.29272
+    github: https://github.com/soomean/MaskAdapt
+  authors:
+  - Soomin Park
+  - Eunseong Lee
+  - Kwang Bin Lee
+  - Sung-Hee Lee
+  year: 2026
+  tags:
+  - adaptation
+  - humanoid
+  - physics
+  - rl
+  summary: A two-stage residual learning framework for flexible motion adaptation in physics-based humanoid control, training a mask-invariant base policy to handle missing observations and adapt to diverse environments.
+  summary_ja: 物理ベースの人型キャラクター制御における柔軟なモーション適応のための2段階残差学習フレームワーク。マスク不変のベースポリシーを訓練することで、観測データの欠損に対応し、多様な環境に適応させます。
+  thumbnail: assets/thumbnails/maskadapt-5ad98f.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2603.29272'
+  repo: soomean/maskadapt
 - id: nap-control-bdaa38
   title: NaP-Control
   area: animation
@@ -2013,6 +2482,59 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2605.20209'
+- id: swim-c64a6e
+  title: SWIM
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.31120
+  authors:
+  - Binglun Wang
+  - Edmond S. L. Ho
+  - He Wang
+  year: 2026
+  tags:
+  - fluid
+  - physics
+  - rl
+  - swimming
+  summary: A reinforcement learning-based method for synthesizing physically-based swimming motions, enabling virtual characters to generate physically valid, controllable, and natural-looking swimming behaviors in complex fluid environments.
+  summary_ja: 物理ベースの水泳動作を合成するための強化学習手法。仮想キャラクターが複雑な流体環境において、物理的に妥当で制御可能、かつ自然な水泳動作を生成できるようにします。
+  thumbnail: assets/thumbnails/swim-c64a6e.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2605.31120'
+- id: kungfubot-1987ce
+  title: KungfuBot
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.12851
+    github: https://github.com/TeleHuman/PBHC
+  authors:
+  - Weiji Xie
+  - Jinrui Han
+  - Jiakun Zheng
+  - Huanyu Li
+  - Xinzhe Liu
+  - Jiyuan Shi
+  - Weinan Zhang
+  - Chenjia Bai
+  year: 2025
+  tags:
+  - control
+  - humanoid
+  - physics
+  - rl
+  summary: A physics-based humanoid control framework that enables virtual characters to master highly-dynamic human behaviors, such as Kungfu and dancing, through multi-step motion processing and adaptive motion tracking.
+  summary_ja: 複数ステップのモーション処理と適応型モーショントラッキングを通じて、カンフーやダンスなどの高度にダイナミックな人間の動作を仮想キャラクターに習得させる物理ベースの人型ロボット制御フレームワーク。
+  thumbnail: assets/thumbnails/kungfubot-1987ce.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2506.12851'
+  repo: telehuman/pbhc
 - id: parc-physics-based-augmentation-with-reinforcement-learning-96e253
   title: 'PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers'
   area: animation
@@ -2067,6 +2589,31 @@ entries:
   source: agent
   arxiv_id: '2410.03441'
   repo: guytevet/closd
+- id: f-relise-e73730
+  title: FürElise
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.05791
+  authors:
+  - Ruocheng Wang
+  - Pei Xu
+  - Haochen Shi
+  - Elizabeth Schumann
+  - C. Karen Liu
+  year: 2024
+  tags:
+  - hand
+  - physics
+  - piano
+  - rl
+  summary: A framework and large-scale dataset for physically synthesizing highly dexterous and coordinated hand motions of piano playing using deep reinforcement learning.
+  summary_ja: 深層強化学習を用いて、ピアノ演奏における高度に器用で協調的な手の動きを物理的に合成するためのフレームワークおよび大規模データセット。
+  thumbnail: assets/thumbnails/f-relise-e73730.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2410.05791'
 - id: superpadl-8c2c1c
   title: SuperPADL
   area: animation
@@ -2522,6 +3069,89 @@ entries:
   date_added: '2026-06-22'
   source: agent
   repo: fyyakaxyy/animationgpt
+- id: atom-aligning-text-to-motion-model-at-event-level-with-gpt-4-6ada8b
+  title: 'AToM: Aligning Text-to-Motion Model at Event-Level with GPT-4Vision Reward'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.18654
+  authors:
+  - Haonan Han
+  - Xiangzuo Wu
+  - Huan Liao
+  - Zunnan Xu
+  - Zhongyuan Hu
+  - Ronghui Li
+  - Yachao Zhang
+  - Xiu Li
+  year: 2024
+  tags:
+  - alignment
+  - motion-generation
+  - text-to-motion
+  summary: A framework that enhances the alignment between generated 3D human motion and event-level text prompts by leveraging feedback and rewards from GPT-4Vision.
+  summary_ja: GPT-4Visionからのフィードバックと報酬を活用することで、生成された3D人間の動作とイベントレベルのテキストプロンプトとのアライメントを強化するフレームワーク。
+  thumbnail: assets/thumbnails/atom-aligning-text-to-motion-model-at-event-level-with-gpt-4-6ada8b.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2411.18654'
+- id: parco-part-coordinating-text-to-motion-synthesis-ce3278
+  title: 'ParCo: Part-Coordinating Text-to-Motion Synthesis'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.18512
+    github: https://github.com/qrzou/ParCo
+  authors:
+  - Qiran Zou
+  - Shangyuan Yuan
+  - Shian Du
+  - Yu Wang
+  - Chang Liu
+  - Yi Xu
+  - Jie Chen
+  - Xiangyang Ji
+  year: 2024
+  tags:
+  - motion-generation
+  - part-coordination
+  - text-to-motion
+  summary: A part-coordinating text-to-motion synthesis method that introduces part partition and coordination mechanisms to achieve fine-grained, realistic motion generation.
+  summary_ja: 細粒度でリアルな動作生成を実現するために、部位の分割と協調メカニズムを導入した、部位協調型のテキストからのモーション合成手法。
+  thumbnail: assets/thumbnails/parco-part-coordinating-text-to-motion-synthesis-ce3278.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2403.18512'
+  repo: qrzou/parco
+- id: tesmo-generating-human-interaction-motions-in-scenes-with-te-45235b
+  title: 'TeSMo: Generating Human Interaction Motions in Scenes with Text Control'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.10685
+    github: https://github.com/nv-tlabs/tesmo
+    project: https://xbpeng.github.io/projects/TeSMo/index.html
+  authors:
+  - Hongwei Yi
+  - Justus Thies
+  - Michael J. Black
+  - Xue Bin Peng
+  - Davis Rempe
+  year: 2024
+  tags:
+  - diffusion
+  - motion-generation
+  - text-to-motion
+  summary: A scene-aware text-to-motion generation framework based on denoising diffusion models that incorporates goal-reaching constraints and scene interaction.
+  summary_ja: デノイジング拡散モデルに基づき、目標到達の制約とシーンの相互作用を組み込んだ、シーンを考慮したテキストからのモーション生成フレームワーク。
+  thumbnail: assets/thumbnails/tesmo-generating-human-interaction-motions-in-scenes-with-te-45235b.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2404.10685'
+  repo: nv-tlabs/tesmo
 - id: momask-efdbc2
   title: MoMask
   area: animation
@@ -2678,6 +3308,66 @@ entries:
   source: agent
   arxiv_id: '2606.14841'
   repo: naver/multi-hmr2
+- id: smplest-x-ultimate-scaling-for-expressive-human-pose-and-sha-792afd
+  title: 'SMPLest-X: Ultimate Scaling for Expressive Human Pose and Shape Estimation'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.09782
+    github: https://github.com/MotrixLab/SMPLest-X
+    hf: https://huggingface.co/waanqii/SMPLest-X
+  authors:
+  - Wanqi Yin
+  - Zhongang Cai
+  - Ruisi Wang
+  - Ailing Zeng
+  - Chen Wei
+  - Qingping Sun
+  - Haiyi Mei
+  - Yanjun Wang
+  year: 2025
+  tags:
+  - mocap
+  - pose-estimation
+  - smpl-x
+  summary: An extended and simplified version of SMPLer-X that scales up expressive human pose and shape estimation. It replaces the component guiding module with a minimalist transformer decoder, significantly boosting hand and body pose estimation accuracy.
+  summary_ja: 表現力豊かな人体のポーズおよび形状推定をスケールアップする、SMPLer-Xの拡張・簡略化バージョン。コンポーネント誘導モジュールをミニマルなトランスフォーマーデコーダーに置き換えることで、手や体のポーズ推定精度を大幅に向上させています。
+  thumbnail: assets/thumbnails/smplest-x-ultimate-scaling-for-expressive-human-pose-and-sha-792afd.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2501.09782'
+  repo: motrixlab/smplest-x
+- id: gvhmr-world-grounded-human-motion-recovery-via-gravity-view-60d04e
+  title: 'GVHMR: World-Grounded Human Motion Recovery via Gravity-View Coordinates'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.06662
+    github: https://github.com/zju3dv/GVHMR
+    project: https://zju3dv.github.io/gvhmr/
+  authors:
+  - Zehong Shen
+  - Huaijin Pi
+  - Yan Xia
+  - Zhi Cen
+  - Sida Peng
+  - Zechen Hu
+  - Hujun Bao
+  - Ruizhen Hu
+  year: 2024
+  tags:
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: A world-grounded human motion recovery framework that estimates gravity-aware human poses from monocular video. By defining a novel Gravity-View coordinate system, it leverages gravity priors to avoid accumulated errors and reconstructs stable 3D motion in global coordinates.
+  summary_ja: 単眼ビデオから重力を考慮した人体ポーズを推定する、世界座標系基準の人体運動復元フレームワーク。新しい重力視野（Gravity-View）座標系を定義することで、重力プライアを利用して累積誤差を回避し、グローバル座標における安定した3Dモーションを再構成します。
+  thumbnail: assets/thumbnails/gvhmr-world-grounded-human-motion-recovery-via-gravity-view-60d04e.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2409.06662'
+  repo: zju3dv/gvhmr
 - id: multi-hmr-bd5c0f
   title: Multi-HMR
   area: animation
@@ -2790,6 +3480,32 @@ entries:
   source: agent
   arxiv_id: '2312.05251'
   repo: geopavlakos/hamer
+- id: slahmr-simultaneous-localization-and-human-mesh-recovery-71d9e6
+  title: 'SLAHMR: Simultaneous Localization and Human Mesh Recovery'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2302.12827
+    github: https://github.com/vye16/slahmr
+    project: https://vye16.github.io/slahmr/
+  authors:
+  - Vickie Ye
+  - Georgios Pavlakos
+  - Jitendra Malik
+  - Angjoo Kanazawa
+  year: 2023
+  tags:
+  - mocap
+  - pose-estimation
+  - tracking
+  summary: An optimization-based framework that decouples human and camera motion from monocular videos in the wild. It places multiple moving people and the camera into a unified global coordinate frame, enabling accurate trajectory tracking and motion capture.
+  summary_ja: 野生環境の単眼ビデオから人体とカメラの動きを分離する最適化ベースのフレームワーク。複数の移動する人物とカメラを統一されたグローバル座標系に配置し、正確な軌跡追跡とモーションキャプチャを可能にします。
+  thumbnail: assets/thumbnails/slahmr-simultaneous-localization-and-human-mesh-recovery-71d9e6.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2302.12827'
+  repo: vye16/slahmr
 - id: smpler-x-bdb2b1
   title: SMPLer-X
   area: animation
@@ -2845,6 +3561,32 @@ entries:
   source: agent
   arxiv_id: '2312.07531'
   repo: yohanshin/wham
+- id: cliff-carrying-location-information-in-full-frames-into-huma-0e9316
+  title: 'CLIFF: Carrying Location Information in Full Frames into Human Pose and Shape Estimation'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2208.00571
+    github: https://github.com/haofanwang/CLIFF
+  authors:
+  - Zhihao Li
+  - Jianzhuang Liu
+  - Zhensong Zhang
+  - Songcen Xu
+  - Youliang Yan
+  year: 2022
+  tags:
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: A top-down human pose and shape estimation method that carries full-frame location information into the crop-based network. This global perspective enables highly accurate prediction of global rotation and translation in the original camera coordinate system.
+  summary_ja: クロップベースのネットワークにフルフレームの位置情報を組み込む、トップダウン型の人体ポーズ・形状推定手法。このグローバルな視点により、元のカメラ座標系におけるグローバルな回転と平行移動を極めて正確に予測できます。
+  thumbnail: assets/thumbnails/cliff-carrying-location-information-in-full-frames-into-huma-0e9316.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2208.00571'
+  repo: haofanwang/cliff
 - id: motionbert-01c147
   title: MotionBERT
   area: animation
@@ -2947,6 +3689,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: freemocap/freemocap
+- id: glamr-global-occlusion-aware-human-mesh-recovery-with-dynami-1411ff
+  title: 'GLAMR: Global Occlusion-Aware Human Mesh Recovery with Dynamic Cameras'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2112.01524
+    github: https://github.com/NVlabs/GLAMR
+  authors:
+  - Ye Yuan
+  - Umar Iqbal
+  - Pavlo Molchanov
+  - Kris Kitani
+  - Jan Kautz
+  year: 2021
+  tags:
+  - mocap
+  - occlusion
+  - pose-estimation
+  summary: A global human mesh recovery method designed for monocular videos captured by dynamic cameras. It integrates a deep generative motion infiller to reconstruct continuous human trajectories and poses even during severe or long-term occlusions.
+  summary_ja: 動的なカメラで撮影された単眼ビデオ向けに設計された、グローバルな人体メッシュ復元手法。ディープ生成モーションインフィラーを統合し、深刻な遮蔽や長期の遮蔽が発生している間でも、連続的な人体の軌跡とポーズを再構成します。
+  thumbnail: assets/thumbnails/glamr-global-occlusion-aware-human-mesh-recovery-with-dynami-1411ff.png
+  date_added: '2026-07-20'
+  source: agent
+  arxiv_id: '2112.01524'
+  repo: nvlabs/glamr
 - id: sysmocap-e9b9c4
   title: SysMocap
   area: animation

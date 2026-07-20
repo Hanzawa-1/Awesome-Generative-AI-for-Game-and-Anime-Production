@@ -34,6 +34,24 @@ entries:
   thumbnail: assets/thumbnails/sync-labs-8c71a6.png
   date_added: '2026-06-22'
   source: agent
+- id: heygen-e05467
+  title: HeyGen
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.heygen.com/
+  year: 2020
+  tags:
+  - avatar
+  - commercial
+  - lip-sync
+  - video-generation
+  summary: A leading AI video generation platform that offers advanced lip-sync translation and talking avatar creation, allowing users to synchronize custom audio or scripts with realistic digital avatars.
+  summary_ja: 高度なリップシンク翻訳やトーキングアバター作成機能を提供する、業界大手のAIビデオ生成プラットフォーム。カスタム音声やスクリプトをリアルなデジタルアバターと同期させることができる。
+  thumbnail: assets/thumbnails/heygen-e05467.png
+  date_added: '2026-07-20'
+  source: agent
 - id: d-id-4168a0
   title: D-ID
   area: animation
@@ -51,6 +69,24 @@ entries:
   summary_ja: テキストまたは音声入力から顔画像をトーキングヘッド動画にアニメーション化する、主要な商用プラットフォームおよびAPI。バーチャルプレゼンターやローカライズ向けに、リアルなリップシンク、表情、自然な頭部の動きを生成します。
   thumbnail: assets/thumbnails/d-id-4168a0.png
   date_added: '2026-06-22'
+  source: agent
+- id: squirrel-video-frame-interpolation-svfi-b8d53a
+  title: Squirrel Video Frame Interpolation (SVFI)
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://store.steampowered.com/app/1692080/SVFI/
+  year: 2021
+  tags:
+  - animation
+  - app
+  - inbetweening
+  - rife
+  summary: A popular consumer-grade AI video frame interpolation and enhancement application widely used by anime creators and video editors to convert low-FPS footage into high-framerate videos using models like RIFE and GMFSS.
+  summary_ja: RIFEやGMFSSなどのAIモデルを利用して、低フレームレートの動画や連番画像を滑らかな高フレームレート動画に変換する、アニメ制作者や動画編集者に広く使われているビデオフレーム補間・高画質化アプリケーション。
+  thumbnail: assets/thumbnails/squirrel-video-frame-interpolation-svfi-b8d53a.png
+  date_added: '2026-07-20'
   source: agent
 - id: autodesk-motionbuilder-1b3117
   title: Autodesk MotionBuilder
@@ -157,6 +193,23 @@ entries:
   thumbnail: assets/thumbnails/naturalmotion-euphoria-ca6c50.png
   date_added: '2026-07-13'
   source: agent
+- id: cartwheel-3d6cbb
+  title: Cartwheel
+  area: animation
+  task: text-to-motion
+  kind: proprietary
+  links:
+    website: https://getcartwheel.com/
+  year: 2024
+  tags:
+  - commercial
+  - motion-generation
+  - text-to-motion
+  summary: A generative AI animation platform designed to create production-ready 3D character animations from text prompts or reference videos.
+  summary_ja: テキストプロンプトや参照ビデオから、プロダクション品質の3Dキャラクターアニメーションを作成するために設計されたジェネレーティブAIアニメーションプラットフォーム。
+  thumbnail: assets/thumbnails/cartwheel-3d6cbb.png
+  date_added: '2026-07-20'
+  source: agent
 - id: saymotion-3d9fad
   title: SayMotion
   area: animation
@@ -174,6 +227,23 @@ entries:
   summary_ja: テキストプロンプトを高品質な3Dキャラクターアニメーションに変換する、DeepMotionによるWebベースの生成AIプラットフォーム。FBX、GLB、BVH形式でのエクスポートに対応しています。
   thumbnail: assets/thumbnails/saymotion-3d9fad.png
   date_added: '2026-07-13'
+  source: agent
+- id: saymotion-by-deepmotion-3b6e4b
+  title: SayMotion by DeepMotion
+  area: animation
+  task: text-to-motion
+  kind: proprietary
+  links:
+    website: https://www.deepmotion.com/saymotion
+  year: 2024
+  tags:
+  - commercial
+  - motion-generation
+  - text-to-motion
+  summary: A commercial browser-based generative AI service that transforms natural language text prompts into high-quality 3D character animations.
+  summary_ja: 自然言語のテキストプロンプトを高品質な3Dキャラクターアニメーションに変換する、ブラウザベースの商用ジェネレーティブAIサービス。
+  thumbnail: assets/thumbnails/saymotion-by-deepmotion-3b6e4b.png
+  date_added: '2026-07-20'
   source: agent
 - id: unity-muse-animate-daf4b5
   title: Unity Muse Animate
