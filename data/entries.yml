@@ -5052,6 +5052,30 @@ entries:
   source: agent
   arxiv_id: '2503.08638'
   repo: multimodal-art-projection/yue
+- id: chatmusician-d4954a
+  title: ChatMusician
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.16153
+    github: https://github.com/hf-lin/ChatMusician
+  authors:
+  - Bowen Zhang
+  - hf-lin
+  - et al.
+  year: 2024
+  tags:
+  - abc-notation
+  - llm
+  - music-generation
+  - symbolic-music
+  summary: ChatMusician is an open-source large language model integrated with intrinsic musical abilities, capable of understanding and generating music using text-compatible ABC notation. It treats music as a second language, enabling symbolic music generation and reasoning without external multi-modal neural structures.
+  summary_ja: ChatMusicianは、本質的な音楽能力を統合したオープンソースの大規模言語モデルであり、テキスト互換のABC記譜法を用いて音楽を理解・生成できます。音楽を第二言語として扱い、外部のマルチモーダル構造を必要とせずにシンボリックな音楽生成や推論を可能にします。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2402.16153'
+  repo: hf-lin/chatmusician
 - id: jasco-1444cf
   title: JASCO
   area: audio
@@ -5220,6 +5244,33 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: lucidrains/musiclm-pytorch
+- id: mustango-5036a6
+  title: Mustango
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.08355
+    github: https://github.com/AMAAI-Lab/mustango
+  authors:
+  - Jan Melechovsky
+  - Zixun Guo
+  - Deepanway Ghosal
+  - Navonil Majumder
+  - Dorien Herremans
+  - Soujanya Poria
+  year: 2023
+  tags:
+  - bgm
+  - controllable
+  - diffusion
+  - music-generation
+  summary: Mustango is a music-domain-knowledge-inspired text-to-music system based on diffusion that allows users to control generated music using rich text captions. It supports specific instructions related to chords, beats, tempo, and key by incorporating musical features into the training process.
+  summary_ja: Mustangoは、拡散モデルに基づく音楽ドメイン知識を取り入れたテキストからの音楽生成システムであり、詳細なテキスト指示による生成制御を可能にします。コード、ビート、テンポ、キーなどの具体的な指示を学習プロセスに組み込むことで、高度な制御を実現しています。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2311.08355'
+  repo: amaai-lab/mustango
 - id: noise2music-113851
   title: Noise2Music
   area: audio
@@ -5548,6 +5599,29 @@ entries:
   source: agent
   arxiv_id: '2501.17198'
   repo: nellyngz95/6ksfx
+- id: neuralpm-e4bdae
+  title: NeuralPM
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.08806
+    github: https://github.com/zys711/NeuralPM_Inference
+    project: https://zys711.github.io/NeuralPM/
+  authors:
+  - Yisu Zong
+  - Joshua Reiss
+  year: 2025
+  tags:
+  - neural-synthesis
+  - physical-model
+  - sound-effects
+  summary: A real-time neural sound effects synthesis model guided by physically inspired models, enabling intuitive and continuous control over sound parameters for interactive applications.
+  summary_ja: 物理モデルに着想を得た、インタラクティブなアプリケーション向けに直感的かつ連続的な音響パラメータ制御を可能にするリアルタイムニューラル音響効果合成モデル。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2503.08806'
+  repo: zys711/neuralpm_inference
 - id: obsidian-neural-391b42
   title: OBSIDIAN Neural
   area: audio
@@ -5568,6 +5642,29 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: innermost47/ai-dj
+- id: sonicgauss-539250
+  title: SonicGauss
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.19835
+    github: https://github.com/AiEson/SonicGauss
+  authors:
+  - Chunshi Wang
+  - Hongxing Li
+  - Yawei Luo
+  year: 2025
+  tags:
+  - 3dgs
+  - impact-sound
+  - sound-synthesis
+  summary: A novel framework for synthesizing physically-based impact sounds directly from 3D Gaussian Splatting (3DGS) representations by leveraging their inherent geometric and material properties.
+  summary_ja: 3Dガウシアンスプラッティング（3DGS）表現から、その幾何学的および材料的特性を利用して、物理ベースの衝突音を直接合成する新しいフレームワーク。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2507.19835'
+  repo: aieson/sonicgauss
 - id: cmajor-6629b2
   title: Cmajor
   area: audio
@@ -5932,6 +6029,35 @@ entries:
   date_added: '2026-06-16'
   source: agent
   repo: thestk/stk
+- id: foley-omni-c76b58
+  title: Foley-Omni
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.03672
+    github: https://github.com/NJU-Speech/Foley-Omni
+  authors:
+  - Ye Tao
+  - Lupeng Liu
+  - Xuenan Xu
+  - Jiasun Feng
+  - Jiarui Wang
+  - Ying Qin
+  - Shuiyang Mao
+  - Wei Liu
+  year: 2026
+  tags:
+  - foley
+  - multimodal
+  - sfx
+  - video-to-audio
+  summary: A unified multimodal audio generation model that extends isolated task-level synthesis to complete video soundtrack generation. It jointly models speech, sound effects, and music within a shared latent generation process, conditioned on text and video inputs.
+  summary_ja: 孤立したタスクレベルの合成から完全なビデオサウンドトラック生成へと拡張する、統一されたマルチモーダル音声生成モデル。テキストとビデオの入力を条件として、共有された潜在生成プロセス内で音声、効果音、音楽を共同でモデリングします。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2606.03672'
+  repo: nju-speech/foley-omni
 - id: woosh-2a0261
   title: Woosh
   area: audio
@@ -5955,6 +6081,30 @@ entries:
   source: agent
   arxiv_id: '2604.01929'
   repo: sonyresearch/woosh
+- id: dreamfoley-87a529
+  title: DreamFoley
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.06022
+  authors:
+  - Fu Li
+  - Weichao Zhao
+  - You Li
+  - Zhichao Zhou
+  - Dongliang He
+  year: 2025
+  tags:
+  - foley
+  - sfx
+  - video-to-audio
+  - vlm
+  summary: A scalable video-to-audio generation framework leveraging vision-language models (VLMs) to produce high-fidelity, synchronized sound effects and background audio. It addresses the limitations of existing diffusion transformer architectures by improving cross-modal alignment and audio quality.
+  summary_ja: ビジョンランゲージモデル（VLM）を活用して、高忠実度で同期された効果音や環境音を生成する、スケーラブルなビデオ・ツー・オーディオ生成フレームワーク。クロスモーダルなアライメントとオーディオ品質を向上させることで、既存の拡散トランスフォーマーアーキテクチャの限界に対処します。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2512.06022'
 - id: foley-control-a6763e
   title: Foley Control
   area: audio
@@ -6007,6 +6157,35 @@ entries:
   source: agent
   arxiv_id: '2508.16930'
   repo: tencent-hunyuan/hunyuanvideo-foley
+- id: kling-foley-ffc07c
+  title: Kling-Foley
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.19774
+    github: https://github.com/klingfoley/Kling-Foley
+  authors:
+  - Jun Wang
+  - Xijuan Zeng
+  - Chunyu Qiang
+  - Ruilong Chen
+  - Shiyao Wang
+  - Le Wang
+  - Wangjing Zhou
+  - Pengfei Cai
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - foley
+  - sfx
+  - video-to-audio
+  summary: A large-scale multimodal video-to-audio generation model that utilizes diffusion transformers to synthesize high-quality audio synchronized with video content. It incorporates a visual semantic representation module and an audio-visual synchronization module to align video conditions with latent audio elements.
+  summary_ja: ビデオコンテンツと同期した高品質なオーディオを合成するために、拡散トランスフォーマーを利用する大規模なマルチモーダルビデオ・ツー・オーディオ生成モデル。ビデオの条件を潜在的なオーディオ要素と整列させるための視覚的意味表現モジュールとオーディオビジュアル同期モジュールを組み込んでいます。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2506.19774'
+  repo: klingfoley/kling-foley
 - id: thinksound-cc6e26
   title: ThinkSound
   area: audio
@@ -6255,6 +6434,31 @@ entries:
   source: agent
   arxiv_id: '2412.21037'
   repo: declare-lab/tangoflux
+- id: video-foley-740a2d
+  title: Video-Foley
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.11915
+    github: https://github.com/jnwnlee/video-foley
+  authors:
+  - Junwon Lee
+  - Jaekwon Im
+  - Dabin Kim
+  - Juhan Nam
+  year: 2024
+  tags:
+  - foley
+  - sfx
+  - temporal-alignment
+  - video-to-audio
+  summary: A video-to-sound system that uses Root Mean Square (RMS) as a temporal event condition alongside semantic timbre prompts to ensure high controllability and synchronization. It automates the foley synthesis process by aligning generated audio precisely with visual actions without requiring manual timestamp annotations.
+  summary_ja: 高い制御性と同期性を確保するために、セマンティックな音色プロンプトとともに二乗平均平方根（RMS）を時間的イベント条件として使用するビデオ・ツー・サウンドシステム。手動のタイムスタンプ注釈を必要とせずに、生成されたオーディオを視覚的なアクションと正確に整列させることで、効果音合成プロセスを自動化します。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2408.11915'
+  repo: jnwnlee/video-foley
 - id: diff-foley-49a767
   title: Diff-Foley
   area: audio
@@ -6390,6 +6594,28 @@ entries:
   source: agent
   arxiv_id: '2209.15352'
   repo: facebookresearch/audiocraft
+- id: fm-singer-fffec7
+  title: FM-Singer
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.00217
+    github: https://github.com/alsgur9368/FM-Singer
+  authors:
+  - Minhyeok Yun
+  - Yong-Hoon Choi
+  year: 2026
+  tags:
+  - cvae
+  - flow-matching
+  - svs
+  summary: A flow-matching based singing voice synthesis model designed to mitigate the latent mismatch in conditional Variational Autoencoder (cVAE) architectures, enhancing expressive details in synthesized vocals.
+  summary_ja: 条件付き変分オートエンコーダー（cVAE）における潜在的なミスマッチを緩和し、合成された歌声の表現力豊かなディテールを向上させるフローマッチングベースの歌声合成モデル。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2601.00217'
+  repo: alsgur9368/fm-singer
 - id: soulx-singer-cf1447
   title: SoulX-Singer
   area: audio
@@ -6772,6 +6998,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: openutau/openutau
+- id: fish-audio-s2-2c5e1e
+  title: Fish Audio S2
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.08823
+    github: https://github.com/fishaudio/fish-speech
+  authors:
+  - Shijia Liao
+  - Yuxuan Wang
+  - Songting Liu
+  - Yifan Cheng
+  - Ruoyi Zhang
+  - Tianyu Li
+  - Shidong Li
+  - Yisheng Zheng
+  year: 2026
+  tags:
+  - instruction-following
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: An advanced open-source text-to-speech system featuring multi-speaker, multi-turn generation, and instruction-following control via natural-language descriptions. It utilizes a staged data pipeline and reward modeling to achieve state-of-the-art multilingual voice generation and cloning.
+  summary_ja: 自然言語による指示追従制御、複数話者、マルチターン生成を特徴とする、高度なオープンソース音声合成システム。段階的なデータパイプラインと報酬モデリングを活用し、最先端の多言語音声生成およびボイスクローニングを実現します。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2603.08823'
+  repo: fishaudio/fish-speech
 - id: supertonic-225b7d
   title: Supertonic
   area: audio
@@ -6874,6 +7129,30 @@ entries:
   thumbnail: assets/thumbnails/cosyvoice-2c6e9d.png
   date_added: '2026-06-13'
   source: agent
+  repo: funaudiollm/cosyvoice
+- id: cosyvoice-fe11cd
+  title: CosyVoice
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.05407
+    github: https://github.com/FunAudioLLM/CosyVoice
+  authors:
+  - Zhihao Du
+  - Qian Chen
+  - Shiliang Zhang
+  year: 2024
+  tags:
+  - flow-matching
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: A highly scalable multilingual zero-shot text-to-speech synthesizer developed by Alibaba's FunAudioLLM. It utilizes a large language model for text-to-token generation and a conditional flow matching model for token-to-speech synthesis, enabling high-quality voice cloning, cross-lingual synthesis, and emotional control.
+  summary_ja: AlibabaのFunAudioLLMが開発した、スケーラブルな多言語ゼロショット音声合成システム。LLMによるテキストからトークンへの生成と、条件付きフローマッチングモデルによるトークンから音声への合成を組み合わせることで、高品質なボイスクローニング、クロスリンガル合成、感情制御を実現します。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2407.05407'
   repo: funaudiollm/cosyvoice
 - id: f5-tts-ad5708
   title: F5-TTS
@@ -7227,6 +7506,34 @@ entries:
   source: seed
   arxiv_id: '2106.06103'
   repo: jaywalnut310/vits
+- id: cosyvoice-3-ec3943
+  title: CosyVoice 3
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.17589
+    github: https://github.com/FunAudioLLM/CosyVoice
+  authors:
+  - Zhihao Du
+  - Changfeng Gao
+  - Yuxuan Wang
+  - Fan Yu
+  - Tianyu Zhao
+  - Hao Wang
+  - Xiang Lv
+  - Hui Wang
+  year: 2025
+  tags:
+  - tts
+  - voice-cloning
+  - zero-shot
+  summary: An advanced multilingual zero-shot text-to-speech and voice cloning model that scales up training data and introduces post-training techniques to handle in-the-wild speech generation with high naturalness and speaker similarity.
+  summary_ja: 大規模な学習データと事後学習（ポストトレーニング）技術を導入し、野生（in-the-wild）の音声生成において高い自然度と話者類似度を実現する、高度な多言語ゼロショット音声合成・音声クローニングモデル。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2505.17589'
+  repo: funaudiollm/cosyvoice
 - id: vibevoice-fce0fb
   title: VibeVoice
   area: audio
@@ -7309,6 +7616,23 @@ entries:
   date_added: '2026-07-07'
   source: agent
   arxiv_id: '2511.12347'
+- id: chatterbox-47f196
+  title: Chatterbox
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    github: https://github.com/resemble-ai/chatterbox
+  year: 2024
+  tags:
+  - tts
+  - voice-cloning
+  - zero-shot
+  summary: An open-source text-to-speech and zero-shot voice cloning model by Resemble AI, featuring emotion control, real-time generation, and built-in watermarking.
+  summary_ja: 感情制御、リアルタイム生成、および組み込みの電子透かし機能を備えた、Resemble AIによるオープンソースの音声合成およびゼロショット音声クローニングモデル。
+  date_added: '2026-07-21'
+  source: agent
+  repo: resemble-ai/chatterbox
 - id: maskgct-6e8729
   title: MaskGCT
   area: audio
@@ -7615,6 +7939,24 @@ entries:
   source: agent
   arxiv_id: '2604.08746'
   repo: vast-ai-research/anigen
+- id: gamerig-de7af3
+  title: GameRig
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    github: https://github.com/Arminando/GameRig
+  year: 2026
+  tags:
+  - addon
+  - blender
+  - rigging
+  - rigify
+  summary: An open-source auto-rigging addon for Blender built on top of Rigify, designed to create game-engine-friendly rigs and metarigs for personal and commercial game projects.
+  summary_ja: Rigifyをベースに構築されたBlender用のオープンソース自動リギングアドオンで、個人および商用のゲームプロジェクト向けに、ゲームエンジンに最適化されたリグやメタリグを簡単に作成できます。
+  date_added: '2026-07-21'
+  source: agent
+  repo: arminando/gamerig
 - id: omnifacerig-106770
   title: OmniFaceRig
   area: characters
@@ -8196,6 +8538,34 @@ entries:
   source: agent
   arxiv_id: '2605.26486'
   repo: meigen-ai/longcat-video-avatar
+- id: monocular-avatar-reconstruction-via-cascaded-diffusion-prior-8f5630
+  title: Monocular Avatar Reconstruction via Cascaded Diffusion Priors and UV-Space Differentiable Shading
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.28144
+    github: https://github.com/Luh1124/MARCUS-Avatar
+  authors:
+  - Hong Li
+  - Minqi Meng
+  - Yanjun Liang
+  - Chongjie Ye
+  - Houyuan Chen
+  - Weiqing Xiao
+  - Xianda Guo
+  - Guojun Lei
+  year: 2026
+  tags:
+  - 3d-avatar
+  - monocular-reconstruction
+  - relightable
+  summary: A monocular 3D avatar reconstruction framework that leverages cascaded diffusion priors and UV-space differentiable shading to generate high-fidelity, relightable 3D avatars from a single in-the-wild image.
+  summary_ja: 段階的な拡散モデルの事前知識とUV空間の微分可能シェーディングを活用し、1枚の野生画像から高精度で再ライティング可能な3Dアバターを再構成するフレームワーク。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2606.28144'
+  repo: luh1124/marcus-avatar
 - id: mvchead-ab87f1
   title: MVCHead
   area: characters
@@ -8372,6 +8742,32 @@ entries:
   date_added: '2026-07-07'
   source: agent
   repo: facebookresearch/audio2photoreal
+- id: dreambarbie-text-to-barbie-style-3d-avatars-5b52f6
+  title: 'DreamBarbie: Text to Barbie-Style 3D Avatars'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.09126
+    github: https://github.com/XiaokunSun/DreamBarbie
+  authors:
+  - Xiaokun Sun
+  - Zhenyu Zhang
+  - Ying Tai
+  - Hao Tang
+  - Zili Yi
+  - Jian Yang
+  year: 2024
+  tags:
+  - 3d-avatar
+  - stylized-avatar
+  - text-to-3d
+  summary: A text-driven 3D avatar generation framework that produces high-quality, fine-grained, and disentangled 3D avatars in a stylized aesthetic, supporting expressive animation and simulation.
+  summary_ja: テキスト指示から高品質で細部まで表現されたスタイライズドな3Dアバターを生成するフレームワーク。アニメーションや物理シミュレーションに対応した、属性が分離されたアバターを作成できます。
+  date_added: '2026-07-21'
+  source: agent
+  arxiv_id: '2408.09126'
+  repo: xiaokunsun/dreambarbie
 - id: dreamwaltz-g-7f8763
   title: DreamWaltz-G
   area: characters

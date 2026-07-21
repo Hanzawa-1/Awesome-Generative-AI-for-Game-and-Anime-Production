@@ -433,6 +433,23 @@ entries:
   thumbnail: assets/thumbnails/udio-5165b7.png
   date_added: '2026-06-23'
   source: agent
+- id: suno-ai-b30193
+  title: Suno AI
+  area: audio
+  task: music-bgm
+  kind: proprietary
+  links:
+    website: https://suno.com/
+  year: 2023
+  tags:
+  - bgm
+  - music-generation
+  - soundtrack
+  - vocals
+  summary: Suno is a leading generative AI music platform that allows users to generate full-length, high-quality songs with vocals, lyrics, and instrumentation from simple text prompts. It features granular creation controls, stem extraction, and a web-based generative audio workstation.
+  summary_ja: Sunoは、シンプルなテキストプロンプトからボーカル、歌詞、伴奏を含む高品質なフルレングスの楽曲を生成できる、業界をリードする生成AI音楽プラットフォームです。詳細な生成コントロール、ステム抽出、およびWebベースの生成オーディオワークステーション機能を備えています。
+  date_added: '2026-07-21'
+  source: agent
 - id: aiva-9ff156
   title: AIVA
   area: audio
@@ -623,6 +640,23 @@ entries:
   summary_ja: 高度なオーサリングツールとクロスプラットフォームのサウンドエンジンを備え、ゲームにおけるインタラクティブな音響表現を実現する業界標準のプロプライエタリなオーディオミドルウェア。
   thumbnail: assets/thumbnails/audiokinetic-wwise-ec2f05.png
   date_added: '2026-06-23'
+  source: agent
+- id: elevenlabs-sound-effects-e4afb4
+  title: ElevenLabs Sound Effects
+  area: audio
+  task: sfx-foley
+  kind: proprietary
+  links:
+    website: https://elevenlabs.io/sound-effects
+  year: 2024
+  tags:
+  - commercial
+  - foley
+  - sfx
+  - text-to-audio
+  summary: A commercial text-to-audio generation tool designed to produce high-quality, royalty-free sound effects, foley, and ambient audio from natural language prompts. It supports generating multiple variations, seamless looping, and professional-grade 48 kHz audio output.
+  summary_ja: 自然言語のプロンプトから高品質でロイヤリティフリーの効果音、フォーリー、環境音を生成するために設計された商用のテキスト・ツー・オーディオ生成ツール。複数のバリエーションの生成、シームレスなループ、およびプロフェッショナルグレードの48 kHzオーディオ出力をサポートしています。
+  date_added: '2026-07-21'
   source: agent
 - id: ace-studio-e0c53b
   title: ACE Studio
@@ -843,6 +877,23 @@ entries:
   summary_ja: リアルな音声クローニング、多言語合成、ビデオ編集機能を統合した「Genny」エディタを提供する、AI音声生成およびテキスト読み上げプラットフォーム。
   thumbnail: assets/thumbnails/lovo-ai-457041.png
   date_added: '2026-06-13'
+  source: agent
+- id: anything-world-34312a
+  title: Anything World
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://app.anything.world/
+  year: 2023
+  tags:
+  - 3d-generation
+  - animation
+  - auto-rigging
+  - saas
+  summary: An AI-powered 3D animation and automated rigging platform that allows developers to quickly rig and animate static 3D models for games and interactive applications.
+  summary_ja: AIを活用した3Dアニメーションおよび自動リギングプラットフォームで、ゲームやインタラクティブなアプリケーション向けに、静的な3Dモデルを迅速にリギングしてアニメーション化できます。
+  date_added: '2026-07-21'
   source: agent
 - id: accurig-e7075e
   title: AccuRIG
