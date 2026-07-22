@@ -1212,6 +1212,23 @@ entries:
   thumbnail: assets/thumbnails/zoo-text-to-cad-ad65da.png
   date_added: '2026-06-17'
   source: agent
+- id: zoo-zookeeper-aa84d7
+  title: Zoo Zookeeper
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://zoo.dev/zookeeper
+  year: 2024
+  tags:
+  - b-rep
+  - cad
+  - proprietary
+  - text-to-cad
+  summary: A conversational CAD agent built into Zoo Design Studio that generates precise, fully editable B-rep CAD models from natural language prompts.
+  summary_ja: 自然言語のプロンプトから、高精度で完全に編集可能なB-rep CADモデルを生成する、Zoo Design Studioに組み込まれた対話型CADエージェント。
+  date_added: '2026-07-22'
+  source: agent
 - id: leo-ai-fd3ab8
   title: Leo AI
   area: gen-3d

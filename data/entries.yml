@@ -8941,6 +8941,64 @@ entries:
   source: seed
   arxiv_id: '2205.08535'
   repo: hongfz16/avatarclip
+- id: dreamcharacter-1-from-3d-generative-foundation-models-to-pro-25b934
+  title: 'DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.07817
+    website: https://dreamcharacter-x.github.io/
+  authors:
+  - Weizhe Liu
+  - Yunjie Wu
+  - Xiangqian Shu
+  - Guangwei Wang
+  - Xiangyu Xu
+  - Peng Li
+  - Yujie Li
+  - Hengkai Guo
+  year: 2026
+  tags:
+  - 3d-character
+  - bytedance
+  - foundation-model
+  summary: A lightweight post-adaptation framework from ByteDance that calibrates pretrained 3D foundation models toward high-fidelity, production-ready 3D character generation. It incorporates geometry and texture post-training along with inference acceleration to produce animation-ready 3D characters from a single reference image.
+  summary_ja: 事前学習済みの3D基盤モデルを、高精度でプロダクション品質の3Dキャラクター生成に向けて調整する、ByteDanceによる軽量なポスト適応フレームワーク。幾何学とテクスチャの事後学習および推論の高速化を組み込み、単一の参照画像からアニメーション可能な3Dキャラクターを生成します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2607.07817'
+- id: rotate-your-character-revisiting-video-diffusion-models-for-c971ba
+  title: 'Rotate Your Character: Revisiting Video Diffusion Models for High-Quality 3D Character Generation'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.05722
+    website: https://rotateyourcharacter.github.io/
+  authors:
+  - Jin Wang
+  - Jianxiang Lu
+  - Comi Chen
+  - Guangzheng Xu
+  - Haoyu Yang
+  - Peng Chen
+  - Na Zhang
+  - Yifan Xu
+  - Longhuang Wu
+  - Shuai Shao
+  - Qinglin Lu
+  - Ping Luo
+  year: 2026
+  tags:
+  - 3d-character
+  - novel-view-synthesis
+  - tencent
+  summary: An advanced image-to-video diffusion framework (Rotate your Character Model, or RCM) from Tencent Hunyuan and HKU designed for high-quality novel view synthesis and 3D character generation. It transfers characters from any complex pose into a canonical pose, enabling consistent 360-degree orbital video generation at high resolution.
+  summary_ja: 高品質な新規ビュー合成および3Dキャラクター生成のために設計された、Tencent Hunyuanと香港大学による高度な画像・動画拡散フレームワーク（RCM）。複雑なポーズのキャラクターを標準ポーズに変換し、高解像度で一貫した360度の軌道動画生成を可能にします。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2601.05722'
 - id: cartoonalive-059437
   title: CartoonAlive
   area: characters
@@ -9124,6 +9182,57 @@ entries:
   source: agent
   arxiv_id: '2511.15586'
   repo: facebookresearch/mhr
+- id: persona-personalized-whole-body-3d-avatar-with-pose-driven-d-75675d
+  title: 'PERSONA: Personalized Whole-Body 3D Avatar with Pose-Driven Deformations from a Single Image'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.09973
+    github: https://github.com/mks0601/PERSONA_RELEASE
+    website: https://mks0601.github.io/PERSONA/
+  authors:
+  - Geonhee Sim
+  - Gyeongsik Moon
+  year: 2025
+  tags:
+  - 3d-avatar
+  - pose-deformation
+  - single-image
+  summary: A personalized whole-body animatable avatar creation system that supports pose-driven deformations (such as non-rigid cloth deformations) from a single image. It integrates 3D-based identity representation with diffusion-based deformation learning to achieve high-fidelity, animatable 3D avatars.
+  summary_ja: 単一の画像からポーズ駆動型の変形（非剛体な衣服の変形など）をサポートする、パーソナライズされた全身の動的なアバター作成システム。3Dベースのアイデンティティ表現と拡散モデルベースの変形学習を統合し、高精度でアニメーション可能な3Dアバターを実現します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2508.09973'
+  repo: mks0601/persona_release
+- id: pfavatar-pose-fusion-3d-personalized-avatar-reconstruction-f-aa231f
+  title: 'PFAvatar: Pose-Fusion 3D Personalized Avatar Reconstruction from Real-World Outfit-of-the-Day Photos'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.12935
+    website: https://xdobetter.github.io/OOTD_PFAvatar/
+  authors:
+  - Dianbing Xi
+  - Guoyuan An
+  - Jingsen Zhu
+  - Zhijian Liu
+  - Yuan Liu
+  - Ruiyuan Zhang
+  - Jiayuan Lu
+  - Yuchi Huo
+  - Rui Wang
+  year: 2025
+  tags:
+  - 3d-avatar
+  - nerf
+  - ootd
+  summary: A method that reconstructs high-quality 3D avatars from real-world Outfit-of-the-Day (OOTD) photos featuring diverse poses, occlusions, and complex backgrounds. It uses a pose-aware diffusion model and NeRF-based representation to preserve high-frequency textures and support downstream applications like virtual try-on and animation.
+  summary_ja: 多様なポーズ、遮蔽、複雑な背景を持つ現実世界のOOTD（今日のコーディネート）写真から、高品質な3Dアバターを再構築する手法。ポーズ認識型の拡散モデルとNeRFベースの表現を使用し、高周波テクスチャを保持しながら、バーチャル試着やアニメーションなどの下流アプリケーションをサポートします。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2511.12935'
 - id: textoon-42bde8
   title: Textoon
   area: characters
@@ -9238,6 +9347,30 @@ entries:
   source: agent
   arxiv_id: '2402.17214'
   repo: zjp-shadow/charactergen
+- id: charnerf-3d-character-generation-from-concept-art-1e1a32
+  title: 'CharNeRF: 3D Character Generation from Concept Art'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.17115
+    github: https://github.com/chuyiting/CharNeRF-3D-Character-Generation-from-Concept-Art-Visuals
+  authors:
+  - Eddy Chu
+  - Yiyang Chen
+  - Chedy Raissi
+  - Anand Bhojan
+  year: 2024
+  tags:
+  - 3d-character
+  - concept-art
+  - nerf
+  summary: A framework designed to generate 3D character models from consistent turnaround concept art, which is a standard input in the 3D modeling industry. It utilizes Neural Radiance Fields (NeRF) to create volumetric representations of characters, streamlining the 3D modeling pipeline for games and virtual reality.
+  summary_ja: 3Dモデリング業界の標準的なインプットである、一貫したターンアラウンド（三面図）のコンセプトアートから3Dキャラクターモデルを生成するフレームワーク。Neural Radiance Fields（NeRF）を活用してキャラクターの体積表現を作成し、ゲームやVR向けの3Dモデリングパイプラインを効率化します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2402.17115'
+  repo: chuyiting/charnerf-3d-character-generation-from-concept-art-visuals
 - id: drawingspinup-449af6
   title: DrawingSpinUp
   area: characters
@@ -9482,6 +9615,30 @@ entries:
   source: agent
   arxiv_id: '2312.15430'
   repo: human3daigc/make-a-character
+- id: emotegpt-3d-human-facial-expressions-from-natural-language-d-ab19b1
+  title: 'EmoteGPT: 3D Human Facial Expressions from Natural Language Descriptions'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.02674
+    website: https://genintel.github.io/EmoteGPT/
+  authors:
+  - Haoran Wang
+  - Mohit Mendiratta
+  - Christian Theobalt
+  - Adam Kortylewski
+  year: 2026
+  tags:
+  - 3d-face
+  - 3dmm
+  - expression
+  - text-to-3d
+  summary: A text-driven 3D facial expression generation framework that maps natural language descriptions (both explicit physical details and implicit situational contexts) to 3D Morphable Model (3DMM) parameters using a Multimodal Large Language Model.
+  summary_ja: マルチモーダル大規模言語モデル（MLLM）を用いて、詳細な物理的特徴（明示的表現）や状況の文脈（暗示的表現）などの自然言語記述から、3Dモーファブルモデル（3DMM）のパラメータへとマッピングするテキスト駆動型3D表情生成フレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2607.02674'
 - id: generalizable-and-animatable-3d-full-head-gaussian-avatar-fr-e69d61
   title: Generalizable and Animatable 3D Full-Head Gaussian Avatar from a Single Image
   area: characters
@@ -9892,6 +10049,34 @@ entries:
   source: agent
   arxiv_id: '2401.08503'
   repo: yerfor/real3dportrait
+- id: smirk-3d-facial-expressions-through-analysis-by-neural-synth-57594f
+  title: 'SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.04104
+    github: https://github.com/georgeretsi/smirk
+  authors:
+  - George Retsinas
+  - Panagiotis P. Filntisis
+  - Radek Danecek
+  - Victoria F. Abrevaya
+  - Anastasios Roussos
+  - Timo Bolkart
+  - Petros Maragos
+  year: 2024
+  tags:
+  - 3d-face
+  - expression
+  - flame
+  - reconstruction
+  summary: A framework for highly expressive 3D face reconstruction from in-the-wild images. It utilizes an analysis-by-neural-synthesis approach to faithfully capture subtle, extreme, asymmetric, or rarely observed facial expressions.
+  summary_ja: インザワイルドな画像から表現力豊かな3D顔形状を復元するフレームワーク。ニューラル合成による分析（analysis-by-neural-synthesis）アプローチを採用し、微細な表情、極端な表情、非対称な表情、あるいは稀にしか見られない表情を忠実に捉えます。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2404.04104'
+  repo: georgeretsi/smirk
 - id: spherehead-738601
   title: SphereHead
   area: characters
@@ -9922,6 +10107,30 @@ entries:
   source: agent
   arxiv_id: '2404.05680'
   repo: lhyfst/spherehead
+- id: diffusionavatars-deferred-diffusion-for-high-fidelity-3d-hea-cb9443
+  title: 'DiffusionAvatars: Deferred Diffusion for High-fidelity 3D Head Avatars'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.18635
+    github: https://github.com/tobias-kirschstein/diffusion-avatars
+  authors:
+  - Tobias Kirschstein
+  - Simon Giebenhain
+  - Matthias Nießner
+  year: 2023
+  tags:
+  - 3d-head
+  - avatar
+  - diffusion
+  - expression
+  summary: A diffusion-based neural rendering framework for high-fidelity 3D head avatars that offers intuitive control over both pose and expression by leveraging 2D diffusion priors and a neural parametric head model.
+  summary_ja: 2D拡散モデルの事前知識とニューラルパラメータヘッドモデルを組み合わせることで、ポーズと表情の直感的な制御を可能にする、高精度な3Dヘッドアバターのための拡散ベースのニューラルレンダリングフレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2311.18635'
+  repo: tobias-kirschstein/diffusion-avatars
 - id: faceg2e-591871
   title: FaceG2E
   area: characters
@@ -9952,6 +10161,31 @@ entries:
   source: agent
   arxiv_id: '2312.00375'
   repo: jiejiangwu/faceg2e
+- id: flashavatar-high-fidelity-head-avatar-with-efficient-gaussia-0e3d7d
+  title: 'FlashAvatar: High-fidelity Head Avatar with Efficient Gaussian Embedding'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02214
+    github: https://github.com/USTC3DV/FlashAvatar-code
+  authors:
+  - Jun Xiang
+  - Xuan Gao
+  - Yudong Guo
+  - Juyong Zhang
+  year: 2023
+  tags:
+  - 3d-head
+  - avatar
+  - gaussian-splatting
+  - real-time
+  summary: A lightweight 3D animatable head avatar representation that reconstructs a digital avatar from a short monocular video sequence in minutes and renders high-fidelity photo-realistic images at 300FPS on consumer GPUs using 3D Gaussian Splatting.
+  summary_ja: 短い単眼ビデオシーケンスから数分でデジタルアバターを再構成し、3D Gaussian Splattingを用いて民生用GPU上で300FPSの超高速かつ高精度なフォトリアルレンダリングを可能にする、軽量なアニメーション対応3Dヘッドアバター表現。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2312.02214'
+  repo: ustc3dv/flashavatar-code
 - id: gaussian-head-avatar-629e48
   title: Gaussian Head Avatar
   area: characters
@@ -10477,6 +10711,107 @@ entries:
   source: agent
   arxiv_id: '2601.07963'
   repo: dongjiahua/3dgs-drag
+- id: coin-b513b3
+  title: CoIn
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.27584
+    github: https://github.com/hana001106/CoIn
+  authors:
+  - Hana Kim
+  - Minje Kim
+  - Tae-Kyun Kim
+  year: 2026
+  tags:
+  - 3dgs
+  - inpainting
+  - scene-editing
+  summary: A 3D scene inpainting framework that bridges 2D inpainting models and 3D Gaussian Splatting through a multi-stage consistency pipeline, enabling high-quality object removal and scene completion.
+  summary_ja: 2Dインペインティングモデルと3D Gaussian Splattingをマルチステージの一貫性パイプラインを介して橋渡しし、高品質なオブジェクト削除とシーン補完を可能にする3Dシーンインペインティングフレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2606.27584'
+  repo: hana001106/coin
+- id: editverse3d-75426c
+  title: EditVerse3D
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.07187
+  authors:
+  - Youtan Yin
+  - Yanning Zhou
+  - Jiacheng Wei
+  - Xiaofeng Yang
+  - Jun Zhang
+  - Jiayang Bai
+  - Jingwen Ye
+  - Weidong Zhang
+  year: 2026
+  tags:
+  - 3d-editing
+  - local-editing
+  - region-aware
+  summary: A 3D object editing framework that enables high-quality local modifications under coarse region-of-interest guidance, bypassing the need for precise 3D masks or fully edited 2D images.
+  summary_ja: 精密な3Dマスクや完全に編集された2D画像を必要とせず、大まかな関心領域（ROI）のガイド下で高品質なローカル編集を可能にする3Dオブジェクト編集フレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2607.07187'
+- id: tango-138fc1
+  title: TanGO
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.14927
+    github: https://github.com/siw00-lim/TanGO
+  authors:
+  - Siwoo Lim
+  - Sunjae Yoon
+  - Gwanhyeong Koo
+  - Hyeonseo Yun
+  - Chang D. Yoo
+  year: 2026
+  tags:
+  - 3d-editing
+  - flow-matching
+  - training-free
+  summary: A training-free 3D editing framework that enables adaptive per-token steering in the tangent space of generative dynamics, preventing semantic artifacts and preserving unedited regions.
+  summary_ja: 生成ダイナミクスの接空間における適応的なトークンごとのステアリングを可能にし、セマンティックなアーティファクトを防ぎ、未編集の領域を保護するトレーニングフリーの3D編集フレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2607.14927'
+  repo: siw00-lim/tango
+- id: thinking-in-boxes-e99504
+  title: Thinking in Boxes
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.20556
+    github: https://github.com/PradhaanSBhat/thinking-in-boxes
+  authors:
+  - Pradhaan S Bhat
+  - Naveen Chandra R
+  - Rishubh Parihar
+  - Vaibhav Vavilala
+  - R. Venkatesh Babu
+  - D. A. Forsyth
+  - Anand Bhattad
+  year: 2026
+  tags:
+  - 3d-editing
+  - bounding-box
+  - image-editing
+  summary: A geometric 3D editing framework that uses 3D bounding boxes as structured specifications to guide large spatial transformations, object motions, and camera changes in real images.
+  summary_ja: 3Dバウンディングボックスを構造化された仕様として使用し、実画像における大きな空間的変換、オブジェクトの移動、およびカメラの変更をガイドする幾何学的3D編集フレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2606.20556'
+  repo: pradhaansbhat/thinking-in-boxes
 - id: vecset-edit-ef882f
   title: VecSet-Edit
   area: gen-3d
@@ -10869,6 +11204,25 @@ entries:
   source: agent
   arxiv_id: '2408.08000'
   repo: ewrfcas/mvinpainter
+- id: supersplat-afe37b
+  title: SuperSplat
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    github: https://github.com/playcanvas/supersplat
+    website: https://playcanvas.com/supersplat/editor
+  year: 2024
+  tags:
+  - 3dgs
+  - editor
+  - gaussian-splatting
+  - webgl
+  summary: An open-source, browser-native 3D Gaussian Splat editor built on PlayCanvas. It allows users to inspect, edit, crop, optimize, and export 3D Gaussian Splat scenes directly in the browser.
+  summary_ja: PlayCanvasをベースに構築された、オープンソースでブラウザネイティブな3D Gaussian Splatエディタ。ブラウザ上で直接、3D Gaussian Splatシーンの検査、編集、クロップ、最適化、エクスポートを行うことができます。
+  date_added: '2026-07-22'
+  source: agent
+  repo: playcanvas/supersplat
 - id: texture-gs-disentangling-the-geometry-and-texture-for-3d-gau-b69173
   title: 'Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing'
   area: gen-3d
@@ -11220,6 +11574,24 @@ entries:
   source: agent
   arxiv_id: '2601.12641'
   repo: jasonshiii/step-llm
+- id: synapscad-6fa383
+  title: SynapsCAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/timschmidt/synaps-cad
+  year: 2026
+  tags:
+  - ai-assisted
+  - cad
+  - ide
+  - openscad
+  summary: An open-source AI-powered 3D CAD IDE that allows users to edit OpenSCAD code, visualize models in 3D, and reshape designs using natural language.
+  summary_ja: OpenSCADコードの編集、3Dでのモデル可視化、および自然言語を用いたデザインの再形成を可能にする、オープンソースのAI搭載3D CAD IDE。
+  date_added: '2026-07-22'
+  source: agent
+  repo: timschmidt/synaps-cad
 - id: zero-to-cad-6d896d
   title: Zero-to-CAD
   area: gen-3d
@@ -11244,6 +11616,33 @@ entries:
   date_added: '2026-06-24'
   source: agent
   arxiv_id: '2604.24479'
+- id: autobrep-autoregressive-b-rep-generation-with-unified-topolo-f894bb
+  title: 'AutoBrep: Autoregressive B-Rep Generation with Unified Topology and Geometry'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.03018
+    github: https://github.com/AutodeskAILab/AutoBrep
+  authors:
+  - Xiang Xu
+  - Pradeep Kumar Jayaraman
+  - Joseph G. Lambourne
+  - Yilin Liu
+  - Durvesh Malpure
+  - Pete Meltzer
+  year: 2025
+  tags:
+  - autoregressive
+  - b-rep
+  - cad
+  - transformer
+  summary: An autoregressive Transformer model that generates high-quality Boundary Representation (B-Rep) CAD models by encoding both geometric and topological characteristics into a unified tokenization scheme.
+  summary_ja: 幾何学的特徴とトポロジー的特徴を統一されたトークン化スキームにエンコードすることにより、高品質な境界表現（B-Rep）CADモデルを自己回帰的に生成するTransformerモデル。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2512.03018'
+  repo: autodeskailab/autobrep
 - id: brepdiff-single-stage-b-rep-diffusion-model-f31b28
   title: 'BrepDiff: Single-stage B-rep Diffusion Model'
   area: gen-3d
@@ -11263,6 +11662,33 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: brepdiff/brepdiff
+- id: brepgpt-autoregressive-b-rep-generation-with-voronoi-half-pa-948854
+  title: 'BrepGPT: Autoregressive B-rep Generation with Voronoi Half-Patch'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.22171
+    github: https://github.com/BunnySoCrazy/BrepGPT
+  authors:
+  - Pu Li
+  - Wenhao Zhang
+  - Weize Quan
+  - Biao Zhang
+  - Peter Wonka
+  - Dong-Ming Yan
+  year: 2025
+  tags:
+  - autoregressive
+  - b-rep
+  - cad
+  - voronoi
+  summary: A single-stage autoregressive framework for B-rep CAD generation that introduces the Voronoi Half-Patch (VHP) representation to decompose irregular B-rep graphs into uniform tokens.
+  summary_ja: 不規則なB-repグラフを均一なトークンに分解するVoronoi Half-Patch（VHP）表現を導入し、単一ステージで自己回帰的にB-rep CADモデルを生成するフレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2511.22171'
+  repo: bunnysocrazy/brepgpt
 - id: cad-coder-cd34f7
   title: CAD-Coder
   area: gen-3d
@@ -11289,6 +11715,33 @@ entries:
   date_added: '2026-07-01'
   source: agent
   arxiv_id: '2505.14646'
+  repo: anniedoris/cad-coder
+- id: cad-coder-text-to-cad-generation-with-chain-of-thought-and-g-e7e51c
+  title: 'CAD-Coder: Text-to-CAD Generation with Chain-of-Thought and Geometric Reward'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.19713
+    github: https://github.com/anniedoris/CAD-Coder
+  authors:
+  - Yandong Guan
+  - Xilin Wang
+  - Ximing Xing
+  - Jing Zhang
+  - Dong Xu
+  - Qian Yu
+  year: 2025
+  tags:
+  - cad
+  - cadquery
+  - grpo
+  - text-to-cad
+  summary: A text-to-CAD generation framework that reformulates the task as producing CadQuery Python scripts, utilizing supervised fine-tuning and reinforcement learning with geometric rewards.
+  summary_ja: テキストからCADへの生成タスクをCadQuery Pythonスクリプトの出力として再定式化し、教師あり微調整と幾何学的報酬を用いた強化学習を活用するフレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2505.19713'
   repo: anniedoris/cad-coder
 - id: cad-gpt-cad-construction-sequences-with-multimodal-llms-ffd74e
   title: 'CAD-GPT: CAD Construction Sequences with Multimodal LLMs'
@@ -11964,6 +12417,64 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: stable-x/stable3dgen
+- id: hi3dgen-d40f5e
+  title: Hi3DGen
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.22236
+    github: https://github.com/bytedance/Hi3DGen
+  authors:
+  - Chongjie Ye
+  - Yushuang Wu
+  - Ziteng Lu
+  - Jiahao Chang
+  - Xiaoyang Guo
+  - Jiaqing Zhou
+  - Hao Zhao
+  - Xiaoguang Han
+  year: 2025
+  tags:
+  - geometry
+  - mesh
+  - normal-map
+  - reconstruction
+  summary: A high-fidelity 3D geometry generation framework that reconstructs detailed shapes from single images using normal bridging. It decouples low- and high-frequency details via an image-to-normal estimator, resolving domain gaps and visual ambiguities to produce highly accurate 3D models.
+  summary_ja: 法線マップをブリッジ（媒介）として使用し、単一の画像から詳細な形状を再構成する高品質3D幾何生成フレームワーク。画像から法線への推定器を介して低周波と高周波のディテールを分離し、ドメインギャップや視覚的な曖昧さを解消して極めて正確な3Dモデルを生成します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2503.22236'
+  repo: bytedance/hi3dgen
+- id: hunyuan3d-2-0-3b9031
+  title: Hunyuan3D 2.0
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.12202
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-2
+  authors:
+  - Zibo Zhao
+  - Zeqiang Lai
+  - Qingxiang Lin
+  - Yunfei Zhao
+  - Haolin Liu
+  - Shuhui Yang
+  - Yifei Feng
+  - Mingxin Yang
+  year: 2025
+  tags:
+  - diffusion
+  - mesh
+  - texture
+  - transformer
+  summary: An advanced large-scale 3D synthesis system that generates high-resolution textured 3D assets from a single image or text. It utilizes a flow-based diffusion transformer (Hunyuan3D-DiT) for geometry generation and a texture synthesis model (Hunyuan3D-Paint) to produce detailed, high-fidelity 3D meshes.
+  summary_ja: 単一の画像またはテキストから高解像度なテクスチャ付き3Dアセットを生成する、先進的な大規模3D合成システム。フローベースの拡散トランスフォーマー（Hunyuan3D-DiT）による形状生成と、テクスチャ合成モデル（Hunyuan3D-Paint）を組み合わせることで、詳細で高品質な3Dメッシュを作成します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2501.12202'
+  repo: tencent-hunyuan/hunyuan3d-2
 - id: hunyuan3d-2-1-ee7829
   title: Hunyuan3D-2.1
   area: gen-3d
@@ -11983,6 +12494,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencent-hunyuan/hunyuan3d-2.1
+- id: hunyuan3d-2-5-4871d1
+  title: Hunyuan3D 2.5
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.16504
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-2
+  authors:
+  - Zeqiang Lai
+  - Yunfei Zhao
+  - Haolin Liu
+  - Zibo Zhao
+  - Qingxiang Lin
+  - Huiwen Shi
+  - Xianghui Yang
+  - Mingxin Yang
+  year: 2025
+  tags:
+  - diffusion
+  - high-fidelity
+  - lattice
+  - mesh
+  summary: An upgraded suite of 3D diffusion models that introduces a new shape foundation model called LATTICE, trained with scaled high-quality datasets and increased compute. It significantly advances both shape and texture generation to deliver high-fidelity 3D assets with ultimate geometric details.
+  summary_ja: スケールアップされた高品質データセットと計算資源で訓練された新しい形状基盤モデル「LATTICE」を導入した、3D拡散モデルのアップグレード版。形状とテクスチャの両方の生成能力を大幅に向上させ、極めて詳細な幾何学的ディテールを持つ高品質な3Dアセットを提供します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2506.16504'
+  repo: tencent-hunyuan/hunyuan3d-2
 - id: hunyuan3d-2-fdc17d
   title: Hunyuan3D-2
   area: gen-3d
@@ -12078,6 +12618,35 @@ entries:
   date_added: '2026-06-24'
   source: agent
   arxiv_id: '2511.16624'
+- id: sparseflex-b7190e
+  title: SparseFlex
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.21732
+    github: https://github.com/VAST-AI-Research/TripoSF
+  authors:
+  - Xianglong He
+  - Zi-Xin Zou
+  - Chia-Hao Chen
+  - Yuan-Chen Guo
+  - Ding Liang
+  - Chun Yuan
+  - Wanli Ouyang
+  - Yan-Pei Cao
+  year: 2025
+  tags:
+  - isosurface
+  - mesh
+  - reconstruction
+  - topology
+  summary: A sparse-structured isosurface representation that enables differentiable mesh reconstruction at high resolutions directly from rendering losses. It supports creating high-fidelity 3D meshes with arbitrary topology, including open surfaces and complex interiors, without requiring costly watertight conversions.
+  summary_ja: レンダリング損失から直接、高解像度で微分可能なメッシュ再構成を可能にする、疎構造の等値面表現技術。コストのかかる水密（watertight）変換を必要とせず、開いたサーフェスや複雑な内部構造を含む、任意のトポロジーを持つ高品質な3Dメッシュの作成をサポートします。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2503.21732'
+  repo: vast-ai-research/triposf
 - id: step1x-3d-844ec7
   title: Step1X-3D
   area: gen-3d
@@ -12133,6 +12702,34 @@ entries:
   thumbnail: assets/thumbnails/triposg-023c1d.png
   date_added: '2026-06-13'
   source: seed
+  repo: vast-ai-research/triposg
+- id: triposg-456990
+  title: TripoSG
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.06608
+    github: https://github.com/VAST-AI-Research/TripoSG
+  authors:
+  - Yangguang Li
+  - Zi-Xin Zou
+  - Zexiang Liu
+  - Dehu Wang
+  - Yuan Liang
+  - Zhipeng Yu
+  - Xingchao Liu
+  - Yuan-Chen Guo
+  year: 2025
+  tags:
+  - mesh
+  - reconstruction
+  - rectified-flow
+  summary: A high-fidelity 3D shape synthesis framework based on large-scale rectified flow models. It addresses the limitations of 3D data scale and complexity, enabling rapid and high-quality reconstruction of detailed 3D meshes from single-view images.
+  summary_ja: 大規模なレクティファイドフローモデル（Rectified Flow Models）に基づく、高品質な3D形状合成フレームワーク。3Dデータの規模や複雑さの制限を克服し、単一視点の画像から詳細な3Dメッシュを高速かつ高品質に再構成します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2502.06608'
   repo: vast-ai-research/triposg
 - id: unilat3d-9947a7
   title: UniLat3D
@@ -13050,6 +13647,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: czzzzh/freeart3d
+- id: freemesh-boosting-mesh-generation-with-coordinates-merging-1326bf
+  title: 'FreeMesh: Boosting Mesh Generation with Coordinates Merging'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.13573
+    github: https://github.com/hitcslj/FreeMesh
+  authors:
+  - Jian Liu
+  - Haohan Weng
+  - Biwen Lei
+  - Xianghui Yang
+  - Zibo Zhao
+  - Zhuo Chen
+  - Song Guo
+  - Tao Han
+  year: 2025
+  tags:
+  - autoregressive
+  - mesh
+  - tokenization
+  summary: A plug-and-play tokenization technique called coordinate merging that optimizes mesh serialization sequences, significantly boosting the efficiency and quality of autoregressive mesh generation.
+  summary_ja: メッシュのシリアル化シーケンスを最適化する「座標マージ」と呼ばれるプラグアンドプレイのトークン化技術。自己回帰型メッシュ生成の効率と品質を大幅に向上させます。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2505.13573'
+  repo: hitcslj/freemesh
 - id: geometry-distributions-a4887b
   title: Geometry Distributions
   area: gen-3d
@@ -13088,6 +13713,62 @@ entries:
   source: seed
   arxiv_id: '2504.07943'
   repo: vast-ai-research/holopart
+- id: mesh-rft-enhancing-mesh-generation-via-fine-grained-reinforc-3dbe72
+  title: 'Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.16761
+    github: https://github.com/hitcslj/Mesh-RFT
+  authors:
+  - Jian Liu
+  - Jing Xu
+  - Song Guo
+  - Jing Li
+  - Jingfeng Guo
+  - Jiaao Yu
+  - Haohan Weng
+  - Biwen Lei
+  year: 2025
+  tags:
+  - fine-tuning
+  - mesh
+  - reinforcement-learning
+  summary: A fine-grained reinforcement fine-tuning framework for 3D mesh generation that employs Masked Direct Preference Optimization (M-DPO) to enable localized refinement via quality-aware face masking.
+  summary_ja: 品質を考慮したフェースマスキングを介して局所的な洗練を可能にする、Masked Direct Preference Optimization (M-DPO) を採用した3Dメッシュ生成向けの細粒度強化学習ファインチューニングフレームワーク。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2505.16761'
+  repo: hitcslj/mesh-rft
+- id: meshcraft-exploring-efficient-and-controllable-mesh-generati-73fe6e
+  title: 'MeshCraft: Exploring Efficient and Controllable Mesh Generation with Flow-based DiTs'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.23022
+    github: https://github.com/XianglongHe/MeshCraft
+  authors:
+  - Xianglong He
+  - Junyi Chen
+  - Di Huang
+  - Zexiang Liu
+  - Xiaoshui Huang
+  - Wanli Ouyang
+  - Chun Yuan
+  - Yangguang Li
+  year: 2025
+  tags:
+  - diffusion
+  - dit
+  - mesh
+  summary: A framework for efficient and controllable 3D mesh generation using flow-based diffusion transformers (DiTs), bypassing the slow token-by-token prediction of autoregressive methods.
+  summary_ja: フローベースの拡散トランスフォーマー（DiT）を使用して、効率的かつ制御可能な3Dメッシュ生成を実現するフレームワーク。自己回帰手法の遅いトークンごとの予測を回避します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2503.23022'
+  repo: xianglonghe/meshcraft
 - id: meshllm-031ed9
   title: MeshLLM
   area: gen-3d
@@ -13117,6 +13798,34 @@ entries:
   source: agent
   arxiv_id: '2508.01242'
   repo: fangkang515/meshllm
+- id: meshripple-structured-autoregressive-generation-of-artist-me-011ba2
+  title: 'MeshRipple: Structured Autoregressive Generation of Artist-Meshes'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.07514
+    github: https://github.com/MayMhappy/MeshRipple
+  authors:
+  - Junkai Lin
+  - Hang Long
+  - Huipeng Guo
+  - Jielei Zhang
+  - JiaYi Yang
+  - Tianle Guo
+  - Yang Yang
+  - Jianwen Li
+  year: 2025
+  tags:
+  - autoregressive
+  - generation
+  - mesh
+  summary: A structured autoregressive mesh generation framework that expands a mesh outward from an active generation frontier like a ripple on a surface, preserving long-range geometric dependencies and avoiding holes or fragmented components.
+  summary_ja: メッシュの生成境界から波紋（リップル）のように外側へ拡張しながら生成する、構造化自己回帰型メッシュ生成フレームワーク。長距離の幾何学的依存関係を維持し、穴や断片化されたコンポーネントの発生を防ぎます。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2512.07514'
+  repo: maymhappy/meshripple
 - id: nabla-r2d3-b41532
   title: Nabla-R2D3
   area: gen-3d
@@ -13993,6 +14702,35 @@ entries:
   source: agent
   arxiv_id: '2601.03252'
   repo: zju3dv/infinidepth
+- id: dens3r-a-foundation-model-for-3d-geometry-prediction-537cd4
+  title: 'Dens3R: A Foundation Model for 3D Geometry Prediction'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.16290
+    github: https://github.com/G-1nOnly/Dens3R
+  authors:
+  - Xianze Fang
+  - Jingnan Gao
+  - Zhe Wang
+  - Zhuo Chen
+  - Xingyu Ren
+  - Jiangjing Lyu
+  - Qiaomu Ren
+  - Zhonglei Yang
+  year: 2025
+  tags:
+  - 3d-reconstruction
+  - depth
+  - foundation-model
+  - normal-map
+  summary: A unified geometric foundation model that jointly predicts depth, surface normals, and point maps from single images. By modeling the inherent correlations between these geometric quantities, it ensures cross-modality consistency and improves reconstruction accuracy.
+  summary_ja: 単一画像から深度、法線マップ、ポイントマップを共同で予測する統合型幾何学的基礎モデル。これらの幾何学的特徴の固有の相関関係をモデル化することで、モダリティ間の一貫性を確保し、再構成精度を向上させます。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2507.16290'
+  repo: g-1nonly/dens3r
 - id: depth-anything-3-09521d
   title: Depth Anything 3
   area: gen-3d
@@ -14073,6 +14811,32 @@ entries:
   source: agent
   arxiv_id: '2512.01030'
   repo: envision-research/lotus-2
+- id: normalcrafter-learning-temporally-consistent-normals-from-vi-fe3d1f
+  title: 'NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.11427
+    github: https://github.com/Binyr/NormalCrafter
+  authors:
+  - Yanrui Bin
+  - Wenbo Hu
+  - Haoyuan Wang
+  - Xinya Chen
+  - Bing Wang
+  year: 2025
+  tags:
+  - diffusion
+  - normal-map
+  - temporal-consistency
+  - video-normal
+  summary: A video-based surface normal estimation framework that leverages the temporal priors of video diffusion models. It introduces semantic feature alignment to ensure high-fidelity and temporally coherent normal maps across video sequences.
+  summary_ja: ビデオ拡散モデルの時間的事前知識を活用する、ビデオベースの法線マップ推定フレームワーク。セマンティック特徴アライメントを導入することで、ビデオシーケンス全体で高忠実度かつ時間的に一貫した法線マップの生成を実現します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2504.11427'
+  repo: binyr/normalcrafter
 - id: unidepthv2-5e9284
   title: UniDepthV2
   area: gen-3d
@@ -14129,6 +14893,35 @@ entries:
   source: agent
   arxiv_id: '2501.12375'
   repo: depthanything/video-depth-anything
+- id: chronodepth-learning-temporally-consistent-video-depth-from-2693bc
+  title: 'ChronoDepth: Learning Temporally Consistent Video Depth from Video Diffusion Priors'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.01493
+    github: https://github.com/jiahao-shao1/ChronoDepth
+  authors:
+  - Jiahao Shao
+  - Yuanbo Yang
+  - Hongyu Zhou
+  - Youmin Zhang
+  - Yujun Shen
+  - Vitor Guizilini
+  - Yue Wang
+  - Matteo Poggi
+  year: 2024
+  tags:
+  - depth
+  - diffusion
+  - temporal-consistency
+  - video-depth
+  summary: A video depth estimation framework that reformulates depth prediction into a conditional generation problem using video diffusion priors. It achieves high temporal consistency and per-frame spatial accuracy across long video sequences.
+  summary_ja: ビデオ拡散モデルの事前知識を利用して、深度予測を条件付き生成問題として再定式化するビデオ深度推定フレームワーク。長時間のビデオシーケンス全体で、高い時間的一貫性とフレームごとの空間精度を実現します。
+  date_added: '2026-07-22'
+  source: agent
+  arxiv_id: '2406.01493'
+  repo: jiahao-shao1/chronodepth
 - id: depth-anything-v2-ddec49
   title: Depth Anything V2
   area: gen-3d
