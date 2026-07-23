@@ -15343,6 +15343,40 @@ entries:
   source: agent
   arxiv_id: '2605.30263'
   repo: shengshu-ai/minwm
+- id: sage-5f174b
+  title: SAGE
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.10116
+    github: https://github.com/NVlabs/sage
+    project: https://nvlabs.github.io/sage/
+  authors:
+  - Hongchi Xia
+  - Xuan Li
+  - Zhaoshuo Li
+  - Qianli Ma
+  - Jiashu Xu
+  - Ming-Yu Liu
+  - Yin Cui
+  - Tsung-Yi Lin
+  - Wei-Chiu Ma
+  - Shenlong Wang
+  - Shuran Song
+  - Fangyin Wei
+  year: 2026
+  tags:
+  - agentic
+  - embodied-ai
+  - layout
+  - scene-generation
+  summary: An agentic framework by NVIDIA that automatically generates simulation-ready, realistic, and physically stable 3D environments from arbitrary user prompts. It couples layout and object generators with critics evaluating semantic plausibility, visual realism, and physical stability.
+  summary_ja: 任意のユーザープロンプトから、シミュレーション対応で現実的かつ物理的に安定した3D環境を自動生成するNVIDIAのエージェント型フレームワーク。レイアウトやオブジェクトの生成器と、意味的妥当性・視覚的リアルさ・物理的安定性を評価するクリティックを組み合わせ、自己修正を繰り返しながらシーンを構築します。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2602.10116'
+  repo: nvlabs/sage
 - id: syncity-3000-9ba1b2
   title: SynCity 3000
   area: gen-3d
@@ -15368,6 +15402,65 @@ entries:
   source: agent
   arxiv_id: '2607.05392'
   repo: paulengstler/syncity-3k
+- id: bloomscene-2eb391
+  title: BloomScene
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.10462
+    github: https://github.com/SparklingH/BloomScene
+  authors:
+  - Xiaolu Hou
+  - Mingcheng Li
+  - Dingkang Yang
+  - Jiawei Chen
+  - Ziyun Qian
+  - Xiao Zhao
+  - Yue Jiang
+  - Jinjie Wei
+  - Qingyao Xu
+  - Lihua Zhang
+  year: 2025
+  tags:
+  - 3dgs
+  - image-to-3d
+  - scene-generation
+  - text-to-3d
+  summary: A lightweight structured 3D Gaussian Splatting framework for crossmodal scene generation from text or image inputs. It addresses storage overhead and geometric distortion issues in 3D scene generation by introducing a structured Gaussian representation.
+  summary_ja: テキストや画像から高品質な3Dシーンを生成する、軽量かつ構造化された3D Gaussian Splattingフレームワーク。従来の3Dシーン生成におけるストレージ容量の肥大化や幾何学的歪みの課題を解決します。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2501.10462'
+  repo: sparklingh/bloomscene
+- id: flashworld-e18d82
+  title: FlashWorld
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.13678
+    github: https://github.com/imlixinyang/FlashWorld
+    project: https://imlixinyang.github.io/FlashWorld-Project-Page/
+  authors:
+  - Xinyang Li
+  - Tengfei Wang
+  - Zixiao Gu
+  - Shengchuan Zhang
+  - Chunchao Guo
+  - Liujuan Cao
+  year: 2025
+  tags:
+  - 3dgs
+  - fast-generation
+  - image-to-3d
+  - text-to-3d
+  summary: A fast and high-quality 3D scene generation model that produces 3D scenes from a single image or text prompt in seconds. It uses a cross-mode post-training distillation strategy to transfer high visual fidelity from a multi-view-oriented diffusion model to a 3D-consistent multi-view generative model.
+  summary_ja: 単一の画像またはテキストプロンプトから、わずか数秒で高品質な3Dシーンを生成する高速モデル。マルチビュー指向の拡散モデルから3D一貫性のあるマルチビュー生成モデルへ視覚的忠実度を転送する、クロスモード事後学習蒸留戦略を採用しています。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2510.13678'
+  repo: imlixinyang/flashworld
 - id: hunyuanworld-2-0-hy-world-2-0-58e9d2
   title: HunyuanWorld 2.0 (HY-World-2.0)
   area: gen-3d
@@ -15418,6 +15511,32 @@ entries:
   source: agent
   arxiv_id: '2509.19296'
   repo: nv-tlabs/lyra
+- id: scenegen-3afc89
+  title: SceneGen
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.15769
+    github: https://github.com/Mengmouxu/SceneGen
+    project: https://mengmouxu.github.io/SceneGen/
+  authors:
+  - Yanxu Meng
+  - Haoning Wu
+  - Ya Zhang
+  - Weidi Xie
+  year: 2025
+  tags:
+  - feedforward
+  - image-to-3d
+  - multi-object
+  - scene-generation
+  summary: A feedforward framework for generating multiple 3D assets from a single scene image and its corresponding object masks. It simultaneously produces geometry, texture, and relative spatial positions for multiple objects without requiring optimization or asset retrieval.
+  summary_ja: 単一のシーン画像と対応するオブジェクトマスクから、複数の3Dアセットを一度のフィードフォワード処理で生成するフレームワーク。最適化やアセット検索を必要とせず、複数のオブジェクトの形状、テクスチャ、および相対的な空間配置を同時に出力します。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2508.15769'
+  repo: mengmouxu/scenegen
 - id: spatialgen-edb768
   title: SpatialGen
   area: gen-3d
@@ -15623,6 +15742,36 @@ entries:
   source: agent
   arxiv_id: '2412.03558'
   repo: vast-ai-research/midi-3d
+- id: realmdreamer-ec40a4
+  title: RealmDreamer
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.07199
+    github: https://github.com/jaidevshriram/realmdreamer
+    project: https://realmdreamer.github.io/
+  authors:
+  - Jaidev Shriram
+  - Jamie Watson
+  - Sara Falcone
+  - Filippo Aleotti
+  - Ana-Maria Simelli
+  - Michael Firman
+  - Oisin Mac Aodha
+  - Gabriel Brostow
+  year: 2024
+  tags:
+  - 3dgs
+  - inpainting
+  - scene-generation
+  - text-to-3d
+  summary: A technique for generating general forward-facing 3D scenes from text descriptions by optimizing a 3D Gaussian Splatting representation using pretrained 2D image-conditional and depth diffusion models.
+  summary_ja: 事前学習済みの2D画像条件付き拡散モデルと深度拡散モデルを用いて3D Gaussian Splatting表現を最適化することにより、テキスト記述から一般的な前方3Dシーンを生成する手法。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2404.07199'
+  repo: jaidevshriram/realmdreamer
 - id: scenecraft-d816b2
   title: SceneCraft
   area: gen-3d
@@ -15972,6 +16121,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: chronos123/spnd
+- id: tandit-tangent-plane-diffusion-transformer-for-high-quality-7def0e
+  title: 'TanDiT: Tangent-Plane Diffusion Transformer for High-Quality 360° Panorama Generation'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.21681
+    project: https://cyberiada.github.io/TanDiT/
+    paper: https://arxiv.org/abs/2506.21681
+  authors:
+  - Hakan Çapuk
+  - Andrew Bond
+  - Muhammed Burak Kızıl
+  - Emir Göçen
+  - Erkut Erdem
+  - Aykut Erdem
+  year: 2025
+  tags:
+  - diffusion
+  - panorama
+  - skybox
+  - transformer
+  summary: A diffusion-based framework for high-quality 360° panorama generation that operates on structured grids of tangent-plane images rather than equirectangular projections, enabling spatially coherent and distortion-free synthesis.
+  summary_ja: 正距円筒図法やキューブマップの代わりに、接平面画像の構造化グリッド上で直接動作することで、歪みが少なく空間的に一貫した高品質な360度パノラマ画像を生成する拡散ベースのフレームワーク。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2506.21681'
 - id: 360dvd-2e268c
   title: 360DVD
   area: gen-3d
@@ -16033,6 +16209,31 @@ entries:
   source: agent
   arxiv_id: '2410.24203'
   repo: zju3dv/diffpano
+- id: imagine360-immersive-360-video-generation-from-perspective-a-d3fa37
+  title: 'Imagine360: Immersive 360 Video Generation from Perspective Anchor'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.03552
+    github: https://github.com/3DTopia/Imagine360
+    project: https://ys-imtech.github.io/projects/Imagine360/
+    paper: https://arxiv.org/abs/2412.03552
+  authors:
+  - Jing Tan
+  - et al.
+  year: 2024
+  tags:
+  - 360-video
+  - panorama
+  - skybox
+  - video-generation
+  summary: A framework designed to lift standard perspective videos into immersive 360° videos, utilizing dual-branch denoising, antipodal masks, and elevation-aware designs to learn fine-grained spherical visual and motion patterns.
+  summary_ja: 2分岐デノイジング、対蹠マスク、および仰角を考慮した設計を用いて、標準的なパースペクティブ動画を没入感のある360度動画へと変換し、詳細な球面の視覚・運動パターンを学習するフレームワーク。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2412.03552'
+  repo: 3dtopia/imagine360
 - id: panfusion-f3e7c1
   title: PanFusion
   area: gen-3d
@@ -17271,6 +17472,31 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: zebinhe/materialmvp
+- id: materialmvp-illumination-invariant-material-generation-via-m-dc0aaf
+  title: 'MaterialMVP: Illumination-Invariant Material Generation via Multi-view PBR Diffusion'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.10289
+    github: https://github.com/ZebinHe/MaterialMVP
+    project: https://zebinhe.github.io/MaterialMVP/
+  authors:
+  - Zebin He
+  - Yongwei Chen
+  - Shengfeng He
+  year: 2025
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: A one-stage multi-view PBR diffusion model that generates high-quality, illumination-invariant PBR textures (albedo, metallic, roughness, normal) for 3D meshes from text or image prompts.
+  summary_ja: テキストや画像プロンプトから、3Dメッシュに対して高品質かつ照明変化に影響されないPBRテクスチャ（アルベド、メタリック、ラフネス、ノーマル）を生成する、ワンステージのマルチビューPBR拡散モデル。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2503.10289'
+  repo: zebinhe/materialmvp
 - id: matlat-a98e97
   title: MatLat
   area: gen-3d
@@ -17475,6 +17701,33 @@ entries:
   source: agent
   arxiv_id: '2405.17176'
   repo: zzzyuqing/dreammat
+- id: material-anything-generating-materials-for-any-3d-object-via-e8106e
+  title: 'Material Anything: Generating Materials for Any 3D Object via Diffusion'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15138
+    github: https://github.com/3DTopia/MaterialAnything
+    project: https://xhuangcv.github.io/MaterialAnything/
+  authors:
+  - Xin Huang
+  - Zhiyu Pan
+  - Yongwei Chen
+  - Zhibin Wang
+  - Shengfeng He
+  year: 2024
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: A fully-automated, unified diffusion framework designed to generate physically-based materials for diverse 3D objects under varying lighting conditions, supporting texture-less, albedo-only, and scanned meshes.
+  summary_ja: テクスチャなし、アルベドのみ、あるいはスキャンされたメッシュなど、多様な3Dオブジェクトに対して、様々な照明条件下で物理ベースのマテリアル（PBR）を生成する、完全自動化された統合拡散フレームワーク。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2411.15138'
+  repo: 3dtopia/materialanything
 - id: matfusion-2aa0e6
   title: MatFusion
   area: gen-3d
@@ -17796,6 +18049,74 @@ entries:
   source: agent
   arxiv_id: '2506.07020'
   repo: qiujiedong/crossgen
+- id: quadgpt-native-quadrilateral-mesh-generation-with-autoregres-a4c4e2
+  title: 'QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.21420
+    project: https://hitcslj.github.io/QuadGPT/
+  authors:
+  - Jian Liu
+  - Chunshi Wang
+  - Song Guo
+  year: 2025
+  tags:
+  - mesh-generation
+  - quad-mesh
+  - retopology
+  summary: An autoregressive framework that natively generates quadrilateral-dominant meshes with clean, artist-friendly edge flow directly from point clouds, bypassing the need for post-processing triangle-to-quad conversion.
+  summary_ja: 三角メッシュから四角メッシュへの変換処理を必要とせず、ポイントクラウドからクリーンでアーティストフレンドリーなエッジフローを持つ四角形優位のメッシュを直接生成する自己回帰フレームワーク。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2509.21420'
+- id: seamgpt-auto-regressive-surface-cutting-d5e036
+  title: 'SeamGPT: Auto-Regressive Surface Cutting'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.18017
+    project: https://victorcheung12.github.io/seamgpt/
+  authors:
+  - Victor Cheung
+  - Rui Xu
+  - Shuangmin Chen
+  - Shiqing Xin
+  - Changhe Tu
+  year: 2025
+  tags:
+  - mesh-cutting
+  - seam-generation
+  - uv
+  summary: An auto-regressive model that generates surface cutting seams for UV parameterization and mesh decomposition by mimicking professional artist workflows, avoiding overly fragmented atlases.
+  summary_ja: プロのアーティストのワークフローを模倣することで、UV展開やメッシュ分割のためのサーフェスカットライン（シーム）を生成する自己回帰モデル。過度に断片化されたアトラスの生成を防ぎます。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2506.18017'
+- id: flatten-anything-unsupervised-neural-surface-parameterizatio-48cd17
+  title: 'Flatten Anything: Unsupervised Neural Surface Parameterization'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.14633
+    github: https://github.com/keeganhk/FlattenAnything
+  authors:
+  - Keegan Harris
+  - Hao-Kang Zhang
+  year: 2024
+  tags:
+  - parameterization
+  - unwrapping
+  - uv
+  summary: An unsupervised neural network architecture (Flatten Anything Model, or FAM) for global free-boundary surface parameterization and UV unwrapping, building point-to-point mappings between 3D surfaces and 2D UV coordinates.
+  summary_ja: 3Dサーフェスと2DのUV座標間のポイント・ツー・ポイント写像を構築する、グローバルフリー境界サーフェスパラメータ化およびUV展開のための自己教師ありニューラルネットワークアーキテクチャ（FAM）。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2405.14633'
+  repo: keeganhk/flattenanything
 - id: partuv-part-based-uv-unwrapping-a333b3
   title: 'PartUV: Part-Based UV Unwrapping'
   area: gen-3d
@@ -17832,6 +18153,30 @@ entries:
   date_added: '2026-07-02'
   source: agent
   repo: noio/pixel-unwrapper
+- id: nuvo-neural-uv-mapping-for-unruly-3d-representations-e0aff2
+  title: 'Nuvo: Neural UV Mapping for Unruly 3D Representations'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.05283
+    project: https://pratulsrinivasan.github.io/nuvo/
+  authors:
+  - Pratul Srinivasan
+  - Stephan J. Garbin
+  - Dor Verbin
+  - Jonathan T. Barron
+  - Ben Mildenhall
+  year: 2023
+  tags:
+  - nerf
+  - parameterization
+  - uv
+  summary: A neural field-based UV mapping method designed to recover editable UV mappings for challenging, unruly geometry such as volumetric representations from NeRFs or meshes extracted from text-to-3D models.
+  summary_ja: NeRFなどのボリューム表現やText-to-3Dモデルから抽出されたメッシュなど、扱いにくい3D形状に対して編集可能なUVマッピングを復元する、ニューラルフィールドベースのUVマッピング手法。
+  date_added: '2026-07-23'
+  source: agent
+  arxiv_id: '2312.05283'
 - id: autoremesher-5ccddd
   title: AutoRemesher
   area: gen-3d
@@ -18194,6 +18539,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2603.14925'
+- id: honkai-star-rail-toon-shader-aff52e
+  title: Honkai Star Rail Toon Shader
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/Gaolingx/HonkaiStarRailToonShader
+  year: 2025
+  tags:
+  - anime
+  - cel-shading
+  - toon-shader
+  - unity
+  - urp
+  summary: 'A custom toon shader for Unity URP designed to replicate the anime-style rendering and cel-shading aesthetics of Honkai: Star Rail.'
+  summary_ja: 『崩壊：スターレイル』のアニメ調レンダリングとセルシェーディングの美学を再現するために設計された、Unity URP用のカスタムトゥーンシェーダー。
+  date_added: '2026-07-23'
+  source: agent
+  repo: gaolingx/honkaistarrailtoonshader
 - id: diffutoon-e84cd6
   title: Diffutoon
   area: image-2d

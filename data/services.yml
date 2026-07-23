@@ -1452,6 +1452,23 @@ entries:
   thumbnail: assets/thumbnails/360-hextile-c86d89.png
   date_added: '2026-06-25'
   source: agent
+- id: skybox-ai-blockade-labs-a12daf
+  title: Skybox AI (Blockade Labs)
+  area: gen-3d
+  task: skybox-panorama
+  kind: proprietary
+  links:
+    website: https://www.blockadelabs.com/
+  year: 2023
+  tags:
+  - commercial
+  - game-dev
+  - panorama
+  - skybox
+  summary: A widely used commercial AI tool that generates high-resolution, seamless 360° equirectangular skyboxes and environments from text prompts, sketches, or style templates, ready for export to game engines like Unity and Unreal.
+  summary_ja: テキストプロンプトやスケッチ、スタイルテンプレートから高解像度でシームレスな360度正距円筒図法のスカイボックスや環境を生成し、UnityやUnreal Engineなどのゲームエンジンにエクスポート可能な商用AIツール。
+  date_added: '2026-07-23'
+  source: agent
 - id: skybox-ai-ce17a3
   title: Skybox AI
   area: gen-3d
