@@ -1803,6 +1803,23 @@ entries:
   thumbnail: assets/thumbnails/psoft-pencil-4-d760d5.png
   date_added: '2026-07-16'
   source: agent
+- id: adobe-firefly-generative-fill-81cbd2
+  title: Adobe Firefly Generative Fill
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/photoshop/generative-fill.html
+  year: 2023
+  tags:
+  - commercial
+  - inpainting
+  - outpainting
+  - photoshop
+  summary: Adobe's commercial generative AI tool integrated directly into Photoshop, allowing artists to add, extend, or remove content from images using simple text prompts with professional-grade control and licensing safety.
+  summary_ja: Photoshopに直接統合されたAdobeの商用生成AIツール。シンプルなテキストプロンプトを使用して、プロフェッショナルな制御とライセンスの安全性を備えた画像の追加、拡張、削除を可能にする。
+  date_added: '2026-07-24'
+  source: agent
 - id: clipdrop-f01b6a
   title: Clipdrop
   area: image-2d
@@ -1820,6 +1837,23 @@ entries:
   summary_ja: オブジェクト削除（Cleanup）、画像アウトペインティング（Uncrop）、リライティング、背景置換などの高度なツールを提供する、Stability AI/JasperによるAI搭載ビジュアル編集スイート。
   thumbnail: assets/thumbnails/clipdrop-f01b6a.png
   date_added: '2026-06-19'
+  source: agent
+- id: copainter-line-art-extraction-4eee5c
+  title: Copainter Line Art Extraction
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://www.copainter.ai/en/lineart
+  year: 2024
+  tags:
+  - illustration
+  - lineart
+  - proprietary
+  - sketch-cleanup
+  summary: An AI-powered web tool designed for digital artists that extracts clean line art from rough sketches or colored illustrations, facilitating the coloring and finishing workflow.
+  summary_ja: ラフスケッチや彩色済みのイラストからクリーンな線画を抽出する、デジタルアーティスト向けのAI搭載ウェブツール。
+  date_added: '2026-07-24'
   source: agent
 - id: freepik-pikaso-4b244d
   title: Freepik Pikaso
@@ -1945,6 +1979,23 @@ entries:
   summary_ja: 画像やイラストに高解像度のディテール、テクスチャ、鮮明さをインテリジェントに追加する、プレミアムな生成AIアップスケーラーおよびエンハンサー。
   thumbnail: assets/thumbnails/magnific-ai-282882.png
   date_added: '2026-06-26'
+  source: agent
+- id: topaz-gigapixel-ai-eb4df5
+  title: Topaz Gigapixel AI
+  area: image-2d
+  task: super-resolution
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-gigapixel
+  year: 2018
+  tags:
+  - desktop
+  - proprietary
+  - super-resolution
+  - upscaling
+  summary: An industry-standard proprietary desktop application for image upscaling and super-resolution. It uses deep learning models trained on diverse datasets to add realistic details and sharpness while enlarging images up to 600%.
+  summary_ja: 画像のアップスケーリングと超解像のための業界標準のプロプライエタリなデスクトップアプリケーション。多様なデータセットでトレーニングされたディープラーニングモデルを使用し、画像を最大600%拡大しながら、リアルなディテールと鮮明さを追加します。
+  date_added: '2026-07-24'
   source: agent
 - id: adobe-firefly-api-aa004e
   title: Adobe Firefly API

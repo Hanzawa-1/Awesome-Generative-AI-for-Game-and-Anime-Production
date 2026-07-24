@@ -19025,6 +19025,27 @@ entries:
   source: agent
   arxiv_id: '2509.21938'
   repo: mung3477/semanticcontrol
+- id: controlnet-controlnet-union-sdxl-066c5d
+  title: ControlNet++ (ControlNet-Union SDXL)
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/xinsir6/ControlNetPlus
+    hf: https://huggingface.co/xinsir/controlnet-union-sdxl-1.0
+  authors:
+  - xinsir6
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - sdxl
+  - union
+  summary: An all-in-one ControlNet architecture for Stable Diffusion XL (SDXL) that supports over 10 different control conditions (such as canny, openpose, depth, and lineart) within a single unified model without performance degradation.
+  summary_ja: 単一の統一モデル内で10種類以上の制御条件（canny、openpose、depth、lineartなど）を性能低下なしにサポートする、Stable Diffusion XL（SDXL）向けのオールインワンControlNetアーキテクチャ。
+  date_added: '2026-07-24'
+  source: agent
+  repo: xinsir6/controlnetplus
 - id: controlnext-powerful-and-efficient-control-for-image-and-vid-e54d0f
   title: 'ControlNeXt: Powerful and Efficient Control for Image and Video Generation'
   area: image-2d
@@ -19136,6 +19157,48 @@ entries:
   source: agent
   arxiv_id: '2401.07519'
   repo: instantx-research/instantid
+- id: mistocontrolnet-flux-dev-f657ae
+  title: MistoControlNet-Flux-dev
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/TheMistoAI/MistoControlNet-Flux-dev
+    hf: https://huggingface.co/TheMistoAI/MistoLine_Flux.dev
+  authors:
+  - TheMistoAI
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - flux
+  - lineart
+  summary: A collection of high-precision ControlNet models trained for the FLUX.1-dev model, including MistoLine for advanced line art and edge-based conditioning.
+  summary_ja: FLUX.1-devモデル向けに訓練された高精度なControlNetモデルのコレクション。高度な線画およびエッジベースのコンディショニングのためのMistoLineを含む。
+  date_added: '2026-07-24'
+  source: agent
+  repo: themistoai/mistocontrolnet-flux-dev
+- id: mistoline-baf5ce
+  title: MistoLine
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/TheMistoAI/MistoLine
+    hf: https://huggingface.co/TheMistoAI/MistoLine
+  authors:
+  - TheMistoAI
+  year: 2024
+  tags:
+  - anyline
+  - controlnet
+  - lineart
+  - sdxl
+  summary: A versatile and robust SDXL-ControlNet model designed for adaptable line art conditioning, utilizing the Anyline preprocessor to handle various sketch and line art styles with high precision.
+  summary_ja: 多様なスケッチや線画スタイルを高精度に処理するためにAnylineプリプロセッサを活用する、適応型線画コンディショニング向けに設計された汎用かつ堅牢なSDXL-ControlNetモデル。
+  date_added: '2026-07-24'
+  source: agent
+  repo: themistoai/mistoline
 - id: ominicontrol-minimal-and-universal-control-for-diffusion-tra-e3d2ef
   title: 'OminiControl: Minimal and Universal Control for Diffusion Transformer'
   area: image-2d
@@ -19191,6 +19254,28 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2404.06451'
+- id: stable-diffusion-3-5-large-controlnets-a973b2
+  title: Stable Diffusion 3.5 Large ControlNets
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/huggingface/diffusers
+    hf: https://huggingface.co/stabilityai/stable-diffusion-3.5-controlnets
+    website: https://stability.ai/news-updates/sd3-5-large-controlnets
+  authors:
+  - Stability AI
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - sd3.5
+  - stability-ai
+  summary: Official ControlNet models (including Blur, Canny, and Depth) released by Stability AI for Stable Diffusion 3.5 Large, enabling precise structural and spatial conditioning.
+  summary_ja: Stable Diffusion 3.5 Large向けにStability AIから公式リリースされた、Blur、Canny、Depthを含むControlNetモデル。精密な構造的・空間的コンディショニングを可能にする。
+  date_added: '2026-07-24'
+  source: agent
+  repo: huggingface/diffusers
 - id: videox-fun-9638ca
   title: VideoX-Fun
   area: image-2d
@@ -19482,6 +19567,31 @@ entries:
   date_added: '2026-07-03'
   source: agent
   arxiv_id: '2504.00996'
+- id: anytext2-990d22
+  title: AnyText2
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15245
+    github: https://github.com/tyxsspa/AnyText2
+  authors:
+  - Yuxiang Tuo
+  - Wangmeng Xiang
+  - Jia-Bin Huang
+  - et al.
+  year: 2024
+  tags:
+  - diffusion
+  - inpainting
+  - multilingual
+  - text-editing
+  summary: A multilingual visual text generation and editing model that enables precise control over text attributes (such as font, color, size, and orientation) while seamlessly inpainting or editing text within natural scene images.
+  summary_ja: 自然なシーン画像内のテキストをシームレスにインペインティング・編集しながら、フォント、色、サイズ、方向などのテキスト属性を精密に制御できる、多言語対応のビジュアルテキスト生成・編集モデル。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2411.15245'
+  repo: tyxsspa/anytext2
 - id: brushedit-051c0b
   title: BrushEdit
   area: image-2d
@@ -21190,6 +21300,30 @@ entries:
   source: agent
   arxiv_id: '2407.14026'
   repo: chanuku/semi_ref2sketch_code
+- id: teed-tiny-and-efficient-edge-detector-76bff9
+  title: TEED (Tiny and Efficient Edge Detector)
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.06468
+    github: https://github.com/xavysp/TEED
+  authors:
+  - Xavier Soria
+  - Yury S. Garcia
+  - Angel D. Sappa
+  year: 2023
+  tags:
+  - controlnet
+  - edge-detection
+  - lightweight
+  - lineart
+  summary: A lightweight convolutional neural network with only 58K parameters designed for fast, high-quality edge detection and line art extraction, widely used in ControlNet preprocessors like Anyline.
+  summary_ja: わずか58Kのパラメータを持つ軽量な畳み込みニューラルネットワークで、高速かつ高品質なエッジ検出と線画抽出を可能にし、AnylineなどのControlNetプリプロセッサに広く採用されています。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2308.06468'
+  repo: xavysp/teed
 - id: informative-drawings-7d9da6
   title: Informative Drawings
   area: image-2d
@@ -21256,6 +21390,33 @@ entries:
   thumbnail: assets/thumbnails/anime2sketch-1e0d95.png
   date_added: '2026-06-13'
   source: seed
+  repo: mukosame/anime2sketch
+- id: anime2sketch-efff89
+  title: Anime2Sketch
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2104.05703
+    github: https://github.com/Mukosame/Anime2Sketch
+  authors:
+  - Xiaoyu Xiang
+  - Ding Liu
+  - Xiao Yang
+  - Yiheng Zhu
+  - Xiaohui Shen
+  - Jan P. Allebach
+  year: 2021
+  tags:
+  - anime
+  - lineart
+  - manga
+  - sketch-extraction
+  summary: A sketch and line art extractor optimized for anime illustrations, manga, and digital art, based on adversarial open-domain adaptation.
+  summary_ja: 敵対的オープンドメイン適応に基づき、アニメイラスト、マンガ、デジタルアートに最適化されたスケッチおよび線画抽出ツール。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2104.05703'
   repo: mukosame/anime2sketch
 - id: general-virtual-sketching-framework-for-vector-line-art-6b3285
   title: General Virtual Sketching Framework for Vector Line Art
@@ -21516,6 +21677,51 @@ entries:
   source: agent
   arxiv_id: '2403.12036'
   repo: gaparmar/img2img-turbo
+- id: sketch-guided-scene-image-generation-2cce6d
+  title: Sketch-Guided Scene Image Generation
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.06469
+    paper: https://arxiv.org/pdf/2407.06469.pdf
+  authors:
+  - Tianyu Zhang
+  - Xiaoxuan Xie
+  - Xusheng Du
+  - Haoran Xie
+  year: 2024
+  tags:
+  - diffusion
+  - scene-generation
+  - sketch
+  summary: A framework that decomposes the task of generating complex scene images from hand-drawn sketches into object-level cross-domain generation and scene-level image construction, ensuring high fidelity and natural composition.
+  summary_ja: 手書きのスケッチから複雑なシーン画像を生成するタスクを、オブジェクトレベルのクロスドメイン生成とシーンレベルの画像構築に分解し、高い忠実度と自然な合成を実現するフレームワーク。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2407.06469'
+- id: training-free-sketch-guided-diffusion-with-latent-optimizati-54a9c5
+  title: Training-Free Sketch-Guided Diffusion with Latent Optimization
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.00313
+    paper: https://arxiv.org/pdf/2409.00313.pdf
+  authors:
+  - Sandra Zhang Ding
+  - Jiafeng Mao
+  - Kiyoharu Aizawa
+  year: 2024
+  tags:
+  - diffusion
+  - sketch
+  - training-free
+  summary: A training-free pipeline that extends pre-trained text-to-image diffusion models to incorporate sketch conditioning. It uses latent optimization at each intermediate step to align the cross-attention maps of the generation process with the reference sketch structure.
+  summary_ja: 事前学習済みのテキストから画像への拡散モデルを拡張し、スケッチによる条件付けを組み込むトレーニングフリーのパイプライン。各中間ステップで潜在変数の最適化を行い、生成プロセスのクロスアテンションマップをリファレンススケッチの構造に整合させます。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2409.00313'
 - id: diffsketching-17af75
   title: DiffSketching
   area: image-2d
@@ -21822,6 +22028,33 @@ entries:
   source: agent
   arxiv_id: '2601.20175'
   repo: tele-ai/telestyle
+- id: telestyle-v2-beyond-content-preserving-style-transfer-with-s-d6d17a
+  title: 'TeleStyle V2: Beyond Content-Preserving Style Transfer with Self-Distillation and Distribution-Matching-Distillation'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.20709
+    github: https://github.com/Tele-AI/TeleStyleV2
+    hf: https://huggingface.co/Tele-AI/TeleStyleV2
+  authors:
+  - Shiwen Zhang
+  - Yifan Xu
+  - Haibin Huang
+  - Chi Zhang
+  - Xuelong Li
+  year: 2026
+  tags:
+  - dit
+  - lora
+  - style-transfer
+  - video-style-transfer
+  summary: An advanced image and video style transfer model that achieves content-preserving style transfer and text-guided image editing in a single run. It uses a LoRA-driven DiT architecture with self-distillation and distribution-matching-distillation (DMD) to ensure high-fidelity style transfer with minimal content leakage.
+  summary_ja: 自己蒸留と分布一致蒸留（DMD）を用いて、コンテンツ保存型のスタイル転送とテキスト誘導型の画像編集を1回で実行できる高度な画像・動画スタイル転送モデル。LoRA駆動のDiTアーキテクチャを採用し、コンテンツの漏洩を最小限に抑えながら高精度なスタイル転送を実現します。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2606.20709'
+  repo: tele-ai/telestylev2
 - id: consislora-enhancing-content-and-style-consistency-for-lora-6ac3e6
   title: 'ConsisLoRA: Enhancing Content and Style Consistency for LoRA-based Style Transfer'
   area: image-2d
@@ -22211,6 +22444,36 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2309.01770'
+- id: styledrop-text-to-image-generation-in-any-style-d9ffc1
+  title: 'StyleDrop: Text-to-Image Generation in Any Style'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.00983
+    github: https://github.com/aim-uofa/StyleDrop-PyTorch
+  authors:
+  - Kihyuk Sohn
+  - Hao Zhang
+  - Jose Lezama
+  - Luisa Polania
+  - Huiwen Chang
+  - Han Zhang
+  - Yalou Huang
+  - Irina Belousova
+  - Jianchao Yang
+  - Dilip Krishnan
+  year: 2023
+  tags:
+  - adapter
+  - peft
+  - style-transfer
+  summary: A method that enables text-to-image generation in any specific style using a text-to-image model. It leverages adapter-based parameter-efficient fine-tuning (PEFT) to capture fine-grained details of a style, such as color schemes, shading, and brushstrokes, from a single or few reference images.
+  summary_ja: テキストから画像への生成モデルを用いて、任意の特定のスタイルで画像を合成する手法。アダプターベースのパラメータ効率の良い微調整（PEFT）を活用し、1枚または数枚の参照画像から配色、陰影、筆致などの詳細なスタイル特徴を捉えます。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2306.00983'
+  repo: aim-uofa/styledrop-pytorch
 - id: apisr-20fd46
   title: APISR
   area: image-2d
@@ -23199,6 +23462,44 @@ entries:
   source: agent
   arxiv_id: '2501.17811'
   repo: deepseek-ai/janus
+- id: lumina-image-2-0-a-unified-and-efficient-image-generative-fr-5a584e
+  title: 'Lumina-Image 2.0: A Unified and Efficient Image Generative Framework'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.21758
+    github: https://github.com/Alpha-VLLM/Lumina-Image-2.0
+    hf: https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0
+  authors:
+  - Qi Qin
+  - Le Zhuo
+  - Yi Xin
+  - Ruoyi Du
+  - Zhen Li
+  - Bin Fu
+  - Yiting Lu
+  - Xinyue Li
+  - Dongyang Liu
+  - Xiangyang Zhu
+  - Will Beddow
+  - Erwann Millon
+  - Victor Perez
+  - Wenhai Wang
+  - Yu Qiao
+  - Bo Zhang
+  - Xiaohong Liu
+  year: 2025
+  tags:
+  - diffusion
+  - flow-matching
+  - transformer
+  summary: Lumina-Image 2.0 is a 2.6-billion parameter flow-based diffusion transformer designed for high-quality text-to-image generation. It integrates a unified Next-DiT architecture that treats text and image tokens as a joint sequence, enabling natural cross-modal interactions and seamless task expansion.
+  summary_ja: Lumina-Image 2.0は、高品質なテキスト画像生成のために設計された、26億パラメータのフローベース拡散トランスフォーマー（Flow-based Diffusion Transformer）です。テキストと画像のトークンを共同シーケンスとして処理する統一Next-DiTアーキテクチャを統合し、自然なクロスモーダル相互作用とシームレスなタスク拡張を可能にします。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2503.21758'
+  repo: alpha-vllm/lumina-image-2.0
 - id: lumina-image-2-0-f287d6
   title: Lumina-Image 2.0
   area: image-2d
@@ -23217,6 +23518,37 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: alpha-vllm/lumina-image-2.0
+- id: omnigen2-exploration-to-advanced-multimodal-generation-fe46ca
+  title: 'OmniGen2: Exploration to Advanced Multimodal Generation'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.18871
+    github: https://github.com/VectorSpaceLab/OmniGen2
+    hf: https://huggingface.co/BAAI/OmniGen2
+  authors:
+  - Shitao Xiao
+  - Yueze Wang
+  - Junjie Zhou
+  - Huaying Yuan
+  - Xingrun Xing
+  - Ruiran Yan
+  - Chaofan Li
+  - Shuting Wang
+  - Tiejun Huang
+  - Zheng Liu
+  year: 2025
+  tags:
+  - diffusion
+  - multimodal
+  - unified
+  summary: OmniGen2 is a unified multimodal generation model by BAAI that supports text-to-image synthesis, instruction-based image editing, and subject-driven generation. It features decoupled decoding pathways for text and image modalities to preserve language capabilities while producing consistent visual outputs.
+  summary_ja: OmniGen2は、テキストからの画像生成、指示に基づく画像編集、および被写体指定のインコンテキスト生成をサポートする、北京智源人工知能研究院（BAAI）による統一マルチモーダル生成モデルです。テキストと画像のデコード経路を分離することで、言語能力を維持しながら、一貫性のある高品質な画像出力を実現しています。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2506.18871'
+  repo: vectorspacelab/omnigen2
 - id: qwen-image-af2c77
   title: Qwen-Image
   area: image-2d
@@ -23235,6 +23567,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: qwenlm/qwen-image
+- id: sana-sprint-one-step-diffusion-with-continuous-time-consiste-6dc177
+  title: 'SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.09641
+    github: https://github.com/NVlabs/Sana
+  authors:
+  - Junsong Chen
+  - Shuchen Xue
+  - Yuyang Zhao
+  - Jincheng Yu
+  - Sayak Paul
+  - Junyu Chen
+  - Han Cai
+  - Enze Xie
+  - Song Han
+  year: 2025
+  tags:
+  - diffusion
+  - distillation
+  - real-time
+  summary: SANA-Sprint is an ultra-fast text-to-image model that achieves high-quality generation in just 1 to 4 steps using continuous-time consistency distillation. Built on the Sana foundation, it dramatically reduces latency, enabling real-time image generation at 1024×1024 resolution.
+  summary_ja: SANA-Sprintは、連続時間整合性蒸留（Continuous-Time Consistency Distillation）を用いることで、わずか1〜4ステップで高品質な画像を生成する超高速テキスト画像生成モデルです。Sanaをベースに構築され、レイテンシを劇的に削減し、1024×1024解像度でのリアルタイム画像生成を可能にします。
+  date_added: '2026-07-24'
+  source: agent
+  arxiv_id: '2503.09641'
+  repo: nvlabs/sana
 - id: z-image-f90ea5
   title: Z-Image
   area: image-2d
