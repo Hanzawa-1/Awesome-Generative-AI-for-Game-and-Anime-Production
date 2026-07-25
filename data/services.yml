@@ -2344,6 +2344,23 @@ entries:
   thumbnail: assets/thumbnails/dashtoon-studio-baaeb6.png
   date_added: '2026-07-18'
   source: agent
+- id: komiko-304f16
+  title: Komiko
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://komiko.app/
+  year: 2024
+  tags:
+  - character-consistency
+  - comic-studio
+  - infinite-canvas
+  - pose-control
+  summary: An AI-powered creative platform specifically built for the anime and manga industry to generate comics, manhwa, and manga from story ideas. It provides an infinite canvas for panel layout, character consistency, pose control, and dialogue bubble placement.
+  summary_ja: ストーリーのアイデアからコミック、マンファ、マンガを生成するために、アニメ・マンガ業界向けに特別に構築されたAIクリエイティブプラットフォーム。コマ割りレイアウト、キャラクターの一貫性、ポーズ制御、セリフの吹き出し配置のための無限キャンバスを提供します。
+  date_added: '2026-07-25'
+  source: agent
 - id: komikoai-e331b3
   title: KomikoAI
   area: manga
@@ -2537,6 +2554,23 @@ entries:
   summary_ja: ユーザーがページをデザインし、アートワークを生成し、コマをまとまりのあるレイアウトに配置するのを支援する、AI搭載のコミックストリップおよび漫画クリエイター。
   thumbnail: assets/thumbnails/comicsmaker-2123fb.png
   date_added: '2026-07-04'
+  source: agent
+- id: mangaka-app-30c393
+  title: Mangaka.app
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.mangaka.app/
+  year: 2024
+  tags:
+  - generative-ai
+  - manga
+  - panel-layout
+  - storyboard
+  summary: An AI-powered manga generator that converts written scripts and stories into structured manga pages. It automates character design, panel layout composition, and dialogue bubble placement from text inputs.
+  summary_ja: テキストの脚本やストーリーを構造化されたマンガページに変換するAI搭載のマンガジェネレーター。テキスト入力からキャラクターデザイン、コマ割りレイアウトの構成、セリフの吹き出し配置を自動化します。
+  date_added: '2026-07-25'
   source: agent
 - id: boords-1465cb
   title: Boords

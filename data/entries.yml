@@ -24256,6 +24256,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: qweasdd/manga-colorization-v2
+- id: eliminating-gradient-conflict-in-reference-based-line-art-co-f90520
+  title: Eliminating Gradient Conflict in Reference-based Line-art Colorization
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2207.06095
+    github: https://github.com/kunkun0w0/SGA
+  authors:
+  - Zhuoru Li
+  - Zhengyang Geng
+  - Ke Zhao
+  - Wenyuan Chen
+  - Yibo Yang
+  year: 2022
+  tags:
+  - attention
+  - colorization
+  - eccv
+  - lineart
+  summary: Introduces a self-guided attention (SGA) mechanism and gradient conflict elimination strategy to improve reference-based line-art colorization, addressing the optimization difficulties of attention models under multi-source supervision.
+  summary_ja: 自己ガイド付きアテンション（SGA）メカニズムと勾配衝突解消戦略を導入し、複数ソースの教師あり学習下におけるアテンションモデルの最適化困難を解決することで、参照画像に基づく線画着色の精度を向上させます。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2207.06095'
+  repo: kunkun0w0/sga
 - id: painting-style-aware-manga-colorization-based-on-generative-1226d8
   title: Painting Style-Aware Manga Colorization Based on Generative Adversarial Networks
   area: manga
@@ -25905,6 +25931,29 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: kktsubota/manga-character-screentone
+- id: screentone-removal-907e5d
+  title: Screentone-Removal
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/Patrickctyyx/Screentone-Removal
+    paper: https://diglib.eg.org/server/api/core/bitstreams/38caf901-40c6-41fe-812c-a8a8ba413887/content
+  authors:
+  - Kota Ito
+  - Yusuke Matsui
+  - Toshihiko Yamasaki
+  - Kiyoharu Aizawa
+  year: 2015
+  tags:
+  - image-processing
+  - manga
+  - screentone-removal
+  summary: An implementation of the classic paper 'Separation of Manga Line Drawings and Screentones' that extracts clean line drawings and removes screentones using digital signal processing and filtering.
+  summary_ja: デジタル信号処理とフィルタリングを用いて、スクリーントーンを除去しクリーンな線画を抽出する、クラシックな論文「Separation of Manga Line Drawings and Screentones」の実装。
+  date_added: '2026-07-25'
+  source: agent
+  repo: patrickctyyx/screentone-removal
 - id: gamestringer-9d4ea6
   title: GameStringer
   area: text-design
@@ -26123,6 +26172,29 @@ entries:
   date_added: '2026-07-11'
   source: agent
   repo: sakurallm/sakurallm
+- id: seamlessm4t-79c802
+  title: SeamlessM4T
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.11596
+    github: https://github.com/facebookresearch/seamless_communication
+  authors:
+  - Seamless Communication
+  - Meta AI
+  year: 2023
+  tags:
+  - dubbing
+  - multilingual
+  - speech-to-text
+  - translation
+  summary: A foundational massively multilingual and multimodal machine translation model developed by Meta AI. It supports automatic speech recognition, speech-to-text, speech-to-speech, text-to-speech, and text-to-text translation for up to 100 languages, making it highly useful for global game localization and voice dubbing workflows.
+  summary_ja: Meta AIによって開発された、大規模な多言語・マルチモーダル機械翻訳の基盤モデルです。最大100言語の自動音声認識、音声翻訳、音声合成、テキスト翻訳をサポートしており、グローバルなゲームのローカライズや音声吹き替えのワークフローに非常に有用です。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2308.11596'
+  repo: facebookresearch/seamless_communication
 - id: seamlessm4t-cc3882
   title: SeamlessM4T
   area: text-design
@@ -26141,6 +26213,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: facebookresearch/seamless_communication
+- id: whisperx-aa661b
+  title: WhisperX
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.00747
+    github: https://github.com/m-bain/whisperX
+  authors:
+  - Max Bain
+  - Jaesung Huh
+  - Tengda Han
+  - Andrew Zisserman
+  year: 2023
+  tags:
+  - alignment
+  - localization
+  - transcription
+  - whisper
+  summary: An advanced speech transcription and translation system built on top of OpenAI's Whisper. It integrates Voice Activity Detection (VAD) and forced phoneme alignment to provide highly accurate, word-level timestamps and speaker diarization, making it ideal for game dialogue localization, subtitle alignment, and voiceover pipelines.
+  summary_ja: OpenAIのWhisperをベースに構築された高度な音声文字起こしおよび翻訳システムです。音声活動検出（VAD）と強制音素アライメントを統合することで、高精度なワードレベルのタイムスタンプと話者分離を提供し、ゲームの台詞のローカライズ、字幕の同期、音声吹き替えパイプラインに最適です。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2303.00747'
+  repo: m-bain/whisperx
 - id: a-snapshot-into-the-possibility-of-video-game-machine-transl-e3c73b
   title: A Snapshot into the Possibility of Video Game Machine Translation
   area: text-design
@@ -26469,6 +26566,34 @@ entries:
   date_added: '2026-07-04'
   source: agent
   repo: write-with-laika/drama-engine
+- id: dramamancer-6ce3ee
+  title: Dramamancer
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.18785
+    github: https://github.com/dramamakers/dramamancer
+    paper: https://arxiv.org/pdf/2601.18785
+  authors:
+  - Tiffany Wang
+  - Yuqian Sun
+  - Yi Wang
+  - Melissa Roemmele
+  - John Joon Young Chung
+  - Max Kreminski
+  year: 2026
+  tags:
+  - interactive
+  - llm
+  - narrative
+  - storytelling
+  summary: An interactive narrative system that uses large language models to transform author-created story schemas into player-driven playthroughs, bridging authorial intent and player agency.
+  summary_ja: LLMを使用して、制作者が作成したストーリーのスキーマをプレイヤー主導のプレイ体験へと変換し、制作者の意図とプレイヤーの主体性を両立させるインタラクティブなナラティブシステム。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2601.18785'
+  repo: dramamakers/dramamancer
 - id: from-world-gen-to-quest-line-cbadff
   title: From World-Gen to Quest-Line
   area: text-design
@@ -26826,6 +26951,32 @@ entries:
   source: agent
   arxiv_id: '2604.19192'
   repo: ul-fri-lgm/environment-aware-npc-llm
+- id: evolvingworld-595639
+  title: EvolvingWorld
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.17250
+    github: https://github.com/HKUST-KnowComp/EvolvingWorld
+  authors:
+  - Qing Zong
+  - Yue Guo
+  - Mengxin Yang
+  - Yiwen Guo
+  - Yangqiu Song
+  year: 2026
+  tags:
+  - agent
+  - framework
+  - simulation
+  - world-model
+  summary: An open-schema framework and benchmark for character and world co-evolution in interactive literary simulations, allowing characters and world states to evolve together over time.
+  summary_ja: インタラクティブな文学シミュレーションにおけるキャラクターと世界の共同進化のためのオープンスキーマフレームワークおよびベンチマーク。キャラクターと世界の状態が時間とともに共に進化することを可能にする。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2607.17250'
+  repo: hkust-knowcomp/evolvingworld
 - id: persona-pruner-eed494
   title: Persona-Pruner
   area: text-design
@@ -26949,6 +27100,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.20200'
+- id: opencharacter-97395c
+  title: OpenCharacter
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.15427
+    hf: https://huggingface.co/datasets/xywang1/OpenCharacter
+  authors:
+  - Xiaoyang Wang
+  - Hongming Zhang
+  - Tao Ge
+  - Wenhao Yu
+  - Dian Yu
+  - Dong Yu
+  year: 2025
+  tags:
+  - dataset
+  - llm
+  - persona
+  - roleplay
+  summary: A framework and large-scale synthetic dataset designed to train customizable role-playing LLMs, enabling character generalization and cost-efficient deployment of dialogue agents.
+  summary_ja: カスタマイズ可能なロールプレイ用LLMを訓練するために設計されたフレームワークおよび大規模な合成データセット。キャラクターの一般化と対話エージェントの費用対効果の高い展開を可能にする。
+  date_added: '2026-07-25'
+  source: agent
+  arxiv_id: '2501.15427'
 - id: state-inference-based-prompting-for-natural-language-trading-02582b
   title: State-Inference-Based Prompting for Natural Language Trading with Game NPCs
   area: text-design
