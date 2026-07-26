@@ -27646,6 +27646,33 @@ entries:
   source: agent
   arxiv_id: '2507.00184'
   repo: schrum2/mariodiffusion
+- id: pcgrllm-9fd47c
+  title: PCGRLLM
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.10906
+    paper: https://arxiv.org/abs/2502.10906
+  authors:
+  - In-Chang Baek
+  - Sung-Hyun Kim
+  - Sam Earle
+  - Zehua Jiang
+  - Jin-Ha Noh
+  - Julian Togelius
+  - Kyung-Joong Kim
+  year: 2025
+  tags:
+  - llm
+  - pcg
+  - pcgrl
+  - reinforcement-learning
+  summary: A framework that leverages Large Language Models (LLMs) to automatically design and iteratively refine reward functions for reinforcement learning agents tasked with procedural level generation.
+  summary_ja: プロシージャルなステージ生成を行う強化学習エージェント向けに、大規模言語モデル（LLM）を活用して報酬関数を自動設計し、反復的に洗練させるフレームワーク。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2502.10906'
 - id: the-procedural-content-generation-benchmark-83f593
   title: The Procedural Content Generation Benchmark
   area: text-design
@@ -27890,6 +27917,24 @@ entries:
   source: agent
   arxiv_id: '2404.08706'
   repo: sustechgameai/llmgg
+- id: pcg-extended-toolkit-d0a4be
+  title: PCG Extended Toolkit
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/PCGEx/PCGExtendedToolkit
+  year: 2024
+  tags:
+  - graph-theory
+  - pcg
+  - plugin
+  - unreal-engine
+  summary: An open-source plugin for Unreal Engine's Procedural Content Generation (PCG) framework, adding advanced graph theory, pathfinding, spatial operations, and asset management tools.
+  summary_ja: Unreal EngineのPCG（プロシージャルコンテンツ生成）フレームワーク向けのオープンソースプラグイン。高度なグラフ理論、パスファインディング、空間演算、アセット管理ツールなどを追加する。
+  date_added: '2026-07-26'
+  source: agent
+  repo: pcgex/pcgextendedtoolkit
 - id: procedural-content-generation-in-games-a-survey-with-insight-3c3b4a
   title: 'Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration'
   area: text-design
@@ -27984,6 +28029,34 @@ entries:
   source: agent
   arxiv_id: '2302.05817'
   repo: gdrtodd/lm-pcg
+- id: mariogpt-1cbac7
+  title: MarioGPT
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2302.05981
+    github: https://github.com/shyamsn97/mario-gpt
+    paper: https://arxiv.org/abs/2302.05981
+  authors:
+  - Shyam Sudhakaran
+  - Miguel González-Duque
+  - Claire Glanois
+  - Matthias Freiberger
+  - Elias Najarro
+  - Sebastian Risi
+  year: 2023
+  tags:
+  - gpt-2
+  - level-generation
+  - llm
+  - pcg
+  summary: An open-source text-to-level generation model that uses a fine-tuned GPT-2 architecture to generate Super Mario Bros levels from natural language descriptions and control parameters.
+  summary_ja: 自然言語の記述や制御パラメータからスーパーマリオブラザーズのステージを生成する、微調整されたGPT-2アーキテクチャを採用したオープンソースのText-to-Level生成モデル。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2302.05981'
+  repo: shyamsn97/mario-gpt
 - id: edgar-unity-2e4a2f
   title: Edgar-Unity
   area: text-design
@@ -28079,6 +28152,36 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: tencent-hunyuan/hunyuanvideo-i2v
+- id: pusa-v1-0-a532ed
+  title: Pusa V1.0
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.16116
+    github: https://github.com/Yaofang-Liu/Pusa-VidGen
+    paper: https://arxiv.org/pdf/2507.16116.pdf
+  authors:
+  - Yaofang Liu
+  - Yumeng Ren
+  - Aitor Artola
+  - Yuxuan Hu
+  - Xiaodong Cun
+  - Xiaotong Zhao
+  - Alan Zhao
+  - Raymond H. Chan
+  year: 2025
+  tags:
+  - diffusion
+  - image-to-video
+  - temporal-control
+  - video-generation
+  summary: A versatile video diffusion framework that introduces Vectorized Timestep Adaptation (VTA) to enable fine-grained temporal control and efficient image-to-video generation, surpassing larger models with minimal training costs.
+  summary_ja: ベクトル化タイムステップ適応（VTA）を導入することで、きめ細かな時間的制御と効率的な画像からの動画生成（I2V）を可能にし、最小限のトレーニングコストで大規模モデルを凌駕する汎用的な動画拡散フレームワーク。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2507.16116'
+  repo: yaofang-liu/pusa-vidgen
 - id: wan2-1-b6cd1a
   title: Wan2.1
   area: video
@@ -28207,6 +28310,34 @@ entries:
   source: agent
   arxiv_id: '2403.08268'
   repo: mayuelala/followyourclick
+- id: ltx-video-de9e1c
+  title: LTX-Video
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.00103
+    github: https://github.com/Lightricks/LTX-Video
+    paper: https://arxiv.org/pdf/2501.00103.pdf
+  authors:
+  - Or Hirschorn
+  - Aaron Olender
+  - Eli Alshan
+  - Ianir Ideses
+  - Lior Fritz
+  - Sagie Benaim
+  year: 2024
+  tags:
+  - dit
+  - image-to-video
+  - real-time
+  - video-generation
+  summary: A transformer-based latent diffusion model that integrates a Video-VAE and a denoising transformer to generate high-quality videos in real-time. It supports both text-to-video and image-to-video generation at high resolutions and frame rates.
+  summary_ja: Video-VAEとノイズ除去トランスフォーマーを統合し、リアルタイムで高品質な動画を生成するトランスフォーマーベースの潜在拡散モデル。高解像度および高フレームレートでのテキストからの動画生成および画像からの動画生成（I2V）をサポートします。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2501.00103'
+  repo: lightricks/ltx-video
 - id: motion-i2v-4fc9ea
   title: Motion-I2V
   area: video
@@ -28650,6 +28781,35 @@ entries:
   source: agent
   arxiv_id: '2411.02818'
   repo: uncbiag/livos
+- id: sam2long-enhancing-sam-2-for-long-video-segmentation-with-a-10a564
+  title: 'SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree'
+  area: video
+  task: rotoscoping
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.16268
+    github: https://github.com/Mark12Ding/SAM2Long
+  authors:
+  - Shuangrui Ding
+  - Rui Qian
+  - Xiaoyi Dong
+  - Pan Zhang
+  - Yuhang Zang
+  - Yuhang Cao
+  - Yuwei Guo
+  - Dahua Lin
+  year: 2024
+  tags:
+  - long-video
+  - rotoscoping
+  - sam2
+  - video-segmentation
+  summary: An enhancement for SAM 2 video segmentation designed for long video sequences, utilizing a training-free memory tree to address error accumulation. It maintains multiple segmentation pathways and selects optimal paths to prevent cascading errors over long durations.
+  summary_ja: エラーの累積を防ぐトレーニングフリーのメモリツリーを利用し、長時間のビデオシーケンス向けにSAM 2のビデオセグメンテーションを強化する手法。複数のセグメンテーション経路を維持し、最適なパスを選択することで長時間の精度を保ちます。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2410.16268'
+  repo: mark12ding/sam2long
 - id: segment-anything-model-2-sam-2-0869a9
   title: Segment Anything Model 2 (SAM 2)
   area: video
@@ -28937,6 +29097,36 @@ entries:
   source: agent
   arxiv_id: '2108.11515'
   repo: peterl1n/robustvideomatting
+- id: ltx-2-090b7e
+  title: LTX-2
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.03233
+    github: https://github.com/Lightricks/LTX-2
+    hf: https://huggingface.co/Lightricks/LTX-2.3
+  authors:
+  - Yoav HaCohen
+  - Benny Brazowski
+  - Nisan Chiprut
+  - Yaki Bitterman
+  - Andrew Kvochko
+  - Avishai Berkowitz
+  - Daniel Shalem
+  - Daphna Lifschitz
+  year: 2026
+  tags:
+  - audio-visual
+  - diffusion
+  - dit
+  - multimodal
+  summary: An open-source foundational joint audio-visual model capable of generating high-quality, temporally synchronized audiovisual content. It features an asymmetric dual-stream transformer with a 14B-parameter video stream and a 5B-parameter audio stream.
+  summary_ja: 高品質で時間的に同期したオーディオビジュアルコンテンツを統一的に生成できる、オープンソースの視聴覚基盤モデル。140億パラメータのビデオストリームと50億パラメータのオーディオストリームを持つ非対称デュアルストリームTransformerで構成されています。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2601.03233'
+  repo: lightricks/ltx-2
 - id: hunyuanvideo-1-5-d4fd7c
   title: HunyuanVideo-1.5
   area: video
@@ -28981,6 +29171,28 @@ entries:
   source: agent
   arxiv_id: '2511.18870'
   repo: tencent-hunyuan/hunyuanvideo-1.5
+- id: nvidia-cosmos-eebf85
+  title: NVIDIA Cosmos
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.03575
+    github: https://github.com/NVIDIA/cosmos
+  authors:
+  - NVIDIA
+  year: 2025
+  tags:
+  - diffusion
+  - physical-ai
+  - video-generation
+  - world-model
+  summary: An open platform of world foundation models, datasets, and tools designed for Physical AI and video generation. It provides highly efficient video tokenizers and diffusion-based world models that excel in generating physically consistent videos.
+  summary_ja: 物理AIおよびビデオ生成向けに設計された、世界基盤モデル、データセット、ツールのオープンプラットフォーム。物理的に一貫したビデオの生成に優れた、高効率なビデオトークナイザーと拡散ベースの世界モデルを提供します。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2501.03575'
+  repo: nvidia/cosmos
 - id: wan2-1-bc34c3
   title: Wan2.1
   area: video
@@ -29650,6 +29862,59 @@ entries:
   source: agent
   arxiv_id: '2412.00857'
   repo: nevsnev/floed
+- id: towards-language-driven-video-inpainting-via-multimodal-larg-e54d68
+  title: Towards Language-Driven Video Inpainting via Multimodal Large Language Models
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.10226
+    github: https://github.com/jianzongwu/Language-Driven-Video-Inpainting
+  authors:
+  - Jianzong Wu
+  - Xiangtai Li
+  - Chenyang Si
+  - Shangchen Zhou
+  - Jingkang Yang
+  - Jiangning Zhang
+  - Yining Li
+  - Kai Chen
+  year: 2024
+  tags:
+  - mllm
+  - object-removal
+  - video-inpainting
+  summary: Introduces language-driven video inpainting, a task that uses natural language instructions instead of manual binary masks to guide video object removal and replacement. It presents the Remove Objects from Videos by Instructions (ROVI) dataset and a multimodal framework leveraging large language models to generate precise inpainting results.
+  summary_ja: 手動のバイナリマスクの代わりに自然言語の指示を使用してビデオオブジェクトの削除や置換を行う、言語駆動型ビデオインペインティングを提案。Remove Objects from Videos by Instructions (ROVI) データセットと、マルチモーダル大規模言語モデルを活用して高精度なインペインティングを実現するフレームワークを導入している。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2401.10226'
+  repo: jianzongwu/language-driven-video-inpainting
+- id: controlvideo-conditional-control-for-one-shot-text-driven-vi-575a67
+  title: 'ControlVideo: Conditional Control for One-shot Text-driven Video Editing and Beyond'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.17098
+    github: https://github.com/thu-ml/controlvideo
+  authors:
+  - Min Zhao
+  - Rongzhen Wang
+  - Fan Bao
+  - Chongxuan Li
+  - Jun Zhu
+  year: 2023
+  tags:
+  - diffusion
+  - training-free
+  - video-editing
+  summary: A training-free framework for text-driven video editing that adapts pre-trained text-to-image diffusion models to generate temporally consistent videos. It incorporates structural conditions such as edge maps and fine-tunes key-frame and temporal attention to preserve the layout of the source video.
+  summary_ja: 事前学習済みのテキスト画像拡散モデルを適応させ、時間的一貫性のあるビデオを生成する、トレーニング不要のテキスト駆動型ビデオ編集フレームワーク。エッジマップなどの構造的条件を取り入れ、キーフレームと時間的アテンションを微調整することで、元のビデオのレイアウトを維持する。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2305.17098'
+  repo: thu-ml/controlvideo
 - id: fairy-468d68
   title: Fairy
   area: video
@@ -29765,6 +30030,30 @@ entries:
   source: agent
   arxiv_id: '2309.03897'
   repo: sczhou/propainter
+- id: stablevideo-text-driven-consistency-aware-diffusion-video-ed-17ec45
+  title: 'StableVideo: Text-driven Consistency-aware Diffusion Video Editing'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.09592
+    github: https://github.com/wenhaochai/StableVideo
+  authors:
+  - Wenhao Chai
+  - Xun Guo
+  - Gaoang Wang
+  - Yan Lu
+  year: 2023
+  tags:
+  - diffusion
+  - temporal-consistency
+  - video-editing
+  summary: An ICCV 2023 paper that introduces temporal dependency to text-driven diffusion models for video editing. It utilizes an inter-frame consistency loss and a mapping mechanism to ensure that edited objects maintain a stable and consistent appearance over time.
+  summary_ja: ビデオ編集用のテキスト駆動型拡散モデルに時間的依存関係を導入したICCV 2023の論文。フレーム間の一貫性損失とマッピングメカニズムを利用して、編集されたオブジェクトが時間の経過とともに安定した一貫性のある外観を維持できるようにする。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2308.09592'
+  repo: wenhaochai/stablevideo
 - id: tokenflow-32c2f8
   title: TokenFlow
   area: video
@@ -30003,6 +30292,35 @@ entries:
   source: agent
   arxiv_id: '2510.12747'
   repo: openimaginglab/flashvsr
+- id: oasis-towards-redundancy-reduction-in-diffusion-models-for-e-928f9c
+  title: 'OASIS: Towards Redundancy Reduction in Diffusion Models for Efficient Video Super-Resolution'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.23980
+    github: https://github.com/jp-guo/OASIS
+  authors:
+  - Jinpei Guo
+  - Yifei Ji
+  - Shengwei Wang
+  - Zheng Chen
+  - Yufei Wang
+  - Sizhuo Ma
+  - Yong Guo
+  - Baiang Li
+  year: 2025
+  tags:
+  - diffusion
+  - efficiency
+  - one-step
+  - video-super-resolution
+  summary: An efficient one-step diffusion model with attention specialization designed to reduce computational redundancy in video super-resolution. It leverages the content information preserved in low-quality inputs to streamline the denoising process, significantly lowering computational overhead while maintaining high visual quality.
+  summary_ja: 動画超解像における計算の冗長性を削減するために設計された、アテンション特化型の一ステップ拡散モデル。低品質な入力に保存されているコンテンツ情報を活用してデノイジングプロセスを合理化し、高い視覚的品質を維持しながら計算オーバーヘッドを大幅に削減します。
+  date_added: '2026-07-26'
+  source: agent
+  arxiv_id: '2509.23980'
+  repo: jp-guo/oasis
 - id: seedvr-381f96
   title: SeedVR
   area: video

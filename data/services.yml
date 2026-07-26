@@ -3088,6 +3088,40 @@ entries:
   thumbnail: assets/thumbnails/inworld-ai-c4e760.png
   date_added: '2026-06-13'
   source: seed
+- id: unreal-engine-pcg-framework-863401
+  title: Unreal Engine PCG Framework
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/unreal-engine/procedural-content-generation-framework-in-unreal-engine
+  year: 2023
+  tags:
+  - biome-generation
+  - pcg
+  - unreal-engine
+  - world-building
+  summary: Epic Games' built-in toolset for creating procedural content and tools directly inside Unreal Engine, enabling artists and designers to build fast, iterative environments and biomes.
+  summary_ja: Unreal Engine内に直接プロシージャルなコンテンツやツールを作成するためのEpic Games製ビルトインツールセット。アーティストやデザイナーが迅速かつ反復的に環境やバイオームを構築できるようにする。
+  date_added: '2026-07-26'
+  source: agent
+- id: sidefx-houdini-993185
+  title: SideFX Houdini
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://www.sidefx.com/
+  year: 1996
+  tags:
+  - pcg
+  - procedural-modeling
+  - terrain-generation
+  - vfx
+  summary: An industry-standard 3D procedural software widely used in game and film production for modeling, terrain generation, VFX, and creating reusable procedural assets via Houdini Engine.
+  summary_ja: ゲームや映画の制作において、モデリング、地形生成、VFX、およびHoudini Engineを介した再利用可能なプロシージャルアセットの作成に広く使用されている業界標準の3Dプロシージャルソフトウェア。
+  date_added: '2026-07-26'
+  source: agent
 - id: haiper-af0b5e
   title: Haiper
   area: video
@@ -3155,6 +3189,23 @@ entries:
   summary_ja: キャラクターのモーション転送に特化した人気の商用AIアニメーションプラットフォーム。モーションテンプレートやカスタム動画クリップを使用して、静止したキャラクター画像をアニメーション化できる。
   thumbnail: assets/thumbnails/viggle-ai-9d62ae.png
   date_added: '2026-06-14'
+  source: agent
+- id: boris-fx-silhouette-230dd9
+  title: Boris FX Silhouette
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://borisfx.com/products/silhouette/
+  year: 2026
+  tags:
+  - compositing
+  - rotoscoping
+  - tracking
+  - vfx
+  summary: An Academy Award and Emmy Award-winning advanced rotoscoping, paint, and tracking application widely used in Hollywood visual effects pipelines. It features AI-driven matte generation, 3D head tracking, and integrated node-based compositing tools.
+  summary_ja: ハリウッドのVFXパイプラインで広く使用されている、アカデミー賞およびエミー賞受賞の高度なロトスコープ、ペイント、トラッキング用アプリケーション。AI駆動のマット生成、3Dヘッドトラッキング、ノードベースのコンポジットツールを搭載しています。
+  date_added: '2026-07-26'
   source: agent
 - id: silhouette-e90359
   title: Silhouette
