@@ -27,6 +27,31 @@ entries:
   source: agent
   arxiv_id: '2507.03905'
   repo: antgroup/echomimic_v3
+- id: emohead-emotional-talking-head-via-manipulating-semantic-exp-0ab056
+  title: 'EmoHead: Emotional Talking Head via Manipulating Semantic Expression Parameters'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.19416
+  authors:
+  - Xuli Shen
+  - Hua Cai
+  - Dingding Yu
+  - Weilin Shen
+  - Qing Xu
+  - Xiangyang Xue
+  year: 2025
+  tags:
+  - audio-driven
+  - emotional-expression
+  - lip-sync
+  - talking-head
+  summary: EmoHead is an emotional talking head generation framework that manipulates semantic expression parameters to synthesize highly realistic, emotion-specific talking head videos from audio inputs.
+  summary_ja: EmoHeadは、セマンティックな表情パラメータを操作することで、音声入力から極めてリアルで感情に特化したトーキングヘッド動画を合成する感情表現対応のトーキングヘッド生成フレームワークです。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2503.19416'
 - id: hunyuanvideo-avatar-68760c
   title: HunyuanVideo-Avatar
   area: animation
@@ -57,6 +82,35 @@ entries:
   source: agent
   arxiv_id: '2505.20156'
   repo: tencent-hunyuan/hunyuanvideo-avatar
+- id: synctalk-high-fidelity-and-efficient-synchronized-talking-he-4f6d24
+  title: 'SyncTalk++: High-Fidelity and Efficient Synchronized Talking Heads Synthesis Using Gaussian Splatting'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.14742
+    github: https://github.com/ZiqiaoPeng/SyncTalk
+  authors:
+  - Ziqiao Peng
+  - Wentao Hu
+  - Junyuan Ma
+  - Xiangyu Zhu
+  - Xiaomei Zhang
+  - Hao Zhao
+  - Hui Tian
+  - Jun He
+  year: 2025
+  tags:
+  - 3d-avatar
+  - gaussian-splatting
+  - lip-sync
+  - talking-head
+  summary: SyncTalk++ is a high-fidelity and efficient synchronized talking head synthesis framework that leverages 3D Gaussian Splatting to achieve realistic coordination of subject identity, lip movements, facial expressions, and head poses.
+  summary_ja: SyncTalk++は、3D Gaussian Splattingを活用して、被写体の同一性、唇の動き、表情、頭部のポーズをリアルに同期・調整する、高精度かつ効率的な発話頭部（トーキングヘッド）合成フレームワークです。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2506.14742'
+  repo: ziqiaopeng/synctalk
 - id: aniportrait-b9efec
   title: AniPortrait
   area: animation
@@ -184,6 +238,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2402.17485'
+- id: emovoca-speech-driven-emotional-3d-talking-heads-2be245
+  title: 'EmoVOCA: Speech-Driven Emotional 3D Talking Heads'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.12886
+    github: https://github.com/miccunifi/EmoVOCA
+  authors:
+  - Federico Nocentini
+  - Claudio Ferrari
+  - Stefano Berretti
+  year: 2024
+  tags:
+  - 3d-facial-animation
+  - emotional-expression
+  - lip-sync
+  - talking-head
+  summary: EmoVOCA is a speech-driven emotional 3D talking head generation framework that synthesizes realistic 3D facial animations with rich emotional expressions from audio inputs.
+  summary_ja: EmoVOCAは、音声入力から豊かな感情表現を持つリアルな3Dフェイシャルアニメーションを合成する、音声駆動型の感情表現対応3Dトーキングヘッド生成フレームワークです。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2403.12886'
+  repo: miccunifi/emovoca
 - id: hallo-824ff6
   title: Hallo
   area: animation
@@ -674,6 +752,54 @@ entries:
   source: agent
   arxiv_id: '2406.17256'
   repo: jhlew/momo
+- id: bim-vfi-bidirectional-motion-field-guided-frame-interpolatio-6a79e3
+  title: 'BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.11365
+    github: https://github.com/KAIST-VICLab/BiM-VFI
+  authors:
+  - Wonyong Seo
+  - Jihyong Oh
+  - Munchurl Kim
+  year: 2024
+  tags:
+  - frame-interpolation
+  - motion-estimation
+  - vfi
+  summary: A frame interpolation model designed for videos with non-uniform motions (such as acceleration, deceleration, and direction changes) that resolves time-to-location ambiguity and reduces blur using bidirectional motion fields.
+  summary_ja: 加減速や方向転換などの非一様な動きを含むビデオ向けに設計されたフレーム補間モデル。双方向運動フィールドを用いて時間と位置の曖昧さを解消し、ぼやけを低減する。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2412.11365'
+  repo: kaist-viclab/bim-vfi
+- id: frame-interpolation-with-consecutive-brownian-bridge-diffusi-3ded0f
+  title: Frame Interpolation with Consecutive Brownian Bridge Diffusion Model
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.05953
+    github: https://github.com/ZonglinL/ConsecutiveBrownianBridge
+  authors:
+  - Zonglin Li
+  - Sheng Chen
+  - Shengjie Zhao
+  - Youge Ma
+  - Jie Chen
+  year: 2024
+  tags:
+  - brownian-bridge
+  - diffusion-model
+  - frame-interpolation
+  summary: A diffusion-based video frame interpolation model that proposes a consecutive Brownian Bridge diffusion process to reduce the cumulative variance of generated latent representations, achieving high-fidelity results.
+  summary_ja: 生成される潜在表現の累積分散を低減するために連続ブラウン橋拡散プロセスを提案し、高忠実度な補間結果を達成する拡散ベースのビデオフレーム補間モデル。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2405.05953'
+  repo: zonglinl/consecutivebrownianbridge
 - id: framer-fd8320
   title: Framer
   area: animation
@@ -963,6 +1089,32 @@ entries:
   source: agent
   arxiv_id: '2407.02315'
   repo: mcg-nju/vfimamba
+- id: amt-all-pairs-multi-field-transforms-for-efficient-frame-int-cbcab6
+  title: 'AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.09790
+    github: https://github.com/MCG-NKU/AMT
+  authors:
+  - Zhen Li
+  - Duanyi Gao
+  - Shakiba Kheradmand
+  - Zhihang Liu
+  - Shengfeng He
+  - Chen Change Loy
+  year: 2023
+  tags:
+  - frame-interpolation
+  - optical-flow
+  - vfi
+  summary: A lightweight, fast, and accurate video frame interpolation model that utilizes bidirectional correlation volumes for all pairs of pixels and multi-field transforms to retrieve correlations and refine flows.
+  summary_ja: すべての画素ペアに対する双方向相関ボリュームとマルチフィールド変換を利用して、相関の取得とフローの洗練を行う、軽量かつ高速で高精度なビデオフレーム補間モデル。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2304.09790'
+  repo: mcg-nku/amt
 - id: animeinbet-38cbad
   title: AnimeInbet
   area: animation
@@ -1441,6 +1593,28 @@ entries:
   source: agent
   arxiv_id: '2511.18370'
   repo: czh-98/mimicat
+- id: moreflow-371ec5
+  title: MoReFlow
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.25600
+    project: https://dnjsxor999.github.io/projects/MoReFlow/MoReFlow.html
+  authors:
+  - Wontaek Kim
+  - Tianyu Li
+  - Sehoon Ha
+  year: 2025
+  tags:
+  - flow-matching
+  - retargeting
+  - unsupervised
+  summary: An unsupervised motion retargeting framework via Flow Matching that learns correspondences between characters' motion embedding spaces using a VQ-VAE tokenizer, enabling flexible and reversible retargeting without paired data.
+  summary_ja: VQ-VAEトークナイザーを用いてキャラクターのモーション埋め込み空間の対応関係を学習する、Flow Matchingを用いた教師なしモーションリターゲティングフレームワーク。ペアデータなしで柔軟かつ可逆的なリターゲティングを可能にします。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2509.25600'
 - id: omniretarget-4c420c
   title: OmniRetarget
   area: animation
@@ -1565,6 +1739,28 @@ entries:
   date_added: '2026-07-13'
   source: agent
   repo: nvidia/soma-retargeter
+- id: physics-based-motion-retargeting-from-sparse-inputs-2fef62
+  title: Physics-based Motion Retargeting from Sparse Inputs
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.01938
+    project: https://rdednl.github.io/retargeting.html
+  authors:
+  - Daniele Reda
+  - Tianxin Tao
+  - Michiel van de Panne
+  year: 2023
+  tags:
+  - physics
+  - reinforcement-learning
+  - retargeting
+  summary: A physics-based motion retargeting framework that uses reinforcement learning to train a torque-control policy, enabling real-time motion retargeting from sparse human sensor data to characters of various morphologies in a physics simulator.
+  summary_ja: 強化学習を用いてトルク制御ポリシーを訓練し、物理シミュレータ内で疎な人間のセンサーデータから様々な体格のキャラクターへリアルタイムに動作をリターゲティングする物理ベースのフレームワーク。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2307.01938'
 - id: pose-aware-attention-network-pan-b70bad
   title: Pose-aware Attention Network (PAN)
   area: animation
@@ -1869,6 +2065,31 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2505.12619'
+- id: intermimic-towards-universal-whole-body-control-for-physics-1637c4
+  title: 'InterMimic: Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.20390
+    github: https://github.com/Sirui-Xu/InterMimic
+    website: https://sirui-xu.github.io/InterMimic/
+  authors:
+  - Sirui Xu
+  - Hung Yu Ling
+  - Yu-Xiong Wang
+  - Liang-Yan Gui
+  year: 2025
+  tags:
+  - character-control
+  - physics
+  - reinforcement-learning
+  summary: A framework for learning universal whole-body control policies from imperfect motion capture data, enabling physically simulated characters to perform diverse human-object interactions.
+  summary_ja: 不完全なモーションキャプチャデータからユニバーサルな全身制御ポリシーを学習するフレームワークであり、物理シミュレーションされたキャラクターが多様な人間と物体のインタラクションを実行できるようにします。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2502.20390'
+  repo: sirui-xu/intermimic
 - id: kungfubot-1987ce
   title: KungfuBot
   area: animation
@@ -2581,6 +2802,36 @@ entries:
   source: agent
   arxiv_id: '2512.13465'
   repo: ryan-w2024/poseanything
+- id: realisdance-dit-simple-yet-strong-baseline-towards-controlla-309dc0
+  title: 'RealisDance-DiT: Simple yet Strong Baseline towards Controllable Character Animation in the Wild'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.14977
+    github: https://github.com/damo-cv/RealisDance
+    project: https://thefoxofsky.github.io/project_pages/RealisDance-DiT/index
+  authors:
+  - Jingkai Zhou
+  - Yifan Wu
+  - Shikai Li
+  - Min Wei
+  - Chao Fan
+  - Weihua Chen
+  - Wei Jiang
+  - Fan Wang
+  year: 2025
+  tags:
+  - character-animation
+  - diffusion-transformer
+  - pose-guided
+  - video-generation
+  summary: A structurally simple and robust baseline model for controllable character animation built upon the Wan-2.1 video diffusion transformer (DiT). It replaces the complex Reference Net design with a simpler, more efficient conditioning mechanism to achieve high-quality, temporally consistent human motion generation in diverse real-world scenarios.
+  summary_ja: Wan-2.1ビデオ拡散トランスフォーマー（DiT）をベースにした、制御可能なキャラクターアニメーションのためのシンプルかつ堅牢なベースラインモデル。複雑なReference Net設計をよりシンプルで効率的な条件付けメカニズムに置き換えることで、多様な実世界のシナリオにおいて高品質で時間的一貫性のある人間の動作生成を実現します。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2504.14977'
+  repo: damo-cv/realisdance
 - id: unianimate-dit-abd1cd
   title: UniAnimate-DiT
   area: animation
@@ -3068,6 +3319,31 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2605.31120'
+- id: textop-real-time-interactive-text-driven-humanoid-robot-moti-c3e3d3
+  title: 'TextOp: Real-time Interactive Text-Driven Humanoid Robot Motion Generation and Control'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.07439
+    project: https://text-op.github.io/
+  authors:
+  - Weiji Xie
+  - Chenjia Bai
+  - Zhaoran Wang
+  - Tatsuya Harada
+  - Xuelong Li
+  year: 2026
+  tags:
+  - physics-based
+  - real-time
+  - reinforcement-learning
+  - text-to-motion
+  summary: A real-time text-driven humanoid motion generation and control framework that supports streaming language commands and on-the-fly instruction modification. It combines a high-level motion diffusion model for continuous short-horizon kinematic trajectory generation with a low-level reinforcement learning-based tracking policy.
+  summary_ja: ストリーミング言語コマンドやオンザフライでの指示変更をサポートする、リアルタイムのテキスト駆動型人型キャラクターモーション生成・制御フレームワーク。連続的な近未来の運動学的軌道を生成する高レベルモーション拡散モデルと、低レベルの強化学習ベースのトラッキングポリシーを組み合わせています。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2602.07439'
 - id: amor-f75bfd
   title: AMOR
   area: animation
@@ -3095,6 +3371,32 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2505.23708'
+- id: mimic2dm-learning-to-control-physically-simulated-3d-charact-feed51
+  title: 'Mimic2DM: Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.08500
+    github: https://github.com/jiann-li/mimic2dm_release
+    project: https://jiann-li.github.io/mimic2dm/
+  authors:
+  - Jianan Li
+  - Xiao Chen
+  - Tao Huang
+  - Tien-Tsin Wong
+  year: 2025
+  tags:
+  - 2d-to-3d
+  - motion-imitation
+  - physics-based
+  - reinforcement-learning
+  summary: A motion imitation framework that learns physics-based 3D character control policies directly from widely available 2D keypoint trajectories extracted from videos. It features a view-agnostic tracking policy that can be zero-shot adapted to multi-view tracking and integrated with 2D motion generators for diverse motion synthesis.
+  summary_ja: ビデオから抽出された一般的な2Dキーポイントの軌跡から、物理ベースの3Dキャラクター制御ポリシーを直接学習するモーション模倣フレームワーク。視点に依存しないトラッキングポリシーを特徴とし、マルチビュー追跡へのゼロショット適応や、多様なモーション合成のための2Dモーションジェネレーターとの統合が可能です。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2512.08500'
+  repo: jiann-li/mimic2dm_release
 - id: parc-physics-based-augmentation-with-reinforcement-learning-96e253
   title: 'PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers'
   area: animation
@@ -3816,6 +4118,32 @@ entries:
   source: agent
   arxiv_id: '2502.02358'
   repo: diouo/motionlab
+- id: realign-text-to-motion-generation-via-step-aware-reward-guid-fdde92
+  title: 'ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.19217
+    github: https://github.com/wengwanjiang/ReAlign
+  authors:
+  - Wanjiang Weng
+  - Xiaofeng Tan
+  - Junbo Wang
+  - Guo-Sen Xie
+  - Pan Zhou
+  - Hongsong Wang
+  year: 2025
+  tags:
+  - diffusion-model
+  - motion-generation
+  - text-to-motion
+  summary: ReAlign is a plug-and-play reward-guided sampling alignment framework that uses step-aware reward gradients to guide the reverse sampling trajectory of diffusion models for text-to-motion generation.
+  summary_ja: ReAlignは、ステップ認識型の報酬勾配を用いて拡散モデルの逆サンプリング軌道をガイドし、テキストからモーションへの生成におけるアライメントを向上させる、プラグアンドプレイの報酬誘導型サンプリングアライメントフレームワークです。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2511.19217'
+  repo: wengwanjiang/realign
 - id: snapmogen-6ef9a5
   title: SnapMoGen
   area: animation
@@ -4488,6 +4816,32 @@ entries:
   source: agent
   arxiv_id: '2408.12569'
   repo: facebookresearch/sapiens
+- id: tokenhmr-advancing-human-mesh-recovery-with-a-tokenized-pose-14af35
+  title: 'TokenHMR: Advancing Human Mesh Recovery with a Tokenized Pose Representation'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.16752
+    github: https://github.com/saidwivedi/TokenHMR
+  authors:
+  - Sai Kumar Dwivedi
+  - Yu Sun
+  - Priyanka Patel
+  - Yao Feng
+  - Michael J. Black
+  year: 2024
+  tags:
+  - mesh-recovery
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: Introduces a discrete token-based pose representation and a Threshold-Adaptive Loss Scaling (TALS) loss to constrain predictions to valid human poses, achieving state-of-the-art accuracy in 3D human mesh recovery from single images and video frames.
+  summary_ja: 離散トークンベースの姿勢表現と閾値適応型損失スケーリング（TALS）損失を導入することで、予測を有効な人間の姿勢に制限し、単一画像およびビデオフレームからの3D人間メッシュ復元において最先端の精度を達成。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2404.16752'
+  repo: saidwivedi/tokenhmr
 - id: 4d-humans-hmr-2-0-c0c92a
   title: 4D-Humans (HMR 2.0)
   area: animation
@@ -4543,6 +4897,33 @@ entries:
   source: agent
   arxiv_id: '2312.05251'
   repo: geopavlakos/hamer
+- id: hybrik-x-hybrid-analytical-neural-inverse-kinematics-for-who-51f82d
+  title: 'HybrIK-X: Hybrid Analytical-Neural Inverse Kinematics for Whole-Body Mesh Recovery'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.05690
+    github: https://github.com/jeffffffli/HybrIK
+  authors:
+  - Jiefeng Li
+  - Chao Xu
+  - Zhicun Chen
+  - Siyuan Bian
+  - Lixin Yang
+  - Cewu Lu
+  year: 2023
+  tags:
+  - inverse-kinematics
+  - mesh-recovery
+  - mocap
+  - pose-estimation
+  summary: A holistic whole-body mesh recovery framework that combines 3D keypoint estimation with a hybrid analytical-neural inverse kinematics (IK) solver to reconstruct expressive body, hand, and face meshes.
+  summary_ja: 3Dキーポイント推定とハイブリッド解析・ニューラル逆運動学（IK）ソルバーを組み合わせ、表情豊かな身体、手、顔のメッシュを再構築する全身メッシュ復元フレームワーク。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2304.05690'
+  repo: jeffffffli/hybrik
 - id: slahmr-simultaneous-localization-and-human-mesh-recovery-71d9e6
   title: 'SLAHMR: Simultaneous Localization and Human Mesh Recovery'
   area: animation
@@ -4650,6 +5031,34 @@ entries:
   source: agent
   arxiv_id: '2208.00571'
   repo: haofanwang/cliff
+- id: deciwatch-a-simple-baseline-for-10x-efficient-2d-and-3d-pose-8633cf
+  title: 'DeciWatch: A Simple Baseline for 10x Efficient 2D and 3D Pose Estimation'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2203.08713
+    github: https://github.com/cure-lab/DeciWatch
+  authors:
+  - Ailing Zeng
+  - Xuan Ju
+  - Lei Yang
+  - Ruiyuan Gao
+  - Xizhou Zhu
+  - Bo Dai
+  - Wanli Ouyang
+  year: 2022
+  tags:
+  - efficiency
+  - mocap
+  - pose-estimation
+  - temporal
+  summary: A highly efficient framework for video-based 2D and 3D human pose estimation that achieves a 10x speedup by sparsely sampling video frames and using a sample-denoise-recover pipeline to reconstruct the full motion sequence.
+  summary_ja: ビデオフレームを疎にサンプリングし、サンプル・デノイズ・復元パイプラインを用いてモーションシーケンス全体を再構築することで、10倍の高速化を実現する高効率なビデオベースの2D/3D人間姿勢推定フレームワーク。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '2203.08713'
+  repo: cure-lab/deciwatch
 - id: motionbert-01c147
   title: MotionBERT
   area: animation
@@ -4815,6 +5224,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: facebookresearch/frankmocap
+- id: vibe-video-inference-for-human-body-pose-and-shape-estimatio-abffe6
+  title: 'VIBE: Video Inference for Human Body Pose and Shape Estimation'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1912.05656
+    github: https://github.com/mkocabas/VIBE
+  authors:
+  - Muhammed Kocabas
+  - Nikos Athanasiou
+  - Michael J. Black
+  year: 2019
+  tags:
+  - mesh-recovery
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: A video-based 3D human pose and shape estimation method that leverages a recurrent neural network (GRU) and adversarial training with the AMASS motion capture dataset to produce temporally consistent and realistic SMPL body model sequences.
+  summary_ja: リカレントニューラルネットワーク（GRU）とAMASSモーションキャプチャデータセットを用いた敵対的学習を活用し、時系列で一貫性のあるリアルなSMPL身体モデルシーケンスを生成するビデオベースの3D人間姿勢・形状推定手法。
+  date_added: '2026-07-27'
+  source: agent
+  arxiv_id: '1912.05656'
+  repo: mkocabas/vibe
 - id: ace-step-70ff97
   title: ACE-Step
   area: audio
