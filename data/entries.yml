@@ -5276,6 +5276,28 @@ entries:
   source: agent
   arxiv_id: '2602.00744'
   repo: ace-step/ace-step-1.5
+- id: heartmula-0d7052
+  title: HeartMuLa
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.10547
+    github: https://github.com/HeartMuLa/heartlib
+  authors:
+  - HeartMuLa Team
+  year: 2026
+  tags:
+  - foundation-model
+  - llm
+  - lyrics-to-song
+  - music-generation
+  summary: An LLM-based open-source music foundation model family capable of synthesizing high-fidelity, long-form music conditioned on lyrics, tags, and reference audio.
+  summary_ja: 歌詞、タグ、および参照オーディオを条件として、高忠実度で長尺の音楽を合成できる、LLMベースのオープンソース音楽基盤モデルファミリー。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2601.10547'
+  repo: heartmula/heartlib
 - id: stable-audio-3-71daf4
   title: Stable Audio 3
   area: audio
@@ -5509,6 +5531,31 @@ entries:
   source: agent
   arxiv_id: '2402.16153'
   repo: hf-lin/chatmusician
+- id: fluxmusic-d2549d
+  title: FluxMusic
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.00587
+    github: https://github.com/feizc/FluxMusic
+  authors:
+  - Zhengcong Fei
+  - Mingyuan Fan
+  - Changqian Yu
+  - Junshi Huang
+  year: 2024
+  tags:
+  - diffusion
+  - music-generation
+  - text-to-music
+  - transformer
+  summary: A text-to-music generation model that extends diffusion-based rectified flow Transformers to operate in a latent VAE space of mel-spectrograms, improving semantic alignment and audio quality.
+  summary_ja: メルスペクトログラムの潜在VAE空間で動作する、拡散ベースの整流フロー（Rectified Flow）Transformerを拡張したテキストからの音楽生成モデル。セマンティックな整合性と音質を向上させています。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2409.00587'
+  repo: feizc/fluxmusic
 - id: jasco-1444cf
   title: JASCO
   area: audio
@@ -6098,6 +6145,32 @@ entries:
   source: agent
   arxiv_id: '2507.19835'
   repo: aieson/sonicgauss
+- id: specmaskfoley-6c7198
+  title: SpecMaskFoley
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.16195
+    project: https://zzaudio.github.io/SpecMaskFoley_Demo/
+  authors:
+  - Zhi Zhong
+  - Akira Takahashi
+  - Shuyang Cui
+  - Keisuke Toyama
+  - Shusuke Takahashi
+  - Yuki Mitsufuji
+  year: 2025
+  tags:
+  - controlnet
+  - foley-synthesis
+  - generative-audio
+  - video-to-audio
+  summary: A video-guided foley sound synthesis model that steers a pretrained spectral masked generative transformer (SpecMaskGIT) using a ControlNet framework to achieve highly synchronized and semantically accurate audio generation.
+  summary_ja: ControlNetフレームワークを使用して事前学習済みのスペクトルマスク生成トランスフォーマー（SpecMaskGIT）を制御し、高度に同期されセマンティクス的に正確なオーディオ生成を実現する、ビデオガイド付きのフォーリー音合成モデル。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2505.16195'
 - id: cmajor-6629b2
   title: Cmajor
   area: audio
@@ -6202,6 +6275,24 @@ entries:
   date_added: '2026-06-23'
   source: agent
   repo: samiperttu/fundsp
+- id: godot-mixing-desk-f3b4d7
+  title: Godot Mixing Desk
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/kyzfrintin/Godot-Mixing-Desk
+  year: 2021
+  tags:
+  - adaptive-music
+  - game-audio
+  - godot
+  - procedural-audio
+  summary: A complete procedural and adaptive audio solution for the Godot Engine, enabling developers to easily implement interactive soundscapes and dynamic music with minimal code.
+  summary_ja: Godot Engine向けの完全なプロシージャルおよびインタラクティブオーディオソリューションであり、開発者が最小限のコードでインタラクティブな音響空間や動的な音楽を簡単に実装できるようにする。
+  date_added: '2026-07-28'
+  source: agent
+  repo: kyzfrintin/godot-mixing-desk
 - id: specsingan-d708fa
   title: SpecSinGAN
   area: audio
@@ -6462,6 +6553,28 @@ entries:
   date_added: '2026-06-16'
   source: agent
   repo: thestk/stk
+- id: dasheng-audiogen-a-unified-model-for-generating-coherent-aud-bdae93
+  title: 'Dasheng AudioGen: A Unified Model for Generating Coherent Audio Scenes from Text'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.27838
+    github: https://github.com/xiaomi-research/dasheng-audiogen
+  authors:
+  - Xiaomi Research
+  year: 2026
+  tags:
+  - foley
+  - sfx
+  - sound-generation
+  - text-to-audio
+  summary: A unified text-to-audio generation model that can jointly synthesize intelligible speech, music, sound effects, and environmental acoustics from text descriptions. It uses structured multi-view captions and a high-dimensional semantic-acoustic representation to generate coherent mixed audio scenes.
+  summary_ja: テキスト記述から明瞭な音声、音楽、効果音、および環境音を共同で合成できる統合型テキスト・オーディオ生成モデル。構造化されたマルチビュー・キャプションと高次元のセマンティック・アコースティック表現を使用して、一貫性のある混合オーディオシーンを生成する。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2605.27838'
+  repo: xiaomi-research/dasheng-audiogen
 - id: foley-omni-c76b58
   title: Foley-Omni
   area: audio
@@ -6491,6 +6604,33 @@ entries:
   source: agent
   arxiv_id: '2606.03672'
   repo: nju-speech/foley-omni
+- id: foleydirector-fine-grained-temporal-steering-for-video-to-au-bf7617
+  title: 'FoleyDirector: Fine-Grained Temporal Steering for Video-to-Audio Generation via Structured Scripts'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.19857
+    github: https://github.com/LeyRio/FoleyDirector
+  authors:
+  - You Li
+  - Dewei Zhou
+  - Fan Ma
+  - Fu Li
+  - Dongliang He
+  - Yi Yang
+  year: 2026
+  tags:
+  - foley
+  - sfx
+  - temporal-control
+  - video-to-audio
+  summary: A video-to-audio generation framework that introduces Structured Temporal Scripts (STS) to enable fine-grained temporal control over sound effects. It allows users to specify precise time intervals for generating specific sounds (e.g., car horns or footsteps) while keeping other segments silent.
+  summary_ja: 構造化時間スクリプト（STS）を導入することで、効果音の微細な時間制御を可能にするビデオからオーディオへの生成フレームワーク。ユーザーは特定の時間帯に特定の音（車のクラクションや足音など）を生成し、他の時間帯を無音に保つといった精密なコントロールが可能。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2603.19857'
+  repo: leyrio/foleydirector
 - id: woosh-2a0261
   title: Woosh
   area: audio
@@ -6892,6 +7032,37 @@ entries:
   source: agent
   arxiv_id: '2408.11915'
   repo: jnwnlee/video-foley
+- id: video-guided-foley-sound-generation-with-multimodal-controls-bdfc22
+  title: Video-Guided Foley Sound Generation with Multimodal Controls
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17698
+    project: https://ificl.github.io/MultiFoley/
+  authors:
+  - Hao-Wen Chen
+  - Yusheng Tian
+  - Chen-Hsin Weng
+  - Chieh-Yu Chuang
+  - Yen-Ting Yeh
+  - Justin Salamon
+  - Yanzhe Zhang
+  - Federico Fuhrmann
+  - Juan-Pablo Caceres
+  - Yong Jae Lee
+  - Marco Grimaldi
+  year: 2024
+  tags:
+  - foley
+  - multimodal
+  - sfx
+  - video-to-audio
+  summary: A multimodal Foley sound generation model developed by Adobe that supports conditioning on text, audio, and video inputs. It generates high-quality, synchronized 48 kHz sound effects for silent videos, allowing flexible control such as using reference audio to guide the timbre of the generated sound.
+  summary_ja: テキスト、オーディオ、ビデオの入力による条件付けをサポートする、Adobeが開発したマルチモーダルなフォリー音生成モデル。無音のビデオに対して高品質で同期された48 kHzの効果音を生成し、参照オーディオを使用して生成音の音色をガイドするなどの柔軟な制御を可能にする。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2411.17698'
 - id: diff-foley-49a767
   title: Diff-Foley
   area: audio
@@ -7128,6 +7299,33 @@ entries:
   source: agent
   arxiv_id: '2505.14910'
   repo: aaronz345/tcsinger2
+- id: techsinger-c80a5f
+  title: TechSinger
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.12572
+    github: https://github.com/gwx314/TechSinger
+    project: https://gwx314.github.io/tech-singer/
+  authors:
+  - Wenxiang Guo
+  - Rongjie Huang
+  - Lichao Zhang
+  - Ziyue Jiang
+  - Zhou Zhao
+  year: 2025
+  tags:
+  - flow-matching
+  - multilingual
+  - singing-voice
+  - svs
+  summary: An advanced multilingual singing voice synthesis system supporting five languages and seven vocal techniques, leveraging a flow-matching-based generative model for highly expressive and controllable vocal generation.
+  summary_ja: 5つの言語と7つの歌唱テクニックをサポートする高度な多言語歌声合成システム。フローマッチングベースの生成モデルを採用し、表現力豊かで制御可能な歌声を生成。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2502.12572'
+  repo: gwx314/techsinger
 - id: versband-da678b
   title: VersBand
   area: audio
@@ -8066,6 +8264,29 @@ entries:
   date_added: '2026-07-21'
   source: agent
   repo: resemble-ai/chatterbox
+- id: cosyvoice-2-090ff1
+  title: CosyVoice 2
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.10117
+    github: https://github.com/FunAudioLLM/CosyVoice
+  authors:
+  - Zhihao Du
+  - Qian Chen
+  - Shiliang Zhang
+  year: 2024
+  tags:
+  - streaming
+  - tts
+  - voice-cloning
+  summary: An advanced multilingual streaming text-to-speech and voice cloning model that integrates instruction-following and zero-shot capabilities. It achieves human-parity naturalness and ultra-low latency by combining a large language model with a conditional flow matching decoder.
+  summary_ja: 指示追従（Instruction-following）とゼロショット機能を統合した、高度な多言語ストリーミングテキスト読み上げ・音声クローニングモデル。大規模言語モデルと条件付きフロー・マッチング（Conditional Flow Matching）デコーダーを組み合わせることで、人間と同等の自然さと極めて低い遅延を実現しています。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2412.10117'
+  repo: funaudiollm/cosyvoice
 - id: maskgct-6e8729
   title: MaskGCT
   area: audio
@@ -8604,6 +8825,27 @@ entries:
   source: agent
   arxiv_id: '2512.16767'
   repo: jasongzy/make-it-poseable
+- id: mesh2motion-b2512b
+  title: Mesh2Motion
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    github: https://github.com/Mesh2Motion/mesh2motion-app
+    website: https://mesh2motion.org/
+  authors:
+  - Mesh2Motion Team
+  year: 2025
+  tags:
+  - animation
+  - mixamo-alternative
+  - skeleton
+  - web-app
+  summary: An open-source, web-based alternative to Mixamo that allows users to import 3D models, automatically assign skeletons, and export rigged characters with animations. It runs entirely in the browser and supports GLTF and FBX formats.
+  summary_ja: Mixamoのオープンソースかつウェブベースの代替ツール。ユーザーが3Dモデルをインポートし、スケルトンを自動的に割り当て、アニメーション付きのリグ済みキャラクターをエクスポートできます。ブラウザ上で完全に動作し、GLTF/FBXフォーマットをサポートしています。
+  date_added: '2026-07-28'
+  source: agent
+  repo: mesh2motion/mesh2motion-app
 - id: physrig-differentiable-physics-based-skinning-and-rigging-fr-03722e
   title: 'PhysRig: Differentiable Physics-Based Skinning and Rigging Framework for Realistic Articulated Object Modeling'
   area: characters
@@ -9126,6 +9368,32 @@ entries:
   source: agent
   arxiv_id: '2502.20220'
   repo: tobias-kirschstein/avat3r
+- id: infinihuman-b22a17
+  title: InfiniHuman
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.11650
+    github: https://github.com/YuxuanSnow/InfiniHuman
+    project: https://yuxuan-xue.com/infini-human/
+  authors:
+  - Yuxuan Xue
+  - Xianghui Xie
+  - Margaret Kostyrko
+  - Gerard Pons-Moll
+  year: 2025
+  tags:
+  - 3d-avatar
+  - avatar-generation
+  - controllable-generation
+  - siggraph-asia
+  summary: A framework for generating diverse and highly controllable 3D human avatars from multiple modalities (text, clothing, body pose, or shape) using a scalable 3D human dataset generated via 2D diffusion models and a robust 3D reconstruction pipeline.
+  summary_ja: 2D拡散モデルと堅牢な3D再構成パイプラインを用いて構築された大規模な3D人間データセットを活用し、テキスト、衣服、ポーズ、体型などの多様な入力から、精密に制御された3Dアバターを生成するフレームワーク。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2510.11650'
+  repo: yuxuansnow/infinihuman
 - id: liveavatar-45b0d3
   title: LiveAvatar
   area: characters
@@ -9299,6 +9567,61 @@ entries:
   source: agent
   arxiv_id: '2406.08475'
   repo: yuxuansnow/human3diffusion
+- id: puzzleavatar-0fda47
+  title: PuzzleAvatar
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.14869
+    github: https://github.com/YuliangXiu/PuzzleAvatar
+    project: https://puzzleavatar.is.tue.mpg.de/
+  authors:
+  - Yuliang Xiu
+  - Xuandong Li
+  - Albert Pumarola
+  - Michael J. Black
+  - Otmar Hilliges
+  - Jie Song
+  year: 2024
+  tags:
+  - 3d-avatar
+  - avatar-generation
+  - clothed-human
+  - reconstruction
+  summary: A framework for generating personalized, high-fidelity 3D clothed human avatars from unconstrained personal photo collections (albums) by encoding appearance and identity features into tokens and assembling them into a canonical 3D model.
+  summary_ja: 日常の写真コレクション（アルバム）から、外観やアイデンティティの特徴をトークン化して統合し、高品質でパーソナライズされた3Dアバターを生成するフレームワーク。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2405.14869'
+  repo: yuliangxiu/puzzleavatar
+- id: ultravatar-73b1d8
+  title: UltrAvatar
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.11078
+    github: https://github.com/MingJoe/UltrAvatar
+    project: https://usrc-sea.github.io/UltrAvatar/
+  authors:
+  - Mingyuan Zhou
+  - Zijian Wu
+  - Yongchao Wang
+  - Yuan-Chen Guo
+  - Song-Hai Zhang
+  year: 2024
+  tags:
+  - 3d-avatar
+  - avatar-generation
+  - diffusion
+  - pbr-textures
+  summary: A 3D avatar diffusion model that generates realistic, animatable 3D avatars with high-quality PBR textures from a single image or text prompt, utilizing a Diffuse Color Extraction model and an Authenticity Guided Texture Diffusion Model.
+  summary_ja: テキストプロンプトまたは1枚の画像から、高品質なPBRテクスチャを備えたアニメーション可能なリアルな3Dアバターを生成する、拡散モデルベースのフレームワーク。
+  date_added: '2026-07-28'
+  source: agent
+  arxiv_id: '2401.11078'
+  repo: mingjoe/ultravatar
 - id: x-portrait-b46e54
   title: X-Portrait
   area: characters

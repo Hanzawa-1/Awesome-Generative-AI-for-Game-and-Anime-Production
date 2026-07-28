@@ -658,6 +658,23 @@ entries:
   summary_ja: 自然言語のプロンプトから高品質でロイヤリティフリーの効果音、フォーリー、環境音を生成するために設計された商用のテキスト・ツー・オーディオ生成ツール。複数のバリエーションの生成、シームレスなループ、およびプロフェッショナルグレードの48 kHzオーディオ出力をサポートしています。
   date_added: '2026-07-21'
   source: agent
+- id: optimizerai-04db1f
+  title: OptimizerAI
+  area: audio
+  task: sfx-foley
+  kind: proprietary
+  links:
+    website: https://www.optimizerai.xyz/
+  year: 2024
+  tags:
+  - foley
+  - proprietary
+  - sfx
+  - sound-generation
+  summary: A proprietary AI-powered sound effects generator designed for creators, game developers, and video producers. It enables fast creation of high-quality, royalty-free audio assets from text prompts or video uploads, supporting stereo output at 44.1 kHz.
+  summary_ja: クリエイター、ゲーム開発者、映像制作者向けに設計された、AI搭載の商用効果音ジェネレーター。テキストプロンプトやビデオのアップロードから、高品質でロイヤリティフリーのオーディオアセットを迅速に作成でき、44.1 kHzのステレオ出力をサポートする。
+  date_added: '2026-07-28'
+  source: agent
 - id: ace-studio-e0c53b
   title: ACE Studio
   area: audio
