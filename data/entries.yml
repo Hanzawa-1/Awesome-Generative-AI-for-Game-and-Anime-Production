@@ -10046,6 +10046,29 @@ entries:
   source: agent
   arxiv_id: '2503.15406'
   repo: cvlab-kaist/visual-persona
+- id: avatarpopup-instant-3d-human-avatar-generation-using-image-d-ab9f79
+  title: 'AvatarPopUp: Instant 3D Human Avatar Generation using Image Diffusion Models'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.07516
+  authors:
+  - Nikos Kolotouros
+  - Thiemo Alldieck
+  - Enric Corona
+  - Eduard Gabriel Bazavan
+  - Cristian Sminchisescu
+  year: 2024
+  tags:
+  - 3d-avatar
+  - character-generation
+  - diffusion
+  summary: A method for fast, high-quality 3D human avatar generation from different input modalities, such as images and text prompts, with control over the generated pose and shape. It decouples generation from 3D modeling by using diffusion-based image generation networks specialized for each task, followed by a 3D lifting network.
+  summary_ja: 画像やテキストプロンプトなどの多様な入力モダリティから、生成されるポーズや形状を制御しつつ、高速かつ高品質に3D人間アバターを生成する手法。各タスクに特化した拡散ベースの画像生成ネットワークと3Dリフティングネットワークを組み合わせることで、生成プロセスと3Dモデリングを分離しています。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2406.07516'
 - id: characterfactory-8ddb72
   title: CharacterFactory
   area: characters
@@ -10371,6 +10394,35 @@ entries:
   source: agent
   arxiv_id: '2312.15430'
   repo: human3daigc/make-a-character
+- id: any3davatar-fast-and-high-quality-full-head-3d-avatar-recons-832f8e
+  title: 'Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.13856
+    github: https://github.com/Biggaoga/Any3Davatar
+    project: https://biggaoga.github.io/Any3Davatar/
+  authors:
+  - Yujie Gao
+  - Yao Xiao
+  - Xiangnan Zhu
+  - Ya Li
+  - Yiyi Zhang
+  - Liqing Zhang
+  - Jianfu Zhang
+  year: 2026
+  tags:
+  - 3d-head
+  - gaussian-splatting
+  - real-time
+  - single-image-to-3d
+  summary: A fast feed-forward method for single-image 3D Gaussian head avatar generation. It reconstructs a complete 3D head with fine geometry and appearance details from a single portrait in under one second, bridging the gap between speed and quality.
+  summary_ja: 単一のポートレート画像から高速かつ高品質に3Dガウシアンヘッドアバターを生成する、フィードフォワード型の統合フレームワーク。1秒未満で微細な形状と外観の詳細を持つ完全な3Dヘッドを再構成し、速度と品質の両立を実現します。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2604.13856'
+  repo: biggaoga/any3davatar
 - id: emotegpt-3d-human-facial-expressions-from-natural-language-d-ab19b1
   title: 'EmoteGPT: 3D Human Facial Expressions from Natural Language Descriptions'
   area: characters
@@ -11516,6 +11568,69 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2607.07187'
+- id: flusplat-sparse-view-3d-editing-without-test-time-optimizati-c97b7b
+  title: 'FluSplat: Sparse-View 3D Editing without Test-Time Optimization'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.20038
+  authors:
+  - Haitao Huang
+  - Shin-Fang Chng
+  - Huangying Zhan
+  - Qingan Yan
+  - Yi Xu
+  year: 2026
+  tags:
+  - 3d-editing
+  - feed-forward
+  - gaussian-splatting
+  - sparse-view
+  summary: FluSplat is a feed-forward framework for cross-view consistent 3D scene editing from sparse views, decoupling the editing process from 3D reconstruction to eliminate the need for test-time optimization.
+  summary_ja: FluSplatは、疎な視点からクロスビューの一貫性を保った3Dシーン編集を行うフィードフォワードフレームワークであり、編集プロセスを3D再構成から切り離すことで、テスト時の最適化を不要にします。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2604.20038'
+- id: godot-mcp-616fca
+  title: Godot MCP
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    github: https://github.com/satelliteoflove/godot-mcp
+  year: 2026
+  tags:
+  - ai-assistant
+  - godot
+  - mcp
+  - scene-editing
+  summary: Godot MCP integrates AI assistants into the Godot editor, enabling automated scene editing, input injection, deterministic playtesting, and live game state inspection.
+  summary_ja: Godot MCPは、AIアシスタントをGodotエディタに統合し、自動化されたシーン編集、インプットの注入、決定論的なプレイテスト、およびライブゲーム状態の検査を可能にします。
+  date_added: '2026-07-29'
+  source: agent
+  repo: satelliteoflove/godot-mcp
+- id: look-before-you-edit-attention-guided-camera-placement-and-m-a0c39c
+  title: 'Look Before You Edit: Attention-Guided Camera Placement and Multi-View Alignment for 3D Gaussian Splatting Editing'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.19777
+  authors:
+  - Jaeyeon Park
+  - Taeho Kang
+  - Youngki Lee
+  year: 2026
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - multi-view-alignment
+  summary: LB-Edit is a text-driven 3D Gaussian Splatting editing framework that introduces attention-guided camera placement and multi-view alignment to ensure spatial coverage and cross-view consistency during localized edits.
+  summary_ja: LB-Editは、アテンション誘導型のカメラ配置とマルチビューアライメントを導入することで、局所的な編集における空間的カバレッジとクロスビューの一貫性を保証する、テキスト駆動型の3D Gaussian Splatting編集フレームワークです。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2607.19777'
 - id: tango-138fc1
   title: TanGO
   area: gen-3d
@@ -11689,6 +11804,31 @@ entries:
   source: agent
   arxiv_id: '2510.15019'
   repo: jamesyjl/nano3d
+- id: romap-robust-3d-masked-part-level-editing-in-3d-gaussian-spl-c9631a
+  title: 'RoMaP: Robust 3D-Masked Part-level Editing in 3D Gaussian Splatting with Regularized Score Distillation Sampling'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.11061
+    github: https://github.com/janeyeon/RoMaP-code
+    project: https://janeyeon.github.io/romap/
+  authors:
+  - Hayeon Kim
+  - Ji Ha Jang
+  - Se Young Chun
+  year: 2025
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - part-level-editing
+  - sds
+  summary: RoMaP is a local 3D Gaussian Splatting editing framework that enables precise, text-guided, part-level modifications by integrating a geometry-aware 3D mask generator with a regularized Score Distillation Sampling (SDS) objective.
+  summary_ja: RoMaPは、ジオメトリを考慮した3Dマスク生成器と正則化されたスコア蒸留サンプリング（SDS）目的関数を統合することで、テキスト指示に基づいた高精度なパーツ単位の編集を可能にする、局所的な3D Gaussian Splatting編集フレームワークです。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2507.11061'
+  repo: janeyeon/romap-code
 - id: tinker-diffusion-s-gift-to-3d-multi-view-consistent-editing-deb6e8
   title: 'Tinker: Diffusion''s Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization'
   area: gen-3d
@@ -12273,6 +12413,31 @@ entries:
   source: agent
   arxiv_id: '2602.03045'
   repo: boyuanvisionary/pro-cad
+- id: hiercad-hierarchical-text-to-cad-design-via-structure-alignm-7b69e1
+  title: 'HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.11339
+    github: https://github.com/Collab-Gen/HierCAD
+  authors:
+  - Jimin Xu
+  - Tianbao Wang
+  - Tao Jin
+  - Zhou Zhao
+  year: 2026
+  tags:
+  - cad
+  - hierarchical
+  - llm
+  - text-to-cad
+  summary: A hierarchical text-to-CAD framework that reformulates CAD generation as progressive reasoning by decomposing CAD construction trees into object-level procedural reasoning and part-level topology reasoning trajectories.
+  summary_ja: CADの構築ツリーをオブジェクトレベルの手続き的推論とパーツレベルのトポロジー推論の軌跡に分解することで、CAD生成を段階的な推論として再定式化する、階層的なText-to-CADフレームワークです。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2607.11339'
+  repo: collab-gen/hiercad
 - id: mamba-cad-1faa08
   title: Mamba-CAD
   area: gen-3d
@@ -12300,6 +12465,35 @@ entries:
   source: agent
   arxiv_id: '2603.00439'
   repo: sunny-hack/code-for-mamba-cad-aaai-2025-
+- id: paracad-autoregressive-b-rep-shape-generation-with-parametri-acaa49
+  title: 'ParaCAD: Autoregressive B-Rep Shape Generation with Parametric Surfaces'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.17093
+    github: https://github.com/dafei-qin/ParaCAD
+  authors:
+  - Dafei Qin
+  - Rui Xu
+  - Zeyu Shen
+  - Kaichun Qiao
+  - Hongyang Lin
+  - Qixuan Zhang
+  - Huaijin Pi
+  - Lan Xu
+  year: 2026
+  tags:
+  - autoregressive
+  - brep
+  - cad
+  - point-cloud
+  summary: An autoregressive framework for point-cloud-conditioned B-Rep generation that directly operates on native parametric surfaces, recovering valid CAD models through global surface intersection and optimization.
+  summary_ja: 点群を条件とする境界表現（B-Rep）生成のための自己回帰型フレームワークであり、ネイティブなパラメータ曲面上で直接動作し、グローバルな曲面交差と最適化を通じて有効なCADモデルを復元します。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2607.17093'
+  repo: dafei-qin/paracad
 - id: step-llm-9920ef
   title: STEP-LLM
   area: gen-3d
@@ -12372,6 +12566,33 @@ entries:
   date_added: '2026-06-24'
   source: agent
   arxiv_id: '2604.24479'
+- id: a-solver-aided-hierarchical-language-for-llm-driven-cad-desi-1e6616
+  title: A Solver-Aided Hierarchical Language for LLM-Driven CAD Design
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.09819
+    github: https://github.com/zzhang-18/aidl
+  authors:
+  - Benjamin T. Jones
+  - Felix Hähnlein
+  - Zihan Zhang
+  - Maaz Ahmad
+  - Vladimir Kim
+  - Adriana Schulz
+  year: 2025
+  tags:
+  - cad
+  - dsl
+  - llm
+  - parametric
+  summary: Introduces AIDL (AI Design Language), a solver-aided, hierarchical domain-specific language that offloads spatial reasoning requirements to a geometric constraint solver, enabling large language models to generate complex parametric CAD designs.
+  summary_ja: 空間的な推論要件を幾何学的拘束ソルバーにオフロードする、ソルバー支援型の階層的ドメイン固有言語「AIDL (AI Design Language)」を提案し、大規模言語モデルによる複雑なパラメータ駆動型CAD設計の生成を可能にします。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2502.09819'
+  repo: zzhang-18/aidl
 - id: autobrep-autoregressive-b-rep-generation-with-unified-topolo-f894bb
   title: 'AutoBrep: Autoregressive B-Rep Generation with Unified Topology and Geometry'
   area: gen-3d
@@ -13374,6 +13595,32 @@ entries:
   date_added: '2026-06-24'
   source: agent
   arxiv_id: '2511.16624'
+- id: spar3d-stable-point-aware-reconstruction-of-3d-objects-from-c298d5
+  title: 'SPAR3D: Stable Point-Aware Reconstruction of 3D Objects from Single Images'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.04689
+    github: https://github.com/Stability-AI/stable-point-aware-3d
+  authors:
+  - Zixuan Huang
+  - Mark Boss
+  - Aaryaman Vasishta
+  - James M. Rehg
+  - Varun Jampani
+  year: 2025
+  tags:
+  - image-to-3d
+  - mesh-generation
+  - point-cloud
+  - stability-ai
+  summary: SPAR3D (Stable Point-Aware Reconstruction of 3D Objects) is a single-image 3D reconstruction framework that combines regression and generative modeling. It uses a point-aware representation to efficiently reconstruct visible surfaces while leveraging generative priors to synthesize plausible and aligned geometry for occluded regions.
+  summary_ja: SPAR3D（Stable Point-Aware Reconstruction of 3D Objects）は、回帰モデルと生成モデルを組み合わせた単一画像からの3D再構成フレームワークです。ポイントアウェア（点群認識）表現を用いて可視表面を効率的に再構成しつつ、生成的な事前知識を活用して遮蔽領域の整合性のある幾何形状を合成します。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2501.04689'
+  repo: stability-ai/stable-point-aware-3d
 - id: sparseflex-b7190e
   title: SparseFlex
   area: gen-3d
@@ -13845,6 +14092,35 @@ entries:
   source: seed
   arxiv_id: '2412.01506'
   repo: microsoft/trellis
+- id: triposr-fast-3d-object-reconstruction-from-a-single-image-2a550e
+  title: 'TripoSR: Fast 3D Object Reconstruction from a Single Image'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.02151
+    github: https://github.com/VAST-AI-Research/TripoSR
+  authors:
+  - Dmitry Tochilkin
+  - David Pankratz
+  - Zexiang Liu
+  - Zixuan Huang
+  - Adam Letts
+  - Yangguang Li
+  - Ding Liang
+  - Christian Laforte
+  year: 2024
+  tags:
+  - fast-inference
+  - image-to-3d
+  - mesh-generation
+  - transformer
+  summary: TripoSR is a fast feed-forward 3D reconstruction model that generates high-quality 3D meshes from a single image in under 0.5 seconds. Developed in collaboration between Tripo AI and Stability AI, it leverages a transformer-based architecture optimized for rapid inference and high-fidelity geometry generation.
+  summary_ja: TripoSRは、単一の画像から0.5秒未満で高品質な3Dメッシュを生成する高速フィードフォワード3D再構成モデルです。Tripo AIとStability AIの共同開発によるもので、高速な推論と高精度な幾何形状生成に最適化されたトランスフォーマーベースのアーキテクチャを採用しています。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2403.02151'
+  repo: vast-ai-research/triposr
 - id: unique3d-5ac3fd
   title: Unique3D
   area: gen-3d
@@ -14469,6 +14745,36 @@ entries:
   source: seed
   arxiv_id: '2504.07943'
   repo: vast-ai-research/holopart
+- id: hunyuan3d-2-1-from-images-to-high-fidelity-3d-assets-with-pr-c3ad63
+  title: 'Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.15442
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
+    paper: https://arxiv.org/pdf/2506.15442
+  authors:
+  - Team Hunyuan3D
+  - Shuhui Yang
+  - Mingxin Yang
+  - Yifei Feng
+  - Xin Huang
+  - Sheng Zhang
+  - Zebin He
+  - Di Luo
+  year: 2025
+  tags:
+  - 3d-generation
+  - diffusion
+  - mesh
+  - pbr
+  summary: Presents Hunyuan3D 2.1, a scalable 3D asset creation system that generates high-fidelity 3D meshes from images with production-ready Physically-Based Rendering (PBR) texture synthesis. It features a complete open-source framework including a VAE encoder and training code.
+  summary_ja: 画像からプロダクション対応の物理ベースレンダリング（PBR）テクスチャ合成を備えた高品質な3Dメッシュを生成する、スケーラブルな3Dアセット作成システム「Hunyuan3D 2.1」を提案。VAEエンコーダーやトレーニングコードを含む完全なオープンソースフレームワークを特徴としています。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2506.15442'
+  repo: tencent-hunyuan/hunyuan3d-2.1
 - id: mesh-rft-enhancing-mesh-generation-via-fine-grained-reinforc-3dbe72
   title: 'Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning'
   area: gen-3d
@@ -15458,6 +15764,32 @@ entries:
   source: agent
   arxiv_id: '2601.03252'
   repo: zju3dv/infinidepth
+- id: zipdepth-bringing-lightweight-zero-shot-monocular-depth-anyw-eb09ac
+  title: 'ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.08771
+    github: https://github.com/geoeo/zipdepth
+    website: https://zipdepth.github.io/
+  authors:
+  - Fabio Tosi
+  - Luca Bartolomei
+  - Matteo Poggi
+  - Stefano Mattoccia
+  year: 2026
+  tags:
+  - depth
+  - lightweight
+  - on-device
+  - zero-shot
+  summary: A compact, lightweight monocular depth estimation network designed for zero-shot generalization and efficient on-device deployment across diverse platforms.
+  summary_ja: 多様なプラットフォームでのオンデバイス展開とゼロショット汎化を目的として設計された、コンパクトで軽量な単眼深度推定ネットワーク。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2607.08771'
+  repo: geoeo/zipdepth
 - id: dens3r-a-foundation-model-for-3d-geometry-prediction-537cd4
   title: 'Dens3R: A Foundation Model for 3D Geometry Prediction'
   area: gen-3d
@@ -15736,6 +16068,32 @@ entries:
   source: agent
   arxiv_id: '2410.02073'
   repo: apple/ml-depth-pro
+- id: depthart-monocular-depth-estimation-as-autoregressive-refine-afcbc5
+  title: 'DepthART: Monocular Depth Estimation as Autoregressive Refinement Task'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.15010
+    github: https://github.com/bulatko/DepthART
+    website: https://bulatko.github.io/depthart-pp/
+  authors:
+  - Bulat Gabdullin
+  - Nina Konovalova
+  - Nikolay Patakin
+  - Dmitry Senushkin
+  - Anton Konushin
+  year: 2024
+  tags:
+  - autoregressive
+  - depth
+  - transformer
+  summary: A monocular depth estimation framework formulated as an autoregressive refinement task, utilizing a depth autoregressive transformer to iteratively refine depth predictions.
+  summary_ja: 自己回帰的な洗練タスクとして定式化された単眼深度推定フレームワークであり、深度自己回帰トランスフォーマーを用いて深度予測を反復的に洗練します。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2409.15010'
+  repo: bulatko/depthart
 - id: depthcrafter-772016
   title: DepthCrafter
   area: gen-3d
@@ -15906,6 +16264,29 @@ entries:
   source: agent
   arxiv_id: '2404.15506'
   repo: yvanyin/metric3d
+- id: scalable-autoregressive-monocular-depth-estimation-f50fb5
+  title: Scalable Autoregressive Monocular Depth Estimation
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.11361
+    github: https://github.com/wjh892521292/DAR
+    website: https://depth-ar.github.io/
+  authors:
+  - Jiahao Wang
+  - et al.
+  year: 2024
+  tags:
+  - autoregressive
+  - depth
+  - multi-resolution
+  summary: An autoregressive model for monocular depth estimation that treats depth maps of different resolutions as tokens, performing low-to-high resolution autoregressive prediction.
+  summary_ja: 異なる解像度の深度マップをトークンとして扱い、低解像度から高解像度への自己回帰予測を行う単眼深度推定モデル。
+  date_added: '2026-07-29'
+  source: agent
+  arxiv_id: '2411.11361'
+  repo: wjh892521292/dar
 - id: stablenormal-0548be
   title: StableNormal
   area: gen-3d

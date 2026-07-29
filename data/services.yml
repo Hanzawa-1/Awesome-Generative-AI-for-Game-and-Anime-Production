@@ -1176,6 +1176,23 @@ entries:
   thumbnail: assets/thumbnails/ngskintools-v2-39804d.png
   date_added: '2026-07-08'
   source: agent
+- id: ngskintools-1c7f77
+  title: ngSkinTools
+  area: characters
+  task: skinning
+  kind: proprietary
+  links:
+    website: https://www.ngskintools.com/
+  year: 2020
+  tags:
+  - layers
+  - maya
+  - plugin
+  - weight-painting
+  summary: An industry-standard layer-based skinning plugin for Autodesk Maya that introduces non-destructive layers, advanced mirroring, and enhanced paint brushes to streamline character weight painting.
+  summary_ja: 非破壊的なレイヤー、高度なミラーリング、強化されたペイントブラシを導入し、キャラクターのウェイトペイント作業を効率化する、Autodesk Maya向けの業界標準レイヤーベーススキニングプラグイン。
+  date_added: '2026-07-29'
+  source: agent
 - id: spline-ai-89a525
   title: Spline AI
   area: gen-3d
