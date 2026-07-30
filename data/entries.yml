@@ -16784,6 +16784,35 @@ entries:
   source: agent
   arxiv_id: '2406.17601'
   repo: imlixinyang/director3d
+- id: dreamscene-3d-gaussian-based-text-to-3d-scene-generation-via-be9f95
+  title: 'DreamScene: 3D Gaussian-based Text-to-3D Scene Generation via Formation Pattern Sampling'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.03575
+    github: https://github.com/DreamScene-Project/DreamScene
+    project: https://dreamscene-project.github.io/
+  authors:
+  - Haoran Li
+  - Haolin Shi
+  - Wenli Zhang
+  - Wenjun Wu
+  - Yong Liao
+  - Lin Wang
+  - Lik-Hang Lee
+  - Peng Yuan Zhou
+  year: 2024
+  tags:
+  - 3d-scene
+  - gaussian-splatting
+  - text-to-3d
+  summary: A 3D Gaussian Splatting-based text-to-3D scene generation framework that utilizes Formation Pattern Sampling (FPS) and a progressive camera sampling strategy to produce high-quality, consistent, and editable indoor and outdoor environments.
+  summary_ja: Formation Pattern Sampling (FPS) と段階的なカメラサンプリング戦略を利用して、高品質で一貫性があり、編集可能な屋内・屋外環境を生成する、3D Gaussian Splattingベースのテキストto3Dシーン生成フレームワーク。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2404.03575'
+  repo: dreamscene-project/dreamscene
 - id: dreamscene360-810e02
   title: DreamScene360
   area: gen-3d
@@ -16935,6 +16964,35 @@ entries:
   source: agent
   arxiv_id: '2410.09049'
   repo: orangesodahub/scenecraft
+- id: scenedreamer360-text-driven-3d-consistent-scene-generation-w-39867c
+  title: 'SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.13711
+    github: https://github.com/liwrui/SceneDreamer360
+    project: https://scenedreamer360.github.io/
+  authors:
+  - Wenrui Li
+  - Yapeng Mi
+  - Fucheng Cai
+  - Zhe Yang
+  - Wangmeng Zuo
+  - Xingtao Wang
+  - Xiaopeng Fan
+  year: 2024
+  tags:
+  - 3d-scene
+  - gaussian-splatting
+  - panorama
+  - text-to-3d
+  summary: A text-driven 3D scene generation framework that leverages panoramic image generation and 3D Gaussian Splatting (3DGS) to synthesize high-quality, spatially consistent 3D environments with 360-degree views.
+  summary_ja: パノラマ画像生成と3D Gaussian Splatting (3DGS) を活用し、360度ビューを持つ高品質で空間的に一貫した3D環境を合成する、テキスト駆動型の3Dシーン生成フレームワーク。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2408.13711'
+  repo: liwrui/scenedreamer360
 - id: sceneteller-e89b09
   title: SceneTeller
   area: gen-3d
@@ -16960,6 +17018,36 @@ entries:
   source: agent
   arxiv_id: '2407.20727'
   repo: sceneteller/sceneteller
+- id: scenex-procedural-controllable-large-scale-scene-generation-a9cbe7
+  title: 'SceneX: Procedural Controllable Large-scale Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.15698
+    github: https://github.com/zhouzq1/SceneX
+    project: https://zhouzq1.github.io/SceneX/
+  authors:
+  - Mengqi Zhou
+  - Yuxi Wang
+  - Jun Hou
+  - Shougao Zhang
+  - Yiwei Li
+  - Chuanchen Luo
+  - Junran Peng
+  - Zhaoxiang Zhang
+  year: 2024
+  tags:
+  - 3d-scene
+  - llm
+  - pcg
+  - procedural-generation
+  summary: A procedural controllable large-scale scene generation framework that combines Large Language Models (LLMs) with procedural content generation (PCG) tools to automatically produce high-quality 3D natural scenes and urban environments from textual descriptions.
+  summary_ja: 大規模言語モデル（LLM）とプロシージャル・コンテンツ生成（PCG）ツールを組み合わせ、テキスト記述から高品質な3D自然景観や都市環境を自動生成する、プロシージャル制御可能な大規模シーン生成フレームワーク。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2403.15698'
+  repo: zhouzq1/scenex
 - id: wonderworld-0eef9e
   title: WonderWorld
   area: gen-3d
@@ -16987,6 +17075,32 @@ entries:
   source: agent
   arxiv_id: '2406.09394'
   repo: kovenyu/wonderworld
+- id: ctrl-room-controllable-text-to-3d-room-meshes-generation-wit-1acc6d
+  title: 'Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.03602
+    github: https://github.com/HKUST-SAIL/Ctrl-Room
+    project: https://fangchuan.github.io/ctrl-room.github.io/
+  authors:
+  - Chuan Fang
+  - Xiaotao Hu
+  - Kunming Luo
+  - Ping Tan
+  year: 2023
+  tags:
+  - 3d-scene
+  - indoor-scene
+  - layout-control
+  - text-to-3d
+  summary: A controllable text-to-3D room generation framework that separates layout and appearance modeling, enabling the generation of high-fidelity 3D indoor scenes with designer-style layouts and supporting interactive editing operations like resizing or moving furniture.
+  summary_ja: レイアウトと外観のモデリングを分離することで、デザイナーズスタイルのレイアウトを持つ高精度な3D屋内シーンを生成し、家具のサイズ変更や移動などのインタラクティブな編集操作を可能にする、制御可能なテキストto3Dルーム生成フレームワーク。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2310.03602'
+  repo: hkust-sail/ctrl-room
 - id: holodeck-e3f4ee
   title: Holodeck
   area: gen-3d
@@ -17097,6 +17211,39 @@ entries:
   source: agent
   arxiv_id: '2605.17916'
   repo: jjrcn/panoworld
+- id: pantheon360-taming-digital-twin-generation-via-3d-aware-360-5d0e99
+  title: 'Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.25449
+    website: https://koi953215.github.io/pantheon360_page/
+  authors:
+  - Ting-Hsuan Chen
+  - Ying-Huan Chen
+  - Tao Tu
+  - Jie-Ying Lee
+  - Cho-Ying Wu
+  - Fangzhou Lin
+  - Hengyuan Zhang
+  - David Paz
+  - Xinyu Huang
+  - Yuliang Guo
+  - Yu-Lun Liu
+  - Yue Wang
+  - Liu Ren
+  year: 2026
+  tags:
+  - '360'
+  - digital-twin
+  - panorama
+  - video-generation
+  summary: A controllable 360° video generation framework that synthesizes high-fidelity panoramic videos from sparse 360° inputs. It utilizes an explicit 3D Cache reconstructed from the input as a geometric scaffold to enforce global consistency along user-defined camera trajectories.
+  summary_ja: 疎な360度入力画像から高精度なパノラマ動画を合成する、コントロール可能な360度動画生成フレームワーク。入力から再構成された明示的な「3Dキャッシュ」を幾何学的な足場として利用することで、ユーザーが定義したカメラ軌跡に沿ってグローバルな一貫性を維持します。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2605.25449'
 - id: sherpa-be638a
   title: SHERPA
   area: gen-3d
@@ -17212,6 +17359,33 @@ entries:
   source: agent
   arxiv_id: '2504.11379'
   repo: intmegroup/omni2
+- id: panowan-lifting-diffusion-video-generation-models-to-360-wit-6c5ffa
+  title: 'PanoWan: Lifting Diffusion Video Generation Models to 360° with Latitude/Longitude-aware Mechanisms'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.22016
+    github: https://github.com/VariantConst/PanoWan
+  authors:
+  - Yutong Xia
+  - Yuan-Chen Guo
+  - Qi Zhang
+  - Jie Shan
+  - Yan-Pei Cao
+  - Song-Hai Zhang
+  year: 2025
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - video-generation
+  summary: A text-based panoramic video generation framework that lifts pre-trained diffusion models to 360° panoramas. It integrates latitude-aware sampling and longitude-aware circular padding to address latitudinal distortions and boundary seam artifacts caused by equirectangular projection.
+  summary_ja: 事前学習済みの動画生成モデルを360度パノラマに拡張する、テキスト駆動型のパノラマ動画生成フレームワーク。緯度を考慮したサンプリングと経度を考慮した循環パディングを統合することで、正距円筒図法（ERP）に起因する歪みや境界の継ぎ目アーティファクトを解消します。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2505.22016'
+  repo: variantconst/panowan
 - id: spherediff-d7a6e7
   title: SphereDiff
   area: gen-3d
@@ -17632,6 +17806,32 @@ entries:
   source: agent
   arxiv_id: '2603.16736'
   repo: lukashoel/video_to_world
+- id: citydreamer4d-ecebbb
+  title: CityDreamer4D
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.08983
+    github: https://github.com/hzxie/CityDreamer4D
+    project: https://www.infinitescript.com/project/city-dreamer-4d/
+  authors:
+  - Haozhe Xie
+  - Zhaoxi Chen
+  - Fangzhou Hong
+  - Ziwei Liu
+  year: 2025
+  tags:
+  - 4d-generation
+  - bev
+  - city-generation
+  - procedural
+  summary: A compositional generative model for unbounded 4D cities that decouples static background elements (buildings, roads) from dynamic foreground elements (moving vehicles). It utilizes a Bird's-Eye-View (BEV) layout generator and traffic simulation to produce highly realistic, multi-view consistent, and temporally coherent 4D urban environments.
+  summary_ja: 静的な背景要素（建物、道路）と動的な前景要素（移動する車両）を分離して、無限に広がる4D都市を生成する構成的生成モデル。鳥瞰図（BEV）レイアウト生成器と交通シミュレーションを活用し、マルチビューの一貫性と時間的コヒーレンスを備えたリアルな4D都市環境を構築します。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2501.08983'
+  repo: hzxie/citydreamer4d
 - id: embodiedgen-e6ba58
   title: EmbodiedGen
   area: gen-3d
@@ -18155,6 +18355,34 @@ entries:
   source: agent
   arxiv_id: '2509.21245'
   repo: tencent-hunyuan/hunyuan3d-omni
+- id: progressive-rendering-distillation-adapting-stable-diffusion-a4da68
+  title: 'Progressive Rendering Distillation: Adapting Stable Diffusion for Instant Text-to-Mesh Generation without 3D Data'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.21694
+    github: https://github.com/theEricMa/TriplaneTurbo
+    project: https://theericma.github.io/TriplaneTurbo/
+  authors:
+  - Zhiyuan Ma
+  - Xinyue Liang
+  - Rongyuan Wu
+  - Xiangyu Zhu
+  - Zhen Lei
+  - Lei Zhang
+  year: 2025
+  tags:
+  - diffusion
+  - mesh-generation
+  - score-distillation
+  - text-to-3d
+  summary: A novel training scheme, Progressive Rendering Distillation (PRD), that adapts pre-trained text-to-image diffusion models into a native 3D generator (TriplaneTurbo) without requiring 3D ground-truth data, enabling high-quality 3D mesh generation in 1.2 seconds.
+  summary_ja: 3Dの教師データを使用せずに、事前学習済みの2Dテキスト画像拡散モデルをネイティブな3D生成器（TriplaneTurbo）に適応させる新しい学習手法「Progressive Rendering Distillation (PRD)」を提案。わずか1.2秒で高品質な3Dメッシュを生成可能。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2503.21694'
+  repo: theericma/triplaneturbo
 - id: roblox-cube-4a3290
   title: Roblox Cube
   area: gen-3d
@@ -18213,6 +18441,33 @@ entries:
   date_added: '2026-07-09'
   source: agent
   arxiv_id: '2512.14692'
+- id: walking-the-schr-dinger-bridge-a-direct-trajectory-for-text-1ae1da
+  title: 'Walking the Schrödinger Bridge: A Direct Trajectory for Text-to-3D Generation'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.05609
+    github: https://github.com/emmaleee789/TraCe
+  authors:
+  - Ziying Li
+  - Xuequan Lu
+  - Xinkui Zhao
+  - Guanjie Cheng
+  - Shuiguang Deng
+  - Jianwei Yin
+  year: 2025
+  tags:
+  - gaussian-splatting
+  - schrodinger-bridge
+  - score-distillation
+  - text-to-3d
+  summary: Introduces Trajectory-Centric Distillation (TraCe), a text-to-3D generation framework that models Score Distillation Sampling (SDS) as a Schrödinger Bridge problem to learn an optimal transport path between 3D renderings and dynamically estimated target distributions.
+  summary_ja: スコア蒸留サンプリング（SDS）をシュレーディンガー橋問題として定式化し、3Dレンダリングと動的に推定されたターゲット分布の間の最適な輸送経路を学習するテキスト3D生成フレームワーク「Trajectory-Centric Distillation (TraCe)」を提案。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2511.05609'
+  repo: emmaleee789/trace
 - id: bootstrap3d-de5338
   title: Bootstrap3D
   area: gen-3d
@@ -18440,6 +18695,33 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2211.10440'
+- id: material-apprentice-reflecting-process-expertise-in-procedur-b2a8f5
+  title: 'Material Apprentice: Reflecting Process Expertise in Procedural Material Generation'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.13318
+    github: https://github.com/KunalMGupta/material-apprentice
+    website: https://materialapprentice.github.io/
+  authors:
+  - Kunal Gupta
+  - Gaurav Joshi
+  - Yen-Ru Chen
+  - Seemandhar Jain
+  - Ishit Mehta
+  - Manmohan Chandraker
+  year: 2026
+  tags:
+  - blender
+  - material
+  - procedural
+  summary: A framework that formulates procedural material generation as retrieval-time process reasoning over expert demonstrations, automatically generating editable Blender node graphs rather than baked textures.
+  summary_ja: 専門家のデモンストレーションに対する検索時プロセス推論として手続き型マテリアル生成を定式化し、ベイクされたテクスチャではなく、編集可能なBlenderノードグラフを自動生成するフレームワーク。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2607.13318'
+  repo: kunalmgupta/material-apprentice
 - id: reli3d-f0d878
   title: ReLi3D
   area: gen-3d
@@ -18468,6 +18750,31 @@ entries:
   source: agent
   arxiv_id: '2603.19753'
   repo: stability-ai/reli3d
+- id: toward-richer-material-generation-via-procedural-data-enhanc-fa2bdb
+  title: Toward Richer Material Generation via Procedural Data Enhancement
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.14988
+    website: https://blaire9989.github.io/
+  authors:
+  - Yunchen Yu
+  - Jacob Munkberg
+  - Jon Hasselgren
+  - Chris Cummings
+  - Steve Marschner
+  - Andrea Weidlich
+  year: 2026
+  tags:
+  - data-augmentation
+  - material
+  - pbr
+  summary: A method that enhances simple PBR materials into more expressive ones by augmenting the single GGX specular lobe into multi-lobe representations, improving the quality of training data for generative material models.
+  summary_ja: 単一のGGXスペキュラローブをマルチローブ表現に拡張することで、シンプルなPBRマテリアルをより表現力豊かなものに強化し、生成マテリアルモデルの学習データの品質を向上させる手法。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2606.14988'
 - id: videoneumat-06efb2
   title: VideoNeuMat
   area: gen-3d
@@ -18515,6 +18822,30 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ubisoft/ubisoft-laforge-chord
+- id: intrinsix-high-quality-pbr-generation-using-image-priors-e56076
+  title: 'IntrinsiX: High-Quality PBR Generation using Image Priors'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.01008
+    github: https://github.com/Peter-Kocsis/IntrinsiX
+    website: https://peter-kocsis.github.io/IntrinsiX/
+  authors:
+  - Peter Kocsis
+  - Lukas Höllein
+  - Matthias Nießner
+  year: 2025
+  tags:
+  - material
+  - pbr
+  - text-to-texture
+  summary: A text-to-PBR generation method that predicts physically-based rendering maps (albedo, roughness, metallic, and normal maps) from text descriptions without baked-in lighting, leveraging strong image priors.
+  summary_ja: テキスト記述から、焼き込み照明のない物理ベースレンダリング（PBR）マップ（アルベド、粗さ、メタリック、法線マップ）を生成する手法。強力な画像先験情報を活用して高品質なテクスチャを予測します。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2504.01008'
+  repo: peter-kocsis/intrinsix
 - id: lumitex-f1ab17
   title: LumiTex
   area: gen-3d
@@ -18789,6 +19120,23 @@ entries:
   source: seed
   arxiv_id: '2409.12957'
   repo: 3dtopia/3dtopia-xl
+- id: comfyui-texturealchemy-84ba67
+  title: ComfyUI-TextureAlchemy
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    github: https://github.com/amtarr/ComfyUI-TextureAlchemy
+  year: 2024
+  tags:
+  - comfyui
+  - pbr
+  - texture-generation
+  summary: A complete PBR and texture processing toolkit for ComfyUI designed to extract, process, and enhance physically-based rendering textures from single images for game engines and 3D pipelines.
+  summary_ja: 単一の画像から物理ベースレンダリング（PBR）テクスチャを抽出・処理・強化し、ゲームエンジンや3Dパイプライン向けに最適化する、ComfyUI用の総合テクスチャ処理ツールキット。
+  date_added: '2026-07-30'
+  source: agent
+  repo: amtarr/comfyui-texturealchemy
 - id: cosmos-transfer1-diffusionrenderer-848da2
   title: Cosmos-Transfer1-DiffusionRenderer
   area: gen-3d
@@ -19081,6 +19429,30 @@ entries:
   date_added: '2026-07-16'
   source: agent
   arxiv_id: '2606.22445'
+- id: meshtailor-cutting-seams-via-generative-mesh-traversal-ba5588
+  title: 'MeshTailor: Cutting Seams via Generative Mesh Traversal'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.27309
+    project: https://meshtailor.github.io/
+  authors:
+  - Xueqi Ma
+  - Xingguang Yan
+  - Congyue Zhang
+  - Hui Huang
+  year: 2026
+  tags:
+  - mesh-traversal
+  - seams
+  - transformer
+  - uv
+  summary: A mesh-native generative framework for synthesizing edge-aligned seams on 3D surfaces. It uses a hierarchical serialization of the seam graph and an autoregressive Transformer with a pointer layer to trace seams vertex-by-vertex directly on the mesh graph.
+  summary_ja: 3Dサーフェス上にエッジに沿ったシームを合成するための、メッシュネイティブな生成フレームワーク。シームグラフの階層的シリアル化と、ポインタレイヤーを備えた自己回帰型Transformerを使用し、メッシュグラフ上で直接頂点ごとにシームを追跡します。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2603.27309'
 - id: open3dstudio-786cdd
   title: Open3DStudio
   area: gen-3d
@@ -19186,6 +19558,34 @@ entries:
   source: agent
   arxiv_id: '2506.07020'
   repo: qiujiedong/crossgen
+- id: partuv-part-based-uv-unwrapping-of-3d-meshes-aa9721
+  title: 'PartUV: Part-Based UV Unwrapping of 3D Meshes'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.16659
+    github: https://github.com/EricWang12/PartUV
+    project: https://www.zhaoningwang.com/PartUV/
+  authors:
+  - Zhaoning Wang
+  - Xinyue Wei
+  - Ruoxi Shi
+  - Xiaoshuai Zhang
+  - Hao Su
+  - Minghua Liu
+  year: 2025
+  tags:
+  - mesh
+  - part-decomposition
+  - unwrapping
+  - uv
+  summary: A part-based UV unwrapping pipeline that decomposes 3D meshes into semantically meaningful parts using learning-based decomposition, generating fewer, part-aligned charts with low distortion. It is particularly effective for noisy or AI-generated meshes.
+  summary_ja: 学習ベースのパーツ分解手法を用いて3Dメッシュを意味のあるパーツに分割し、歪みを抑えつつパーツに沿った少ないUVチャートを生成する、パーツベースのUV展開パイプライン。ノイズの多いメッシュやAI生成メッシュに特に有効です。
+  date_added: '2026-07-30'
+  source: agent
+  arxiv_id: '2511.16659'
+  repo: ericwang12/partuv
 - id: quadgpt-native-quadrilateral-mesh-generation-with-autoregres-a4c4e2
   title: 'QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models'
   area: gen-3d
@@ -19695,6 +20095,26 @@ entries:
   date_added: '2026-07-23'
   source: agent
   repo: gaolingx/honkaistarrailtoonshader
+- id: anime-shading-plus-asp-ca9662
+  title: Anime Shading Plus (ASP)
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/EricHu33/AnimeShadingPlus-Anime-Toon-Shader
+  authors:
+  - EricHu33
+  year: 2024
+  tags:
+  - anime
+  - cel-shading
+  - toon-shader
+  - unity
+  summary: A Unity plugin designed for rendering high-quality anime-style characters, supporting stylized toon shading, custom lighting logic, and both mesh-based and screen-space outlines.
+  summary_ja: 高品質なアニメ調キャラクターのレンダリングに特化したUnityプラグイン。スタイライズドなトゥーンシェーディング、カスタムライティング、メッシュベースおよびスクリーンスペースのアウトライン描画をサポートします。
+  date_added: '2026-07-30'
+  source: agent
+  repo: erichu33/animeshadingplus-anime-toon-shader
 - id: diffutoon-e84cd6
   title: Diffutoon
   area: image-2d
