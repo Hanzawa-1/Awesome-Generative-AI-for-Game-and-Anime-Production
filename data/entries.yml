@@ -20529,6 +20529,53 @@ entries:
   source: agent
   arxiv_id: '2502.14779'
   repo: um-lab/dc-controlnet
+- id: flexcontrol-computation-aware-controlnet-with-differentiable-b4b890
+  title: 'FlexControl: Computation-Aware ControlNet with Differentiable Router for Text-to-Image Generation'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.10451
+    paper: https://arxiv.org/pdf/2502.10451
+  authors:
+  - Zheng Fang
+  - Lichuan Xiang
+  - Xu Cai
+  - Kaicheng Zhou
+  - Hongkai Wen
+  year: 2025
+  tags:
+  - controlnet
+  - diffusion
+  - efficiency
+  summary: A computation-aware ControlNet framework that dynamically selects which diffusion blocks to activate at each denoising step using a trainable gating mechanism, optimizing both control quality and computational efficiency.
+  summary_ja: 学習可能なゲーティングメカニズムを使用して、各ノイズ除去ステップでアクティブにする拡散ブロックを動的に選択し、制御品質と計算効率の両方を最適化する、計算量を考慮したControlNetフレームワーク。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2502.10451'
+- id: heeding-the-inner-voice-aligning-controlnet-training-via-int-283395
+  title: 'Heeding the Inner Voice: Aligning ControlNet Training via Intermediate Features Feedback'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.02321
+    paper: https://arxiv.org/pdf/2507.02321
+  authors:
+  - Nina Konovalova
+  - Maxim Nikolaev
+  - Andrey Kuznetsov
+  - Aibek Alanov
+  year: 2025
+  tags:
+  - alignment
+  - controlnet
+  - diffusion
+  summary: A training strategy that enforces spatial consistency throughout intermediate generation stages of ControlNet, improving alignment between the generated images and conditional controls.
+  summary_ja: ControlNetの中間生成段階全体で空間的一貫性を強制し、生成された画像と条件付き制御との間のアライメントを向上させるトレーニング戦略。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2507.02321'
 - id: minimal-impact-controlnet-f3f5da
   title: Minimal Impact ControlNet
   area: image-2d
@@ -20557,6 +20604,34 @@ entries:
   date_added: '2026-06-26'
   source: agent
   arxiv_id: '2506.01672'
+- id: nanocontrol-a-lightweight-framework-for-precise-and-efficien-96b2b6
+  title: 'NanoControl: A Lightweight Framework for Precise and Efficient Control in Diffusion Transformer'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.10424
+    paper: https://arxiv.org/pdf/2508.10424
+  authors:
+  - Shanyuan Liu
+  - Jian Zhu
+  - Junda Lu
+  - Yue Gong
+  - Liuzhuozheng Li
+  - Bo Cheng
+  - Yuhang Ma
+  - Liebucha Wu
+  year: 2025
+  tags:
+  - controlnet
+  - dit
+  - flux
+  - lightweight
+  summary: A lightweight framework designed for precise and efficient spatial conditioning in Diffusion Transformers (DiTs) like Flux, significantly reducing parameter overhead and computational costs compared to traditional ControlNet architectures.
+  summary_ja: FluxなどのDiffusion Transformer（DiT）において、高精度かつ効率的な空間条件付けを行うために設計された軽量フレームワークであり、従来のControlNetアーキテクチャと比較してパラメータのオーバーヘッドと計算コストを大幅に削減します。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2508.10424'
 - id: semanticcontrol-5cec19
   title: SemanticControl
   area: image-2d
@@ -20942,6 +21017,30 @@ entries:
   source: agent
   arxiv_id: '2312.03079'
   repo: shariqfarooq123/loosecontrol
+- id: meta-controlnet-enhancing-task-adaptation-via-meta-learning-c04d1d
+  title: 'Meta ControlNet: Enhancing Task Adaptation via Meta Learning'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.01255
+    paper: https://arxiv.org/pdf/2312.01255
+  authors:
+  - Junjie Yang
+  - Jinze Zhao
+  - Peihao Wang
+  - Zhangyang Wang
+  - Yingbin Liang
+  year: 2023
+  tags:
+  - adaptation
+  - controlnet
+  - meta-learning
+  summary: A meta-learning framework designed to enhance the task adaptation speed of ControlNet, reducing the required training steps for new conditional control tasks.
+  summary_ja: ControlNetのタスク適応速度を向上させるために設計されたメタ学習フレームワークであり、新しい条件付き制御タスクに必要なトレーニングステップ数を削減します。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2312.01255'
 - id: uni-controlnet-ec907b
   title: Uni-ControlNet
   area: image-2d
@@ -21988,6 +22087,29 @@ entries:
   source: agent
   arxiv_id: '2603.27531'
   repo: zhangxulu1996/omnicolor
+- id: texsketch-bringing-texture-aware-colorization-to-sketches-1a25b1
+  title: 'TexSketch: Bringing Texture-Aware Colorization to Sketches'
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.24261
+    paper: https://arxiv.org/pdf/2607.24261
+  authors:
+  - Taraash Mittal
+  - Gaurav Rai
+  - Ojaswa Sharma
+  year: 2026
+  tags:
+  - colorization
+  - procedural
+  - sketch
+  - texture-aware
+  summary: A controllable procedural framework for generating colored-sketch datasets with programmable artistic styles, enabling texture-aware sketch colorization.
+  summary_ja: プログラマブルな芸術的スタイルを持つ彩色スケッチデータセットを生成するための制御可能な手続き型フレームワークであり、テクスチャを考慮したスケッチ着色を可能にする。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2607.24261'
 - id: uni-animator-towards-unified-visual-colorization-1778c7
   title: 'Uni-Animator: Towards Unified Visual Colorization'
   area: image-2d
@@ -22554,6 +22676,34 @@ entries:
   date_added: '2026-07-10'
   source: agent
   repo: yliess86/paintstorch2
+- id: reference-based-sketch-image-colorization-using-augmented-se-51b87e
+  title: Reference-Based Sketch Image Colorization using Augmented-Self Reference and Dense Semantic Correspondence
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2005.05207
+    github: https://github.com/UdonDa/Reference-Based-Sketch-Image-Colorization
+    paper: https://arxiv.org/pdf/2005.05207
+  authors:
+  - Junsoo Lee
+  - Eungyeup Kim
+  - Yunsung Lee
+  - Dongjun Kim
+  - Jaehyuk Chang
+  - Jaegul Choo
+  year: 2020
+  tags:
+  - colorization
+  - reference-based
+  - scft
+  - sketch
+  summary: A reference-based sketch colorization method that uses an augmented-self reference training scheme and a Spatially Corresponding Feature Transfer (SCFT) module to establish dense semantic correspondence between the sketch and reference image.
+  summary_ja: スケッチ画像と参照画像の間の密な意味的対応関係を確立するために、拡張自己参照（augmented-self reference）学習スキームと空間対応特徴転送（SCFT）モジュールを使用する、参照画像ベースのスケッチ着色手法。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2005.05207'
+  repo: udonda/reference-based-sketch-image-colorization
 - id: style2paints-1848c5
   title: Style2Paints
   area: image-2d
@@ -23234,6 +23384,32 @@ entries:
   source: agent
   arxiv_id: '2403.12036'
   repo: gaparmar/img2img-turbo
+- id: scribble-guided-diffusion-637b0c
+  title: Scribble-Guided Diffusion
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.08026
+    github: https://github.com/kaist-cvml/scribble-guided-diffusion
+  authors:
+  - Seonho Lee
+  - Jiho Choi
+  - Seohyun Lim
+  - Jiwook Kim
+  - Hyunjung Shim
+  year: 2024
+  tags:
+  - diffusion
+  - scribble
+  - spatial-control
+  - training-free
+  summary: A training-free approach for text-to-image generation that utilizes simple user-provided scribbles to provide precise spatial guidance and alignment without requiring fine-tuning or paired datasets.
+  summary_ja: ファインチューニングやペアデータセットを必要とせず、ユーザーが提供するシンプルな落書き（スクリブル）を利用して正確な空間的ガイダンスとアライメントを提供する、トレーニングフリーのテキストから画像への生成手法。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2409.08026'
+  repo: kaist-cvml/scribble-guided-diffusion
 - id: sketch-guided-scene-image-generation-2cce6d
   title: Sketch-Guided Scene Image Generation
   area: image-2d
@@ -23898,6 +24074,28 @@ entries:
   source: agent
   arxiv_id: '2412.08503'
   repo: westlake-agi-lab/stylestudio
+- id: artadapter-5cf7e7
+  title: ArtAdapter
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02109
+    github: https://github.com/cardinalblue/ArtAdapter
+  authors:
+  - Cardinal Blue
+  year: 2023
+  tags:
+  - adapter
+  - art
+  - diffusion
+  - style-transfer
+  summary: A text-to-image style transfer framework that utilizes a multi-level style encoder and explicit adaptation to capture high-level style elements such as composition and distinctive artistic expression.
+  summary_ja: マルチレベルのスタイルエンコーダーと明示的なアダプテーションを利用して、構図や独特の芸術的表現などの高レベルなスタイル要素を捉えるテキスト画像スタイル転送フレームワーク。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2312.02109'
+  repo: cardinalblue/artadapter
 - id: dreamstyler-7efcc5
   title: DreamStyler
   area: image-2d
@@ -24147,6 +24345,35 @@ entries:
   date_added: '2026-06-19'
   source: agent
   arxiv_id: '2402.15648'
+  repo: csguoh/mambair
+- id: mambairv2-1d3539
+  title: MambaIRv2
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15269
+    github: https://github.com/csguoh/MambaIR
+  authors:
+  - Hang Guo
+  - Yong Guo
+  - Yaohua Zha
+  - Yulun Zhang
+  - Wenbo Li
+  - Tao Dai
+  - Shu-Tao Xia
+  - Yawei Li
+  year: 2024
+  tags:
+  - mamba
+  - restoration
+  - state-space-model
+  - upscaling
+  summary: An advanced image restoration and super-resolution model that equips the State Space Model (Mamba) with non-causal modeling capabilities. It overcomes the causal scanning limitations of vanilla Mamba to fully utilize spatial pixels and achieve state-of-the-art restoration quality.
+  summary_ja: 状態空間モデル（Mamba）に非因果的モデリング機能を備えた、高度な画像修復および超解像モデル。バニラMambaの因果的スキャンの制限を克服し、空間ピクセルを完全に活用して最先端の修復品質を実現します。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2411.15269'
   repo: csguoh/mambair
 - id: osediff-one-step-effective-diffusion-network-for-real-world-5a9ddd
   title: 'OSEDiff: One-Step Effective Diffusion Network for Real-World Image Super-Resolution'
@@ -25124,6 +25351,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: qwenlm/qwen-image
+- id: sana-1-5-efficient-scaling-of-training-time-and-inference-ti-d3884b
+  title: 'SANA 1.5: Efficient Scaling of Training-Time and Inference-Time Compute in Linear Diffusion Transformer'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.18427
+    github: https://github.com/NVlabs/Sana
+  authors:
+  - Enze Xie
+  - Junsong Chen
+  - Yuyang Zhao
+  - Jincheng Yu
+  - Ligeng Zhu
+  - Chengyue Wu
+  - Yujun Lin
+  - Zhekai Zhang
+  year: 2025
+  tags:
+  - diffusion
+  - sana
+  - text-to-image
+  - transformer
+  summary: An efficiency-oriented linear Diffusion Transformer framework that scales text-to-image generation up to 4K resolution. It introduces depth-growth training, 8-bit optimization, and model depth pruning to enable fast, high-resolution synthesis on consumer-grade GPUs.
+  summary_ja: テキストから画像への生成を最大4K解像度まで効率的にスケールアップする、効率重視の線形Diffusion Transformerフレームワーク。深度成長トレーニング、8ビット最適化、モデル深度プルーニングを導入し、コンシューマー向けGPUでの高速かつ高解像度な合成を可能にします。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2501.18427'
+  repo: nvlabs/sana
 - id: sana-sprint-one-step-diffusion-with-continuous-time-consiste-6dc177
   title: 'SANA-Sprint: One-Step Diffusion with Continuous-Time Consistency Distillation'
   area: image-2d
@@ -25172,6 +25428,26 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tongyi-mai/z-image
+- id: chameleon-mixed-modal-early-fusion-foundation-models-e93761
+  title: 'Chameleon: Mixed-Modal Early-Fusion Foundation Models'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.09818
+  authors:
+  - Chameleon Team
+  year: 2024
+  tags:
+  - chameleon
+  - multimodal
+  - text-to-image
+  - transformer
+  summary: A family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence. It unifies text and image modalities into a single transformer architecture, enabling seamless text-to-image generation and multimodal reasoning.
+  summary_ja: 任意のシーケンスで画像とテキストを理解および生成できる、初期融合トークンベースの混合モーダルモデルファミリー。テキストと画像のモダリティを単一のTransformerアーキテクチャに統合し、シームレスなテキストから画像への生成とマルチモーダルな推論を可能にします。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2405.09818'
 - id: emu3-ab3bda
   title: Emu3
   area: image-2d
@@ -25330,6 +25606,35 @@ entries:
   source: agent
   arxiv_id: '2406.06525'
   repo: foundationvision/llamagen
+- id: lumina-next-making-lumina-t2x-stronger-and-faster-with-next-4624c8
+  title: 'Lumina-Next: Making Lumina-T2X Stronger and Faster with Next-DiT'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.18583
+    github: https://github.com/Alpha-VLLM/Lumina-T2X
+  authors:
+  - Le Zhuo
+  - Ruoyi Du
+  - Han Xiao
+  - Yangguang Li
+  - Dongyang Liu
+  - Rongjie Huang
+  - Wenze Liu
+  - Lirui Zhao
+  year: 2024
+  tags:
+  - diffusion
+  - lumina
+  - text-to-image
+  - transformer
+  summary: An upgraded version of the Lumina-T2X framework that utilizes Next-DiT to improve text-to-image generation speed and quality. It addresses training instability and extrapolation artifacts while supporting high-resolution generation with Gemma-2B as the text encoder.
+  summary_ja: Next-DiTを利用してテキストから画像への生成速度と品質を向上させた、Lumina-T2Xフレームワークのアップグレード版。トレーニングの不安定性や外挿アーティファクトに対処しつつ、Gemma-2Bをテキストエンコーダーとして採用した高解像度生成をサポートします。
+  date_added: '2026-07-31'
+  source: agent
+  arxiv_id: '2406.18583'
+  repo: alpha-vllm/lumina-t2x
 - id: pixart-sigma-45e09b
   title: PixArt-Sigma
   area: image-2d

@@ -1889,6 +1889,23 @@ entries:
   summary_ja: ラフスケッチや彩色済みのイラストからクリーンな線画を抽出する、デジタルアーティスト向けのAI搭載ウェブツール。
   date_added: '2026-07-24'
   source: agent
+- id: sketchedge-204c82
+  title: SketchEdge
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://sketchedge.net/en
+  year: 2023
+  tags:
+  - background-generation
+  - lineart
+  - manga
+  - saas
+  summary: An AI-powered web service designed to extract clean, hand-drawn-style line art from photos and images. It is widely used by creators and manga artists to generate high-quality backgrounds and reference materials from real-world photography.
+  summary_ja: 写真や画像から、手描き風のクリーンな線画を抽出するために設計されたAI搭載のウェブサービス。クリエイターや漫画家が、実世界の写真から高品質な背景や参考資料を生成するために広く利用されています。
+  date_added: '2026-07-31'
+  source: agent
 - id: freepik-pikaso-4b244d
   title: Freepik Pikaso
   area: image-2d
@@ -1906,6 +1923,23 @@ entries:
   summary_ja: 大まかな描画、図形、アイコンを詳細なビジュアルアートワークに即座に変換する、無料のブラウザベースのリアルタイムスケッチ画像生成ツール。
   thumbnail: assets/thumbnails/freepik-pikaso-4b244d.png
   date_added: '2026-06-19'
+  source: agent
+- id: krea-ai-realtime-sketch-to-image-c4b865
+  title: Krea AI (Realtime Sketch to Image)
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.krea.ai/apps/sketch-to-image
+  year: 2023
+  tags:
+  - canvas
+  - concept-art
+  - proprietary
+  - real-time
+  summary: A popular commercial AI design platform featuring a real-time sketch-to-image canvas that instantly renders polished concept art and product designs as the user draws.
+  summary_ja: ユーザーが描画するにつれて、洗練されたコンセプトアートやプロダクトデザインを即座にレンダリングする、リアルタイムのスケッチから画像への変換キャンバスを備えた人気の商用AIデザインプラットフォーム。
+  date_added: '2026-07-31'
   source: agent
 - id: newarc-ai-b818bc
   title: NewArc.ai
