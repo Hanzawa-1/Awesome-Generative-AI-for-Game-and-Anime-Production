@@ -2605,6 +2605,23 @@ entries:
   thumbnail: assets/thumbnails/comic-life-4-b1f2b9.png
   date_added: '2026-06-20'
   source: agent
+- id: comicpad-590cbe
+  title: COMICPAD
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.comicpad.app/
+  year: 2024
+  tags:
+  - batch-generation
+  - comics
+  - layout
+  - proprietary
+  summary: An AI-assisted comic panel generator and layout tool designed for batch production of graphic novels and manga, offering panel-first workflows and precise border controls.
+  summary_ja: グラフィックノベルやマンガの一括制作向けに設計されたAI支援コミックコマ生成・レイアウトツールであり、コマ優先のワークフローと精密な枠線制御を提供します。
+  date_added: '2026-08-01'
+  source: agent
 - id: comicsmaker-2123fb
   title: ComicsMaker
   area: manga
@@ -2658,6 +2675,23 @@ entries:
   summary_ja: スクリプトやテキストプロンプトからAIを用いて構造化された絵コンテフレームを自動生成し、リアルタイムでの共同編集やエクスポートを可能にする、プロフェッショナル向けのWebベース絵コンテ作成プラットフォーム。
   thumbnail: assets/thumbnails/boords-1465cb.png
   date_added: '2026-06-27'
+  source: agent
+- id: dashtoon-d40eca
+  title: Dashtoon
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://dashtoon.com/
+  year: 2023
+  tags:
+  - comics
+  - editor
+  - proprietary
+  - webtoon
+  summary: A professional AI-powered comic and webtoon creation platform that enables artists to design panel layouts, train custom character LoRAs for visual consistency, and automate the production pipeline.
+  summary_ja: アーティストがコマのレイアウトを設計し、視覚的一貫性のためにカスタムキャラクターLoRAをトレーニングし、制作パイプラインを自動化できる、プロフェッショナル向けのAI搭載コミック・ウェブトゥーン制作プラットフォーム。
+  date_added: '2026-08-01'
   source: agent
 - id: comic-life-d847a2
   title: Comic Life
@@ -3048,6 +3082,23 @@ entries:
   summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
   thumbnail: assets/thumbnails/novelai-8b8b4d.png
   date_added: '2026-07-11'
+  source: agent
+- id: loreguard-2854b6
+  title: Loreguard
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://loreguard.com/
+  year: 2025
+  tags:
+  - dialogue
+  - local-inference
+  - nli
+  - npc
+  summary: An AI NPC engine that runs inference on the player's GPU to eliminate server costs. It features a multi-pass verification pipeline that checks every generated response against the game's lore documents using Natural Language Inference (NLI) to prevent hallucinations and maintain world consistency.
+  summary_ja: サーバーコストを削減するため、プレイヤーのGPU上で推論を実行するAI NPCエンジン。自然言語推論（NLI）を用いて、生成されたすべての応答をゲームの設定資料（ロアドキュメント）と照合するマルチパス検証パイプラインを備え、ハルシネーションを防ぎ世界観の一貫性を保ちます。
+  date_added: '2026-08-01'
   source: agent
 - id: gladecore-043d8d
   title: GladeCore

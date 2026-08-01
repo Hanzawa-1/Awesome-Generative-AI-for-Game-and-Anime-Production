@@ -26512,6 +26512,24 @@ entries:
   source: agent
   arxiv_id: '2412.19303'
   repo: siyuch-fdu/mangadiffusion
+- id: print-film-23b0e5
+  title: Print Film
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/yuanzhongqiao/printfilm
+  year: 2024
+  tags:
+  - comic
+  - editor
+  - storyboard
+  - workspace
+  summary: An open-source AI comic, motion comic, and short drama studio workspace designed to turn story scripts into previewable, editable visual assets and video clips. It utilizes a script-to-asset-to-keyframe workflow to streamline the creation of storyboards and comic panels.
+  summary_ja: ストーリーの脚本をプレビュー・編集可能なビジュアルアセットやビデオクリップに迅速に変換するために設計された、オープンソースのAIコミック、モーションコミック、およびショートドラマスタジオのワークスペース。脚本からアセット、そしてキーフレームへと至るワークフローを採用し、絵コンテやコミックコマの作成を効率化します。
+  date_added: '2026-08-01'
+  source: agent
+  repo: yuanzhongqiao/printfilm
 - id: storydiffusion-2bab11
   title: StoryDiffusion
   area: manga
@@ -26718,6 +26736,28 @@ entries:
   source: agent
   arxiv_id: '2508.08508'
   repo: eternal-f1ame/re-verse
+- id: comix-a-comprehensive-benchmark-for-multi-task-comic-underst-d0dcd5
+  title: 'CoMix: A Comprehensive Benchmark for Multi-Task Comic Understanding'
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.03550
+    paper: https://arxiv.org/pdf/2407.03550
+  authors:
+  - Emanuele Vivoli
+  - Marco Bertini
+  - Dimosthenis Karatzas
+  year: 2024
+  tags:
+  - benchmark
+  - ocr
+  - panel-ordering
+  summary: A comprehensive multi-task benchmark for comic and manga understanding, evaluating models on object detection, text recognition, panel ordering, and text-to-speaker matching.
+  summary_ja: コマの順序付け、テキスト認識、キャラクター検出、台詞と話者のマッチングなど、コミックや漫画のマルチタスク理解能力を評価する包括的なベンチマーク。
+  date_added: '2026-08-01'
+  source: agent
+  arxiv_id: '2407.03550'
 - id: context-informed-machine-translation-of-manga-using-multimod-b878f8
   title: Context-Informed Machine Translation of Manga using Multimodal Large Language Models
   area: manga
@@ -27816,6 +27856,47 @@ entries:
   date_added: '2026-07-25'
   source: agent
   repo: patrickctyyx/screentone-removal
+- id: meowth-gba-translator-07e063
+  title: Meowth GBA Translator
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/Olcmyk/Meowth-GBA-Translator
+  year: 2026
+  tags:
+  - gba
+  - llm
+  - romhacking
+  - translation
+  summary: A fully automated GBA Pokémon ROM translator powered by LLMs that extracts text, translates it while preserving in-game codes and fonts, and rebuilds playable ROMs.
+  summary_ja: LLMを活用してGBA版ポケモンのROMからテキストを抽出し、ゲーム内の制御コードやフォントを維持したまま翻訳して、プレイ可能なROMを再構築する完全自動翻訳ツール。
+  date_added: '2026-08-01'
+  source: agent
+  repo: olcmyk/meowth-gba-translator
+- id: enhancing-entertainment-translation-for-indian-languages-usi-adf501
+  title: Enhancing Entertainment Translation for Indian Languages using Adaptive Context, Style and LLMs
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.20440
+    paper: https://arxiv.org/pdf/2412.20440
+  authors:
+  - Pratik Rakesh Singh
+  - Mohammadi Zaki
+  - Pankaj Wasnik
+  year: 2024
+  tags:
+  - context-aware
+  - dubbing
+  - llm
+  - translation
+  summary: A neural machine translation framework tailored for the entertainment domain that leverages adaptive context and LLMs to translate dialogue while preserving style and context for dubbing and subtitling.
+  summary_ja: 吹き替えや字幕制作向けに、適応型コンテキストとLLMを活用して、対話のスタイルや文脈を維持しながら翻訳を行うエンターテインメント領域特化型のニューラル機械翻訳フレームワーク。
+  date_added: '2026-08-01'
+  source: agent
+  arxiv_id: '2412.20440'
 - id: gamestringer-9d4ea6
   title: GameStringer
   area: text-design
@@ -28606,6 +28687,32 @@ entries:
   date_added: '2026-07-04'
   source: agent
   repo: speeditidious/codi
+- id: drama-llama-931cf0
+  title: Drama Llama
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.09099
+    paper: https://arxiv.org/pdf/2501.09099
+  authors:
+  - Yuqian Sun
+  - Phoebe J. Wang
+  - John Joon Young Chung
+  - Melissa Roemmele
+  - Taewook Kim
+  - Max Kreminski
+  year: 2025
+  tags:
+  - interactive-narrative
+  - llm
+  - story-generation
+  - storylets
+  summary: An LLM-powered storylets framework that supports the authoring of responsive, open-ended interactive stories by combining the structural benefits of storylet-based systems with the generative capabilities of LLMs.
+  summary_ja: Storyletベースのシステムの構造的利点とLLMの生成能力を組み合わせることで、応答性が高くオープンエンドなインタラクティブストーリーの執筆を支援する、LLM駆動型のストーリーレットフレームワーク。
+  date_added: '2026-08-01'
+  source: agent
+  arxiv_id: '2501.09099'
 - id: narrative-to-scene-generation-1fd0b4
   title: Narrative-to-Scene Generation
   area: text-design
@@ -28649,6 +28756,34 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: the-tale/questgen
+- id: scenedecorator-ba2189
+  title: SceneDecorator
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.22994
+    paper: https://arxiv.org/pdf/2510.22994
+  authors:
+  - Quanjian Song
+  - Donghao Zhou
+  - Jingyu Lin
+  - Fei Shen
+  - Jiaze Wang
+  - Xiaowei Hu
+  - Cunjian Chen
+  - Pheng-Ann Heng
+  year: 2025
+  tags:
+  - consistency
+  - scene-planning
+  - story-generation
+  - text-to-image
+  summary: A scene-oriented story generation framework that addresses scene planning and scene consistency to maintain concept and environmental coherence across generated narrative images.
+  summary_ja: 生成されたナラティブ画像全体でコンセプトと環境の一貫性を維持するために、シーンプランニングとシーン一貫性に対処する、シーン指向のストーリー生成フレームワーク。
+  date_added: '2026-08-01'
+  source: agent
+  arxiv_id: '2510.22994'
 - id: snap-7c13bf
   title: SNAP
   area: text-design
