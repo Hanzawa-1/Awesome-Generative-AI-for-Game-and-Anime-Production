@@ -3766,6 +3766,23 @@ entries:
   thumbnail: assets/thumbnails/goenhance-ai-f90ac6.png
   date_added: '2026-06-14'
   source: agent
+- id: mago-studio-719fe8
+  title: Mago Studio
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://www.mago.studio/
+  year: 2024
+  tags:
+  - animation
+  - rendering
+  - style-transfer
+  - vfx
+  summary: A studio-grade AI rendering and video-to-video style transfer platform designed for animation and VFX pipelines. It integrates into existing toolchains to transform playblasts, previs, and live-action plates into final stylized renders while maintaining character integrity and temporal consistency.
+  summary_ja: アニメーションやVFXのパイプライン向けに設計された、スタジオグレードのAIレンダリングおよびビデオ間スタイル変換プラットフォーム。既存のツールチェーンに統合し、キャラクターの整合性と時間的一貫性を維持しながら、プレイブラストやプリビス、実写プレートを最終的なスタイライズドレンダリングに変換します。
+  date_added: '2026-08-02'
+  source: agent
 - id: domoai-73ed2b
   title: DomoAI
   area: video

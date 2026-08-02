@@ -30054,6 +30054,32 @@ entries:
   source: agent
   arxiv_id: '2302.05981'
   repo: shyamsn97/mario-gpt
+- id: illuminating-diverse-neural-cellular-automata-for-level-gene-9beef7
+  title: Illuminating Diverse Neural Cellular Automata for Level Generation
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2109.05489
+    github: https://github.com/smearle/control-pcgrl
+  authors:
+  - Sam Earle
+  - Justin Snider
+  - Matthew C. Fontaine
+  - Stefanos Nikolaidis
+  - Julian Togelius
+  year: 2022
+  tags:
+  - level-generation
+  - nca
+  - pcg
+  - quality-diversity
+  summary: A quality diversity (QD) approach to training diverse neural cellular automata (NCA) level generators whose output levels vary based on aesthetic or functional criteria.
+  summary_ja: ニューラルセルオートマトン（NCA）を用いた多様なレベルジェネレータを訓練するための品質多様性（QD）アプローチ。美学的または機能的な基準に基づいて出力レベルが変化するジェネレータを訓練可能。
+  date_added: '2026-08-02'
+  source: agent
+  arxiv_id: '2109.05489'
+  repo: smearle/control-pcgrl
 - id: edgar-unity-2e4a2f
   title: Edgar-Unity
   area: text-design
@@ -30099,6 +30125,23 @@ entries:
   source: agent
   arxiv_id: '2001.09212'
   repo: amidos2006/gym-pcgrl
+- id: wavefunctioncollapse-wfc-373fdc
+  title: WaveFunctionCollapse (WFC)
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/mxgmn/WaveFunctionCollapse
+  year: 2016
+  tags:
+  - pcg
+  - tilemap-generation
+  - wfc
+  summary: A highly influential procedural generation algorithm that generates bitmaps or tilemaps from a single example using constraint satisfaction inspired by quantum mechanics.
+  summary_ja: 量子力学の概念に着想を得た制約充足アルゴリズムを用いて、単一のサンプルからビットマップやタイルマップを生成する、非常に影響力のある手続き型生成アルゴリズム。
+  date_added: '2026-08-02'
+  source: agent
+  repo: mxgmn/wavefunctioncollapse
 - id: hunyuancustom-ed7257
   title: HunyuanCustom
   area: video
@@ -32174,6 +32217,34 @@ entries:
   date_added: '2026-06-14'
   source: agent
   repo: hidream-ai/ps-sr
+- id: sparkvsr-interactive-video-super-resolution-via-sparse-keyfr-76b69d
+  title: 'SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.16864
+    github: https://github.com/taco-group/SparkVSR
+  authors:
+  - Jiongze Yu
+  - Xiangbo Gao
+  - Pooja Verlani
+  - Akshay Gadde
+  - Yilin Wang
+  - Balu Adsumilli
+  - Zhengzhong Tu
+  year: 2026
+  tags:
+  - interactive
+  - keyframe
+  - super-resolution
+  - temporal-consistency
+  summary: An interactive video super-resolution framework that allows users to guide and correct upscaling results using sparse keyframes as control signals. The system propagates user-refined keyframes across the video sequence to ensure temporal consistency and eliminate artifacts.
+  summary_ja: ユーザーが疎なキーフレームを制御信号として用いることで、アップスケーリング結果をインタラクティブに修正・誘導できるビデオ超解像フレームワーク。ユーザーが修正したキーフレームを動画全体に伝播させることで、一貫性を保ちつつアーティファクトを排除します。
+  date_added: '2026-08-02'
+  source: agent
+  arxiv_id: '2603.16864'
+  repo: taco-group/sparkvsr
 - id: swiftvr-real-time-one-step-generative-video-restoration-a71773
   title: 'SwiftVR: Real-Time One-Step Generative Video Restoration'
   area: video
@@ -32204,6 +32275,35 @@ entries:
   source: agent
   arxiv_id: '2606.09516'
   repo: h-oliday/swiftvr
+- id: dicface-dirichlet-constrained-variational-codebook-learning-8a7411
+  title: 'DicFace: Dirichlet-Constrained Variational Codebook Learning for Temporally Coherent Video Face Restoration'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.13355
+    github: https://github.com/fudan-generative-vision/DicFace
+  authors:
+  - Yan Chen
+  - Hanlin Shang
+  - Ce Liu
+  - Yuxuan Chen
+  - Hui Li
+  - Weihao Yuan
+  - Hao Zhu
+  - Zilong Dong
+  year: 2025
+  tags:
+  - detail-recovery
+  - face-restoration
+  - temporal-coherence
+  - vq-vae
+  summary: A video face restoration framework that extends discrete codebook representations (VQ-VAE) into continuous Dirichlet-distributed variables. This formulation enables temporally coherent face restoration and detail recovery from highly degraded video inputs.
+  summary_ja: 離散コードブック表現（VQ-VAE）を連続的なディリクレ分布変数へと拡張した、ビデオ顔画像修復フレームワーク。高度に劣化したビデオ入力から、時間的一貫性を維持しながら詳細な顔のディテールを復元することを可能にします。
+  date_added: '2026-08-02'
+  source: agent
+  arxiv_id: '2506.13355'
+  repo: fudan-generative-vision/dicface
 - id: diffvsr-revealing-an-effective-recipe-for-taming-robust-vide-c619cd
   title: 'DiffVSR: Revealing an Effective Recipe for Taming Robust Video Super-Resolution Against Complex Degradations'
   area: video
@@ -32462,6 +32562,32 @@ entries:
   source: agent
   arxiv_id: '2505.19958'
   repo: yongliuy/ultravsr
+- id: beyond-alignment-blind-video-face-restoration-via-parsing-gu-58b89d
+  title: 'Beyond Alignment: Blind Video Face Restoration via Parsing-Guided Temporal-Coherent Transformer'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.13640
+    github: https://github.com/kepengxu/PGTFormer
+  authors:
+  - Kepeng Xu
+  - Li Xu
+  - Gang He
+  - Wenxin Yu
+  - Yunsong Li
+  year: 2024
+  tags:
+  - blind-restoration
+  - face-restoration
+  - parsing-guided
+  - transformer
+  summary: A blind video face restoration model that utilizes a parsing-guided temporal-coherent transformer to handle complex real-world degradations. It integrates semantic parsing maps to guide the restoration of facial structures and maintain temporal consistency across diverse poses.
+  summary_ja: 複雑な実世界の劣化に対応するため、パースガイド付き時間一貫性トランスフォーマーを採用したブラインドビデオ顔画像修復モデル。セマンティックパースマップを統合することで、多様なポーズ変化においても顔構造の復元をガイドし、時間的一貫性を維持します。
+  date_added: '2026-08-02'
+  source: agent
+  arxiv_id: '2404.13640'
+  repo: kepengxu/pgtformer
 - id: evtexture-7f1136
   title: EvTexture
   area: video
