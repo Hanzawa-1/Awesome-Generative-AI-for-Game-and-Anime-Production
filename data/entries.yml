@@ -111,6 +111,32 @@ entries:
   source: agent
   arxiv_id: '2506.14742'
   repo: ziqiaopeng/synctalk
+- id: x-actor-c422f5
+  title: X-Actor
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.02944
+  authors:
+  - Chenxu Zhang
+  - Zenan Li
+  - Hongyi Xu
+  - You Xie
+  - Xiaochen Zhao
+  - Tianpei Gu
+  - Guoxian Song
+  - Xin Chen
+  year: 2025
+  tags:
+  - expressive
+  - lip-sync
+  - talking-head
+  summary: X-Actor is an audio-driven portrait animation framework designed to generate lifelike, emotionally expressive, and long-form talking head videos from a single reference image.
+  summary_ja: X-Actorは、1枚の参照画像から、本物そっくりで感情表現豊かな長尺のトーキングヘッドビデオを生成するために設計された音声駆動型ポートレートアニメーションフレームワークです。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2508.02944'
 - id: aniportrait-b9efec
   title: AniPortrait
   area: animation
@@ -586,6 +612,62 @@ entries:
   source: agent
   arxiv_id: '2305.00787'
   repo: yerfor/genefaceplusplus
+- id: synctalk-58c1f6
+  title: SyncTalk
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.17590
+    github: https://github.com/ZiqiaoPeng/SyncTalk
+  authors:
+  - Ziqiao Peng
+  - Wentao Hu
+  - Yue Shi
+  - Xiangyu Zhu
+  - Xiaomei Zhang
+  - Hao Zhao
+  - Jun He
+  - Hongyan Liu
+  year: 2023
+  tags:
+  - lip-sync
+  - nerf
+  - talking-head
+  summary: SyncTalk is an audio-driven talking head synthesis framework that focuses on the synchronization of subject identity, lip movements, facial expressions, and head poses using a NeRF-based architecture.
+  summary_ja: SyncTalkは、NeRFベースのアーキテクチャを使用して、被写体の同一性、唇の動き、表情、および頭部のポーズの同期に焦点を当てた音声駆動型のトーキングヘッド合成フレームワークです。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2311.17590'
+  repo: ziqiaopeng/synctalk
+- id: vividtalk-4ee817
+  title: VividTalk
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.01841
+    github: https://github.com/HumanAIGC/VividTalk
+  authors:
+  - Xusen Sun
+  - Longhao Zhang
+  - Hao Zhu
+  - Peng Zhang
+  - Bang Zhang
+  - Xinya Ji
+  - Kangneng Zhou
+  - Daiheng Gao
+  year: 2023
+  tags:
+  - 3d-prior
+  - lip-sync
+  - talking-head
+  summary: VividTalk is a two-stage framework for generating high-visual-quality talking head videos from a single image and audio, utilizing a 3D hybrid prior to model expressive facial expressions and natural head poses.
+  summary_ja: VividTalkは、3Dハイブリッド事前分布を利用して表現力豊かな表情と自然な頭部のポーズをモデル化し、1枚の画像と音声から高品質なトーキングヘッドビデオを生成する2段階のフレームワークです。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2312.01841'
+  repo: humanaigc/vividtalk
 - id: sadtalker-54b5f7
   title: SadTalker
   area: animation
@@ -669,6 +751,33 @@ entries:
   source: agent
   arxiv_id: '2008.10010'
   repo: rudrabha/wav2lip
+- id: speed-one-step-pixel-diffusion-for-high-quality-video-frame-3c3969
+  title: 'SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.15585
+    github: https://github.com/bbldCVer/SPEED
+  authors:
+  - Zihao Zhang
+  - Haoyu Zhao
+  - Siqian Yang
+  - Yidi Wu
+  - Yudong Jiang
+  - Zuxuan Wu
+  year: 2026
+  tags:
+  - diffusion
+  - interpolation
+  - one-step
+  - pixel-space
+  summary: A one-step pixel diffusion framework for high-quality video frame interpolation. It uses a progressive multi-stage architecture with dynamic patch scaling to learn multi-scale motion, structural, and appearance representations directly in pixel space, avoiding the detail loss of latent diffusion and the high latency of multi-step sampling.
+  summary_ja: 高品質なビデオフレーム補間のための1ステップピクセル拡散フレームワーク。潜在空間ではなくピクセル空間で直接動作し、動的パッチスケーリングを備えた段階的なマルチステージアーキテクチャを採用することで、詳細の損失を防ぎ、高速な推論を実現する。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2607.15585'
+  repo: bbldcver/speed
 - id: eden-4463d2
   title: EDEN
   area: animation
@@ -752,6 +861,33 @@ entries:
   source: agent
   arxiv_id: '2406.17256'
   repo: jhlew/momo
+- id: posefuse3d-ki-controllable-human-centric-keyframe-interpolat-96483b
+  title: 'PoseFuse3D-KI: Controllable Human-centric Keyframe Interpolation with Generative Prior'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.03119
+    github: https://github.com/GSeanCDAT/PoseFuse3D-KI
+    project: https://gseancdat.github.io/projects/PoseFuse3D_KI
+  authors:
+  - Zujin Guo
+  - Size Wu
+  - Zhongang Cai
+  - Wei Li
+  - Chen Change Loy
+  year: 2025
+  tags:
+  - diffusion
+  - interpolation
+  - keyframe
+  - smpl-x
+  summary: A framework that integrates 3D human guidance signals (such as SMPL-X) into a video diffusion model for controllable human-centric keyframe interpolation, resolving issues with complex, articulated human motions.
+  summary_ja: 3D人間のガイダンス信号（SMPL-Xなど）をビデオ拡散モデルに統合し、複雑で関節の多い人間の動きに対して制御可能なキーフレーム補間を実現するフレームワーク。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2506.03119'
+  repo: gseancdat/posefuse3d-ki
 - id: bim-vfi-bidirectional-motion-field-guided-frame-interpolatio-6a79e3
   title: 'BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions'
   area: animation
@@ -1089,6 +1225,31 @@ entries:
   source: agent
   arxiv_id: '2407.02315'
   repo: mcg-nju/vfimamba
+- id: vibidsampler-enhancing-video-interpolation-using-bidirection-806f15
+  title: 'ViBiDSampler: Enhancing Video Interpolation Using Bidirectional Diffusion Sampler'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.05651
+    github: https://github.com/vibidsampler/vibid
+    website: https://vibidsampler.github.io/
+  authors:
+  - Serin Yang
+  - Taesung Kwon
+  - Jong Chul Ye
+  year: 2024
+  tags:
+  - bidirectional
+  - diffusion
+  - interpolation
+  - keyframe
+  summary: A bidirectional diffusion sampling strategy for keyframe interpolation that adapts single-frame image-to-video models to two-frame (start and end) conditioned generation, using CFG++ and Dual-directional Diffusion Sampling (DDS) to ensure temporal coherence.
+  summary_ja: 1フレームの画像から動画を生成するモデルを、開始・終了の2フレーム条件付き生成に適応させる双方向拡散サンプリング戦略。CFG++と双方向拡散サンプリング（DDS）を用いて、時間的一貫性のある高品質なキーフレーム補間を実現する。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2410.05651'
+  repo: vibidsampler/vibid
 - id: amt-all-pairs-multi-field-transforms-for-efficient-frame-int-cbcab6
   title: 'AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation'
   area: animation
@@ -2832,6 +2993,34 @@ entries:
   source: agent
   arxiv_id: '2504.14977'
   repo: damo-cv/realisdance
+- id: stableanimator-ab1879
+  title: StableAnimator++
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.15064
+    github: https://github.com/Francis-Rings/StableAnimator
+  authors:
+  - Shuyuan Tu
+  - Zhen Xing
+  - Xintong Han
+  - Zhi-Qi Cheng
+  - Qi Dai
+  - Chong Luo
+  - Zuxuan Wu
+  - Yu-Gang Jiang
+  year: 2025
+  tags:
+  - diffusion
+  - identity-preserving
+  - pose-guided
+  summary: An identity-preserving video diffusion framework for human image animation that introduces learnable pose alignment to overcome pose misalignment and face distortion. It generates high-quality videos conditioned on a reference image and a pose sequence without requiring post-processing.
+  summary_ja: ポーズのズレや顔の歪みを克服するために学習可能なポーズアライメントを導入した、アイデンティティを保持する人物画像アニメーション用のビデオ拡散フレームワーク。後処理を必要とせず、参照画像とポーズシーケンスを条件とした高品質なビデオを生成します。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2507.15064'
+  repo: francis-rings/stableanimator
 - id: unianimate-dit-abd1cd
   title: UniAnimate-DiT
   area: animation
@@ -4062,6 +4251,33 @@ entries:
   source: agent
   arxiv_id: '2509.09555'
   repo: wzyabcas/interact
+- id: molingo-662ec2
+  title: MoLingo
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.13840
+    github: https://github.com/hynann/MoLingo
+  authors:
+  - Yannan He
+  - Garvita Tiwari
+  - Xiaohan Zhang
+  - Pankaj Bora
+  - Tolga Birdal
+  - Jan Eric Lenssen
+  - Gerard Pons-Moll
+  year: 2025
+  tags:
+  - latent-diffusion
+  - motion-generation
+  - text-to-motion
+  summary: A text-to-motion model that generates realistic, lifelike human motion by performing diffusion in a continuous, semantically aligned latent space.
+  summary_ja: 連続的かつ意味的に整列された潜在空間内で拡散（ディフュージョン）を行うことにより、リアルで生命力のある人間の動作を生成するテキストtoモーションモデル。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2512.13840'
+  repo: hynann/molingo
 - id: motiongpt3-35f9b3
   title: MotionGPT3
   area: animation
@@ -4118,6 +4334,34 @@ entries:
   source: agent
   arxiv_id: '2502.02358'
   repo: diouo/motionlab
+- id: personabooth-b5ec8a
+  title: PersonaBooth
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.07390
+    github: https://github.com/Boeun-Kim/PersonaBooth
+  authors:
+  - Boeun Kim
+  - Hea In Jeong
+  - JungHoon Sung
+  - Yihua Cheng
+  - Jeongmin Lee
+  - Ju Yong Chang
+  - Sang-Il Choi
+  - Younggeun Choi
+  year: 2025
+  tags:
+  - motion-generation
+  - personalization
+  - text-to-motion
+  summary: A personalized text-to-motion generation framework that customizes motion styles and actor personas from a few reference motions using a multi-modal finetuning approach.
+  summary_ja: 少数の参照モーションからマルチモーダルな微調整アプローチを用いて、モーションスタイルやアクターのペルソナをカスタマイズする、パーソナライズされたテキストtoモーション生成フレームワーク。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2503.07390'
+  repo: boeun-kim/personabooth
 - id: realign-text-to-motion-generation-via-step-aware-reward-guid-fdde92
   title: 'ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment'
   area: animation
@@ -4842,6 +5086,32 @@ entries:
   source: agent
   arxiv_id: '2404.16752'
   repo: saidwivedi/tokenhmr
+- id: tram-global-trajectory-and-motion-of-3d-humans-from-in-the-w-8aba77
+  title: 'TRAM: Global Trajectory and Motion of 3D Humans from in-the-wild Videos'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.17346
+    github: https://github.com/yufu-wang/tram
+    project: https://yufu-wang.github.io/tram4d/
+  authors:
+  - Yufu Wang
+  - Ziyun Wang
+  - Lingjie Liu
+  - Kostas Daniilidis
+  year: 2024
+  tags:
+  - mocap
+  - pose-estimation
+  - smpl
+  - trajectory
+  summary: A two-stage method to reconstruct a human's global trajectory and motion from in-the-wild videos by robustifying SLAM to recover camera motion and using a video transformer model to regress kinematic body motion.
+  summary_ja: SLAMを頑健化してカメラの動きを復元し、ビデオトランスフォーマーモデルを用いて運動学的な身体の動きを回帰することにより、実世界のビデオから人間のグローバルな軌跡と動きを再構成する2段階の手法。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2403.17346'
+  repo: yufu-wang/tram
 - id: 4d-humans-hmr-2-0-c0c92a
   title: 4D-Humans (HMR 2.0)
   area: animation
@@ -4869,6 +5139,34 @@ entries:
   source: agent
   arxiv_id: '2305.20091'
   repo: shubham-goel/4d-humans
+- id: co-evolution-of-pose-and-mesh-for-3d-human-body-estimation-f-295661
+  title: Co-Evolution of Pose and Mesh for 3D Human Body Estimation from Video
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.10305
+    github: https://github.com/kasvii/PMCE
+    project: https://kasvii.github.io/PMCE/
+  authors:
+  - Yingxuan You
+  - Hong Liu
+  - Ti Wang
+  - Wenhao Li
+  - Runwei Ding
+  - Xia Li
+  year: 2023
+  tags:
+  - mesh-recovery
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: A video-based 3D human mesh recovery framework that introduces 3D pose as an intermediary and utilizes a co-evolution decoder to perform pose and mesh interactions for consistent and smooth motion estimation.
+  summary_ja: 3Dポーズを中間媒体として導入し、ポーズとメッシュの相互作用を行う共進化デコーダを利用することで、一貫性がありスムーズな動きの推定を実現するビデオベースの3D人間メッシュ復元フレームワーク。
+  date_added: '2026-08-03'
+  source: agent
+  arxiv_id: '2308.10305'
+  repo: kasvii/pmce
 - id: hamer-1469a8
   title: HaMeR
   area: animation

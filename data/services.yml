@@ -1,4 +1,20 @@
 entries:
+- id: infinitetalk-196cdb
+  title: InfiniteTalk
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://kie.ai/infinitalk
+  year: 2025
+  tags:
+  - api
+  - lip-sync
+  - wan-2.1
+  summary: InfiniteTalk is an AI lip-sync video API that adds audio-driven synchronization on top of Wan 2.1, aligning lips, facial expressions, and head motion with the input audio.
+  summary_ja: InfiniteTalkは、Wan 2.1の上に音声駆動の同期を追加するAIリップシンクビデオAPIであり、唇、表情、および頭部の動きを入力音声と整列させます。
+  date_added: '2026-08-03'
+  source: agent
 - id: hedra-f6ef6f
   title: Hedra
   area: animation
@@ -227,6 +243,23 @@ entries:
   summary_ja: ゲーム開発や映画制作向けの高度なモーションリターゲティング、モーション編集、ライブモーションキャプチャ連携機能を備えた、プロフェッショナルなリアルタイム3Dアニメーションおよびキャラクター作成ソフトウェア。
   thumbnail: assets/thumbnails/reallusion-iclone-a6ba5f.png
   date_added: '2026-07-13'
+  source: agent
+- id: deepmotion-a58bdd
+  title: DeepMotion
+  area: animation
+  task: physics-animation
+  kind: proprietary
+  links:
+    website: https://portal.deepmotion.com/
+  year: 2018
+  tags:
+  - animation
+  - mocap
+  - physics
+  - simulation
+  summary: An AI-driven motion intelligence platform that provides physics-based motion synthesis and video-to-3D animation tools. It enables digital characters to interact responsively with physical environments, reducing foot-sliding and ensuring physically plausible movements.
+  summary_ja: 物理ベースのモーション合成およびビデオから3Dアニメーションへの変換ツールを提供する、AI駆動のモーションインテリジェンスプラットフォーム。デジタルキャラクターが物理環境とインタラクティブに反応できるようにし、足の滑りを軽減して物理的に妥当な動きを保証します。
+  date_added: '2026-08-03'
   source: agent
 - id: cascadeur-b525d1
   title: Cascadeur
