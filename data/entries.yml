@@ -5882,6 +5882,32 @@ entries:
   source: agent
   arxiv_id: '2406.10970'
   repo: facebookresearch/audiocraft
+- id: stable-audio-adda79
+  title: Stable Audio
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.04825
+    github: https://github.com/Stability-AI/stable-audio-tools
+    hf: https://huggingface.co/stabilityai/stable-audio-open-1.0
+  authors:
+  - Zach Evans
+  - CJ Carr
+  - Josiah Taylor
+  - Robinson Kremer
+  - Jordi Pons
+  year: 2024
+  tags:
+  - audio
+  - diffusion
+  - music
+  summary: A latent diffusion model architecture for generating high-quality, variable-length stereo audio and music at 44.1kHz, conditioned on text prompts and timing embeddings.
+  summary_ja: テキストプロンプトとタイミング埋め込みを条件として、44.1kHzの高品質で可変長のステレオオーディオおよび音楽を生成する潜在拡散モデルアーキテクチャ。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2402.04825'
+  repo: stability-ai/stable-audio-tools
 - id: audiocraft-ee6f3a
   title: AudioCraft
   area: audio
@@ -6165,6 +6191,30 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: riffusion/riffusion
+- id: symphonynet-a9b44d
+  title: SymphonyNet
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2205.05448
+    github: https://github.com/symphonynet/SymphonyNet
+    project: https://symphonynet.github.io/
+  authors:
+  - Jiafeng Liu
+  - Dongmin Chen
+  - Jianye Hao
+  year: 2022
+  tags:
+  - midi
+  - orchestral
+  - symphony
+  summary: A permutation-invariant language model designed for symbolic symphony music generation, utilizing a Multi-track Multi-instrument Repeatable (MMR) representation and 3D positional embeddings to generate complex orchestral pieces.
+  summary_ja: 複雑なオーケストラ楽曲を生成するために、マルチトラック・マルチインストゥルメント・リピータブル（MMR）表現と3D位置埋め込みを利用した、シンボリック交響曲生成用の置換不変言語モデル。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2205.05448'
+  repo: symphonynet/symphonynet
 - id: muzic-f96cb4
   title: Muzic
   area: audio
@@ -7116,6 +7166,29 @@ entries:
   source: agent
   arxiv_id: '2406.00356'
   repo: text-to-audio/audiolcm
+- id: ezaudio-3073cd
+  title: EzAudio
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.10819
+    github: https://github.com/haidog-yaqub/EzAudio
+    hf: https://huggingface.co/OpenSound/EzAudio
+  authors:
+  - Jiarui Hai
+  - et al.
+  year: 2024
+  tags:
+  - diffusion
+  - sound-effects
+  - text-to-audio
+  summary: An efficient text-to-audio generation framework based on a latent diffusion transformer operating on raw waveforms, designed to produce high-quality, natural-sounding sound effects with low computational demands.
+  summary_ja: 生の波形上で動作する潜在拡散トランスフォーマー（Latent Diffusion Transformer）をベースにした、効率的なテキスト・オーディオ生成フレームワーク。低計算コストで高品質かつ自然な効果音を生成します。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2409.10819'
+  repo: haidog-yaqub/ezaudio
 - id: foleycrafter-c89f35
   title: FoleyCrafter
   area: audio
@@ -7759,6 +7832,34 @@ entries:
   date_added: '2026-06-23'
   source: agent
   repo: aaronz345/stylesinger
+- id: comospeech-71bb56
+  title: CoMoSpeech
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.06908
+    github: https://github.com/zhenye234/CoMoSpeech
+    project: https://comospeech.github.io/
+  authors:
+  - Zhen Ye
+  - Wei Xue
+  - Xu Tan
+  - Jie Chen
+  - Qifeng Liu
+  - Yike Guo
+  year: 2023
+  tags:
+  - consistency-model
+  - real-time
+  - svs
+  - tts
+  summary: A speech and singing voice synthesis system based on consistency models. By distilling a multi-step diffusion teacher model into a single-step student model, it achieves high-fidelity audio generation with extremely fast inference speeds.
+  summary_ja: 整合性モデル（Consistency Model）に基づく音声および歌声合成システム。多段階の拡散教師モデルを1ステップの生徒モデルに蒸留することで、極めて高速な推論速度で高忠実度なオーディオ生成を実現します。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2305.06908'
+  repo: zhenye234/comospeech
 - id: fish-diffusion-6a2f1c
   title: Fish Diffusion
   area: audio
@@ -8005,6 +8106,28 @@ entries:
   source: agent
   arxiv_id: '2606.06928'
   repo: openbmb/voxcpm
+- id: indextts2-46056d
+  title: IndexTTS2
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.21619
+    github: https://github.com/index-tts/index-tts
+  authors:
+  - Bilibili Voice Team
+  year: 2025
+  tags:
+  - duration-control
+  - emotion-control
+  - tts
+  - zero-shot
+  summary: An industrial-level, emotionally expressive, and duration-controlled autoregressive zero-shot text-to-speech system. It introduces a novel method for precise speech duration control and faithful emotion replication, making it highly suitable for interactive dialogue applications.
+  summary_ja: 感情表現と発話時間の制御に対応した、産業レベルの自己回帰型ゼロショットテキスト読み上げ（TTS）システム。正確な発話時間制御と忠実な感情再現のための新しい手法を導入しており、インタラクティブな対話アプリケーションに最適です。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2506.21619'
+  repo: index-tts/index-tts
 - id: zonos-9a54ba
   title: Zonos
   area: audio
@@ -8112,6 +8235,28 @@ entries:
   source: agent
   arxiv_id: '2410.06885'
   repo: swivid/f5-tts
+- id: fireredtts-6e1262
+  title: FireRedTTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.03283
+    github: https://github.com/FireRedTeam/FireRedTTS
+  authors:
+  - FireRedTeam
+  year: 2024
+  tags:
+  - flow-matching
+  - foundation-model
+  - speech-synthesis
+  - tts
+  summary: A foundation text-to-speech framework designed for industry-level generative speech applications. It features a robust data processing pipeline, a text-to-speech language model mapping text to semantic tokens, and a flow-matching-based mel-spectrogram decoder for highly natural and personalized speech synthesis.
+  summary_ja: 産業レベルの生成音声アプリケーション向けに設計された基盤テキスト読み上げ（TTS）フレームワーク。堅牢なデータ処理パイプライン、テキストをセマンティックトークンにマッピングするTTS言語モデル、およびフローマッチングに基づくメルスペクトログラムデコーダを備え、非常に自然でパーソナライズされた音声合成を実現します。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2409.03283'
+  repo: fireredteam/fireredtts
 - id: fish-speech-182ec2
   title: Fish Speech
   area: audio
@@ -9722,6 +9867,65 @@ entries:
   source: agent
   arxiv_id: '2512.04677'
   repo: alibaba-quark/liveavatar
+- id: rmavatar-photorealistic-human-avatar-reconstruction-from-mon-e032ea
+  title: 'RMAvatar: Photorealistic Human Avatar Reconstruction from Monocular Video Based on Rectified Mesh-embedded Gaussians'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.07104
+    github: https://github.com/RMAvatar/RMAvatar
+    project: https://rm-avatar.github.io/
+  authors:
+  - Sen Peng
+  - Weixing Xie
+  - Zilong Wang
+  - Xiaohu Guo
+  - Zhonggui Chen
+  - Baorong Yang
+  - Xiao Dong
+  year: 2025
+  tags:
+  - 3d-gaussian
+  - avatar
+  - monocular-video
+  - reconstruction
+  summary: A novel human avatar representation that embeds 3D Gaussian Splatting onto explicit mesh geometry to reconstruct clothed avatars from monocular video. It features a pose-related Gaussian rectification module to capture complex non-rigid deformations, improving realism and expressiveness.
+  summary_ja: 単眼ビデオから衣服を着用したアバターを再構成するために、明示的なメッシュ幾何学上に3Dガウシアン（Gaussian Splatting）を埋め込む新しいヒューマンアバター表現。ポーズに関連するガウシアン補正モジュールを備え、複雑な変形を捉えることで、リアルさと表現力を向上させます。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2501.07104'
+  repo: rmavatar/rmavatar
+- id: tera-rethinking-text-guided-realistic-3d-avatar-generation-9b61f8
+  title: 'TeRA: Rethinking Text-guided Realistic 3D Avatar Generation'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.02466
+    github: https://github.com/Yanwen-W/TeRA
+    project: https://yanwen-w.github.io/TeRA-Page/
+  authors:
+  - Yanwen Wang
+  - Yiyu Zhuang
+  - Jiawei Zhang
+  - Li Wang
+  - Yifei Zeng
+  - Xun Cao
+  - Xinxin Zuo
+  - Hao Zhu
+  year: 2025
+  tags:
+  - avatar
+  - diffusion
+  - reconstruction
+  - text-to-3d
+  summary: A text-guided 3D realistic avatar generation framework based on a latent diffusion model. It employs a two-stage training strategy, distilling a decoder to derive a structured latent space from a large human reconstruction model, enabling fast feed-forward generation and text-based partial customization.
+  summary_ja: 潜在拡散モデル（Latent Diffusion Model）に基づく、テキスト指示型のリアルな3Dアバタ生成フレームワーク。2段階の学習戦略を採用し、大規模な人物再構成モデルから構造化された潜在空間をデコーダに蒸留することで、高速なフィードフォワード生成とテキストによる部分的なカスタマイズを可能にします。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2509.02466'
+  repo: yanwen-w/tera
 - id: audio2photoreal-f3a360
   title: Audio2Photoreal
   area: characters
@@ -9865,6 +10069,38 @@ entries:
   source: agent
   arxiv_id: '2406.08475'
   repo: yuxuansnow/human3diffusion
+- id: idol-instant-photorealistic-3d-human-creation-from-a-single-07cd4b
+  title: 'IDOL: Instant Photorealistic 3D Human Creation from a Single Image'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.14963
+    github: https://github.com/yiyuzhuang/IDOL
+    project: https://yiyuzhuang.github.io/IDOL/
+  authors:
+  - Yiyu Zhuang
+  - Jiaxi Lv
+  - Hao Wen
+  - Qing Shuai
+  - Ailing Zeng
+  - Hao Zhu
+  - Shifeng Chen
+  - Yujiu Yang
+  - Xun Cao
+  - Wei Liu
+  year: 2024
+  tags:
+  - 3d-gaussian
+  - animatable
+  - avatar
+  - reconstruction
+  summary: A feed-forward transformer-based framework that reconstructs high-fidelity, animatable 3D human avatars from a single image. It predicts 3D Gaussian representations in a uniform space, allowing instant 1K resolution reconstruction and seamless animation.
+  summary_ja: 単一の画像から高精度かつアニメーション可能な3Dヒューマンアバターを再構成する、フィードフォワードトランスフォーマーベースのフレームワーク。統一空間における3Dガウシアン表現を予測し、1K解像度での即時再構成とシームレスなアニメーションを可能にします。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2412.14963'
+  repo: yiyuzhuang/idol
 - id: puzzleavatar-0fda47
   title: PuzzleAvatar
   area: characters
@@ -9920,6 +10156,34 @@ entries:
   source: agent
   arxiv_id: '2401.11078'
   repo: mingjoe/ultravatar
+- id: x-oscar-a-progressive-framework-for-high-quality-text-guided-395035
+  title: 'X-Oscar: A Progressive Framework for High-quality Text-guided 3D Animatable Avatar Generation'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.00954
+    github: https://github.com/LinZhekai/X-Oscar
+    project: https://xmu-xiaoma666.github.io/Projects/X-Oscar/
+  authors:
+  - Yiwei Ma
+  - Zhekai Lin
+  - Jiayi Ji
+  - Yijun Fan
+  - Xiaoshuai Sun
+  - Rongrong Ji
+  year: 2024
+  tags:
+  - 3d-generation
+  - animatable
+  - avatar
+  - text-to-3d
+  summary: A progressive framework for generating high-quality animatable 3D avatars from text prompts. It follows a sequential "Geometry -> Texture -> Animation" paradigm to simplify optimization and avoid oversaturation, producing high-fidelity avatars with realistic textures and fluid animations.
+  summary_ja: テキストプロンプトから高品質でアニメーション可能な3Dアバターを生成する段階的フレームワーク。「形状 → テクスチャ → アニメーション」の順次パラダイムに従うことで最適化を簡素化し、過飽和を防ぎながら、リアルな質感と滑らかなアニメーションを持つ高精度なアバターを生成します。
+  date_added: '2026-08-04'
+  source: agent
+  arxiv_id: '2405.00954'
+  repo: linzhekai/x-oscar
 - id: x-portrait-b46e54
   title: X-Portrait
   area: characters

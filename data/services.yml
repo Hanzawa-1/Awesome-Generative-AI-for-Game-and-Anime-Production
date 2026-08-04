@@ -602,6 +602,23 @@ entries:
   thumbnail: assets/thumbnails/metasounds-ad4116.png
   date_added: '2026-06-16'
   source: agent
+- id: tsugi-dsp-series-363a78
+  title: Tsugi DSP Series
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/web/en/products.html
+  year: 2021
+  tags:
+  - anime
+  - procedural-audio
+  - sound-effects
+  - synthesis
+  summary: A suite of procedural audio tools, including DSP Action, DSP Anime, DSP Motion, and DSP Retro, designed for game developers and animators to generate dynamic, customizable sound effects by drawing and adjusting synthesis parameters.
+  summary_ja: ゲーム開発者やアニメーター向けに設計されたプロシージャルオーディオツール群（DSP Action、DSP Anime、DSP Motion、DSP Retroなど）であり、描画操作や合成パラメータの調整によって、ダイナミックでカスタマイズ可能な効果音を生成できる。
+  date_added: '2026-08-04'
+  source: agent
 - id: dsp-motion-69f65e
   title: DSP Motion
   area: audio
@@ -775,6 +792,23 @@ entries:
   summary_ja: MusicXML形式の楽譜ファイルから極めて自然な歌声を生成する、ニューラルネットワークベースのフリーウェア歌声合成エンジン。東北きりたんなどの人気音声ライブラリを擁し、アニメやインディーズ音楽制作で広く利用されています。
   thumbnail: assets/thumbnails/neutrino-098a3c.png
   date_added: '2026-07-14'
+  source: agent
+- id: synthesizer-v-studio-34ee05
+  title: Synthesizer V Studio
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://dreamtonics.com/synthesizerv/
+  year: 2020
+  tags:
+  - commercial
+  - dreamtonics
+  - editor
+  - svs
+  summary: A professional-grade singing voice synthesis software developed by Dreamtonics. It combines a deep neural network-based synthesis engine with a sample-based hybrid approach, offering highly realistic vocals, multi-lingual synthesis, and an intuitive editor interface.
+  summary_ja: Dreamtonics社が開発したプロフェッショナル向けの歌声合成ソフトウェア。ディープニューラルネットワークベースの合成エンジンとサンプルベースのハイブリッドアプローチを組み合わせ、極めてリアルな歌声、多言語合成、直感的なエディタインターフェースを提供します。
+  date_added: '2026-08-04'
   source: agent
 - id: emvoice-af80c5
   title: Emvoice
