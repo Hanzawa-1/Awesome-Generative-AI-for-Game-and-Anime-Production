@@ -1223,6 +1223,23 @@ entries:
   thumbnail: assets/thumbnails/reallusion-headshot-20242a.png
   date_added: '2026-07-01'
   source: agent
+- id: actorcore-accurig-c96144
+  title: ActorCore AccuRIG
+  area: characters
+  task: skinning
+  kind: proprietary
+  links:
+    website: https://actorcore.reallusion.com/auto-rig
+  year: 2022
+  tags:
+  - auto-rigging
+  - reallusion
+  - rigging
+  - skinning
+  summary: A free, standalone 3D character auto-rigging and skinning application developed by Reallusion that automates the process of placing joints and calculating skin weights for biped models.
+  summary_ja: Reallusionが開発した無料のスタンドアロン3Dキャラクター自動リギング・スキニングアプリケーション。二足歩行モデルの関節配置とスキンウェイト計算のプロセスを自動化します。
+  date_added: '2026-08-05'
+  source: agent
 - id: ngskintools-v2-39804d
   title: ngSkinTools v2
   area: characters
@@ -1259,6 +1276,23 @@ entries:
   summary: An industry-standard layer-based skinning plugin for Autodesk Maya that introduces non-destructive layers, advanced mirroring, and enhanced paint brushes to streamline character weight painting.
   summary_ja: 非破壊的なレイヤー、高度なミラーリング、強化されたペイントブラシを導入し、キャラクターのウェイトペイント作業を効率化する、Autodesk Maya向けの業界標準レイヤーベーススキニングプラグイン。
   date_added: '2026-07-29'
+  source: agent
+- id: voxel-heat-diffuse-skinning-a23565
+  title: Voxel Heat Diffuse Skinning
+  area: characters
+  task: skinning
+  kind: proprietary
+  links:
+    website: https://blendermarket.com/products/voxel-heat-diffuse-skinning
+  year: 2017
+  tags:
+  - blender
+  - skinning
+  - voxel
+  - weights
+  summary: A popular commercial Blender addon that implements voxel-based heat diffusion skinning to overcome the limitations of Blender's native automatic weights, especially for overlapping geometries like clothing and hair.
+  summary_ja: Blender標準の自動ウェイトの制限を克服するために、ボクセルベースの熱拡散スキニングを実装した人気の商用Blenderアドオン。衣服や髪などの重なり合うジオメトリに特に効果的です。
+  date_added: '2026-08-05'
   source: agent
 - id: spline-ai-89a525
   title: Spline AI
@@ -1365,6 +1399,22 @@ entries:
   summary_ja: 自然言語のプロンプトをSTEP、STL、OBJなどの形式の正確で編集可能なB-Rep CADモデルに変換する、開発者向けのジェネレーティブCADプラットフォーム（旧KittyCAD）。
   thumbnail: assets/thumbnails/zoo-6a3aa0.png
   date_added: '2026-07-01'
+  source: agent
+- id: hyper3d-rodin-6a58d8
+  title: Hyper3D Rodin
+  area: gen-3d
+  task: image-to-3d
+  kind: proprietary
+  links:
+    website: https://hyper3d.ai/
+  year: 2024
+  tags:
+  - commercial-tool
+  - image-to-3d
+  - pbr-textures
+  summary: A premium commercial AI 3D generator that transforms text descriptions and 2D images into hyper-realistic 3D assets with detailed geometry and 4K PBR textures.
+  summary_ja: テキストの説明や2D画像から、詳細なジオメトリと4K PBRテクスチャを備えた超リアルな3Dアセットを生成する、プレミアムな商用AI 3Dジェネレーター。
+  date_added: '2026-08-05'
   source: agent
 - id: meshy-c6012a
   title: Meshy

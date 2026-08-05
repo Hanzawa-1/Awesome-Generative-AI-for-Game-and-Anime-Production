@@ -10551,6 +10551,25 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2511.12935'
+- id: remix-20924f
+  title: ReMix
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.10156
+    paper: https://arxiv.org/pdf/2510.10156
+  year: 2025
+  tags:
+  - character-consistency
+  - diffusion
+  - editing
+  - flux
+  summary: A unified framework for consistent character generation and editing, leveraging large-scale text-to-image diffusion models like FLUX.1 to produce high-fidelity outputs with consistent identities.
+  summary_ja: 一貫したキャラクター生成と編集のための統合フレームワークであり、FLUX.1などの大規模なテキスト画像拡散モデルを活用して、一貫したアイデンティティを持つ高精度な出力を生成します。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2510.10156'
 - id: textoon-42bde8
   title: Textoon
   area: characters
@@ -10956,6 +10975,42 @@ entries:
   source: agent
   arxiv_id: '2312.15430'
   repo: human3daigc/make-a-character
+- id: mpfb2-166b05
+  title: MPFB2
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    github: https://github.com/makehumancommunity/mpfb2
+  year: 2022
+  tags:
+  - 3d
+  - blender
+  - character
+  - parametric
+  summary: A free and open-source human character generator and editor for Blender, offering parametric modeling of body features, procedural skin materials, and Rigify integration.
+  summary_ja: 身体的特徴のパラメータモデリング、手続き型スキンマテリアル、およびRigifyの統合を提供する、Blender用の無料かつオープンソースの人間キャラクタージェネレーターおよびエディター。
+  date_added: '2026-08-05'
+  source: agent
+  repo: makehumancommunity/mpfb2
+- id: charmorph-061a48
+  title: CharMorph
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    github: https://github.com/Upliner/CharMorph
+  year: 2020
+  tags:
+  - 3d
+  - blender
+  - character
+  - morph
+  summary: An open-source 3D character creation tool for Blender that uses base meshes and morphs to allow easy creation and customization of humanoid and non-humanoid characters.
+  summary_ja: ベースメッシュとモーフを使用して人型および非人型のキャラクターを簡単に作成およびカスタマイズできる、Blender用のオープンソース3Dキャラクター作成ツール。
+  date_added: '2026-08-05'
+  source: agent
+  repo: upliner/charmorph
 - id: any3davatar-fast-and-high-quality-full-head-3d-avatar-recons-832f8e
   title: 'Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image'
   area: characters
@@ -11009,6 +11064,32 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2607.02674'
+- id: fastgha-generalized-few-shot-3d-gaussian-head-avatars-with-r-11d0a5
+  title: 'FastGHA: Generalized Few-Shot 3D Gaussian Head Avatars with Real-Time Animation'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.13837
+  authors:
+  - Xinya Ji
+  - Sebastian Weiss
+  - Manuel Kansy
+  - Jacek Naruniec
+  - Xun Cao
+  - Barbara Solenthaler
+  - Derek Bradley
+  year: 2026
+  tags:
+  - 3d-head
+  - 3dgs
+  - avatar
+  - few-shot
+  summary: A feed-forward method that generates high-quality 3D Gaussian head avatars from only a few input images (few-shot) while supporting real-time animation. It uses a novel architecture to generalize to unseen subjects without per-identity optimization.
+  summary_ja: わずか数枚の入力画像（フューショット）から高品質な3Dガウシアン・ヘッドアバターを生成し、リアルタイムアニメーションをサポートするフィードフォワード手法。個別の最適化を行うことなく、未知の被写体に対して一般化する。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2601.13837'
 - id: generalizable-and-animatable-3d-full-head-gaussian-avatar-fr-e69d61
   title: Generalizable and Animatable 3D Full-Head Gaussian Avatar from a Single Image
   area: characters
@@ -11119,6 +11200,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.14594'
+- id: arc2avatar-generating-expressive-3d-avatars-from-a-single-im-183066
+  title: 'Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.05379
+    github: https://github.com/dimgerogiannis/Arc2Avatar
+    project: https://arc2avatar.github.io/
+  authors:
+  - Dimitrios Gerogiannis
+  - Foivos Paraperas Papantoniou
+  - Rolandos Alexandros Potamias
+  - Alexandros Lattas
+  - Stefanos Zafeiriou
+  year: 2025
+  tags:
+  - 3d-head
+  - 3dgs
+  - 3dmm
+  - avatar
+  summary: A score distillation sampling (SDS) based method that generates a complete, detailed 3D head avatar from a single image. It integrates with 3D Morphable Models (3DMM) and a face foundation model to enable blendshape-based expression control and natural color fidelity.
+  summary_ja: 1枚の画像から詳細な3Dヘッドアバターを生成する、スコア蒸留サンプリング（SDS）ベースの手法。3DMM（3Dモーファブルモデル）および顔の基盤モデルと統合することで、ブレンドシェイプによる表情制御と自然な色再現を実現する。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2501.05379'
+  repo: dimgerogiannis/arc2avatar
 - id: artalk-21a4bd
   title: ARTalk
   area: characters
@@ -11147,6 +11255,63 @@ entries:
   source: agent
   arxiv_id: '2502.20323'
   repo: xg-chu/artalk
+- id: fastavatar-instant-3d-gaussian-splatting-for-faces-from-sing-0588ff
+  title: 'FastAvatar: Instant 3D Gaussian Splatting for Faces from Single Unconstrained Poses'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.18389
+    github: https://github.com/hliang2/FastAvatar
+    project: https://hliang2.github.io/FastAvatar/
+  authors:
+  - Hao Liang
+  - Zhixuan Ge
+  - Ashish Tiwari
+  - Soumendu Majee
+  - G. M. Dilshan Godaliyadda
+  - Ashok Veeraraghavan
+  - Guha Balakrishnan
+  year: 2025
+  tags:
+  - 3d-face
+  - 3dgs
+  - real-time
+  - reconstruction
+  summary: A feed-forward framework that generates high-quality 3D Gaussian Splatting (3DGS) face models from a single unconstrained face image in under 10ms. It enables real-time novel view synthesis and expression manipulation without test-time optimization.
+  summary_ja: 1枚の制約のない顔画像から、10ミリ秒未満で高品質な3Dガウシアン・スプラッティング（3DGS）顔モデルを生成するフィードフォワード・フレームワーク。テスト時の最適化を行うことなく、リアルタイムの新規視点合成や表情操作を可能にする。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2508.18389'
+  repo: hliang2/fastavatar
+- id: fastavatar-towards-unified-and-fast-3d-avatar-reconstruction-7e1f47
+  title: 'FastAvatar: Towards Unified and Fast 3D Avatar Reconstruction with Large Gaussian Reconstruction Transformers'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.19754
+    github: https://github.com/TyrionWuYue/FastAvatar
+    project: https://tyrionwuyue.github.io/project_FastAvatar/
+  authors:
+  - Yue Wu
+  - Xuanhong Chen
+  - Yufan Wu
+  - Wen Li
+  - Yuxi Lu
+  - Kairui Feng
+  year: 2025
+  tags:
+  - 3d-head
+  - 3dgs
+  - avatar
+  - transformer
+  summary: A unified feed-forward 3D avatar reconstruction framework that can process diverse inputs (including a single image, sparse multi-view observations, or monocular video) to reconstruct a high-quality 3D Gaussian Splatting (3DGS) head avatar within seconds.
+  summary_ja: 単一の画像、疎なマルチビュー観測、または単眼ビデオなど、多様な入力を処理して、高品質な3Dガウシアン・スプラッティング（3DGS）ヘッドアバターを数秒で再構成できる、統一されたフィードフォワード3Dアバター再構成フレームワーク。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2508.19754'
+  repo: tyrionwuyue/fastavatar
 - id: lam-large-avatar-model-for-one-shot-animatable-gaussian-head-1477b1
   title: 'LAM: Large Avatar Model for One-shot Animatable Gaussian Head'
   area: characters
@@ -11942,6 +12107,29 @@ entries:
   date_added: '2026-07-15'
   source: agent
   arxiv_id: '2406.00238'
+- id: vinecs-3d44a7
+  title: VINECS
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.00842
+  authors:
+  - Zhouyingcheng Liao
+  - Vladislav Golyanik
+  - Marc Habermann
+  - Christian Theobalt
+  year: 2024
+  tags:
+  - avatar
+  - cvpr
+  - neural
+  - skinning
+  summary: A video-based neural character skinning method that learns 3D characters with pose-dependent skinning from 2D multi-view video observations, enabling continuous multi-resolution skinning.
+  summary_ja: 2Dの多視点ビデオ映像からポーズ依存のスキニングを持つ3Dキャラクターを学習し、連続的なマルチ解像度スキニングを可能にするビデオベースのニューラルキャラクタースキニング手法。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2307.00842'
 - id: invertible-neural-skinning-8b05f7
   title: Invertible Neural Skinning
   area: characters
@@ -12019,6 +12207,54 @@ entries:
   source: agent
   arxiv_id: '2203.04746'
   repo: imatge-upc/skinningnet
+- id: heterskinnet-5ca85c
+  title: HeterSkinNet
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2103.10602
+  authors:
+  - Xiaoyu Pan
+  - Jiancong Huang
+  - Guofeng Zhang
+  - Xiaogang Jin
+  year: 2021
+  tags:
+  - graph-neural-network
+  - rigging
+  - skinning
+  summary: A deep learning-based method that automatically estimates skin weights for character models with diverse meshes and arbitrary skeletal morphologies using a heterogeneous graph network.
+  summary_ja: 異種グラフネットワークを用いて、多様なメッシュと任意の骨格形態を持つキャラクターモデルのスキンウェイトを自動的に推定するディープラーニング手法。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2103.10602'
+- id: neural-blend-shapes-67cc91
+  title: Neural Blend Shapes
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2105.02451
+    github: https://github.com/PeizhuoLi/neural-blend-shapes
+    project: https://peizhuoli.github.io/neural-blend-shapes/
+  authors:
+  - Peizhuo Li
+  - Olga Sorkine-Hornung
+  - Daniel Cohen-Or
+  - Baoquan Chen
+  year: 2021
+  tags:
+  - blendshapes
+  - neural
+  - rigging
+  - skinning
+  summary: A deep learning framework for automatic character rigging, skinning, and blend shape generation that handles arbitrary mesh connectivity and learns corrective pose-dependent shapes to address standard skinning artifacts.
+  summary_ja: 任意のメッシュ接続に対応し、標準的なスキニングのアーティファクトを解決するためのポーズ依存の補正形状を学習する、自動キャラクターリギング、スキニング、ブレンドシェイプ生成のためのディープラーニングフレームワーク。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2105.02451'
+  repo: peizhuoli/neural-blend-shapes
 - id: dem-bones-620933
   title: Dem Bones
   area: characters
@@ -12193,6 +12429,33 @@ entries:
   date_added: '2026-07-29'
   source: agent
   arxiv_id: '2607.19777'
+- id: omni-3dedit-6759e0
+  title: Omni-3DEdit
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.17841
+    github: https://github.com/mt-cly/Omni3DEdit
+    project: https://mt-cly.github.io/Omni3DEdit_ProjectPage/
+  authors:
+  - Liyi Chen
+  - Pengfei Wang
+  - Guowen Zhang
+  - Zhiyuan Ma
+  - Lei Zhang
+  year: 2026
+  tags:
+  - 3d-editing
+  - feed-forward
+  - lora
+  - multi-view
+  summary: A unified, feed-forward model for multi-view consistent 3D editing that generalizes various editing tasks implicitly. Built upon the pre-trained SEVA model and utilizing a dual-stream LoRA module, it generates edited novel views across tasks like object removal, addition, and color change in a single forward pass without iterative 3D optimization.
+  summary_ja: オブジェクトの削除、追加、色変更などの多様な編集タスクを、反復的な3D最適化なしで1回のフォワードパスで実行する、マルチビュー一貫性のある統合フィードフォワード3D編集モデル。事前学習済みのSEVAモデルをベースに、デュアルストリームLoRAモジュールを採用して高品質な編集ビューを生成する。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2603.17841'
+  repo: mt-cly/omni3dedit
 - id: tango-138fc1
   title: TanGO
   area: gen-3d
@@ -12291,6 +12554,32 @@ entries:
   source: seed
   arxiv_id: '2501.18672'
   repo: quyans/drag-your-gaussian
+- id: edit3r-c7f661
+  title: Edit3r
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.25071
+    github: https://github.com/edit3r/edit3r
+    project: https://edit3r.github.io/edit3r/
+  authors:
+  - Jiageng Liu
+  - Weijie Lyu
+  - Xueting Li
+  - Yejie Guo
+  - Ming-Hsuan Yang
+  year: 2025
+  tags:
+  - 3d-editing
+  - feed-forward
+  - gaussian-splatting
+  summary: A feed-forward framework that reconstructs and edits a 3D scene in a single pass from sparse unposed images and a text prompt. Instead of optimizing a scene-specific representation, it directly predicts instruction-aligned 3D Gaussians and resolves cross-view conflicts introduced by stochastic 2D editors.
+  summary_ja: 疎なカメラポーズ未設定の画像とテキストプロンプトから、1パスで3Dシーンの再構成と編集を同時に行うフィードフォワードフレームワーク。シーン固有の最適化を必要とせず、指示に沿った3D Gaussianを直接予測し、確率的2Dエディタによる視点間の不整合を解消する。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2512.25071'
+  repo: edit3r/edit3r
 - id: instruct-4dgs-a9d205
   title: Instruct-4DGS
   area: gen-3d
@@ -13339,6 +13628,31 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2412.11892'
+- id: cadfusion-e95459
+  title: CADFusion
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.19054
+    github: https://github.com/microsoft/CADFusion
+  authors:
+  - Ruiyu Wang
+  - Yu Yuan
+  - Shizhao Sun
+  - Jiang Bian
+  year: 2025
+  tags:
+  - cad
+  - llm
+  - text-to-cad
+  - visual-feedback
+  summary: A text-to-CAD generation framework that leverages visual feedback to enhance the performance of large language models (LLMs) in generating CAD models from textual descriptions, alternating between sequential learning and visual feedback stages.
+  summary_ja: 大規模言語モデル（LLM）によるテキストからのCADモデル生成性能を向上させるため、シーケンシャル学習と視覚的フィードバック学習の2つのステージを交互に行うことで、論理的に一貫したパラメータシーケンスを生成するフレームワーク。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2501.19054'
+  repo: microsoft/cadfusion
 - id: flexcad-controllable-cad-generation-with-fine-tuned-llms-d63b48
   title: 'FlexCAD: Controllable CAD Generation with Fine-tuned LLMs'
   area: gen-3d
@@ -13919,6 +14233,60 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: tencentarc/pixal3d
+- id: acc3d-accelerating-single-image-to-3d-diffusion-models-via-e-c32292
+  title: 'Acc3D: Accelerating Single Image to 3D Diffusion Models via Edge Consistency Guided Score Distillation'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.15975
+    github: https://github.com/Kenkenzaii/Acc3D
+    project: https://acc3d-object.github.io/
+  authors:
+  - Kenkenzaii
+  year: 2025
+  tags:
+  - 3d-generation
+  - acceleration
+  - diffusion-model
+  - image-to-3d
+  summary: A method designed to accelerate single image-to-3D diffusion models, achieving over a 20x increase in computational efficiency. It integrates an edge consistency-guided score distillation process and an adversarial augmentation strategy to derive high-quality reconstructions through few-step inferences.
+  summary_ja: 単一画像から3Dへの拡散モデルを高速化し、計算効率を20倍以上に向上させる手法。エッジ一貫性ガイド付きスコア蒸留プロセスと敵対的拡張戦略を統合し、わずかなステップの推論で高品質な再構築を実現します。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2503.15975'
+  repo: kenkenzaii/acc3d
+- id: ar-1-to-3-single-image-to-consistent-3d-object-generation-vi-e42017
+  title: 'AR-1-to-3: Single Image to Consistent 3D Object Generation via Next-View Prediction'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.12929
+    github: https://github.com/HVision-NKU/AR123
+    project: https://yikaiw.github.io/
+  authors:
+  - Xuying Zhang
+  - Yupeng Zhou
+  - Kai Wang
+  - Yikai Wang
+  - Zhen Li
+  - Shaohui Jiao
+  - Daquan Zhou
+  - Qibin Hou
+  - Ming-Ming Cheng
+  year: 2025
+  tags:
+  - 3d-generation
+  - autoregressive
+  - image-to-3d
+  - multi-view
+  summary: An autoregressive next-view prediction framework for 3D object generation from a single image. It generates target views progressively from near to far, significantly improving multi-view consistency and detail preservation.
+  summary_ja: 単一の画像から3Dオブジェクトを生成するための自己回帰的な次ビュー予測フレームワーク。ターゲットビューを近から遠へと段階的に生成することで、マルチビューの一貫性と詳細の保持を大幅に向上させます。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2503.12929'
+  repo: hvision-nku/ar123
 - id: direct3d-s2-4cc184
   title: Direct3D-S2
   area: gen-3d
@@ -15110,6 +15478,39 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: xrvitd/sato
+- id: strips-as-tokens-artist-mesh-generation-with-native-uv-segme-3a82bf
+  title: 'Strips as Tokens: Artist Mesh Generation with Native UV Segmentation'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.09132
+    github: https://github.com/Xrvitd/SATO
+    project: https://ruixu.me/html/SATO/index.html
+  authors:
+  - Xu, R.
+  - Qin, D.
+  - Qiao, K.
+  - Dong, Q.
+  - Pi, H.
+  - Zhang, Q.
+  - Zhang, L.
+  - Xu, L.
+  - Yu, J.
+  - Wang, W.
+  - Komura, T.
+  year: 2026
+  tags:
+  - autoregressive
+  - mesh-generation
+  - topology
+  - uv-unwrapping
+  summary: An autoregressive mesh generation framework that uses a token ordering strategy inspired by triangle strips. By constructing the sequence as a connected chain of faces that explicitly encodes UV boundaries, it naturally preserves the organized edge flow and semantic layout characteristic of artist-created meshes, supporting both triangle and quad meshes with native UV segmentation.
+  summary_ja: 三角形ストリップに着想を得たトークン順序付け戦略を使用する自己回帰型メッシュ生成フレームワーク。UV境界を明示的にエンコードする接続された面のチェーンとしてシーケンスを構築することで、アーティストが作成したメッシュの特徴である整ったエッジフローとセマンティックなレイアウトを自然に維持し、ネイティブなUVセグメンテーションを備えた三角形および四角形メッシュの両方をサポートします。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2604.09132'
+  repo: xrvitd/sato
 - id: deepmesh-bfea68
   title: DeepMesh
   area: gen-3d
@@ -15337,6 +15738,32 @@ entries:
   source: agent
   arxiv_id: '2506.15442'
   repo: tencent-hunyuan/hunyuan3d-2.1
+- id: mage-single-image-to-material-aware-3d-via-the-multi-view-g-1f07cf
+  title: 'MAGE: Single Image to Material-Aware 3D via the Multi-View G-Buffer Estimation Model'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    github: https://github.com/onpix/mage
+    paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_MAGE__Single_Image_to_Material-Aware_3D_via_the_Multi-View_CVPR_2025_paper.pdf
+  authors:
+  - Wang, H.
+  - Wang, Z.
+  - Long, X.
+  - Lin, C.
+  - Hancke, G.
+  - Lau, R. W.
+  year: 2025
+  tags:
+  - g-buffer
+  - image-to-3d
+  - mesh-generation
+  - pbr-textures
+  summary: A framework for material-aware single image-to-3D generation that leverages inspiration from traditional computer graphics deferred rendering pipelines. It introduces a multi-view G-buffer estimation model to simultaneously predict albedo, normal, depth, metallic, and roughness maps, producing high-quality 3D meshes with rich material properties.
+  summary_ja: 従来のコンピュータグラフィックスの遅延レンダリングパイプラインに着想を得た、マテリアル対応のシングル画像から3Dへの生成フレームワーク。マルチビューGバッファ推定モデルを導入し、アルベド、法線、深度、金属度、粗さマップを同時に予測することで、豊かなマテリアル特性を持つ高品質な3Dメッシュを生成します。
+  date_added: '2026-08-05'
+  source: agent
+  repo: onpix/mage
 - id: mesh-rft-enhancing-mesh-generation-via-fine-grained-reinforc-3dbe72
   title: 'Mesh-RFT: Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning'
   area: gen-3d
@@ -16326,6 +16753,34 @@ entries:
   source: agent
   arxiv_id: '2601.03252'
   repo: zju3dv/infinidepth
+- id: metricanything-scaling-metric-depth-pretraining-with-noisy-h-21eaf0
+  title: 'MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.22054
+    github: https://github.com/metric-anything/metric-anything
+  authors:
+  - Baorui Ma
+  - Jiahui Yang
+  - Donglin Di
+  - Xuancheng Zhang
+  - Jianxun Cui
+  - Hao Li
+  - Yan Xie
+  - Wei Chen
+  year: 2026
+  tags:
+  - depth-estimation
+  - foundation-model
+  - metric-depth
+  summary: MetricAnything is a scalable pretraining framework designed to learn accurate metric depth from noisy, diverse, and heterogeneous 3D sources. It establishes scaling laws for metric depth estimation, achieving strong zero-shot generalization across various real-world scenarios without requiring manual calibration.
+  summary_ja: MetricAnythingは、ノイズが多く多様な異種3Dソースから正確なメトリック深度を学習するために設計された、スケーラブルな事前学習フレームワークです。メトリック深度推定におけるスケーリング則を確立し、手動のキャリブレーションを必要とせずに、さまざまな現実世界のシナリオにわたって強力なゼロショット汎化性能を達成します。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2601.22054'
+  repo: metric-anything/metric-anything
 - id: zipdepth-bringing-lightweight-zero-shot-monocular-depth-anyw-eb09ac
   title: 'ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device'
   area: gen-3d
@@ -16381,6 +16836,31 @@ entries:
   source: agent
   arxiv_id: '2507.16290'
   repo: g-1nonly/dens3r
+- id: depth-any-camera-zero-shot-metric-depth-estimation-from-any-e2ee1e
+  title: 'Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.02464
+    github: https://github.com/yuliangguo/depth_any_camera
+  authors:
+  - Yuliang Guo
+  - Sparsh Garg
+  - S. Mahdi H. Miangoleh
+  - Xinyu Huang
+  - Liu Ren
+  year: 2025
+  tags:
+  - depth-estimation
+  - metric-depth
+  - zero-shot
+  summary: Depth Any Camera (DAC) is a zero-shot metric depth estimation framework that extends perspective-trained models to handle any camera type, including wide field-of-view (FoV) fisheye and 360-degree cameras. It enables accurate metric depth prediction across diverse camera geometries without requiring camera-specific fine-tuning.
+  summary_ja: Depth Any Camera (DAC)は、パースペクティブ画像で学習されたモデルを、魚眼レンズや360度カメラなどの広視野角（FoV）カメラを含むあらゆるカメラタイプに対応させるゼロショット・メトリック深度推定フレームワークです。カメラ固有の微調整を必要とせず、多様なカメラ形状にわたって正確なメトリック深度予測を可能にします。
+  date_added: '2026-08-05'
+  source: agent
+  arxiv_id: '2501.02464'
+  repo: yuliangguo/depth_any_camera
 - id: depth-anything-3-09521d
   title: Depth Anything 3
   area: gen-3d
