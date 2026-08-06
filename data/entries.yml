@@ -17556,6 +17556,28 @@ entries:
   source: agent
   arxiv_id: '2602.10116'
   repo: nvlabs/sage
+- id: sceneassistant-a-visual-feedback-agent-for-open-vocabulary-3-9844c6
+  title: 'SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.12238
+    github: https://github.com/ROUJINN/SceneAssistant
+  authors:
+  - ROUJINN
+  year: 2026
+  tags:
+  - 3d-generation
+  - agentic
+  - open-vocabulary
+  - scene-generation
+  summary: A vision-feedback-driven agentic framework designed for open-vocabulary 3D scene synthesis, utilizing a suite of Action APIs to iteratively refine scene layouts.
+  summary_ja: オープンボキャブラリの3Dシーン合成向けに設計された、視覚フィードバック駆動型のエージェントフレームワークであり、一連のアクションAPIを利用してシーンのレイアウトを反復的に洗練する。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2603.12238'
+  repo: roujinn/sceneassistant
 - id: syncity-3000-9ba1b2
   title: SynCity 3000
   area: gen-3d
@@ -17581,6 +17603,29 @@ entries:
   source: agent
   arxiv_id: '2607.05392'
   repo: paulengstler/syncity-3k
+- id: worldflow3d-flowing-through-3d-distributions-for-unbounded-w-4ec93c
+  title: 'WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.29089
+    github: https://github.com/princeton-computational-imaging/WorldFlow3D
+  authors:
+  - Julian Ost
+  - Felix Heide
+  year: 2026
+  tags:
+  - 3d-generation
+  - flow-matching
+  - scene-generation
+  - unbounded-world
+  summary: A framework for generating unbounded 3D worlds with full controllability using flow matching to model 3D data distributions, enabling large-scale outdoor and indoor scene synthesis.
+  summary_ja: フローマッチングを用いて3Dデータ分布をモデル化し、大規模な屋外および屋内シーンの合成を可能にする、完全な制御性を備えた無限の3Dワールド生成フレームワーク。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2603.29089'
+  repo: princeton-computational-imaging/worldflow3d
 - id: bloomscene-2eb391
   title: BloomScene
   area: gen-3d
@@ -17950,6 +17995,28 @@ entries:
   source: agent
   arxiv_id: '2412.03558'
   repo: vast-ai-research/midi-3d
+- id: physcene-physically-interactable-3d-scene-synthesis-for-embo-8beb8f
+  title: 'PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.09465
+    github: https://github.com/PhyScene/PhyScene
+  authors:
+  - PhyScene Authors
+  year: 2024
+  tags:
+  - 3d-generation
+  - diffusion-model
+  - physics-constraints
+  - scene-generation
+  summary: A guided diffusion model for physically interactable 3D scene synthesis, incorporating collision, layout, and reachability constraints to generate realistic layouts with articulated objects.
+  summary_ja: 衝突、レイアウト、到達可能性の制約を組み込むことで、可動オブジェクトを含むリアルなレイアウトを生成する、物理的にインタラクティブな3Dシーン合成用のガイド付き拡散モデル。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2404.09465'
+  repo: physcene/physcene
 - id: realmdreamer-ec40a4
   title: RealmDreamer
   area: gen-3d
@@ -18312,6 +18379,32 @@ entries:
   date_added: '2026-06-18'
   source: agent
   arxiv_id: '2606.12213'
+- id: world-shaper-a-unified-framework-for-360-panoramic-editing-1779df
+  title: 'World-Shaper: A Unified Framework for 360° Panoramic Editing'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.00265
+    project: https://world-shaper-project.github.io/
+  authors:
+  - Dong Liang
+  - Yuhao Liu
+  - Jinyuan Jia
+  - Youjun Zhao
+  - Rynson W.H. Lau
+  year: 2026
+  tags:
+  - '360'
+  - editing
+  - panorama
+  - skybox
+  summary: World-Shaper is a unified geometry-aware framework for 360-degree panoramic image editing directly in the equirectangular projection (ERP) domain, supporting tasks such as object addition, removal, and replacement while maintaining spherical consistency.
+  summary_ja: World-Shaperは、正距円筒図法（ERP）ドメインで直接360度パノラマ画像を編集する、統一された幾何学対応フレームワークであり、球面の整合性を維持しながらオブジェクトの追加、削除、置換などのタスクをサポートします。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2602.00265'
+  repo: yuhaoliu7456/world-shaper
 - id: cubediff-5d3acf
   title: CubeDiff
   area: gen-3d
@@ -18501,6 +18594,31 @@ entries:
   date_added: '2026-07-23'
   source: agent
   arxiv_id: '2506.21681'
+- id: what-makes-for-text-to-360-degree-panorama-generation-with-s-cd8008
+  title: What Makes for Text to 360-degree Panorama Generation with Stable Diffusion? (UniPano)
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.22129
+    github: https://github.com/jinhong-ni/UniPano
+  authors:
+  - Jinhong Ni
+  - Chang-Bin Zhang
+  - Qiang Zhang
+  - Jing Zhang
+  year: 2025
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  summary: UniPano is a text-to-panorama generative framework that adapts pre-trained text-to-image diffusion models to synthesize high-quality, seamless 360-degree panoramic images with significantly reduced memory and training time.
+  summary_ja: UniPanoは、事前学習済みのテキスト画像拡散モデルを適応させ、メモリ消費と学習時間を大幅に削減しながら、高品質でシームレスな360度パノラマ画像を合成するテキスト・パノラマ生成フレームワークです。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2505.22129'
+  repo: jinhong-ni/unipano
 - id: 360dvd-2e268c
   title: 360DVD
   area: gen-3d
@@ -18772,6 +18890,32 @@ entries:
   source: agent
   arxiv_id: '2209.09898'
   repo: frozenburning/text2light
+- id: code2worlds-empowering-coding-llms-for-4d-world-generation-e9c306
+  title: 'Code2Worlds: Empowering Coding LLMs for 4D World Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.11757
+    github: https://github.com/AIGeeksGroup/Code2Worlds
+    project: https://aigeeksgroup.github.io/Code2Worlds/
+  authors:
+  - Yi Zhang
+  - Yunshuang Wang
+  - Zeyu Zhang
+  - Hao Tang
+  year: 2026
+  tags:
+  - 4d
+  - llm
+  - simulation
+  - world-generation
+  summary: A framework that formulates 4D dynamic world generation as language-to-simulation code generation, utilizing a dual-stream architecture to separate object generation from hierarchical environmental layout.
+  summary_ja: 4Dの動的な世界生成を言語からシミュレーションコードへの生成タスクとして定式化し、オブジェクト生成と階層的な環境レイアウトを分離するデュアルストリームアーキテクチャを採用したフレームワーク。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2602.11757'
+  repo: aigeeksgroup/code2worlds
 - id: dream-cubed-1f18ea
   title: Dream-Cubed
   area: gen-3d
@@ -19106,6 +19250,33 @@ entries:
   source: agent
   arxiv_id: '2406.06526'
   repo: hzxie/gaussiancity
+- id: urbanworld-an-urban-world-model-for-3d-city-generation-83a8a2
+  title: 'UrbanWorld: An Urban World Model for 3D City Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.11965
+    github: https://github.com/Urban-World/UrbanWorld
+  authors:
+  - Yu Shang
+  - Jiansheng Chen
+  - Hangyu Fan
+  - Jingtao Ding
+  - Jie Feng
+  - Yong Li
+  year: 2024
+  tags:
+  - 3d
+  - city-generation
+  - diffusion
+  - world-model
+  summary: An urban world model for automatically creating realistic, customizable, and interactive 3D city environments from OpenStreetMap data or semantic layouts using progressive diffusion-based rendering.
+  summary_ja: OpenStreetMapデータやセマンティックレイアウトから、プログレッシブ拡散ベースのレンダリングを用いて、リアルでカスタマイズ可能なインタラクティブ3D都市環境を自動生成する都市ワールドモデル。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2407.11965'
+  repo: urban-world/urbanworld
 - id: 3d-gpt-e97e85
   title: 3D-GPT
   area: gen-3d
@@ -19274,6 +19445,36 @@ entries:
   source: agent
   arxiv_id: '2012.09855'
   repo: yshen47/infinitenature-pytorch
+- id: hunyuan3d-buffalo-1-0-a-unified-multimodal-model-for-scalabl-8f68bc
+  title: 'Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.02711
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0
+    project: https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/
+  authors:
+  - Junliang Ye
+  - Kenkun Liu
+  - Guocun Wang
+  - Yang Li
+  - Yansong Qu
+  - Chunshi Wang
+  - Jingwei Xu
+  - Yunhan Yang
+  year: 2026
+  tags:
+  - 3d-editing
+  - 3d-generation
+  - autoregressive
+  - multimodal
+  summary: A unified 3D multimodal framework that combines autoregressive modeling with diffusion-based 3D generation. It supports 3D understanding, text-to-3D generation, instruction-guided 3D editing, and text-grounded part generation within a single architecture.
+  summary_ja: 自己回帰モデリングと拡散ベースの3D生成を組み合わせた、統合型3Dマルチモーダルフレームワーク。単一のアーキテクチャ内で、3D理解、テキストからの3D生成、指示に基づく3D編集、およびテキストに基づくパーツ生成をサポートします。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2608.02711'
+  repo: tencent-hunyuan/hunyuan3d-buffalo1.0
 - id: 3dgen-r1-8a31bc
   title: 3DGen-R1
   area: gen-3d
@@ -20106,6 +20307,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: zeqiang-lai/natex
+- id: pbr3dgen-a-vlm-guided-mesh-generation-with-high-quality-pbr-e82fd7
+  title: 'PBR3DGen: A VLM-guided Mesh Generation with High-Quality PBR Texture'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.11368
+    github: https://github.com/XiaokangWei/PBR3DGen
+  authors:
+  - Xiaokang Wei
+  - Bowen Zhang
+  - Xianghui Yang
+  - Yuxuan Wang
+  - Chunchao Guo
+  - Xi Zhao
+  - Yan Luximon
+  year: 2025
+  tags:
+  - mesh
+  - pbr
+  - texture
+  - vlm
+  summary: A two-stage framework that utilizes vision-language models (VLMs) to guide multi-view diffusion, generating high-quality 3D meshes with physically-based rendering materials that accurately capture reflective and metallic properties.
+  summary_ja: 視覚言語モデル（VLM）を活用して多視点拡散を誘導し、反射や金属の質感を正確に捉えた高品質なPBRマテリアル付き3Dメッシュを生成する2段階フレームワーク。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2503.11368'
+  repo: xiaokangwei/pbr3dgen
 - id: romantex-db9d05
   title: RomanTex
   area: gen-3d
@@ -20279,6 +20508,41 @@ entries:
   source: agent
   arxiv_id: '2406.06539'
   repo: samsartor/matfusion
+- id: mcmat-multiview-consistent-and-physically-accurate-pbr-mater-2859e7
+  title: 'MCMat: Multiview-Consistent and Physically Accurate PBR Material Generation'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.14148
+    github: https://github.com/aigc3d/MCMat
+  authors:
+  - Shenhao Zhu
+  - Lingteng Qiu
+  - Xiaodong Gu
+  - Zhengyi Zhao
+  - Chao Xu
+  - Yuxiao He
+  - Zhe Li
+  - Xiaoguang Han
+  - Yao Yao
+  - Xun Cao
+  - Siyu Zhu
+  - Weihao Yuan
+  - Zilong Dong
+  - Hao Zhu
+  year: 2024
+  tags:
+  - diffusion
+  - multiview
+  - pbr
+  - texture
+  summary: A multiview-consistent and physically accurate PBR material generation framework that leverages multi-view diffusion priors to produce high-quality albedo, metallic, and roughness maps for 3D meshes.
+  summary_ja: 多視点拡散モデルの事前学習を活用し、3Dメッシュに対して一貫性があり物理的に正確なPBRマテリアル（アルベド、金属度、粗さマップ）を生成するフレームワーク。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2412.14148'
+  repo: aigc3d/mcmat
 - id: syncmvd-8a2876
   title: SyncMVD
   area: gen-3d
@@ -20628,6 +20892,33 @@ entries:
   source: agent
   arxiv_id: '2511.16659'
   repo: ericwang12/partuv
+- id: point2quad-generating-quad-meshes-from-point-clouds-via-face-50a1f2
+  title: 'Point2Quad: Generating Quad Meshes from Point Clouds via Face Prediction'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.19545
+    github: https://github.com/cognaclee/Point2Quad
+    paper: https://arxiv.org/pdf/2504.19545
+  authors:
+  - Zezeng Li
+  - Zhihui Qi
+  - Weimin Wang
+  - Ziliang Wang
+  - Junyi Duan
+  - Na Lei
+  year: 2025
+  tags:
+  - quad-mesh
+  - remeshing
+  - retopology
+  summary: A learning-based method for quad-only mesh generation from point clouds, utilizing fused pointwise and facewise features to identify and predict quad faces while ensuring coplanarity and convexity.
+  summary_ja: ポイントクラウドから四角形のみのメッシュ（クアッドメッシュ）を生成する学習ベースの手法。点単位および面単位の特徴を融合して四角形面を識別・予測し、同一平面性と凸性を保証します。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2504.19545'
+  repo: cognaclee/point2quad
 - id: quadgpt-native-quadrilateral-mesh-generation-with-autoregres-a4c4e2
   title: 'QuadGPT: Native Quadrilateral Mesh Generation with Autoregressive Models'
   area: gen-3d
@@ -21029,6 +21320,32 @@ entries:
   source: agent
   arxiv_id: '2303.14587'
   repo: shuhongchen/panic3d-anime-reconstruction
+- id: the-chosen-one-consistent-characters-in-text-to-image-diffus-21d8ec
+  title: 'The Chosen One: Consistent Characters in Text-to-Image Diffusion Models'
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.10093
+  authors:
+  - Omri Avrahami
+  - Amir Hertz
+  - Yael Vinker
+  - Moab Arar
+  - Shlomi Fruchter
+  - Ohad Fried
+  - Daniel Cohen-Or
+  - Dani Lischinski
+  year: 2023
+  tags:
+  - character-consistency
+  - diffusion-models
+  - text-to-image
+  summary: A training-free framework designed to generate consistent characters across multiple text-to-image diffusion generations. It automatically identifies a cohesive identity in a latent space and uses it to guide subsequent generations, ensuring consistent facial features, outfits, and styling.
+  summary_ja: テキストから画像への拡散モデルにおいて、複数の生成画像間で一貫したキャラクターを生成するためのトレーニング不要のフレームワーク。潜在空間内で共通のアイデンティティを自動的に特定し、それを後続の生成のガイドとすることで、一貫した顔の特徴、服装、スタイリングを保証します。
+  date_added: '2026-08-06'
+  source: agent
+  arxiv_id: '2311.10093'
 - id: collaborative-neural-rendering-using-anime-character-sheets-c67338
   title: Collaborative Neural Rendering using Anime Character Sheets
   area: image-2d

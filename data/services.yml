@@ -1864,6 +1864,22 @@ entries:
   thumbnail: assets/thumbnails/pixai-80f3ec.png
   date_added: '2026-06-18'
   source: agent
+- id: novelai-diffusion-bffbf8
+  title: NovelAI Diffusion
+  area: image-2d
+  task: anime-character-design
+  kind: proprietary
+  links:
+    website: https://novelai.net/
+  year: 2022
+  tags:
+  - anime-generation
+  - concept-art
+  - novelai
+  summary: A popular commercial AI-assisted writing and image generation platform featuring state-of-the-art anime-focused diffusion models. It is widely used by creators and studios for rapid anime character design, concept art generation, and visual storytelling.
+  summary_ja: 最先端のアニメ特化型拡散モデルを搭載した、人気の商用AI執筆・画像生成プラットフォーム。クリエイターやスタジオにおいて、迅速なアニメキャラクターデザイン、コンセプトアート生成、ビジュアルストーリーテリングに広く利用されています。
+  date_added: '2026-08-06'
+  source: agent
 - id: novelai-image-generation-e5a52e
   title: NovelAI Image Generation
   area: image-2d
