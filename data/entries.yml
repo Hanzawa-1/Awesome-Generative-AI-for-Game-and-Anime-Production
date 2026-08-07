@@ -21888,6 +21888,34 @@ entries:
   source: agent
   arxiv_id: '2502.14779'
   repo: um-lab/dc-controlnet
+- id: easycontrol-e2d25e
+  title: EasyControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.07027
+    github: https://github.com/Xiaojiu-z/EasyControl
+    project: https://easycontrolproj.github.io/
+    hf: https://huggingface.co/Xiaojiu-Z/EasyControl
+  authors:
+  - Yuxuan Zhang
+  - Yirui Yuan
+  - Yiren Song
+  - Haofan Wang
+  - Jiaming Liu
+  year: 2025
+  tags:
+  - conditioning
+  - controlnet
+  - dit
+  - flux
+  summary: A highly efficient and flexible framework for adding spatial control (like Canny, Depth, Pose) to Diffusion Transformers (DiTs) such as FLUX.1. It introduces Condition Injection LoRA (CI-LoRA) to reduce parameter overhead and training costs while maintaining high-quality control.
+  summary_ja: FLUX.1などのDiffusion Transformer（DiT）モデルに対して、Canny、Depth、Poseなどの空間制御を効率的かつ柔軟に追加するフレームワーク。Condition Injection LoRA（CI-LoRA）を導入することで、パラメータ数と学習コストを大幅に削減しつつ、高品質な制御を実現します。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2503.07027'
+  repo: xiaojiu-z/easycontrol
 - id: flexcontrol-computation-aware-controlnet-with-differentiable-b4b890
   title: 'FlexControl: Computation-Aware ControlNet with Differentiable Router for Text-to-Image Generation'
   area: image-2d
@@ -22286,6 +22314,25 @@ entries:
   date_added: '2026-06-19'
   source: agent
   repo: aigc-apps/videox-fun
+- id: xlabs-ai-flux-controlnet-e720a7
+  title: XLabs-AI FLUX ControlNet
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/XLabs-AI/x-flux
+    hf: https://huggingface.co/XLabs-AI/flux-controlnet-collections
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - diffusion
+  - flux
+  summary: A suite of ControlNet models (including Canny, HED, and Depth) trained specifically for the FLUX.1-dev model, enabling precise spatial guidance and structure control.
+  summary_ja: FLUX.1-devモデル向けに特別にトレーニングされた、Canny、HED、DepthなどのControlNetモデル群。精密な空間誘導と構造制御を可能にします。
+  date_added: '2026-08-07'
+  source: agent
+  repo: xlabs-ai/x-flux
 - id: controlnet-f9ea86
   title: ControlNet
   area: image-2d
@@ -22711,6 +22758,31 @@ entries:
   source: agent
   arxiv_id: '2403.14487'
   repo: design-edit/designedit
+- id: diffree-c68648
+  title: Diffree
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.16982
+    github: https://github.com/OpenGVLab/Diffree
+  authors:
+  - Yuxuan Duan
+  - Zhaoyang Zhang
+  - Wu Qing
+  - Dahua Lin
+  - Kai Chen
+  year: 2024
+  tags:
+  - diffusion
+  - inpainting
+  - object-addition
+  summary: A text-guided, shape-free object inpainting model that seamlessly inserts new objects into images without requiring user-defined masks. It automatically predicts the appropriate spatial location and mask for the new object while maintaining background consistency.
+  summary_ja: ユーザー定義のマスクを必要とせず、テキスト指示のみで新しいオブジェクトを画像内にシームレスに挿入できる形状フリーのオブジェクトインペインティングモデルです。背景の一貫性を維持しながら、新しいオブジェクトの適切な配置場所とマスクを自動的に予測します。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2407.16982'
+  repo: opengvlab/diffree
 - id: edicho-8c8b25
   title: Edicho
   area: image-2d
@@ -23165,6 +23237,28 @@ entries:
   source: agent
   arxiv_id: '2312.03594'
   repo: open-mmlab/powerpaint
+- id: sketchrefiner-19b7a2
+  title: SketchRefiner
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.00407
+    github: https://github.com/AlonzoLeeeooo/SketchRefiner
+  authors:
+  - Chuan-Yuan Liu
+  - Dong Liu
+  year: 2023
+  tags:
+  - inpainting
+  - interactive
+  - sketch-guided
+  summary: An interactive image inpainting framework that utilizes user-drawn sketches to guide the image restoration process. It introduces a sketch refinement stage to bridge the gap between rough, hand-drawn sketches and the precise structural inputs required by inpainting models.
+  summary_ja: ユーザーが描いたスケッチを利用して画像修復プロセスをガイドする、インタラクティブな画像インペインティングフレームワークです。手描きのラフなスケッチと、インペインティングモデルが必要とする正確な構造的入力とのギャップを埋めるためのスケッチ洗練ステージを導入しています。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2306.00407'
+  repo: alonzoleeeooo/sketchrefiner
 - id: diffedit-480093
   title: DiffEdit
   area: image-2d
@@ -23312,6 +23406,30 @@ entries:
   source: agent
   arxiv_id: '2208.01626'
   repo: google/prompt-to-prompt
+- id: repaint-de3d30
+  title: RePaint
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2201.09865
+    github: https://github.com/andreas128/RePaint
+  authors:
+  - Andreas Lugmayr
+  - Martin Danelljan
+  - Luc Van Gool
+  - Radu Timofte
+  year: 2022
+  tags:
+  - ddpm
+  - diffusion
+  - inpainting
+  summary: A classic denoising diffusion probabilistic model (DDPM) based inpainting approach that modifies the reverse diffusion process to handle extreme and free-form masks. It leverages a pretrained unconditional DDPM as a generative prior, requiring no task-specific training.
+  summary_ja: 極端なマスクやフリーフォームのマスクに対応するために、逆拡散プロセスを修正する古典的なDDPMベースのインペインティング手法です。事前学習済みの無条件DDPMを生成事前分布として活用するため、タスク固有の追加学習を必要としません。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2201.09865'
+  repo: andreas128/repaint
 - id: lama-84a26f
   title: LaMa
   area: image-2d
@@ -24814,6 +24932,24 @@ entries:
   date_added: '2026-07-24'
   source: agent
   arxiv_id: '2409.00313'
+- id: u-sketch-e66bb5
+  title: U-Sketch
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.18425
+    paper: https://arxiv.org/pdf/2403.18425
+  year: 2024
+  tags:
+  - controlnet
+  - diffusion
+  - sketch
+  summary: A sketch-to-image framework featuring a U-Net latent edge predictor that efficiently captures both local and global features as well as spatial correlations between pixels. It also introduces a sketch simplification network to preprocess and simplify input sketches for enhanced outputs.
+  summary_ja: ピクセル間の局所的・大域的特徴および空間的相関を効率的に捉えるU-Net型の潜在エッジ予測器を特徴とするスケッチ画像生成フレームワーク。入力スケッチを前処理・簡略化して出力を向上させるスケッチ簡略化ネットワークも提案しています。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2403.18425'
 - id: diffsketching-17af75
   title: DiffSketching
   area: image-2d
@@ -25174,6 +25310,27 @@ entries:
   source: agent
   arxiv_id: '2503.10614'
   repo: 000linlin/consislora
+- id: splitflux-learning-to-decouple-content-and-style-from-a-sing-18639b
+  title: 'SplitFlux: Learning to Decouple Content and Style from a Single Image'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.15258
+  authors:
+  - Zicheng Yang
+  - others
+  year: 2025
+  tags:
+  - disentanglement
+  - flux
+  - lora
+  - style-transfer
+  summary: A framework designed to decouple content and style from a single image by fine-tuning the single-stream blocks of FLUX via low-rank adaptation (LoRA), allowing style and content to be recontextualized independently.
+  summary_ja: FLUXのシングルストリームブロックをLoRA（Low-Rank Adaptation）を介して微調整することにより、単一の画像からコンテンツとスタイルを分離し、それぞれを独立して再コンテキスト化できるように設計されたフレームワーク。
+  date_added: '2026-08-07'
+  source: agent
+  arxiv_id: '2511.15258'
 - id: style-composition-within-distinct-lora-modules-for-tradition-a2da8b
   title: Style Composition within Distinct LoRA modules for Traditional Art
   area: image-2d

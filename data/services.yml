@@ -1987,6 +1987,23 @@ entries:
   summary_ja: Photoshopに直接統合されたAdobeの商用生成AIツール。シンプルなテキストプロンプトを使用して、プロフェッショナルな制御とライセンスの安全性を備えた画像の追加、拡張、削除を可能にする。
   date_added: '2026-07-24'
   source: agent
+- id: adobe-firefly-photoshop-generative-fill-500ee4
+  title: Adobe Firefly / Photoshop Generative Fill
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/photoshop/generative-fill.html
+  year: 2023
+  tags:
+  - commercial
+  - inpainting
+  - outpainting
+  - photoshop
+  summary: Adobe's flagship generative AI tool integrated directly into Photoshop, allowing artists to add, extend, or remove content from images using simple text prompts. It is widely used in professional game and anime production for concept art iteration, background cleanup, and asset generation.
+  summary_ja: Photoshopに直接統合されたAdobeのフラッグシップ生成AIツールで、シンプルなテキストプロンプトを使用して画像内のコンテンツを追加、拡張、または削除できます。コンセプトアートのイテレーション、背景のクリーンアップ、アセット生成など、プロのゲームやアニメ制作で広く使用されています。
+  date_added: '2026-08-07'
+  source: agent
 - id: clipdrop-f01b6a
   title: Clipdrop
   area: image-2d
@@ -2004,6 +2021,42 @@ entries:
   summary_ja: オブジェクト削除（Cleanup）、画像アウトペインティング（Uncrop）、リライティング、背景置換などの高度なツールを提供する、Stability AI/JasperによるAI搭載ビジュアル編集スイート。
   thumbnail: assets/thumbnails/clipdrop-f01b6a.png
   date_added: '2026-06-19'
+  source: agent
+- id: petalica-paint-e04d0a
+  title: Petalica Paint
+  area: image-2d
+  task: lineart-colorization
+  kind: proprietary
+  links:
+    website: https://paintschainer-pixiv-api.preferred.tech/index_en.html
+  authors:
+  - Preferred Networks
+  - pixiv
+  year: 2017
+  tags:
+  - colorization
+  - flat-color
+  - interactive
+  - sketch
+  summary: A widely used AI-powered automatic line art colorization service developed by Preferred Networks and operated by pixiv, allowing artists to colorize sketches automatically or guide the process using color hints.
+  summary_ja: Preferred Networksが開発し、現在はpixivが運営する、広く利用されているAI搭載の線画自動着色サービス。スケッチを自動で着色したり、カラーヒントを用いて着色プロセスを制御したりできる。
+  date_added: '2026-08-07'
+  source: agent
+- id: copainter-43b2c2
+  title: copainter
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://www.copainter.ai/en
+  year: 2024
+  tags:
+  - colorization
+  - illustration
+  - lineart-extraction
+  summary: An AI-powered illustration assistant designed for artists, manga creators, and animators, offering features such as automated line art extraction, undercoating, coloring, and PSD layer separation.
+  summary_ja: イラストレーターや漫画家、アニメーター向けに開発されたAIイラスト制作アシスタント。自動線画抽出、下塗り、自動彩色、PSDレイヤー分けなどの機能をWebブラウザ上で提供する。
+  date_added: '2026-08-07'
   source: agent
 - id: copainter-line-art-extraction-4eee5c
   title: Copainter Line Art Extraction
@@ -2038,6 +2091,38 @@ entries:
   summary: An AI-powered web service designed to extract clean, hand-drawn-style line art from photos and images. It is widely used by creators and manga artists to generate high-quality backgrounds and reference materials from real-world photography.
   summary_ja: 写真や画像から、手描き風のクリーンな線画を抽出するために設計されたAI搭載のウェブサービス。クリエイターや漫画家が、実世界の写真から高品質な背景や参考資料を生成するために広く利用されています。
   date_added: '2026-07-31'
+  source: agent
+- id: fotor-sketch-to-image-ai-00b39d
+  title: Fotor Sketch to Image AI
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.fotor.com/features/sketch-to-image/
+  year: 2024
+  tags:
+  - anime
+  - commercial
+  - sketch
+  summary: A commercial web-based tool that converts hand-drawn sketches into high-quality digital artwork, supporting various styles such as realistic, 3D, anime, and oil painting.
+  summary_ja: 手描きのスケッチを高品質なデジタルアートワークに変換する商用のウェブベースツール。リアル、3D、アニメ、油絵など、さまざまなスタイルをサポートしています。
+  date_added: '2026-08-07'
+  source: agent
+- id: openart-sketch-to-image-e71dd5
+  title: OpenArt Sketch to Image
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://openart.ai/apps/sketch-to-image
+  year: 2024
+  tags:
+  - commercial
+  - rendering
+  - sketch
+  summary: An online AI tool that transforms sketches, interior design concepts, or product ideas into detailed, realistic images with optional style reference guidance.
+  summary_ja: スケッチ、インテリアデザインのコンセプト、または製品のアイデアを、オプションのスタイル参照ガイドに従って詳細でリアルな画像に変換するオンラインAIツール。
+  date_added: '2026-08-07'
   source: agent
 - id: freepik-pikaso-4b244d
   title: Freepik Pikaso
