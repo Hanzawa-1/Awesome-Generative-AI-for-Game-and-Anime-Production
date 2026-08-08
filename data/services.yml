@@ -2576,6 +2576,22 @@ entries:
   thumbnail: assets/thumbnails/toona-colorizer-c7b125.png
   date_added: '2026-06-13'
   source: agent
+- id: vividmanga-28b877
+  title: VividManga
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://vividmanga.com/
+  year: 2024
+  tags:
+  - ai-coloring
+  - manga-colorization
+  - online-tool
+  summary: An AI-powered online manga colorization platform designed for pages, panels, and line art. It features consistent character color palette definition, sequential chapter awareness to reduce page-to-page drift, and intelligent text isolation to protect speech bubbles and sound effects.
+  summary_ja: 漫画のページ、コマ、線画向けに設計されたAI搭載のオンライン漫画着色プラットフォーム。キャラクターごとの一貫したカラーパレット定義、ページ間の色のブレを抑えるシーケンシャルな章認識、セリフ吹き出しや擬音を保護するインテリジェントなテキスト分離機能を備えています。
+  date_added: '2026-08-08'
+  source: agent
 - id: anicomic-ai-903155
   title: AniComic.ai
   area: manga
@@ -2593,6 +2609,23 @@ entries:
   summary_ja: 写真やテキストプロンプトを、様式化された漫画、マンファ、4コマ漫画のページに変換できるWebベースのAIコミック・漫画ジェネレーター。
   thumbnail: assets/thumbnails/anicomic-ai-903155.png
   date_added: '2026-06-13'
+  source: agent
+- id: mangaflow-studio-4c83cb
+  title: MangaFlow Studio
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://mangaflow.studio/
+  year: 2026
+  tags:
+  - character-consistency
+  - manga-generator
+  - saas
+  - story-to-manga
+  summary: A commercial AI-powered manga production platform that converts text stories into complete multi-page manga books, featuring persistent character consistency, automated panel layouts, and multiple manga art styles.
+  summary_ja: テキストのストーリーを複数ページの完成されたマンガ本に変換する、商用のAI搭載マンガ制作プラットフォーム。一貫したキャラクター描写、自動コマ割りレイアウト、複数のマンガ画風の選択機能を備える。
+  date_added: '2026-08-08'
   source: agent
 - id: anifusion-ba45ec
   title: Anifusion
@@ -3016,6 +3049,23 @@ entries:
   summary_ja: エージェントAI、カスタムLLMプロンプト、自動品質評価を使用して翻訳ワークフローを自動化する、CrowdinローカライズプラットフォームのAI搭載拡張機能。開発リポジトリやゲームエンジンとのシームレスな統合をサポートします。
   thumbnail: assets/thumbnails/crowdin-ai-eb04d1.png
   date_added: '2026-06-20'
+  source: agent
+- id: lionbridge-samurai-96562d
+  title: Lionbridge Samurai
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://games.lionbridge.com/ai-technology/
+  year: 2025
+  tags:
+  - human-in-the-loop
+  - llm
+  - localization
+  - translation
+  summary: An AI-driven game translation and localization platform developed by Lionbridge Games that combines advanced LLMs with human-in-the-loop guidance. It tailors translations to each game's unique content, style, and cultural expectations while allowing human linguists to refine outputs.
+  summary_ja: Lionbridge Gamesが開発した、高度なLLMと人間によるフィードバック（Human-in-the-Loop）を組み合わせたAI駆動型のゲーム翻訳・ローカライズプラットフォーム。各ゲーム独自のコンテンツ、スタイル、文化的背景に合わせた翻訳を提供し、翻訳者がその場で調整可能です。
+  date_added: '2026-08-08'
   source: agent
 - id: dialogueforge-dc1693
   title: DialogueForge

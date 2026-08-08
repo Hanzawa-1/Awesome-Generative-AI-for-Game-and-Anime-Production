@@ -27592,6 +27592,27 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: linshys/example_based_manga_colorization---cgan
+- id: example-based-manga-colorization-cgan-db49b5
+  title: Example-Based Manga Colorization cGAN
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/linSensiGit/Example_Based_Manga_Colorization---cGAN
+    hf: https://huggingface.co/Keiser41/Example_Based_Manga_Colorization
+  authors:
+  - linSensiGit
+  year: 2023
+  tags:
+  - cgan
+  - manga-colorization
+  - reference-based
+  - sketch
+  summary: An example-based manga colorization system using a conditional Generative Adversarial Network (cGAN) architecture. It extracts color embeddings from a reference image using a pretrained VGG19 network and MLP, transferring consistent colors to grayscale manga panels or sketches.
+  summary_ja: 条件付き敵対的生成ネットワーク（cGAN）アーキテクチャを使用した、例示ベースの漫画着色システム。事前学習済みのVGG19ネットワークとMLPを用いて参照画像から色埋め込みを抽出し、グレースケールの漫画コマやスケッチに一貫した色を転送します。
+  date_added: '2026-08-08'
+  source: agent
+  repo: linsensigit/example_based_manga_colorization---cgan
 - id: inkn-hue-enhancing-manga-colorization-from-multiple-priors-w-012674
   title: 'inkn''hue: Enhancing Manga Colorization from Multiple Priors with Alignment Multi-Encoder VAE'
   area: manga
@@ -27775,6 +27796,24 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: lingyichen-ai/aicomicbuilder
+- id: comfyui-panelcomposer-ed5a04
+  title: ComfyUI-PanelComposer
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    github: https://github.com/INuBq8/ComfyUI-PanelComposer
+  year: 2026
+  tags:
+  - comfyui
+  - comic-generation
+  - manga-layout
+  - panel-composer
+  summary: A set of custom ComfyUI nodes that turn a panel layout (via presets or hand-drawn inputs) into per-panel generation dimensions, and then composite the generated panel images back into a finished comic or manga page.
+  summary_ja: プリセットや手書き入力からコマのレイアウトを生成し、各コマの生成サイズを決定した上で、生成されたコマ画像を1枚の完成したマンガ・コミックページに合成するComfyUIカスタムノード群。
+  date_added: '2026-08-08'
+  source: agent
+  repo: inubq8/comfyui-panelcomposer
 - id: deep-printfilm-e8b86f
   title: deep-printfilm
   area: manga
@@ -29987,6 +30026,30 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
+- id: constory-bench-028976
+  title: ConStory-Bench
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.05890
+    github: https://github.com/Picrew/ConStory-Bench
+  authors:
+  - Junjie Li
+  - Xinru Guo
+  - Yutao Xie
+  year: 2026
+  tags:
+  - benchmark
+  - consistency
+  - evaluation
+  - story
+  summary: A benchmark and evaluation pipeline (ConStory-Checker) designed to evaluate narrative consistency in long-form story generation. It contains 2,000 prompts across four task scenarios and defines a taxonomy of five error categories to detect contradictions in ultra-long narrative generation.
+  summary_ja: 長編ストーリー生成におけるナラティブの一貫性を評価するために設計されたベンチマークおよび評価パイプライン（ConStory-Checker）。4つのタスクシナリオにわたる2,000のプロンプトを含み、超長編ナラティブ生成における矛盾を検出するための5つのエラーカテゴリの分類法を定義しています。
+  date_added: '2026-08-08'
+  source: agent
+  arxiv_id: '2603.05890'
+  repo: picrew/constory-bench
 - id: doc-story-generation-v2-b9ede3
   title: DOC Story Generation V2
   area: text-design
@@ -30439,6 +30502,24 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: israriqbal/agent-ecologies
+- id: dropsmith-d30854
+  title: DropSmith
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/holmesclaw-hash/dropsmith
+  year: 2026
+  tags:
+  - dialogue
+  - mcp
+  - npc
+  - ollama
+  summary: An open-source Model Context Protocol (MCP) server designed for structured NPC dialogue generation. It allows game developers and modders to generate game-ready dialogue with emotion tags, archetypes, and personality traits using local LLMs.
+  summary_ja: 構造化されたNPC対話生成のために設計された、オープンソースのModel Context Protocol（MCP）サーバー。ゲーム開発者やモッダーが、ローカルLLMを使用して、感情タグ、アーキタイプ、性格特性を備えたゲーム対応の対話を生成できるようにします。
+  date_added: '2026-08-08'
+  source: agent
+  repo: holmesclaw-hash/dropsmith
 - id: environment-aware-npc-dialogue-ad4285
   title: Environment-Aware NPC Dialogue
   area: text-design
@@ -30613,6 +30694,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.20200'
+- id: llm-driven-npcs-cross-platform-dialogue-system-for-games-and-68fe43
+  title: 'LLM-Driven NPCs: Cross-Platform Dialogue System for Games and Social Platforms'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.13928
+    paper: https://arxiv.org/pdf/2504.13928.pdf
+  authors:
+  - Li Song
+  year: 2025
+  tags:
+  - cross-platform
+  - dialogue
+  - npc
+  - unity
+  summary: A prototype system that enables LLM-powered NPCs to communicate with players across both game environments (Unity) and social platforms (Discord). It stores dialogue logs in a cloud database to maintain character consistency and state across different platforms.
+  summary_ja: ゲーム環境（Unity）とソーシャルプラットフォーム（Discord）の両方で、LLM搭載のNPCがプレイヤーと通信できるようにするプロトタイプシステム。クラウドデータベースに対話ログを保存し、異なるプラットフォーム間でキャラクターの一貫性と状態を維持します。
+  date_added: '2026-08-08'
+  source: agent
+  arxiv_id: '2504.13928'
 - id: opencharacter-97395c
   title: OpenCharacter
   area: text-design
@@ -30639,6 +30741,24 @@ entries:
   date_added: '2026-07-25'
   source: agent
   arxiv_id: '2501.15427'
+- id: renpy-autoscriptplugin-761723
+  title: RenPy-AutoScriptPlugin
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/Wendy-Nam/RenPy-AutoScriptPlugin
+  year: 2025
+  tags:
+  - chatgpt
+  - dialogue
+  - renpy
+  - visual-novel
+  summary: An open-source plugin for the Ren'Py visual novel engine that automates game dialogue and narrative generation using ChatGPT. It integrates story instructions, character attributes, and end conditions to create dynamic, interactive text-based games.
+  summary_ja: ChatGPTを使用してゲームの対話とナラティブ生成を自動化する、Ren'Pyビジュアルノベルエンジン用のオープンソースプラグイン。ストーリーの指示、キャラクターの属性、終了条件を統合して、ダイナミックでインタラクティブなテキストベースのゲームを作成します。
+  date_added: '2026-08-08'
+  source: agent
+  repo: wendy-nam/renpy-autoscriptplugin
 - id: state-inference-based-prompting-for-natural-language-trading-02582b
   title: State-Inference-Based Prompting for Natural Language Trading with Game NPCs
   area: text-design
