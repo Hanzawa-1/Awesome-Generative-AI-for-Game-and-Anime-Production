@@ -3999,6 +3999,23 @@ entries:
   thumbnail: assets/thumbnails/topaz-video-ai-e3a43d.png
   date_added: '2026-06-21'
   source: agent
+- id: nvidia-rtx-video-sdk-c5bdc9
+  title: NVIDIA RTX Video SDK
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://developer.nvidia.com/rtx-video-sdk
+  year: 2023
+  tags:
+  - real-time
+  - rtx
+  - sdk
+  - upscaling
+  summary: An AI-powered video upscaling and artifact reduction SDK that leverages NVIDIA RTX Tensor Cores to sharpen edges, restore features, and remove compression artifacts in real time.
+  summary_ja: NVIDIA RTX Tensorコアを活用して、エッジのシャープ化、特徴の復元、圧縮アーティファクトの除去をリアルタイムで行う、AI搭載のビデオアップスケーリングおよびアーティファクト削減SDK。
+  date_added: '2026-08-09'
+  source: agent
 - id: pixop-8c7163
   title: Pixop
   area: video

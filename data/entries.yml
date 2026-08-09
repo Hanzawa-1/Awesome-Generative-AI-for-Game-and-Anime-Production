@@ -31778,6 +31778,34 @@ entries:
   date_added: '2026-08-02'
   source: agent
   repo: mxgmn/wavefunctioncollapse
+- id: helios-c3fc36
+  title: Helios
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.04379
+    github: https://github.com/PKU-YuanGroup/Helios
+    project: https://pku-yuangroup.github.io/Helios-Page/
+  authors:
+  - Shenghai Yuan
+  - Yuanyang Yin
+  - Zongjian Li
+  - Xinwei Huang
+  - Xiao Yang
+  - Li Yuan
+  year: 2026
+  tags:
+  - autoregressive
+  - image-to-video
+  - long-video
+  - real-time
+  summary: Helios is a 14B parameter autoregressive video generation model designed for real-time, long-duration video synthesis. It runs at 19.5 FPS on a single H100 GPU, supports both text-to-video and image-to-video tasks, and maintains high temporal consistency over minute-scale generations without drifting.
+  summary_ja: Heliosは、リアルタイムかつ長時間のビデオ合成向けに設計された14Bパラメータの自己回帰型ビデオ生成モデルです。単一のH100 GPU上で19.5 FPSで動作し、テキストからビデオおよび画像からビデオのタスクをサポートし、ドリフトすることなく分単位の生成にわたって高い時間的一貫性を維持します。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2603.04379'
+  repo: pku-yuangroup/helios
 - id: hunyuancustom-ed7257
   title: HunyuanCustom
   area: video
@@ -31828,6 +31856,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: tencent-hunyuan/hunyuanvideo-i2v
+- id: infinitetalk-f65e67
+  title: InfiniteTalk
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.14033
+    github: https://github.com/MeiGen-AI/InfiniteTalk
+  authors:
+  - Zhuoliang Kang
+  - Wenhan Luo
+  - Xunliang Cai
+  - Ran He
+  - Xiaoming Wei
+  year: 2025
+  tags:
+  - audio-driven
+  - image-to-video
+  - long-video
+  - talking-head
+  summary: InfiniteTalk is an open-source, unlimited-length talking video generation model that supports both audio-driven video-to-video and image-to-video generation. It overcomes the duration limitations of traditional talking head models while maintaining high lip-sync accuracy and identity stability.
+  summary_ja: InfiniteTalkは、オーディオ駆動のビデオからビデオ、および画像からビデオへの生成の両方をサポートする、オープンソースの無制限長トーキングビデオ生成モデルです。高いリップシンク精度とアイデンティティの安定性を維持しながら、従来のトーキングヘッドモデルの長さの制限を克服します。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2508.14033'
+  repo: meigen-ai/infinitetalk
 - id: pusa-v1-0-a532ed
   title: Pusa V1.0
   area: video
@@ -33187,6 +33241,50 @@ entries:
   source: seed
   arxiv_id: '2307.04725'
   repo: guoyww/animatediff
+- id: joyai-video-edit-700623
+  title: JoyAI-Video-Edit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.03974
+    github: https://github.com/jd-opensource/JoyAI-Video-Edit
+    hf: https://huggingface.co/jdopensource/JoyAI-Video-Edit
+  authors:
+  - Yicheng Xiao
+  - Wenxun Dai
+  - Xinran Qin
+  - Lin Song
+  - Maoquan Zhang
+  - Hang Xu
+  - Yukang Chen
+  - Yitong Li
+  - Guohui Zhang
+  - Yuan Zhang
+  - Xuying Zhang
+  - Tommy Zhang
+  - Jianlong Yuan
+  - Peihao Li
+  - Shuai Lu
+  - Siming Fu
+  - Chuyang Zhao
+  - Xin Han
+  - Jie Huang
+  - Wenbo Li
+  - Guoqing Ma
+  - Wei Huang
+  year: 2026
+  tags:
+  - diffusion
+  - real-time
+  - streaming
+  - video-editing
+  summary: A 16B-parameter autoregressive diffusion framework designed for real-time, open-ended streaming video editing. It processes incoming video frames causally with low latency, supporting diverse editing tasks such as object addition/removal, background replacement, and style transfer at 30 FPS.
+  summary_ja: リアルタイムかつオープンエンドなストリーミング動画編集向けに設計された、160億パラメータの自己回帰型拡散フレームワーク。入力される動画フレームを低遅延で因果的に処理し、オブジェクトの追加・削除、背景の置換、スタイル転送などの多様な編集タスクを30 FPSでサポートします。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2608.03974'
+  repo: jd-opensource/joyai-video-edit
 - id: liveedit-b2d960
   title: LiveEdit
   area: video
@@ -33297,6 +33395,37 @@ entries:
   source: agent
   arxiv_id: '2501.10018'
   repo: lixiaowen-xw/diffueraser
+- id: egoedit-49f160
+  title: EgoEdit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.06065
+    github: https://github.com/snap-research/EgoEdit
+  authors:
+  - Jinjie Mai
+  - Guocheng Qian
+  - Will Menapace
+  - Abhishek Sahni
+  - Chao Wang
+  - Ali Mirzaei
+  - Runjia Li
+  - Peter Wonka
+  - Sergey Tulyakov
+  - Jian Ren
+  year: 2025
+  tags:
+  - autoregressive
+  - egocentric
+  - real-time
+  - video-editing
+  summary: A real-time, instruction-guided autoregressive model and benchmark tailored for egocentric video editing. It addresses challenging hand occlusions, complex interactions, and large egomotion to perform precise object substitution and removal in first-person videos.
+  summary_ja: 一人称視点（エゴセントリック）の動画編集に特化した、リアルタイムかつ指示誘導型の自己回帰モデルおよびベンチマーク。一人称動画における手元の遮蔽、複雑なインタラクション、大きな自己運動に対応し、正確なオブジェクトの置換や削除を実行します。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2512.06065'
+  repo: snap-research/egoedit
 - id: mtv-inpaint-819040
   title: MTV-Inpaint
   area: video
@@ -33516,6 +33645,33 @@ entries:
   source: agent
   arxiv_id: '2406.08850'
   repo: wangjiangshan0725/cove
+- id: fff-vdi-47ed92
+  title: FFF-VDI
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.11402
+    github: https://github.com/Hydragon516/FFF-VDI
+  authors:
+  - Minhyeok Lee
+  - Suhwan Cho
+  - Chajin Shin
+  - Jungho Lee
+  - Sunghun Yang
+  - Sangyoun Lee
+  year: 2024
+  tags:
+  - diffusion
+  - inpainting
+  - temporal-consistency
+  - video-editing
+  summary: A video inpainting model that leverages pre-trained image-to-video diffusion models to fill missing regions. By using a first-frame filling strategy combined with noise latent propagation and DDIM inversion, it achieves high temporal consistency and visual quality without relying on optical flow propagation.
+  summary_ja: 事前学習済みの画像-動画拡散モデルを活用して欠損領域を補完する動画インペインティングモデル。ノイズ潜在伝播とDDIM反転を組み合わせた初フレーム充填戦略を用いることで、オプティカルフローの伝播に依存することなく、高い時間的一貫性と視覚的品質を達成します。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2408.11402'
+  repo: hydragon516/fff-vdi
 - id: floed-c9212d
   title: FloED
   area: video
@@ -33969,6 +34125,33 @@ entries:
   source: agent
   arxiv_id: '2501.10110'
   repo: xh9998/diffvsr
+- id: dloral-one-step-diffusion-for-detail-rich-and-temporally-con-85f0b2
+  title: 'DLoRAL: One-Step Diffusion for Detail-Rich and Temporally Consistent Video Super-Resolution'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.15591
+    github: https://github.com/yjsunnn/DLoRAL
+  authors:
+  - Yujing Sun
+  - Lingchen Sun
+  - Shuaizheng Liu
+  - Rongyuan Wu
+  - Zhengqiang Zhang
+  - Lei Zhang
+  year: 2025
+  tags:
+  - diffusion
+  - lora
+  - one-step
+  - video-super-resolution
+  summary: A one-step diffusion model for real-world video super-resolution that utilizes a Dual LoRA Learning paradigm to enhance spatial details and maintain temporal consistency.
+  summary_ja: 空間的な詳細を強化し、時間的一貫性を維持するために、Dual LoRA学習パラダイムを利用する、実世界のビデオ超解像のための1ステップ拡散モデル。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2506.15591'
+  repo: yjsunnn/dloral
 - id: dove-fa611e
   title: DOVE
   area: video
@@ -34249,6 +34432,31 @@ entries:
   source: agent
   arxiv_id: '2406.13457'
   repo: dachunkai/evtexture
+- id: learning-truncated-causal-history-model-for-video-restoratio-11fd8c
+  title: Learning Truncated Causal History Model for Video Restoration
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.03936
+    github: https://github.com/Ascend-Research/Turtle
+  authors:
+  - Amirhosein Ghasemabadi
+  - Muhammad Kamran Janjua
+  - Mohammad Salameh
+  - Di Niu
+  year: 2024
+  tags:
+  - causal-history
+  - deblurring
+  - denoising
+  - video-restoration
+  summary: A video restoration framework that learns a truncated causal history model (TURTLE) to store and summarize historical frame representations, improving efficiency and performance in video deblurring and denoising.
+  summary_ja: 過去のフレーム表現を保存・要約する、切り捨てられた因果履歴モデル（TURTLE）を学習することで、ビデオのブレ除去やノイズ除去の効率と性能を向上させるビデオ修復フレームワーク。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2410.03936'
+  repo: ascend-research/turtle
 - id: venhancer-generative-space-time-enhancement-for-video-genera-a2443c
   title: 'VEnhancer: Generative Space-Time Enhancement for Video Generation'
   area: video
@@ -34526,6 +34734,34 @@ entries:
   source: agent
   arxiv_id: '2601.02785'
   repo: lemonsky1995/dreamstyle
+- id: echostyle-unlocking-high-fidelity-video-stylization-with-rev-b6c3a6
+  title: 'EchoStyle: Unlocking High-Fidelity Video Stylization with Reverse Data Synthesis'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.25465
+    github: https://github.com/HKUST-C4G/EchoStyle
+    website: https://echostyle2026.github.io/
+  authors:
+  - Huaqiu Li
+  - Jiahao Wang
+  - Sijia Cai
+  - Hualian Sheng
+  - Bing Deng
+  - Jieping Ye
+  - Wenhan Luo
+  year: 2026
+  tags:
+  - diffusion
+  - style-transfer
+  - wan2.2
+  summary: A high-fidelity video stylization framework built on the Wan2.2 video generation model that uses a reverse data synthesis pipeline and an init-follow-mode mechanism to maintain temporal and motion coherence across arbitrary video lengths.
+  summary_ja: Wan2.2ビデオ生成モデルをベースに構築された高精度なビデオスタイル転送フレームワーク。逆データ合成パイプラインと初期フレーム追従メカニズムを採用し、任意の長さのビデオにおいて時間的および動作の一貫性を維持する。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2606.25465'
+  repo: hkust-c4g/echostyle
 - id: vista-triplet-supervised-video-style-transfer-with-diffusion-3c3dc4
   title: 'VISTA: Triplet-Supervised Video Style Transfer with Diffusion Transformers'
   area: video
@@ -34763,6 +34999,33 @@ entries:
   source: agent
   arxiv_id: '2405.15757'
   repo: jeff-liangf/streamv2v
+- id: stylemaster-stylize-your-video-with-artistic-generation-and-519728
+  title: 'StyleMaster: Stylize Your Video with Artistic Generation and Translation'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.07744
+    github: https://github.com/KlingAIResearch/StyleMaster
+    website: https://zixuan-ye.github.io/stylemaster/
+  authors:
+  - Zixuan Ye
+  - Huijuan Huang
+  - Xintao Wang
+  - Pengfei Wan
+  - Di Zhang
+  - Wenhan Luo
+  year: 2024
+  tags:
+  - controlnet
+  - style-transfer
+  - video-generation
+  summary: A video stylization framework that integrates a motion adapter and a gray tile ControlNet to enable precise content guidance and local texture extraction, enhancing dynamic quality and style resemblance for video generation and translation.
+  summary_ja: モーションアダプターとグレータイルControlNetを統合し、正確なコンテンツ誘導と局所的なテクスチャ抽出を可能にすることで、ビデオ生成および変換における動的品質とスタイル再現性を向上させるビデオスタイル転送フレームワーク。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2412.07744'
+  repo: klingairesearch/stylemaster
 - id: univst-87a577
   title: UniVST
   area: video
@@ -34819,6 +35082,30 @@ entries:
   source: agent
   arxiv_id: '2308.07926'
   repo: ant-research/codef
+- id: control-a-video-controllable-text-to-video-generation-with-d-e1af23
+  title: 'Control-A-Video: Controllable Text-to-Video Generation with Diffusion Models'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.13840
+    github: https://github.com/Weifeng-Chen/control-a-video
+  authors:
+  - Weifeng Chen
+  - Jiaxi Gu
+  - Yi-Hsuan Tsai
+  - Dongyeop Kang
+  year: 2023
+  tags:
+  - controlnet
+  - diffusion
+  - style-transfer
+  summary: A controllable text-to-video diffusion model that generates temporally consistent videos conditioned on a sequence of control signals such as edge or depth maps, enabling precise video-to-video style transfer and editing.
+  summary_ja: エッジや深度マップなどの一連の制御信号を条件として、時間的に一貫したビデオを生成する制御可能なテキストビデオ拡散モデル。高精度なビデオ間スタイル転送や編集を可能にする。
+  date_added: '2026-08-09'
+  source: agent
+  arxiv_id: '2305.13840'
+  repo: weifeng-chen/control-a-video
 - id: fastblend-a-powerful-model-free-toolkit-making-video-styliza-24b6fb
   title: 'FastBlend: a Powerful Model-Free Toolkit Making Video Stylization Easier'
   area: video
