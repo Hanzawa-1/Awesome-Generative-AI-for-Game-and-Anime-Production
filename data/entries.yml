@@ -82,6 +82,32 @@ entries:
   source: agent
   arxiv_id: '2505.20156'
   repo: tencent-hunyuan/hunyuanvideo-avatar
+- id: joygen-audio-driven-3d-depth-aware-talking-face-video-editin-3f8550
+  title: 'JoyGen: Audio-Driven 3D Depth-Aware Talking-Face Video Editing'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.01798
+    github: https://github.com/JOY-MM/JoyGen
+  authors:
+  - Qili Wang
+  - Dajiang Wu
+  - Zihang Xu
+  - Junshi Huang
+  - Jun Lv
+  year: 2025
+  tags:
+  - 3d-depth
+  - lip-sync
+  - talking-head
+  - video-editing
+  summary: A two-stage framework for talking-face video editing that integrates audio-driven lip motion generation with 3D depth-aware visual appearance synthesis. It enables precise lip-audio synchronization and high-fidelity facial rendering.
+  summary_ja: 音声駆動型の唇の動き生成と3D深度を考慮した外観合成を統合した、トーキングフェイス動画編集のための2段階フレームワーク。正確なリップシンクと高精度な顔のレンダリングを可能にします。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2501.01798'
+  repo: joy-mm/joygen
 - id: synctalk-high-fidelity-and-efficient-synchronized-talking-he-4f6d24
   title: 'SyncTalk++: High-Fidelity and Efficient Synchronized Talking Heads Synthesis Using Gaussian Splatting'
   area: animation
@@ -241,6 +267,30 @@ entries:
   source: agent
   arxiv_id: '2411.10061'
   repo: antgroup/echomimic_v2
+- id: edtalk-efficient-disentanglement-for-emotional-talking-head-87c6c3
+  title: 'EDTalk: Efficient Disentanglement for Emotional Talking Head Synthesis'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.01647
+    github: https://github.com/tanshuai0219/EDTalk
+  authors:
+  - Shuai Tan
+  - Bill Gong
+  - Ye Pan
+  year: 2024
+  tags:
+  - audio-driven
+  - facial-animation
+  - lip-sync
+  - talking-head
+  summary: An efficient disentanglement framework for emotional talking head synthesis that enables precise control over mouth shape, head pose, and emotional expression. It utilizes orthogonal bases and an audio-to-motion module to achieve realistic audio-driven facial animation.
+  summary_ja: 口の形状、頭部のポーズ、感情表現を精密に制御できる、感情豊かなトーキングヘッド合成のための効率的なもつれ戻し（ディセンタングルメント）フレームワーク。直交基底とAudio-to-Motionモジュールを活用し、リアルな音声駆動型の表情アニメーションを実現します。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2404.01647'
+  repo: tanshuai0219/edtalk
 - id: emo-emote-portrait-alive-c57250
   title: 'EMO: Emote Portrait Alive'
   area: animation
@@ -1586,6 +1636,26 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2605.15497'
+- id: make-tracking-easy-neural-motion-retargeting-for-humanoid-wh-becd29
+  title: 'Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.22201
+    github: https://github.com/NJU3DV-HumanoidGroup/MakeTrackingEasy
+  year: 2026
+  tags:
+  - humanoid
+  - motion-retargeting
+  - neural-network
+  - whole-body-control
+  summary: A neural motion retargeting (NMR) framework that learns a direct mapping from human SMPL motion sequences to physically plausible humanoid robot motions, bypassing local-optima failures of conventional optimization-based methods.
+  summary_ja: 人間のSMPLモーションシーケンスから物理的に妥当な人型ロボットの動作への直接的なマッピングを学習し、従来の最適化手法における局所最適解への陥りを回避するニューラルモーションリターゲット（NMR）フレームワーク。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2603.22201'
+  repo: nju3dv-humanoidgroup/maketrackingeasy
 - id: reactor-807216
   title: ReActor
   area: animation
@@ -2061,6 +2131,32 @@ entries:
   source: agent
   arxiv_id: '2003.14401'
   repo: inrainbws/transmomo.pytorch
+- id: bfmtrack-latent-sequence-optimization-for-physics-based-moti-49e2bb
+  title: 'BFMTrack: Latent Sequence Optimization for Physics-Based Motion Tracking with Behavioral Foundation Models'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.25056
+  authors:
+  - Thomas Rupf
+  - Agon Serifi
+  - David Müller
+  - Sammy Christen
+  - Ruben Grandia
+  - Espen Knoop
+  - Moritz Bächer
+  year: 2026
+  tags:
+  - character-control
+  - foundation-model
+  - motion-tracking
+  - physics
+  summary: Proposes Latent Sequence Optimization (LSO) to extend Behavioral Foundation Models (BFMs) for precise, time-varying physics-based motion tracking without requiring manual reward engineering.
+  summary_ja: 手動での報酬設計を必要とすることなく、高精度で時間変化する物理ベースのモーショントラッキングを実現するために、行動財団モデル（BFM）を拡張する潜在シーケンス最適化（LSO）を提案。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2606.25056'
 - id: interagent-physics-based-multi-agent-command-execution-via-d-c90036
   title: 'InterAgent: Physics-based Multi-agent Command Execution via Diffusion on Interaction Graphs'
   area: animation
@@ -2173,6 +2269,33 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2605.22894'
+- id: tired-actor-fatigue-informed-character-control-facaa7
+  title: 'Tired Actor: Fatigue-Informed Character Control'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.03528
+  authors:
+  - Shengyuan Zhang
+  - Xinpeng Liu
+  - Muchun Niu
+  - Yulong Chen
+  - Lizhuang Ma
+  - Yue Gao
+  - Cewu Lu
+  - Yong-Lu Li
+  year: 2026
+  tags:
+  - biomechanics
+  - character-control
+  - fatigue
+  - physics
+  summary: A physics-based character animation framework that incorporates fatigue as a physiological prior using the Three-Compartment Controller (3CC) model, enabling characters to adapt their movements naturally under varying energy limits.
+  summary_ja: 3コンパートメントコントローラ（3CC）モデルを用いて疲労を生理学的プライアとして組み込み、エネルギー制限の変化に応じてキャラクターが自然に動きを適応させることができる物理ベースのキャラクターアニメーションフレームワーク。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2608.03528'
 - id: beyondmimic-from-motion-tracking-to-versatile-humanoid-contr-765745
   title: 'BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion'
   area: animation
@@ -2547,6 +2670,31 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: y-zheng18/physavatar
+- id: strategy-and-skill-learning-for-physics-based-table-tennis-a-41f57e
+  title: Strategy and Skill Learning for Physics-based Table Tennis Animation
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.16210
+    github: https://github.com/jiashunwang/PhysicsPingPong
+    project: https://jiashunwang.github.io/PhysicsPingPong/
+  authors:
+  - Jiashun Wang
+  - Jessica Hodgins
+  - Jungdam Won
+  year: 2024
+  tags:
+  - character-control
+  - physics
+  - reinforcement-learning
+  - table-tennis
+  summary: A physics-based table tennis animation framework that uses deep reinforcement learning to enable virtual characters to learn complex table tennis strategies and motor skills, allowing them to play dynamically with other agents or human players in VR.
+  summary_ja: 深層強化学習を用いて、仮想キャラクターが複雑な卓球の戦略や運動スキルを学習できるようにする物理ベースの卓球アニメーションフレームワーク。他のエージェントやVR内の人間のプレイヤーとダイナミックに対戦することが可能。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2407.16210'
+  repo: jiashunwang/physicspingpong
 - id: adaptnet-policy-adaptation-for-physics-based-character-contr-12ce06
   title: 'AdaptNet: Policy Adaptation for Physics-Based Character Control'
   area: animation
@@ -2935,6 +3083,33 @@ entries:
   source: agent
   arxiv_id: '2505.22977'
   repo: vivocameraresearch/hyper-motion
+- id: interanimate-taming-region-aware-diffusion-model-for-realist-41f301
+  title: 'InterAnimate: Taming Region-aware Diffusion Model for Realistic Human Interaction Animation'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.10905
+    paper: https://arxiv.org/abs/2504.10905
+  authors:
+  - Yukang Lin
+  - Yan Hong
+  - Haoxing Chen
+  - Yingqing He
+  - Yong-Lu Li
+  - Nanning Zheng
+  - Libo Zhang
+  - Kaiqi Huang
+  year: 2025
+  tags:
+  - character-animation
+  - diffusion-model
+  - pose-guided
+  summary: InterAnimate is a region-aware diffusion model designed for realistic human interaction animation, specifically targeting complex hand-face interactions. It introduces a region-aware attention system and an ID Preserver to generate natural and temporally coherent animations from reference images and motion guidance.
+  summary_ja: InterAnimateは、リアルな人間のインタラクションアニメーション、特に複雑な手と顔の相互作用を対象に設計された領域認識型拡散モデルです。領域認識アテンションシステムとID保存機構を導入し、参照画像とモーションガイダンスから自然で時間的に一貫したアニメーションを生成します。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2504.10905'
 - id: poseanything-0820f0
   title: PoseAnything
   area: animation
@@ -4066,6 +4241,37 @@ entries:
   source: agent
   arxiv_id: '2601.12799'
   repo: openmoss/from-w1
+- id: handx-b3cc6e
+  title: HandX
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.28766
+    github: https://github.com/handx-project/HandX
+  authors:
+  - Zimu Zhang
+  - Yucheng Zhang
+  - Xiyan Xu
+  - Ziyin Wang
+  - Sirui Xu
+  - Kai Zhou
+  - Bing Zhou
+  - Chuan Guo
+  - Jian Wang
+  - Yu-Xiong Wang
+  - Liang-Yan Gui
+  year: 2026
+  tags:
+  - bimanual
+  - dexterous-interaction
+  - hand-motion
+  summary: A unified foundation and dataset for scaling bimanual motion and dexterous hand-object interaction generation from text, capturing fine-grained finger dynamics and contact timing.
+  summary_ja: テキストから両手の動作や器用な手と物体の相互作用の生成をスケーリングするための統一された基盤モデルおよびデータセット。詳細な指のダイナミクスや接触のタイミングを捉えます。
+  date_added: '2026-08-10'
+  source: agent
+  arxiv_id: '2603.28766'
+  repo: handx-project/handx
 - id: kimodo-a46574
   title: Kimodo
   area: animation
