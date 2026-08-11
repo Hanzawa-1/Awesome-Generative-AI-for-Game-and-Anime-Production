@@ -5892,6 +5892,43 @@ entries:
   source: agent
   arxiv_id: '2503.01183'
   repo: aslp-lab/diffrhythm
+- id: inspiremusic-fabe9f
+  title: InspireMusic
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.00084
+    github: https://github.com/FunAudioLLM/InspireMusic
+    hf: https://huggingface.co/FunAudioLLM/InspireMusic-Base
+  authors:
+  - Chong Zhang
+  - Yukun Ma
+  - Qian Chen
+  - Wen Wang
+  - Shengkui Zhao
+  - Zexu Pan
+  - Hao Wang
+  - Chongjia Ni
+  - Trung Hieu Nguyen
+  - Kun Zhou
+  - Yidi Jiang
+  - Chaohong Tan
+  - Zhifu Gao
+  - Zhihao Du
+  - Bin Ma
+  year: 2025
+  tags:
+  - flow-matching
+  - long-form
+  - music-generation
+  - super-resolution
+  summary: An open-source music, song, and audio generation framework by Alibaba's FunAudioLLM team. It combines an autoregressive transformer language model with a super-resolution flow-matching model to generate high-fidelity, long-form music (up to 8 minutes) at 48kHz.
+  summary_ja: AlibabaのFunAudioLLMチームによる、オープンソースの音楽・歌声・オーディオ生成フレームワーク。自己回帰トランスフォーマー言語モデルと超解像フローマッチングモデルを組み合わせることで、最大8分間の高品質な長尺音楽を48kHzのサンプリングレートで生成できます。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2503.00084'
+  repo: funaudiollm/inspiremusic
 - id: magenta-realtime-46570a
   title: Magenta RealTime
   area: audio
@@ -6160,6 +6197,38 @@ entries:
   thumbnail: assets/thumbnails/audioldm-2-af2610.png
   date_added: '2026-06-13'
   source: seed
+  repo: haoheliu/audioldm2
+- id: audioldm-2-e634c9
+  title: AudioLDM 2
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.05734
+    github: https://github.com/haoheliu/AudioLDM2
+    hf: https://huggingface.co/cvssp/audioldm2
+  authors:
+  - Haohe Liu
+  - Zehua Chen
+  - Yi Yuan
+  - Xubo Liu
+  - Jianyuan Sun
+  - Zeyu Xie
+  - Ryan S. Liao
+  - Mengjie Wang
+  - Wenwu Wang
+  - Mark D. Plumbley
+  year: 2023
+  tags:
+  - diffusion
+  - latent-diffusion
+  - music-generation
+  - text-to-audio
+  summary: A unified latent diffusion framework for text-to-audio and text-to-music generation. It introduces a language of audio (LOA) representation to bridge different modalities, enabling high-quality, controllable generation of music, speech, and sound effects.
+  summary_ja: テキストからオーディオおよび音楽を生成するための統一された潜在拡散フレームワーク。異なるモダリティを橋渡しする「Language of Audio (LOA)」表現を導入することで、高品質で制御可能な音楽、音声、効果音の生成を可能にします。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2308.05734'
   repo: haoheliu/audioldm2
 - id: jen-1-a2bae2
   title: JEN-1
@@ -7451,6 +7520,25 @@ entries:
   source: agent
   arxiv_id: '2406.00320'
   repo: cyanbx/frieren-v2a
+- id: make-an-audio-3-da765c
+  title: Make-An-Audio 3
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    github: https://github.com/Text-to-Audio/Make-An-Audio-3
+    hf: https://huggingface.co/AIGC-Audio/Make-An-Audio-3
+  year: 2024
+  tags:
+  - diffusion
+  - foley
+  - sfx
+  - text-to-audio
+  summary: An open-source text-to-audio and video-to-audio generation model based on flow-based large diffusion transformers (Lumina-T2X). It generates high-quality, realistic sound effects and music from text prompts or video inputs.
+  summary_ja: フローベースの大型拡散トランスフォーマー（Lumina-T2X）に基づく、オープンソースのテキスト・映像から音声への生成モデル。テキストプロンプトや映像入力から、高品質でリアルな効果音や音楽を生成します。
+  date_added: '2026-08-11'
+  source: agent
+  repo: text-to-audio/make-an-audio-3
 - id: mmaudio-0f6cc3
   title: MMAudio
   area: audio
@@ -7640,6 +7728,36 @@ entries:
   date_added: '2026-07-28'
   source: agent
   arxiv_id: '2411.17698'
+- id: audiobox-c86a31
+  title: Audiobox
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.15821
+    website: https://audiobox.metademolab.com/
+  authors:
+  - Apoorv Vyas
+  - Bowen Shi
+  - Matthew Le
+  - Andros Tjandra
+  - Yi-Chiao Wu
+  - Baishan Guo
+  - Jussi Karlgren
+  - Leda Sari
+  - Shuo Yene
+  - Wei-Ning Hsu
+  year: 2023
+  tags:
+  - flow-matching
+  - foley
+  - sfx
+  - text-to-audio
+  summary: A unified generative model by Meta based on flow-matching that is capable of generating high-quality speech and sound effects. It supports both description-based (natural language) and example-based (audio reference) prompting for precise control over vocal and acoustic styles.
+  summary_ja: 自然言語の記述や音声リファレンスから、高品質な音声や効果音を生成できるMetaのフローマッチングベースの統合生成モデル。音声入力とテキストプロンプトを組み合わせることで、声質や音響スタイルを精密にコントロールできます。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2312.15821'
 - id: diff-foley-49a767
   title: Diff-Foley
   area: audio
@@ -7666,6 +7784,33 @@ entries:
   source: agent
   arxiv_id: '2306.17203'
   repo: luosiallen/diff-foley
+- id: foleygen-36b3ab
+  title: FoleyGen
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.10537
+    website: https://xinhaomei.github.io/foleygen_demo/
+  authors:
+  - Xinhao Mei
+  - Varun Nagaraja
+  - Gael Le Lan
+  - Zhaoheng Ni
+  - Ernie Chang
+  - Yangyang Shi
+  - Vikas Chandra
+  year: 2023
+  tags:
+  - foley
+  - sfx
+  - transformer
+  - video-to-audio
+  summary: An autoregressive transformer-based video-to-audio generation system that synthesizes realistic Foley sound effects synchronized with visual events. It utilizes a neural audio codec to convert waveforms to discrete tokens and incorporates visual features via cross-attention.
+  summary_ja: 視覚的なイベントに同期したリアルな効果音（Foley）を合成する、自己回帰トランスフォーマーベースの映像・音声生成システム。ニューラルオーディオコーデックを使用して波形を離散トークンに変換し、クロスアテンションを介して視覚的特徴を統合します。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2309.10537'
 - id: make-an-audio-2-950c77
   title: Make-An-Audio 2
   area: audio
@@ -8786,6 +8931,100 @@ entries:
   source: seed
   arxiv_id: '2106.06103'
   repo: jaywalnut310/vits
+- id: higgs-audio-877835
+  title: Higgs Audio
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    github: https://github.com/boson-ai/higgs-audio
+    hf: https://huggingface.co/bosonai/higgs-tts-3-4b
+  authors:
+  - Boson AI
+  year: 2026
+  tags:
+  - conversational-ai
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: Higgs Audio (Higgs TTS 3) is a 4-billion-parameter multilingual text-to-speech foundation model designed for natural, conversational voice interactions. It supports zero-shot voice cloning from a short reference clip across over 100 languages, with fine-grained inline control over emotion, style, prosody, and sound effects.
+  summary_ja: Higgs Audio（Higgs TTS 3）は、自然な会話型音声インタラクション向けに設計された、40億パラメータの多言語テキスト読み上げ（TTS）基盤モデルです。100以上の言語に対応し、短い参照クリップからのゼロショット音声クローニングをサポートするほか、感情、スタイル、韻律、効果音のきめ細かなインライン制御が可能です。
+  date_added: '2026-08-11'
+  source: agent
+  repo: boson-ai/higgs-audio
+- id: moss-tts-6f86eb
+  title: MOSS-TTS
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.18090
+    github: https://github.com/OpenMOSS/MOSS-TTS
+    hf: https://huggingface.co/OpenMOSS-Team/MOSS-VoiceGenerator
+  authors:
+  - OpenMOSS Team
+  year: 2026
+  tags:
+  - audio-generation
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: MOSS-TTS is an open-source speech and sound generation foundation model family. It features high-fidelity, zero-shot voice cloning, controllable long-form synthesis, and multilingual/code-switched speech generation, using a custom 12Hz audio tokenizer and autoregressive modeling.
+  summary_ja: MOSS-TTSは、オープンソースの音声・音響生成基盤モデルファミリーです。カスタムの12Hzオーディオトークナイザーと自己回帰モデリングを使用し、高精度なゼロショット音声クローニング、制御可能な長文合成、多言語およびコードスイッチング音声生成を特徴としています。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2603.18090'
+  repo: openmoss/moss-tts
+- id: qwen3-tts-be704b
+  title: Qwen3-TTS
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.15621
+    github: https://github.com/QwenLM/Qwen3-TTS
+    hf: https://huggingface.co/collections/Qwen/qwen3-tts
+  authors:
+  - Qwen Team
+  year: 2026
+  tags:
+  - multilingual
+  - speech-synthesis
+  - tts
+  - voice-cloning
+  summary: Qwen3-TTS is an open-source multilingual text-to-speech series trained on over 5 million hours of speech data across 10 languages. It supports zero-shot voice cloning (CustomVoice) and natural language-based voice design, delivering highly expressive and human-like speech generation.
+  summary_ja: Qwen3-TTSは、10言語にわたる500万時間以上の音声データで学習された、オープンソースの多言語テキスト読み上げ（TTS）モデルシリーズです。ゼロショット音声クローニング（CustomVoice）や自然言語に基づく音声デザインをサポートし、極めて表現力豊かで人間らしい音声を生成します。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2601.15621'
+  repo: qwenlm/qwen3-tts
+- id: zonos2-662a7f
+  title: ZONOS2
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.24320
+    github: https://github.com/Zyphra/ZONOS2
+    hf: https://huggingface.co/Zyphra/ZONOS2
+  authors:
+  - Gabriel Clark
+  - Sofian Mejjoute
+  - Mohamed Osman
+  - George Close
+  - Beren Millidge
+  year: 2026
+  tags:
+  - moe
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: ZONOS2 is an open-weight text-to-speech model based on a sparse Mixture of Experts (MoE) architecture with 8 billion total parameters. It is trained on over 6 million hours of multilingual speech and supports high-fidelity, naturalistic zero-shot voice cloning, as well as granular control over emotion, speed, and tone.
+  summary_ja: ZONOS2は、総パラメータ数80億のスパースMixture of Experts（MoE）アーキテクチャに基づくオープンウェイトのテキスト読み上げモデルです。600万時間以上の多言語音声データで学習されており、感情、速度、トーンのきめ細かな制御に加え、高精度で自然なゼロショット音声クローニングをサポートします。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2606.24320'
+  repo: zyphra/zonos2
 - id: cosyvoice-3-ec3943
   title: CosyVoice 3
   area: audio
@@ -10249,6 +10488,34 @@ entries:
   source: agent
   arxiv_id: '2407.21686'
   repo: mks0601/exavatar_release
+- id: from-audio-to-photoreal-embodiment-synthesizing-humans-in-co-73ca38
+  title: 'From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations (Audio2Photoreal)'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.01885
+    github: https://github.com/facebookresearch/audio2photoreal
+  authors:
+  - Evonne Ng
+  - Taras Kowalchyk
+  - Shirley Yang
+  - Koki Nagano
+  - Shunsuke Saito
+  - Ruilong Li
+  - Angjoo Kanazawa
+  year: 2024
+  tags:
+  - audio-driven
+  - avatar
+  - codec-avatar
+  - motion-synthesis
+  summary: A framework for synthesizing photorealistic, full-body 3D avatars (Codec Avatars) that gesture and move naturally in response to conversational audio.
+  summary_ja: 対話音声に応じて自然に身振り手振りを交えて動く、フォトリアルな全身3Dアバター（Codec Avatars）を合成するフレームワーク。
+  date_added: '2026-08-11'
+  source: agent
+  arxiv_id: '2401.01885'
+  repo: facebookresearch/audio2photoreal
 - id: human-3diffusion-4748f3
   title: Human-3Diffusion
   area: characters
