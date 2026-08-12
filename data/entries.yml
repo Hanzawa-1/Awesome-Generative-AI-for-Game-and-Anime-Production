@@ -11043,6 +11043,28 @@ entries:
   date_added: '2026-08-05'
   source: agent
   arxiv_id: '2510.10156'
+- id: svad-from-single-image-to-3d-avatar-via-synthetic-data-gener-b2f093
+  title: 'SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.05475
+    github: https://github.com/yc4ny/SVAD
+    project: https://yc4ny.github.io/SVAD/
+  authors:
+  - Yonwoo Choi
+  year: 2025
+  tags:
+  - 3dgs
+  - avatar-generation
+  - video-diffusion
+  summary: SVAD is a pipeline that generates high-fidelity animatable 3D Gaussian avatars from a single image by leveraging video diffusion models for synthetic data generation. It incorporates identity preservation and image restoration modules to maintain visual consistency across novel poses and viewpoints.
+  summary_ja: SVADは、合成データ生成にビデオ拡散モデルを活用することで、単一の画像から高精度でアニメーション可能な3D Gaussianアバターを生成するパイプラインです。アイデンティティ保存および画像修復モジュールを組み込み、新しいポーズや視点にわたって視覚的一貫性を維持します。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2505.05475'
+  repo: yc4ny/svad
 - id: textoon-42bde8
   title: Textoon
   area: characters
@@ -11366,6 +11388,30 @@ entries:
   source: agent
   arxiv_id: '2409.12576'
   repo: fireredteam/storymaker
+- id: structldm-structured-latent-diffusion-for-3d-human-generatio-d8a868
+  title: 'StructLDM: Structured Latent Diffusion for 3D Human Generation'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.01241
+    github: https://github.com/TaoHuUMD/StructLDM
+    project: https://taohuumd.github.io/projects/StructLDM/
+  authors:
+  - Tao Hu
+  - Fangzhou Hong
+  - Ziwei Liu
+  year: 2024
+  tags:
+  - 3d-human
+  - avatar-generation
+  - diffusion
+  summary: StructLDM is a structured latent diffusion model for 3D human generation from 2D images, utilizing a semantic structured latent space defined on a statistical human body template. It enables controllable 3D human generation and editing, including pose, view, shape control, and part-aware clothing editing.
+  summary_ja: StructLDMは、統計的人体テンプレート上に定義されたセマンティックな構造化潜在空間を利用し、2D画像から3D人間モデルを生成する構造化潜在拡散モデルです。ポーズ、視点、体型の制御や、パーツごとの衣服編集など、様々なレベルでの制御可能な3D人間生成および編集を可能にします。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2404.01241'
+  repo: taohuumd/structldm
 - id: getavatar-97b7a7
   title: GETAvatar
   area: characters
@@ -11448,6 +11494,30 @@ entries:
   source: agent
   arxiv_id: '2312.15430'
   repo: human3daigc/make-a-character
+- id: sith-single-view-textured-human-reconstruction-with-image-co-c39b1a
+  title: 'SiTH: Single-view Textured Human Reconstruction with Image-Conditioned Diffusion'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.15855
+    github: https://github.com/SiTH-Diffusion/SiTH
+    project: https://sith-diffusion.github.io/
+  authors:
+  - Hsuan-I Ho
+  - Jie Song
+  - Otmar Hilliges
+  year: 2023
+  tags:
+  - diffusion
+  - human-reconstruction
+  - mesh-generation
+  summary: SiTH is a single-view 3D human reconstruction pipeline that integrates an image-conditioned diffusion model with implicit neural fields. It decomposes the reconstruction problem into back-view hallucination and mesh reconstruction, producing fully textured 3D human meshes in minutes.
+  summary_ja: SiTHは、画像条件付き拡散モデルと暗黙的ニューラルフィールドを統合した単一ビュー3D人間再構成パイプラインです。再構成問題を背面補完とメッシュ再構成に分解し、完全にテクスチャ化された3D人間メッシュを数分で生成します。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2311.15855'
+  repo: sith-diffusion/sith
 - id: mpfb2-166b05
   title: MPFB2
   area: characters
@@ -11589,6 +11659,35 @@ entries:
   source: agent
   arxiv_id: '2601.12770'
   repo: shaelynz/fhavatar
+- id: gnm-head-a-generative-anthropometric-model-of-the-human-head-17452c
+  title: 'GNM Head: A Generative aNthropometric Model of the human head'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.23687
+    github: https://github.com/google/GNM
+  authors:
+  - S. Ploumpis
+  - J. Bednarik
+  - G. Zoss
+  - R. Guseinov
+  - L. Prasso
+  - P. Chandran
+  - S. Winberg
+  - A. Meka
+  year: 2026
+  tags:
+  - 3d-head
+  - face-reconstruction
+  - google
+  - parametric-model
+  summary: GNM Head is Google's open-source, highly detailed 3D parametric model of the human head, face, neck, eyeballs, teeth, and tongue. Trained on high-resolution 3D scans, it provides over 250 identity controls and 380 expression controls, serving as a robust conditioning signal for generative AI and 3D character creation.
+  summary_ja: Googleが公開したGNM（Generative aNthropometric Model）Headは、頭部、顔、首、眼球、歯、舌を網羅するオープンソースの高精度な3Dパラメトリックモデルです。高解像度3Dスキャンデータから構築され、250以上のアイデンティティ制御と380以上の表情制御を提供し、生成AIや3Dキャラクター制作の強力な条件付け信号として機能します。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2607.23687'
+  repo: google/gnm
 - id: kaolrm-df8c39
   title: KaoLRM
   area: characters
@@ -13323,6 +13422,32 @@ entries:
   source: agent
   arxiv_id: '2404.18929'
   repo: silent-chen/dge
+- id: dreamcatalyst-0e486b
+  title: DreamCatalyst
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.11394
+    github: https://github.com/kaist-cvml/DreamCatalyst
+    website: https://dream-catalyst.github.io/
+  authors:
+  - Jiwook Kim
+  - Seonho Lee
+  - Jaeyo Shin
+  - Jiho Choi
+  - Hyunjung Shim
+  year: 2024
+  tags:
+  - 3d-editing
+  - score-distillation
+  - sds
+  summary: A fast and high-quality 3D editing framework based on Score Distillation Sampling (SDS). It introduces a mechanism to control editability and identity preservation, resolving conflicts with the sampling dynamics of diffusion models to significantly reduce training time while improving visual quality.
+  summary_ja: Score Distillation Sampling（SDS）に基づく、高速かつ高品質な3D編集フレームワークです。編集可能性とアイデンティティ保存を制御するメカニズムを導入し、拡散モデルのサンプリングダイナミクスとの衝突を解決することで、トレーニング時間を大幅に短縮しながら視覚的品質を向上させます。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2407.11394'
+  repo: kaist-cvml/dreamcatalyst
 - id: editsplat-be0707
   title: EditSplat
   area: gen-3d
@@ -14126,6 +14251,36 @@ entries:
   source: agent
   arxiv_id: '2501.19054'
   repo: microsoft/cadfusion
+- id: cadrille-948cc7
+  title: cadrille
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.22914
+    github: https://github.com/col14m/cadrille
+  authors:
+  - Maksim Kolodiazhnyi
+  - Denis Tarasov
+  - Dmitrii Zhemchuzhnikov
+  - Alexander Nikulin
+  - Ilya Zisman
+  - Anna Vorontsova
+  - Anton Konushin
+  - Vladislav Kurenkov
+  - Danila Rukhovich
+  year: 2025
+  tags:
+  - multimodal
+  - reconstruction
+  - reinforcement-learning
+  - vlm
+  summary: A multi-modal CAD reconstruction framework that processes point clouds, multi-view images, and text inputs within a unified vision-language model, optimized using online reinforcement learning.
+  summary_ja: 統一されたビジョン言語モデル内でポイントクラウド、マルチビュー画像、およびテキスト入力を処理し、オンライン強化学習を使用して最適化されたマルチモーダルCAD再構成フレームワーク。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2505.22914'
+  repo: col14m/cadrille
 - id: flexcad-controllable-cad-generation-with-fine-tuned-llms-d63b48
   title: 'FlexCAD: Controllable CAD Generation with Fine-tuned LLMs'
   area: gen-3d
@@ -15155,6 +15310,28 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: unilat3d/unilat3d
+- id: wonder3d-cross-domain-diffusion-for-high-fidelity-3d-generat-70cecc
+  title: 'Wonder3D++: Cross-domain Diffusion for High-fidelity 3D Generation from a Single Image'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.01767
+    github: https://github.com/xxlong0/Wonder3D
+  authors:
+  - Yuxiao Yang
+  year: 2025
+  tags:
+  - diffusion
+  - image-to-3d
+  - mesh
+  - normal-map
+  summary: An enhanced single-image-to-3D generation framework that leverages cross-domain diffusion to generate consistent multi-view normal maps and color images. It employs a cascaded explicit-mesh reconstruction pipeline to rapidly produce high-fidelity textured 3D meshes.
+  summary_ja: クロスドメイン拡散を利用して、一貫したマルチビュー法線マップとカラー画像を生成する、強化された単一画像-3D生成フレームワーク。カスケード接続された明示的メッシュ再構成パイプラインを採用し、高品質なテクスチャ付き3Dメッシュを迅速に生成します。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2511.01767'
+  repo: xxlong0/wonder3d
 - id: worldmirror-universal-3d-world-reconstruction-with-any-prior-b0d387
   title: 'WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting'
   area: gen-3d
@@ -15448,6 +15625,33 @@ entries:
   source: agent
   arxiv_id: '2411.04924'
   repo: donydchen/mvsplat360
+- id: ouroboros3d-image-to-3d-generation-via-3d-aware-recursive-di-51b01d
+  title: 'Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.03184
+    github: https://github.com/Costwen/Ouroboros3D
+    project: https://costwen.github.io/Ouroboros3D/
+  authors:
+  - Hao Wen
+  - Zehuan Huang
+  - Yaohui Wang
+  - Xinyuan Chen
+  - Lu Sheng
+  year: 2024
+  tags:
+  - diffusion
+  - image-to-3d
+  - multi-view
+  - reconstruction
+  summary: A unified 3D generation framework that integrates diffusion-based multi-view image generation and 3D reconstruction into a recursive diffusion process. It uses 3D-aware maps rendered by the reconstruction module as feedback to guide the multi-view generation, ensuring high geometric consistency.
+  summary_ja: 拡散ベースの多視点画像生成と3D再構成を再帰的拡散プロセスに統合した、統一3D生成フレームワーク。再構成モジュールによってレンダリングされた3D認識マップをフィードバックとして使用して多視点生成をガイドし、高い幾何学的一貫性を確保します。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2406.03184'
+  repo: costwen/ouroboros3d
 - id: stable-fast-3d-sf3d-a6c9dc
   title: Stable Fast 3D (SF3D)
   area: gen-3d
@@ -17414,6 +17618,35 @@ entries:
   source: agent
   arxiv_id: '2512.01030'
   repo: envision-research/lotus-2
+- id: marigold-affordable-adaptation-of-diffusion-based-image-gene-1d8bf5
+  title: 'Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.09358
+    github: https://github.com/prs-eth/Marigold
+  authors:
+  - Bingxin Ke
+  - Kevin Qu
+  - Tianfu Wang
+  - Nando Metzger
+  - Shengyu Huang
+  - Bo Li
+  - Anton Obukhov
+  - Konrad Schindler
+  year: 2025
+  tags:
+  - depth
+  - diffusion
+  - normal-map
+  - stable-diffusion
+  summary: An updated unified framework and fine-tuning protocol that adapts pretrained latent diffusion models like Stable Diffusion for dense image analysis tasks, including monocular depth estimation and surface normals prediction.
+  summary_ja: Stable Diffusionなどの事前学習済み潜在拡散モデルを、単眼深度推定や法線マップ予測などの高密度画像解析タスクに適応させる、更新された統合フレームワークおよび微調整プロトコル。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2505.09358'
+  repo: prs-eth/marigold
 - id: normalcrafter-learning-temporally-consistent-normals-from-vi-fe3d1f
   title: 'NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors'
   area: gen-3d
@@ -17691,6 +17924,31 @@ entries:
   source: agent
   arxiv_id: '2403.00712'
   repo: baegwangbin/dsine
+- id: ecodepth-effective-conditioning-of-diffusion-models-for-mono-9f4473
+  title: 'ECoDepth: Effective Conditioning of Diffusion Models for Monocular Depth Estimation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.18807
+    github: https://github.com/Aradhye2002/EcoDepth
+    website: https://ecodepth-iitd.github.io/
+  authors:
+  - Suraj Patni
+  - Aradhye Agarwal
+  - Chetan Arora
+  year: 2024
+  tags:
+  - depth
+  - diffusion
+  - vit
+  - zero-shot
+  summary: A monocular depth estimation model that leverages a diffusion backbone conditioned on embeddings from a pre-trained Vision Transformer (ViT) model to improve zero-shot transfer and capture fine-grained details.
+  summary_ja: 事前学習済みのVision Transformer（ViT）モデルからの埋め込みで条件付けされた拡散バックボーンを活用し、ゼロショット転移を向上させ、微細なディテールを捉える単眼深度推定モデル。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2403.18807'
+  repo: aradhye2002/ecodepth
 - id: geowizard-unleashing-the-diffusion-priors-for-3d-geometry-es-7cacec
   title: 'GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image'
   area: gen-3d
@@ -17779,6 +18037,36 @@ entries:
   source: agent
   arxiv_id: '2404.15506'
   repo: yvanyin/metric3d
+- id: prompting-depth-anything-for-4k-resolution-accurate-metric-d-b3ae10
+  title: Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.14015
+    github: https://github.com/DepthAnything/PromptDA
+    website: https://promptda.github.io/
+  authors:
+  - Haotong Lin
+  - Sida Peng
+  - Jingxiao Chen
+  - Songyou Peng
+  - Jiaming Sun
+  - Minghuan Liu
+  - Hujun Bao
+  - Jiashi Feng
+  year: 2024
+  tags:
+  - 4k
+  - depth
+  - lidar
+  - metric-depth
+  summary: A novel paradigm that prompts depth foundation models with low-cost sparse LiDAR data to guide Depth Anything models, achieving highly accurate metric depth estimation at up to 4K resolution.
+  summary_ja: 低コストなスパースLiDARデータをプロンプトとして深度基盤モデルに与えることで、Depth Anythingモデルをガイドし、最大4K解像度で極めて高精度なメトリック深度推定を実現する新しい手法。
+  date_added: '2026-08-12'
+  source: agent
+  arxiv_id: '2412.14015'
+  repo: depthanything/promptda
 - id: scalable-autoregressive-monocular-depth-estimation-f50fb5
   title: Scalable Autoregressive Monocular Depth Estimation
   area: gen-3d
