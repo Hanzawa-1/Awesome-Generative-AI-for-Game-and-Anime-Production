@@ -18446,6 +18446,55 @@ entries:
   source: agent
   arxiv_id: '2510.13678'
   repo: imlixinyang/flashworld
+- id: freescene-mixed-graph-diffusion-for-3d-scene-synthesis-from-21d890
+  title: 'FreeScene: Mixed Graph Diffusion for 3D Scene Synthesis from Free Prompts'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.02781
+    github: https://github.com/cangmushui/FreeScene
+  authors:
+  - Ying Bai
+  - Yuanxun Lu
+  - Yuan Dong
+  - Zhaoxiang Zhang
+  - Weihao Xia
+  year: 2025
+  tags:
+  - 3d-scene
+  - diffusion
+  - indoor-synthesis
+  summary: A user-friendly controllable indoor scene synthesis framework that integrates a vision-language model-based graph designer with a generative Mixed Graph Diffusion Transformer to support free-form user inputs like text, diagrams, and sketches.
+  summary_ja: 視覚言語モデルベースのグラフデザイナーと生成型混合グラフ拡散トランスフォーマー（MG-DiT）を統合し、テキスト、図、スケッチなどの自由形式のユーザー入力に対応する、使いやすく制御可能な屋内シーン合成フレームワーク。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2506.02781'
+  repo: cangmushui/freescene
+- id: holodeck-2-0-vision-language-guided-3d-world-generation-with-b518b4
+  title: 'HOLODECK 2.0: Vision-Language-Guided 3D World Generation with Editing'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.05899
+    github: https://github.com/bzx20/Holodeck2.0
+  authors:
+  - Zixuan Bian
+  - Ruohan Ren
+  - Yue Yang
+  - Chris Callison-Burch
+  year: 2025
+  tags:
+  - 3d-scene
+  - diffusion
+  - environment
+  summary: An advanced vision-language-guided framework for 3D world generation that supports interactive scene editing based on human feedback, enabling the creation of stylistically varied 3D environments.
+  summary_ja: 人間のフィードバックに基づくインタラクティブなシーン編集をサポートし、多様なスタイルの3D環境を生成できる、高度な視覚と言語ガイド付きの3Dワールド生成フレームワーク。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2508.05899'
+  repo: bzx20/holodeck2.0
 - id: hunyuanworld-2-0-hy-world-2-0-58e9d2
   title: HunyuanWorld 2.0 (HY-World-2.0)
   area: gen-3d
@@ -18496,6 +18545,36 @@ entries:
   source: agent
   arxiv_id: '2509.19296'
   repo: nv-tlabs/lyra
+- id: mmgdreamer-mixed-modality-graph-for-geometry-controllable-3d-f8c315
+  title: 'MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.05874
+    github: https://github.com/yangzhifeio/MMGDreamer
+  authors:
+  - Zhifei Yang
+  - Keyang Lu
+  - Chao Zhang
+  - Jiaxing Qi
+  - Hanqi Jiang
+  - Ruifei Ma
+  - Shenglin Yin
+  - Yifan Xu
+  - Mingzhe Xing
+  - Zhen Xiao
+  year: 2025
+  tags:
+  - 3d-scene
+  - diffusion
+  - indoor-synthesis
+  summary: A dual-branch diffusion framework for controllable 3D indoor scene generation that utilizes mixed-modality graphs, visual enhancement, and relation prediction to achieve precise control over object geometry.
+  summary_ja: 混合モダリティグラフ、視覚的エンハンスメント、および関係予測を利用して、オブジェクトの幾何学的形状を精密に制御する、制御可能な3D屋内シーン生成のためのデュアルブランチ拡散フレームワーク。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2502.05874'
+  repo: yangzhifeio/mmgdreamer
 - id: scenegen-3afc89
   title: SceneGen
   area: gen-3d
@@ -18723,6 +18802,28 @@ entries:
   source: agent
   arxiv_id: '2405.00915'
   repo: ymxlzgy/echoscene
+- id: instructscene-instruction-driven-3d-indoor-scene-synthesis-w-cab372
+  title: 'InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.04717
+    github: https://github.com/chenguolin/InstructScene
+  authors:
+  - Chenguo Lin
+  - Yadong Mu
+  year: 2024
+  tags:
+  - 3d-scene
+  - diffusion
+  - indoor-synthesis
+  summary: A generative framework that synthesizes 3D indoor scenes from natural language instructions by integrating a semantic graph prior and a layout decoder to improve controllability and fidelity.
+  summary_ja: 意味論的グラフ事前分布とレイアウトデコーダを統合することで、自然言語の指示から3D屋内シーンを合成し、制御性と忠実度を大幅に向上させる生成フレームワーク。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2402.04717'
+  repo: chenguolin/instructscene
 - id: midi-275798
   title: MIDI
   area: gen-3d
@@ -19441,6 +19542,30 @@ entries:
   source: agent
   arxiv_id: '2410.24203'
   repo: zju3dv/diffpano
+- id: dream360-diverse-and-immersive-outdoor-virtual-scene-creatio-49e1a0
+  title: 'Dream360: Diverse and Immersive Outdoor Virtual Scene Creation via Transformer-Based 360 Image Outpainting'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.10564
+  authors:
+  - Haonan Lu
+  - Shisong Chen
+  - Gyeong-Min Kim
+  - Sang-Woo Lee
+  - Yoshimitsu Aoki
+  year: 2024
+  tags:
+  - 360-degree
+  - outpainting
+  - panorama
+  - skybox
+  summary: A transformer-based 360-degree image outpainting framework (Dream360) that generates diverse, high-fidelity, and high-resolution panoramas from user-selected viewports using Spherical-VQGAN and frequency-aware refinement.
+  summary_ja: Spherical-VQGANと周波数認識リファインメントを用いて、ユーザーが選択した視野から多様で高忠実度かつ高解像度なパノラマを生成する、Transformerベースの360度画像アウトペインティングフレームワーク（Dream360）。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2401.10564'
 - id: imagine360-immersive-360-video-generation-from-perspective-a-d3fa37
   title: 'Imagine360: Immersive 360 Video Generation from Perspective Anchor'
   area: gen-3d
@@ -19626,6 +19751,30 @@ entries:
   source: agent
   arxiv_id: '2305.19195'
   repo: jialuli-luka/panogen
+- id: diverse-plausible-360-degree-image-outpainting-for-efficient-546e5e
+  title: Diverse Plausible 360-Degree Image Outpainting for Efficient 3DCG Background Creation
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2203.14668
+    github: https://github.com/akmtn/OmniDreamer
+  authors:
+  - Naofumi Akimoto
+  - Yuhi Matsuo
+  - Yoshimitsu Aoki
+  year: 2022
+  tags:
+  - 360-degree
+  - outpainting
+  - panorama
+  - skybox
+  summary: A 360-degree image outpainting framework (OmniDreamer) that generates a complete 360-degree panoramic background from a single narrow field-of-view image using a transformer-based architecture and circular inference.
+  summary_ja: Transformerベースのアーキテクチャと循環推論を用いて、単一の狭視野画像から完全な360度パノラマ背景を生成する360度画像アウトペインティングフレームワーク（OmniDreamer）。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2203.14668'
+  repo: akmtn/omnidreamer
 - id: text2light-bf504e
   title: Text2Light
   area: gen-3d
@@ -19702,6 +19851,34 @@ entries:
   date_added: '2026-07-09'
   source: agent
   arxiv_id: '2604.22847'
+- id: imagine-a-city-citygenagent-for-procedural-3d-city-generatio-bc8c4a
+  title: 'Imagine a City: CityGenAgent for Procedural 3D City Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.05362
+    website: https://citygenagent.github.io/
+  authors:
+  - Zishan Liu
+  - Zecong Tang
+  - RuoCheng Wu
+  - Xinzhe Zheng
+  - Jingyu Hu
+  - Ka-Hei Hui
+  - Haoran Xie
+  - Bo Dai
+  - Zhengzhe Liu
+  year: 2026
+  tags:
+  - city
+  - llm
+  - procedural
+  summary: A natural language-driven framework for hierarchical procedural generation of high-quality 3D cities. It leverages LLM agents to generate executable programs for urban layouts and supports interactive natural language editing.
+  summary_ja: 高品質な3D都市の階層的な手続き型生成のための、自然言語駆動型フレームワーク。LLMエージェントを活用して都市レイアウトの実行可能なプログラムを生成し、自然言語によるインタラクティブな編集をサポートします。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2602.05362'
 - id: metaearth3d-15e51c
   title: MetaEarth3D
   area: gen-3d
@@ -19779,6 +19956,26 @@ entries:
   source: agent
   arxiv_id: '2501.08983'
   repo: hzxie/citydreamer4d
+- id: earthbender-an-interactive-system-for-stylistic-heightmap-ge-17bf6f
+  title: 'Earthbender: An Interactive System for Stylistic Heightmap Generation using a Guided Diffusion Model'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    github: https://github.com/danial-barazandeh/Earthbender
+  authors:
+  - Danial Barazandeh
+  - Gabriel Zachmann
+  year: 2025
+  tags:
+  - diffusion
+  - sketch
+  - terrain
+  summary: An interactive sketch-based terrain authoring system that utilizes a guided diffusion model to generate high-quality, stylistic heightmaps from user sketches and control inputs.
+  summary_ja: ユーザーのスケッチやコントロール入力から高品質でスタイリッシュなハイトマップを生成するために、ガイド付き拡散モデルを利用するインタラクティブなスケッチベースの地形オーサリングシステム。
+  date_added: '2026-08-13'
+  source: agent
+  repo: danial-barazandeh/earthbender
 - id: embodiedgen-e6ba58
   title: EmbodiedGen
   area: gen-3d
@@ -19809,6 +20006,28 @@ entries:
   source: agent
   arxiv_id: '2506.10600'
   repo: horizonrobotics/embodiedgen
+- id: infinite-leagues-under-the-sea-photorealistic-3d-underwater-517699
+  title: 'Infinite Leagues Under the Sea: Photorealistic 3D Underwater Terrain Generation by Latent Fractal Diffusion Models'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.06784
+  authors:
+  - Tianyi Zhang
+  - Weiming Zhi
+  - Joshua G. Mangelson
+  - Matthew Johnson-Roberson
+  year: 2025
+  tags:
+  - diffusion
+  - terrain
+  - underwater
+  summary: A latent fractal diffusion model designed for photorealistic 3D underwater terrain generation. It enables the synthesis of large-scale, visually coherent, and geometrically accurate underwater environments for robotic simulation and virtual exploration.
+  summary_ja: 写真のようにリアルな3D水中地形生成のために設計された潜在フラクタル拡散モデル。ロボットシミュレーションや仮想探索向けに、大規模で視覚的に一貫性があり、幾何学的に正確な水中環境の合成を可能にします。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2503.06784'
 - id: majutsucity-bdaa16
   title: MajutsuCity
   area: gen-3d
@@ -20091,6 +20310,34 @@ entries:
   source: agent
   arxiv_id: '2309.00610'
   repo: hzxie/citydreamer
+- id: citygen-infinite-and-controllable-3d-city-layout-generation-915520
+  title: 'CityGen: Infinite and Controllable 3D City Layout Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.01508
+    github: https://github.com/wenhaochai/CityGen
+    website: https://wenhaochai.com/CityGen/
+  authors:
+  - Jie Deng
+  - Wenhao Chai
+  - Jianshu Guo
+  - Qixuan Huang
+  - Wenhao Hu
+  - Jenq-Neng Hwang
+  - Gaoang Wang
+  year: 2023
+  tags:
+  - city
+  - diffusion
+  - layout
+  summary: An end-to-end framework for infinite, diverse, and controllable 3D city layout generation. It uses an auto-regressive out-painting pipeline and a multi-scale diffusion model to generate controllable semantic fields and extend local layouts infinitely.
+  summary_ja: 無限で多様、かつ制御可能な3D都市レイアウト生成のためのエンドツーエンドのフレームワーク。自己回帰的なアウトペインティングパイプラインとマルチスケール拡散モデルを使用して、制御可能なセマンティックフィールドを生成し、ローカルレイアウトを無限に拡張します。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2312.01508'
+  repo: wenhaochai/citygen
 - id: infinigen-aef0c8
   title: Infinigen
   area: gen-3d
@@ -21050,6 +21297,32 @@ entries:
   source: agent
   arxiv_id: '2505.04656'
   repo: heheyas/meshgen
+- id: muma-3d-pbr-texturing-via-multi-channel-multi-view-generatio-da2b97
+  title: 'MuMA: 3D PBR Texturing via Multi-Channel Multi-View Generation and Agentic Post-Processing'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.18461
+  authors:
+  - Lingting Zhu
+  - Jingrui Ye
+  - Runze Zhang
+  - Zeyu Hu
+  - Yingda Yin
+  - Lanjiong Li
+  - Jinnan Chen
+  - Shengju Qian
+  year: 2025
+  tags:
+  - agentic
+  - pbr
+  - texture
+  summary: A 3D PBR texturing method that models shaded and albedo appearance channels through multi-channel multi-view generation, integrated with intrinsic decomposition and agentic post-processing to produce high-quality, physically plausible materials.
+  summary_ja: マルチチャネル・マルチビュー生成を通じてシェーディングとアルベドの外観チャネルをモデル化し、固有分解とエージェント型ポストプロセッシングを統合して、高品質で物理的に妥当なPBRマテリアルを生成する3Dテクスチャリング手法。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2503.18461'
 - id: natex-native-texture-generation-dd1fd1
   title: 'NaTex: Native Texture Generation'
   area: gen-3d
@@ -21218,6 +21491,32 @@ entries:
   source: agent
   arxiv_id: '2405.17176'
   repo: zzzyuqing/dreammat
+- id: intex-interactive-text-to-texture-synthesis-via-unified-dept-e536cc
+  title: 'InTeX: Interactive Text-to-texture Synthesis via Unified Depth-aware Inpainting'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.11878
+    github: https://github.com/ashawkey/InTeX
+  authors:
+  - Jiaxiang Tang
+  - Ruijie Lu
+  - Xiaokang Chen
+  - Xiang Wen
+  - Gang Zeng
+  - Ziwei Liu
+  year: 2024
+  tags:
+  - inpainting
+  - interactive
+  - texture
+  summary: An interactive text-to-texture synthesis framework that utilizes a unified depth-aware inpainting model to generate consistent and high-quality textures on 3D meshes while offering user-friendly interactive editing.
+  summary_ja: 統一された深度対応インペインティングモデルを利用して、3Dメッシュ上に一貫した高品質なテクスチャを生成し、ユーザーフレンドリーなインタラクティブ編集を提供するテキストからのテクスチャ合成フレームワーク。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2403.11878'
+  repo: ashawkey/intex
 - id: material-anything-generating-materials-for-any-3d-object-via-e8106e
   title: 'Material Anything: Generating Materials for Any 3D Object via Diffusion'
   area: gen-3d
@@ -21449,6 +21748,34 @@ entries:
   source: agent
   arxiv_id: '2312.11360'
   repo: kaist-ami/paint-it
+- id: paint3d-paint-anything-3d-with-lighting-less-texture-diffusi-bb661c
+  title: 'Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.13913
+    github: https://github.com/OpenTexture/Paint3D
+  authors:
+  - Xianfang Zeng
+  - Xin Chen
+  - Zhongqi Qi
+  - Wen Liu
+  - Zibo Zhao
+  - Zhibin Wang
+  - Bin Fu
+  - Yong Liu
+  year: 2023
+  tags:
+  - diffusion
+  - pbr
+  - texture
+  summary: A coarse-to-fine generative framework that produces high-resolution, lighting-less, and diverse 2K UV texture maps for untextured 3D meshes conditioned on text or image inputs. It generates textures without embedded illumination, allowing them to be re-lighted or re-edited within modern graphics pipelines.
+  summary_ja: テキストや画像入力から、照明情報の入っていない高解像度（2K）のUVテクスチャマップを生成する粗から密への生成フレームワーク。ベイクされた照明を含まないため、最新のグラフィックスパイプラインでの再ライティングや編集が容易になります。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2312.13913'
+  repo: opentexture/paint3d
 - id: continuous-neural-reparameterization-as-a-deep-geometric-pri-ba2b3c
   title: Continuous Neural Reparameterization as a Deep Geometric Prior for Robust Fixed-Chart UV Repair
   area: gen-3d
@@ -22215,6 +22542,27 @@ entries:
   date_added: '2026-07-23'
   source: agent
   repo: gaolingx/honkaistarrailtoonshader
+- id: hybridizing-expressive-rendering-stroke-based-rendering-with-69c1cd
+  title: 'Hybridizing Expressive Rendering: Stroke-Based Rendering with Classic and Neural Methods'
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.00870
+    paper: https://arxiv.org/pdf/2506.00870
+  authors:
+  - Kapil Dev
+  year: 2025
+  tags:
+  - cel-shading
+  - expressive-rendering
+  - npr
+  - toon-shading
+  summary: A comprehensive study on Non-Photorealistic Rendering (NPR) that hybridizes classical stroke-based rendering, edge detection, and toon/cel shading with modern deep learning techniques to enhance expressive artistic styles.
+  summary_ja: 古典的なストロークベースのレンダリング、エッジ検出、トゥーン/セルシェーディングと、現代のディープラーニング技術を融合させ、表現力豊かな芸術的スタイルを強化する非実写レンダリング（NPR）に関する包括的な研究。
+  date_added: '2026-08-13'
+  source: agent
+  arxiv_id: '2506.00870'
 - id: anime-shading-plus-asp-ca9662
   title: Anime Shading Plus (ASP)
   area: image-2d
