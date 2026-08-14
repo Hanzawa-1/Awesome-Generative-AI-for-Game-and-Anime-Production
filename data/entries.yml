@@ -23585,6 +23585,38 @@ entries:
   source: agent
   arxiv_id: '2305.16322'
   repo: shihaozhaozsh/uni-controlnet
+- id: unicontrol-1ad9c1
+  title: UniControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.11147
+    github: https://github.com/salesforce/UniControl
+    hf: https://huggingface.co/ModelsLab/unicontrol-v1.1
+  authors:
+  - Can Qin
+  - Shu Zhang
+  - Ning Yu
+  - Yihao Feng
+  - Xinyi Yang
+  - Yingbo Zhou
+  - Huan Wang
+  - Silvio Savarese
+  - Caiming Xiong
+  - Ran Xu
+  - Juan Carlos Niebles
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - multi-task
+  summary: A unified controllable text-to-image diffusion model that integrates multiple visual conditions, such as edge maps, depth maps, segmentation masks, and poses, into a single framework using a task-aware HyperNet.
+  summary_ja: エッジマップ、深度マップ、セグメンテーションマスク、ポーズなどの複数の視覚的制御条件を、タスク認識型HyperNetを用いて単一のフレームワークに統合した、統一制御可能なテキスト画像生成拡散モデル。
+  date_added: '2026-08-14'
+  source: agent
+  arxiv_id: '2305.11147'
+  repo: salesforce/unicontrol
 - id: x-adapter-adding-universal-compatibility-of-plugins-for-upgr-743839
   title: 'X-Adapter: Adding Universal Compatibility of Plugins for Upgraded Diffusion Model'
   area: image-2d
@@ -23616,6 +23648,30 @@ entries:
   source: agent
   arxiv_id: '2312.02238'
   repo: showlab/x-adapter
+- id: hifi-inpaint-towards-high-fidelity-reference-based-inpaintin-0d9338
+  title: 'HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.02210
+    github: https://github.com/Correr-Zhou/HiFi-Inpaint
+    hf: https://huggingface.co/donghao-zhou/HiFi-Inpaint
+    website: https://correr-zhou.github.io/HiFi-Inpaint/
+  authors:
+  - Correr-Zhou
+  year: 2026
+  tags:
+  - detail-preserving
+  - e-commerce
+  - inpainting
+  - reference-based
+  summary: A high-fidelity reference-based inpainting framework designed to generate detail-preserving human-product images. It introduces Shared Enhancement Attention (SEA) to refine fine-grained product features and a Detail-Aware Loss (DAL) to enforce precise pixel-level supervision.
+  summary_ja: 詳細を保持した人物と商品の画像を生成するために設計された、高精度な参照ベースのインペインティングフレームワーク。微細な商品の特徴を洗練させるShared Enhancement Attention (SEA) と、精密なピクセルレベルの監視を強制するDetail-Aware Loss (DAL) を導入している。
+  date_added: '2026-08-14'
+  source: agent
+  arxiv_id: '2603.02210'
+  repo: correr-zhou/hifi-inpaint
 - id: moebius-145641
   title: Moebius
   area: image-2d
@@ -25836,6 +25892,29 @@ entries:
   source: agent
   arxiv_id: '2603.29029'
   repo: bharath-k3/mmface-dit
+- id: sketchingreality-from-freehand-scene-sketches-to-photorealis-ec27dd
+  title: 'SketchingReality: From Freehand Scene Sketches to Photorealistic Images'
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.14648
+    github: https://github.com/AhmedBourouis/SketchingReality
+  authors:
+  - Ahmed Bourouis
+  - Mikhail Bessmeltsev
+  - Yulia Gryaditskaya
+  year: 2026
+  tags:
+  - diffusion
+  - freehand-sketch
+  - sketch-to-image
+  summary: A sketch-to-image framework designed for human-drawn freehand scene sketches, utilizing a Stable Diffusion 2.1 backbone, a semantic sketch encoder, and a modulation network trained with attention supervision.
+  summary_ja: 人間が手描きしたフリーハンドのシーンスケッチ向けに設計されたスケッチ画像変換フレームワーク。Stable Diffusion 2.1をバックボーンとし、セマンティックスケッチエンコーダーとアテンション監視で訓練された変調ネットワークを組み合わせています。
+  date_added: '2026-08-14'
+  source: agent
+  arxiv_id: '2602.14648'
+  repo: ahmedbourouis/sketchingreality
 - id: d-sketch-0d8838
   title: d-Sketch
   area: image-2d
@@ -28034,6 +28113,30 @@ entries:
   source: agent
   arxiv_id: '2503.09641'
   repo: nvlabs/sana
+- id: show-o2-improved-native-unified-multimodal-models-99f1a1
+  title: 'Show-o2: Improved Native Unified Multimodal Models'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.15564
+    github: https://github.com/showlab/Show-o
+  authors:
+  - Jinheng Xie
+  - Zhenheng Yang
+  - Mike Zheng Shou
+  year: 2025
+  tags:
+  - autoregressive
+  - flow-matching
+  - multimodal
+  - text-to-image
+  summary: Show-o2 is an improved native unified multimodal model that integrates autoregressive modeling and flow matching on a 3D causal variational autoencoder space. It enables scalable, high-quality text-to-image and video generation alongside robust multimodal understanding.
+  summary_ja: Show-o2は、3Dコザール変分オートエンコーダー空間上で自己回帰モデリングとフローマッチングを統合した、改良版のネイティブ統一マルチモーダルモデルです。堅牢なマルチモーダル理解とともに、スケーラブルで高品質なテキスト画像生成およびビデオ生成を可能にします。
+  date_added: '2026-08-14'
+  source: agent
+  arxiv_id: '2506.15564'
+  repo: showlab/show-o
 - id: z-image-f90ea5
   title: Z-Image
   area: image-2d
