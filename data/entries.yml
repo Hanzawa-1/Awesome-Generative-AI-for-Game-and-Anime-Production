@@ -30775,6 +30775,30 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: huanshere/videolingo
+- id: x-alma-042d00
+  title: X-ALMA
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.03115
+    github: https://github.com/fe1ixxu/ALMA
+  authors:
+  - Haoran Xu
+  - Kenton Murray
+  - Young Jin Kim
+  year: 2024
+  tags:
+  - alma
+  - llm
+  - multilingual
+  - translation
+  summary: A state-of-the-art multilingual translation model that utilizes plug-and-play modules and adaptive rejection to achieve high-quality translation at scale, matching or exceeding larger proprietary models.
+  summary_ja: プラグアンドプレイモジュールと適応的リジェクション（Adaptive Rejection）を活用し、大規模で高品質な翻訳を実現する最先端の多言語翻訳モデル。大規模な商用モデルに匹敵またはそれを凌駕する性能を持つ。
+  date_added: '2026-08-15'
+  source: agent
+  arxiv_id: '2410.03115'
+  repo: fe1ixxu/alma
 - id: alma-2ca3df
   title: ALMA
   area: text-design
@@ -31649,6 +31673,34 @@ entries:
   date_added: '2026-06-27'
   source: agent
   arxiv_id: '2404.19721'
+- id: seed-story-multimodal-long-story-generation-with-large-langu-27a38b
+  title: 'SEED-Story: Multimodal Long Story Generation with Large Language Model'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.08683
+    github: https://github.com/TencentARC/SEED-Story
+  authors:
+  - Shuai Yang
+  - Yuying Ge
+  - Yang Li
+  - Yukang Chen
+  - Yixiao Ge
+  - Ying Shan
+  - Yingcong Chen
+  year: 2024
+  tags:
+  - mllm
+  - multimodal
+  - narrative
+  - story-generation
+  summary: A multimodal story generation framework that utilizes a Multimodal Large Language Model (MLLM) to generate extended narrative texts and corresponding vivid images in an interleaved manner, maintaining narrative consistency and visual coherence across long-form stories.
+  summary_ja: マルチモーダル大規模言語モデル（MLLM）を活用し、詳細なストーリーテキストとそれに対応する鮮明な画像を交互に生成するマルチモーダル物語生成フレームワーク。長編ストーリー全体で物語の一貫性と視覚的なコヒーレンスを維持します。
+  date_added: '2026-08-15'
+  source: agent
+  arxiv_id: '2407.08683'
+  repo: tencentarc/seed-story
 - id: mistral-7b-c81ddf
   title: Mistral 7B
   area: text-design

@@ -2996,6 +2996,23 @@ entries:
   thumbnail: assets/thumbnails/comistitch-004caa.png
   date_added: '2026-06-27'
   source: agent
+- id: comicsai-manga-screentone-generator-6bb34b
+  title: ComicsAI Manga Screentone Generator
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://www.comicsai.org/en/manga-screentone-generator
+  year: 2024
+  tags:
+  - comics
+  - generative-ai
+  - manga
+  - screentone
+  summary: A proprietary AI-powered comic and manga creation platform featuring a dedicated screentone generator. It allows creators to generate screentone-aware manga panels with controlled dot tones, hatching, and shadows to enhance readability and mood.
+  summary_ja: 専用のスクリーントーン生成機能を備えた、商用のAIコミック・マンガ制作プラットフォーム。ドットトーン、ハッチング、シャドウを制御したスクリーントーン対応のマンガコマを生成し、可読性と雰囲気を高めることができます。
+  date_added: '2026-08-15'
+  source: agent
 - id: screentone-eternal-4e3e76
   title: ScreenTone Eternal
   area: manga
@@ -3083,6 +3100,23 @@ entries:
   summary: An AI-driven game translation and localization platform developed by Lionbridge Games that combines advanced LLMs with human-in-the-loop guidance. It tailors translations to each game's unique content, style, and cultural expectations while allowing human linguists to refine outputs.
   summary_ja: Lionbridge Gamesが開発した、高度なLLMと人間によるフィードバック（Human-in-the-Loop）を組み合わせたAI駆動型のゲーム翻訳・ローカライズプラットフォーム。各ゲーム独自のコンテンツ、スタイル、文化的背景に合わせた翻訳を提供し、翻訳者がその場で調整可能です。
   date_added: '2026-08-08'
+  source: agent
+- id: alchemind-ai-0223cd
+  title: Alchemind AI
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.alchemind.ai/
+  year: 2024
+  tags:
+  - gamedev
+  - localization
+  - translation
+  - worldbuilding
+  summary: An AI-assisted worldbuilding and video game localization platform that helps developers generate story ideas, write multilingual scripts, and translate game content while preserving narrative style and context.
+  summary_ja: 開発者がストーリーのアイデアを生成し、多言語スクリプトを作成し、ゲームの物語のスタイルや文脈を維持しながら翻訳することを支援する、AI支援型の世界構築およびゲームローカライズプラットフォーム。
+  date_added: '2026-08-15'
   source: agent
 - id: dialogueforge-dc1693
   title: DialogueForge
