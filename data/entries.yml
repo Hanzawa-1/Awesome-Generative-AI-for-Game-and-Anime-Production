@@ -32761,6 +32761,28 @@ entries:
   source: agent
   arxiv_id: '2406.11875'
   repo: bic4907/chatpcg
+- id: consistent-game-content-creation-via-function-calling-for-la-b7e987
+  title: Consistent Game Content Creation via Function Calling for Large Language Models
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/gallorob/llmaker_functioncalling
+    paper: https://zenodo.org/records/13330093
+  authors:
+  - Roberto Gallotta
+  - Julian Togelius
+  year: 2024
+  tags:
+  - function-calling
+  - level-generation
+  - llm
+  - pcg
+  summary: A framework that leverages LLM function calling to ensure structural consistency and adherence to design constraints when procedurally generating game levels and content.
+  summary_ja: ゲームのレベルやコンテンツをプロシージャルに生成する際、LLMのファンクションコーリングを活用して構造的な一貫性を確保し、設計上の制約を厳密に遵守させるフレームワーク。
+  date_added: '2026-08-16'
+  source: agent
+  repo: gallorob/llmaker_functioncalling
 - id: di-pcg-5c25a4
   title: DI-PCG
   area: text-design
@@ -33176,6 +33198,31 @@ entries:
   source: agent
   arxiv_id: '2507.16116'
   repo: yaofang-liu/pusa-vidgen
+- id: stable-virtual-camera-generative-view-synthesis-with-diffusi-af5cfd
+  title: 'Stable Virtual Camera: Generative View Synthesis with Diffusion Models'
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.14489
+    github: https://github.com/Stability-AI/stable-virtual-camera
+    project: https://stable-virtual-camera.github.io/
+    hf: https://huggingface.co/stabilityai/stable-virtual-camera
+  authors:
+  - Jensen Zhou
+  - Mark Boss
+  year: 2025
+  tags:
+  - camera-control
+  - diffusion
+  - image-to-video
+  - novel-view-synthesis
+  summary: A 1.3-billion parameter generalist diffusion model (Seva) for Novel View Synthesis that generates 3D-consistent novel views of a scene from a single or multiple input images, allowing precise camera trajectory control.
+  summary_ja: 単一または複数の入力画像から、カメラの軌道を精密に制御しながら3D一貫性のある新規視点映像を生成する、13億パラメータの汎用拡散モデル（Seva）。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2503.14489'
+  repo: stability-ai/stable-virtual-camera
 - id: wan2-1-b6cd1a
   title: Wan2.1
   area: video
@@ -34165,6 +34212,27 @@ entries:
   source: agent
   arxiv_id: '2511.18870'
   repo: tencent-hunyuan/hunyuanvideo-1.5
+- id: ltx-2-ltx-2-5-13e2c4
+  title: LTX-2 / LTX-2.5
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    github: https://github.com/Lightricks/LTX-2
+    hf: https://huggingface.co/Lightricks/LTX-2.5
+  authors:
+  - Lightricks
+  year: 2025
+  tags:
+  - audio-video
+  - open-weights
+  - text-to-video
+  - transformer
+  summary: An open-weights video and audio generation model family by Lightricks. It features native multi-shot scene generation, synchronized audio-video synthesis, and advanced prompt adherence using a Gemma-based text encoder.
+  summary_ja: Lightricksによるオープンウェイトの動画・音声生成モデルファミリー。ネイティブなマルチショットシーン生成、同期された動画・音声合成、Gemmaベースのテキストエンコーダーによる高度なプロンプト追従性を特徴とする。
+  date_added: '2026-08-16'
+  source: agent
+  repo: lightricks/ltx-2
 - id: nvidia-cosmos-eebf85
   title: NVIDIA Cosmos
   area: video
@@ -34604,6 +34672,34 @@ entries:
   source: agent
   arxiv_id: '2606.06042'
   repo: msalab-pku/loomvideo
+- id: memory-v2v-memory-augmented-video-to-video-diffusion-for-con-7741df
+  title: 'Memory-V2V: Memory-Augmented Video-to-Video Diffusion for Consistent Multi-Turn Editing'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.16296
+    github: https://github.com/DoHunLee1/Memory-V2V
+    project: https://dohunlee1.github.io/MemoryV2V/
+  authors:
+  - Do Hun Lee
+  - Jihye Park
+  - Sangkuk Kim
+  - Min-Gyu Park
+  - Kwang-Ju Kim
+  - Jihwan Park
+  year: 2026
+  tags:
+  - diffusion
+  - memory-augmented
+  - video-editing
+  - video-to-video
+  summary: A memory-augmented framework for video-to-video diffusion models that treats prior edits as structured constraints for subsequent generations. It maintains an external memory of previous outputs, retrieves task-relevant edits, and integrates them to ensure cross-turn consistency in multi-turn novel view synthesis and long-video editing.
+  summary_ja: 過去の編集結果を後続の生成に対する構造化された制約として扱う、ビデオ・ツー・ビデオ（V2V）拡散モデル向けのメモリ拡張フレームワーク。外部メモリに過去の出力を保持し、タスクに関連する編集を検索・統合することで、複数ターンの新規視点合成や長尺ビデオ編集におけるターン間の一貫性を大幅に向上させます。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2601.16296'
+  repo: dohunlee1/memory-v2v
 - id: sana-streaming-dfb263
   title: SANA-Streaming
   area: video
@@ -34634,6 +34730,32 @@ entries:
   source: agent
   arxiv_id: '2605.30409'
   repo: nvlabs/sana
+- id: vera-a-layered-diffusion-model-for-content-preserving-video-1b3842
+  title: 'Vera: A Layered Diffusion Model for Content-Preserving Video Editing'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.23610
+    project: https://vera-layered-diffusion.github.io/
+  authors:
+  - Saman Motamed
+  - William Harvey
+  - Benjamin Klein
+  - Luc Van Gool
+  - Zhuoning Yuan
+  - Ta-Ying Cheng
+  year: 2026
+  tags:
+  - alpha-matte
+  - layered-diffusion
+  - netflix
+  - video-editing
+  summary: A layered diffusion framework for content-preserving video editing. Instead of regenerating the entire video, it generates an edit layer along with an alpha matte for compositing with the source video, separating creative editing from content preservation by design.
+  summary_ja: コンテンツ保存型のビデオ編集のためのレイヤード拡散フレームワーク。ビデオ全体を再生成する代わりに、編集レイヤーと合成用のアルファマットを生成し、クリエイティブな編集と元のコンテンツの保存を設計レベルで分離します。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2606.23610'
 - id: diffueraser-8ca341
   title: DiffuEraser
   area: video
@@ -34690,6 +34812,57 @@ entries:
   source: agent
   arxiv_id: '2512.06065'
   repo: snap-research/egoedit
+- id: eraserdit-fast-video-inpainting-with-diffusion-transformer-m-be178e
+  title: 'EraserDiT: Fast Video Inpainting with Diffusion Transformer Model'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.12853
+    github: https://github.com/JieLiu95/EraserDiT
+    project: https://jieliu95.github.io/EraserDiT_demo/
+    website: https://jieliu95.github.io/EraserDiT_demo/
+  authors:
+  - Jie Liu
+  - Zhihui Hui
+  year: 2025
+  tags:
+  - dit
+  - inpainting
+  - object-removal
+  - video-editing
+  summary: A fast video inpainting and object removal framework based on the Diffusion Transformer (DiT) architecture. It interactively removes specified objects, automatically generates corresponding prompts, and processes high-resolution videos with strong temporal consistency and content fidelity.
+  summary_ja: Diffusion Transformer (DiT) アーキテクチャに基づいた高速なビデオインペインティングおよびオブジェクト削除フレームワーク。インタラクティブに指定されたオブジェクトを削除し、対応するプロンプトを自動生成して、高い一貫性と忠実度で高解像度ビデオを処理します。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2506.12853'
+  repo: jieliu95/eraserdit
+- id: flowdirector-training-free-flow-steering-for-precise-text-to-62f476
+  title: 'FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.05046
+    github: https://github.com/Westlake-AGI-Lab/FlowDirector
+    project: https://flowdirector-edit.github.io/
+  authors:
+  - Yixuan Guan
+  - Zhiheng Liu
+  - Ying Shen
+  - Deng Cai
+  year: 2025
+  tags:
+  - inversion-free
+  - ode
+  - training-free
+  - video-editing
+  summary: A training-free, inversion-free video editing framework that operates directly in data space using Ordinary Differential Equations (ODEs). It achieves spatiotemporal coherent editing and uses attention-guided masking for precise localized control without requiring model fine-tuning.
+  summary_ja: 常微分方程式（ODE）を用いてデータ空間で直接動作する、トレーニング不要かつインバージョン不要のビデオ編集フレームワーク。モデルの微調整を必要とせず、時空間的に一貫した編集とアテンション誘導型マスキングによる精密な局所制御を実現します。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2506.05046'
+  repo: westlake-agi-lab/flowdirector
 - id: mtv-inpaint-819040
   title: MTV-Inpaint
   area: video
@@ -34909,6 +35082,31 @@ entries:
   source: agent
   arxiv_id: '2406.08850'
   repo: wangjiangshan0725/cove
+- id: elevating-flow-guided-video-inpainting-with-reference-genera-cdbba2
+  title: Elevating Flow-Guided Video Inpainting with Reference Generation
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.08975
+    github: https://github.com/suhwan-cho/RGVI
+  authors:
+  - Suhwan Cho
+  - Seoung Wug Oh
+  - Sangyoun Lee
+  - Joon-Young Lee
+  year: 2024
+  tags:
+  - inpainting
+  - object-removal
+  - pixel-propagation
+  - video-editing
+  summary: A robust video inpainting framework that combines a large generative model for reference generation with an advanced pixel propagation algorithm. It avoids resampling artifacts while maintaining sub-pixel accuracy, enabling high-quality object removal and text-guided content synthesis in missing areas.
+  summary_ja: 大規模生成モデルによる参照画像生成と、高度な画素伝播アルゴリズムを組み合わせた堅牢なビデオインペインティングフレームワーク。サブピクセル精度を維持しながらリサンプリングのアーティファクトを回避し、高品質なオブジェクト削除やテキスト指示による欠損領域のコンテンツ合成を実現します。
+  date_added: '2026-08-16'
+  source: agent
+  arxiv_id: '2412.08975'
+  repo: suhwan-cho/rgvi
 - id: fff-vdi-47ed92
   title: FFF-VDI
   area: video
