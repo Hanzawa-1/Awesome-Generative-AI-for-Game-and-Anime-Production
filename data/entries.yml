@@ -52,6 +52,37 @@ entries:
   date_added: '2026-07-27'
   source: agent
   arxiv_id: '2503.19416'
+- id: hallo4-high-fidelity-dynamic-portrait-animation-via-direct-p-d76117
+  title: 'Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.23525
+    github: https://github.com/fudan-generative-vision/hallo4
+  authors:
+  - Jiahao Cui
+  - Hui Li
+  - Yun Zhan
+  - Hanlin Shang
+  - Kaihui Cheng
+  - Yuqi Ma
+  - Shan Mu
+  - Hang Zhou
+  - Siyu Zhu
+  - Jingdong Wang
+  year: 2025
+  tags:
+  - audio-driven
+  - diffusion
+  - facial
+  - lip-sync
+  summary: An advanced portrait animation framework that utilizes direct preference optimization (DPO) and temporal motion modulation to improve lip-audio synchronization, expression vividness, and body motion coherence.
+  summary_ja: 直接好み最適化（DPO）と時間的モーション変調を利用して、リップと音声の同期、表情の鮮明さ、および身体の動きのコヒーレンスを向上させる、高度なポートレートアニメーションフレームワーク。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2505.23525'
+  repo: fudan-generative-vision/hallo4
 - id: hunyuanvideo-avatar-68760c
   title: HunyuanVideo-Avatar
   area: animation
@@ -428,6 +459,35 @@ entries:
   source: agent
   arxiv_id: '2412.00733'
   repo: fudan-generative-vision/hallo3
+- id: joyvasa-portrait-and-animal-image-animation-with-diffusion-b-ed0b64
+  title: 'JoyVASA: Portrait and Animal Image Animation with Diffusion-Based Audio-Driven Facial Dynamics and Head Motion Generation'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.09209
+    github: https://github.com/jdh-algo/JoyVASA
+  authors:
+  - Xuyang Cao
+  - Guoxin Wang
+  - Sheng Shi
+  - Jun Zhao
+  - Yang Yao
+  - Jintao Fei
+  - Minyu Gao
+  - Pei Xie
+  year: 2024
+  tags:
+  - audio-driven
+  - diffusion
+  - facial
+  - lip-sync
+  summary: A diffusion-based audio-driven facial animation framework that decouples facial appearance from motion, enabling realistic lip-sync and head pose generation for both human portraits and animal faces.
+  summary_ja: 顔の外観と動きを分離することで、人物のポートレートだけでなく動物の顔に対してもリアルなリップシンクと頭部ポーズの生成を可能にする、拡散モデルベースの音声駆動型フェイシャルアニメーションフレームワーク。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2411.09209'
+  repo: jdh-algo/joyvasa
 - id: latentsync-1da62e
   title: LatentSync
   area: animation
@@ -938,6 +998,28 @@ entries:
   source: agent
   arxiv_id: '2506.03119'
   repo: gseancdat/posefuse3d-ki
+- id: tlb-vfi-temporal-aware-latent-brownian-bridge-diffusion-for-91c176
+  title: 'TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.04984
+    github: https://github.com/ZonglinL/TLBVFI
+  authors:
+  - Zonglin Lyu
+  - Chen Chen
+  year: 2025
+  tags:
+  - diffusion
+  - interpolation
+  - temporal-coherence
+  summary: A temporal-aware latent Brownian bridge diffusion model (TLB-VFI) for video frame interpolation, designed to be highly efficient with fewer parameters and less training data while maintaining high temporal coherence.
+  summary_ja: ビデオフレーム補間のための時間認識型潜在ブラウン橋拡散モデル（TLB-VFI）。少ないパラメータと学習データで高い時間的一貫性を維持しつつ、非常に効率的に動作するよう設計されています。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2507.04984'
+  repo: zonglinl/tlbvfi
 - id: bim-vfi-bidirectional-motion-field-guided-frame-interpolatio-6a79e3
   title: 'BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions'
   area: animation
@@ -1581,6 +1663,25 @@ entries:
   source: agent
   arxiv_id: '2111.12792'
   repo: shuhongchen/eisai-anime-interpolator
+- id: flowframes-99edf6
+  title: Flowframes
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    github: https://github.com/n00mkrad/flowframes
+    website: https://flowframes.app/
+  year: 2021
+  tags:
+  - dain
+  - gui
+  - interpolation
+  - rife
+  summary: A popular open-source Windows GUI application for video frame interpolation, supporting advanced AI models like RIFE, DAIN, and FLAVR to convert low-framerate videos into smooth high-framerate footage.
+  summary_ja: RIFE、DAIN、FLAVRなどの高度なAIモデルをサポートし、低フレームレートの動画を滑らかな高フレームレート映像に変換する、人気のオープンソースWindows向けGUIアプリケーション。
+  date_added: '2026-08-17'
+  source: agent
+  repo: n00mkrad/flowframes
 - id: dain-a0a21b
   title: DAIN
   area: animation
@@ -1970,6 +2071,31 @@ entries:
   date_added: '2026-07-13'
   source: agent
   repo: nvidia/soma-retargeter
+- id: towards-high-quality-3d-motion-transfer-with-realistic-appar-47a9f4
+  title: Towards High-Quality 3D Motion Transfer with Realistic Apparel Animation
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.11266
+    github: https://github.com/rongakowang/MMDMC
+  authors:
+  - Rong Wang
+  - Wei Mao
+  - Changsheng Lu
+  - Hongdong Li
+  year: 2024
+  tags:
+  - 3d-character
+  - apparel-animation
+  - eccv
+  - motion-transfer
+  summary: Presents MMDMC, a 3D motion transfer framework that models physical dynamics and local deformations of clothing separately from the rigid body skeleton. This approach prevents body-apparel penetration and produces highly detailed, realistic apparel animations for stylized characters.
+  summary_ja: 身体骨格の剛体変形とは別に衣服の物理的ダイナミクスと局所変形をモデル化する3Dモーション転送フレームワーク「MMDMC」を提案。衣服と身体の突き抜けを防ぎ、デフォルメされたキャラクターに対して詳細でリアルな衣服のアニメーションを生成する。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2407.11266'
+  repo: rongakowang/mmdmc
 - id: physics-based-motion-retargeting-from-sparse-inputs-2fef62
   title: Physics-based Motion Retargeting from Sparse Inputs
   area: animation
@@ -2458,6 +2584,30 @@ entries:
   source: agent
   arxiv_id: '2510.13794'
   repo: xbpeng/mimickit
+- id: physanimator-4e12b1
+  title: PhysAnimator
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.16550
+    project: https://xpandora.github.io/PhysAnimator/
+  authors:
+  - Tianyi Xie
+  - Yiwei Zhao
+  - Ying Jiang
+  - Chenfanfu Jiang
+  year: 2025
+  tags:
+  - anime
+  - deformable-body
+  - diffusion
+  - physics
+  summary: A physics-guided generative framework that combines 2D deformable body simulations with sketch-guided video diffusion models to animate static anime illustrations. It allows interactive control via customizable energy strokes and rigging points to generate physically plausible and stylized cartoon animations.
+  summary_ja: 2D変形可能体シミュレーションとスケッチガイド付きビデオ拡散モデルを組み合わせて、静止したアニメイラストをアニメーション化する物理ガイド付き生成フレームワーク。カスタマイズ可能なエネルギーストロークとリギングポイントを介したインタラクティブな制御を可能にし、物理的に妥当でスタイライズされたカートゥーンアニメーションを生成します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2501.16550'
 - id: pixie-physics-from-pixels-42aa69
   title: 'Pixie: Physics from Pixels'
   area: animation
@@ -2882,6 +3032,36 @@ entries:
   date_added: '2026-06-15'
   source: agent
   arxiv_id: '2104.02180'
+- id: liveanimate-9b4165
+  title: LiveAnimate
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.11745
+    github: https://github.com/liveanimate/LiveAnimate
+  authors:
+  - Yuxuan Zhang
+  - Haozhong Xiong
+  - Yubo Huang
+  - Jiayi Song
+  - Jinpeng Yu
+  - Haofan Wang
+  - Jiaming Liu
+  - Ruihua Huang
+  - Liwei Wang
+  year: 2026
+  tags:
+  - long-form
+  - pose-driven
+  - real-time
+  - streaming
+  summary: A real-time, long-form pose-driven human animation system built on a 14B-parameter video Diffusion Transformer. It utilizes bounded attention caching and Pose-Retrieval Sink Attention to maintain appearance consistency and stable memory usage over extended streaming sequences.
+  summary_ja: 140億パラメータのビデオDiffusion Transformerをベースにした、リアルタイムかつ長時間のポーズ駆動型人間アニメーションシステム。有界アテンションキャッシュとPose-Retrieval Sink Attentionを採用し、長時間のストリーミングシーケンスでも外観の一貫性と安定したメモリ使用量を維持します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2608.11745'
+  repo: liveanimate/liveanimate
 - id: multianimate-02e7e6
   title: MultiAnimate
   area: animation
@@ -2939,6 +3119,39 @@ entries:
   source: agent
   arxiv_id: '2603.11746'
   repo: soul-ailab/soulx-liveact
+- id: wan-animate-2-190d99
+  title: Wan-Animate-2
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.06009
+    github: https://github.com/Wan-Video/Wan-Animate-2
+  authors:
+  - Guangyuan Wang
+  - Li Hu
+  - Dechao Meng
+  - Zhongyi Zhang
+  - Peng Zhang
+  - Mingyang Huang
+  - Ruoshi Zhang
+  - Ke Sun
+  - Zhe Zhang
+  - Xingjun Wang
+  - Gang Cheng
+  - Bang Zhang
+  year: 2026
+  tags:
+  - character-animation
+  - diffusion-transformer
+  - motion-transfer
+  - viewpoint-control
+  summary: An end-to-end character animation framework that directly consumes driving videos in a redesigned Diffusion Transformer, eliminating intermediate motion extractors to achieve high-fidelity motion generation, strong identity preservation, and text-driven viewpoint control.
+  summary_ja: 中間的なモーション抽出器を排除し、再設計されたDiffusion Transformerで駆動ビデオを直接処理するエンドツーエンドのキャラクターアニメーションフレームワーク。高精度なモーション生成、強力なアイデンティティ保持、およびテキスト駆動の視点制御を実現します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2608.06009'
+  repo: wan-video/wan-animate-2
 - id: animate-anyone-2-7a5edf
   title: Animate Anyone 2
   area: animation
@@ -4328,6 +4541,31 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2606.05624'
+- id: mola-align-exploring-motion-language-alignment-for-text-driv-e75fa8
+  title: 'MoLA-Align: Exploring Motion-Language Alignment for Text-driven Motion Generation'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.02973
+    github: https://github.com/Zilize/awesome-text-to-motion
+  authors:
+  - Zili Yi
+  - Yuan-Chen Guo
+  - Hao-Zhi Huang
+  - Yan-Pei Cao
+  - Song-Hai Zhang
+  year: 2026
+  tags:
+  - alignment
+  - motion-generation
+  - text-to-motion
+  summary: MoLA-Align explores motion-language alignment for text-driven motion generation, establishing a robust framework to align textual descriptions with 3D human motion sequences. It improves the semantic consistency and physical plausibility of generated animations.
+  summary_ja: MoLA-Alignは、テキスト駆動型モーション生成におけるモーションと言語のアライメントを探求し、テキスト記述と3D人間のモーションシーケンスを整合させる堅牢なフレームワークを構築します。これにより、生成されるアニメーションのセマンティックな一貫性と物理的な妥当性が向上します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2604.02973'
+  repo: zilize/awesome-text-to-motion
 - id: motionhiflow-ab48b6
   title: MotionHiFlow
   area: animation
@@ -4725,6 +4963,32 @@ entries:
   source: agent
   arxiv_id: '2411.16575'
   repo: neu-vi/mardm
+- id: motiongpt3-human-motion-as-a-second-modality-b14a35
+  title: 'MotionGPT3: Human Motion as a Second Modality'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.17686
+    github: https://github.com/OpenMotionLab/MotionGPT3
+  authors:
+  - Yiming Zhang
+  - Zhengyuan Su
+  - Shengqiang Chen
+  - Yong Zhang
+  - Ying Shan
+  - Xiaowei Zhou
+  year: 2024
+  tags:
+  - llm
+  - motion-generation
+  - text-to-motion
+  summary: MotionGPT3 is a unified motion-language framework that models human motion as a second modality, utilizing a Mixture-of-Tokens (MoT) architecture to achieve high-fidelity motion understanding and generation. It enables seamless bidirectional translation between natural language and 3D human motion.
+  summary_ja: MotionGPT3は、人間の動作を第二のモダリティとしてモデル化する統一されたモーション言語フレームワークであり、Mixture-of-Tokens（MoT）アーキテクチャを利用して高精度な動作理解と生成を実現します。自然言語と3Dの人間の動作との間のシームレスな双方向翻訳を可能にします。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2409.17686'
+  repo: openmotionlab/motiongpt3
 - id: parco-part-coordinating-text-to-motion-synthesis-ce3278
   title: 'ParCo: Part-Coordinating Text-to-Motion Synthesis'
   area: animation
@@ -4861,6 +5125,32 @@ entries:
   source: agent
   arxiv_id: '2306.14795'
   repo: openmotionlab/motiongpt
+- id: motiongpt-finetuned-llms-are-general-purpose-motion-generato-5b685f
+  title: 'MotionGPT: Finetuned LLMs are General-Purpose Motion Generators'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.10900
+    github: https://github.com/qiqiApink/MotionGPT
+  authors:
+  - Qiqi Chen
+  - Shengqiang Chen
+  - Xingyu Chen
+  - Yong Zhang
+  - Ying Shan
+  - Xiaowei Zhou
+  year: 2023
+  tags:
+  - llm
+  - motion-generation
+  - text-to-motion
+  summary: MotionGPT is a unified motion-language framework that treats multimodal control signals, such as text and single-frame poses, as special input tokens in large language models (LLMs) to generate consecutive human motions. It leverages the strong language generation and zero-shot transfer abilities of pre-trained LLMs for diverse motion-related tasks.
+  summary_ja: MotionGPTは、テキストやシングルフレームのポーズなどのマルチモーダルな制御信号を大規模言語モデル（LLM）の特殊な入力トークンとして扱い、連続する人間の動作を生成する統一されたモーション言語フレームワークです。事前学習済みLLMの強力な言語生成能力とゼロショット転移能力を活用し、多様な動作関連タスクに対応します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2306.10900'
+  repo: qiqiapink/motiongpt
 - id: t2m-gpt-e5ddc9
   title: T2M-GPT
   area: animation
@@ -4967,6 +5257,34 @@ entries:
   source: agent
   arxiv_id: '2208.15001'
   repo: motrixlab/motiondiffuse
+- id: fast-sam-3d-body-e86cc0
+  title: Fast SAM 3D Body
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.15603
+    github: https://github.com/yangtiming/Fast-SAM-3D-Body
+    website: https://yangtiming.github.io/Fast-SAM-3D-Body-Page/
+  authors:
+  - Timing Yang
+  - Sicheng He
+  - Hongyi Jing
+  - Jiawei Yang
+  - Zhijian Liu
+  - Chuhang Zou
+  - Yue Wang
+  year: 2026
+  tags:
+  - mocap
+  - pose-estimation
+  - real-time
+  summary: A training-free acceleration framework that reformulates the SAM 3D Body pipeline for real-time human mesh recovery. It replaces the iterative MHR-to-SMPL bottleneck with a direct neural mapping, achieving up to a 10.9x end-to-end speedup.
+  summary_ja: リアルタイムのヒューマンメッシュ復元に向けてSAM 3D Bodyのパイプラインを再構成した、トレーニング不要の高速化フレームワーク。反復的なMHRからSMPLへの変換ボトルネックを直接的なニューラルマッピングに置き換えることで、最大10.9倍のエンドツーエンドの高速化を実現します。
+  date_added: '2026-08-17'
+  source: agent
+  arxiv_id: '2603.15603'
+  repo: yangtiming/fast-sam-3d-body
 - id: multi-hmr-2-a90ebc
   title: Multi-HMR 2
   area: animation
