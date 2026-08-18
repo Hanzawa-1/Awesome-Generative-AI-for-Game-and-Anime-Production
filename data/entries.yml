@@ -6996,6 +6996,24 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: prabal-rje/latentscore
+- id: quality-audio-prototyping-quap-59371e
+  title: Quality Audio Prototyping (QuAP)
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.00629
+    paper: https://arxiv.org/pdf/2606.00629.pdf
+  year: 2026
+  tags:
+  - audio-retrieval
+  - procedural-audio
+  - sound-synthesis
+  summary: A prototype system that unifies content-based audio retrieval and procedural sound generation within a single interface. It integrates a similarity-based retrieval engine with real-time procedural audio models and a rule-based assistant to guide parameter tuning for sound designers.
+  summary_ja: コンテンツベースのオーディオ検索とプロシージャル音響生成を単一のインターフェースに統合したプロトタイプシステム。類似性ベースの検索エンジンとリアルタイムのプロシージャルオーディオモデル、およびサウンドデザイナー向けのパラメータ調整を支援するルールベースのアシスタントを統合しています。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2606.00629'
 - id: 6ksfx-f031e1
   title: 6KSFx
   area: audio
@@ -7646,6 +7664,31 @@ entries:
   date_added: '2026-07-07'
   source: agent
   arxiv_id: '2510.21581'
+- id: foleygram-video-to-audio-generation-with-gram-aligned-multim-df8cc2
+  title: 'FoleyGRAM: Video-to-Audio Generation with GRAM-Aligned Multimodal Encoders'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.05829
+  authors:
+  - Riccardo F. Gramaccioni
+  - Christian Marinoni
+  - Eleonora Grassucci
+  - Giordano Cicchetti
+  - Aurelio Uncini
+  - Danilo Comminiello
+  year: 2025
+  tags:
+  - diffusion
+  - foley
+  - multimodal
+  - sound-effects
+  summary: A multimodal generative audio model that synthesizes synchronized Foley effects using video, text, and audio inputs with unified Gramian Representation Alignment Measure (GRAM) alignment.
+  summary_ja: 統一されたGramian Representation Alignment Measure（GRAM）アライメントを用いて、ビデオ、テキスト、オーディオ入力から同期されたフォーリー効果音を合成するマルチモーダル生成オーディオモデル。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2510.05829'
 - id: hunyuanvideo-foley-5d8975
   title: HunyuanVideo-Foley
   area: audio
@@ -7700,6 +7743,31 @@ entries:
   source: agent
   arxiv_id: '2506.19774'
   repo: klingfoley/kling-foley
+- id: stereosync-spatially-aware-stereo-audio-generation-from-vide-cff8db
+  title: 'StereoSync: Spatially-Aware Stereo Audio Generation from Video'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.05828
+  authors:
+  - Christian Marinoni
+  - Riccardo Fosco Gramaccioni
+  - Kazuki Shimada
+  - Takashi Shibuya
+  - Yuki Mitsufuji
+  - Danilo Comminiello
+  year: 2025
+  tags:
+  - diffusion
+  - spatial-audio
+  - stereo-audio
+  - video-to-audio
+  summary: A diffusion-based framework that generates video-aligned stereo audio by incorporating spatial cues through cross-attention, producing soundscapes that dynamically adapt to the visual scene.
+  summary_ja: クロスアテンションを介して空間的な手がかりを組み込むことで、ビデオに整列したステレオオーディオを生成し、視覚的なシーンに動的に適応する音響空間を作り出す拡散ベースのフレームワーク。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2510.05828'
 - id: thinksound-cc6e26
   title: ThinkSound
   area: audio
@@ -7782,6 +7850,33 @@ entries:
   source: agent
   arxiv_id: '2409.10819'
   repo: haidog-yaqub/ezaudio
+- id: folai-synchronized-foley-sound-generation-with-semantic-and-c443a7
+  title: 'FolAI: Synchronized Foley Sound Generation with Semantic and Temporal Alignment'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.15023
+    website: https://ispamm.github.io/FolAI/
+  authors:
+  - Riccardo Fosco Gramaccioni
+  - Christian Marinoni
+  - Emilian Postolache
+  - Marco Comunità
+  - Luca Cosmo
+  - Joshua D. Reiss
+  - Danilo Comminiello
+  year: 2024
+  tags:
+  - controlnet
+  - foley
+  - latent-diffusion
+  - sound-effects
+  summary: A two-stage generative framework that decouples temporal structure extraction and semantically guided generation to synthesize synchronized Foley sound effects using video, text, or audio prompts.
+  summary_ja: 時間的構造の抽出と意味的にガイドされた生成を分離し、ビデオ、テキスト、またはオーディオのプロンプトを使用して同期されたフォーリー効果音を合成する2段階の生成フレームワーク。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2412.15023'
 - id: foleycrafter-c89f35
   title: FoleyCrafter
   area: audio
@@ -9493,6 +9588,30 @@ entries:
   source: agent
   arxiv_id: '2412.10117'
   repo: funaudiollm/cosyvoice
+- id: dreamvoice-5fa241
+  title: DreamVoice
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.16314
+    hf: https://huggingface.co/myshell-ai/DreamVoice
+  authors:
+  - Jiarui Hai
+  - Karan Thakkar
+  - Helin Wang
+  - Zengyi Qin
+  - Mounya Elhilali
+  year: 2024
+  tags:
+  - diffusion
+  - text-guided
+  - voice-conversion
+  summary: A text-guided voice conversion framework that allows users to specify desired voice timbres and styles through natural language prompts instead of reference audio clips.
+  summary_ja: 参照音声クリップの代わりに自然言語のプロンプトを使用して、望む声の音色やスタイルを指定できるテキストガイド型音声変換フレームワーク。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2406.16314'
 - id: maskgct-6e8729
   title: MaskGCT
   area: audio
@@ -10197,6 +10316,33 @@ entries:
   source: seed
   arxiv_id: '2411.18197'
   repo: jasongzy/make-it-animatable
+- id: morig-motion-aware-rigging-of-character-meshes-from-point-cl-0e139e
+  title: 'MoRig: Motion-Aware Rigging of Character Meshes from Point Clouds'
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2210.09463
+    github: https://github.com/zhan-xu/MoRig
+    project: https://zhan-xu.github.io/motion-rig/
+  authors:
+  - Zhan Xu
+  - Yang Zhou
+  - Evangelos Kalogerakis
+  - Chris Landreth
+  - Karan Singh
+  year: 2022
+  tags:
+  - auto-rigging
+  - motion-aware
+  - point-cloud
+  - skinning
+  summary: A method that automatically rigs character meshes driven by single-view point cloud streams capturing the motion of performing characters. It predicts joint positions and skinning weights to form animation-ready rigs directly from the captured motion.
+  summary_ja: 演技するキャラクターの動きを捉えた単一視点のポイントクラウドストリームによって駆動される、キャラクターメッシュの自動リギング手法。キャプチャされたモーションから直接、関節位置とスキニングウェイトを予測し、アニメーション可能なリグを構築します。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2210.09463'
+  repo: zhan-xu/morig
 - id: rignet-neural-rigging-for-articulated-characters-2e0d57
   title: 'RigNet: Neural Rigging for Articulated Characters'
   area: characters
@@ -10333,6 +10479,35 @@ entries:
   source: agent
   arxiv_id: '2603.14772'
   repo: juhyeon-kwon/dynaavatar_release
+- id: genlca-3d-diffusion-for-full-body-avatars-from-in-the-wild-v-09da9e
+  title: 'GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.07273
+    project: https://onethousandwu.com/GenLCA-Page/
+  authors:
+  - Yiqian Wu
+  - Rawal Khirodkar
+  - Egor Zakharov
+  - Timur Bagautdinov
+  - Lei Xiao
+  - Zhaoen Su
+  - Shunsuke Saito
+  - Xiaogang Jin
+  - Junxuan Li
+  year: 2026
+  tags:
+  - 3dgs
+  - avatar
+  - diffusion
+  - video-to-3d
+  summary: A diffusion-based generative model developed by Meta and Zhejiang University for generating and editing photorealistic, animatable full-body 3D Gaussian avatars from text and image inputs, trained on large-scale in-the-wild video data.
+  summary_ja: Metaと浙江大学が開発した拡散ベースの生成モデル。テキストや画像入力からフォトリアルでアニメーション可能な全身の3D Gaussianアバターを生成・編集し、大規模な野生のビデオデータでトレーニングされています。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2604.07273'
 - id: hallo-live-257a9f
   title: Hallo-Live
   area: characters
@@ -10497,6 +10672,35 @@ entries:
   source: agent
   arxiv_id: '2606.01493'
   repo: hliang2/splatshot
+- id: up2you-fast-reconstruction-of-yourself-from-unconstrained-ph-461c57
+  title: 'UP2You: Fast Reconstruction of Yourself from Unconstrained Photo Collections'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.24817
+    github: https://github.com/zcai0612/UP2You
+    project: https://zcai0612.github.io/UP2You/
+  authors:
+  - Zeyu Cai
+  - Ziyang Li
+  - Xiaoben Li
+  - Boqian Li
+  - Zeyu Wang
+  - Zhenyu Zhang
+  - Yuliang Xiu
+  year: 2026
+  tags:
+  - avatar
+  - mesh
+  - multi-view
+  - reconstruction
+  summary: A tuning-free solution for reconstructing high-fidelity 3D clothed portraits from extremely unconstrained, raw in-the-wild 2D photos by rectifying them into orthogonal multi-view images and normal maps.
+  summary_ja: 極めて制約の少ない野生の2D写真から、直交マルチビュー画像と法線マップに補正することで、高精度な3D衣服付きポートレートを再構成するチューニングフリーのソリューション。
+  date_added: '2026-08-18'
+  source: agent
+  arxiv_id: '2509.24817'
+  repo: zcai0612/up2you
 - id: adahuman-cf724c
   title: AdaHuman
   area: characters
