@@ -1637,6 +1637,22 @@ entries:
   summary_ja: テキストプロンプトやスケッチ、スタイルテンプレートから高解像度でシームレスな360度正距円筒図法のスカイボックスや環境を生成し、UnityやUnreal Engineなどのゲームエンジンにエクスポート可能な商用AIツール。
   date_added: '2026-07-23'
   source: agent
+- id: skybox-ai-by-blockade-labs-e04f0c
+  title: Skybox AI by Blockade Labs
+  area: gen-3d
+  task: skybox-panorama
+  kind: proprietary
+  links:
+    website: https://www.blockadelabs.com/
+  year: 2023
+  tags:
+  - 360-panorama
+  - generative-ai
+  - skybox
+  summary: An industry-standard generative AI tool by Blockade Labs for creating high-quality, seamless 360-degree skyboxes and environments from text prompts or sketches. It is widely used by game developers and digital artists to rapidly prototype immersive virtual worlds.
+  summary_ja: テキストプロンプトやスケッチから高品質でシームレスな360度スカイボックスや環境を作成するための、Blockade Labsによる業界標準の生成AIツール。ゲーム開発者やデジタルアーティストに広く使用され、没入感のある仮想世界を迅速にプロトタイプ化します。
+  date_added: '2026-08-20'
+  source: agent
 - id: skybox-ai-ce17a3
   title: Skybox AI
   area: gen-3d

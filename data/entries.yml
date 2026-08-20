@@ -19431,6 +19431,24 @@ entries:
   source: agent
   arxiv_id: '2509.19296'
   repo: nv-tlabs/lyra
+- id: magic-multi-scene-automated-gameworlds-generation-with-intel-d5efc5
+  title: 'MAGIC: Multi-scene Automated Gameworlds Generation with Intelligent Connectivity'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    github: https://github.com/sereneee1201/MAGIC
+  year: 2025
+  tags:
+  - blender
+  - gameworld
+  - scene
+  - unity
+  summary: A framework for multi-scene automated gameworld generation with intelligent connectivity using large language models, supporting scene planning, composition, and integration with Unity and Blender.
+  summary_ja: 大規模言語モデル（LLM）を用いて、インテリジェントな接続性を持つマルチシーンのゲームワールドを自動生成するフレームワーク。シーン計画、構成、UnityおよびBlenderとの統合をサポートします。
+  date_added: '2026-08-20'
+  source: agent
+  repo: sereneee1201/magic
 - id: mmgdreamer-mixed-modality-graph-for-geometry-controllable-3d-f8c315
   title: 'MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation'
   area: gen-3d
@@ -19487,6 +19505,35 @@ entries:
   source: agent
   arxiv_id: '2508.15769'
   repo: mengmouxu/scenegen
+- id: scenethesis-a-language-and-vision-agentic-framework-for-3d-s-3c450f
+  title: 'Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.02836
+    project: https://research.nvidia.com/labs/cosmos-lab/scenethesis/
+  authors:
+  - Lu Ling
+  - Chen-Hsuan Lin
+  - Ying Sheng
+  - Zian Yu
+  - Zhipeng Cao
+  - Chao Zhang
+  - Xing Lu
+  - Ke Xian
+  - Bedrich Benes
+  year: 2025
+  tags:
+  - agent
+  - environment
+  - layout
+  - scene
+  summary: A training-free agentic framework that couples LLM-based scene planning with vision-guided layout refinement to generate diverse, realistic, and physically plausible 3D interactive scenes. It uses an optimization module to enforce accurate pose alignment and physical stability.
+  summary_ja: LLMによるシーン計画とビジョン誘導型のレイアウト洗練を組み合わせ、多様で現実的、かつ物理的に妥当なインタラクティブ3Dシーンを生成する、学習不要のエージェント型フレームワーク。最適化モジュールを用いて正確なポーズ調整と物理的安定性を確保します。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2505.02836'
 - id: spatialgen-edb768
   title: SpatialGen
   area: gen-3d
@@ -20210,6 +20257,29 @@ entries:
   source: agent
   arxiv_id: '2510.11712'
   repo: insta360-research-team/dit360
+- id: look-beyond-two-stage-scene-view-generation-via-panorama-and-397eae
+  title: 'Look Beyond: Two-Stage Scene View Generation via Panorama and Video Diffusion'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.00843
+    paper: https://arxiv.org/pdf/2509.00843
+  authors:
+  - Xueyang Kang
+  - Zhengkang Xiang
+  - Zezheng Zhang
+  - Kourosh Khoshelham
+  year: 2025
+  tags:
+  - 360-panorama
+  - diffusion
+  - scene-generation
+  summary: A two-stage scene view generation framework that ensures long-term view and scene consistency by first generating a 360-degree panoramic representation. It then utilizes video diffusion to interpolate consistent perspective views from the generated panorama.
+  summary_ja: 最初に360度パノラマ表現を生成することで、長期的な視野とシーンの一貫性を確保する2段階のシーンビュー生成フレームワーク。生成されたパノラマからビデオ拡散を用いて一貫したパースペクティブビューを補間します。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2509.00843'
 - id: omni2-unifying-omnidirectional-image-generation-and-editing-a16990
   title: 'Omni2: Unifying Omnidirectional Image Generation and Editing in an Omni Model'
   area: gen-3d
@@ -20396,6 +20466,29 @@ entries:
   source: agent
   arxiv_id: '2401.06578'
   repo: akaneqwq/360dvd
+- id: camfreediff-camera-free-image-to-panorama-generation-with-di-f5a2d5
+  title: 'CamFreeDiff: Camera-free Image to Panorama Generation with Diffusion Model'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.07174
+    paper: https://arxiv.org/pdf/2407.07174
+  authors:
+  - Xiaoding Yuan
+  - Shitao Tang
+  - Kejie Li
+  - Peng Wang
+  year: 2024
+  tags:
+  - 360-panorama
+  - diffusion
+  - outpainting
+  summary: A camera-free diffusion model designed for 360-degree image outpainting from a single perspective image and text description. It integrates homography prediction within a multi-view diffusion framework to generate seamless panoramic environments without requiring camera intrinsic parameters.
+  summary_ja: 単一のパースペクティブ画像とテキスト記述から360度画像をアウトペインティングするカメラフリーの拡散モデル。カメラの内部パラメータを必要とせず、マルチビュー拡散フレームワーク内にホモグラフィ予測を統合してシームレスなパノラマ環境を生成します。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2407.07174'
 - id: diffpano-scalable-and-consistent-text-to-panorama-generation-17b5e6
   title: 'DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion'
   area: gen-3d
@@ -21066,6 +21159,27 @@ entries:
   source: agent
   arxiv_id: '2506.01799'
   repo: mschneider456/worldexplorer
+- id: worldgen-b5cf61
+  title: WorldGen
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.16825
+    github: https://github.com/ZiYang-xie/WorldGen
+  authors:
+  - Ziyang Xie
+  year: 2025
+  tags:
+  - 3d-scene
+  - text-to-3d
+  - world-generation
+  summary: A system that automatically creates large-scale, traversable, and interactive 3D worlds directly from text prompts and images, supporting 360-degree consistent exploration.
+  summary_ja: テキストプロンプトや画像から、大規模で探索可能かつインタラクティブな3D世界を自動生成し、360度の一貫した自由な探索を可能にするシステム。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2511.16825'
+  repo: ziyang-xie/worldgen
 - id: adaptive-diffusion-terrain-generator-adtg-04e103
   title: Adaptive Diffusion Terrain Generator (ADTG)
   area: gen-3d
@@ -21369,6 +21483,28 @@ entries:
   source: agent
   arxiv_id: '2608.02711'
   repo: tencent-hunyuan/hunyuan3d-buffalo1.0
+- id: hy-world-2-0-9decc9
+  title: HY-World 2.0
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.14268
+    github: https://github.com/Tencent-Hunyuan/HY-World-2.0
+  authors:
+  - Tencent Hunyuan Team
+  year: 2026
+  tags:
+  - 3d-generation
+  - scene-generation
+  - text-to-3d
+  - world-model
+  summary: HY-World 2.0 is a multi-modal world model framework that generates and reconstructs navigable 3D worlds (meshes or Gaussian Splattings) from text, images, or videos.
+  summary_ja: HY-World 2.0は、テキスト、画像、または動画から、ナビゲート可能な3Dワールド（メッシュまたは3D Gaussian Splatting）を生成および再構成するマルチモーダルワールドモデルフレームワークです。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2604.14268'
+  repo: tencent-hunyuan/hy-world-2.0
 - id: 3dgen-r1-8a31bc
   title: 3DGen-R1
   area: gen-3d
@@ -21550,6 +21686,32 @@ entries:
   source: agent
   arxiv_id: '2503.15475'
   repo: roblox/cube
+- id: segmentdreamer-761420
+  title: SegmentDreamer
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.05256
+    github: https://github.com/zjhJOJO/SegmentDreamer
+  authors:
+  - Jiahao Zhu
+  - Zixuan Chen
+  - Guangcong Wang
+  - Xiaohua Xie
+  - Yi Zhou
+  year: 2025
+  tags:
+  - 3d-generation
+  - consistency-model
+  - distillation
+  - text-to-3d
+  summary: SegmentDreamer is a text-to-3D synthesis framework that leverages segmented consistency trajectory distillation to optimize 3D asset generation under classifier-free guidance, improving fidelity and detail.
+  summary_ja: SegmentDreamerは、セグメント化された一貫性軌道蒸留（Segmented Consistency Trajectory Distillation）を利用して、分類器フリーガイダンス下での3Dアセット生成を最適化し、忠実度と詳細度を向上させるText-to-3D合成フレームワークです。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2507.05256'
+  repo: zjhjojo/segmentdreamer
 - id: trellis-2-8054e0
   title: TRELLIS.2
   area: gen-3d
@@ -22209,6 +22371,31 @@ entries:
   date_added: '2026-08-13'
   source: agent
   arxiv_id: '2503.18461'
+- id: mvpainter-accurate-and-detailed-3d-texture-generation-via-mu-f55fd9
+  title: 'MVPainter: Accurate and Detailed 3D Texture Generation via Multi-View Diffusion with Geometric Control'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.12635
+    github: https://github.com/amap-cvlab/MV-Painter
+  authors:
+  - Mingqi Shao
+  - Feng Xiong
+  - Zhaoxu Sun
+  - Mu Xu
+  year: 2025
+  tags:
+  - 3d
+  - diffusion
+  - pbr
+  - texture
+  summary: MVPainter is a 3D texture generation framework that uses multi-view diffusion with geometric control to produce high-fidelity, detailed textures. It extracts physically-based rendering (PBR) attributes from the generated views to produce PBR-compliant meshes suitable for real-world rendering applications.
+  summary_ja: MVPainterは、幾何学的制御を伴うマルチビュー拡散モデルを使用して、高忠実度で詳細なテクスチャを生成する3Dテクスチャ生成フレームワークです。生成されたビューから物理ベースレンダリング（PBR）属性を抽出し、実世界のレンダリングアプリケーションに適したPBR対応メッシュを作成します。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2505.12635'
+  repo: amap-cvlab/mv-painter
 - id: natex-native-texture-generation-dd1fd1
   title: 'NaTex: Native Texture Generation'
   area: gen-3d
@@ -22403,6 +22590,31 @@ entries:
   source: agent
   arxiv_id: '2403.11878'
   repo: ashawkey/intex
+- id: jointly-generating-multi-view-consistent-pbr-textures-using-d177e8
+  title: Jointly Generating Multi-view Consistent PBR Textures using Collaborative Control
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.06985
+  authors:
+  - Shimon Vainer
+  - Konstantin Kutsy
+  - Dante De Nigris
+  - Ciara Rowles
+  - Slava Elizarov
+  - Simon Donné
+  year: 2024
+  tags:
+  - collaborative-control
+  - diffusion
+  - pbr
+  - texture
+  summary: A collaborative control diffusion model for text-to-texture generation that directly models full PBR stacks (including albedo, normal, and roughness maps) in view space. This approach ensures multi-view consistency, allowing the generated PBR textures to be seamlessly fused onto 3D meshes.
+  summary_ja: テキストからテクスチャへの生成において、ビュー空間で完全なPBRスタック（アルベド、法線、粗さマップを含む）を直接モデリングする協調制御拡散モデルです。このアプローチによりマルチビューの一貫性が確保され、生成されたPBRテクスチャを3Dメッシュにシームレスに融合させることができます。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2410.06985'
 - id: material-anything-generating-materials-for-any-3d-object-via-e8106e
   title: 'Material Anything: Generating Materials for Any 3D Object via Diffusion'
   area: gen-3d
@@ -22430,6 +22642,32 @@ entries:
   source: agent
   arxiv_id: '2411.15138'
   repo: 3dtopia/materialanything
+- id: materialpicker-multi-modal-material-generation-with-diffusio-67fdf4
+  title: 'MaterialPicker: Multi-Modal Material Generation with Diffusion Transformers'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.03225
+  authors:
+  - Xiaohe Ma
+  - Valentin Deschaintre
+  - Milos Hasan
+  - Fujun Luan
+  - Kun Zhou
+  - Hongzhi Wu
+  - Yiwei Hu
+  year: 2024
+  tags:
+  - dit
+  - material
+  - pbr
+  - svbrdf
+  summary: A multi-modal material generator leveraging a Diffusion Transformer (DiT) architecture to simplify the creation of high-quality SVBRDF materials. It can generate complete PBR material maps conditioned on text prompts, image crops, or photographs of distorted surfaces.
+  summary_ja: Diffusion Transformer（DiT）アーキテクチャを活用し、高品質なSVBRDFマテリアルの作成を簡素化するマルチモーダルマテリアル生成モデルです。テキストプロンプト、画像クロップ、または歪んだ表面の写真を入力条件として、完全なPBRマテリアルマップを生成できます。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2412.03225'
 - id: matfusion-2aa0e6
   title: MatFusion
   area: gen-3d
@@ -23219,6 +23457,35 @@ entries:
   source: agent
   arxiv_id: '2504.06263'
   repo: omnisvg/omnisvg
+- id: illustrious-an-open-advanced-illustration-model-6a4b6f
+  title: 'Illustrious: an Open Advanced Illustration Model'
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.19946
+    hf: https://huggingface.co/OnomaAIResearch/Illustrious-XL-v1.0
+    paper: https://arxiv.org/abs/2409.19946
+  authors:
+  - Sang Hyun Park
+  - Jun Young Koh
+  - Junha Lee
+  - Joy Song
+  - Dongha Kim
+  - Hoyeon Moon
+  - Hyunju Lee
+  - Min Song
+  year: 2024
+  tags:
+  - anime
+  - character
+  - diffusion
+  - sdxl
+  summary: An advanced text-to-image model specifically designed for high-quality anime illustrations, built on the SDXL architecture. It improves anatomical accuracy, prompt adherence, and color range through optimized batch size/dropout control, higher training resolutions, and refined multi-level captions.
+  summary_ja: SDXLアーキテクチャをベースに、高品質なアニメイラスト生成に特化して開発された先進的なText-to-Imageモデル。バッチサイズとドロップアウトの最適化、高解像度での学習、および洗練されたマルチレベルキャプションにより、解剖学的な正確性、プロンプトへの追従性、ダイナミックな色彩表現を大幅に向上させている。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2409.19946'
 - id: lora-mix-37ec5d
   title: LoRA-Mix
   area: image-2d
@@ -23730,6 +23997,31 @@ entries:
   date_added: '2026-06-25'
   source: agent
   repo: unity-technologies/com.unity.toonshader
+- id: learning-to-shadow-hand-drawn-sketches-b90b4a
+  title: Learning to Shadow Hand-drawn Sketches
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2002.11812
+    github: https://github.com/qyzdao/ShadeSketch
+    project: https://cal.cs.umbc.edu/Papers/Zheng-2020-Shade/
+  authors:
+  - Qingyuan Zheng
+  - Zhuoru Li
+  - Adam Bargteil
+  year: 2020
+  tags:
+  - cel-shading
+  - shadow
+  - sketch
+  - toon-shading
+  summary: A fully automatic deep learning method to generate detailed and accurate artistic shadows from pairs of line drawing sketches and lighting directions.
+  summary_ja: 線画スケッチと光源方向のペアから、詳細で正確な芸術的シャドウを自動生成するディープラーニング手法。
+  date_added: '2026-08-20'
+  source: agent
+  arxiv_id: '2002.11812'
+  repo: qyzdao/shadesketch
 - id: poiyomi-toon-shader-6a73eb
   title: Poiyomi Toon Shader
   area: image-2d
@@ -23829,6 +24121,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: delt06/urp-toon-shader
+- id: deep-normal-estimation-for-automatic-shading-of-hand-drawn-c-a0f248
+  title: Deep Normal Estimation for Automatic Shading of Hand-Drawn Characters
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/V-Sense/DeepNormals
+    paper: https://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Hudon_Deep_Normal_Estimation_for_Automatic_Shading_of_Hand-Drawn_Characters_ECCVW_2018_paper.pdf
+    website: https://v-sense.scss.tcd.ie/research/vfx-animation/deep-normal-estimation-for-automatic-shading-of-hand-drawn-characters/
+  authors:
+  - Matis Hudon
+  - Rafael Pagés
+  - Mairéad Grogan
+  - Aljosa Smolić
+  year: 2018
+  tags:
+  - cel-shading
+  - normal-map
+  - sketch
+  - toon-shading
+  summary: A deep learning-based pipeline that estimates dense normal maps from hand-drawn sketches to enable automatic, high-quality shading and lighting effects.
+  summary_ja: 手描きのスケッチから高密度な法線マップを推定し、自動で高品質なシェーディングやライティング効果を適用するディープラーニング手法。
+  date_added: '2026-08-20'
+  source: agent
+  repo: v-sense/deepnormals
 - id: condition-preference-optimization-f4c31a
   title: Condition Preference Optimization
   area: image-2d
