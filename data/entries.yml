@@ -24923,6 +24923,37 @@ entries:
   source: seed
   arxiv_id: '2506.15742'
   repo: black-forest-labs/flux
+- id: icedit-enabling-instructional-image-editing-with-in-context-efe1f0
+  title: 'ICEdit: Enabling Instructional Image Editing with In-Context Generation in Diffusion Transformers'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.20690
+    github: https://github.com/River-Zhang/ICEdit
+    project: https://river-zhang.github.io/ICEdit-gh-pages/
+  authors:
+  - River Zhang
+  - Xiaojian Shawn Ma
+  - Liang Chen
+  - Shuzheng Si
+  - Rujie Wu
+  - Kaikai An
+  - Peiyu Yu
+  - Minjia Zhang
+  - Qing Li
+  - Baobao Chang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - image-editing
+  - in-context-learning
+  summary: ICEdit is an in-context image editing framework built on large-scale Diffusion Transformers (DiTs). It enables precise, instruction-based image editing by leveraging the model's inherent generation and understanding capabilities without requiring architectural modifications or extensive fine-tuning.
+  summary_ja: ICEditは、大規模なDiffusion Transformer（DiT）をベースに構築されたインコンテキスト画像編集フレームワークです。モデル本来の生成および理解能力を活用することで、アーキテクチャの変更や大規模な微調整を必要とせず、指示に基づいた正確な画像編集を可能にします。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2504.20690'
+  repo: river-zhang/icedit
 - id: inpaint4drag-778390
   title: Inpaint4Drag
   area: image-2d
@@ -27620,6 +27651,33 @@ entries:
   source: agent
   arxiv_id: '2606.20506'
   repo: blue2giant/freestyle
+- id: stylegallery-training-free-and-semantic-aware-personalized-s-f3ef03
+  title: 'StyleGallery: Training-free and Semantic-aware Personalized Style Transfer from Arbitrary Image References'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.10354
+    github: https://github.com/iiiiiiiword/StyleGallery
+  authors:
+  - Boyu He
+  - Yunfan Ye
+  - Chang Liu
+  - Weishang Wu
+  - Fang Liu
+  - Zhiping Cai
+  year: 2026
+  tags:
+  - diffusion
+  - semantic-aware
+  - style-transfer
+  - training-free
+  summary: A training-free framework for arbitrary style transfer that enables region-based, fine-grained control over style elements. It performs unsupervised semantic clustering on content images using intermediate diffusion features to achieve semantically-aware and interpretable results.
+  summary_ja: 領域ベースでスタイル要素を細粒度に制御できる、追加学習不要のスタイル転送フレームワーク。拡散モデルの中間特徴量を用いてコンテンツ画像の教師なしセマンティッククラスタリングを行い、意味的に整合した解釈可能な転送結果を実現します。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2603.10354'
+  repo: iiiiiiiword/stylegallery
 - id: telestyle-content-preserving-style-transfer-in-images-and-vi-767e3e
   title: 'TeleStyle: Content-Preserving Style Transfer in Images and Videos'
   area: image-2d
@@ -27701,6 +27759,31 @@ entries:
   source: agent
   arxiv_id: '2503.10614'
   repo: 000linlin/consislora
+- id: k-lora-unlocking-training-free-fusion-of-any-subject-and-sty-e87f7d
+  title: 'K-LoRA: Unlocking Training-Free Fusion of Any Subject and Style LoRAs'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.18461
+    github: https://github.com/HVision-NKU/K-LoRA
+    project: https://k-lora.github.io/K-LoRA.io/
+  authors:
+  - Ziheng Ouyang
+  - Zhen Li
+  - Qibin Hou
+  year: 2025
+  tags:
+  - diffusion
+  - lora
+  - style-transfer
+  - training-free
+  summary: A training-free LoRA fusion approach that seamlessly merges independently trained style and subject LoRA models. It uses a Top-K selection mechanism in each attention layer to balance the contributions of subject and style, preventing content leakage and style misalignment.
+  summary_ja: 事前学習済みのスタイルLoRAと被写体LoRAを、追加のトレーニングなしでシームレスに融合する手法。各アテンション層でTop-K選択メカニズムを用いることで、被写体とスタイルの寄与をバランスよく調整し、コンテンツの漏洩やスタイルの不整合を防ぎます。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2502.18461'
+  repo: hvision-nku/k-lora
 - id: splitflux-learning-to-decouple-content-and-style-from-a-sing-18639b
   title: 'SplitFlux: Learning to Decouple Content and Style from a Single Image'
   area: image-2d
@@ -27955,6 +28038,35 @@ entries:
   source: agent
   arxiv_id: '2407.00788'
   repo: instantx-research/instantstyle-plus
+- id: styleshot-a-snapshot-on-any-style-5bd3b9
+  title: 'StyleShot: A Snapshot on Any Style'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.01414
+    github: https://github.com/open-mmlab/StyleShot
+    website: https://styleshot.github.io/
+  authors:
+  - Junyao Gao
+  - Yanchen Liu
+  - Yanan Sun
+  - Yinhao Tang
+  - Yanhong Zeng
+  - Kai Chen
+  - Cairong Zhao
+  year: 2024
+  tags:
+  - diffusion
+  - encoder
+  - style-transfer
+  - tuning-free
+  summary: A generalized style transfer framework that enables high-quality stylized image generation from any reference image without test-time tuning. It utilizes a style-aware encoder trained on a curated dataset to extract expressive style representations such as shading, layout, and lighting.
+  summary_ja: テスト時の微調整を必要とせず、任意の参照画像から高品質なスタイル転送画像を作成できる汎用的なフレームワーク。厳選されたデータセットで学習されたスタイル認識エンコーダを用いて、シェーディング、レイアウト、ライティングなどの表現力豊かなスタイル表現を抽出します。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2407.01414'
+  repo: open-mmlab/styleshot
 - id: stylestudio-text-driven-style-transfer-with-selective-contro-ed3f36
   title: 'StyleStudio: Text-Driven Style Transfer with Selective Control of Style Elements'
   area: image-2d
@@ -27981,6 +28093,33 @@ entries:
   source: agent
   arxiv_id: '2412.08503'
   repo: westlake-agi-lab/stylestudio
+- id: unziplora-separating-content-and-style-from-a-single-image-0a3da9
+  title: 'UnZipLoRA: Separating Content and Style from a Single Image'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.04465
+    github: https://github.com/changLiu77/UnZipLoRA
+    project: https://unziplora.github.io/
+  authors:
+  - Chang Liu
+  - Yarden Frenkel
+  - Yael Vinker
+  - Ariel Shamir
+  - Daniel Cohen-Or
+  year: 2024
+  tags:
+  - diffusion
+  - disentanglement
+  - lora
+  - style-transfer
+  summary: A method for decomposing a single input image into its constituent subject and style components, represented as two distinct and compatible LoRAs. This allows for independent manipulation, recombination, and high-fidelity style transfer with enhanced disentanglement.
+  summary_ja: 単一の入力画像を、互いに独立した互換性のある被写体LoRAとスタイルLoRAの2つに分解する手法。これにより、高度に絡み合いを解いた状態での独立した操作、再結合、および高精度なスタイル転送が可能になります。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2412.04465'
+  repo: changliu77/unziplora
 - id: artadapter-5cf7e7
   title: ArtAdapter
   area: image-2d
@@ -28136,6 +28275,30 @@ entries:
   source: agent
   arxiv_id: '2306.00983'
   repo: aim-uofa/styledrop-pytorch
+- id: ziplora-any-subject-in-any-style-by-effectively-merging-lora-92b167
+  title: 'ZipLoRA: Any Subject in Any Style by Effectively Merging LoRAs'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.13600
+    website: https://ziplora.github.io/
+  authors:
+  - Sahar Kavakibi
+  - Yael Vinker
+  - Ariel Shamir
+  - Daniel Cohen-Or
+  year: 2023
+  tags:
+  - diffusion
+  - lora
+  - lora-merging
+  - style-transfer
+  summary: A method to cheaply and effectively merge independently trained style and subject LoRAs to generate any user-provided subject in any user-provided style. It optimizes the merging weights to preserve both subject fidelity and style alignment.
+  summary_ja: 独立して学習されたスタイルLoRAと被写体LoRAを、低コストかつ効果的にマージして、任意の被写体を任意のスタイルで生成する手法。被写体の再現性とスタイルの整合性の両方を維持するようにマージの重みを最適化します。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2311.13600'
 - id: apisr-20fd46
   title: APISR
   area: image-2d
@@ -29316,6 +29479,33 @@ entries:
   source: agent
   arxiv_id: '2503.09641'
   repo: nvlabs/sana
+- id: show-o-turbo-0a750c
+  title: Show-o Turbo
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.05415
+    github: https://github.com/showlab/Show-o
+  authors:
+  - Chenkai Xu
+  - Xu Wang
+  - Zhenyi Liao
+  - Yishun Li
+  - Tianqi Hou
+  - Zhijie Deng
+  year: 2025
+  tags:
+  - diffusion
+  - multimodal
+  - text-to-image
+  - transformer
+  summary: An accelerated unified multimodal model that leverages consistency distillation and trajectory segmentation to significantly speed up text-to-image generation and multimodal understanding.
+  summary_ja: 整合性蒸留（Consistency Distillation）と軌道セグメンテーションを活用し、テキストからの画像生成およびマルチモーダル理解を大幅に高速化する、加速化された統一マルチモーダルモデル。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2502.05415'
+  repo: showlab/show-o
 - id: show-o2-improved-native-unified-multimodal-models-99f1a1
   title: 'Show-o2: Improved Native Unified Multimodal Models'
   area: image-2d
@@ -29566,6 +29756,36 @@ entries:
   source: agent
   arxiv_id: '2406.18583'
   repo: alpha-vllm/lumina-t2x
+- id: omnigen-f48eb2
+  title: OmniGen
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.11340
+    github: https://github.com/VectorSpaceLab/OmniGen
+  authors:
+  - Shitao Xiao
+  - Yueze Wang
+  - Junjie Zhou
+  - Huaying Yuan
+  - Xingrun Xing
+  - Ruiran Yan
+  - Shuting Wang
+  - Tiejun Huang
+  - Zheng Liu
+  year: 2024
+  tags:
+  - diffusion
+  - multimodal
+  - text-to-image
+  - transformer
+  summary: A unified image generation model based on a simplified diffusion transformer architecture that natively supports text-to-image, image editing, and subject-driven generation without requiring auxiliary modules like ControlNet or IP-Adapter.
+  summary_ja: ControlNetやIP-Adapterなどの追加モジュールを必要とせず、テキストからの画像生成、画像編集、被写体駆動型生成などをネイティブにサポートする、簡素化されたディフュージョントランスフォーマーアーキテクチャに基づく統一画像生成モデル。
+  date_added: '2026-08-21'
+  source: agent
+  arxiv_id: '2409.11340'
+  repo: vectorspacelab/omnigen
 - id: pixart-sigma-45e09b
   title: PixArt-Sigma
   area: image-2d

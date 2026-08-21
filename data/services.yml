@@ -2055,6 +2055,23 @@ entries:
   thumbnail: assets/thumbnails/clipdrop-f01b6a.png
   date_added: '2026-06-19'
   source: agent
+- id: photoroom-0cdeff
+  title: Photoroom
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://www.photoroom.com/
+  year: 2020
+  tags:
+  - background-removal
+  - inpainting
+  - object-removal
+  - proprietary
+  summary: Photoroom is a proprietary AI-powered photo editing platform specializing in background removal, object removal, and high-quality image inpainting. It provides web, mobile, and batch API solutions tailored for rapid asset creation, e-commerce, and marketing production.
+  summary_ja: Photoroomは、背景削除、オブジェクト削除、および高品質な画像インペインティングに特化した、AI搭載のプロプライエタリな写真編集プラットフォームです。アセットの迅速な作成、Eコマース、およびマーケティング制作向けに調整された、Web、モバイル、およびバッチAPIソリューションを提供します。
+  date_added: '2026-08-21'
+  source: agent
 - id: petalica-paint-e04d0a
   title: Petalica Paint
   area: image-2d
