@@ -3258,6 +3258,23 @@ entries:
   thumbnail: assets/thumbnails/localizely-6e6eae.png
   date_added: '2026-06-27'
   source: agent
+- id: translator-196746
+  title: Translator++
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://dreamsavior.net/translator-plusplus/
+  year: 2018
+  tags:
+  - game-translation
+  - rpg-maker
+  - tool
+  - unity
+  summary: A specialized game translation tool designed for RPG Maker, Wolf RPG Editor, Unity, and Ren'Py engines. It provides a grid-based interface to manage, automate, and patch in-game text using machine translation and manual editing.
+  summary_ja: RPGツクール、WOLF RPGエディター、Unity、Ren'Pyエンジン向けに設計された専門的なゲーム翻訳ツール。グリッドベースのインターフェースを提供し、機械翻訳と手動編集を使用してゲーム内テキストの管理、自動化、パッチ適用を行います。
+  date_added: '2026-08-22'
+  source: agent
 - id: gitlocalize-219441
   title: GitLocalize
   area: text-design
@@ -3469,6 +3486,23 @@ entries:
   summary_ja: UnityおよびUnreal Engine向けのオンデバイスAI NPCソリューション。ローカル環境で動作し、クラウドコスト不要でNPCの対話、音声認識、音声合成、感情調整機能を提供する。
   thumbnail: assets/thumbnails/gladecore-043d8d.png
   date_added: '2026-06-13'
+  source: agent
+- id: nvidia-ace-avatar-cloud-engine-6667ee
+  title: NVIDIA ACE (Avatar Cloud Engine)
+  area: text-design
+  task: npc-dialogue
+  kind: proprietary
+  links:
+    website: https://developer.nvidia.com/ace
+  year: 2024
+  tags:
+  - avatar
+  - dialogue
+  - digital-human
+  - npc
+  summary: A suite of real-time generative AI technologies for digital humans and NPCs, providing cloud and on-device AI models for speech, intelligence (using LLMs like Nemotron), and facial animation.
+  summary_ja: デジタルヒューマンやNPC向けのリアルタイム生成AI技術スイート。音声、知能（NemotronなどのLLMを使用）、フェイシャルアニメーションのためのクラウドおよびオンデバイスAIモデルを提供します。
+  date_added: '2026-08-22'
   source: agent
 - id: convai-470169
   title: Convai

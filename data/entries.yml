@@ -32850,6 +32850,33 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: ilearn-lab/novelclaw
+- id: storyspark-module-wise-evolutionary-search-for-story-premise-71b9d6
+  title: 'StorySpark: Module-wise Evolutionary Search for Story Premise Generation'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.12336
+  authors:
+  - Yang Yang
+  - Zining Zhong
+  - Qian Cao
+  - Jindong Li
+  - Boyun Xu
+  - Kaishen Yuan
+  - Menglin Yang
+  - Yutao Yue
+  year: 2026
+  tags:
+  - evolutionary-search
+  - llm
+  - premise-generation
+  - story-generation
+  summary: An evolutionary search framework for story premise generation that operates over interpretable narrative modules (background, persona, event, ending, and twist). It uses feedback-driven mutation, recombination, and Pareto-guided selection to generate highly original and coherent story premises that serve as high-quality seeds for downstream narrative generation.
+  summary_ja: 背景、ペルソナ、イベント、結末、どんでん返しといった解釈可能なナラティブモジュール上で動作する、ストーリー前提（プロットの種）生成のための進化型探索フレームワーク。フィードバック駆動型の突然変異、組み換え、パレート誘導型選択を用いて、下流の物語生成のための高品質なシードとなる、独創的で一貫性のあるストーリー前提を生成します。
+  date_added: '2026-08-22'
+  source: agent
+  arxiv_id: '2608.12336'
 - id: all-stories-are-one-story-d63c30
   title: All Stories Are One Story
   area: text-design
@@ -33070,6 +33097,51 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2505.03547'
+- id: collabstory-multi-llm-collaborative-story-generation-and-aut-206529
+  title: 'CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.12665
+    github: https://github.com/saranya-venkatraman/CollabStory
+  authors:
+  - Saranya Venkatraman
+  - Nafis Irtiza Tripto
+  - Dongwon Lee
+  year: 2024
+  tags:
+  - dataset
+  - llm
+  - multi-agent
+  - story-generation
+  summary: A framework and dataset for multi-LLM collaborative story generation, where multiple language models (such as Gemma, OLMo, Orca, Llama, and Mistral) sequentially generate segments of a creative story. It enables the study of collaborative narrative generation, authorship attribution, and credit assignment in machine-generated content.
+  summary_ja: 複数の大規模言語モデル（Gemma、OLMo、Orca、Llama、Mistralなど）がシーケンシャルに物語のセグメントを生成する、マルチLLM協調ストーリー生成フレームワークおよびデータセット。共同でのナラティブ生成、著者帰属、およびクレジット割り当ての研究を可能にします。
+  date_added: '2026-08-22'
+  source: agent
+  arxiv_id: '2406.12665'
+  repo: saranya-venkatraman/collabstory
+- id: guiding-and-diversifying-llm-based-story-generation-via-answ-efa77c
+  title: Guiding and Diversifying LLM-Based Story Generation via Answer Set Programming
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.00554
+  authors:
+  - Phoebe J. Wang
+  - Max Kreminski
+  year: 2024
+  tags:
+  - asp
+  - neuro-symbolic
+  - planning
+  - story-generation
+  summary: A hybrid neuro-symbolic approach that uses Answer Set Programming (ASP) to generate diverse story outlines under logical constraints, which are then expanded into full narratives by a Large Language Model (LLM). This method ensures structural coherence and plot diversity in AI-generated stories.
+  summary_ja: Answer Set Programming (ASP) を用いて論理的制約の下で多様なストーリーのアウトラインを生成し、それを大規模言語モデル（LLM）で完全な物語へと拡張するハイブリッドなニューロシンボリック手法。AI生成ストーリーにおける構造的一貫性とプロットの多様性を保証します。
+  date_added: '2026-08-22'
+  source: agent
+  arxiv_id: '2406.00554'
 - id: pangea-c0d0fb
   title: PANGeA
   area: text-design
@@ -33473,6 +33545,27 @@ entries:
   date_added: '2026-06-27'
   source: agent
   arxiv_id: '2507.07203'
+- id: symbolically-scaffolded-play-designing-role-sensitive-prompt-d917ba
+  title: 'Symbolically Scaffolded Play: Designing Role-Sensitive Prompts for Generative NPC Dialogue'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.25820
+  authors:
+  - Vanessa Figueiredo
+  - David Elumeze
+  year: 2025
+  tags:
+  - dialogue
+  - llm
+  - npc
+  - prompt-engineering
+  summary: Investigates the impact of prompt constraints on generative NPC dialogue using a voice-based detective game, proposing "Symbolically Scaffolded Play" to balance narrative stability and improvisational believability.
+  summary_ja: 音声ベースの推理ゲームを用いて、プロンプトの制約が生成型NPCの会話に与える影響を調査し、物語の安定性と即興の信憑性のバランスをとる「Symbolically Scaffolded Play」フレームワークを提案。
+  date_added: '2026-08-22'
+  source: agent
+  arxiv_id: '2510.25820'
 - id: a-survey-on-large-language-model-based-game-agents-f70423
   title: A Survey on Large Language Model-Based Game Agents
   area: text-design
