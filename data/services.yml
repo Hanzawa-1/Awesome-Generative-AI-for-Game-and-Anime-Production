@@ -208,6 +208,22 @@ entries:
   thumbnail: assets/thumbnails/plask-fcd31c.png
   date_added: '2026-06-22'
   source: agent
+- id: unreal-engine-ik-retargeter-8501d8
+  title: Unreal Engine IK Retargeter
+  area: animation
+  task: motion-retargeting
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/en-us/unreal-engine/retargeting-bipeds-with-ik-rig-in-unreal-engine
+  year: 2022
+  tags:
+  - animation-transfer
+  - ik-rig
+  - unreal-engine
+  summary: A built-in animation retargeting tool in Unreal Engine 5 that allows developers to transfer animations between characters with different skeletal hierarchies and proportions using IK Rigs.
+  summary_ja: Unreal Engine 5に組み込まれたアニメーションリターゲットツール。IKリグを使用することで、異なる骨格階層やプロポーションを持つキャラクター間でアニメーションを相互に転送できます。
+  date_added: '2026-08-24'
+  source: agent
 - id: rokoko-studio-2b0932
   title: Rokoko Studio
   area: animation
@@ -277,6 +293,21 @@ entries:
   thumbnail: assets/thumbnails/cascadeur-b525d1.png
   date_added: '2026-06-13'
   source: seed
+- id: puppetmaster-af2b06
+  title: PuppetMaster
+  area: animation
+  task: procedural-animation
+  kind: proprietary
+  links:
+    website: http://root-motion.com/
+  year: 2015
+  tags:
+  - behavior
+  - procedural
+  summary: An advanced physics-based ragdoll and procedural animation tool for Unity that allows developers to animate ragdolls, create biped ragdolls, and simulate realistic physical interactions.
+  summary_ja: Unity向けの高度な物理ベースのラグドールおよびプロシージャルアニメーションツール。ラグドールのアニメーション化、二足歩行ラグドールの作成、リアルな物理的相互作用のシミュレーションを可能にします。
+  date_added: '2026-08-24'
+  source: agent
 - id: naturalmotion-euphoria-ca6c50
   title: NaturalMotion Euphoria
   area: animation

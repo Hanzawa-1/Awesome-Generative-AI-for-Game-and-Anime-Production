@@ -139,6 +139,35 @@ entries:
   source: agent
   arxiv_id: '2501.01798'
   repo: joy-mm/joygen
+- id: livatar-1-real-time-talking-heads-generation-with-tailored-f-07ad28
+  title: 'Livatar-1: Real-Time Talking Heads Generation with Tailored Flow Matching'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.18649
+    website: https://h-liu1997.github.io/Livatar-1/
+  authors:
+  - Haiyang Liu
+  - Xiaolin Hong
+  - Xuancheng Yang
+  - Yudi Ruan
+  - Xiang Lian
+  - Michael Lingelbach
+  - Hongwei Yi
+  - Wei Li
+  year: 2025
+  tags:
+  - flow-matching
+  - lip-sync
+  - real-time
+  - talking-head
+  summary: A real-time audio-driven talking head generation framework based on flow matching, designed to address limited lip-sync accuracy and long-term pose drift.
+  summary_ja: フローマッチングに基づき、リップシンクの精度制限や長期的なポーズのドリフト（ズレ）を解消するリアルタイム音声駆動型発話頭部生成フレームワーク。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2507.18649'
+  repo: livatar-1/livatar-1
 - id: synctalk-high-fidelity-and-efficient-synchronized-talking-he-4f6d24
   title: 'SyncTalk++: High-Fidelity and Efficient Synchronized Talking Heads Synthesis Using Gaussian Splatting'
   area: animation
@@ -247,6 +276,34 @@ entries:
   source: agent
   arxiv_id: '2405.03121'
   repo: x-lance/anitalker
+- id: ditto-motion-space-diffusion-for-controllable-realtime-talki-0b1741
+  title: 'Ditto: Motion-Space Diffusion for Controllable Realtime Talking Head Synthesis'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.19509
+    github: https://github.com/antgroup/ditto-talkinghead
+    hf: https://huggingface.co/digital-avatar/ditto-talkinghead
+    website: https://digital-avatar.github.io/ai/Ditto/
+  authors:
+  - Tianqi Li
+  - Ruobing Zheng
+  - Weipeng Wu
+  - Yuming Li
+  - Chenguang Ma
+  year: 2024
+  tags:
+  - diffusion
+  - lip-sync
+  - real-time
+  - talking-head
+  summary: A motion-space diffusion model designed for controllable, real-time talking head synthesis, achieving high-fidelity lip-sync and facial expressions with low latency.
+  summary_ja: 低遅延で高精度なリップシンクと表情を実現する、制御可能でリアルタイムな発話頭部合成向けモーション空間拡散モデル。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2411.19509'
+  repo: antgroup/ditto-talkinghead
 - id: echomimic-af8394
   title: EchoMimic
   area: animation
@@ -916,6 +973,31 @@ entries:
   source: agent
   arxiv_id: '2503.15831'
   repo: bbldcver/eden
+- id: hierarchical-flow-diffusion-for-efficient-frame-interpolatio-6bbfcf
+  title: Hierarchical Flow Diffusion for Efficient Frame Interpolation
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.00380
+    website: https://hfd-interpolation.github.io/
+  authors:
+  - Yang Hai
+  - Rui Song
+  - Jiaojiao Li
+  - Yinlin Hu
+  year: 2025
+  tags:
+  - diffusion
+  - efficiency
+  - optical-flow
+  - video-interpolation
+  summary: A video frame interpolation method that models bilateral optical flow explicitly using hierarchical diffusion models. By reducing the search space in the denoising procedure and using a flow-guided image synthesizer, it achieves state-of-the-art accuracy while being over 10 times faster than previous diffusion-based methods.
+  summary_ja: 階層的拡散モデルを用いて双方向オプティカルフローを明示的にモデリングするビデオフレーム補間手法。デノイジング処理における探索空間を縮小し、フロー誘導型の画像シンセサイザーを使用することで、従来の拡散ベースの手法よりも10倍以上高速でありながら、最先端の精度を達成しています。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2504.00380'
+  repo: hfd-interpolation/hfd-interpolation.github.io
 - id: mog-vfi-9991a5
   title: MoG-VFI
   area: animation
@@ -1206,6 +1288,25 @@ entries:
   source: agent
   arxiv_id: '2311.08007'
   repo: zzh-tech/interpany-clearer
+- id: joint-stroke-tracing-and-correspondence-for-2d-animation-acd872
+  title: Joint Stroke Tracing and Correspondence for 2D Animation
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    github: https://github.com/MarkMoHR/JoSTC
+    project: https://markmohr.github.io/JoSTC/
+  year: 2024
+  tags:
+  - 2d-animation
+  - inbetweening
+  - stroke-correspondence
+  - vector-animation
+  summary: A joint stroke tracing and correspondence framework for 2D animation inbetweening. It takes consecutive raster keyframes and a single vector drawing from the starting keyframe as inputs, generating vector images for the remaining keyframes with one-to-one stroke correspondence compatible with standard 2D animation workflows.
+  summary_ja: 2Dアニメーションの中割り（インビトウィーニング）のための、ストロークトレーシングと対応関係の共同フレームワーク。連続するラスタキーフレームと開始キーフレームの単一のベクター描画を入力とし、標準的な2Dアニメーションワークフローと互換性のある、1対1のストローク対応を持つベクター画像を生成します。
+  date_added: '2026-08-24'
+  source: agent
+  repo: markmohr/jostc
 - id: ldmvfi-5896d7
   title: LDMVFI
   area: animation
@@ -2448,6 +2549,33 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2508.08241'
+- id: diffuse-cloc-guided-diffusion-for-physics-based-character-lo-1230d4
+  title: 'Diffuse-CLoC: Guided Diffusion for Physics-based Character Look-ahead Control'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.11801
+    paper: https://arxiv.org/pdf/2503.11801
+  authors:
+  - Xiaoyu Huang
+  - Takara Truong
+  - Yunbo Zhang
+  - Fangzhou Yu
+  - Jean Pierre Sleiman
+  - Jessica Hodgins
+  - Koushil Sreenath
+  - Farbod Farshidian
+  year: 2025
+  tags:
+  - character-control
+  - diffusion
+  - physics
+  summary: Proposes a guided diffusion framework for physics-based look-ahead control that models the joint distribution of states and actions, enabling steerable, physically realistic motion generation for long-horizon tasks like obstacle avoidance.
+  summary_ja: 状態と行動の共同分布をモデル化する、物理ベースの先読み制御のためのガイド付き拡散フレームワークを提案し、障害物回避などの長期タスクにおいて、操縦可能で物理的にリアルな動作生成を可能にします。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2503.11801'
 - id: hil-hybrid-imitation-learning-for-dynamic-athletic-control-fcdb03
   title: 'HIL: Hybrid Imitation Learning for Dynamic Athletic Control'
   area: animation
@@ -3032,6 +3160,35 @@ entries:
   date_added: '2026-06-15'
   source: agent
   arxiv_id: '2104.02180'
+- id: everanimate-minute-scale-human-animation-via-latent-flow-res-95cd2c
+  title: 'EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.15042
+    github: https://github.com/vita-epfl/EverAnimate
+    project: https://everanimate.github.io/homepage/
+  authors:
+  - Wuyang Li
+  - Yang Gao
+  - Mariam Hassan
+  - Lan Feng
+  - Wentao Pan
+  - Po-Chien Luan
+  - Alexandre Alahi
+  year: 2026
+  tags:
+  - flow-matching
+  - human-animation
+  - long-video
+  - pose-guided
+  summary: An efficient post-training method for long-horizon animated video generation that preserves visual quality and character identity. It introduces Persistent Latent Propagation to maintain context memory across chunks and Restorative Flow Matching to improve within-chunk fidelity, enabling minute-scale human animation.
+  summary_ja: 視覚的品質とキャラクターのアイデンティティを維持しながら、長時間のアニメーションビデオを生成する効率的な事後学習手法。チャンク間でコンテキストメモリを伝播するPersistent Latent Propagationと、チャンク内の忠実度を向上させるRestorative Flow Matchingを導入し、分単位の人物アニメーションを可能にする。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2605.15042'
+  repo: vita-epfl/everanimate
 - id: liveanimate-9b4165
   title: LiveAnimate
   area: animation
@@ -3208,6 +3365,36 @@ entries:
   source: agent
   arxiv_id: '2508.09454'
   repo: lucaria-academy/animate-x-plusplus
+- id: animateanywhere-rouse-the-background-in-human-image-animatio-c344d2
+  title: 'AnimateAnywhere: Rouse the Background in Human Image Animation'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.19834
+    github: https://github.com/liuxiaoyu1104/AnimateAnywhere
+    project: https://animateanywhere.github.io/
+  authors:
+  - Xiaoyu Liu
+  - Mingshuai Yao
+  - Yabo Zhang
+  - Xianhui Lin
+  - Peiran Ren
+  - Xiaoming Li
+  - Ming Liu
+  - Wangmeng Zuo
+  year: 2025
+  tags:
+  - background-motion
+  - cogvideox
+  - human-animation
+  - pose-guided
+  summary: A human image animation framework built on CogVideoX that generates realistic videos with synchronized motion of both the human and the background. It introduces a Background Motion Learner (BML) to infer background motion from human pose sequences without requiring camera trajectories.
+  summary_ja: CogVideoXをベースにした人物画像アニメーションフレームワーク。カメラの軌跡を必要とせず、人物のポーズシーケンスから背景の動きを推測するBackground Motion Learner（BML）を導入し、人物と背景の両方が同期して動くリアルなビデオを生成する。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2504.19834'
+  repo: liuxiaoyu1104/animateanywhere
 - id: dynamictrl-b22508
   title: DynamiCtrl
   area: animation
@@ -4989,6 +5176,33 @@ entries:
   source: agent
   arxiv_id: '2409.17686'
   repo: openmotionlab/motiongpt3
+- id: motionlcm-real-time-controllable-motion-generation-via-laten-bda2dd
+  title: 'MotionLCM: Real-time Controllable Motion Generation via Latent Consistency Model'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.19759
+    github: https://github.com/Dai-Wenxun/MotionLCM
+  authors:
+  - Wenxun Dai
+  - Ling-Hao Chen
+  - Jingbo Wang
+  - Jinpeng Liu
+  - Bo Dai
+  - Yansong Tang
+  year: 2024
+  tags:
+  - consistency-model
+  - motion-generation
+  - real-time
+  - text-to-motion
+  summary: Introduces a real-time controllable text-to-motion generation framework based on latent consistency models, enabling high-quality 3D human motion synthesis in just a few denoising steps.
+  summary_ja: 潜在整合モデル（Latent Consistency Model）に基づくリアルタイムで制御可能なテキストからのモーション生成フレームワークを提案し、わずか数ステップのデノイジングで高品質な3D人間の動作合成を可能にします。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2404.19759'
+  repo: dai-wenxun/motionlcm
 - id: parco-part-coordinating-text-to-motion-synthesis-ce3278
   title: 'ParCo: Part-Coordinating Text-to-Motion Synthesis'
   area: animation
@@ -5387,6 +5601,33 @@ entries:
   date_added: '2026-06-15'
   source: agent
   repo: ammarkov/sam3dbody-cpp
+- id: sam4dcap-training-free-biomechanical-twin-system-from-monocu-7c2dcc
+  title: 'SAM4Dcap: Training-free Biomechanical Twin System from Monocular Video'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.13760
+    github: https://github.com/wanglihx/SAM4Dcap-core
+  authors:
+  - Li Wang
+  - HaoYu Wang
+  - Xi Chen
+  - ZeKun Jiang
+  - Kang Li
+  - Jian Li
+  year: 2026
+  tags:
+  - biomechanics
+  - mocap
+  - monocular
+  - pose-estimation
+  summary: An open-source, training-free biomechanical twin system that estimates 3D human pose and biomechanical metrics from monocular video.
+  summary_ja: 単眼ビデオから3D人体ポーズとバイオメカニクス指標を推定する、オープンソースでトレーニング不要のバイオメカニカルツインシステム。
+  date_added: '2026-08-24'
+  source: agent
+  arxiv_id: '2602.13760'
+  repo: wanglihx/sam4dcap-core
 - id: mocapanything-009a21
   title: MoCapAnything
   area: animation
