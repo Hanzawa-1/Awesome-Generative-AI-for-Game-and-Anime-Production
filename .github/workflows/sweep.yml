@@ -24,6 +24,9 @@ on:
 
 permissions:
   contents: write
+  # Needed for the "Trigger Pages deploy" step: creating a workflow_dispatch
+  # event with GITHUB_TOKEN requires the actions scope.
+  actions: write
 
 concurrency:
   group: catalog-sweep
