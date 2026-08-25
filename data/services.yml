@@ -650,6 +650,22 @@ entries:
   summary_ja: ゲーム開発者やアニメーター向けに設計されたプロシージャルオーディオツール群（DSP Action、DSP Anime、DSP Motion、DSP Retroなど）であり、描画操作や合成パラメータの調整によって、ダイナミックでカスタマイズ可能な効果音を生成できる。
   date_added: '2026-08-04'
   source: agent
+- id: tsugi-dsp-suite-0e53d9
+  title: Tsugi DSP Suite
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/
+  year: 2021
+  tags:
+  - anime-production
+  - procedural-audio
+  - sound-effects
+  summary: A suite of procedural sound design tools including DSP Anime, DSP Action, DSP Fantasy, and DSP Sci-Fi. It uses advanced mathematical models to generate highly customizable, dynamic sound effects for games, animations, and visual novels without relying on static sample libraries.
+  summary_ja: DSP Anime、DSP Action、DSP Fantasy、DSP Sci-Fiなどを含むプロシージャル音響デザインツールのスイート。静的なサンプルライブラリに依存せず、高度な数理モデルを用いて、ゲーム、アニメ、ビジュアルノベル向けの高度にカスタマイズ可能でダイナミックな効果音を生成します。
+  date_added: '2026-08-25'
+  source: agent
 - id: dsp-motion-69f65e
   title: DSP Motion
   area: audio

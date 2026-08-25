@@ -6656,6 +6656,32 @@ entries:
   source: agent
   arxiv_id: '2409.00587'
   repo: feizc/fluxmusic
+- id: instruct-musicgen-9739cb
+  title: Instruct-MusicGen
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.18386
+    github: https://github.com/ldzhangyx/instruct-MusicGen
+  authors:
+  - Yixiao Zhang
+  - Ziyu Wang
+  - Xingjian Du
+  - Xuan Zhang
+  - Suhang Zhou
+  - Gus Xia
+  year: 2024
+  tags:
+  - diffusion
+  - music-editing
+  - music-generation
+  summary: An instruction-tuned music language model based on MusicGen that enables controllable text-to-music editing, such as adding, removing, or separating musical instruments and stems, while preserving the original audio structure.
+  summary_ja: MusicGenをベースにした指示チューニング型音楽言語モデル。元のオーディオ構造を維持しながら、楽器やステムの追加、削除、分離などのテキスト指示による高度な音楽編集を可能にする。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2405.18386'
+  repo: ldzhangyx/instruct-musicgen
 - id: jasco-1444cf
   title: JASCO
   area: audio
@@ -6684,6 +6710,29 @@ entries:
   source: agent
   arxiv_id: '2406.10970'
   repo: facebookresearch/audiocraft
+- id: multi-track-musicldm-4d5b00
+  title: Multi-Track MusicLDM
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.02845
+    github: https://github.com/karchkha/mt-musicldm
+    project: https://mt-musicldm.github.io/
+  authors:
+  - Karchkha
+  - et al.
+  year: 2024
+  tags:
+  - diffusion
+  - multi-track
+  - music-generation
+  summary: An extension of the MusicLDM latent diffusion model designed for multi-track music generation, allowing the synthesis of aligned individual instrument stems (e.g., drums, bass, melody) rather than just a single mixed audio track.
+  summary_ja: MusicLDM潜在拡散モデルをマルチトラック生成向けに拡張したモデル。単一のミックス音源だけでなく、ドラム、ベース、メロディなどの同期した個別楽器ステムの合成を可能にする。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2409.02845'
+  repo: karchkha/mt-musicldm
 - id: stable-audio-adda79
   title: Stable Audio
   area: audio
@@ -7237,6 +7286,26 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: prabal-rje/latentscore
+- id: a-text-steerable-instrument-for-sketching-procedural-soundsc-abc29f
+  title: A Text-Steerable Instrument for Sketching Procedural Soundscapes via Language Models
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.00309
+    paper: https://arxiv.org/pdf/2607.00309
+  authors:
+  - Prabal Gupta
+  year: 2026
+  tags:
+  - llm-steering
+  - procedural-audio
+  - sound-synthesis
+  summary: A real-time musical interface that converts natural-language scene descriptions into evolving procedural soundscapes. It generates human-readable parameter configurations over a categorical schema for a procedural synthesizer, allowing fine-grained control and seamless crossfading without audio interruption.
+  summary_ja: 自然言語によるシーン記述を、リアルタイムに変化するプロシージャルな音響空間へと変換する音楽インターフェース。プロシージャル・シンセサイザー向けの人間が読めるパラメータ構成を生成し、音を途切れさせることなく、きめ細かな制御とシームレスなクロスフェードを可能にします。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2607.00309'
 - id: quality-audio-prototyping-quap-59371e
   title: Quality Audio Prototyping (QuAP)
   area: audio
@@ -7753,6 +7822,41 @@ entries:
   date_added: '2026-06-16'
   source: agent
   repo: thestk/stk
+- id: controlfoley-unified-and-controllable-video-to-audio-generat-2ba470
+  title: 'ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.15086
+    github: https://github.com/xiaomi-research/controlfoley
+    project: https://yjx-research.github.io/ControlFoley/
+  authors:
+  - Jianxuan Yang
+  - Xinyue Guo
+  - Zhi Cheng
+  - Kai Wang
+  - Lipan Zhang
+  - Jinjie Hu
+  - Qiang Ji
+  - Yihua Cao
+  - Yihao Meng
+  - Zhaoyue Cui
+  - Mengmei Liu
+  - Meng Meng
+  - Jian Luan
+  year: 2026
+  tags:
+  - foley
+  - multimodal
+  - sfx
+  - video-to-audio
+  summary: A unified and controllable multimodal video-to-audio (V2A) generation framework that enables precise control over generated sound effects using video, text, and reference audio, with robust handling of cross-modal conflicts.
+  summary_ja: ビデオ、テキスト、参照オーディオを用いて、生成される効果音を精密に制御できる、統一された制御可能な多モーダルビデオ・オーディオ（V2A）生成フレームワーク。クロスモーダルな競合を堅牢に処理する。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2604.15086'
+  repo: xiaomi-research/controlfoley
 - id: dasheng-audiogen-a-unified-model-for-generating-coherent-aud-bdae93
   title: 'Dasheng AudioGen: A Unified Model for Generating Coherent Audio Scenes from Text'
   area: audio
