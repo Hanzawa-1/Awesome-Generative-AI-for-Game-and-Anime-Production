@@ -6361,6 +6361,52 @@ entries:
   source: agent
   arxiv_id: '2601.10547'
   repo: heartmula/heartlib
+- id: minimax-music-3-0-5b2608
+  title: MiniMax Music 3.0
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/MiniMax-AI/MiniMax-Music3
+    website: https://minimax-ai.github.io/music3-demo/
+  year: 2026
+  tags:
+  - bgm
+  - music-generation
+  - text-to-music
+  summary: A high-performance open-weights music generation model capable of creating complete, structurally coherent songs up to five minutes long. It combines an 8B Global LLM for long-range musical structure, a 0.6B Local LLM for frame-level acoustic detail, and a continuous hidden-state synthesis system based on Flow Matching and Flow-VAE.
+  summary_ja: 最大5分間の完全で構造的に一貫した楽曲を作成できる、高性能なオープンウェイトの音楽生成モデル。長期的な音楽構造をモデル化する8B Global LLM、フレームレベルの音響詳細を処理する0.6B Local LLM、およびFlow MatchingとFlow-VAEに基づく連続的な隠れ状態合成システムを組み合わせています。
+  date_added: '2026-08-25'
+  source: agent
+  repo: minimax-ai/minimax-music3
+- id: muse-5455b4
+  title: Muse
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.03973
+    github: https://github.com/yuhui1038/Muse
+  authors:
+  - Changhao Jiang
+  - Jiahao Chen
+  - Zhenghao Xiang
+  - Zhixiong Yang
+  - Hanchen Wang
+  - Jiabao Zhuang
+  - Xinmeng Che
+  - Jiajun Sun
+  year: 2026
+  tags:
+  - music-generation
+  - open-source
+  - song-generation
+  summary: A fully open-source system for long-form song generation with fine-grained style conditioning, designed to address the reproducibility gap in academic music generation. It includes a licensed synthetic dataset, training and evaluation pipelines, and an easy-to-deploy song generation model.
+  summary_ja: 学術的な音楽生成における再現性のギャップを解消するために設計された、きめ細かなスタイル調整機能を備えたロングフォーム楽曲生成用の完全オープンソースシステム。ライセンス済みの合成データセット、トレーニングおよび評価パイプライン、そしてデプロイが容易な楽曲生成モデルが含まれています。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2601.03973'
+  repo: yuhui1038/muse
 - id: stable-audio-3-71daf4
   title: Stable Audio 3
   area: audio
@@ -7306,6 +7352,45 @@ entries:
   date_added: '2026-08-25'
   source: agent
   arxiv_id: '2607.00309'
+- id: helixworld-real-time-interactive-audio-visual-world-model-cbea51
+  title: 'HelixWorld: Real-Time Interactive Audio-Visual World Model'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/NoizAI/HelixWorld
+  year: 2026
+  tags:
+  - interactive
+  - spatial-audio
+  - world-model
+  summary: A real-time interactive audio-visual world model that generates 24 FPS video and 48kHz stereo audio together from a single native Transformer. It updates both the visual scene and the spatial sound field (including azimuth, distance, and reverb) dynamically based on the user's camera movement and navigation.
+  summary_ja: 単一のネイティブTransformerから24 FPSのビデオと48kHzのステレオオーディオを同時に生成する、リアルタイムでインタラクティブな音響・映像世界モデル。ユーザーのカメラの動きやナビゲーションに基づいて、視覚的なシーンと空間音場（方位角、距離、残響など）の両方を動的に更新する。
+  date_added: '2026-08-25'
+  source: agent
+  repo: noizai/helixworld
+- id: plaud-performative-latents-and-unsupervised-ddsp-d006dc
+  title: 'PLAUD: Performative Latents and Unsupervised DDSP'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.13724
+    github: https://github.com/blazejkotowski/plaud
+  authors:
+  - Błażej Kotowski
+  - Frederic Font
+  year: 2026
+  tags:
+  - ddsp
+  - real-time
+  - synthesis
+  summary: A modular PyTorch framework for Differentiable Digital Signal Processing (DDSP) that targets small, personal datasets and emphasizes playability, modularity, and real-time use. It features an explicit ControlSpace, modular synthesizer routing, and an optional transformer-based Prior model for generative control.
+  summary_ja: 小規模な個人用データセットを対象とし、演奏性、モジュール性、リアルタイム性を重視した微分可能デジタル信号処理（DDSP）用のモジュール式PyTorchフレームワーク。明示的なControlSpace、モジュール式シンセサイザーのルーティング、および生成制御のためのオプションのトランスフォーマーベースのPriorモデルを備えている。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2608.13724'
+  repo: blazejkotowski/plaud
 - id: quality-audio-prototyping-quap-59371e
   title: Quality Audio Prototyping (QuAP)
   area: audio
@@ -7440,6 +7525,30 @@ entries:
   date_added: '2026-07-28'
   source: agent
   arxiv_id: '2505.16195'
+- id: texstat-a-statistics-driven-differentiable-approach-for-soun-ac0786
+  title: 'TexStat: A Statistics-Driven Differentiable Approach for Sound Texture Synthesis'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.04073
+    github: https://github.com/cordutie/texstat
+  authors:
+  - Esteban Gutiérrez
+  - Frederic Font
+  - Xavier Serra
+  - Lonce Wyse
+  year: 2025
+  tags:
+  - loss-function
+  - sound-texture
+  - synthesis
+  summary: A perceptually-motivated audio feature extraction library for texture sounds implemented in PyTorch. It can be used both as a differentiable loss function for training generative models (such as GANs, VAEs, and diffusion models) and as an evaluation metric for assessing audio quality and similarity.
+  summary_ja: PyTorchで実装された、知覚的に動機付けられた音響テクスチャ用の特徴量抽出ライブラリ。GAN、VAE、拡散モデルなどの生成モデルを訓練するための微分可能な損失関数として、また音質の評価や類似性を測定するための評価指標としての両方に使用できる。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2506.04073'
+  repo: cordutie/texstat
 - id: cmajor-6629b2
   title: Cmajor
   area: audio
@@ -7958,6 +8067,27 @@ entries:
   source: agent
   arxiv_id: '2604.01929'
   repo: sonyresearch/woosh
+- id: audio-palette-a-diffusion-transformer-with-multi-signal-cond-b7152e
+  title: 'Audio Palette: A Diffusion Transformer with Multi-Signal Conditioning for Controllable Foley Synthesis'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.12175
+    website: https://junnuowang.com/audio-palette
+  authors:
+  - Junnuo Wang
+  year: 2025
+  tags:
+  - controllable
+  - diffusion
+  - foley
+  - sfx
+  summary: An extension of the Stable Audio Open architecture that introduces four time-varying acoustic control signals (loudness, pitch, spectral centroid, and timbre) for fine-grained, artist-centric Foley synthesis.
+  summary_ja: Stable Audio Openアーキテクチャを拡張し、4つの時間変化する音響制御信号（ラウドネス、ピッチ、スペクトル重心、音色）を導入することで、アーティスト中心のきめ細かな効果音（Foley）合成を可能にするモデル。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2510.12175'
 - id: dreamfoley-87a529
   title: DreamFoley
   area: audio
@@ -8727,6 +8857,32 @@ entries:
   source: agent
   arxiv_id: '2602.07803'
   repo: soul-ailab/soulx-singer
+- id: vocalrender-435e4b
+  title: VocalRender
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.27768
+    github: https://github.com/pymaster17/VocalRender
+  authors:
+  - Yukun Chen
+  - Tianrui Wang
+  - Zhaoxi Mu
+  - Xinyu Yang
+  - EngSiong Chng
+  year: 2026
+  tags:
+  - diffusion
+  - score-native
+  - singing-synthesis
+  - svs
+  summary: A score-native singing voice synthesis system that directly generates expressive singing from lyrics, MIDI pitches, note values, and tempo without requiring predefined phoneme-level durations or time-aligned acoustic guidance.
+  summary_ja: 事前に定義された音素レベルの音長や時間整合された音響ガイドを必要とせず、歌詞、MIDIピッチ、音符の値、テンポから表現力豊かな歌声を直接生成する、楽譜ネイティブな歌声合成システム。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2607.27768'
+  repo: pymaster17/vocalrender
 - id: yingmusic-singer-119612
   title: YingMusic-Singer
   area: audio
@@ -8941,6 +9097,35 @@ entries:
   date_added: '2026-06-23'
   source: agent
   repo: aaronz345/stylesinger
+- id: tcsinger-d39531
+  title: TCSinger
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.15977
+    github: https://github.com/AaronZ345/TCSinger
+  authors:
+  - Yu Zhang
+  - Ziyue Jiang
+  - Ruiqi Li
+  - Changhao Pan
+  - Jinzheng He
+  - Rongjie Huang
+  - Chuxin Wang
+  - Zhou Zhao
+  year: 2024
+  tags:
+  - style-control
+  - style-transfer
+  - svs
+  - zero-shot
+  summary: A zero-shot singing voice synthesis framework designed to generate high-quality singing voices with unseen timbres and styles from audio and text prompts, utilizing multi-level style control.
+  summary_ja: オーディオおよびテキストプロンプトから、未知の音色やスタイル（歌唱法、感情、リズムなど）を持つ高品質な歌声を生成するために設計された、マルチレベルスタイル制御対応のゼロショット歌声合成フレームワーク。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2409.15977'
+  repo: aaronz345/tcsinger
 - id: comospeech-71bb56
   title: CoMoSpeech
   area: audio
@@ -10388,6 +10573,36 @@ entries:
   date_added: '2026-07-07'
   source: agent
   arxiv_id: '2604.17623'
+- id: armo-autoregressive-rigging-for-multi-category-objects-2c5254
+  title: 'ARMO: Autoregressive Rigging for Multi-Category Objects'
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.20663
+    github: https://github.com/ARMO-OmniRig/ARMO-OmniRig.github.io
+    website: https://armo-omnirig.github.io/
+  authors:
+  - Mingze Sun
+  - Shiwei Mao
+  - Keyi Chen
+  - Yurun Chen
+  - Shunlin Lu
+  - Jingbo Wang
+  - Junting Dong
+  - Ruqi Huang
+  year: 2025
+  tags:
+  - autoregressive
+  - omnirig
+  - rigging
+  - skeleton
+  summary: An autoregressive rigging framework that simultaneously predicts both joint positions and connectivity relationships for diverse 3D shapes, trained on the large-scale OmniRig dataset.
+  summary_ja: 多様な3D形状に対して、関節の位置と接続関係を同時に予測する自己回帰型リギングフレームワーク。約8万個のメッシュを含む大規模データセット「OmniRig」で訓練されています。
+  date_added: '2026-08-25'
+  source: agent
+  arxiv_id: '2503.20663'
+  repo: armo-omnirig/armo-omnirig.github.io
 - id: asmr-adaptive-skeleton-mesh-rigging-and-skinning-via-2d-gene-4276a1
   title: 'ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior'
   area: characters

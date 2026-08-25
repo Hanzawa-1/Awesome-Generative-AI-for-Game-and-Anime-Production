@@ -1113,6 +1113,23 @@ entries:
   summary_ja: ゲーム開発者向けに設計されたジェネレーティブAIキャラクター作成プラットフォーム。高品質でゲームにすぐに使用できる3DアバターやNPCを即座に生成、編集、スケールアップできる。
   date_added: '2026-08-11'
   source: agent
+- id: popul8-ec34ff
+  title: Popul8
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://www.didimo.co/popul8
+  year: 2023
+  tags:
+  - avatar
+  - character-generation
+  - game-dev
+  - npc
+  summary: Didimo's AI-powered character creation platform designed for game studios to generate, edit, and manage hundreds of unique, game-ready 3D avatars and NPCs at scale.
+  summary_ja: ゲームスタジオ向けに設計されたDidimoのAI搭載キャラクター作成プラットフォーム。数百のユニークでゲーム対応の3DアバターやNPCを大規模に生成、編集、管理できる。
+  date_added: '2026-08-25'
+  source: agent
 - id: meshcapade-me-dca249
   title: Meshcapade Me
   area: characters
