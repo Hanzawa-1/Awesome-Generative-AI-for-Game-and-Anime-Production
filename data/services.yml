@@ -2363,6 +2363,7 @@ entries:
   - upscaler
   summary: A creative AI suite featuring a powerful real-time upscaler and enhancer capable of upscaling images up to 22K resolution while restoring fine details and textures.
   summary_ja: 微細なディテールやテクスチャを復元しながら、画像を最大22K解像度までアップスケーリングできる強力なリアルタイムアップスケーラーおよびエンハンサーを備えたクリエイティブAIスイート。
+  thumbnail: https://s.krea.ai/KreaOpenGraph2.webp
   date_added: '2026-06-26'
   source: agent
 - id: magnific-ai-282882

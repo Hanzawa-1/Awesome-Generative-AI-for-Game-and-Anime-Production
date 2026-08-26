@@ -3766,6 +3766,7 @@ entries:
   - video-generation
   summary: MimicMotion is a controllable video generation framework that generates high-quality human motion videos of arbitrary length with confidence-aware pose guidance and regional loss amplification.
   summary_ja: MimicMotionは、信頼度を考慮したポーズガイダンスと領域損失の増幅により、任意の長さの高品質な人物モーション動画を生成する制御可能な動画生成フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/tencent/mimicmotion
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2406.19680'
@@ -11932,6 +11933,31 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2601.05722'
+- id: stdgen-a-comprehensive-system-for-semantic-decomposed-3d-cha-80342d
+  title: 'StdGEN++: A Comprehensive System for Semantic-Decomposed 3D Character Generation'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.07660
+  authors:
+  - Yuze He
+  - Yanning Zhou
+  - Wang Zhao
+  - Jingwen Ye
+  - Zhongkai Wu
+  - Ran Yi
+  - Yong-Jin Liu
+  year: 2026
+  tags:
+  - 3d-character
+  - character-generation
+  - semantic-decomposition
+  summary: A comprehensive system built upon a Dual-branch Semantic-aware Large Reconstruction Model (Dual-Branch S-LRM) to generate high-fidelity, semantically decomposed 3D characters from diverse inputs.
+  summary_ja: 2分岐セマンティック認識大型再構成モデル（Dual-Branch S-LRM）に基づいて構築された包括的なシステムであり、多様な入力から高品質でセマンティックに分解された3Dキャラクターを生成します。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2601.07660'
 - id: cartoonalive-059437
   title: CartoonAlive
   area: characters
@@ -12481,6 +12507,37 @@ entries:
   source: agent
   arxiv_id: '2401.01173'
   repo: menyifang/en3d
+- id: motion-avatar-generate-human-and-animal-avatars-with-arbitra-1c69b7
+  title: 'Motion Avatar: Generate Human and Animal Avatars with Arbitrary Motion'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.11286
+    github: https://github.com/steve-zeyu-zhang/MotionAvatar
+  authors:
+  - Zeyu Zhang
+  - Yiran Wang
+  - Biao Wu
+  - Shuo Chen
+  - Zhiyuan Zhang
+  - Shiya Huang
+  - Wenbo Zhang
+  - Meng Fang
+  - Ling Chen
+  - Yang Zhao
+  year: 2024
+  tags:
+  - 3d-avatar
+  - character-generation
+  - motion-synthesis
+  summary: An agent-based framework that integrates 3D avatar generation with motion synthesis, allowing the creation of animatable human and animal characters from text queries.
+  summary_ja: 3Dアバター生成とモーション合成を統合したエージェントベースのフレームワークであり、テキストクエリからアニメーション可能な人間や動物のキャラクターを作成できます。
+  thumbnail: https://opengraph.githubassets.com/1/steve-zeyu-zhang/motionavatar
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2405.11286'
+  repo: steve-zeyu-zhang/motionavatar
 - id: pshuman-7d4bc9
   title: PSHuman
   area: characters
@@ -12960,6 +13017,29 @@ entries:
   source: agent
   arxiv_id: '2602.21100'
   repo: ubisoft/ubisoft-laforge-skullptor
+- id: splat-portrait-generalizing-talking-heads-with-gaussian-spla-a27f0a
+  title: 'Splat-Portrait: Generalizing Talking Heads with Gaussian Splatting'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.18633
+  authors:
+  - Tong Shi
+  - Melonie de Almeida
+  - Daniela Ivanova
+  - Nicolas Pugeault
+  - Paul Henderson
+  year: 2026
+  tags:
+  - 3dgs
+  - portrait-animation
+  - talking-head
+  summary: A 3D talking head generation framework based on 3D Gaussian Splatting that generalizes to unseen identities from a single portrait image, producing high-fidelity 3D head reconstructions and natural animations.
+  summary_ja: 3Dガウシアンスプラッティング（3DGS）に基づき、単一のポートレート画像から未学習の人物に対しても一般化し、高精度な3D頭部復元と自然なトーキングアニメーションを生成するフレームワーク。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2601.18633'
 - id: topos-high-fidelity-and-efficient-industry-grade-3d-head-gen-d278f7
   title: 'TOPOS: High-Fidelity and Efficient Industry-Grade 3D Head Generation'
   area: characters
@@ -13316,6 +13396,31 @@ entries:
   source: agent
   arxiv_id: '2409.16147'
   repo: peizhiyan/gaussian-dejavu
+- id: gaussiantalker-real-time-high-fidelity-talking-head-synthesi-e10c20
+  title: 'GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.16012
+  authors:
+  - Kyusun Cho
+  - Joungbin Lee
+  - Heeji Yoon
+  - Yeobin Hong
+  - Jaehoon Ko
+  - Sangjun Ahn
+  - Seungryong Kim
+  year: 2024
+  tags:
+  - 3dgs
+  - real-time
+  - talking-head
+  summary: A real-time, pose-controllable talking head synthesis framework that deforms a canonical 3D Gaussian Splatting representation in sync with speech audio by encoding Gaussian attributes into a shared implicit feature space.
+  summary_ja: 3Dガウシアンスプラッティング（3DGS）の属性を共有暗黙特徴表現にエンコードし、音声と同期して変形させることで、リアルタイムかつ姿勢制御可能な高忠実度トーキングヘッドを生成するフレームワーク。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2404.16012'
 - id: gghead-fast-and-generalizable-3d-gaussian-heads-683204
   title: 'GGHead: Fast and Generalizable 3D Gaussian Heads'
   area: characters
@@ -13541,6 +13646,33 @@ entries:
   source: agent
   arxiv_id: '2311.18635'
   repo: tobias-kirschstein/diffusion-avatars
+- id: emote-emotional-speech-driven-animation-with-content-emotion-d39b33
+  title: 'EMOTE: Emotional Speech-Driven Animation with Content-Emotion Disentanglement'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.08990
+    github: https://github.com/radekd91/emoca
+  authors:
+  - Radek Daněček
+  - Kiran Chhatre
+  - Shashank Tripathi
+  - Yandong Wen
+  - Michael J. Black
+  - Timo Bolkart
+  year: 2023
+  tags:
+  - emotion-control
+  - facial-animation
+  - talking-head
+  summary: An emotional speech-driven 3D facial animation model that disentangles speech content from emotional expression, enabling explicit control over the expressed emotion while maintaining accurate lip synchronization.
+  summary_ja: 音声コンテンツと感情表現を分離することで、正確なリップシンクを維持しながら、表現する感情を明示的に制御できる感情音声駆動型の3D顔アニメーション生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/radekd91/emoca
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2306.08990'
+  repo: radekd91/emoca
 - id: faceg2e-591871
   title: FaceG2E
   area: characters
@@ -13656,6 +13788,30 @@ entries:
   source: agent
   arxiv_id: '2312.01632'
   repo: chiehwangs/gaussian-head
+- id: emoca-emotion-driven-monocular-face-capture-and-animation-5e4904
+  title: 'EMOCA: Emotion Driven Monocular Face Capture and Animation'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2204.11312
+    github: https://github.com/radekd91/emoca
+  authors:
+  - Radek Daněček
+  - Michael J. Black
+  - Timo Bolkart
+  year: 2022
+  tags:
+  - 3dmm
+  - emotion-capture
+  - face-reconstruction
+  summary: A monocular 3D face reconstruction method that focuses on capturing a wide spectrum of facial expressions and emotional states from in-the-wild images using a novel emotional consistency loss.
+  summary_ja: 感情整合性損失を導入することで、野生の単一画像から多様な表情や感情状態を捉え、高精度な3D顔形状と表情を復元する単眼3D顔キャプチャ技術。
+  thumbnail: https://opengraph.githubassets.com/1/radekd91/emoca
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2204.11312'
+  repo: radekd91/emoca
 - id: spectre-a19fd0
   title: SPECTRE
   area: characters
@@ -13729,6 +13885,33 @@ entries:
   source: agent
   arxiv_id: '2012.04012'
   repo: yaofeng/deca
+- id: a-geodesic-cut-cell-prior-for-neural-skinning-1d352a
+  title: A Geodesic Cut-Cell Prior for Neural Skinning
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.11272
+    website: https://wenchao-m.github.io/CutCell.github.io/
+  authors:
+  - Wenchao Ma
+  - Surya Dwarakanath
+  - Yizhak Ben-Shabat
+  - Dario Kneubühler
+  - Haomiao Jiang
+  - Sharon X. Huang
+  - Hsueh-Ti Derek Liu
+  year: 2026
+  tags:
+  - geodesic
+  - geometric-prior
+  - skinning
+  summary: A geometric prior that approximates volumetric geodesic distances using a fast graph-based cut-cell approach, significantly improving the robustness and quality of data-driven neural skinning models.
+  summary_ja: 高速なグラフベースのカットセル手法を用いて体積測地線距離を近似する幾何学的事前情報であり、データ駆動型ニューラルスキニングモデルの堅牢性と品質を大幅に向上させる。
+  thumbnail: https://wenchao-m.github.io/CutCell.github.io/static/images/teaser.jpg
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2608.11272'
 - id: physkin-physics-based-bone-driven-neural-garment-simulation-1c207f
   title: 'PhySkin: Physics-based Bone-driven Neural Garment Simulation'
   area: characters
@@ -14289,6 +14472,32 @@ entries:
   date_added: '2026-07-29'
   source: agent
   arxiv_id: '2604.20038'
+- id: gem-nr-geometry-aware-multi-view-editing-for-nonrigid-scene-925fe6
+  title: 'GeM-NR: Geometry-Aware Multi-View Editing for Nonrigid Scene Changes'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.05142
+    github: https://github.com/GeM-NR/gemnr
+    website: https://gem-nr.github.io/
+  authors:
+  - Josef Bengtson
+  - Yaroslava Lochman
+  - Fredrik Kahl
+  year: 2026
+  tags:
+  - 3d-editing
+  - geometry-aware
+  - multi-view
+  - nonrigid-editing
+  summary: GeM-NR is a fast, training-free pipeline for general multi-view consistent image and scene editing that supports nonrigid changes. It estimates the geometry of the edited scene, projects the edited point cloud onto new views, and uses warping-based conditioning to maintain multi-view consistency even during drastic structural modifications.
+  summary_ja: GeM-NRは、非剛体変化をサポートする、高速でトレーニング不要なマルチビュー一貫性のある画像およびシーン編集パイプラインです。編集されたシーンのジオメトリを推定し、編集された点群を新しい視点に投影し、ワーピングベースの条件付けを使用することで、劇的な構造変更時でもマルチビューの一貫性を維持します。
+  thumbnail: https://opengraph.githubassets.com/1/gem-nr/gemnr
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2606.05142'
+  repo: gem-nr/gemnr
 - id: godot-mcp-616fca
   title: Godot MCP
   area: gen-3d
@@ -14436,6 +14645,31 @@ entries:
   source: agent
   arxiv_id: '2602.04349'
   repo: bluedyee/vecset-edit
+- id: arap-gs-drag-driven-as-rigid-as-possible-3d-gaussian-splatti-9eebe8
+  title: 'ARAP-GS: Drag-driven As-Rigid-As-Possible 3D Gaussian Splatting Editing with Diffusion Prior'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.12788
+  authors:
+  - Xiao Han
+  - Runze Tian
+  - Yifei Tong
+  - Fenggen Yu
+  - Dingyao Liu
+  - Yan Zhang
+  year: 2025
+  tags:
+  - 3d-editing
+  - deformation
+  - drag-to-edit
+  - gaussian-splatting
+  summary: ARAP-GS is a drag-driven 3D Gaussian Splatting editing framework based on As-Rigid-As-Possible (ARAP) deformation. It applies ARAP deformation directly to 3D Gaussians, enabling flexible, user-guided geometric transformations and shape adjustments while preserving the original appearance and multi-view consistency.
+  summary_ja: ARAP-GSは、As-Rigid-As-Possible（ARAP）変形に基づく、ドラッグ操作による3Dガウシアンスプラッティング（3DGS）編集フレームワークです。ARAP変形を3Dガウシアンに直接適用することで、元の外観とマルチビューの一貫性を維持しながら、柔軟でユーザー主導の幾何学的変換や形状調整を可能にします。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2504.12788'
 - id: drag-your-gaussian-e05d4e
   title: Drag Your Gaussian
   area: gen-3d
@@ -14833,6 +15067,29 @@ entries:
   source: seed
   arxiv_id: '2403.08733'
   repo: activevisionlab/gaussctrl
+- id: gseditpro-3d-gaussian-splatting-editing-with-attention-based-895f1b
+  title: 'GSEditPro: 3D Gaussian Splatting Editing with Attention-based Progressive Localization'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.10033
+  authors:
+  - Shuting Sun
+  - Tianyu He
+  - Lijuan Liu
+  - Zhibo Chen
+  year: 2024
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - localization
+  - text-to-3d
+  summary: GSEditPro is a text-driven 3D scene editing framework based on 3D Gaussian Splatting that integrates attention-based progressive localization and Score Distillation Sampling. It allows users to perform precise, localized geometric and appearance modifications on 3D scenes using text prompts.
+  summary_ja: GSEditProは、アテンションベースの段階的ローカライズとスコア蒸留サンプリング（SDS）を統合した、3Dガウシアンスプラッティングに基づくテキスト駆動型3Dシーン編集フレームワークです。テキストプロンプトを使用して、3Dシーンに対して正確で局所的な幾何学的および外観の変更を行うことができます。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2411.10033'
 - id: instant3dit-multiview-inpainting-for-fast-editing-of-3d-obje-70f6f1
   title: 'Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects'
   area: gen-3d
@@ -14980,6 +15237,35 @@ entries:
   source: agent
   arxiv_id: '2403.10050'
   repo: slothfulxtx/texture-gs
+- id: trame-trajectory-anchored-multi-view-editing-for-text-guided-5f2f7f
+  title: 'TrAME: Trajectory-Anchored Multi-View Editing for Text-Guided 3D Gaussian Splatting Manipulation'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.02034
+    github: https://github.com/luocfprime/TrAME
+  authors:
+  - Chaofan Luo
+  - Donglin Di
+  - Xun Yang
+  - Yongjia Ma
+  - Zhou Xue
+  - Chen Wei
+  - Yebin Liu
+  year: 2024
+  tags:
+  - 3d-editing
+  - consistency
+  - gaussian-splatting
+  - multi-view
+  summary: TrAME introduces a progressive 3D editing strategy for 3D Gaussian Splatting that ensures multi-view consistency using a Trajectory-Anchored Scheme (TAS) and a dual-branch editing mechanism. It tightly couples 2D view editing with 3D updates to prevent error accumulation and maintain high-fidelity visual quality.
+  summary_ja: TrAMEは、軌道アンカー方式（TAS）とデュアルブランチ編集メカニズムを使用してマルチビューの一貫性を保証する、3Dガウシアンスプラッティング（3DGS）向けの段階的な3D編集戦略を提案します。2Dビューの編集と3Dの更新を密に結合することで、エラーの蓄積を防ぎ、高忠実度なビジュアル品質を維持します。
+  thumbnail: https://opengraph.githubassets.com/1/luocfprime/trame
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2407.02034'
+  repo: luocfprime/trame
 - id: free-editor-3c2bfd
   title: Free-Editor
   area: gen-3d
@@ -15273,6 +15559,33 @@ entries:
   source: agent
   arxiv_id: '2602.03045'
   repo: boyuanvisionary/pro-cad
+- id: dualbrep-0aa372
+  title: DualBrep
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.31579
+    github: https://github.com/AutodeskAILab/DualBrep
+  authors:
+  - Yilin Liu
+  - Pradeep Jayaraman
+  - Chinthala Reddy
+  - Xiang Xu
+  - Hooman Shayani
+  year: 2026
+  tags:
+  - b-rep
+  - cad
+  - geometry
+  - topology
+  summary: A generative framework for B-Rep modeling that introduces a dual-field continuous representation to handle the heterogeneous structure of continuous parametric geometry and discrete topological graphs.
+  summary_ja: 連続的なパラメータ幾何学と離散的なトポロジーグラフの不均一な構造を扱うために、デュアルフィールド連続表現を導入したB-Repモデリング用の生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/autodeskailab/dualbrep
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2606.31579'
+  repo: autodeskailab/dualbrep
 - id: hiercad-hierarchical-text-to-cad-design-via-structure-alignm-7b69e1
   title: 'HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding'
   area: gen-3d
@@ -15299,6 +15612,36 @@ entries:
   source: agent
   arxiv_id: '2607.11339'
   repo: collab-gen/hiercad
+- id: hifi-brep-dfca64
+  title: HiFi-BRep
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.16485
+    github: https://github.com/1nnoh/HiFi-BRep
+  authors:
+  - Junhao Hou
+  - Chenqi Luo
+  - Pufan Wang
+  - Jiaying Lu
+  - Yusheng Liu
+  - Feiwei Qin
+  - Meie Fang
+  - Kun Zhou
+  year: 2026
+  tags:
+  - b-rep
+  - cad
+  - cvpr
+  - latent-representation
+  summary: A robust B-Rep generation framework featuring a topology-aware encoder that eliminates padding noise and a single-stage parallel decoder that jointly predicts geometry and topology with differentiable manifold constraints.
+  summary_ja: パディングノイズを排除するトポロジー認識エンコーダと、微分可能な多様体制約を用いて幾何とトポロジーを並列に共同予測するシングルステージデコーダを特徴とする、堅牢なB-Rep生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/1nnoh/hifi-brep
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2608.16485'
+  repo: 1nnoh/hifi-brep
 - id: mamba-cad-1faa08
   title: Mamba-CAD
   area: gen-3d
@@ -15667,6 +16010,36 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2412.11892'
+- id: caddreamer-97b3e1
+  title: CADDreamer
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.20732
+    github: https://github.com/lidan233/CADDreamer
+  authors:
+  - Yuan Li
+  - Cheng Lin
+  - Yuan Liu
+  - Xiaoxiao Long
+  - Chenxu Zhang
+  - Ningna Wang
+  - Xin Li
+  - Wenping Wang
+  year: 2025
+  tags:
+  - b-rep
+  - cad
+  - diffusion
+  - single-view
+  summary: A novel approach for generating boundary representations (B-Rep) of CAD objects from a single-view image using a primitive-aware multi-view diffusion model.
+  summary_ja: プリミティブ認識型のマルチビュー拡散モデルを使用して、単一の画像からCADオブジェクトの境界表現（B-Rep）を生成する新しいアプローチ。
+  thumbnail: https://opengraph.githubassets.com/1/lidan233/caddreamer
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2502.20732'
+  repo: lidan233/caddreamer
 - id: cadfusion-e95459
   title: CADFusion
   area: gen-3d
@@ -19003,6 +19376,35 @@ entries:
   source: agent
   arxiv_id: '2601.22054'
   repo: metric-anything/metric-anything
+- id: vigeo-f85dad
+  title: ViGeo
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.30060
+    github: https://github.com/aigc3d/ViGeo
+  authors:
+  - Zhu Yu
+  - Jingnan Gao
+  - Runmin Zhang
+  - Lingteng Qiu
+  - Zhengyi Zhao
+  - Rui Peng
+  - Yichao Yan
+  - Kejie Qiu
+  year: 2026
+  tags:
+  - depth
+  - normal-map
+  - video-geometry
+  summary: A feed-forward video geometry foundation model that recovers spatially dense and temporally consistent depth, point maps, and surface normals from video sequences.
+  summary_ja: ビデオシーケンスから空間的に高密度で時間的に一貫した深度、ポイントマップ、および表面法線を復元する、フィードフォワード型のビデオジオメトリ基盤モデル。
+  thumbnail: https://opengraph.githubassets.com/1/aigc3d/vigeo
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2605.30060'
+  repo: aigc3d/vigeo
 - id: zipdepth-bringing-lightweight-zero-shot-monocular-depth-anyw-eb09ac
   title: 'ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device'
   area: gen-3d
@@ -19135,6 +19537,7 @@ entries:
   - zero-shot
   summary: A robust monocular depth estimation model fine-tuned from Depth Anything V2, designed to handle diverse and challenging environmental conditions such as low light, adverse weather, and sensor distortions.
   summary_ja: Depth Anything V2を微調整し、低照度、悪天候、センサーの歪みなど、多様で困難な環境条件下でも安定して動作するよう設計された堅牢な単眼深度推定モデル。
+  thumbnail: https://opengraph.githubassets.com/1/hvision-nku/depthanythingac
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2507.01634'
@@ -19222,6 +19625,32 @@ entries:
   source: agent
   arxiv_id: '2504.11427'
   repo: binyr/normalcrafter
+- id: online-video-depth-anything-fc6dfd
+  title: Online Video Depth Anything
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.09182
+    github: https://github.com/FriedFeid/OnlineVideoDepthAnything
+  authors:
+  - Johann-Friedrich Feiden
+  - Tim Küchler
+  - Denis Zavadski
+  - Bogdan Savchynskyy
+  - Carsten Rother
+  year: 2025
+  tags:
+  - depth
+  - online-inference
+  - video-depth
+  summary: An online video depth estimation framework based on Video Depth Anything that achieves temporally consistent depth prediction with low memory consumption by caching latent features.
+  summary_ja: Video Depth Anythingをベースにし、潜在特徴量をキャッシュすることで低メモリ消費かつ時間的に一貫した深度予測を実現するオンラインビデオ深度推定フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/friedfeid/onlinevideodepthanything
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2510.09182'
+  repo: friedfeid/onlinevideodepthanything
 - id: unidepthv2-5e9284
   title: UniDepthV2
   area: gen-3d
@@ -20101,6 +20530,7 @@ entries:
   - world-model
   summary: A generative framework for 3D and 4D scene reconstruction that distills implicit 3D knowledge from camera-controlled video diffusion models into explicit 3D Gaussian Splatting representations. It supports generating explorable 3D environments from text, single images, or monocular videos.
   summary_ja: カメラ制御ビデオ拡散モデルから得られる暗黙的な3D知識を、明示的な3Dガウシアン・スプラッティング（3DGS）表現へと蒸留する3D/4Dシーン再構成フレームワーク。テキスト、単一画像、または単眼ビデオから、探索可能な3D環境の生成を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/nv-tlabs/lyra
   date_added: '2026-07-02'
   source: agent
   arxiv_id: '2509.19296'
@@ -20909,6 +21339,7 @@ entries:
   - skybox
   summary: A framework for generating high-quality 360-degree panoramas using a cubemap representation. It generates the six perspective faces of a cubemap in parallel using pretrained text-to-image diffusion models, ensuring cross-view consistency and seamless transitions without requiring correspondence-aware attention layers.
   summary_ja: キューブマップ表現を使用して高品質な360度パノラマを生成するフレームワーク。事前学習済みのテキスト画像拡散モデルを使用してキューブマップの6つのパースペクティブ面を並行して生成し、対応関係を考慮したアテンション層を必要とせずに、クロスビューの一貫性とシームレスな遷移を保証する。
+  thumbnail: https://opengraph.githubassets.com/1/juan5713/opencubediff
   date_added: '2026-07-02'
   source: agent
   arxiv_id: '2501.17162'
@@ -23596,6 +24027,7 @@ entries:
   - texture
   summary: A coarse-to-fine generative framework that produces high-resolution, lighting-less, and diverse 2K UV texture maps for untextured 3D meshes conditioned on text or image inputs. It generates textures without embedded illumination, allowing them to be re-lighted or re-edited within modern graphics pipelines.
   summary_ja: テキストや画像入力から、照明情報の入っていない高解像度（2K）のUVテクスチャマップを生成する粗から密への生成フレームワーク。ベイクされた照明を含まないため、最新のグラフィックスパイプラインでの再ライティングや編集が容易になります。
+  thumbnail: https://opengraph.githubassets.com/1/opentexture/paint3d
   date_added: '2026-08-13'
   source: agent
   arxiv_id: '2312.13913'
@@ -26593,6 +27025,7 @@ entries:
   - sde
   summary: A foundational image synthesis and editing method that adds noise to a guide image and denoises it using stochastic differential equations to balance realism and faithfulness to user inputs.
   summary_ja: ガイド画像にノイズを加え、確率微分方程式（SDE）を用いてノイズ除去を行うことで、リアリズムとユーザー入力への忠実性のバランスを取る、基礎的な画像合成・編集手法。
+  thumbnail: https://opengraph.githubassets.com/1/ermongroup/sdedit
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2108.01073'
@@ -27256,6 +27689,7 @@ entries:
   - sketch
   summary: A self-supervised, user-guided anime line art colorization system that allows interactive coloring using color hints and style control.
   summary_ja: カラーヒントとスタイル制御を用いたインタラクティブな着色を可能にする、自己教師あり学習ベースのユーザーガイド型アニメ線画着色システム。
+  thumbnail: https://opengraph.githubassets.com/1/yliess86/paintstorch2
   date_added: '2026-07-10'
   source: agent
   repo: yliess86/paintstorch2
@@ -27375,6 +27809,7 @@ entries:
   - sketch-extraction
   summary: A training-free sketch extraction method that leverages diffusion priors and a mixture-of-self-attention mechanism to extract sketches in various artistic styles from color images using a reference sketch.
   summary_ja: 拡散モデルの事前学習モデルを活用し、参照スケッチのスタイルに合わせてカラー画像から多様な芸術的スタイルのスケッチを抽出する、学習不要の参照ベース・スケッチ抽出手法。
+  thumbnail: https://opengraph.githubassets.com/1/rane7/mixsa
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2501.00816'
@@ -29537,6 +29972,7 @@ entries:
   - super-resolution
   summary: A semantics-aware real-world image super-resolution approach that utilizes a degradation-aware prompt extractor to preserve semantic fidelity in diffusion-based upscaling.
   summary_ja: 拡散モデルベースのアップスケーリングにおいて、劣化に強いプロンプト抽出器を用いてセマンティックな忠実度を維持する、意味理解を伴う実世界画像超解像手法。
+  thumbnail: https://opengraph.githubassets.com/1/cswry/seesr
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2311.16518'
@@ -29978,6 +30414,7 @@ entries:
   - open-weights
   summary: A 17B sparse diffusion-transformer text-to-image model released with open weights, targeting state-of-the-art prompt adherence and image quality.
   summary_ja: 170億パラメータの疎な拡散トランスフォーマー型テキスト→画像モデル。オープンウェイトで公開され、最先端のプロンプト忠実度と画質を目指す。
+  thumbnail: https://opengraph.githubassets.com/1/hidream-ai/hidream-i1
   date_added: '2026-06-13'
   source: seed
   repo: hidream-ai/hidream-i1
@@ -30081,6 +30518,7 @@ entries:
   - open-weights
   summary: A compact 2.6B diffusion-transformer text-to-image model using a Gemma-2-2B text encoder, balancing quality and efficiency for accessible high-resolution generation.
   summary_ja: Gemma-2-2Bをテキストエンコーダに用いる、26億パラメータのコンパクトな拡散トランスフォーマー型テキスト→画像モデル。品質と効率を両立し、手軽な高解像度生成を実現する。
+  thumbnail: https://opengraph.githubassets.com/1/alpha-vllm/lumina-image-2.0
   date_added: '2026-06-13'
   source: seed
   repo: alpha-vllm/lumina-image-2.0
@@ -30310,6 +30748,7 @@ entries:
   - text-to-image
   summary: Emu3 is a state-of-the-art native multimodal model suite trained solely with next-token prediction. It tokenizes images, text, and videos into a discrete space, demonstrating powerful text-to-image generation and multimodal understanding capabilities.
   summary_ja: Emu3は、ネクストトークン予測のみで学習された最先端のネイティブマルチモーダルモデル群です。画像、テキスト、動画を離散空間にトークン化し、強力なテキストからの画像生成およびマルチモーダル理解能力を示します。
+  thumbnail: https://opengraph.githubassets.com/1/baaivision/emu3
   date_added: '2026-07-17'
   source: agent
   arxiv_id: '2409.18869'
@@ -30468,6 +30907,7 @@ entries:
   - transformer
   summary: An upgraded version of the Lumina-T2X framework that utilizes Next-DiT to improve text-to-image generation speed and quality. It addresses training instability and extrapolation artifacts while supporting high-resolution generation with Gemma-2B as the text encoder.
   summary_ja: Next-DiTを利用してテキストから画像への生成速度と品質を向上させた、Lumina-T2Xフレームワークのアップグレード版。トレーニングの不安定性や外挿アーティファクトに対処しつつ、Gemma-2Bをテキストエンコーダーとして採用した高解像度生成をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/alpha-vllm/lumina-t2x
   date_added: '2026-07-31'
   source: agent
   arxiv_id: '2406.18583'
@@ -31232,6 +31672,7 @@ entries:
   - manga
   summary: An autonomous AI four-panel manga production system that leverages Gemini and OpenAI APIs to automate the entire process from script writing to panel layout and image generation.
   summary_ja: GeminiおよびOpenAIのAPIを活用し、脚本執筆からコマ割り、画像生成までの全プロセスを自動化する、自律型のAI 4コマ漫画制作システム。
+  thumbnail: https://opengraph.githubassets.com/1/furuyan1234/nano-banana-pro
   date_added: '2026-07-18'
   source: agent
   repo: furuyan1234/nano-banana-pro
@@ -31332,6 +31773,7 @@ entries:
   - workflow
   summary: An open-source AI motion comic, animatic, and video workbench that implements a "Script-to-Asset-to-Keyframe" workflow. It integrates Google Gemini and Veo models to achieve precise control over character consistency, scene continuity, and camera movements.
   summary_ja: 「Script-to-Asset-to-Keyframe（脚本からアセット、そしてキーフレームへ）」のワークフローを実装した、オープンソースのAIモーションコミック・アニマティクス・動画ワークベンチ。Google GeminiおよびVeoモデルを統合し、キャラクターの一貫性、シーンの連続性、およびカメラワークの精密な制御を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/ullrai/cinegen-shortdrama
   date_added: '2026-06-27'
   source: agent
   repo: ullrai/cinegen-shortdrama
@@ -31840,6 +32282,7 @@ entries:
   - typesetting
   summary: An open-source, computer-aided manga and comic translation tool powered by deep learning. It automates text detection, OCR, inpainting (text erasing), machine translation, and typesetting, while offering a rich visual editor to customize text styles and layouts.
   summary_ja: ディープラーニングを活用したオープンソースのコンピュータ支援型漫画・コミック翻訳ツール。テキスト検出、OCR、インペインティング（文字消去）、機械翻訳、写植を自動化し、テキストスタイルやレイアウトをカスタマイズできる豊富なビジュアルエディタを提供します。
+  thumbnail: https://opengraph.githubassets.com/1/dmmaze/ballonstranslator
   date_added: '2026-06-13'
   source: agent
   repo: dmmaze/ballonstranslator
@@ -32722,6 +33165,7 @@ entries:
   - synthesis
   summary: A PyTorch implementation of a screentone synthesis framework that translates line drawings of manga characters into fully screened manga images by selecting and arranging region-wise screentone patterns.
   summary_ja: マンガキャラクターの線画から、領域ごとのスクリーントーンパターンを選択・配置することで、トーンが貼られたマンガ画像を合成するPyTorch実装のスクリーントーン合成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/kktsubota/manga-character-screentone
   date_added: '2026-06-13'
   source: agent
   repo: kktsubota/manga-character-screentone
@@ -32969,6 +33413,7 @@ entries:
   - whisper
   summary: A highly optimized implementation of OpenAI's Whisper model using CTranslate2, delivering up to 4x faster transcription speed with reduced memory usage.
   summary_ja: CTranslate2を使用したOpenAIのWhisperモデルの高度に最適化された実装。メモリ使用量を抑えつつ、最大4倍高速な文字起こしを実現します。
+  thumbnail: https://opengraph.githubassets.com/1/systran/faster-whisper
   date_added: '2026-06-13'
   source: agent
   repo: systran/faster-whisper
@@ -33308,6 +33753,7 @@ entries:
   - toolkit
   summary: A general-purpose game translation project manager and toolkit designed for fan translators, ROM hackers, and game modders to inspect, extract, edit, and rebuild game resources.
   summary_ja: ファン翻訳者やROMハッカー、ゲームモッダー向けに設計された、ゲームリソースの検査、抽出、編集、再構築を行うための汎用ゲーム翻訳プロジェクト管理・ツールキット。
+  thumbnail: https://opengraph.githubassets.com/1/fantranslatorsinternational/kuriimu2
   date_added: '2026-07-11'
   source: agent
   repo: fantranslatorsinternational/kuriimu2
@@ -33328,6 +33774,7 @@ entries:
   - unity
   summary: A highly popular open-source tool that hooks into Unity-based games to provide real-time, on-the-fly text translation using various online and offline translation APIs.
   summary_ja: Unity製ゲームにフックし、様々なオンライン・オフライン翻訳APIを利用してゲーム内テキストをリアルタイムに自動翻訳する非常に人気の高いオープンソースツール。
+  thumbnail: https://opengraph.githubassets.com/1/bbepis/xunity.autotranslator
   date_added: '2026-07-11'
   source: agent
   repo: bbepis/xunity.autotranslator
@@ -33385,6 +33832,7 @@ entries:
   - weblate
   summary: An open-source, web-based continuous localization and translation management platform with tight version control integration. It supports automated machine translation, translation memory, and collaborative workflows for software and game development.
   summary_ja: 強力なバージョン管理システム連携を備えた、オープンソースのWebベース連続ローカライズ・翻訳管理プラットフォーム。自動機械翻訳、翻訳メモリ、ソフトウェアやゲーム開発向けの共同作業ワークフローをサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/weblateorg/weblate
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
@@ -33720,6 +34168,7 @@ entries:
   - quest
   summary: A Python library for automatic non-linear quest generation that allows the creation of nested, non-linear quests with events and constraints based on a world description given as predicates.
   summary_ja: 述語として与えられた世界の説明に基づいて、イベントや制約を持つネストされた非線形クエストを作成できる、自動非線形クエスト生成用のPythonライブラリ。
+  thumbnail: https://opengraph.githubassets.com/1/the-tale/questgen
   date_added: '2026-07-18'
   source: agent
   repo: the-tale/questgen
@@ -34054,6 +34503,7 @@ entries:
   - pruning
   summary: A framework for sculpting lightweight, persona-specific language models from larger generalist models. It reduces computational costs and latency, making it highly suitable for deploying multiple distinct NPC personalities simultaneously on consumer hardware.
   summary_ja: 大規模な汎用言語モデルから、軽量で特定のペルソナに特化した言語モデルを構築するためのフレームワーク。計算コストと遅延を削減し、コンシューマー向けハードウェア上で複数の異なるNPCパーソナリティを同時に展開するのに適しています。
+  thumbnail: https://opengraph.githubassets.com/1/jsu-kim/persona-pruner
   date_added: '2026-07-04'
   source: agent
   arxiv_id: '2606.14695'
@@ -34384,6 +34834,7 @@ entries:
   - unreal-engine
   summary: An Unreal Engine plugin that integrates various LLMs, generative AI models, and Model Context Protocol (MCP) servers to enable agentic NPC dialogue, text-to-speech, and multimodal interactions.
   summary_ja: 各種LLM、生成AIモデル、Model Context Protocol（MCP）サーバーを統合し、エージェント型NPC会話、音声合成、マルチモーダルなインタラクションを可能にするUnreal Engine向けプラグイン。
+  thumbnail: https://opengraph.githubassets.com/1/prajwalshettydev/unrealgenaisupport
   date_added: '2026-06-13'
   source: agent
   repo: prajwalshettydev/unrealgenaisupport
@@ -34956,6 +35407,7 @@ entries:
   - pcg
   summary: A training-free dual-agent architecture that leverages LLM agents for zero-shot PCG parameter configuration. It uses an Orchestrator, an Actor (creative generator), and a Critic (quality evaluator) to bridge the semantic gap between abstract user instructions and complex, opaque PCG parameters.
   summary_ja: 抽象的なユーザー指示と複雑で不透明なPCGパラメータの間のセマンティックギャップを埋めるために、Orchestrator、Actor（創造的生成器）、Critic（品質評価器）を使用する、LLMエージェントを活用したゼロショットPCGパラメータ構成のためのトレーニングフリーなデュアルエージェントアーキテクチャ。
+  thumbnail: https://opengraph.githubassets.com/1/had0yun/zero-shot-3d-map-generation-with-llm-agents
   date_added: '2026-06-21'
   source: agent
   arxiv_id: '2512.10501'
@@ -36484,6 +36936,7 @@ entries:
   - vos
   summary: A video object segmentation architecture designed for long videos, utilizing a multi-store feature memory system inspired by human cognitive memory models to maintain high accuracy and low memory usage.
   summary_ja: 人間の認知メモリモデルに着想を得た複数階層の機能メモリシステムを採用し、高い精度と低いメモリ使用量を維持しながら長時間動画に対応する動画オブジェクトセグメンテーションアーキテクチャ。
+  thumbnail: https://opengraph.githubassets.com/1/hkchengrex/xmem
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2207.07115'
@@ -36901,6 +37354,7 @@ entries:
   - video-generation
   summary: An open-source project aiming to reproduce OpenAI's Sora video generation model, utilizing a 3D Causal VAE and a diffusion transformer architecture to generate high-quality, temporally consistent videos.
   summary_ja: OpenAIのSora動画生成モデルの再現を目指すオープンソースプロジェクト。3D Causal VAEとDiffusion Transformerアーキテクチャを利用して、高品質で時間的一貫性のある動画を生成します。
+  thumbnail: https://opengraph.githubassets.com/1/pku-yuangroup/open-sora-plan
   date_added: '2026-06-13'
   source: agent
   repo: pku-yuangroup/open-sora-plan
@@ -36978,6 +37432,7 @@ entries:
   - video-editing
   summary: An efficient video inpainting and editing framework that dynamically allocates computation proportional to the edit mask size. It uses a local video context module operating on masked tokens combined with a lightweight temporal global context embedder to achieve real-time, high-fidelity generative editing.
   summary_ja: 編集マスクのサイズに比例して計算量を動的に割り当てる、効率的なビデオインペインティングおよび編集フレームワーク。マスクされたトークンのみを処理するローカルビデオコンテキストモジュールと、軽量な時系列グローバルコンテキスト埋め込みを組み合わせることで、リアルタイムかつ高精度な生成編集を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/yehonathanlitman/editctrl
   date_added: '2026-08-23'
   source: agent
   arxiv_id: '2602.15031'
@@ -37209,6 +37664,7 @@ entries:
   - video-inpainting
   summary: A diffusion-based video inpainting model designed to achieve high content completeness and temporal consistency for large-mask object removal and video completion.
   summary_ja: 大きなマスク領域のオブジェクト除去や動画補完において、高いコンテンツの完全性と時間的一貫性を両立させるために設計された、拡散モデルベースの動画インペインティング手法。
+  thumbnail: https://opengraph.githubassets.com/1/lixiaowen-xw/diffueraser
   date_added: '2026-06-14'
   source: agent
   arxiv_id: '2501.10018'
@@ -37330,6 +37786,7 @@ entries:
   - video-editing
   summary: A fast video inpainting and object removal framework based on the Diffusion Transformer (DiT) architecture. It interactively removes specified objects, automatically generates corresponding prompts, and processes high-resolution videos with strong temporal consistency and content fidelity.
   summary_ja: Diffusion Transformer (DiT) アーキテクチャに基づいた高速なビデオインペインティングおよびオブジェクト削除フレームワーク。インタラクティブに指定されたオブジェクトを削除し、対応するプロンプトを自動生成して、高い一貫性と忠実度で高解像度ビデオを処理します。
+  thumbnail: https://opengraph.githubassets.com/1/jieliu95/eraserdit
   date_added: '2026-08-16'
   source: agent
   arxiv_id: '2506.12853'
@@ -38424,6 +38881,7 @@ entries:
   - video-super-resolution
   summary: An event-driven framework for video super-resolution that leverages high-frequency details from event signals to enhance texture regions and recover fine details.
   summary_ja: イベント信号からの高周波詳細を活用してテクスチャ領域を強化し、微細な詳細を復元する、イベント駆動型のビデオ超解像フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/dachunkai/evtexture
   date_added: '2026-06-21'
   source: agent
   arxiv_id: '2406.13457'
