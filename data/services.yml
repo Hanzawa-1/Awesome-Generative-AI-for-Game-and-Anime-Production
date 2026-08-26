@@ -29,7 +29,7 @@ entries:
   - talking-head
   summary: An advanced AI video creation platform that generates lifelike talking avatars with highly accurate lip-syncing and natural facial expressions from text or audio.
   summary_ja: テキストまたは音声から、非常に正確なリップシンクと自然な表情を持つリアルな喋るアバターを生成する、高度なAI動画作成プラットフォーム。
-  thumbnail: assets/thumbnails/hedra-f6ef6f.png
+  thumbnail: https://www.hedra.com/og
   date_added: '2026-06-13'
   source: agent
 - id: rask-ai-ce082b
@@ -47,7 +47,7 @@ entries:
   - voice-cloning
   summary: A popular commercial video localization and dubbing platform that features advanced multi-speaker AI lip-syncing to match translated audio with natural mouth movements.
   summary_ja: 翻訳された音声と自然な口の動きを一致させる、高度なマルチスピーカーAIリップシンク機能を備えた、人気の商用ビデオローカライズおよびダビングプラットフォーム。
-  thumbnail: assets/thumbnails/rask-ai-ce082b.png
+  thumbnail: https://cdn.prod.website-files.com/63ab2ba4785d7f058efab318/65f4685f0c9e1d17bcda0940_dc336bfb8e0219608f65d544439a60b5_opengraph-for-rask-min.png
   date_added: '2026-06-29'
   source: agent
 - id: sync-labs-8c71a6
@@ -65,7 +65,6 @@ entries:
   - real-time
   summary: A commercial platform and API providing real-time, studio-grade AI lip-syncing and video dubbing. It allows users to animate people speaking any language in any video, including movies, games, and animations.
   summary_ja: リアルタイムでスタジオ品質のAIリップシンクおよびビデオ吹き替えを提供する商用プラットフォームおよびAPI。映画、ゲーム、アニメーションなど、あらゆるビデオ内の人物を任意の言語で話すようにアニメーション化できます。
-  thumbnail: assets/thumbnails/sync-labs-8c71a6.png
   date_added: '2026-06-22'
   source: agent
 - id: nvidia-omniverse-audio2face-f4bd1c
@@ -82,7 +81,7 @@ entries:
   - lip-sync
   summary: An AI-powered application by NVIDIA that simplifies the animation of 3D characters to match any voice-over track. It generates realistic facial expressions and lip-sync in real-time, supporting integration with Unreal Engine (MetaHumans) and other 3D pipelines.
   summary_ja: 音声トラックに合わせて3Dキャラクターの表情アニメーションを簡略化する、NVIDIAのAI搭載アプリケーション。リアルタイムでリアルな表情やリップシンクを生成し、Unreal Engine（MetaHuman）やその他の3Dパイプラインとの統合をサポートする。
-  thumbnail: assets/thumbnails/nvidia-omniverse-audio2face-f4bd1c.png
+  thumbnail: https://assets.ngc.nvidia.com/products/api-catalog/images/audio2face-3d.jpg
   date_added: '2026-07-06'
   source: agent
 - id: jali-research-7f5c56
@@ -99,7 +98,7 @@ entries:
   - procedural
   summary: A high-end procedural animation technology and software suite that automates multilingual lip-sync and expressive facial animation. It integrates with Maya and game engines like Unreal Engine, providing animators with precise directorial control.
   summary_ja: 多言語のリップシンクと表情豊かなフェイシャルアニメーションを自動化する、ハイエンドなプロシージャルアニメーション技術およびソフトウェアスイート。MayaやUnreal Engineなどのゲームエンジンと統合し、アニメーターに精密な演出コントロールを提供する。
-  thumbnail: assets/thumbnails/jali-research-7f5c56.png
+  thumbnail: https://jaliresearch.com/apple-touch-icon.png?v=20220125
   date_added: '2026-07-06'
   source: agent
 - id: d-id-4168a0
@@ -117,7 +116,7 @@ entries:
   - talking-head
   summary: A leading commercial platform and API that animates face images into talking-head videos from text or audio input. It generates realistic lip-sync, facial expressions, and natural head movements for virtual presenters and localization.
   summary_ja: テキストまたは音声入力から顔画像をトーキングヘッド動画にアニメーション化する、主要な商用プラットフォームおよびAPI。バーチャルプレゼンターやローカライズ向けに、リアルなリップシンク、表情、自然な頭部の動きを生成します。
-  thumbnail: assets/thumbnails/d-id-4168a0.png
+  thumbnail: https://www.d-id.com/wp-content/uploads/2024/01/website-preview-image-3.png
   date_added: '2026-06-22'
   source: agent
 - id: squirrel-video-frame-interpolation-svfi-b8d53a
@@ -135,7 +134,7 @@ entries:
   - rife
   summary: A popular consumer-grade AI video frame interpolation and enhancement application widely used by anime creators and video editors to convert low-FPS footage into high-framerate videos using models like RIFE and GMFSS.
   summary_ja: RIFEやGMFSSなどのAIモデルを利用して、低フレームレートの動画や連番画像を滑らかな高フレームレート動画に変換する、アニメ制作者や動画編集者に広く使われているビデオフレーム補間・高画質化アプリケーション。
-  thumbnail: assets/thumbnails/squirrel-video-frame-interpolation-svfi-b8d53a.png
+  thumbnail: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692080/capsule_616x353.jpg?t=1759407436
   date_added: '2026-07-20'
   source: agent
 - id: svfi-be3646
@@ -152,7 +151,7 @@ entries:
   - software
   summary: A popular consumer-grade video frame interpolation and upscaling software widely used by anime fans and video creators. It integrates various AI models (such as RIFE and GMFSS) to convert low-framerate videos and image sequences into smooth, high-framerate footage.
   summary_ja: アニメファンや動画クリエイターに広く利用されている、人気のコンシューマー向けビデオフレーム補間・アップスケーリングソフトウェア。RIFEやGMFSSなどの様々なAIモデルを統合し、低フレームレートの動画や連番画像を滑らかな高フレームレート映像に変換します。
-  thumbnail: assets/thumbnails/svfi-be3646.png
+  thumbnail: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692080/capsule_616x353.jpg?t=1759407436
   date_added: '2026-06-29'
   source: agent
 - id: smoothvideo-project-26c5ff
@@ -169,7 +168,7 @@ entries:
   - software
   summary: A well-established real-time frame interpolation software that increases video frame rates during playback. It utilizes GPU acceleration and advanced motion-vector algorithms to interpolate standard videos to 60 FPS, 120 FPS, or higher in real-time.
   summary_ja: 再生中にビデオのフレームレートをリアルタイムで向上させる、実績のあるフレーム補間ソフトウェア。GPUアクセラレーションと高度な動きベクトルアルゴリズムを利用して、標準的な動画をリアルタイムで60 FPSや120 FPS以上に補間します。
-  thumbnail: assets/thumbnails/smoothvideo-project-26c5ff.png
+  thumbnail: https://www.svp-team.com/wp-content/uploads/2019/10/cropped-Logo-v4_4_YRB-aquarel_512-180x180.png
   date_added: '2026-06-29'
   source: agent
 - id: autodesk-motionbuilder-1b3117
@@ -187,7 +186,6 @@ entries:
   - retargeting
   summary: An industry-standard 3D character animation software used for virtual cinematography, motion capture editing, and real-time motion retargeting onto complex character rigs.
   summary_ja: バーチャルシネマトグラフィ、モーションキャプチャ編集、および複雑なキャラクターリグへのリアルタイムモーションリターゲットに使用される、業界標準の3Dキャラクターアニメーションソフトウェア。
-  thumbnail: assets/thumbnails/autodesk-motionbuilder-1b3117.png
   date_added: '2026-06-22'
   source: agent
 - id: plask-fcd31c
@@ -205,7 +203,7 @@ entries:
   - retargeting
   summary: A browser-based AI-powered motion capture and animation platform that allows users to extract 3D motion from video and retarget it to custom characters.
   summary_ja: ビデオから3Dモーションを抽出し、カスタムキャラクターにリターゲットできる、ブラウザベースのAI搭載モーションキャプチャおよびアニメーションプラットフォーム。
-  thumbnail: assets/thumbnails/plask-fcd31c.png
+  thumbnail: https://yxlzrcfyuirvdkwunvxu.supabase.co/storage/v1/object/public/content/OpenGraph/sub.png
   date_added: '2026-06-22'
   source: agent
 - id: unreal-engine-ik-retargeter-8501d8
@@ -222,6 +220,7 @@ entries:
   - unreal-engine
   summary: A built-in animation retargeting tool in Unreal Engine 5 that allows developers to transfer animations between characters with different skeletal hierarchies and proportions using IK Rigs.
   summary_ja: Unreal Engine 5に組み込まれたアニメーションリターゲットツール。IKリグを使用することで、異なる骨格階層やプロポーションを持つキャラクター間でアニメーションを相互に転送できます。
+  thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/retargeting-bipeds-with-ik-rig-in-unreal-engine&application_version=5.8
   date_added: '2026-08-24'
   source: agent
 - id: rokoko-studio-2b0932
@@ -239,7 +238,7 @@ entries:
   - retargeting
   summary: A popular commercial motion capture and retargeting software suite that allows creators to record, visualize, and retarget full-body, facial, and finger animations to custom 3D characters with real-time integration for Blender, Maya, and Unreal Engine.
   summary_ja: クリエイターが全身、顔、指のアニメーションを記録、視覚化し、カスタム3Dキャラクターにリターゲティングできる人気の商用モーションキャプチャおよびリターゲティングソフトウェア。Blender、Maya、Unreal Engineとのリアルタイム連携に対応する。
-  thumbnail: assets/thumbnails/rokoko-studio-2b0932.png
+  thumbnail: https://cdn.prod.website-files.com/5e6b63ac3b6e253f11889f39/68a5879d838d0ceb845f28de_1.jpg
   date_added: '2026-07-13'
   source: agent
 - id: reallusion-iclone-a6ba5f
@@ -257,7 +256,7 @@ entries:
   - retargeting
   summary: A professional real-time 3D animation and character creation software that features advanced motion retargeting, motion editing, and live motion capture integration for game development and film production.
   summary_ja: ゲーム開発や映画制作向けの高度なモーションリターゲティング、モーション編集、ライブモーションキャプチャ連携機能を備えた、プロフェッショナルなリアルタイム3Dアニメーションおよびキャラクター作成ソフトウェア。
-  thumbnail: assets/thumbnails/reallusion-iclone-a6ba5f.png
+  thumbnail: https://www.reallusion.com/iclone/includes/images/iclone_og.jpg?20220512
   date_added: '2026-07-13'
   source: agent
 - id: deepmotion-a58bdd
@@ -275,6 +274,7 @@ entries:
   - simulation
   summary: An AI-driven motion intelligence platform that provides physics-based motion synthesis and video-to-3D animation tools. It enables digital characters to interact responsively with physical environments, reducing foot-sliding and ensuring physically plausible movements.
   summary_ja: 物理ベースのモーション合成およびビデオから3Dアニメーションへの変換ツールを提供する、AI駆動のモーションインテリジェンスプラットフォーム。デジタルキャラクターが物理環境とインタラクティブに反応できるようにし、足の滑りを軽減して物理的に妥当な動きを保証します。
+  thumbnail: https://portal.deepmotion.com/logo192.png
   date_added: '2026-08-03'
   source: agent
 - id: cascadeur-b525d1
@@ -290,7 +290,7 @@ entries:
   - physics
   summary: A physics-aware keyframe animation tool with AI auto-posing and interpolation, designed for believable character action animation.
   summary_ja: AIによる自動ポーズ付けと補間を備えた物理対応のキーフレームアニメーションツール。説得力のあるキャラクターアクションの制作向け。
-  thumbnail: assets/thumbnails/cascadeur-b525d1.png
+  thumbnail: https://cascadeur.com/images/og-img.png
   date_added: '2026-06-13'
   source: seed
 - id: puppetmaster-af2b06
@@ -322,7 +322,7 @@ entries:
   - procedural-animation
   summary: A legendary game animation middleware based on Dynamic Motion Synthesis (DMS) that simulates 3D character biomechanics and physics in real-time.
   summary_ja: 3Dキャラクターのバイオメカニクスと物理挙動をリアルタイムでシミュレートする、Dynamic Motion Synthesis（DMS）に基づいた伝説的なゲームアニメーションミドルウェア。
-  thumbnail: assets/thumbnails/naturalmotion-euphoria-ca6c50.png
+  thumbnail: https://en.wikipedia.org/static/apple-touch/wikipedia.png
   date_added: '2026-07-13'
   source: agent
 - id: cartwheel-3d6cbb
@@ -339,7 +339,7 @@ entries:
   - text-to-motion
   summary: A generative AI animation platform designed to create production-ready 3D character animations from text prompts or reference videos.
   summary_ja: テキストプロンプトや参照ビデオから、プロダクション品質の3Dキャラクターアニメーションを作成するために設計されたジェネレーティブAIアニメーションプラットフォーム。
-  thumbnail: assets/thumbnails/cartwheel-3d6cbb.png
+  thumbnail: https://getcartwheel.com/images/cartwheel-share.png
   date_added: '2026-07-20'
   source: agent
 - id: saymotion-3d9fad
@@ -357,7 +357,7 @@ entries:
   - text-to-motion
   summary: A web-based generative AI platform by DeepMotion that transforms text prompts into high-fidelity 3D character animations, supporting exports to FBX, GLB, and BVH formats.
   summary_ja: テキストプロンプトを高品質な3Dキャラクターアニメーションに変換する、DeepMotionによるWebベースの生成AIプラットフォーム。FBX、GLB、BVH形式でのエクスポートに対応しています。
-  thumbnail: assets/thumbnails/saymotion-3d9fad.png
+  thumbnail: https://storage.googleapis.com/www.deepmotion.com/assets/6455380df29863e1053d59d7/657272f1e35e8d399ae713b0_SayMotion%20by%20DeepMotion%20Join%20the%20beta.jpg
   date_added: '2026-07-13'
   source: agent
 - id: saymotion-by-deepmotion-3b6e4b
@@ -374,7 +374,7 @@ entries:
   - text-to-motion
   summary: A commercial browser-based generative AI service that transforms natural language text prompts into high-quality 3D character animations.
   summary_ja: 自然言語のテキストプロンプトを高品質な3Dキャラクターアニメーションに変換する、ブラウザベースの商用ジェネレーティブAIサービス。
-  thumbnail: assets/thumbnails/saymotion-by-deepmotion-3b6e4b.png
+  thumbnail: https://storage.googleapis.com/www.deepmotion.com/assets/6455380df29863e1053d59d7/657272f1e35e8d399ae713b0_SayMotion%20by%20DeepMotion%20Join%20the%20beta.jpg
   date_added: '2026-07-20'
   source: agent
 - id: unity-muse-animate-daf4b5
@@ -392,7 +392,7 @@ entries:
   - unity
   summary: Unity's official AI-powered animation tool that allows developers to generate and edit natural-looking character animations directly inside the Unity Editor using text prompts and ML-assisted posing.
   summary_ja: テキストプロンプトと機械学習支援ポージングを使用して、Unityエディタ内で直接、自然なキャラクターアニメーションを生成および編集できる、Unity公式のAI搭載アニメーションツール。
-  thumbnail: assets/thumbnails/unity-muse-animate-daf4b5.png
+  thumbnail: https://cdn.sanity.io/images/fuvbjjlp/production/1e481a872a6aa18b1289840149379c8ef35181d3-1920x1080.png
   date_added: '2026-06-22'
   source: agent
 - id: rokoko-vision-4206df
@@ -410,7 +410,7 @@ entries:
   - pose-estimation
   summary: A browser-based AI motion capture tool that extracts 3D character animations from webcam feeds or uploaded video files. It supports single-camera and dual-camera setups for enhanced tracking accuracy and integrates with Rokoko Studio for cleanup and retargeting.
   summary_ja: ウェブカメラの映像やアップロードされた動画ファイルから3Dキャラクターアニメーションを抽出する、ブラウザベースのAIモーションキャプチャツール。精度向上のためのデュアルカメラ設定に対応し、クリーンアップやリターゲットを行うRokoko Studioと連携します。
-  thumbnail: assets/thumbnails/rokoko-vision-4206df.png
+  thumbnail: https://cdn.prod.website-files.com/5e6b63ac3b6e253f11889f39/63931eed3e7c3af489f0510d_video%20(1).jpg
   date_added: '2026-06-15'
   source: agent
 - id: wonder-studio-71ad4c
@@ -427,7 +427,6 @@ entries:
   - vfx
   summary: An AI-powered cloud platform that automatically animates, lights, and composes 3D CG characters into live-action video. It performs multi-camera or single-camera motion capture, camera tracking, and actor replacement, exporting clean FBX/OBJ motion data and camera tracks to Blender, Maya, or Unreal Engine.
   summary_ja: 実写映像内の人物を3DのCGキャラクターに自動で置き換え、アニメーション、ライティング、合成を行うAI搭載クラウドプラットフォーム。マルチカメラまたはシングルカメラのモーションキャプチャ、カメラトラッキングを実行し、Blender、Maya、Unreal Engine向けにクリーンなFBX/OBJモーションデータやカメラ軌道を出力できる。
-  thumbnail: assets/thumbnails/wonder-studio-71ad4c.png
   date_added: '2026-07-06'
   source: agent
 - id: kinetix-ce4843
@@ -444,7 +443,7 @@ entries:
   - retargeting
   summary: An AI-powered 3D human motion platform that converts video clips into custom 3D character animations and emotes. It automates motion capture, cleaning, and retargeting, allowing creators to apply animations to any compatible 3D avatar and stream them directly into games or virtual worlds.
   summary_ja: 動画クリップをカスタム3Dキャラクターアニメーションやエモートに変換する、AI搭載の3Dヒューマンモーションプラットフォーム。モーションキャプチャ、クリーンアップ、リターゲティングを自動化し、クリエイターが互換性のある3Dアバターにアニメーションを適用して、ゲームや仮想世界に直接配信できるようにする。
-  thumbnail: assets/thumbnails/kinetix-ce4843.png
+  thumbnail: https://framerusercontent.com/assets/zA7nLOI4epIRh8uUV09vNbVN2Qc.png
   date_added: '2026-07-06'
   source: agent
 - id: deepmotion-animate-3d-bf6f29
@@ -460,7 +459,7 @@ entries:
   - markerless-mocap
   summary: A commercial markerless motion-capture service that converts ordinary video into 3D animation (FBX/BVH/GLB), enabling mocap without a suit or studio.
   summary_ja: 通常の動画を3Dアニメーション（FBX/BVH/GLB）に変換する商用のマーカーレスモーションキャプチャサービス。スーツやスタジオなしでmocapを実現。
-  thumbnail: assets/thumbnails/deepmotion-animate-3d-bf6f29.png
+  thumbnail: https://storage.googleapis.com/www.deepmotion.com/assets/6455380df29863e1053d59d7/649c84f811fb8b30bac14fa0_DeepMotion%20Create%203D%20Animation%20from%20Video%20Using%20Ai.png
   date_added: '2026-06-13'
   source: seed
 - id: move-ai-39c1e3
@@ -476,7 +475,7 @@ entries:
   - markerless-mocap
   summary: A markerless multi-camera motion-capture service producing high-quality 3D motion from standard cameras, used by indie and mid-size studios.
   summary_ja: 標準的なカメラから高品質な3Dモーションを生成するマーカーレスのマルチカメラmocapサービス。インディーから中規模スタジオで利用される。
-  thumbnail: assets/thumbnails/move-ai-39c1e3.png
+  thumbnail: https://cdn.prod.website-files.com/695feac1f2e19ffbc09581db/69d64ba1db9eab6baa34612d_move256x2256.jpg
   date_added: '2026-06-13'
   source: seed
 - id: udio-5165b7
@@ -494,7 +493,7 @@ entries:
   - text-to-music
   summary: A state-of-the-art proprietary AI music generation platform that allows users to generate high-quality full-length songs, instrumentals, and vocals from text prompts. It supports advanced features like audio inpainting, track extension, and style remixing.
   summary_ja: テキストプロンプトから高品質なフル楽曲、インストゥルメンタル、ボーカルを生成できる、最先端の商用AI音楽生成プラットフォーム。オーディオのインペインティング、楽曲の延長、スタイルのリミックスなどの高度な機能をサポートしています。
-  thumbnail: assets/thumbnails/udio-5165b7.png
+  thumbnail: https://imagedelivery.net/C9yUr1FL21Q6JwfYYh2ozQ/1647e9a2-47d6-4d95-5ae0-02bae7a44000/public
   date_added: '2026-06-23'
   source: agent
 - id: suno-ai-b30193
@@ -512,6 +511,7 @@ entries:
   - vocals
   summary: Suno is a leading generative AI music platform that allows users to generate full-length, high-quality songs with vocals, lyrics, and instrumentation from simple text prompts. It features granular creation controls, stem extraction, and a web-based generative audio workstation.
   summary_ja: Sunoは、シンプルなテキストプロンプトからボーカル、歌詞、伴奏を含む高品質なフルレングスの楽曲を生成できる、業界をリードする生成AI音楽プラットフォームです。詳細な生成コントロール、ステム抽出、およびWebベースの生成オーディオワークステーション機能を備えています。
+  thumbnail: https://cdn-o.suno.com/meta-preview.jpg
   date_added: '2026-07-21'
   source: agent
 - id: aiva-9ff156
@@ -528,7 +528,6 @@ entries:
   - proprietary
   summary: An AI music generation assistant specializing in classical, symphonic, and cinematic music composition. It allows users to generate original soundtracks in over 250 styles, upload MIDI/audio influences, and export tracks in MIDI and audio formats for games, videos, and podcasts.
   summary_ja: クラシック、交響曲、シネマティック音楽の作曲に特化したAI音楽生成アシスタント。250以上の異なるスタイルでオリジナル楽曲を生成でき、MIDIやオーディオファイルのアップロード、ゲームや映像向けのMIDI/オーディオ形式でのエクスポートに対応しています。
-  thumbnail: assets/thumbnails/aiva-9ff156.png
   date_added: '2026-06-23'
   source: agent
 - id: mubert-08f9c6
@@ -545,7 +544,7 @@ entries:
   - royalty-free
   summary: A commercial AI music service with an API that generates royalty-free, often adaptive/streaming background music from text prompts and tags for apps, video, and games.
   summary_ja: テキストプロンプトやタグからロイヤリティフリーで適応的・ストリーミング型のBGMを生成する、API付きの商用AI音楽サービス。アプリ・動画・ゲーム向けに使われる。
-  thumbnail: assets/thumbnails/mubert-08f9c6.png
+  thumbnail: https://mubert.com/thumbnail.png
   date_added: '2026-06-13'
   source: seed
 - id: soundful-320ccc
@@ -561,7 +560,7 @@ entries:
   - templates
   summary: A commercial AI music generator that produces royalty-free tracks from genre templates, aimed at creators who need quick background music for content and games.
   summary_ja: ジャンルのテンプレートからロイヤリティフリーの楽曲を生成する商用AI音楽ジェネレーター。コンテンツやゲーム向けに素早くBGMを必要とするクリエイター向け。
-  thumbnail: assets/thumbnails/soundful-320ccc.png
+  thumbnail: https://soundful.com/wp-content/uploads/2025/09/favicon.png
   date_added: '2026-06-13'
   source: seed
 - id: stable-audio-63af29
@@ -578,7 +577,7 @@ entries:
   - timing-conditioned
   summary: Stability AI's commercial platform for generating music and audio with a latent diffusion model conditioned on text and timing metadata, offering fast inference and length control.
   summary_ja: テキストとタイミングのメタデータで条件付けする潜在拡散モデルで音楽・オーディオを生成するStability AIの商用プラットフォーム。高速な推論と長さの制御を提供する。
-  thumbnail: assets/thumbnails/stable-audio-63af29.png
+  thumbnail: https://stableaudio.com/images/social.jpg
   date_added: '2026-06-13'
   source: seed
 - id: suno-719c52
@@ -594,7 +593,7 @@ entries:
   - music-generation
   summary: A commercial music generation service producing full songs with vocals from text prompts, used for rapid soundtrack and BGM prototyping.
   summary_ja: テキストからボーカル付きの楽曲をまるごと生成する商用音楽生成サービス。サウンドトラックやBGMの迅速なプロトタイピングに使われる。
-  thumbnail: assets/thumbnails/suno-719c52.png
+  thumbnail: https://cdn-o.suno.com/meta-preview.jpg
   date_added: '2026-06-13'
   source: seed
 - id: nemisindo-3fa057
@@ -612,7 +611,6 @@ entries:
   - unreal-engine
   summary: An interactive procedural audio platform and plugin suite for Unreal Engine and Unity, enabling real-time, parameter-driven sound effects generation directly within game engines.
   summary_ja: Unreal EngineおよびUnity向けのインタラクティブなプロシージャルオーディオプラットフォームおよびプラグインスイート。ゲームエンジン内でリアルタイムかつパラメータ駆動の効果音生成を可能にします。
-  thumbnail: assets/thumbnails/nemisindo-3fa057.png
   date_added: '2026-06-13'
   source: agent
 - id: metasounds-ad4116
@@ -630,7 +628,7 @@ entries:
   - unreal-engine
   summary: Unreal Engine 5's high-performance procedural audio system that provides sound designers with complete control over Digital Signal Processing (DSP) graphs. It enables sample-accurate timing, dynamic sound generation, and deep integration with game parameters.
   summary_ja: Unreal Engine 5に搭載された高性能なプロシージャルオーディオシステム。サウンドデザイナーがDSP（デジタル信号処理）グラフを完全に制御でき、サンプル精度でのタイミング制御や、ゲームパラメータと深く連動した動的な音響生成を可能にします。
-  thumbnail: assets/thumbnails/metasounds-ad4116.png
+  thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/metasounds-in-unreal-engine&application_version=5.8
   date_added: '2026-06-16'
   source: agent
 - id: tsugi-dsp-series-363a78
@@ -681,7 +679,6 @@ entries:
   - sound-design
   summary: A commercial procedural sound design tool by Tsugi that allows sound designers and animators to generate dynamic sound effects for motion graphics, character animations, and games by drawing shapes with a mouse or graphics tablet.
   summary_ja: マウスやペンタブレットで図形を描くことで、モーショングラフィックス、キャラクターアニメーション、ゲーム向けのダイナミックな効果音を生成できる、Tsugi による商用のプロシージャル音響デザインツール。
-  thumbnail: assets/thumbnails/dsp-motion-69f65e.png
   date_added: '2026-07-07'
   source: agent
 - id: gamesynth-e5abf2
@@ -699,7 +696,6 @@ entries:
   - sound-effects
   summary: A leading commercial procedural sound design tool by Tsugi, offering specialized synthesis models for impacts, whooshes, footsteps, engines, and weather effects with extensive game engine integration.
   summary_ja: Tsugi社による主要な商用プロシージャルサウンドデザインツール。衝撃音、風切り音、足音、エンジン音、天候エフェクトなどの特化型合成モデルを提供し、ゲームエンジンとの高度な連携が可能です。
-  thumbnail: assets/thumbnails/gamesynth-e5abf2.png
   date_added: '2026-06-13'
   source: agent
 - id: fmod-studio-df1cb5
@@ -717,7 +713,6 @@ entries:
   - middleware
   summary: A leading proprietary audio middleware and sound engine used in game development to design, author, and play back adaptive, interactive, and procedural audio.
   summary_ja: ゲーム開発で広く使用されている、適応型・インタラクティブ・プロシージャルオーディオの設計、オーサリング、再生を行うための業界標準のプロプライエタリなオーディオミドルウェアおよびサウンドエンジン。
-  thumbnail: assets/thumbnails/fmod-studio-df1cb5.png
   date_added: '2026-06-23'
   source: agent
 - id: audiokinetic-wwise-ec2f05
@@ -735,7 +730,7 @@ entries:
   - sound-engine
   summary: A comprehensive proprietary interactive audio solution and middleware featuring an advanced authoring tool and cross-platform sound engine for games.
   summary_ja: 高度なオーサリングツールとクロスプラットフォームのサウンドエンジンを備え、ゲームにおけるインタラクティブな音響表現を実現する業界標準のプロプライエタリなオーディオミドルウェア。
-  thumbnail: assets/thumbnails/audiokinetic-wwise-ec2f05.png
+  thumbnail: https://www.audiokinetic.com/images/og-image-logobw.png
   date_added: '2026-06-23'
   source: agent
 - id: elevenlabs-sound-effects-e4afb4
@@ -753,6 +748,7 @@ entries:
   - text-to-audio
   summary: A commercial text-to-audio generation tool designed to produce high-quality, royalty-free sound effects, foley, and ambient audio from natural language prompts. It supports generating multiple variations, seamless looping, and professional-grade 48 kHz audio output.
   summary_ja: 自然言語のプロンプトから高品質でロイヤリティフリーの効果音、フォーリー、環境音を生成するために設計された商用のテキスト・ツー・オーディオ生成ツール。複数のバリエーションの生成、シームレスなループ、およびプロフェッショナルグレードの48 kHzオーディオ出力をサポートしています。
+  thumbnail: https://eleven-public-cdn.elevenlabs.io/payloadcms/vemqqy7citb-OG%20Image%20SFX.webp
   date_added: '2026-07-21'
   source: agent
 - id: optimizerai-04db1f
@@ -770,6 +766,7 @@ entries:
   - sound-generation
   summary: A proprietary AI-powered sound effects generator designed for creators, game developers, and video producers. It enables fast creation of high-quality, royalty-free audio assets from text prompts or video uploads, supporting stereo output at 44.1 kHz.
   summary_ja: クリエイター、ゲーム開発者、映像制作者向けに設計された、AI搭載の商用効果音ジェネレーター。テキストプロンプトやビデオのアップロードから、高品質でロイヤリティフリーのオーディオアセットを迅速に作成でき、44.1 kHzのステレオ出力をサポートする。
+  thumbnail: https://optimizerai.xyz/images/favicon.png
   date_added: '2026-07-28'
   source: agent
 - id: ace-studio-e0c53b
@@ -786,7 +783,6 @@ entries:
   - svs
   summary: A commercial AI-powered singing voice synthesis workstation that generates studio-quality vocals from MIDI and lyrics with precise control over pitch, vibrato, and emotion.
   summary_ja: MIDIと歌詞からスタジオ品質のAIボーカルを生成する商用の歌声合成ワークステーション。ピッチ、ビブラート、感情表現などを精密にコントロール可能です。
-  thumbnail: assets/thumbnails/ace-studio-e0c53b.png
   date_added: '2026-06-13'
   source: agent
 - id: voisona-3b7d62
@@ -803,7 +799,6 @@ entries:
   - vst
   summary: An AI-based singing voice synthesis software developed by Techno-Speech, offering high-quality, realistic vocal generation with VSTi compatibility for DAW integration.
   summary_ja: テクノスピーチ社が開発したAI歌声合成ソフトウェア。DAWと連携可能なVSTiプラグインに対応し、極めてリアルで高品質なボーカル生成を提供します。
-  thumbnail: assets/thumbnails/voisona-3b7d62.png
   date_added: '2026-06-13'
   source: agent
 - id: cevio-ai-55b690
@@ -820,7 +815,6 @@ entries:
   - svs
   summary: A next-generation voice synthesis platform utilizing deep learning to realistically replicate human singing and speaking voices with rich emotional expression.
   summary_ja: ディープラーニング技術を用いて、人間の歌声や話し声を感情豊かにリアルに再現する次世代の音声・歌声合成プラットフォーム。
-  thumbnail: assets/thumbnails/cevio-ai-55b690.png
   date_added: '2026-06-13'
   source: agent
 - id: neutrino-098a3c
@@ -837,7 +831,7 @@ entries:
   - neutrino
   summary: A freeware neural network-based singing voice synthesizer that generates highly natural singing voices from MusicXML score files. It is widely used in the anime and indie music scenes in Japan, featuring popular voice libraries like Tohoku Kiritan.
   summary_ja: MusicXML形式の楽譜ファイルから極めて自然な歌声を生成する、ニューラルネットワークベースのフリーウェア歌声合成エンジン。東北きりたんなどの人気音声ライブラリを擁し、アニメやインディーズ音楽制作で広く利用されています。
-  thumbnail: assets/thumbnails/neutrino-098a3c.png
+  thumbnail: https://studio-neutrino.com/wp-content/uploads/2021/02/cropped-icon-180x180.png
   date_added: '2026-07-14'
   source: agent
 - id: synthesizer-v-studio-34ee05
@@ -855,6 +849,7 @@ entries:
   - svs
   summary: A professional-grade singing voice synthesis software developed by Dreamtonics. It combines a deep neural network-based synthesis engine with a sample-based hybrid approach, offering highly realistic vocals, multi-lingual synthesis, and an intuitive editor interface.
   summary_ja: Dreamtonics社が開発したプロフェッショナル向けの歌声合成ソフトウェア。ディープニューラルネットワークベースの合成エンジンとサンプルベースのハイブリッドアプローチを組み合わせ、極めてリアルな歌声、多言語合成、直感的なエディタインターフェースを提供します。
+  thumbnail: https://dreamtonics.com/wp/wp-content/uploads/2020/04/og_basic.png
   date_added: '2026-08-04'
   source: agent
 - id: emvoice-af80c5
@@ -871,7 +866,7 @@ entries:
   - vst
   summary: A next-generation vocal synthesis plugin (VST/AU/AAX) that allows music producers to create realistic singing voices by inputting lyrics and melody notes directly within their DAW.
   summary_ja: 歌詞とメロディの音符をDAW内で直接入力することで、リアルな歌声を生成できる次世代のボーカル合成プラグイン（VST/AU/AAX）。
-  thumbnail: assets/thumbnails/emvoice-af80c5.png
+  thumbnail: https://dl.emvoiceapp.com/d/e86c60289bd224f421fdbdee569898c429f5a9939a9d87819e6a31c35941c6122.png
   date_added: '2026-06-16'
   source: agent
 - id: vocaloid-ecff3c
@@ -888,7 +883,7 @@ entries:
   - vocaloid
   summary: Yamaha's industry-standard singing voice synthesis software, utilizing advanced AI engines in its latest versions to produce natural, highly expressive vocal performances.
   summary_ja: ヤマハが開発した業界標準の歌声合成ソフトウェア。最新バージョンでは先進的なAIエンジンを採用し、自然で表現力豊かなボーカルパフォーマンスを実現しています。
-  thumbnail: assets/thumbnails/vocaloid-ecff3c.png
+  thumbnail: https://www.vocaloid.com/en/wp-content/uploads/sites/2/2022/10/92c802bf9d78088c9de609a66a8e94ac.png
   date_added: '2026-06-13'
   source: agent
 - id: synthesizer-v-ee606e
@@ -903,7 +898,7 @@ entries:
   - singing-synthesis
   summary: A commercial singing voice synthesizer with expressive control, a leading tool for anime-style vocal and song production.
   summary_ja: 表現を細かく制御できる商用の歌声合成ソフト。アニメ調のボーカルや楽曲制作の主要ツール。
-  thumbnail: assets/thumbnails/synthesizer-v-ee606e.png
+  thumbnail: https://dreamtonics.com/wp/wp-content/uploads/2020/04/og_basic.png
   date_added: '2026-06-13'
   source: seed
 - id: cartesia-a7ccb9
@@ -920,7 +915,7 @@ entries:
   - tts
   summary: A state-of-the-art real-time text-to-speech platform powered by the Sonic model, delivering ultra-low latency (under 100ms) and highly expressive, lifelike voices for interactive applications and AI agents.
   summary_ja: Sonicモデルを搭載した最先端のリアルタイムテキスト読み上げプラットフォーム。100ミリ秒未満の超低遅延と、インタラクティブなアプリケーションやAIエージェント向けの極めて表現力豊かな音声を提供します。
-  thumbnail: assets/thumbnails/cartesia-a7ccb9.png
+  thumbnail: https://www.cartesia.ai/site/og-default.jpg
   date_added: '2026-06-13'
   source: agent
 - id: resemble-ai-f60fa2
@@ -937,7 +932,7 @@ entries:
   - voice-cloning
   summary: An enterprise-grade generative voice platform offering high-fidelity text-to-speech, real-time voice cloning, and deepfake detection with built-in watermarking.
   summary_ja: 高精度なテキスト読み上げ、リアルタイム音声クローン、および透かし埋め込み技術を統合したディープフェイク検出機能を提供する、エンタープライズ向けの生成音声プラットフォーム。
-  thumbnail: assets/thumbnails/resemble-ai-f60fa2.png
+  thumbnail: https://cdn.prod.website-files.com/69bc3de63d285e297507b3ef/6a7bbcc104d2d5a5bacc1d55_032e5f5a1d46819ee8fd71f38f4177b7_resemble-ai-ograph-2026.png
   date_added: '2026-06-13'
   source: agent
 - id: respeecher-10e162
@@ -955,7 +950,7 @@ entries:
   - voice-conversion
   summary: An enterprise-grade voice cloning and speech synthesis platform widely used in Hollywood films and AAA game production to replicate and transform voices with high emotional fidelity.
   summary_ja: ハリウッド映画やAAAゲーム制作で広く使用されている、エンタープライズ向けの音声クローニングおよび音声合成プラットフォーム。高い感情再現度で音声を複製・変換します。
-  thumbnail: assets/thumbnails/respeecher-10e162.png
+  thumbnail: https://www.respeecher.com/hubfs/OG.png
   date_added: '2026-07-07'
   source: agent
 - id: elevenlabs-486fcf
@@ -972,7 +967,7 @@ entries:
   - voice-cloning
   summary: A commercial speech platform offering expressive TTS, voice cloning, dubbing, and sound effects, broadly adopted for game and animation voice-over.
   summary_ja: 表現力豊かなTTS、ボイスクローン、ダビング、効果音を提供する商用音声プラットフォーム。ゲーム・アニメのボイスオーバーで広く採用されている。
-  thumbnail: assets/thumbnails/elevenlabs-486fcf.png
+  thumbnail: https://elevenlabs.io/cover.png
   date_added: '2026-06-13'
   source: seed
 - id: altered-studio-da4dae
@@ -989,7 +984,6 @@ entries:
   - voice-conversion
   summary: A professional AI voice content creation platform and voice changer that allows users to clone voices, morph speech into curated AI voices, and perform advanced audio editing for game and media production.
   summary_ja: ゲームやメディア制作向けに、音声のクローニング、厳選されたAI音声へのモーフィング、高度なオーディオ編集を可能にするプロフェッショナルなAI音声コンテンツ作成プラットフォーム。
-  thumbnail: assets/thumbnails/altered-studio-da4dae.png
   date_added: '2026-06-13'
   source: agent
 - id: lovo-ai-457041
@@ -1006,7 +1000,6 @@ entries:
   - voiceover
   summary: An AI voice generator and text-to-speech platform featuring the Genny editor, which combines realistic voice cloning, multi-language synthesis, and video editing capabilities.
   summary_ja: リアルな音声クローニング、多言語合成、ビデオ編集機能を統合した「Genny」エディタを提供する、AI音声生成およびテキスト読み上げプラットフォーム。
-  thumbnail: assets/thumbnails/lovo-ai-457041.png
   date_added: '2026-06-13'
   source: agent
 - id: anything-world-34312a
@@ -1024,6 +1017,7 @@ entries:
   - saas
   summary: An AI-powered 3D animation and automated rigging platform that allows developers to quickly rig and animate static 3D models for games and interactive applications.
   summary_ja: AIを活用した3Dアニメーションおよび自動リギングプラットフォームで、ゲームやインタラクティブなアプリケーション向けに、静的な3Dモデルを迅速にリギングしてアニメーション化できます。
+  thumbnail: https://app.anything.world/favicon_32x32.png
   date_added: '2026-07-21'
   source: agent
 - id: accurig-e7075e
@@ -1041,7 +1035,7 @@ entries:
   - retargeting
   summary: A free, user-friendly auto-rigging and motion retargeting tool by Reallusion designed to quickly generate skeletal structures and skin weights for 3D characters.
   summary_ja: Reallusionによる無料かつユーザーフレンドリーな自動リギングおよびモーションリターゲットツールであり、3Dキャラクターの骨格構造とスキンウェイトを迅速に生成するように設計されています。
-  thumbnail: assets/thumbnails/accurig-e7075e.png
+  thumbnail: https://actorcore.reallusion.com/static/image/FB_og_actorcore.638b1ef.jpg
   date_added: '2026-07-14'
   source: agent
 - id: auto-rig-pro-6cdda0
@@ -1059,7 +1053,7 @@ entries:
   - skinning
   summary: An advanced automatic rigging and skinning addon for Blender that simplifies character setup, retargets animations, and provides optimized FBX/GLTF exports for game engines.
   summary_ja: Blender用の高度な自動リギングおよびスキニングアドオンであり、キャラクターのセットアップを簡素化し、アニメーションをリターゲットし、ゲームエンジン向けに最適化されたFBX/GLTFエクスポートを提供します。
-  thumbnail: assets/thumbnails/auto-rig-pro-6cdda0.png
+  thumbnail: https://i.ytimg.com/vi/93wUF_GTzpo/hqdefault.jpg
   date_added: '2026-07-14'
   source: agent
 - id: mixamo-9a4b49
@@ -1075,7 +1069,6 @@ entries:
   - commercial
   summary: Adobe's free service that auto-rigs uploaded humanoid meshes and applies a large motion library, a staple for quickly animating game characters.
   summary_ja: アップロードした人型メッシュを自動リギングし、豊富なモーションライブラリを適用できるAdobeの無料サービス。ゲームキャラの即時アニメーション化の定番。
-  thumbnail: assets/thumbnails/mixamo-9a4b49.png
   date_added: '2026-06-13'
   source: seed
 - id: avaturn-d2c667
@@ -1093,7 +1086,7 @@ entries:
   - rigged
   summary: An AI-powered 3D avatar creator that generates realistic, fully rigged, and customizable game-ready avatars from a single selfie.
   summary_ja: 1枚の自撮り写真から、リアルで完全にリギングされたカスタマイズ可能なゲーム向け3Dアバターを生成するAI搭載アバター作成ツール。
-  thumbnail: assets/thumbnails/avaturn-d2c667.png
+  thumbnail: https://assets.avaturn.me/thumb_8369258dda.jpg
   date_added: '2026-06-23'
   source: agent
 - id: didimo-popul8-298379
@@ -1111,6 +1104,7 @@ entries:
   - npc
   summary: A generative AI character creation platform designed for game developers to instantly generate, edit, and scale high-quality, game-ready 3D avatars and NPCs.
   summary_ja: ゲーム開発者向けに設計されたジェネレーティブAIキャラクター作成プラットフォーム。高品質でゲームにすぐに使用できる3DアバターやNPCを即座に生成、編集、スケールアップできる。
+  thumbnail: https://cdn.prod.website-files.com/67a35b48eb6d080a7c18b768/67af4dd329dab30095d8a05f_6542397478aa799e4b795b64_APPIcon1024FINAL256.jpg
   date_added: '2026-08-11'
   source: agent
 - id: popul8-ec34ff
@@ -1128,6 +1122,7 @@ entries:
   - npc
   summary: Didimo's AI-powered character creation platform designed for game studios to generate, edit, and manage hundreds of unique, game-ready 3D avatars and NPCs at scale.
   summary_ja: ゲームスタジオ向けに設計されたDidimoのAI搭載キャラクター作成プラットフォーム。数百のユニークでゲーム対応の3DアバターやNPCを大規模に生成、編集、管理できる。
+  thumbnail: https://cdn.prod.website-files.com/67a35b48eb6d080a7c18b768/67af4dd329dab30095d8a05f_6542397478aa799e4b795b64_APPIcon1024FINAL256.jpg
   date_added: '2026-08-25'
   source: agent
 - id: meshcapade-me-dca249
@@ -1145,7 +1140,7 @@ entries:
   - smpl
   summary: An AI-powered platform built on the SMPL body model that generates highly accurate, industry-standard 3D human avatars from photos, videos, or body measurements.
   summary_ja: SMPLボディモデルをベースに構築されたAI搭載プラットフォームで、写真、ビデオ、または身体測定値から、高精度で業界標準の3D人間アバターを生成します。
-  thumbnail: assets/thumbnails/meshcapade-me-dca249.png
+  thumbnail: https://me.meshcapade.com/images/meta/mc_thumbnail.jpg
   date_added: '2026-06-16'
   source: agent
 - id: heygen-e05467
@@ -1163,7 +1158,7 @@ entries:
   - video-generation
   summary: A leading commercial AI video generation platform that uses highly realistic talking avatars and voice cloning to create professional videos from text scripts.
   summary_ja: テキストスクリプトからプロフェッショナルな動画を作成するために、非常にリアルなトーキングアバターと音声クローンを使用する、業界大手の商用AI動画生成プラットフォーム。
-  thumbnail: assets/thumbnails/heygen-e05467.png
+  thumbnail: https://cdn.sanity.io/images/pdhqcmb1/production/579e83ff34c4c832744efaedb9681d255e58dc13-1200x630.png?fit=max&fm=png
   date_added: '2026-06-30'
   source: agent
 - id: meshcapade-4680ff
@@ -1180,7 +1175,7 @@ entries:
   - smpl
   summary: An AI-powered platform that generates realistic 3D human avatars and motion capture data from photos, videos, or 3D scans using the SMPL body model.
   summary_ja: SMPLボディモデルを使用し、写真、動画、または3Dスキャンからリアルな3D人間アバターとモーションキャプチャデータを生成するAI搭載プラットフォーム。
-  thumbnail: assets/thumbnails/meshcapade-4680ff.png
+  thumbnail: https://meshcapade.com/images/meta/main.jpg
   date_added: '2026-07-14'
   source: agent
 - id: metahuman-creator-4597b5
@@ -1196,7 +1191,7 @@ entries:
   - unreal
   summary: Epic's tool for creating fully rigged, photorealistic digital humans for Unreal Engine, an industry standard for game character and cinematic avatars.
   summary_ja: Unreal Engine向けに、フルリグ済みでフォトリアルなデジタルヒューマンを作成するEpicのツール。ゲームのキャラクターや映像表現の業界標準。
-  thumbnail: assets/thumbnails/metahuman-creator-4597b5.png
+  thumbnail: https://cms-assets.unrealengine.com/cm6ts095h04fm07oh6wxhfjst/resize=width:1200/cmb6km8c461au07od9108x691
   date_added: '2026-06-13'
   source: seed
 - id: character-creator-4-2d061a
@@ -1214,7 +1209,7 @@ entries:
   - stylized
   summary: Reallusion's professional 3D character creation and animation rigging software designed to easily generate, import, and customize stylized or realistic character assets.
   summary_ja: Reallusionが提供するプロフェッショナル向けの3Dキャラクター作成・アニメーションリギングソフトウェア。デフォルメまたはリアルなキャラクターアセットを簡単に生成、インポート、カスタマイズできます。
-  thumbnail: assets/thumbnails/character-creator-4-2d061a.png
+  thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
   date_added: '2026-07-08'
   source: agent
 - id: character-creator-cc4-ebc16d
@@ -1232,7 +1227,7 @@ entries:
   - stylized
   summary: A premier 3D character creation and customization software widely used in game development and animation. It allows artists to generate, morph, and dress realistic or stylized 3D characters, complete with full-body and facial rigs compatible with Unreal Engine, Unity, Blender, and Maya.
   summary_ja: ゲーム開発やアニメーション制作で広く使用されている、業界標準の3Dキャラクター作成・カスタマイズソフトウェア。リアルまたはデフォルメされた3Dキャラクターを生成、モーフ、着せ替えでき、Unreal Engine、Unity、Blender、Mayaと互換性のある全身およびフェイシャルリグを備えています。
-  thumbnail: assets/thumbnails/character-creator-cc4-ebc16d.png
+  thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
   date_added: '2026-06-17'
   source: agent
 - id: vroid-studio-a40bc2
@@ -1250,7 +1245,6 @@ entries:
   - vrm
   summary: A popular 3D character creation software developed by Pixiv that allows users to design and customize humanoid anime-style avatars. It features intuitive brush tools for hair modeling, texture painting, and clothing customization, exporting to the standard VRM format.
   summary_ja: ピクシブが開発した、アニメ調の人型アバターをデザイン・カスタマイズできる人気の3Dキャラクター制作ソフトウェア。髪型のモデリング、テクスチャペイント、衣装のカスタマイズを直感的なブラシツールで行うことができ、標準的なVRM形式でエクスポート可能です。
-  thumbnail: assets/thumbnails/vroid-studio-a40bc2.png
   date_added: '2026-06-24'
   source: agent
 - id: faceform-wrap-8aac72
@@ -1267,7 +1261,7 @@ entries:
   - topology-transfer
   summary: An industry-standard topology transfer and 3D scan processing tool that converts 3D scans of actor facial expressions into a consistent topology, widely used for facial rigging and blendshape creation in games and VFX.
   summary_ja: 俳優の表情の3Dスキャンデータを一貫したトポロジに変換する、業界標準のトポロジ転送および3Dスキャン処理ツール。ゲームやVFXにおけるフェイシャルリギングやブレンドシェイプ作成に広く使用されている。
-  thumbnail: assets/thumbnails/faceform-wrap-8aac72.png
+  thumbnail: https://faceform.com/wp-content/uploads/2023/06/Favicon48x48.png
   date_added: '2026-06-24'
   source: agent
 - id: keentools-facebuilder-55d9fe
@@ -1284,7 +1278,7 @@ entries:
   - face-reconstruction
   summary: A popular plugin for Blender and Nuke that allows artists to create photorealistic 3D human faces and heads from a single or multiple photos, featuring AI-powered auto-alignment, texture blending, and ARKit-compatible FACS blendshapes.
   summary_ja: 単一または複数の写真からフォトリアルな3Dの顔や頭部を作成できる、BlenderおよびNuke用の人気プラグイン。AIによる自動アライメント、テクスチャブレンディング、ARKit互換のFACSブレンドシェイプなどの機能を備える。
-  thumbnail: assets/thumbnails/keentools-facebuilder-55d9fe.png
+  thumbnail: https://cdn.prod.website-files.com/58c5480657a2703f67305c6c/65f801586520a8150b4949c6_maxresdefault.png
   date_added: '2026-06-24'
   source: agent
 - id: reallusion-headshot-20242a
@@ -1301,7 +1295,7 @@ entries:
   - plugin
   summary: An AI-powered 3D head generator plugin for Character Creator that creates fully rigged, animation-ready 3D heads from a single photo or imported 3D mesh.
   summary_ja: 1枚の写真またはインポートされた3Dメッシュから、完全にリギングされアニメーション可能な3D頭部モデルを作成する、Character Creator用のAI搭載3D頭部生成プラグイン。
-  thumbnail: assets/thumbnails/reallusion-headshot-20242a.png
+  thumbnail: https://www.reallusion.com/character-creator/headshot/includes/images/overview/og-overview.jpg
   date_added: '2026-07-01'
   source: agent
 - id: actorcore-accurig-c96144
@@ -1319,6 +1313,7 @@ entries:
   - skinning
   summary: A free, standalone 3D character auto-rigging and skinning application developed by Reallusion that automates the process of placing joints and calculating skin weights for biped models.
   summary_ja: Reallusionが開発した無料のスタンドアロン3Dキャラクター自動リギング・スキニングアプリケーション。二足歩行モデルの関節配置とスキンウェイト計算のプロセスを自動化します。
+  thumbnail: https://actorcore.reallusion.com/static/image/FB_og_actorcore.638b1ef.jpg
   date_added: '2026-08-05'
   source: agent
 - id: ngskintools-v2-39804d
@@ -1338,7 +1333,7 @@ entries:
   - weights
   summary: An industry-standard skinning plugin for Autodesk Maya that introduces layer-based weight painting, any-pose mirroring, enhanced paint brushes, and advanced smoothing algorithms.
   summary_ja: レイヤーベースのウェイトペイント、任意のポーズでのミラーリング、強化されたペイントブラシ、高度な平滑化アルゴリズムを導入した、Autodesk Maya向けの業界標準スキンゲプラグイン。
-  thumbnail: assets/thumbnails/ngskintools-v2-39804d.png
+  thumbnail: https://www.ngskintools.com/images/logo-colored.png
   date_added: '2026-07-08'
   source: agent
 - id: ngskintools-1c7f77
@@ -1356,6 +1351,7 @@ entries:
   - weight-painting
   summary: An industry-standard layer-based skinning plugin for Autodesk Maya that introduces non-destructive layers, advanced mirroring, and enhanced paint brushes to streamline character weight painting.
   summary_ja: 非破壊的なレイヤー、高度なミラーリング、強化されたペイントブラシを導入し、キャラクターのウェイトペイント作業を効率化する、Autodesk Maya向けの業界標準レイヤーベーススキニングプラグイン。
+  thumbnail: https://www.ngskintools.com/images/logo-colored.png
   date_added: '2026-07-29'
   source: agent
 - id: voxel-heat-diffuse-skinning-a23565
@@ -1389,7 +1385,7 @@ entries:
   - collaborative
   summary: A collaborative, browser-based 3D design and editing tool that integrates generative AI features to generate and modify 3D objects, textures, and animations via natural language.
   summary_ja: 自然言語プロンプトを介して3Dオブジェクト、テクスチャ、アニメーションの生成や編集を行える、ブラウザベースの協調型3Dデザイン・編集ツール。
-  thumbnail: assets/thumbnails/spline-ai-89a525.png
+  thumbnail: https://spline.design/_next/static/immutable/media/spline_image_banner.2at491x3fx670.png
   date_added: '2026-06-17'
   source: agent
 - id: ragnar-cad-c079df
@@ -1407,7 +1403,7 @@ entries:
   - text-to-cad
   summary: An AI-powered CAD platform that converts text descriptions and hand-drawn sketches into precise, editable 3D CAD models (B-Rep geometry) with STEP and STL export.
   summary_ja: テキストの記述や手書きのスケッチを、STEPやSTL形式でエクスポート可能な高精度で編集可能な3D CADモデル（B-Repジオメトリ）に変換するAI搭載CADプラットフォーム。
-  thumbnail: assets/thumbnails/ragnar-cad-c079df.png
+  thumbnail: https://ragnar.build/images/og-card.png
   date_added: '2026-06-17'
   source: agent
 - id: zoo-text-to-cad-ad65da
@@ -1425,7 +1421,7 @@ entries:
   - text-to-cad
   summary: A conversational CAD agent and API (Zookeeper) that generates production-ready, editable B-Rep CAD files and meshes from natural language prompts, bypassing traditional mesh-only 3D generation.
   summary_ja: 自然言語のプロンプトから、編集可能なB-Rep（境界表現）CADファイルやメッシュを生成する対話型CADエージェントおよびAPI（Zookeeper）。従来のメッシュのみの3D生成とは異なり、製造に適したCADデータを直接出力できる。
-  thumbnail: assets/thumbnails/zoo-text-to-cad-ad65da.png
+  thumbnail: https://zoo.dev/meta-images/page-zookeeper.png
   date_added: '2026-06-17'
   source: agent
 - id: zoo-zookeeper-aa84d7
@@ -1443,6 +1439,7 @@ entries:
   - text-to-cad
   summary: A conversational CAD agent built into Zoo Design Studio that generates precise, fully editable B-rep CAD models from natural language prompts.
   summary_ja: 自然言語のプロンプトから、高精度で完全に編集可能なB-rep CADモデルを生成する、Zoo Design Studioに組み込まれた対話型CADエージェント。
+  thumbnail: https://zoo.dev/meta-images/page-zookeeper.png
   date_added: '2026-07-22'
   source: agent
 - id: leo-ai-fd3ab8
@@ -1460,7 +1457,7 @@ entries:
   - lmm
   summary: A patented Large Mechanical Model (LMM) and mechanical engineering copilot that generates full CAD assemblies, parametric models, and engineering specifications from text prompts or sketches.
   summary_ja: テキストプロンプトやスケッチから、完全なCADアセンブリ、パラメータモデル、およびエンジニアリング仕様を生成する、特許取得済みの大型機械モデル（LMM）および機械工学コパイロット。
-  thumbnail: assets/thumbnails/leo-ai-fd3ab8.png
+  thumbnail: https://framerusercontent.com/assets/ih53xCrZwYPgqYMltXfnvVAp2M.jpg
   date_added: '2026-07-01'
   source: agent
 - id: zoo-6a3aa0
@@ -1478,7 +1475,7 @@ entries:
   - text-to-cad
   summary: A developer-focused generative CAD platform (formerly KittyCAD) that converts natural language prompts into precise, editable B-Rep CAD models in formats like STEP, STL, and OBJ.
   summary_ja: 自然言語のプロンプトをSTEP、STL、OBJなどの形式の正確で編集可能なB-Rep CADモデルに変換する、開発者向けのジェネレーティブCADプラットフォーム（旧KittyCAD）。
-  thumbnail: assets/thumbnails/zoo-6a3aa0.png
+  thumbnail: https://zoo.dev/meta-images/zoo-homepage.png
   date_added: '2026-07-01'
   source: agent
 - id: hyper3d-rodin-6a58d8
@@ -1495,6 +1492,7 @@ entries:
   - pbr-textures
   summary: A premium commercial AI 3D generator that transforms text descriptions and 2D images into hyper-realistic 3D assets with detailed geometry and 4K PBR textures.
   summary_ja: テキストの説明や2D画像から、詳細なジオメトリと4K PBRテクスチャを備えた超リアルな3Dアセットを生成する、プレミアムな商用AI 3Dジェネレーター。
+  thumbnail: https://storage.deemos.dev/assets/og-banner.png
   date_added: '2026-08-05'
   source: agent
 - id: meshy-c6012a
@@ -1511,7 +1509,7 @@ entries:
   - texture
   summary: A commercial text/image-to-3D service producing game-ready textured meshes with PBR and auto-rigging; credit-based API and web app widely used in indie pipelines.
   summary_ja: PBRと自動リギングに対応し、ゲームで使えるテクスチャ付きメッシュを生成する商用のテキスト/画像→3Dサービス。APIとWebアプリを提供し、インディー制作で広く使われる。
-  thumbnail: assets/thumbnails/meshy-c6012a.png
+  thumbnail: https://cdn.meshy.ai/landing-assets/og-images/website_og.webp
   date_added: '2026-06-13'
   source: seed
 - id: meshy-ai-1d029a
@@ -1529,7 +1527,7 @@ entries:
   - text-to-3d
   summary: A popular web-based AI 3D generation platform designed for game developers and artists to convert text prompts or 2D images into fully textured, export-ready 3D assets. It features automatic PBR texturing, remeshing, rigging, and animation support.
   summary_ja: テキストプロンプトや2D画像から、テクスチャ付きでエクスポート可能な3Dアセットを生成できる、ゲーム開発者やアーティスト向けの人気のWebベースAI 3D生成プラットフォーム。自動PBRテクスチャリング、リメッシュ、リギング、アニメーションなどの機能を備えています。
-  thumbnail: assets/thumbnails/meshy-ai-1d029a.png
+  thumbnail: https://cdn.meshy.ai/landing-assets/og-images/website_og.webp
   date_added: '2026-07-01'
   source: agent
 - id: tripo-ai-9f10e4
@@ -1546,7 +1544,7 @@ entries:
   - text-to-3d
   summary: A fast AI 3D model generator that transforms text, images, or sketches into detailed 3D meshes with clean topology and rich textures in seconds. It supports quad remeshing, parts segmentation, and direct export to major 3D formats.
   summary_ja: テキスト、画像、またはスケッチから、クリーンなトポロジと豊かなテクスチャを持つ詳細な3Dメッシュを数秒で生成する高速AI 3Dモデルジェネレーター。クアッドリメッシュ、パーツセグメンテーション、および主要な3Dフォーマットへの直接エクスポートをサポートしています。
-  thumbnail: assets/thumbnails/tripo-ai-9f10e4.png
+  thumbnail: https://cdn-blog.holymolly.ai/media/production/Tripo3D_og.webp
   date_added: '2026-07-01'
   source: agent
 - id: kaedim-2dc2c1
@@ -1563,7 +1561,7 @@ entries:
   - mesh
   summary: A professional AI-powered 3D asset creation platform that transforms 2D images, sketches, and reference packs into production-ready 3D meshes. It is widely used by game studios to accelerate asset pipelines while maintaining creative control.
   summary_ja: 2D画像、スケッチ、リファレンスパックをプロダクション品質の3Dメッシュに変換する、プロフェッショナル向けのAI搭載3Dアセット作成プラットフォーム。ゲームスタジオでアセット制作パイプラインの高速化に広く使用されている。
-  thumbnail: assets/thumbnails/kaedim-2dc2c1.png
+  thumbnail: https://kaedim3d.com/opengraph-image.png?1d7674bc16ebb20a
   date_added: '2026-06-17'
   source: agent
 - id: atlas-ai-studio-48f967
@@ -1580,7 +1578,7 @@ entries:
   - worldbuilding
   summary: A generative AI platform designed for game developers to accelerate virtual worldbuilding by transforming 2D concept art, mood boards, and text prompts into structured 3D assets and environments.
   summary_ja: 2Dコンセプトアート、ムードボード、テキストプロンプトを構造化された3Dアセットや環境に変換することで、ゲーム開発者のバーチャルワールド構築を加速するジェネレーティブAIプラットフォーム。
-  thumbnail: assets/thumbnails/atlas-ai-studio-48f967.png
+  thumbnail: https://atlas.design/og.jpg
   date_added: '2026-06-25'
   source: agent
 - id: promethean-ai-6700eb
@@ -1597,7 +1595,7 @@ entries:
   - world-building
   summary: An AI-driven suite for virtual world building and set dressing that assists artists by automatically placing assets, suggesting layouts, and generating 3D environments within popular game engines.
   summary_ja: アーティストのアセット配置、レイアウト提案、主要ゲームエンジン内での3D環境生成を自動で支援する、バーチャルワールド構築およびセットドレス用のAI駆動型スイート。
-  thumbnail: assets/thumbnails/promethean-ai-6700eb.png
+  thumbnail: https://static.wixstatic.com/media/dd3bb7_3121fbf35e914c89b7f33bd940dee538~mv2.png/v1/fill/w_1920,h_1080,al_c/dd3bb7_3121fbf35e914c89b7f33bd940dee538~mv2.png
   date_added: '2026-06-25'
   source: agent
 - id: genie-google-deepmind-6f3f03
@@ -1614,7 +1612,7 @@ entries:
   - world-model
   summary: DeepMind's foundation world model that generates interactive, playable 3D environments from a single image or text prompt, controllable in real time.
   summary_ja: DeepMindの基盤ワールドモデル。単一の画像やテキストプロンプトから、リアルタイムに操作できるインタラクティブでプレイ可能な3D環境を生成する。
-  thumbnail: assets/thumbnails/genie-google-deepmind-6f3f03.png
+  thumbnail: https://lh3.googleusercontent.com/YLUxcW0482IsoBzK7KNKDscT3s7bsPl2QTvbvfUuB1zbZZ0H4KYCN7Y6_WqLMXO7LeJ01_7xz5YIoWEAqlllIk4oaT60c_0j1pk9RC4EVc7ZS4pvXsE=w1200-h630-n-nu-rw
   date_added: '2026-06-13'
   source: seed
 - id: marble-world-labs-0e8ed8
@@ -1631,7 +1629,7 @@ entries:
   - world-model
   summary: World Labs' commercial platform that generates large, explorable 3D worlds from a prompt or image, aimed at environment creation for games and virtual production.
   summary_ja: World Labsによる商用プラットフォーム。プロンプトや画像から大規模で探索可能な3Dワールドを生成し、ゲームやバーチャルプロダクションの環境制作を狙う。
-  thumbnail: assets/thumbnails/marble-world-labs-0e8ed8.png
+  thumbnail: https://wlt-ai-cdn.art/images/marble-og.jpeg
   date_added: '2026-06-13'
   source: seed
 - id: odyssey-49cd76
@@ -1647,7 +1645,7 @@ entries:
   - world-model
   summary: An emerging commercial generative world model producing interactive, explorable environments for real-time world creation.
   summary_ja: リアルタイムなワールド制作に向けて、インタラクティブで探索可能な環境を生成する新興の商用ワールドモデル。
-  thumbnail: assets/thumbnails/odyssey-49cd76.png
+  thumbnail: https://framerusercontent.com/images/Ztmb5fzsBj2oaVgWRUqBnP4yRU.jpg
   date_added: '2026-06-13'
   source: seed
 - id: spaitial-42ffaa
@@ -1663,7 +1661,7 @@ entries:
   - world-model
   summary: An emerging commercial spatial-intelligence platform for generating navigable 3D scenes and worlds from prompts or images.
   summary_ja: プロンプトや画像から、移動・探索可能な3Dシーンやワールドを生成する新興の商用空間知能プラットフォーム。
-  thumbnail: assets/thumbnails/spaitial-42ffaa.png
+  thumbnail: https://spaitial.ai/og-image-default.png
   date_added: '2026-06-13'
   source: seed
 - id: 360-hextile-c86d89
@@ -1681,7 +1679,7 @@ entries:
   - skybox
   summary: A local desktop application for generating and transforming 360-degree panoramic art using AI-powered hexagonal tile processing and custom Stable Diffusion models on local GPUs.
   summary_ja: ローカルGPU上でカスタムのStable DiffusionモデルとAI駆動のヘキサゴナルタイル処理を使用し、360度パノラマアートを生成・変換するためのローカルデスクトップアプリケーション。
-  thumbnail: assets/thumbnails/360-hextile-c86d89.png
+  thumbnail: https://360hextile.com/static/images/og-image-1200x630.png?v=1787318162
   date_added: '2026-06-25'
   source: agent
 - id: skybox-ai-blockade-labs-a12daf
@@ -1699,6 +1697,7 @@ entries:
   - skybox
   summary: A widely used commercial AI tool that generates high-resolution, seamless 360° equirectangular skyboxes and environments from text prompts, sketches, or style templates, ready for export to game engines like Unity and Unreal.
   summary_ja: テキストプロンプトやスケッチ、スタイルテンプレートから高解像度でシームレスな360度正距円筒図法のスカイボックスや環境を生成し、UnityやUnreal Engineなどのゲームエンジンにエクスポート可能な商用AIツール。
+  thumbnail: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg
   date_added: '2026-07-23'
   source: agent
 - id: skybox-ai-by-blockade-labs-e04f0c
@@ -1715,6 +1714,7 @@ entries:
   - skybox
   summary: An industry-standard generative AI tool by Blockade Labs for creating high-quality, seamless 360-degree skyboxes and environments from text prompts or sketches. It is widely used by game developers and digital artists to rapidly prototype immersive virtual worlds.
   summary_ja: テキストプロンプトやスケッチから高品質でシームレスな360度スカイボックスや環境を作成するための、Blockade Labsによる業界標準の生成AIツール。ゲーム開発者やデジタルアーティストに広く使用され、没入感のある仮想世界を迅速にプロトタイプ化します。
+  thumbnail: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg
   date_added: '2026-08-20'
   source: agent
 - id: skybox-ai-ce17a3
@@ -1732,7 +1732,7 @@ entries:
   - skybox
   summary: A web-based generative AI tool and API that creates high-quality, seamless 360-degree skyboxes and environments from text prompts or sketches, widely used in game engines like Unity and Unreal Engine.
   summary_ja: テキストプロンプトやスケッチから、高品質でシームレスな360度スカイボックスや環境を生成するWebベースのジェネレーティブAIツールおよびAPI。UnityやUnreal Engineなどのゲームエンジンで広く利用されています。
-  thumbnail: assets/thumbnails/skybox-ai-ce17a3.png
+  thumbnail: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg
   date_added: '2026-06-13'
   source: agent
 - id: world-machine-c6edc2
@@ -1749,7 +1749,7 @@ entries:
   - terrain
   summary: A classic, node-based procedural terrain generation software widely used in the game industry to create highly detailed heightmaps, meshes, and textures.
   summary_ja: 高精細なハイトマップ、メッシュ、テクスチャを作成するためにゲーム業界で広く使用されている、ノードベースの古典的な手続き型地形生成ソフトウェア。
-  thumbnail: assets/thumbnails/world-machine-c6edc2.png
+  thumbnail: https://www.world-machine.com/images/favicon192.png
   date_added: '2026-06-18'
   source: agent
 - id: quadspinner-gaea-6a5a13
@@ -1767,7 +1767,7 @@ entries:
   - terrain
   summary: A premier industry-standard terrain design tool for VFX, games, and virtual production. It features advanced erosion algorithms, a sophisticated node-based workflow, and procedural tools to craft highly realistic 3D landscapes and heightmaps.
   summary_ja: VFX、ゲーム、バーチャルプロダクション向けの業界標準の地形デザインツール。高度な侵食アルゴリズム、洗練されたノードベースのワークフロー、および手続き型ツールを備え、極めてリアルな3D景観とハイトマップを構築できる。
-  thumbnail: assets/thumbnails/quadspinner-gaea-6a5a13.png
+  thumbnail: https://cdn.gaea.app/web2025/img/StillFinalShot3.webp
   date_added: '2026-06-25'
   source: agent
 - id: world-creator-f12767
@@ -1785,7 +1785,6 @@ entries:
   - terrain
   summary: An advanced, real-time procedural terrain and landscape generator powered entirely on the GPU. It provides rapid erosion simulation, texturing, and direct bridges to major game engines like Unreal Engine and Unity.
   summary_ja: GPU上で完全に動作する、リアルタイムの手続き型地形・景観ジェネレーター。高速な侵食シミュレーション、テクスチャリング、およびUnreal EngineやUnityなどの主要ゲームエンジンへの直接的なブリッジ機能を提供する。
-  thumbnail: assets/thumbnails/world-creator-f12767.png
   date_added: '2026-06-25'
   source: agent
 - id: sloyd-ai-466359
@@ -1803,7 +1802,7 @@ entries:
   - text-to-3d
   summary: An AI-powered 3D modeling platform designed to generate game-ready, textured, and customizable 3D assets from text prompts or parametric templates.
   summary_ja: テキストプロンプトやパラメータテンプレートから、ゲーム対応のテクスチャ付きカスタマイズ可能3Dアセットを生成する、AI搭載の3Dモデリングプラットフォーム。
-  thumbnail: assets/thumbnails/sloyd-ai-466359.png
+  thumbnail: https://www.sloyd.ai/en/opengraph-image/home?aa5d09a93ff07799
   date_added: '2026-07-02'
   source: agent
 - id: rodin-hyper3d-37bed0
@@ -1818,7 +1817,7 @@ entries:
   - commercial
   summary: A commercial 3D generation service with an API producing detailed textured models from text or images for production asset workflows.
   summary_ja: テキストや画像から詳細なテクスチャ付きモデルを生成する、API付きの商用3D生成サービス。
-  thumbnail: assets/thumbnails/rodin-hyper3d-37bed0.png
+  thumbnail: https://storage.deemos.dev/assets/og-banner.png
   date_added: '2026-06-13'
   source: seed
 - id: tripo-a95a86
@@ -1834,7 +1833,7 @@ entries:
   - fast
   summary: A commercial text/image-to-3D generator known for fast mesh creation, frequently used for rapid game asset prototyping.
   summary_ja: 高速なメッシュ生成で知られる商用のテキスト/画像→3Dジェネレーター。ゲームアセットの迅速なプロトタイピングによく使われる。
-  thumbnail: assets/thumbnails/tripo-a95a86.png
+  thumbnail: https://cdn-blog.holymolly.ai/media/production/Tripo3D_og.webp
   date_added: '2026-06-13'
   source: seed
 - id: adobe-substance-3d-sampler-95c530
@@ -1852,7 +1851,6 @@ entries:
   - photogrammetry
   summary: An industry-standard tool for 3D material authoring and photogrammetry that features AI-powered 'Image to Material' capabilities. It uses machine learning to automatically convert single real-world photographs into complete, high-quality PBR materials with accurate normal, roughness, metallic, and height maps.
   summary_ja: AI搭載の『Image to Material』機能を備えた、3Dマテリアル作成およびフォトグラメトリの業界標準ツール。機械学習を用いて、現実世界の1枚の写真から、正確なノーマル、ラフネス、メタリック、ハイトマップを含む完全な高品質PBRマテリアルを自動的に生成します。
-  thumbnail: assets/thumbnails/adobe-substance-3d-sampler-95c530.png
   date_added: '2026-07-02'
   source: agent
 - id: tractive-2feff7
@@ -1869,7 +1867,7 @@ entries:
   - retopology
   summary: Tractive is an AI-powered retopology tool designed to automate the process of converting high-resolution 3D meshes into clean, game-ready low-polygon models. It features a native desktop application capable of handling high-vertex reference meshes efficiently.
   summary_ja: Tractiveは、高解像度の3Dメッシュをクリーンでゲームに即した低ポリゴンモデルに変換するプロセスを自動化するために設計された、AI搭載のリトポロジーツールです。高頂点数の参照メッシュを効率的に処理できるネイティブのデスクトップアプリケーションを提供します。
-  thumbnail: assets/thumbnails/tractive-2feff7.png
+  thumbnail: https://cdn.prod.website-files.com/66e9a301f4fdbb270a76e94a/66e9af0ce18aa9bfc3c5862d_Screenshot%202024-09-17%20at%2017.29.46.png
   date_added: '2026-07-09'
   source: agent
 - id: quadremesher-e35c8b
@@ -1887,7 +1885,6 @@ entries:
   - retopology
   summary: An industry-standard automatic quad retopology plugin for major 3D DCC applications, including Blender, Maya, 3ds Max, and Houdini, that generates clean, animation-ready quad meshes.
   summary_ja: Blender、Maya、3ds Max、Houdiniなどの主要な3Dツールに対応した、業界標準の自動四角形（Quad）リトポロジープラグイン。アニメーションに適したクリーンなメッシュを自動生成します。
-  thumbnail: assets/thumbnails/quadremesher-e35c8b.png
   date_added: '2026-06-25'
   source: agent
 - id: rizomuv-11f4de
@@ -1905,7 +1902,7 @@ entries:
   - uv
   summary: A professional, industry-standard UV mapping and unwrapping software widely used in game development and VFX for its speed, precision, and advanced packing algorithms.
   summary_ja: ゲーム開発やVFX業界で広く使用されている、プロフェッショナル向けの業界標準UVマッピング・展開ソフトウェア。高速かつ高精度な展開と高度なパッキングアルゴリズムを特徴とします。
-  thumbnail: assets/thumbnails/rizomuv-11f4de.png
+  thumbnail: https://www.rizomuv.com/wp-content/uploads/2023/11/cropped-favicon-1-180x180.png
   date_added: '2026-06-25'
   source: agent
 - id: simplygon-608b5f
@@ -1922,7 +1919,7 @@ entries:
   - retopology
   summary: The industry-standard 3D optimization and Level of Detail (LOD) generation software used in AAA game development to automate mesh reduction, material baking, and retopology.
   summary_ja: AAAゲーム開発でメッシュ削減、マテリアルベイク、リトポロジを自動化するために使用される、業界標準の3D最適化およびLOD（Level of Detail）生成ソフトウェア。
-  thumbnail: assets/thumbnails/simplygon-608b5f.png
+  thumbnail: https://contents.simplygon.com/images/simplygon-share2.jpg
   date_added: '2026-07-16'
   source: agent
 - id: novelai-diffusion-v4-5-faee7e
@@ -1940,7 +1937,7 @@ entries:
   - proprietary
   summary: A state-of-the-art proprietary anime image generator featuring advanced multi-character prompting, natural language understanding, action tags, and precise character positioning.
   summary_ja: 高度な複数キャラクタープロンプト、自然言語理解、アクションタグ、正確なキャラクター配置機能を備えた、最先端の商用アニメ画像生成サービス。
-  thumbnail: assets/thumbnails/novelai-diffusion-v4-5-faee7e.png
+  thumbnail: https://novelai.net/social.png
   date_added: '2026-07-02'
   source: agent
 - id: pixai-80f3ec
@@ -1958,7 +1955,7 @@ entries:
   - web-app
   summary: PixAI is a popular web-based AI anime art generator and community platform that specializes in character design. It features text-to-image generation, image-to-image editing, custom LoRA training, and a model marketplace for precise character and style control.
   summary_ja: PixAIは、キャラクターデザインに特化した人気のあるウェブベースのAIアニメアート生成およびコミュニティプラットフォームです。テキストからの画像生成、画像間編集、カスタムLoRAトレーニング、および正確なキャラクターとスタイルの制御のためのモデルマーケットプレイスを備えています。
-  thumbnail: assets/thumbnails/pixai-80f3ec.png
+  thumbnail: https://images-ng.pixai.art/images/thumb/23a78555-1da9-4b2c-9c72-3d44d2316f47
   date_added: '2026-06-18'
   source: agent
 - id: novelai-diffusion-bffbf8
@@ -1975,6 +1972,7 @@ entries:
   - novelai
   summary: A popular commercial AI-assisted writing and image generation platform featuring state-of-the-art anime-focused diffusion models. It is widely used by creators and studios for rapid anime character design, concept art generation, and visual storytelling.
   summary_ja: 最先端のアニメ特化型拡散モデルを搭載した、人気の商用AI執筆・画像生成プラットフォーム。クリエイターやスタジオにおいて、迅速なアニメキャラクターデザイン、コンセプトアート生成、ビジュアルストーリーテリングに広く利用されています。
+  thumbnail: https://novelai.net/social.png
   date_added: '2026-08-06'
   source: agent
 - id: novelai-image-generation-e5a52e
@@ -1992,7 +1990,7 @@ entries:
   - commercial
   summary: A commercial anime-focused image generator with character-consistency tooling, popular for character design and reference sheets in indie anime production.
   summary_ja: キャラクターの一貫性を保つ機能を備えた商用のアニメ特化型画像生成サービス。インディーのアニメ制作でキャラクターデザインや設定画によく使われる。
-  thumbnail: assets/thumbnails/novelai-image-generation-e5a52e.png
+  thumbnail: https://novelai.net/social.png
   date_added: '2026-06-13'
   source: seed
 - id: crypko-4e57bb
@@ -2009,7 +2007,6 @@ entries:
   - interactive-editing
   summary: Crypko is a GAN-based anime character generation and editing platform that allows users to generate high-quality anime illustrations. It provides interactive tools to customize character features such as hair, clothing, facial expressions, and poses, along with smooth interpolation for animations.
   summary_ja: Crypkoは、高品質なアニメイラストを生成できるGANベースのアニメキャラクター生成・編集プラットフォームです。髪型、服装、表情、ポーズなどのキャラクターの特徴をカスタマイズするインタラクティブなツールや、アニメーション用のスムーズな補間機能を提供します。
-  thumbnail: assets/thumbnails/crypko-4e57bb.png
   date_added: '2026-06-18'
   source: agent
 - id: waifu-labs-560044
@@ -2026,7 +2023,7 @@ entries:
   - generative-ai
   summary: Waifu Labs is an AI-powered custom anime portrait generator that utilizes machine learning to create unique character illustrations. It guides users through an intuitive step-by-step process to refine and customize character designs based on individual preferences.
   summary_ja: Waifu Labsは、機械学習を利用してユニークなキャラクターイラストを作成する、AI駆動のカスタムアニメポートレートジェネレーターです。直感的なステップバイステップのプロセスを通じて、個人の好みに基づいてキャラクターデザインを洗練およびカスタマイズできます。
-  thumbnail: assets/thumbnails/waifu-labs-560044.png
+  thumbnail: https://storage.googleapis.com/wcorp_public/wcorp/static/og_card.jpg
   date_added: '2026-06-18'
   source: agent
 - id: flat-kit-4ad69a
@@ -2046,7 +2043,7 @@ entries:
   - unity
   summary: A popular commercial asset package for Unity that provides a complete set of stylized shaders, cel shading, water rendering, and outline effects to achieve a minimalist flat look.
   summary_ja: ミニマリストなフラットルックを実現するための、スタイライズされたシェーダー、セルシェーディング、水レンダリング、アウトラインエフェクトの完全なセットを提供する、Unity用の人気のある商用アセットパッケージ。
-  thumbnail: assets/thumbnails/flat-kit-4ad69a.png
+  thumbnail: https://flatkit.dustyroom.com/FlatKit_Manual_Images/overview-intro-pic.jpg
   date_added: '2026-07-09'
   source: agent
 - id: psoft-pencil-4-d760d5
@@ -2064,7 +2061,7 @@ entries:
   - npr
   summary: A legendary non-photorealistic rendering plugin widely used in the Japanese anime industry to produce high-quality cel shading, hand-drawn pencil sketches, and precise contour lines within 3ds Max, Maya, Blender, and Unity.
   summary_ja: 日本のデジタルアニメ業界で広く使用されている伝説的な非実写レンダリングプラグイン。3ds Max、Maya、Blender、Unity内で、高品質なセルシェーディング、手描き風の鉛筆画、および精密な輪郭線を描画します。
-  thumbnail: assets/thumbnails/psoft-pencil-4-d760d5.png
+  thumbnail: https://www.psoft.co.jp/en/wp-content/uploads/2018/11/pencil4-3dsmax-ogp.png
   date_added: '2026-07-16'
   source: agent
 - id: adobe-firefly-generative-fill-81cbd2
@@ -2116,7 +2113,7 @@ entries:
   - outpainting
   summary: An AI-powered visual editing suite by Stability AI/Jasper that offers advanced tools for object removal (Cleanup), image outpainting (Uncrop), relighting, and background replacement.
   summary_ja: オブジェクト削除（Cleanup）、画像アウトペインティング（Uncrop）、リライティング、背景置換などの高度なツールを提供する、Stability AI/JasperによるAI搭載ビジュアル編集スイート。
-  thumbnail: assets/thumbnails/clipdrop-f01b6a.png
+  thumbnail: https://assets.reactbricks.com/G-dH90DZVcB0SiT/images/original/Lxv-0lCYYQgvMU7.webp
   date_added: '2026-06-19'
   source: agent
 - id: photoroom-0cdeff
@@ -2134,6 +2131,7 @@ entries:
   - proprietary
   summary: Photoroom is a proprietary AI-powered photo editing platform specializing in background removal, object removal, and high-quality image inpainting. It provides web, mobile, and batch API solutions tailored for rapid asset creation, e-commerce, and marketing production.
   summary_ja: Photoroomは、背景削除、オブジェクト削除、および高品質な画像インペインティングに特化した、AI搭載のプロプライエタリな写真編集プラットフォームです。アセットの迅速な作成、Eコマース、およびマーケティング制作向けに調整された、Web、モバイル、およびバッチAPIソリューションを提供します。
+  thumbnail: https://storyblok-cdn.photoroom.com/f/191576/2400x1260/5c12e4c46c/photoroom-og-generic.webp/m/1200x0/filters:format(jpeg):quality(80):no_upscale()
   date_added: '2026-08-21'
   source: agent
 - id: petalica-paint-e04d0a
@@ -2154,6 +2152,7 @@ entries:
   - sketch
   summary: A widely used AI-powered automatic line art colorization service developed by Preferred Networks and operated by pixiv, allowing artists to colorize sketches automatically or guide the process using color hints.
   summary_ja: Preferred Networksが開発し、現在はpixivが運営する、広く利用されているAI搭載の線画自動着色サービス。スケッチを自動で着色したり、カラーヒントを用いて着色プロセスを制御したりできる。
+  thumbnail: https://paintschainer-pixiv-api.preferred.tech/images/apple-icon-57x57.png
   date_added: '2026-08-07'
   source: agent
 - id: copainter-43b2c2
@@ -2170,6 +2169,7 @@ entries:
   - lineart-extraction
   summary: An AI-powered illustration assistant designed for artists, manga creators, and animators, offering features such as automated line art extraction, undercoating, coloring, and PSD layer separation.
   summary_ja: イラストレーターや漫画家、アニメーター向けに開発されたAIイラスト制作アシスタント。自動線画抽出、下塗り、自動彩色、PSDレイヤー分けなどの機能をWebブラウザ上で提供する。
+  thumbnail: https://www.copainter.ai/images/hero.webp
   date_added: '2026-08-07'
   source: agent
 - id: copainter-line-art-extraction-4eee5c
@@ -2187,6 +2187,7 @@ entries:
   - sketch-cleanup
   summary: An AI-powered web tool designed for digital artists that extracts clean line art from rough sketches or colored illustrations, facilitating the coloring and finishing workflow.
   summary_ja: ラフスケッチや彩色済みのイラストからクリーンな線画を抽出する、デジタルアーティスト向けのAI搭載ウェブツール。
+  thumbnail: https://www.copainter.ai/images/hero.webp
   date_added: '2026-07-24'
   source: agent
 - id: sketchedge-204c82
@@ -2204,6 +2205,7 @@ entries:
   - saas
   summary: An AI-powered web service designed to extract clean, hand-drawn-style line art from photos and images. It is widely used by creators and manga artists to generate high-quality backgrounds and reference materials from real-world photography.
   summary_ja: 写真や画像から、手描き風のクリーンな線画を抽出するために設計されたAI搭載のウェブサービス。クリエイターや漫画家が、実世界の写真から高品質な背景や参考資料を生成するために広く利用されています。
+  thumbnail: https://sketchedge.net/favicons/apple-touch-icon.png
   date_added: '2026-07-31'
   source: agent
 - id: fotor-sketch-to-image-ai-00b39d
@@ -2220,6 +2222,7 @@ entries:
   - sketch
   summary: A commercial web-based tool that converts hand-drawn sketches into high-quality digital artwork, supporting various styles such as realistic, 3D, anime, and oil painting.
   summary_ja: 手描きのスケッチを高品質なデジタルアートワークに変換する商用のウェブベースツール。リアル、3D、アニメ、油絵など、さまざまなスタイルをサポートしています。
+  thumbnail: https://imgv3.fotor.com/images/share/turn-girl-sketch-into-colorful-image-with-fotor-ai-sketch-tool.jpg
   date_added: '2026-08-07'
   source: agent
 - id: openart-sketch-to-image-e71dd5
@@ -2236,6 +2239,7 @@ entries:
   - sketch
   summary: An online AI tool that transforms sketches, interior design concepts, or product ideas into detailed, realistic images with optional style reference guidance.
   summary_ja: スケッチ、インテリアデザインのコンセプト、または製品のアイデアを、オプションのスタイル参照ガイドに従って詳細でリアルな画像に変換するオンラインAIツール。
+  thumbnail: https://cdn.openart.ai/assets/home/usecase_thumbnails/sketch_to_image.jpg
   date_added: '2026-08-07'
   source: agent
 - id: freepik-pikaso-4b244d
@@ -2253,7 +2257,6 @@ entries:
   - sketch-to-image
   summary: A free, browser-based real-time sketch-to-image generator that transforms rough drawings, shapes, and icons into detailed visual artwork instantly.
   summary_ja: 大まかな描画、図形、アイコンを詳細なビジュアルアートワークに即座に変換する、無料のブラウザベースのリアルタイムスケッチ画像生成ツール。
-  thumbnail: assets/thumbnails/freepik-pikaso-4b244d.png
   date_added: '2026-06-19'
   source: agent
 - id: krea-ai-realtime-sketch-to-image-c4b865
@@ -2271,6 +2274,7 @@ entries:
   - real-time
   summary: A popular commercial AI design platform featuring a real-time sketch-to-image canvas that instantly renders polished concept art and product designs as the user draws.
   summary_ja: ユーザーが描画するにつれて、洗練されたコンセプトアートやプロダクトデザインを即座にレンダリングする、リアルタイムのスケッチから画像への変換キャンバスを備えた人気の商用AIデザインプラットフォーム。
+  thumbnail: https://s.krea.ai/news_realtime_edit.webp
   date_added: '2026-07-31'
   source: agent
 - id: newarc-ai-b818bc
@@ -2288,7 +2292,7 @@ entries:
   - sketch-to-image
   summary: A commercial AI sketch-to-image generator tailored for fashion, footwear, and product designers to transform rough outlines and drawings into high-fidelity photos and renders.
   summary_ja: ファッション、フットウェア、プロダクトデザイナー向けに調整された商用のAIスケッチ画像生成ツールで、ラフな輪郭やドローイングを高精度な写真やレンダリング画像に変換します。
-  thumbnail: assets/thumbnails/newarc-ai-b818bc.png
+  thumbnail: https://www.newarc.ai/images/og-image.jpg
   date_added: '2026-07-17'
   source: agent
 - id: stable-doodle-0ad9ed
@@ -2306,7 +2310,7 @@ entries:
   - t2i-adapter
   summary: A user-friendly sketch-to-image tool by Stability AI that converts simple hand-drawn doodles into high-quality, stylized images using Stable Diffusion XL and T2I-Adapter.
   summary_ja: Stable Diffusion XL と T2I-Adapter を使用して、シンプルな手書きの落書きを高品質でスタイライズされた画像に変換する、Stability AI による使いやすいスケッチ・トゥ・イメージツール。
-  thumbnail: assets/thumbnails/stable-doodle-0ad9ed.png
+  thumbnail: https://static1.squarespace.com/static/6213c340453c3f502425776e/62f2452bc121595f4d87c713/64ae878876a5735d7ce0a00a/1779700386337/StableDoodle+-+Cover.png?format=1500w
   date_added: '2026-07-03'
   source: agent
 - id: vizcom-8271cc
@@ -2324,7 +2328,7 @@ entries:
   - sketch-to-image
   summary: An AI-powered design platform widely used by industrial and concept designers to instantly render hand-drawn or digital sketches into photorealistic 3D-like product visuals.
   summary_ja: 手書きやデジタルのスケッチを、フォトリアルな3D風のプロダクトビジュアルに即座にレンダリングする、インダストリアルデザイナーやコンセプトアーティストに広く使用されているAIデザインプラットフォーム。
-  thumbnail: assets/thumbnails/vizcom-8271cc.png
+  thumbnail: https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694b256896dd559dad1f8296_Generic_OpenGraph_1200x630.png
   date_added: '2026-07-17'
   source: agent
 - id: scenario-c18dd2
@@ -2341,7 +2345,7 @@ entries:
   - style-consistency
   summary: A creative AI infrastructure platform designed for game developers to train custom Flux and SDXL LoRA models on proprietary art styles, ensuring visual consistency across game assets.
   summary_ja: ゲーム開発者向けに設計されたクリエイティブAIインフラプラットフォーム。独自のゲームアートスタイルに基づいてカスタムのFluxやSDXL LoRAモデルをトレーニングし、アセット全体の視覚的一貫性を確保する。
-  thumbnail: assets/thumbnails/scenario-c18dd2.png
+  thumbnail: https://www.scenario.com/opengraph-image-pwu6ef?07536303fb3f8627
   date_added: '2026-06-26'
   source: agent
 - id: krea-ai-8a10e7
@@ -2359,7 +2363,6 @@ entries:
   - upscaler
   summary: A creative AI suite featuring a powerful real-time upscaler and enhancer capable of upscaling images up to 22K resolution while restoring fine details and textures.
   summary_ja: 微細なディテールやテクスチャを復元しながら、画像を最大22K解像度までアップスケーリングできる強力なリアルタイムアップスケーラーおよびエンハンサーを備えたクリエイティブAIスイート。
-  thumbnail: assets/thumbnails/krea-ai-8a10e7.png
   date_added: '2026-06-26'
   source: agent
 - id: magnific-ai-282882
@@ -2377,7 +2380,6 @@ entries:
   - upscaler
   summary: A premium generative AI upscaler and enhancer that intelligently adds high-resolution details, textures, and sharpness to images and illustrations.
   summary_ja: 画像やイラストに高解像度のディテール、テクスチャ、鮮明さをインテリジェントに追加する、プレミアムな生成AIアップスケーラーおよびエンハンサー。
-  thumbnail: assets/thumbnails/magnific-ai-282882.png
   date_added: '2026-06-26'
   source: agent
 - id: topaz-gigapixel-ai-eb4df5
@@ -2395,6 +2397,7 @@ entries:
   - upscaling
   summary: An industry-standard proprietary desktop application for image upscaling and super-resolution. It uses deep learning models trained on diverse datasets to add realistic details and sharpness while enlarging images up to 600%.
   summary_ja: 画像のアップスケーリングと超解像のための業界標準のプロプライエタリなデスクトップアプリケーション。多様なデータセットでトレーニングされたディープラーニングモデルを使用し、画像を最大600%拡大しながら、リアルなディテールと鮮明さを追加します。
+  thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca9105d4f07b7d38a3f7f7_opengraph-topaz-giga.webp
   date_added: '2026-07-24'
   source: agent
 - id: adobe-firefly-api-aa004e
@@ -2411,7 +2414,6 @@ entries:
   - editing
   summary: Adobe's commercial generative-image API offering text-to-image plus programmatic Photoshop and Lightroom editing operations, marketed as commercially-safe for production use.
   summary_ja: Adobeの商用の生成画像API。テキスト→画像に加え、PhotoshopやLightroomの編集操作をプログラムから実行でき、商用利用に配慮した学習を謳う。
-  thumbnail: assets/thumbnails/adobe-firefly-api-aa004e.png
   date_added: '2026-06-13'
   source: seed
 - id: amazon-titan-image-generator-c70f8b
@@ -2427,7 +2429,7 @@ entries:
   - commercial
   summary: A text-to-image model served via AWS Bedrock with image conditioning, color-palette guidance, and built-in editing, convenient for teams already on AWS.
   summary_ja: AWS Bedrock経由で提供されるテキスト→画像モデル。画像条件付け、カラーパレット指定、編集機能を備え、すでにAWSを使うチームに便利。
-  thumbnail: assets/thumbnails/amazon-titan-image-generator-c70f8b.png
+  thumbnail: https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png
   date_added: '2026-06-13'
   source: seed
 - id: black-forest-labs-flux-pro-db2f6c
@@ -2443,7 +2445,7 @@ entries:
   - flux
   summary: Black Forest Labs' hosted API for the proprietary FLUX 1.1 Pro and FLUX.2 (32B) models, the managed tier above the open FLUX.1/2 weights.
   summary_ja: Black Forest Labsによる、商用のFLUX 1.1 ProおよびFLUX.2（32B）モデルのホスティングAPI。オープンなFLUX.1/2ウェイトの上位にあたるマネージド層。
-  thumbnail: assets/thumbnails/black-forest-labs-flux-pro-db2f6c.png
+  thumbnail: https://bfl.ai/opengraph-image-j8qpfc.png?47e2121a0eb4d5b0
   date_added: '2026-06-13'
   source: seed
 - id: google-gemini-image-api-3513b9
@@ -2460,7 +2462,7 @@ entries:
   - google
   summary: Native image generation and conversational editing through Google's Gemini models, accessible via the Gemini API with text-to-image and image editing.
   summary_ja: GoogleのGeminiモデルによるネイティブな画像生成と対話的編集。Gemini API経由でテキスト→画像生成と画像編集を利用できる。
-  thumbnail: assets/thumbnails/google-gemini-image-api-3513b9.png
+  thumbnail: https://ai.google.dev/static/site-assets/images/image-generation.png
   date_added: '2026-06-13'
   source: seed
 - id: google-imagen-vertex-ai-fdfa5a
@@ -2477,7 +2479,7 @@ entries:
   - inpainting
   summary: Google's Imagen 4 family on Vertex AI for text-to-image plus editing, inpainting, and outpainting, with enterprise controls and SynthID watermarking.
   summary_ja: Vertex AI上のGoogle Imagen 4ファミリー。テキスト→画像に加え編集・インペインティング・アウトペインティングに対応し、企業向け制御とSynthID電子透かしを備える。
-  thumbnail: assets/thumbnails/google-imagen-vertex-ai-fdfa5a.png
+  thumbnail: https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png
   date_added: '2026-06-13'
   source: seed
 - id: ideogram-14bd97
@@ -2493,7 +2495,7 @@ entries:
   - text-rendering
   summary: A commercial text-to-image service noted for reliable in-image text and typography, useful for posters, logos, and title cards.
   summary_ja: 画像内テキストやタイポグラフィの安定した描画で知られる商用のテキスト→画像サービス。ポスター、ロゴ、タイトルカードに有用。
-  thumbnail: assets/thumbnails/ideogram-14bd97.png
+  thumbnail: https://storage.googleapis.com/ideogram-static/website/images/ba16d402d8d0b906.jpeg
   date_added: '2026-06-13'
   source: seed
 - id: leonardo-ai-c2fbe8
@@ -2509,7 +2511,7 @@ entries:
   - game-art
   summary: A commercial generation platform (text-to-image, image-to-image, image-to-video) with game-asset-oriented models and webhooks, popular in indie game art pipelines.
   summary_ja: テキスト→画像、画像→画像、画像→動画に対応する商用の生成プラットフォーム。ゲームアセット向けモデルとWebhookを備え、インディーのゲームアート制作で人気。
-  thumbnail: assets/thumbnails/leonardo-ai-c2fbe8.png
+  thumbnail: https://leonardo.ai/images/og-leonardo.png
   date_added: '2026-06-13'
   source: seed
 - id: midjourney-4cae8c
@@ -2524,7 +2526,7 @@ entries:
   - concept-art
   summary: A commercial text-to-image service known for high aesthetic quality, widely used for rapid concept-art ideation across game and anime studios.
   summary_ja: 高い美的品質で知られる商用のテキスト→画像サービス。ゲーム・アニメ制作で素早いコンセプトアートの発想に広く利用される。
-  thumbnail: assets/thumbnails/midjourney-4cae8c.png
+  thumbnail: https://www.midjourney.com/public/apple-touch-icon.png
   date_added: '2026-06-13'
   source: seed
 - id: minimax-image-api-2d9f56
@@ -2539,7 +2541,7 @@ entries:
   - commercial
   summary: A text-to-image and image-to-image REST API from MiniMax supporting batch generation.
   summary_ja: MiniMaxによるテキスト→画像および画像→画像のREST API。バッチ生成に対応する。
-  thumbnail: assets/thumbnails/minimax-image-api-2d9f56.png
+  thumbnail: https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png
   date_added: '2026-06-13'
   source: seed
 - id: openai-gpt-image-5147bd
@@ -2556,7 +2558,7 @@ entries:
   - openai
   summary: OpenAI's natively-multimodal image models (gpt-image-1 / 1.5 / mini) for text-to-image and instruction editing, with strong prompt adherence and in-image text.
   summary_ja: OpenAIのネイティブ・マルチモーダル画像モデル（gpt-image-1 / 1.5 / mini）。テキスト→画像と指示編集に対応し、プロンプト忠実度と画像内テキストが強力。
-  thumbnail: assets/thumbnails/openai-gpt-image-5147bd.png
+  thumbnail: https://developers.openai.com/og/api/docs/guides/images-vision.png
   date_added: '2026-06-13'
   source: seed
 - id: pollinations-ai-c9c167
@@ -2571,7 +2573,7 @@ entries:
   - free
   summary: A free, open generative-AI platform offering a no-signup text-to-image API, handy for prototyping and hobby projects.
   summary_ja: 登録不要のテキスト→画像APIを提供する無料・オープンな生成AIプラットフォーム。プロトタイピングや趣味の制作に便利。
-  thumbnail: assets/thumbnails/pollinations-ai-c9c167.png
+  thumbnail: https://pollinations.ai/og-image.png
   date_added: '2026-06-13'
   source: seed
 - id: recraft-ai-fcbc06
@@ -2587,7 +2589,7 @@ entries:
   - vector
   summary: A commercial generator producing both raster and true vector (SVG) output via its V4 model, suited to icons, logos, and 2D UI/art assets.
   summary_ja: V4モデルでラスターと真のベクター（SVG）の両方を出力する商用ジェネレーター。アイコン、ロゴ、2DのUI・アートアセットに適する。
-  thumbnail: assets/thumbnails/recraft-ai-fcbc06.png
+  thumbnail: https://cdn.prod.website-files.com/655727fe69827d9a402de12c/6a0d9845a543e1903f3957a9_sign%20512x512.png
   date_added: '2026-06-13'
   source: seed
 - id: stability-ai-image-api-53d1d2
@@ -2602,7 +2604,7 @@ entries:
   - commercial
   summary: Stability AI's hosted REST API for Stable Diffusion 3.5 and Stable Image models, the managed service alongside the open Stable Diffusion weights.
   summary_ja: Stable Diffusion 3.5やStable Image系モデルを提供するStability AIのホスティングREST API。オープンなStable Diffusionウェイトと並ぶマネージドサービス。
-  thumbnail: assets/thumbnails/stability-ai-image-api-53d1d2.png
+  thumbnail: https://static1.squarespace.com/static/6213c340453c3f502425776e/t/6a8c72c5b1aae375b65a7a86/1775660945221/Homepage+Meta+Image.png?format=1500w
   date_added: '2026-06-13'
   source: seed
 - id: xai-grok-image-grok-imagine-9aa6c1
@@ -2618,7 +2620,7 @@ entries:
   - openai-compatible
   summary: xAI's grok-imagine-image text-to-image model exposed via a REST API with an OpenAI-compatible interface.
   summary_ja: xAIのgrok-imagine-imageテキスト→画像モデル。OpenAI互換インターフェースのREST APIで提供される。
-  thumbnail: assets/thumbnails/xai-grok-image-grok-imagine-9aa6c1.png
+  thumbnail: https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IkltYWdlIEdlbmVyYXRpb24iLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJNb2RlbCBDYXBhYmlsaXRpZXMifQ.fIwxmTDH7tjz7Ec1xp_FyumqariDH_HNrjUAY2Y28Bw
   date_added: '2026-06-13'
   source: seed
 - id: watashi-colorizer-fd5262
@@ -2636,7 +2638,7 @@ entries:
   - webtoon
   summary: An AI-powered proprietary tool designed for bulk manga, manhwa, and webtoon chapter colorization, featuring consistent character palettes, smart panel splitting, and multi-language translation.
   summary_ja: キャラクターの配色パレットの一貫性維持、スマートなコマ割り分割、多言語翻訳機能を備えた、マンガやウェブトゥーンのチャプター一括彩色用のAI搭載プロプライエタリツール。
-  thumbnail: assets/thumbnails/watashi-colorizer-fd5262.png
+  thumbnail: https://watashicolorizer.com/article/crying-girl-split.jpg
   date_added: '2026-06-20'
   source: agent
 - id: mangacolorizer-474ab6
@@ -2653,7 +2655,6 @@ entries:
   - web-app
   summary: An online AI-powered manga colorization and translation tool built specifically for manga and comics. It utilizes specialized image models to add rich, consistent colors while preserving original line art and panel layouts, and offers automated translation into over 15 languages.
   summary_ja: 漫画やコミック専用に構築された、AI搭載のオンライン漫画着色・翻訳ツール。特化型画像モデルを利用して、オリジナルの線画やコマ割りを維持しながら豊かで一貫した色を追加し、15以上の言語への自動翻訳機能も提供します。
-  thumbnail: assets/thumbnails/mangacolorizer-474ab6.png
   date_added: '2026-06-13'
   source: agent
 - id: morph-ai-manga-colorizer-dbfb36
@@ -2670,7 +2671,7 @@ entries:
   - web-app
   summary: A web-based automatic manga and comic colorizer that transforms black-and-white line art and sketches into colored artwork. It supports reference-guided colorization to maintain character and lighting consistency across panels and exports high-resolution results up to 8K.
   summary_ja: 白黒の線画やスケッチを着色されたアートワークに変換する、ウェブベースの自動漫画・コミック着色ツール。コマ間でのキャラクターやライティングの一貫性を維持するための参照画像ガイド付き着色をサポートし、最大8Kの高解像度出力をエクスポートできます。
-  thumbnail: assets/thumbnails/morph-ai-manga-colorizer-dbfb36.png
+  thumbnail: https://www.morphstudio.com/MorphHorizontalBlackGradient.png
   date_added: '2026-06-13'
   source: agent
 - id: toona-colorizer-c7b125
@@ -2687,7 +2688,6 @@ entries:
   - web-app
   summary: An automatic AI manga colorizer that allows users to colorize black-and-white manga pages with a single click or guide the process using point-based color hints. It also includes built-in manga-optimized upscaling and editing tools.
   summary_ja: ワンクリックで白黒の漫画ページを着色したり、ポイントベースの色ヒントを使用してプロセスをガイドしたりできる自動AI漫画着色ツール。漫画に最適化されたアップスケーリングや編集ツールも内蔵されています。
-  thumbnail: assets/thumbnails/toona-colorizer-c7b125.png
   date_added: '2026-06-13'
   source: agent
 - id: vividmanga-28b877
@@ -2704,6 +2704,7 @@ entries:
   - online-tool
   summary: An AI-powered online manga colorization platform designed for pages, panels, and line art. It features consistent character color palette definition, sequential chapter awareness to reduce page-to-page drift, and intelligent text isolation to protect speech bubbles and sound effects.
   summary_ja: 漫画のページ、コマ、線画向けに設計されたAI搭載のオンライン漫画着色プラットフォーム。キャラクターごとの一貫したカラーパレット定義、ページ間の色のブレを抑えるシーケンシャルな章認識、セリフ吹き出しや擬音を保護するインテリジェントなテキスト分離機能を備えています。
+  thumbnail: https://vividmanga.com/img/og/og.webp
   date_added: '2026-08-08'
   source: agent
 - id: anicomic-ai-903155
@@ -2721,7 +2722,7 @@ entries:
   - manga
   summary: A web-based AI comic and manga generator that allows users to turn photos or text prompts into stylized manga, manhwa, and 4-panel comic pages.
   summary_ja: 写真やテキストプロンプトを、様式化された漫画、マンファ、4コマ漫画のページに変換できるWebベースのAIコミック・漫画ジェネレーター。
-  thumbnail: assets/thumbnails/anicomic-ai-903155.png
+  thumbnail: https://anicomic.ai/og-cover.jpg
   date_added: '2026-06-13'
   source: agent
 - id: mangaflow-studio-4c83cb
@@ -2739,6 +2740,7 @@ entries:
   - story-to-manga
   summary: A commercial AI-powered manga production platform that converts text stories into complete multi-page manga books, featuring persistent character consistency, automated panel layouts, and multiple manga art styles.
   summary_ja: テキストのストーリーを複数ページの完成されたマンガ本に変換する、商用のAI搭載マンガ制作プラットフォーム。一貫したキャラクター描写、自動コマ割りレイアウト、複数のマンガ画風の選択機能を備える。
+  thumbnail: https://mangaflow.studio/apple-icon.png?07c9530f786655a8
   date_added: '2026-08-08'
   source: agent
 - id: anifusion-ba45ec
@@ -2756,7 +2758,7 @@ entries:
   - manga
   summary: An all-in-one AI manga and comic creation studio that provides built-in panel layouts, text-to-manga generation, speech bubble editing, and character consistency tools.
   summary_ja: 組み込みのコマ割りレイアウト、テキストからの漫画生成、吹き出し編集、キャラクターの一貫性維持ツールを提供する、オールインワンのAI漫画・コミック制作スタジオ。
-  thumbnail: assets/thumbnails/anifusion-ba45ec.png
+  thumbnail: https://anifusion.ai/api/og/home?lang=en
   date_added: '2026-07-18'
   source: agent
 - id: dashtoon-studio-baaeb6
@@ -2774,7 +2776,7 @@ entries:
   - webtoon
   summary: A commercial AI-powered comic and manga creation platform that enables creators to generate consistent characters, design panel layouts, and publish digital comics.
   summary_ja: クリエイターが一貫したキャラクターの生成、コマ割りのデザイン、デジタルコミックの出版を行える、商用のAI搭載コミック・漫画制作プラットフォーム。
-  thumbnail: assets/thumbnails/dashtoon-studio-baaeb6.png
+  thumbnail: https://dashtoon.com/opengraph-image.png?8d7af178d586f8fb
   date_added: '2026-07-18'
   source: agent
 - id: komiko-304f16
@@ -2792,6 +2794,7 @@ entries:
   - pose-control
   summary: An AI-powered creative platform specifically built for the anime and manga industry to generate comics, manhwa, and manga from story ideas. It provides an infinite canvas for panel layout, character consistency, pose control, and dialogue bubble placement.
   summary_ja: ストーリーのアイデアからコミック、マンファ、マンガを生成するために、アニメ・マンガ業界向けに特別に構築されたAIクリエイティブプラットフォーム。コマ割りレイアウト、キャラクターの一貫性、ポーズ制御、セリフの吹き出し配置のための無限キャンバスを提供します。
+  thumbnail: https://komikoai.com/images/character_design.webp
   date_added: '2026-07-25'
   source: agent
 - id: komikoai-e331b3
@@ -2809,7 +2812,7 @@ entries:
   - manga
   summary: An AI-powered creative platform for anime, manga, and comic generation, featuring character creation, an infinite canvas, automated panel generation, and line art colorization tools.
   summary_ja: キャラクター制作、無限キャンバス、自動コマ割り生成、線画着色ツールなどを備えた、アニメ、マンガ、コミック生成のためのAI搭載クリエイティブプラットフォーム。
-  thumbnail: assets/thumbnails/komikoai-e331b3.png
+  thumbnail: https://komikoai.com/images/character_design.webp
   date_added: '2026-07-04'
   source: agent
 - id: llamagen-ai-71c2b8
@@ -2826,7 +2829,7 @@ entries:
   - webtoon
   summary: A proprietary AI comic, webtoon, and manga generator that creates high-resolution visual stories from text prompts or character descriptions while ensuring character consistency.
   summary_ja: キャラクターの一貫性を確保しながら、テキストプロンプトやキャラクターの説明から高解像度のビジュアルストーリーを作成する、商用のAIコミック・ウェブトゥーン・マンガジェネレーター。
-  thumbnail: assets/thumbnails/llamagen-ai-71c2b8.png
+  thumbnail: https://cdn.llamagen.ai/web_public/icons/apple-icon.png
   date_added: '2026-06-13'
   source: agent
 - id: comic-ai-9fa79e
@@ -2843,7 +2846,7 @@ entries:
   - manga-creation
   summary: A commercial AI-powered comic and manga creation platform that transforms text stories or uploaded character photos into multi-panel comic strips with consistent character appearances.
   summary_ja: テキストストーリーやアップロードされたキャラクター写真を、一貫したキャラクターの外見を維持しながら複数コマのコミックに変換する、商用のAI搭載コミック・マンガ制作プラットフォーム。
-  thumbnail: assets/thumbnails/comic-ai-9fa79e.png
+  thumbnail: https://comicai.com/hero-comic.jpg
   date_added: '2026-06-13'
   source: agent
 - id: jenova-ai-manga-generator-cee9e8
@@ -2859,7 +2862,7 @@ entries:
   - panels
   summary: A commercial tool that generates manga pages and panels with character consistency from prompts, aimed at sequential-art creation without drawing.
   summary_ja: プロンプトからキャラクターの一貫性を保ちつつ漫画ページやコマを生成する商用ツール。作画なしのシーケンシャルアート制作を目指す。
-  thumbnail: assets/thumbnails/jenova-ai-manga-generator-cee9e8.png
+  thumbnail: https://www.jenova.ai/images/jenova-art-image.jpg
   date_added: '2026-06-13'
   source: seed
 - id: ismanga-e06967
@@ -2877,7 +2880,7 @@ entries:
   - translation
   summary: A popular AI-powered manga translator available as a browser extension and mobile app that translates raw Japanese manga, Korean manhwa, and Chinese manhua in real-time while preserving the original layout.
   summary_ja: ブラウザ拡張機能やモバイルアプリとして提供されている人気のAI漫画翻訳ツール。オリジナルのレイアウトを維持しながら、日本語の漫画、韓国のマンファ、中国のマンフアをリアルタイムで翻訳します。
-  thumbnail: assets/thumbnails/ismanga-e06967.png
+  thumbnail: https://ismanga.com/og-image.png
   date_added: '2026-06-27'
   source: agent
 - id: torii-image-translator-bb484c
@@ -2895,7 +2898,7 @@ entries:
   - webtoon
   summary: A popular commercial browser extension and web tool powered by AI for real-time, on-image translation of manga, manhwa, and webtoons.
   summary_ja: 漫画、マンファ（韓国漫画）、ウェブトゥーンの画像をリアルタイムで翻訳・置換する、AI搭載の商用ブラウザ拡張機能およびWebツール。
-  thumbnail: assets/thumbnails/torii-image-translator-bb484c.png
+  thumbnail: https://toriitranslate.com/assets/images/torii.png
   date_added: '2026-07-18'
   source: agent
 - id: orange-inc-7a26d4
@@ -2913,7 +2916,7 @@ entries:
   - translation
   summary: A Japanese manga localization startup that utilizes AI-assisted technologies (including Anthropic's Claude) to automate manga translation, lettering, and typesetting. The platform accelerates the translation process up to ten times faster than traditional methods while maintaining human-in-the-loop quality control.
   summary_ja: AI技術（AnthropicのClaudeなど）を活用して、漫画の翻訳、写植、レタリングを自動化する日本の漫画ローカライズスタートアップ。従来の最大10倍の速度で翻訳プロセスを高速化しつつ、人間のチェックによる品質管理を維持している。
-  thumbnail: assets/thumbnails/orange-inc-7a26d4.png
+  thumbnail: https://storage.googleapis.com/production-os-assets/assets/67d87040-6b0b-4a19-b7bb-732fa88dc14d
   date_added: '2026-07-04'
   source: agent
 - id: imagetrans-50d078
@@ -2931,7 +2934,6 @@ entries:
   - typesetting
   summary: A professional computer-aided image and comic translation software that integrates state-of-the-art OCR, machine translation, and automatic typesetting. It helps translators and publishers localize manga, manhua, and webtoons efficiently by automating text extraction and background restoration.
   summary_ja: 最先端のOCR、機械翻訳、自動写植を統合した、プロフェッショナル向けの画像およびコミック翻訳支援ソフトウェア。テキスト抽出と背景復元を自動化することにより、翻訳者や出版社がマンガ、漫画、ウェブトゥーンを効率的にローカライズするのを支援します。
-  thumbnail: assets/thumbnails/imagetrans-50d078.png
   date_added: '2026-06-20'
   source: agent
 - id: mantra-engine-9eeba1
@@ -2949,7 +2951,7 @@ entries:
   - typesetting
   summary: A professional cloud-based manga localization platform powered by proprietary language and image-processing AI, automating text detection, translation, and typesetting for publishers.
   summary_ja: 独自の言語および画像処理AIを搭載したプロフェッショナル向けのクラウド型漫画ローカライズプラットフォーム。出版社向けにテキスト検出、翻訳、写植（タイポグラフィ）を自動化します。
-  thumbnail: assets/thumbnails/mantra-engine-9eeba1.png
+  thumbnail: https://d2m8mb8j2pbvhs.cloudfront.net/images/og.webp
   date_added: '2026-06-13'
   source: agent
 - id: comic-life-4-b1f2b9
@@ -2967,7 +2969,7 @@ entries:
   - software
   summary: A widely used commercial software for comic page layout, panel design, and lettering, featuring templates, speech balloons, and customizable grids.
   summary_ja: テンプレート、吹き出し、カスタマイズ可能なグリッドなどの機能を備え、コミックのページレイアウト、コマ割り設計、レタリングに広く使用されている商用ソフトウェア。
-  thumbnail: assets/thumbnails/comic-life-4-b1f2b9.png
+  thumbnail: https://plasq.com/wp-content/uploads/2014/03/2d5987662101e3c153aa49c94191bb1b.png
   date_added: '2026-06-20'
   source: agent
 - id: comicpad-590cbe
@@ -2985,6 +2987,7 @@ entries:
   - proprietary
   summary: An AI-assisted comic panel generator and layout tool designed for batch production of graphic novels and manga, offering panel-first workflows and precise border controls.
   summary_ja: グラフィックノベルやマンガの一括制作向けに設計されたAI支援コミックコマ生成・レイアウトツールであり、コマ優先のワークフローと精密な枠線制御を提供します。
+  thumbnail: https://www.comicpad.app/apple-icon.png?apple-icon.345aff78.png
   date_added: '2026-08-01'
   source: agent
 - id: comicsmaker-2123fb
@@ -3002,7 +3005,7 @@ entries:
   - manga
   summary: An AI-powered comic strip and manga creator that helps users design pages, generate artwork, and arrange panels into cohesive layouts.
   summary_ja: ユーザーがページをデザインし、アートワークを生成し、コマをまとまりのあるレイアウトに配置するのを支援する、AI搭載のコミックストリップおよび漫画クリエイター。
-  thumbnail: assets/thumbnails/comicsmaker-2123fb.png
+  thumbnail: https://comicsmaker.ai/editor-preview.png
   date_added: '2026-07-04'
   source: agent
 - id: mangaka-app-30c393
@@ -3020,6 +3023,7 @@ entries:
   - storyboard
   summary: An AI-powered manga generator that converts written scripts and stories into structured manga pages. It automates character design, panel layout composition, and dialogue bubble placement from text inputs.
   summary_ja: テキストの脚本やストーリーを構造化されたマンガページに変換するAI搭載のマンガジェネレーター。テキスト入力からキャラクターデザイン、コマ割りレイアウトの構成、セリフの吹き出し配置を自動化します。
+  thumbnail: https://www.mangaka.app/opengraph-image.png
   date_added: '2026-07-25'
   source: agent
 - id: boords-1465cb
@@ -3038,7 +3042,7 @@ entries:
   - storyboard
   summary: A popular web-based collaborative storyboarding platform that features an AI storyboard generator to turn scripts and text prompts into structured visual storyboard frames.
   summary_ja: スクリプトやテキストプロンプトからAIを用いて構造化された絵コンテフレームを自動生成し、リアルタイムでの共同編集やエクスポートを可能にする、プロフェッショナル向けのWebベース絵コンテ作成プラットフォーム。
-  thumbnail: assets/thumbnails/boords-1465cb.png
+  thumbnail: https://boords.com/api/og?title=Video+Pre-Production+Software+for+Agencies+%26+Brands&subtitle=Plan+scripts%2C+storyboards%2C+and+animatics+with+your+team.+Share+work+with+clients%2C+collect+feedback%2C+track+versions%2C+and+get+sign-off%E2%80%94all+in+one+place.&type=default
   date_added: '2026-06-27'
   source: agent
 - id: dashtoon-d40eca
@@ -3056,6 +3060,7 @@ entries:
   - webtoon
   summary: A professional AI-powered comic and webtoon creation platform that enables artists to design panel layouts, train custom character LoRAs for visual consistency, and automate the production pipeline.
   summary_ja: アーティストがコマのレイアウトを設計し、視覚的一貫性のためにカスタムキャラクターLoRAをトレーニングし、制作パイプラインを自動化できる、プロフェッショナル向けのAI搭載コミック・ウェブトゥーン制作プラットフォーム。
+  thumbnail: https://dashtoon.com/opengraph-image.png?8d7af178d586f8fb
   date_added: '2026-08-01'
   source: agent
 - id: comic-life-d847a2
@@ -3073,7 +3078,7 @@ entries:
   - lettering
   summary: A popular proprietary software for creating comic layouts, panels, speech bubbles, and lettering from images, widely used by educators and creators.
   summary_ja: 画像からコミックのレイアウト、コマ、吹き出し、レタリングを作成するための人気のプロプライエタリ・ソフトウェア。教育関係者やクリエイターに広く使用されています。
-  thumbnail: assets/thumbnails/comic-life-d847a2.png
+  thumbnail: https://plasq.com/wp-content/uploads/2014/03/2d5987662101e3c153aa49c94191bb1b.png
   date_added: '2026-07-18'
   source: agent
 - id: comistitch-004caa
@@ -3090,7 +3095,7 @@ entries:
   - screentone
   summary: An AI-powered comic and manga creation platform that automates panel layout, inking, and screentone shading from text prompts or scripts.
   summary_ja: テキストプロンプトやスクリプトから、コマ割り、インキング、スクリーントーンの陰影処理を自動化するAI搭載のコミック・漫画制作プラットフォーム。
-  thumbnail: assets/thumbnails/comistitch-004caa.png
+  thumbnail: https://comistitch.com/og/en.jpg
   date_added: '2026-06-27'
   source: agent
 - id: comicsai-manga-screentone-generator-6bb34b
@@ -3108,6 +3113,7 @@ entries:
   - screentone
   summary: A proprietary AI-powered comic and manga creation platform featuring a dedicated screentone generator. It allows creators to generate screentone-aware manga panels with controlled dot tones, hatching, and shadows to enhance readability and mood.
   summary_ja: 専用のスクリーントーン生成機能を備えた、商用のAIコミック・マンガ制作プラットフォーム。ドットトーン、ハッチング、シャドウを制御したスクリーントーン対応のマンガコマを生成し、可読性と雰囲気を高めることができます。
+  thumbnail: https://www.comicsai.org/images/tools/manga-screentone-generator-hero.webp
   date_added: '2026-08-15'
   source: agent
 - id: screentone-eternal-4e3e76
@@ -3124,7 +3130,6 @@ entries:
   - screentone
   summary: A procedural, deterministic color separation and halftone engine designed for screen printing, DTF, and digital manga production.
   summary_ja: スクリーン印刷、DTF、およびデジタルマンガ制作向けに設計された、プロシージャルかつ決定論的な色分解およびハーフトーン生成エンジン。
-  thumbnail: assets/thumbnails/screentone-eternal-4e3e76.png
   date_added: '2026-07-11'
   source: agent
 - id: medibang-paint-6b70b1
@@ -3142,7 +3147,7 @@ entries:
   - software
   summary: A popular, lightweight digital painting and manga creation software that provides over 1,000 free screentones, specialized comic fonts, and cloud-based collaboration tools.
   summary_ja: 1,000種類以上の無料スクリーントーン、マンガ用フォント、クラウド連携機能を備えた、軽量で人気のデジタルペイント・マンガ制作ソフト。
-  thumbnail: assets/thumbnails/medibang-paint-6b70b1.png
+  thumbnail: https://medibangpaint.com/wp-content/themes/medibang/img/icon_appstore-en.svg
   date_added: '2026-06-13'
   source: agent
 - id: clip-studio-paint-d76627
@@ -3160,7 +3165,7 @@ entries:
   - software
   summary: The industry-standard digital painting and comic creation software, featuring advanced built-in screentone engines, 3D reference models, vector layers, and specialized manga paneling tools.
   summary_ja: 高度なスクリーントーンエンジン、3D参照モデル、ベクターレイヤー、マンガのコマ割りツールなどを備えた、イラスト・マンガ制作の業界標準デジタルペイントソフト。
-  thumbnail: assets/thumbnails/clip-studio-paint-d76627.png
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
   date_added: '2026-06-13'
   source: agent
 - id: crowdin-ai-eb04d1
@@ -3178,7 +3183,7 @@ entries:
   - translation
   summary: An AI-powered extension of the Crowdin localization platform that automates translation workflows using agentic AI, custom LLM prompts, and automated quality estimation. It supports seamless integration with development repositories and game engines.
   summary_ja: エージェントAI、カスタムLLMプロンプト、自動品質評価を使用して翻訳ワークフローを自動化する、CrowdinローカライズプラットフォームのAI搭載拡張機能。開発リポジトリやゲームエンジンとのシームレスな統合をサポートします。
-  thumbnail: assets/thumbnails/crowdin-ai-eb04d1.png
+  thumbnail: https://crowdin.ai/crowdin-ai-share.png
   date_added: '2026-06-20'
   source: agent
 - id: lionbridge-samurai-96562d
@@ -3196,6 +3201,7 @@ entries:
   - translation
   summary: An AI-driven game translation and localization platform developed by Lionbridge Games that combines advanced LLMs with human-in-the-loop guidance. It tailors translations to each game's unique content, style, and cultural expectations while allowing human linguists to refine outputs.
   summary_ja: Lionbridge Gamesが開発した、高度なLLMと人間によるフィードバック（Human-in-the-Loop）を組み合わせたAI駆動型のゲーム翻訳・ローカライズプラットフォーム。各ゲーム独自のコンテンツ、スタイル、文化的背景に合わせた翻訳を提供し、翻訳者がその場で調整可能です。
+  thumbnail: https://www.lionbridge.com/content/lionbridge-games/en/ai-technology.thumb.800.480.png?ck=1786012596
   date_added: '2026-08-08'
   source: agent
 - id: alchemind-ai-0223cd
@@ -3230,7 +3236,7 @@ entries:
   - voice-cloning
   summary: An AI-powered game localization and dubbing platform designed for indie studios to translate, voice, and export game dialogue with character voice preservation and engine-ready exports.
   summary_ja: インディーゲームスタジオ向けに設計されたAI搭載のゲームローカライズおよびダビングプラットフォーム。キャラクターの声を維持した翻訳、音声生成、ゲームエンジン対応の書き出しを可能にする。
-  thumbnail: assets/thumbnails/dialogueforge-dc1693.png
+  thumbnail: https://www.dialogueforge.app/og-image.png
   date_added: '2026-07-18'
   source: agent
 - id: magnaplay-6139fb
@@ -3248,7 +3254,6 @@ entries:
   - translation
   summary: An AI-powered game localization and translation platform designed specifically for game developers and publishers. It integrates with game development workflows to automate translation, manage translation memory, and perform quality assurance.
   summary_ja: ゲーム開発者やパブリッシャー向けに特別に設計された、AI駆動のゲームローカライズ・翻訳プラットフォーム。ゲーム開発ワークフローと統合し、翻訳の自動化、翻訳メモリの管理、品質保証（QA）を効率化します。
-  thumbnail: assets/thumbnails/magnaplay-6139fb.png
   date_added: '2026-06-27'
   source: agent
 - id: phrase-470888
@@ -3265,7 +3270,7 @@ entries:
   - translation-management
   summary: An enterprise-grade, AI-powered localization and translation management platform that automates workflows and integrates machine translation for software and game development.
   summary_ja: ワークフローを自動化し、ソフトウェアやゲーム開発向けに機械翻訳を統合する、エンタープライズ向けのAI駆動型ローカライズ・翻訳管理プラットフォーム。
-  thumbnail: assets/thumbnails/phrase-470888.png
+  thumbnail: https://phrase.com/wp-content/uploads/2022/09/phrase-logo.jpg
   date_added: '2026-06-13'
   source: agent
 - id: gridly-6ed57f
@@ -3283,7 +3288,7 @@ entries:
   - translation
   summary: A spreadsheet-based content management and continuous localization platform specifically designed for games and digital products, featuring integrations with Unity and Unreal Engine.
   summary_ja: UnityやUnreal Engineとの連携機能を備え、ゲームやデジタル製品向けに特別に設計された、スプレッドシート形式のコンテンツ管理および継続的ローカライズプラットフォーム。
-  thumbnail: assets/thumbnails/gridly-6ed57f.png
+  thumbnail: https://www.gridly.com/images/gridly-sharing-logo.png
   date_added: '2026-06-13'
   source: agent
 - id: localazy-8362a7
@@ -3301,7 +3306,7 @@ entries:
   - tms
   summary: An automated localization platform that simplifies translation for developers and game studios, featuring context-aware AI translation, OTA updates, and collaborative workflows.
   summary_ja: 開発者やゲームスタジオ向けに翻訳プロセスを簡素化する自動ローカライズプラットフォーム。文脈を考慮したAI翻訳、OTA（Over-The-Air）アップデート、共同ワークフローを特徴とする。
-  thumbnail: assets/thumbnails/localazy-8362a7.png
+  thumbnail: https://localazy.com/directus9/assets/1cf3ef00-d00d-4720-9695-69e17bd932ca.png
   date_added: '2026-07-18'
   source: agent
 - id: localizely-6e6eae
@@ -3319,7 +3324,7 @@ entries:
   - translation
   summary: A cloud-based translation management platform that streamlines software localization for web and mobile applications. It features AI-powered translation suggestions, translation memory, glossary management, and seamless integrations with development tools.
   summary_ja: Webおよびモバイルアプリケーションのソフトウェアローカライズを効率化する、クラウドベースの翻訳管理プラットフォーム。AIを活用した翻訳提案、翻訳メモリ、用語集管理、開発ツールとのシームレスな連携機能を備えています。
-  thumbnail: assets/thumbnails/localizely-6e6eae.png
+  thumbnail: https://localizely.com/img/localizely-purple-logo-1200x1200-white-background.png
   date_added: '2026-06-27'
   source: agent
 - id: translator-196746
@@ -3337,6 +3342,7 @@ entries:
   - unity
   summary: A specialized game translation tool designed for RPG Maker, Wolf RPG Editor, Unity, and Ren'Py engines. It provides a grid-based interface to manage, automate, and patch in-game text using machine translation and manual editing.
   summary_ja: RPGツクール、WOLF RPGエディター、Unity、Ren'Pyエンジン向けに設計された専門的なゲーム翻訳ツール。グリッドベースのインターフェースを提供し、機械翻訳と手動編集を使用してゲーム内テキストの管理、自動化、パッチ適用を行います。
+  thumbnail: https://dreamsavior.net/wp-content/uploads/2019/06/translator-plusplus-logo-1024x669.png
   date_added: '2026-08-22'
   source: agent
 - id: gitlocalize-219441
@@ -3354,7 +3360,7 @@ entries:
   - translation
   summary: A continuous localization platform designed specifically for GitHub-based projects. It tracks changes in repositories and allows teams to manage translations seamlessly, syncing translated files back via pull requests.
   summary_ja: GitHubベースのプロジェクト向けに設計された継続的ローカライズプラットフォーム。リポジトリ内の変更を追跡し、シームレスに翻訳を管理して、翻訳済みファイルをプルリクエスト経由で自動同期します。
-  thumbnail: assets/thumbnails/gitlocalize-219441.png
+  thumbnail: https://gitlocalize.com/assets/icon-6f364b5777086d19b897ba8c74c73371a47ab444de1f2424d171c9c18cf5acdb.png
   date_added: '2026-06-27'
   source: agent
 - id: lokalise-3d4e31
@@ -3371,7 +3377,7 @@ entries:
   - translation-management
   summary: A popular commercial localization and translation management platform widely used by game developers to automate and streamline game localization workflows.
   summary_ja: ゲーム開発者に広く使用されている、人気の商用ローカライズ・翻訳管理プラットフォーム。ゲームのローカライズワークフローを自動化し、効率化します。
-  thumbnail: assets/thumbnails/lokalise-3d4e31.png
+  thumbnail: https://lokalise.com/uploads/Lokalise_homepage_OG_6360f6f699.webp
   date_added: '2026-06-13'
   source: agent
 - id: crowdin-c63666
@@ -3389,7 +3395,7 @@ entries:
   - workflow
   summary: A popular cloud-based localization management platform that automates translation workflows for software, mobile apps, and games with extensive integration options.
   summary_ja: ソフトウェア、モバイルアプリ、ゲームの翻訳ワークフローを自動化する、豊富な連携オプションを備えた人気のクラウドベースのローカライズ管理プラットフォーム。
-  thumbnail: assets/thumbnails/crowdin-c63666.png
+  thumbnail: https://d2gma3rgtloi6d.cloudfront.net/astro-website/og/og-home.png
   date_added: '2026-06-13'
   source: agent
 - id: deepl-676cdb
@@ -3405,7 +3411,7 @@ entries:
   - translation
   summary: A commercial neural machine translation service with an API, used in game/anime localization for high-quality first-pass translation.
   summary_ja: API付きの商用ニューラル機械翻訳サービス。ゲーム・アニメのローカライズで高品質な初稿翻訳に使われる。
-  thumbnail: assets/thumbnails/deepl-676cdb.png
+  thumbnail: https://www.deepl.com/img/favicon/automatic_social_share_deepl.png
   date_added: '2026-06-13'
   source: seed
 - id: charisma-ai-b1aa8c
@@ -3423,7 +3429,7 @@ entries:
   - npc
   summary: An interactive storytelling platform that uses conversational AI to power dynamic characters and branching narrative experiences for games, VR, and training simulations.
   summary_ja: 会話型AIを使用して、ゲーム、VR、トレーニングシミュレーション向けの動的なキャラクターや分岐するナラティブ体験を構築するインタラクティブストーリーテリングプラットフォーム。
-  thumbnail: assets/thumbnails/charisma-ai-b1aa8c.png
+  thumbnail: https://charisma.ai/static/images/open-graph-promo.png
   date_added: '2026-06-13'
   source: agent
 - id: loreweaver-287320
@@ -3441,7 +3447,7 @@ entries:
   - world-building
   summary: An AI-powered narrative design platform featuring 'Architect' for extracting and structuring lore from documents into engine-ready exports, and 'Director,' an on-device AI Game Master middleware that generates constraint-validated emergent narratives and dynamic story arcs.
   summary_ja: ドキュメントから設定資料を抽出・構造化してゲームエンジン向けに出力する「Architect」と、制約検証済みの創発的ナラティブや動的なストーリー展開をオンデバイスで生成するAIゲームマスターミドルウェア「Director」を備えた、AI搭載ナラティブデザインプラットフォーム。
-  thumbnail: assets/thumbnails/loreweaver-287320.png
+  thumbnail: https://loreweaver.ink/assets/og-image.webp
   date_added: '2026-07-04'
   source: agent
 - id: arcweave-16766f
@@ -3459,7 +3465,7 @@ entries:
   - saas
   summary: A collaborative, cloud-based visual narrative design platform for interactive storytelling and game writing. It features an integrated AI assistant for content generation, classification, and quality assurance, alongside native integrations for Unity, Unreal, and Godot.
   summary_ja: インタラクティブなストーリーテリングやゲームシナリオ執筆のための、共同編集対応のクラウド型ビジュアルナラティブデザインプラットフォーム。コンテンツ生成、分類、品質保証を行う統合AIアシスタントを搭載し、Unity、Unreal、Godot向けのネイティブインテグレーションを提供します。
-  thumbnail: assets/thumbnails/arcweave-16766f.png
+  thumbnail: https://arcweave.com/images/meta-cover.png
   date_added: '2026-06-27'
   source: agent
 - id: rpggo-661074
@@ -3477,7 +3483,6 @@ entries:
   - rpg-maker
   summary: RPGGO is an AI-powered, no-code platform for creating and playing text-based RPGs, leveraging a generative game engine to produce dynamic narratives, intelligent NPCs with memory, and real-time visuals.
   summary_ja: RPGGOは、テキストベースのRPGを作成・プレイするためのAI搭載ノーコードプラットフォームであり、生成型ゲームエンジンを活用して、動的なナラティブ、メモリを持つインテリジェントなNPC、リアルタイムのビジュアルを生成します。
-  thumbnail: assets/thumbnails/rpggo-661074.png
   date_added: '2026-07-11'
   source: agent
 - id: articy-draft-x-729bbe
@@ -3495,7 +3500,7 @@ entries:
   - tool
   summary: A professional narrative design and database tool for writing interactive stories, managing dialogue trees, and planning quests, featuring AI Extensions that allow creators to generate barks and dialogues directly within the software.
   summary_ja: インタラクティブなストーリーの執筆、会話ツリーの管理、クエストの計画を行うためのプロフェッショナル向けナラティブデザインおよびデータベースツール。ソフトウェア内で直接AIによるセリフ（barks）や会話を生成できるAI拡張機能を備える。
-  thumbnail: assets/thumbnails/articy-draft-x-729bbe.png
+  thumbnail: https://www.articy.com/en/wp-content/uploads/2023/11/ArticyDraftXFree-1200x675.jpg
   date_added: '2026-06-13'
   source: agent
 - id: novelai-8b8b4d
@@ -3513,7 +3518,7 @@ entries:
   - storytelling
   summary: NovelAI is a popular commercial AI-assisted storytelling and image generation platform that provides advanced natural language processing models for creative writing, lorebook management, and interactive narrative generation.
   summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
-  thumbnail: assets/thumbnails/novelai-8b8b4d.png
+  thumbnail: https://novelai.net/social.png
   date_added: '2026-07-11'
   source: agent
 - id: loreguard-2854b6
@@ -3531,6 +3536,7 @@ entries:
   - npc
   summary: An AI NPC engine that runs inference on the player's GPU to eliminate server costs. It features a multi-pass verification pipeline that checks every generated response against the game's lore documents using Natural Language Inference (NLI) to prevent hallucinations and maintain world consistency.
   summary_ja: サーバーコストを削減するため、プレイヤーのGPU上で推論を実行するAI NPCエンジン。自然言語推論（NLI）を用いて、生成されたすべての応答をゲームの設定資料（ロアドキュメント）と照合するマルチパス検証パイプラインを備え、ハルシネーションを防ぎ世界観の一貫性を保ちます。
+  thumbnail: https://loreguard.com/assets/images/og-image.png
   date_added: '2026-08-01'
   source: agent
 - id: gladecore-043d8d
@@ -3548,7 +3554,6 @@ entries:
   - on-device
   summary: An on-device AI NPC solution for Unity and Unreal Engine that provides local, zero-cloud-cost NPC dialogue, speech-to-text, text-to-speech, and emotional tuning.
   summary_ja: UnityおよびUnreal Engine向けのオンデバイスAI NPCソリューション。ローカル環境で動作し、クラウドコスト不要でNPCの対話、音声認識、音声合成、感情調整機能を提供する。
-  thumbnail: assets/thumbnails/gladecore-043d8d.png
   date_added: '2026-06-13'
   source: agent
 - id: nvidia-ace-avatar-cloud-engine-6667ee
@@ -3566,6 +3571,7 @@ entries:
   - npc
   summary: A suite of real-time generative AI technologies for digital humans and NPCs, providing cloud and on-device AI models for speech, intelligence (using LLMs like Nemotron), and facial animation.
   summary_ja: デジタルヒューマンやNPC向けのリアルタイム生成AI技術スイート。音声、知能（NemotronなどのLLMを使用）、フェイシャルアニメーションのためのクラウドおよびオンデバイスAIモデルを提供します。
+  thumbnail: https://developer.download.nvidia.com/images/og-default.jpg
   date_added: '2026-08-22'
   source: agent
 - id: convai-470169
@@ -3583,7 +3589,7 @@ entries:
   - voice
   summary: A conversational AI platform for virtual worlds and games that enables developers to create intelligent, embodied AI NPCs with real-time perception, dialogue generation, voice, and action execution capabilities.
   summary_ja: リアルタイムの知覚、対話生成、音声、アクション実行機能を備えたインテリジェントなAI NPCを開発者が作成できるようにする、仮想世界およびゲーム向けの会話型AIプラットフォーム。
-  thumbnail: assets/thumbnails/convai-470169.png
+  thumbnail: https://cdn.prod.website-files.com/66f6655083b0f778e338eebf/66fba91c8dc2a2d8413cf159_openGraph.jpg
   date_added: '2026-06-13'
   source: agent
 - id: nvidia-ace-6d9c0e
@@ -3601,7 +3607,7 @@ entries:
   - speech
   summary: A suite of technologies (Avatar Cloud Engine) that enables developers to bring digital humans and NPCs to life with generative AI. It includes microservices for speech recognition, text-to-speech, facial animation, and LLM-driven dialogue.
   summary_ja: 生成AIを用いてデジタルヒューマンやNPCに命を吹き込むための技術スイート（Avatar Cloud Engine）。音声認識、テキスト読み上げ、表情アニメーション、LLM駆動の対話などのマイクロサービスを提供します。
-  thumbnail: assets/thumbnails/nvidia-ace-6d9c0e.png
+  thumbnail: https://developer.download.nvidia.com/images/og-default.jpg
   date_added: '2026-06-20'
   source: agent
 - id: replica-studios-smart-npcs-f93024
@@ -3619,7 +3625,6 @@ entries:
   - voice-synthesis
   summary: A commercial platform and Unreal Engine plugin that integrates live voice recognition, voice synthesis, and large language models to enable real-time, unscripted conversations with smart NPCs.
   summary_ja: 音声認識、音声合成、および大規模言語モデルを統合し、スマートNPCとのリアルタイムで台本のない会話を可能にする、商用プラットフォームおよびUnreal Engine向けプラグイン。
-  thumbnail: assets/thumbnails/replica-studios-smart-npcs-f93024.png
   date_added: '2026-06-13'
   source: agent
 - id: character-ai-def9a7
@@ -3637,7 +3642,7 @@ entries:
   - roleplay
   summary: A leading proprietary platform for creating and interacting with personalized AI characters and chatbots. It allows developers and writers to define detailed character personas, backgrounds, and speaking styles, serving as a major reference for dynamic character dialogue.
   summary_ja: パーソナライズされたAIキャラクターやチャットボットを作成・対話するための、業界をリードするプロプライエタリなプラットフォーム。開発者やライターが詳細なキャラクターのペルソナ、背景、話し方を定義でき、動的なキャラクター対話の主要なリファレンスとなっている。
-  thumbnail: assets/thumbnails/character-ai-def9a7.png
+  thumbnail: https://character.ai/character-ai.jpg
   date_added: '2026-06-27'
   source: agent
 - id: inworld-ai-c4e760
@@ -3654,7 +3659,7 @@ entries:
   - npc
   summary: A commercial platform for building AI NPCs with persistent memory and unscripted dialogue, integrating with major game engines.
   summary_ja: 永続的な記憶と非定型の対話を備えたAI NPCを構築する商用プラットフォーム。主要なゲームエンジンと連携する。
-  thumbnail: assets/thumbnails/inworld-ai-c4e760.png
+  thumbnail: https://static.inworld.ai/public-website-2025/images/content/ef2a8b880740be311855c2c9da4eb2ebb7b26e1f-2400x1260.png
   date_added: '2026-06-13'
   source: seed
 - id: unreal-engine-pcg-framework-863401
@@ -3672,6 +3677,7 @@ entries:
   - world-building
   summary: Epic Games' built-in toolset for creating procedural content and tools directly inside Unreal Engine, enabling artists and designers to build fast, iterative environments and biomes.
   summary_ja: Unreal Engine内に直接プロシージャルなコンテンツやツールを作成するためのEpic Games製ビルトインツールセット。アーティストやデザイナーが迅速かつ反復的に環境やバイオームを構築できるようにする。
+  thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/procedural-content-generation-framework-in-unreal-engine&application_version=5.8
   date_added: '2026-07-26'
   source: agent
 - id: sidefx-houdini-993185
@@ -3689,6 +3695,7 @@ entries:
   - vfx
   summary: An industry-standard 3D procedural software widely used in game and film production for modeling, terrain generation, VFX, and creating reusable procedural assets via Houdini Engine.
   summary_ja: ゲームや映画の制作において、モデリング、地形生成、VFX、およびHoudini Engineを介した再利用可能なプロシージャルアセットの作成に広く使用されている業界標準の3Dプロシージャルソフトウェア。
+  thumbnail: https://static.sidefx.com/images/apple-touch-icon.png
   date_added: '2026-07-26'
   source: agent
 - id: haiper-af0b5e
@@ -3705,7 +3712,6 @@ entries:
   - text-to-video
   summary: A commercial AI video generation platform that offers advanced text-to-video and image-to-video tools, designed to produce high-quality, stable animations and short-form video content.
   summary_ja: 高品質で安定したアニメーションやショートビデオコンテンツを制作するために設計された、高度なテキスト・ビデオおよび画像・ビデオ生成ツールを提供する商用AIビデオ生成プラットフォーム。
-  thumbnail: assets/thumbnails/haiper-af0b5e.png
   date_added: '2026-06-28'
   source: agent
 - id: haiper-ai-9980e0
@@ -3722,7 +3728,6 @@ entries:
   - saas
   summary: A commercial AI video generation platform that allows users to create high-quality, realistic, or stylized videos from text prompts and static images.
   summary_ja: テキストプロンプトや静止画像から、高品質でリアルな、または様式化された動画を作成できる商用のAI動画生成プラットフォーム。
-  thumbnail: assets/thumbnails/haiper-ai-9980e0.png
   date_added: '2026-06-21'
   source: agent
 - id: runway-gen-3-alpha-e4a2f9
@@ -3739,7 +3744,7 @@ entries:
   - proprietary
   summary: A frontier proprietary video generation model by Runway that offers high-fidelity, consistent, and highly controllable text-to-video and image-to-video synthesis.
   summary_ja: Runwayが提供する最先端の商用動画生成モデル。高忠実度で一貫性があり、高度に制御可能なテキスト・動画変換および画像・動画変換の合成機能を提供します。
-  thumbnail: assets/thumbnails/runway-gen-3-alpha-e4a2f9.png
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/blog/images/research-001.jpg
   date_added: '2026-07-05'
   source: agent
 - id: viggle-ai-9d62ae
@@ -3756,7 +3761,7 @@ entries:
   - motion-transfer
   summary: A popular proprietary AI animation platform that specializes in character motion transfer, allowing users to animate static character images using motion templates or custom video clips.
   summary_ja: キャラクターのモーション転送に特化した人気の商用AIアニメーションプラットフォーム。モーションテンプレートやカスタム動画クリップを使用して、静止したキャラクター画像をアニメーション化できる。
-  thumbnail: assets/thumbnails/viggle-ai-9d62ae.png
+  thumbnail: https://assets.viggle.ai/pub/20241016-135707.jpeg
   date_added: '2026-06-14'
   source: agent
 - id: boris-fx-silhouette-230dd9
@@ -3774,6 +3779,7 @@ entries:
   - vfx
   summary: An Academy Award and Emmy Award-winning advanced rotoscoping, paint, and tracking application widely used in Hollywood visual effects pipelines. It features AI-driven matte generation, 3D head tracking, and integrated node-based compositing tools.
   summary_ja: ハリウッドのVFXパイプラインで広く使用されている、アカデミー賞およびエミー賞受賞の高度なロトスコープ、ペイント、トラッキング用アプリケーション。AI駆動のマット生成、3Dヘッドトラッキング、ノードベースのコンポジットツールを搭載しています。
+  thumbnail: https://borisfx-com-res.cloudinary.com/image/upload/w_1200,c_fill,g_auto,ar_1.91/v1772150778/Marketing/2026%20Logos/BorisFX/PNG/BFX.png
   date_added: '2026-07-26'
   source: agent
 - id: silhouette-e90359
@@ -3791,7 +3797,7 @@ entries:
   - vfx
   summary: An Academy and Emmy Award-winning visual effects software widely recognized as the industry standard for professional rotoscoping, paint, and compositing. It features advanced node-based workflows, integrated Mocha tracking, and AI-assisted masking tools to streamline complex VFX pipelines.
   summary_ja: プロフェッショナルなロトスコープ、ペイント、コンポジットの業界標準として広く認知されている、アカデミー賞およびエミー賞受賞のビジュアルエフェクトソフトウェア。高度なノードベースのワークフロー、統合されたMochaトラッキング、AI支援によるマスキングツールを備え、複雑なVFXパイプラインを効率化します。
-  thumbnail: assets/thumbnails/silhouette-e90359.png
+  thumbnail: https://borisfx-com-res.cloudinary.com/image/upload/w_1200,c_fill,g_auto,ar_1.91/v1772150778/Marketing/2026%20Logos/BorisFX/PNG/BFX.png
   date_added: '2026-06-21'
   source: agent
 - id: autodesk-flow-studio-f04955
@@ -3808,7 +3814,6 @@ entries:
   - vfx
   summary: A cloud-based, AI-powered 3D toolset that automatically animates, lights, and composes CG characters into live-action scenes, featuring automated actor masking, rotoscoping, and clean plate generation.
   summary_ja: 実写シーンへのCGキャラクターの自動アニメーション、ライティング、合成を行うクラウドベースのAI搭載3Dツールセット。アクターの自動マスキング、ロトスコープ、クリーンプレート生成機能を備える。
-  thumbnail: assets/thumbnails/autodesk-flow-studio-f04955.png
   date_added: '2026-06-28'
   source: agent
 - id: boris-fx-mocha-pro-6d0cc4
@@ -3826,7 +3831,7 @@ entries:
   - vfx
   summary: Mocha Pro is an industry-standard planar tracking and rotoscoping software that features advanced AI-powered masking tools, including Matte Refine ML, Object Brush, and Matte Assist. It is widely used in professional VFX and post-production studios to generate clean mattes and track organic surfaces.
   summary_ja: Mocha Proは、Matte Refine ML、Object Brush、Matte Assistなどの高度なAI搭載マスキングツールを備えた、業界標準の平面トラッキングおよびロトスコープソフトウェアです。プロのVFXやポストプロダクションスタジオで、クリーンなマットの生成や有機的な表面の追跡に広く使用されています。
-  thumbnail: assets/thumbnails/boris-fx-mocha-pro-6d0cc4.png
+  thumbnail: https://borisfx-com-res.cloudinary.com/image/upload/w_1200,c_fill,g_auto,ar_1.91/v1772150778/Marketing/2026%20Logos/BorisFX/PNG/BFX.png
   date_added: '2026-07-12'
   source: agent
 - id: mocha-pro-4b4000
@@ -3844,7 +3849,7 @@ entries:
   - vfx
   summary: An industry-standard planar tracking and masking software by Boris FX, featuring advanced AI-powered rotoscoping, face detection, and automated matte refinement tools.
   summary_ja: Boris FX社による業界標準の平面トラッキングおよびマスキングソフトウェア。高度なAI搭載ロトスコープ、顔検出、自動マット微調整ツールを備える。
-  thumbnail: assets/thumbnails/mocha-pro-4b4000.png
+  thumbnail: https://borisfx-com-res.cloudinary.com/image/upload/w_1200,c_fill,g_auto,ar_1.91/v1772150778/Marketing/2026%20Logos/BorisFX/PNG/BFX.png
   date_added: '2026-06-13'
   source: agent
 - id: adobe-after-effects-roto-brush-119c8b
@@ -3862,7 +3867,6 @@ entries:
   - rotoscoping
   summary: An industry-standard AI-powered rotoscoping tool integrated into Adobe After Effects that automates the separation of foreground subjects from backgrounds using advanced machine learning.
   summary_ja: Adobe After Effectsに統合された業界標準のAI搭載ロトスコープツールであり、高度な機械学習を用いて前景の被写体と背景の分離を自動化します。
-  thumbnail: assets/thumbnails/adobe-after-effects-roto-brush-119c8b.png
   date_added: '2026-07-19'
   source: agent
 - id: beeble-4803d1
@@ -3880,7 +3884,7 @@ entries:
   - vfx
   summary: An AI-powered video-to-VFX platform featuring studio-grade rotoscoping, background removal, and a node-based AI compositor for relighting and 3D compositing workflows.
   summary_ja: スタジオグレードのロトスコープ、背景削除、リライティングや3Dコンポジットワークフロー用のノードベースAIコンポジターを備えた、AI搭載のVideo-to-VFXプラットフォーム。
-  thumbnail: assets/thumbnails/beeble-4803d1.png
+  thumbnail: https://beeble.ai/images/og/default.png
   date_added: '2026-06-13'
   source: agent
 - id: mask-prompter-4d75cf
@@ -3897,7 +3901,7 @@ entries:
   - plugin
   summary: An AI-powered rotoscoping plugin for After Effects and Premiere Pro that allows users to generate precise masks and mattes using text prompts, bounding boxes, or points.
   summary_ja: テキストプロンプト、バウンディングボックス、またはポイントを使用して、高精度なマスクやマットを生成できるAfter EffectsおよびPremiere Pro向けのAI搭載ロトスコーププラグイン。
-  thumbnail: assets/thumbnails/mask-prompter-4d75cf.png
+  thumbnail: https://blaceplugins.com/wp-content/uploads/2026/02/mask-prompter-3_1920-768-28-thegem-blog-timeline-large.png
   date_added: '2026-06-28'
   source: agent
 - id: slapshot-ai-78d9df
@@ -3915,7 +3919,7 @@ entries:
   - vfx
   summary: An enterprise-grade AI-powered VFX toolkit that automates rotoscoping, camera tracking, depth map estimation, and generative retiming for high-resolution footage up to 8K.
   summary_ja: 最大8Kの高解像度映像に対応し、ロトスコープ、カメラトラッキング、深度マップ推定、生成的なリタイミングを自動化するエンタープライズ向けのAI搭載VFXツールキット。
-  thumbnail: assets/thumbnails/slapshot-ai-78d9df.png
+  thumbnail: https://slapshot.ai/wp-content/uploads/2026/01/Clip-path-group.png
   date_added: '2026-06-13'
   source: agent
 - id: runway-green-screen-67ddef
@@ -3933,7 +3937,7 @@ entries:
   - web-tool
   summary: A professional web-based AI tool for instant video background removal and rotoscoping, allowing creators to isolate subjects with just a few clicks.
   summary_ja: わずか数クリックで被写体を分離できる、プロフェッショナルなウェブベースのAI動画背景削除・ロトスコープツール。
-  thumbnail: assets/thumbnails/runway-green-screen-67ddef.png
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-07-19'
   source: agent
 - id: sora-2-a13e3f
@@ -3950,7 +3954,7 @@ entries:
   - video-generation
   summary: OpenAI's advanced video generation model that features improved physical accuracy, realistic motion, synchronized dialogue, and sound effects.
   summary_ja: 物理的な正確性、リアルな動き、同期された対話、および効果音を特徴とする、OpenAIの高度な動画生成モデル。
-  thumbnail: assets/thumbnails/sora-2-a13e3f.png
+  thumbnail: https://images.ctfassets.net/kftzwdyauwt9/1Q8NDmnyavsoPAKDlWpW18/a1f595376097668d1772c9cac40fc8ee/16_x_9____1_.png?w=1600&h=900&fit=fill
   date_added: '2026-06-28'
   source: agent
 - id: google-veo-201d84
@@ -3967,7 +3971,7 @@ entries:
   - video-generation
   summary: Google's state-of-the-art proprietary video generation model capable of producing high-fidelity, cinematic-quality videos with realistic physics, fluid motion, and natively generated audio.
   summary_ja: リアルな物理挙動、滑らかな動き、およびネイティブに生成されたオーディオを備えた、高品質で映画のような動画を生成できるGoogleの最先端の商用動画生成モデル。
-  thumbnail: assets/thumbnails/google-veo-201d84.png
+  thumbnail: https://ai.google.dev/static/site-assets/images/share-gemini-api-2026-07.png
   date_added: '2026-06-14'
   source: agent
 - id: hailuo-ai-40512d
@@ -3986,7 +3990,6 @@ entries:
   - video-generation
   summary: A state-of-the-art proprietary video generation platform powered by MiniMax's advanced video models, capable of producing high-definition cinematic clips with smooth motion.
   summary_ja: MiniMaxの先進的な動画モデルを搭載し、滑らかな動きを伴う高精細なシネマティック動画を生成できる最先端の商用動画生成プラットフォーム。
-  thumbnail: assets/thumbnails/hailuo-ai-40512d.png
   date_added: '2026-06-21'
   source: agent
 - id: kling-ai-534089
@@ -4004,7 +4007,7 @@ entries:
   - video-generation
   summary: A state-of-the-art commercial AI video generation platform developed by Kuaishou Technology. It supports native 4K video generation at 60fps, multi-shot storyboarding, precise motion control, and synchronized audio generation.
   summary_ja: 快手（Kuaishou Technology）が開発した最先端の商用AI動画生成プラットフォーム。60fpsでのネイティブ4K動画生成、マルチショットの絵コンテ作成、精密なモーションコントロール、および同期されたオーディオ生成をサポートしています。
-  thumbnail: assets/thumbnails/kling-ai-534089.png
+  thumbnail: https://s16-kling.klingai.com/kos/s101/nlav112918/kling-web/kling-logo-payment-en.png
   date_added: '2026-06-13'
   source: agent
 - id: luma-dream-machine-eddc5b
@@ -4022,7 +4025,7 @@ entries:
   - video-generation
   summary: A commercial next-generation video generation model by Luma AI that creates high-quality, realistic cinematic shots from text instructions and images with fast generation speeds and consistent physics.
   summary_ja: テキストの指示や画像から、高速な生成速度と一貫した物理法則を備えた高品質でリアルなシネマティックショットを作成する、Luma AIによる商用の次世代動画生成モデル。
-  thumbnail: assets/thumbnails/luma-dream-machine-eddc5b.png
+  thumbnail: https://cdn.sanity.io/images/2ylxvaa2/production/b31d99c8312ed2f74080e118e9d58bf6b2b6e953-1200x630.png?w=1200&h=630&fm=jpg
   date_added: '2026-06-13'
   source: agent
 - id: minimax-ai-video-generator-2fce03
@@ -4039,7 +4042,7 @@ entries:
   - video-generation
   summary: A powerful proprietary video generation model developed by MiniMax (also known as Hailuo AI) that excels at producing high-resolution videos with exceptional clarity and realistic motion.
   summary_ja: MiniMax社（海螺AIとしても知られる）によって開発された強力な商用動画生成モデル。優れた鮮明度とリアルな動きを備えた高解像度動画の生成に秀でている。
-  thumbnail: assets/thumbnails/minimax-ai-video-generator-2fce03.png
+  thumbnail: https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png
   date_added: '2026-06-14'
   source: agent
 - id: sora-7579e0
@@ -4058,7 +4061,7 @@ entries:
   - video-generation
   summary: OpenAI's advanced video generation platform that simulates the physical world in motion, generating highly realistic and physically consistent videos from text and image prompts.
   summary_ja: テキストや画像のプロンプトから、物理的に一貫した極めてリアルな動画を生成する、OpenAIの先進的な動画生成プラットフォーム。
-  thumbnail: assets/thumbnails/sora-7579e0.png
+  thumbnail: https://images.ctfassets.net/kftzwdyauwt9/8264d3d7-922c-4343-dde924eae75b/c9f68101050dc2a6caaac2f434c0da5e/paper-airplanes.jpg?w=1600&h=900&fit=fill
   date_added: '2026-06-21'
   source: agent
 - id: vidu-50486a
@@ -4078,7 +4081,7 @@ entries:
   - video-generation
   summary: A professional AI video generation platform developed by ShengShu Technology that supports text-to-video and image-to-video generation with high visual consistency and smooth motion.
   summary_ja: 生数科技（ShengShu Technology）によって開発されたプロフェッショナルなAI動画生成プラットフォーム。高い視覚的一貫性と滑らかな動きを備えたテキストからの動画生成および画像からの動画生成をサポートする。
-  thumbnail: assets/thumbnails/vidu-50486a.png
+  thumbnail: https://www.vidu.com/pwas/maskable-icon-512x512.png
   date_added: '2026-06-14'
   source: agent
 - id: vidu-ai-29e016
@@ -4095,7 +4098,7 @@ entries:
   - video-generation
   summary: A high-performance AI video generator capable of producing realistic, high-definition videos from text and image prompts with consistent character movements and physics.
   summary_ja: テキストや画像プロンプトから、一貫したキャラクターの動きや物理挙動を持つ、リアルで高精細な動画を生成できる高性能AI動画生成ツール。
-  thumbnail: assets/thumbnails/vidu-ai-29e016.png
+  thumbnail: https://www.vidu.com/pwas/maskable-icon-512x512.png
   date_added: '2026-06-28'
   source: agent
 - id: pika-b588f4
@@ -4110,7 +4113,7 @@ entries:
   - video-generation
   summary: A commercial video generation tool for text- and image-driven short clips, including anime-aware styles.
   summary_ja: テキストや画像から短尺クリップを生成する商用動画ツール。アニメ調のスタイルにも対応。
-  thumbnail: assets/thumbnails/pika-b588f4.png
+  thumbnail: https://pika.art/images/og.jpeg
   date_added: '2026-06-13'
   source: seed
 - id: runway-gen-dcf9b5
@@ -4126,7 +4129,7 @@ entries:
   - video-generation
   summary: A commercial text/image-to-video generation and editing suite used for previs, motion design, and stylized video in production.
   summary_ja: プレビズ、モーションデザイン、スタイライズ動画に使われる商用のテキスト/画像→動画の生成・編集スイート。
-  thumbnail: assets/thumbnails/runway-gen-dcf9b5.png
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-06-13'
   source: seed
 - id: runway-ai-magic-tools-d4fb7e
@@ -4144,7 +4147,7 @@ entries:
   - video-editing
   summary: A comprehensive suite of cloud-based generative AI tools for video editing, featuring advanced video inpainting, motion brush, object removal, and style transfer. It is widely adopted in professional film and game production pipelines for rapid visual effects prototyping.
   summary_ja: 高度なビデオインペインティング、モーションブラシ、オブジェクト除去、スタイル転送などを備えた、クラウドベースの動画編集用生成AIツールスイート。迅速な視覚効果のプロトタイピングのために、プロの映画やゲーム制作パイプラインで広く採用されています。
-  thumbnail: assets/thumbnails/runway-ai-magic-tools-d4fb7e.png
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-07-19'
   source: agent
 - id: descript-2a8e52
@@ -4161,7 +4164,7 @@ entries:
   - video-editing
   summary: Descript is an AI-powered collaborative audio and video editor that allows users to edit video by editing the transcribed text. It features automated transcription, AI voice generation, filler word removal, and studio sound enhancement.
   summary_ja: Descriptは、文字起こしされたテキストを編集することで動画や音声を編集できる、AI搭載の協調型オーディオ・ビデオエディターです。自動文字起こし、AI音声生成、不要なつなぎ言葉の除去、スタジオ品質の音響補正などの機能を備えています。
-  thumbnail: assets/thumbnails/descript-2a8e52.png
+  thumbnail: https://cdn.sanity.io/images/lsw4j9eq/production/126b70d12a747eb60c81bad5b72942f7d75041dd-1200x630.jpg?fit=max&auto=format
   date_added: '2026-06-13'
   source: agent
 - id: topaz-video-ai-e3a43d
@@ -4178,7 +4181,7 @@ entries:
   - video-upscaling
   summary: A professional-grade desktop software utilizing temporally aware AI models to perform video upscaling, enhancement, stabilization, and motion smoothing.
   summary_ja: 時間情報を考慮したAIモデルを利用して、ビデオのアップスケーリング、高画質化、手ブレ補正、およびモーションのスムーズ化を行うプロフェッショナル向けのデスクトップソフトウェア。
-  thumbnail: assets/thumbnails/topaz-video-ai-e3a43d.png
+  thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca910577540672ae401448_opengraph-topaz-video.webp
   date_added: '2026-06-21'
   source: agent
 - id: nvidia-rtx-video-sdk-c5bdc9
@@ -4196,6 +4199,7 @@ entries:
   - upscaling
   summary: An AI-powered video upscaling and artifact reduction SDK that leverages NVIDIA RTX Tensor Cores to sharpen edges, restore features, and remove compression artifacts in real time.
   summary_ja: NVIDIA RTX Tensorコアを活用して、エッジのシャープ化、特徴の復元、圧縮アーティファクトの除去をリアルタイムで行う、AI搭載のビデオアップスケーリングおよびアーティファクト削減SDK。
+  thumbnail: https://developer.download.nvidia.com/images/rtx/rtx-video-sdk-clarity-1920x1080.jpg
   date_added: '2026-08-09'
   source: agent
 - id: pixop-8c7163
@@ -4212,7 +4216,7 @@ entries:
   - upscaling
   summary: A cloud-based, ML-powered video enhancement and restoration platform designed for broadcasters and media companies, offering automated upscaling, denoising, and SDR-to-HDR conversion.
   summary_ja: 放送局やメディア企業向けに設計された、クラウドベースの機械学習駆動型動画向上・復元プラットフォーム。自動アップスケーリング、ノイズ除去、SDRからHDRへの変換機能を提供する。
-  thumbnail: assets/thumbnails/pixop-8c7163.png
+  thumbnail: https://framerusercontent.com/images/b0byKw00DESdi8cdZWJk6ktMGY8.jpg
   date_added: '2026-06-28'
   source: agent
 - id: goenhance-ai-f90ac6
@@ -4230,7 +4234,7 @@ entries:
   - video-style-transfer
   summary: A commercial AI video style transfer platform that allows users to transform existing footage into anime, claymation, Pixar-like, and other artistic styles with smooth motion tracking.
   summary_ja: スムーズなモーショントラッキングにより、既存の映像をアニメ、クレイアニメ、ピクサー風などの芸術的なスタイルに変換できる商用のAIビデオスタイル転送プラットフォーム。
-  thumbnail: assets/thumbnails/goenhance-ai-f90ac6.png
+  thumbnail: https://cdn.goenhance.ai/images/static/sites/20240718-000924.jpeg
   date_added: '2026-06-14'
   source: agent
 - id: mago-studio-719fe8
@@ -4248,6 +4252,7 @@ entries:
   - vfx
   summary: A studio-grade AI rendering and video-to-video style transfer platform designed for animation and VFX pipelines. It integrates into existing toolchains to transform playblasts, previs, and live-action plates into final stylized renders while maintaining character integrity and temporal consistency.
   summary_ja: アニメーションやVFXのパイプライン向けに設計された、スタジオグレードのAIレンダリングおよびビデオ間スタイル変換プラットフォーム。既存のツールチェーンに統合し、キャラクターの整合性と時間的一貫性を維持しながら、プレイブラストやプリビス、実写プレートを最終的なスタイライズドレンダリングに変換します。
+  thumbnail: https://cdn.prod.website-files.com/66b0c94b917f7a948315b442/66c5c74a7bbcc549e25161be_Mago_Open_Graph_1200.png
   date_added: '2026-08-02'
   source: agent
 - id: domoai-73ed2b
@@ -4265,7 +4270,7 @@ entries:
   - video-to-video
   summary: A popular commercial AI video generation and editing platform specializing in high-quality video-to-video style transfer. It allows creators to transform real-world footage into various artistic styles, including Japanese anime, 3D cartoon, and sketch, while maintaining motion continuity and lip-syncing.
   summary_ja: 高品質なビデオ・ツー・ビデオのスタイル変換に特化した、人気の商用AI動画生成・編集プラットフォーム。実写映像の動きの連続性やリップシンクを維持しながら、日本のアニメ、3Dカートゥーン、スケッチなど、さまざまな芸術的スタイルに変換できます。
-  thumbnail: assets/thumbnails/domoai-73ed2b.png
+  thumbnail: https://imgo.domoai.app/web/domoai-og-image.jpg
   date_added: '2026-07-19'
   source: agent
 - id: kaiber-02b3ba
@@ -4282,6 +4287,6 @@ entries:
   - video-to-video
   summary: A popular AI creative platform that offers video-to-video style transfer, audio-reactive animation, and text-to-video generation, widely used by musicians and creators for stylized video production.
   summary_ja: ビデオ間スタイル転送、オーディオ連動アニメーション、テキストからビデオへの生成機能を提供する人気のAIクリエイティブプラットフォーム。ミュージシャンやクリエイターによるスタイライズされたビデオ制作に広く使用されている。
-  thumbnail: assets/thumbnails/kaiber-02b3ba.png
+  thumbnail: https://kaiber.ai/apple-touch-icon.png
   date_added: '2026-06-21'
   source: agent

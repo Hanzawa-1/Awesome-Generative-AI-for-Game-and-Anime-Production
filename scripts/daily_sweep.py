@@ -1,6 +1,6 @@
 """Daily catalog sweep: research today's slice of the task list (the slice auto-divides the
 WHOLE taxonomy across the week, so it adapts as tasks are added/removed), merge each task into
-the DB, and refresh thumbnails. The daily GitHub Actions job runs this; the workflow owns the
+the DB, and resolve thumbnail URLs. The daily GitHub Actions job runs this; the workflow owns the
 git branch + weekly PR. The agent only proposes — merge validates/dedupes before anything lands.
 
     uv run python scripts/daily_sweep.py            # today's slice (Mon=0..Sun=6 by date)
@@ -53,7 +53,7 @@ def main() -> int:
     ap.add_argument("--days", type=int, default=7, help="Days to spread the full sweep across.")
     ap.add_argument("--max-iters", type=int, default=None, help="Agent iterations per task.")
     ap.add_argument("--pr-body", default="pr_body.md", help="Where to write the changelog.")
-    ap.add_argument("--no-thumbnails", action="store_true", help="Skip thumbnail extraction.")
+    ap.add_argument("--no-thumbnails", action="store_true", help="Skip thumbnail URL resolution.")
     args = ap.parse_args()
 
     tax = load_taxonomy()

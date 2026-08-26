@@ -15,8 +15,11 @@ where sfx is "" (en) or ".ja" (ja).
 
 from __future__ import annotations
 
+import hashlib
+import html
 import json
 import os
+import re
 import shutil
 import sys
 from collections import Counter, defaultdict
@@ -30,7 +33,16 @@ from pipeline import db  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 CATALOG = DOCS / "catalog"
-PLACEHOLDER = "assets/thumbnails/placeholder.svg"
+
+# Soft watercolor-pastel gradient pairs for the CSS fallback tiles (microsoft.ai-ish).
+PASTELS = [
+    ("#f4b2c4", "#aac9f0"),
+    ("#f8d89b", "#aae1c5"),
+    ("#f4b2c4", "#f8d89b"),
+    ("#aae1c5", "#aac9f0"),
+    ("#d8bff0", "#f8d89b"),
+    ("#aac9f0", "#f4b2c4"),
+]
 
 LOCALES = (("en", ""), ("ja", ".ja"))
 
@@ -73,10 +85,6 @@ UI = {
 }
 
 
-def _rel_prefix(page_path: str) -> str:
-    return "../" * page_path.count("/")
-
-
 def _esc(text: str) -> str:
     return text.replace("[", r"\[").replace("]", r"\]")
 
@@ -98,24 +106,40 @@ def _link_row(links, loc: str) -> list[str]:
     return bits
 
 
-def _thumb(e) -> str:
-    """Prefer the entry's thumbnail field; else an on-disk PNG by id; else the placeholder.
-
-    Thumbnails are generated at deploy build time and are NOT committed (see deploy.yml), so we
-    only reference a file that actually exists on disk right now. Otherwise fall back to the
-    placeholder — this keeps ``mkdocs build --strict`` from breaking on a missing image in any
-    build where thumbnails weren't generated (e.g. the sweep's sanity build)."""
-    if e.thumbnail and (DOCS / e.thumbnail).exists():
-        return e.thumbnail
-    if (DOCS / "assets" / "thumbnails" / f"{e.id}.png").exists():
-        return f"assets/thumbnails/{e.id}.png"
-    return PLACEHOLDER
+def _initials(title: str) -> str:
+    toks = re.findall(r"[A-Za-z0-9]+", title)
+    if not toks:
+        return "?"
+    if len(toks) >= 2:
+        return (toks[0][0] + toks[1][0]).upper()
+    return toks[0][:2].upper()
 
 
-def _card(e, prefix: str, loc: str, new_ids: set[str]) -> str:
-    thumb = _thumb(e)
+def _thumb_html(e, primary: str) -> str:
+    """Card cover: the entry's remote preview image (og:image / GitHub social card, resolved
+    by pipeline/thumbnails.py) hotlinked on top of a deterministic pastel initials tile.
+
+    No image files exist anywhere in this repo or build — the tile is pure CSS, and it is
+    always rendered underneath so a missing/dead remote image just reveals it (an error
+    listener in thumb-fallback.js hides the broken <img>)."""
+    idx = int(hashlib.sha1(e.id.encode()).hexdigest(), 16) % len(PASTELS)
+    c0, c1 = PASTELS[idx]
+    parts = [
+        f'<span class="card-tile" style="background:linear-gradient(135deg,{c0},{c1})">'
+        f"{_initials(e.title)}</span>"
+    ]
+    if e.thumbnail and e.thumbnail.startswith(("http://", "https://")):
+        # no-referrer sidesteps referer-based hotlink blocking on some hosts
+        parts.append(
+            f'<img class="card-thumb" src="{html.escape(e.thumbnail, quote=True)}" alt="" '
+            f'loading="lazy" referrerpolicy="no-referrer">'
+        )
+    return f'<a class="card-thumb-link" href="{html.escape(primary, quote=True)}">{"".join(parts)}</a>'
+
+
+def _card(e, loc: str, new_ids: set[str]) -> str:
     primary = e.links.primary() or "#"
-    lines = [f"-   [![]({prefix}{thumb}){{ .card-thumb }}]({primary})", ""]
+    lines = [f"-   {_thumb_html(e, primary)}", ""]
     # Badges live in the title paragraph but CSS pins them to fixed card corners, so their
     # position is identical on every card regardless of title length.
     title = f"**[{_esc(e.title)}]({primary})**"
@@ -140,10 +164,10 @@ def _card(e, prefix: str, loc: str, new_ids: set[str]) -> str:
     return "\n".join(lines)
 
 
-def _grid(entries, prefix: str, loc: str, new_ids: set[str]) -> str:
+def _grid(entries, loc: str, new_ids: set[str]) -> str:
     if not entries:
         return ""
-    inner = "\n".join(_card(e, prefix, loc, new_ids) for e in entries)
+    inner = "\n".join(_card(e, loc, new_ids) for e in entries)
     return f'<div class="grid cards" markdown>\n\n{inner}\n</div>\n'
 
 
@@ -188,7 +212,6 @@ def build_locale(loc: str, sfx: str, tax, by_area, by_task, new_ids: set[str]) -
         for t in area.tasks:
             summary.append(f"        - [{t.display_name(loc)}](catalog/{area.id}/{t.id}.md)")
             page = f"catalog/{area.id}/{t.id}{sfx}.md"
-            prefix = _rel_prefix(f"catalog/{area.id}/{t.id}.md")
             items = by_task.get((area.id, t.id), [])
             oss = _newest_first([e for e in items if e.kind == "oss"])
             prop = _newest_first([e for e in items if e.kind == "proprietary"])
@@ -197,9 +220,9 @@ def build_locale(loc: str, sfx: str, tax, by_area, by_task, new_ids: set[str]) -
                 out.append(f"> {ui['stub']}\n")
             else:
                 if oss:
-                    out += [f"## {ui['oss']}\n", _grid(oss, prefix, loc, new_ids)]
+                    out += [f"## {ui['oss']}\n", _grid(oss, loc, new_ids)]
                 if prop:
-                    out += [f"## {ui['prop']}\n", _grid(prop, prefix, loc, new_ids)]
+                    out += [f"## {ui['prop']}\n", _grid(prop, loc, new_ids)]
             _write(page, "\n".join(out))
 
     summary.append(f"- [{ui['about']}](about.md)")

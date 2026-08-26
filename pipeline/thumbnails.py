@@ -1,35 +1,37 @@
-"""Layered thumbnail extraction for catalog entries.
+"""Resolve remote thumbnail URLs for catalog entries — no images are generated or stored.
 
-For each entry lacking a committed thumbnail, try in order:
-  A. arXiv PDF — an embedded raster figure on pages 1-2, else render page 1 to PNG
-     (arXiv figures are frequently *vector*, so the render fallback is essential).
-  B. Open Graph / Twitter / link-rel image from the project / website / github / hf page,
-     then apple-touch-icon as a smaller fallback.
-  C. A generated pastel "brand tile" with the entry's initials — so EVERY card has a
-     preview (no bland "no preview" gaps).
+For each entry lacking a resolved URL, try in order:
+  A. Open Graph / Twitter / link-rel image from the project / website / hf page. These are
+     the images those sites publish specifically for link previews, so referencing them
+     from a card is their intended use.
+  B. The GitHub social-preview card for the entry's repo, served by
+     opengraph.githubassets.com for every public repository.
+  C. The paper page's og:image (publisher preview) as a last resort. links.arxiv is
+     deliberately skipped — arXiv abs pages serve one generic logo as og:image, which
+     would make every paper card identical.
 
-Network failures never raise; this step is best-effort and must not block the pipeline.
-Output PNGs are committed under ``docs/assets/thumbnails/<id>.png``.
+Every candidate is verified to actually respond with an image content-type before being
+kept, so the data never records a dead or HTML-serving URL. Entries that resolve to
+nothing keep ``thumbnail: null`` and the site renders a pure-CSS pastel initials tile
+instead (see gen_catalog.py + extra.css), so every card still has a preview without a
+single PNG existing in the repo, the CI cache, or the build.
+
+Resolution is network-bound, so it fans out over a thread pool; failures never raise —
+this step is best-effort and must not block the pipeline.
 """
 
 from __future__ import annotations
 
-import hashlib
-import re
-from io import BytesIO
-from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageFont
 
 from pipeline import db
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-THUMB_DIR = REPO_ROOT / "docs" / "assets" / "thumbnails"
-MAX_EDGE = 1280
-TIMEOUT = 20
+TIMEOUT = 15
+MAX_WORKERS = 16
 
 # A browser-like header set — many marketing sites block bare bot user-agents.
 HEADERS = {
@@ -41,16 +43,6 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Soft watercolor-pastel pairs for generated brand tiles (microsoft.ai-ish).
-PASTELS = [
-    ((244, 178, 196), (170, 201, 240)),
-    ((248, 216, 155), (170, 225, 197)),
-    ((244, 178, 196), (248, 216, 155)),
-    ((170, 225, 197), (170, 201, 240)),
-    ((216, 191, 240), (248, 216, 155)),
-    ((170, 201, 240), (244, 178, 196)),
-]
-
 
 def _http_get(url: str) -> requests.Response | None:
     try:
@@ -60,48 +52,14 @@ def _http_get(url: str) -> requests.Response | None:
         return None
 
 
-def save_image(data: bytes, out_path: Path, max_edge: int = MAX_EDGE) -> bool:
-    """Decode bytes, downscale to ``max_edge`` longest side, write an optimized PNG."""
+def _is_image_url(url: str) -> bool:
+    """True if ``url`` responds 200 with an image content-type (body is not downloaded)."""
     try:
-        img = Image.open(BytesIO(data)).convert("RGB")
-    except Exception:
-        return False
-    if min(img.size) < 64:  # icons / tracking pixels too small to be a useful preview
-        return False
-    img.thumbnail((max_edge, max_edge))
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    img.save(out_path, format="PNG", optimize=True)
-    return True
-
-
-def from_arxiv_pdf(arxiv_id: str, out_path: Path) -> bool:
-    import fitz  # PyMuPDF; imported lazily so non-thumbnail code paths don't need it
-
-    # Many arXiv PDFs carry Screen/multimedia annotations MuPDF can't build appearance streams
-    # for; it prints "MuPDF error: ..." to stderr per annotation but still renders fine. Silence
-    # that chatter so build logs stay readable (real failures are still caught below).
-    fitz.TOOLS.mupdf_display_errors(False)
-
-    r = _http_get(f"https://arxiv.org/pdf/{arxiv_id}")
-    if not r:
-        return False
-    try:
-        doc = fitz.open(stream=r.content, filetype="pdf")
-    except Exception:
-        return False
-    try:
-        for page in doc[:2]:
-            for img in page.get_images(full=True):
-                try:
-                    pix = fitz.Pixmap(doc, img[0])
-                    if pix.n - pix.alpha >= 4:  # CMYK/other -> RGB
-                        pix = fitz.Pixmap(fitz.csRGB, pix)
-                    if pix.width >= 256 and pix.height >= 128 and save_image(pix.tobytes("png"), out_path):
-                        return True
-                except Exception:
-                    continue
-        pix = doc[0].get_pixmap(matrix=fitz.Matrix(2, 2))
-        return save_image(pix.tobytes("png"), out_path)
+        r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, stream=True)
+        try:
+            return r.status_code == 200 and r.headers.get("Content-Type", "").lower().startswith("image/")
+        finally:
+            r.close()
     except Exception:
         return False
 
@@ -122,85 +80,69 @@ def _meta_image(soup: BeautifulSoup, base: str) -> str | None:
     return None
 
 
-def from_og_image(url: str, out_path: Path) -> bool:
-    r = _http_get(url)
+def og_image_url(page_url: str) -> str | None:
+    """The verified preview-image URL a page advertises, or None."""
+    r = _http_get(page_url)
     if not r:
-        return False
-    if r.headers.get("Content-Type", "").startswith("image/"):
-        return save_image(r.content, out_path)
+        return None
+    if r.headers.get("Content-Type", "").lower().startswith("image/"):
+        return page_url  # the link IS an image
     try:
         soup = BeautifulSoup(r.text, "html.parser")
     except Exception:
-        return False
+        return None
     img_url = _meta_image(soup, r.url)
     if not img_url:
-        return False
-    ir = _http_get(img_url)
-    return bool(ir) and save_image(ir.content, out_path)
+        return None
+    # An http:// image would be mixed-content-blocked on the https site — prefer the
+    # https variant whenever it actually serves.
+    if img_url.startswith("http://"):
+        https = "https://" + img_url[len("http://"):]
+        if _is_image_url(https):
+            return https
+    if _is_image_url(img_url):
+        return img_url
+    return None
 
 
-def _initials(title: str) -> str:
-    toks = re.findall(r"[A-Za-z0-9]+", title)
-    if not toks:
-        return "?"
-    if len(toks) >= 2:
-        return (toks[0][0] + toks[1][0]).upper()
-    return toks[0][:2].upper()
+def github_card_url(repo: str) -> str:
+    """GitHub's social-preview card for ``owner/name`` (the og:image every repo page serves)."""
+    return f"https://opengraph.githubassets.com/1/{repo}"
 
 
-def generate_brand_tile(entry, out_path: Path, w: int = 640, h: int = 360) -> bool:
-    """Deterministic pastel-gradient tile with the entry's initials — always succeeds."""
-    idx = int(hashlib.sha1(entry.id.encode()).hexdigest(), 16) % len(PASTELS)
-    c0, c1 = PASTELS[idx]
-    grad = Image.new("RGB", (1, 2))
-    grad.putpixel((0, 0), c0)
-    grad.putpixel((0, 1), c1)
-    img = grad.resize((w, h), Image.BILINEAR)
-    draw = ImageDraw.Draw(img)
-    try:
-        font = ImageFont.load_default(size=150)
-    except TypeError:  # very old Pillow without sizable default
-        font = ImageFont.load_default()
-    draw.text((w / 2, h / 2), _initials(entry.title), fill=(46, 40, 32), font=font, anchor="mm")
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    img.save(out_path, format="PNG", optimize=True)
-    return True
-
-
-def ensure_thumbnail(entry, thumb_dir: Path = THUMB_DIR) -> str:
-    """Produce a thumbnail for ``entry`` (always succeeds); return its repo-relative path."""
-    out = thumb_dir / f"{entry.id}.png"
-    rel = f"assets/thumbnails/{entry.id}.png"
-    if out.exists():
-        return rel
-    if entry.arxiv_id and from_arxiv_pdf(entry.arxiv_id, out):
-        return rel
-    for field in ("project", "website", "github", "hf", "paper"):
+def resolve_thumbnail_url(entry) -> str | None:
+    for field in ("project", "website", "hf"):
         u = getattr(entry.links, field)
-        if u and from_og_image(str(u), out):
-            return rel
-    generate_brand_tile(entry, out)
-    return rel
+        if u:
+            img = og_image_url(str(u))
+            if img:
+                return img
+    if entry.repo:
+        card = github_card_url(entry.repo)
+        if _is_image_url(card):  # 404s for deleted/renamed repos
+            return card
+    if entry.links.paper:
+        return og_image_url(str(entry.links.paper))
+    return None
+
+
+def _is_resolved(e) -> bool:
+    return bool(e.thumbnail) and e.thumbnail.startswith(("http://", "https://"))
 
 
 def main() -> int:
-    THUMB_DIR.mkdir(parents=True, exist_ok=True)
     entries = db.load_all()
-    produced = 0
-    updated = 0
-    for e in entries:
-        rel = f"assets/thumbnails/{e.id}.png"
-        if (THUMB_DIR / f"{e.id}.png").exists():
-            if e.thumbnail != rel:
-                e.thumbnail = rel
-                updated += 1
-            continue
-        e.thumbnail = ensure_thumbnail(e)
-        produced += 1
-        updated += 1
-    if updated:
+    # Also picks up legacy local-path values ("assets/thumbnails/...") and re-resolves them.
+    todo = [e for e in entries if not _is_resolved(e)]
+    resolved = 0
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        for e, url in zip(todo, ex.map(resolve_thumbnail_url, todo), strict=True):
+            e.thumbnail = url  # None -> field dropped on save; site falls back to the CSS tile
+            resolved += bool(url)
+    if todo:
         db.save_split(entries)
-    print(f"thumbnails: produced={produced} updated={updated} total={len(entries)}")
+    print(f"thumbnails: resolved={resolved} unresolved={len(todo) - resolved} "
+          f"checked={len(todo)} total={len(entries)}")
     return 0
 
 

@@ -1,4 +1,4 @@
-"""Local driver: run the agent, merge into the DB, then extract thumbnails.
+"""Local driver: run the agent, merge into the DB, then resolve thumbnail URLs.
 
 Mirrors the weekly CI pipeline (minus the PR step). Needs an LLM key in .env to do anything;
 without one the agent stages nothing and merge/thumbnails are no-ops.

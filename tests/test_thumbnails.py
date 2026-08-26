@@ -1,16 +1,9 @@
-from io import BytesIO
-
 import responses
-from PIL import Image
 
 from agent.schema import Entry
 from pipeline import thumbnails as th
 
-
-def _png_bytes(w=800, h=450, color=(120, 80, 200)) -> bytes:
-    buf = BytesIO()
-    Image.new("RGB", (w, h), color).save(buf, format="PNG")
-    return buf.getvalue()
+PNG_BYTES = b"\x89PNG\r\n\x1a\n fake image body"
 
 
 def _entry(**kw):
@@ -26,82 +19,73 @@ def _entry(**kw):
     return Entry(**base)
 
 
-def test_save_image_downscales_to_max_edge(tmp_path):
-    out = tmp_path / "x.png"
-    assert th.save_image(_png_bytes(4000, 2000), out, max_edge=1280)
-    with Image.open(out) as im:
-        assert max(im.size) == 1280
-
-
-def test_save_image_rejects_garbage(tmp_path):
-    assert not th.save_image(b"not an image", tmp_path / "x.png")
-
-
 @responses.activate
-def test_from_og_image_parses_meta_and_downloads(tmp_path):
+def test_og_image_url_parses_meta_and_verifies():
     page = '<html><head><meta property="og:image" content="/img/preview.png"></head></html>'
     responses.add(responses.GET, "https://example.com/tool", body=page,
                   content_type="text/html", status=200)
-    responses.add(responses.GET, "https://example.com/img/preview.png", body=_png_bytes(),
+    responses.add(responses.GET, "https://example.com/img/preview.png", body=PNG_BYTES,
                   content_type="image/png", status=200)
-    out = tmp_path / "t.png"
-    assert th.from_og_image("https://example.com/tool", out)
-    assert out.exists()
+    assert th.og_image_url("https://example.com/tool") == "https://example.com/img/preview.png"
 
 
 @responses.activate
-def test_from_og_image_direct_image_content_type(tmp_path):
-    responses.add(responses.GET, "https://cdn.example.com/a.png", body=_png_bytes(),
+def test_og_image_url_direct_image_content_type():
+    responses.add(responses.GET, "https://cdn.example.com/a.png", body=PNG_BYTES,
                   content_type="image/png", status=200)
-    out = tmp_path / "t.png"
-    assert th.from_og_image("https://cdn.example.com/a.png", out)
+    assert th.og_image_url("https://cdn.example.com/a.png") == "https://cdn.example.com/a.png"
 
 
 @responses.activate
-def test_ensure_thumbnail_falls_back_to_brand_tile(tmp_path):
-    # No og:image on the page -> generate a pastel brand tile so the card still has a preview.
-    responses.add(responses.GET, "https://example.com/tool",
-                  body="<html><head></head></html>", content_type="text/html", status=200)
-    e = _entry()
-    rel = th.ensure_thumbnail(e, thumb_dir=tmp_path)
-    assert rel == f"assets/thumbnails/{e.id}.png"
-    assert (tmp_path / f"{e.id}.png").exists()
-
-
-def test_generate_brand_tile_writes_image(tmp_path):
-    e = _entry()
-    out = tmp_path / f"{e.id}.png"
-    assert th.generate_brand_tile(e, out)
-    from PIL import Image
-
-    with Image.open(out) as im:
-        assert im.size == (640, 360)
-
-
-@responses.activate
-def test_ensure_thumbnail_returns_rel_path_on_success(tmp_path):
-    page = '<html><head><meta name="twitter:image" content="https://example.com/p.jpg"></head></html>'
+def test_og_image_url_upgrades_http_to_https():
+    page = '<html><head><meta property="og:image" content="http://example.com/p.jpg"></head></html>'
     responses.add(responses.GET, "https://example.com/tool", body=page,
                   content_type="text/html", status=200)
-    responses.add(responses.GET, "https://example.com/p.jpg", body=_png_bytes(),
-                  content_type="image/png", status=200)
-    e = _entry()
-    rel = th.ensure_thumbnail(e, thumb_dir=tmp_path)
-    assert rel == f"assets/thumbnails/{e.id}.png"
-    assert (tmp_path / f"{e.id}.png").exists()
+    responses.add(responses.GET, "https://example.com/p.jpg", body=PNG_BYTES,
+                  content_type="image/jpeg", status=200)
+    assert th.og_image_url("https://example.com/tool") == "https://example.com/p.jpg"
 
 
 @responses.activate
-def test_from_arxiv_pdf_renders_first_page(tmp_path):
-    import fitz
+def test_og_image_url_rejects_dead_or_non_image_target():
+    page = '<html><head><meta property="og:image" content="/gone.png"></head></html>'
+    responses.add(responses.GET, "https://example.com/tool", body=page,
+                  content_type="text/html", status=200)
+    responses.add(responses.GET, "https://example.com/gone.png",
+                  body="<html>404</html>", content_type="text/html", status=404)
+    assert th.og_image_url("https://example.com/tool") is None
 
-    # Build a tiny one-page PDF in memory and serve its bytes as the arXiv PDF.
-    doc = fitz.open()
-    page = doc.new_page(width=300, height=400)
-    page.insert_text((40, 60), "Hello arXiv")
-    pdf_bytes = doc.tobytes()
-    responses.add(responses.GET, "https://arxiv.org/pdf/2209.14988",
-                  body=pdf_bytes, content_type="application/pdf", status=200)
-    out = tmp_path / "paper.png"
-    assert th.from_arxiv_pdf("2209.14988", out)
-    assert out.exists()
+
+@responses.activate
+def test_og_image_url_none_when_page_has_no_meta():
+    responses.add(responses.GET, "https://example.com/tool",
+                  body="<html><head></head></html>", content_type="text/html", status=200)
+    assert th.og_image_url("https://example.com/tool") is None
+
+
+@responses.activate
+def test_resolve_prefers_page_og_image_over_github_card():
+    page = '<html><head><meta property="og:image" content="https://example.com/p.jpg"></head></html>'
+    responses.add(responses.GET, "https://example.com/tool", body=page,
+                  content_type="text/html", status=200)
+    responses.add(responses.GET, "https://example.com/p.jpg", body=PNG_BYTES,
+                  content_type="image/jpeg", status=200)
+    e = _entry(kind="oss", links={"project": "https://example.com/tool",
+                                  "github": "https://github.com/acme/tool"})
+    assert th.resolve_thumbnail_url(e) == "https://example.com/p.jpg"
+
+
+@responses.activate
+def test_resolve_falls_back_to_github_social_card():
+    # No project/website/hf pages at all -> the constructed GitHub card (verified live).
+    card = "https://opengraph.githubassets.com/1/acme/tool"
+    responses.add(responses.GET, card, body=PNG_BYTES, content_type="image/png", status=200)
+    e = _entry(kind="oss", links={"github": "https://github.com/acme/tool"})
+    assert th.resolve_thumbnail_url(e) == card
+
+
+@responses.activate
+def test_resolve_none_when_nothing_resolves():
+    responses.add(responses.GET, "https://example.com/tool",
+                  body="<html><head></head></html>", content_type="text/html", status=200)
+    assert th.resolve_thumbnail_url(_entry()) is None

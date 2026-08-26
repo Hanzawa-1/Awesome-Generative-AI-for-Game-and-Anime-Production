@@ -28,20 +28,8 @@ jobs:
         run: uv sync --no-dev
       - name: Validate data
         run: uv run python scripts/validate.py
-      # Thumbnails are generated here (not committed to the repo). The cache carries the PNGs
-      # between deploys, keyed on the data files, so a normal deploy only fetches images for
-      # entries added since the last build; thumbnails.py skips any file already present.
-      # NOTE: the first deploy after this change is a cache miss and regenerates all ~1000
-      # thumbnails once (slow) to seed the cache; every deploy after that is fast.
-      - name: Restore thumbnail cache
-        uses: actions/cache@v4
-        with:
-          path: docs/assets/thumbnails
-          key: thumbnails-${{ hashFiles('data/entries.yml', 'data/services.yml') }}
-          restore-keys: |
-            thumbnails-
-      - name: Generate thumbnails
-        run: uv run python -m pipeline.thumbnails
+      # No thumbnail step: card covers hotlink each entry's own preview image (the
+      # thumbnail URL lives in the data, resolved by the sweep), with a CSS tile fallback.
       - name: Generate catalog pages
         run: uv run python scripts/gen_catalog.py
       - name: Build site

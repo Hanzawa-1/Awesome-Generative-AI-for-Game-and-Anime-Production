@@ -217,32 +217,59 @@
   border-color: var(--ms-accent);
 }
 
-/* Cards WITH a thumbnail: image is flush to the edges, text content is padded. */
-.md-typeset .grid.cards > ul > li:has(img.card-thumb) {
+/* Cards WITH a cover: cover is flush to the edges, text content is padded. */
+.md-typeset .grid.cards > ul > li:has(.card-thumb-link) {
   padding: 0;
 }
-.md-typeset .grid.cards > ul > li:has(img.card-thumb) > * {
+.md-typeset .grid.cards > ul > li:has(.card-thumb-link) > * {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.md-typeset .grid.cards > ul > li:has(img.card-thumb) > p:first-child {
-  padding: 0;                      /* image edge-to-edge */
+.md-typeset .grid.cards > ul > li:has(.card-thumb-link) > p:first-child {
+  padding: 0;                      /* cover edge-to-edge */
 }
-.md-typeset .grid.cards > ul > li:has(img.card-thumb) > p:nth-child(2) {
+.md-typeset .grid.cards > ul > li:has(.card-thumb-link) > p:nth-child(2) {
   padding-top: 0.7rem;
 }
-.md-typeset .grid.cards > ul > li:has(img.card-thumb) > :last-child {
+.md-typeset .grid.cards > ul > li:has(.card-thumb-link) > :last-child {
   padding-bottom: 1rem;
 }
 
-/* 16:9 cover thumbnail (its corners come from the card's overflow:hidden) */
-.md-typeset .grid.cards img.card-thumb {
+/* 16:9 cover (its corners come from the card's overflow:hidden). No image files exist in
+   this repo: the <img> hotlinks the entry's own og:image / GitHub social card, and the
+   pastel initials tile beneath it is pure CSS. A dead remote image just reveals the tile
+   (thumb-fallback.js hides the broken <img>). */
+.md-typeset .grid.cards .card-thumb-link {
+  position: relative;
+  display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--ms-tan);
+}
+.md-typeset .grid.cards .card-tile {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  color: #2e2820;
+}
+.md-typeset .grid.cards img.card-thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
   margin: 0;
-  background: var(--ms-tan);
+}
+.md-typeset .grid.cards img.card-thumb.thumb-broken {
+  display: none;
 }
 .md-typeset .grid.cards > ul > li > p:first-child > a {
   display: block;

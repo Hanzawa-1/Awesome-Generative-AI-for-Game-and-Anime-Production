@@ -76,9 +76,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Run daily sweep
-        # Thumbnails are generated at deploy build time (see deploy.yml), not here — the sweep
-        # only touches the YAML data, keeping the repo free of committed PNGs.
-        run: uv run python scripts/daily_sweep.py --day ${{ steps.plan.outputs.day }} --no-thumbnails --pr-body pr_body.md
+        # Thumbnail URLs for new entries are resolved here (remote og:image / GitHub social
+        # card) and committed as part of the YAML data — no image files exist anywhere.
+        run: uv run python scripts/daily_sweep.py --day ${{ steps.plan.outputs.day }} --pr-body pr_body.md
 
       - name: Validate + build (sanity)
         run: |

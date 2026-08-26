@@ -24,10 +24,11 @@ agent:
 merge:
 	uv run python -m pipeline.merge --staged staged.json
 
+# Resolve remote thumbnail URLs into the data (no image files are created)
 thumbs:
 	uv run python -m pipeline.thumbnails
 
-# Full local pipeline: agent -> merge -> thumbnails (mirrors update.yml)
+# Full local pipeline: agent -> merge -> thumbnail URLs
 run-local:
 	uv run python scripts/run_local.py --max-iters $(ITERS)
 

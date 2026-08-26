@@ -1,1 +1,1 @@
-"""Pipeline: deterministic validate, merge, thumbnails, page generation."""
+"""Pipeline: deterministic validate, merge, thumbnail-URL resolution, page generation."""

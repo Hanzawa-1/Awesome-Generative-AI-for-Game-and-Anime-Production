@@ -33,7 +33,7 @@ def main() -> int:
     ap.add_argument("--max-iters", type=int, default=18,
                     help="Agent iterations per task. Higher = more thorough but much slower on rate-limited "
                          "free tiers (each throttled call backs off up to ~60s).")
-    ap.add_argument("--no-thumbnails", action="store_true", help="Skip thumbnail extraction at the end.")
+    ap.add_argument("--no-thumbnails", action="store_true", help="Skip thumbnail URL resolution at the end.")
     args = ap.parse_args()
 
     settings = load_settings()

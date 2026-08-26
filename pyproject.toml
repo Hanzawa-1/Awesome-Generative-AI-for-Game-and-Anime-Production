@@ -16,9 +16,6 @@ dependencies = [
     "huggingface_hub>=0.24",
     "requests>=2.32",
     "beautifulsoup4>=4.12",
-    # --- thumbnails ---
-    "PyMuPDF>=1.24",
-    "Pillow>=10.3",
     # --- site ---
     "mkdocs-material>=9.5",
     "mkdocs-literate-nav>=0.6",

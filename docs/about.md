@@ -31,8 +31,9 @@ The agent only **proposes** entries. A deterministic pipeline then:
 4. **De-duplicates** against everything already in the catalog.
 5. **Merges** conservatively — filling only empty fields, **never** overwriting human edits.
 
-The result is a Pull Request that a human reviews and merges. Thumbnails are auto-extracted
-(arXiv figure → Open Graph image → placeholder).
+The result is a Pull Request that a human reviews and merges. Card previews link each entry's
+own published image (Open Graph image → GitHub social card → a generated initials tile) —
+no image files are stored.
 
 !!! warning "Automated curation"
     Summaries are machine-generated and kept deliberately neutral. They may contain mistakes —

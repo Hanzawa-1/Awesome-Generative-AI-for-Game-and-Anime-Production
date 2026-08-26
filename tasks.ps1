@@ -44,8 +44,8 @@ Tasks (run as: .\tasks.ps1 <task> [-Iters N]):
   seed        regenerate the seed catalog
   agent       run the research agent  -> staged.json   (needs an LLM key in .env)
   merge       merge staged.json into the DB
-  thumbs      extract thumbnails
-  run-local   agent -> merge -> thumbnails
+  thumbs      resolve thumbnail URLs into the data
+  run-local   agent -> merge -> thumbnail URLs
   catalog     generate bilingual catalog pages + nav (docs/catalog, SUMMARY*)
   site        generate catalog + mkdocs build --strict
   serve       generate catalog + mkdocs serve (preview at http://127.0.0.1:8000)

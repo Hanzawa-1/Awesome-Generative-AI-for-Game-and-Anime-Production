@@ -29,7 +29,7 @@ GEMINI_API_KEY=<your key>
 ```powershell
 .\tasks.ps1 serve             # preview the site at http://127.0.0.1:8000
 .\tasks.ps1 ci                # validate + tests + strict build
-.\tasks.ps1 run-local -Iters 3  # agent -> merge -> thumbnails (needs an LLM key)
+.\tasks.ps1 run-local -Iters 3  # agent -> merge -> thumbnail URLs (needs an LLM key)
 ```
 
 **macOS / Linux** — `make serve`, `make ci`, `make run-local ITERS=3`.
@@ -51,9 +51,9 @@ uv run python scripts/harvest_preview.py lineart-colorization
 # run the agent on specific tasks -> staged.json (needs an LLM key):
 uv run python -m agent.run_agent --tasks facial-lipsync --out staged.json
 uv run python -m pipeline.merge --staged staged.json
-uv run python -m pipeline.thumbnails
+uv run python -m pipeline.thumbnails   # resolves remote thumbnail URLs into the data
 
-# backfill every task below an entry threshold (task -> merge -> thumbnail -> next; resumable):
+# backfill every task below an entry threshold (task -> merge -> next; resumable):
 uv run python scripts/backfill.py --below 1
 ```
 
@@ -74,7 +74,7 @@ generated from them by `scripts/gen_catalog.py` before each build.
 ## Workflows
 
 - **Deploy site** — on push to `main`: validate → generate catalog → `mkdocs build --strict` → publish to Pages.
-- **Weekly update** — cron + manual: run the agent → merge → thumbnails → open/refresh a PR on
+- **Weekly update** — cron + manual: run the agent → merge → thumbnail URLs → open/refresh a PR on
   `bot/weekly-update`. Trigger it manually with **`dry_run = true`** first to test without opening a PR.
 
 Run a workflow locally with [`act`](https://github.com/nektos/act) (build job only — Pages
