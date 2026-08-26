@@ -1247,6 +1247,24 @@ entries:
   summary_ja: ピクシブが開発した、アニメ調の人型アバターをデザイン・カスタマイズできる人気の3Dキャラクター制作ソフトウェア。髪型のモデリング、テクスチャペイント、衣装のカスタマイズを直感的なブラシツールで行うことができ、標準的なVRM形式でエクスポート可能です。
   date_added: '2026-06-24'
   source: agent
+- id: headshot-3-dfa27e
+  title: Headshot 3
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/character-creator/headshot/
+  year: 2024
+  tags:
+  - 3d-head
+  - character-creator
+  - image-to-3d
+  - proprietary
+  summary: An AI-powered 3D head generator plugin for Reallusion Character Creator that automatically transforms single portrait photos into highly detailed, animatable 3D digital human heads.
+  summary_ja: 単一のポートレート写真から、詳細でアニメーション可能な3Dデジタルヒューマンの頭部を自動的に生成する、Reallusion Character Creator向けのAI搭載3Dヘッド生成プラグイン。
+  thumbnail: https://www.reallusion.com/character-creator/headshot/includes/images/overview/og-overview.jpg
+  date_added: '2026-08-26'
+  source: agent
 - id: faceform-wrap-8aac72
   title: Faceform Wrap
   area: characters
@@ -1405,6 +1423,24 @@ entries:
   summary_ja: テキストの記述や手書きのスケッチを、STEPやSTL形式でエクスポート可能な高精度で編集可能な3D CADモデル（B-Repジオメトリ）に変換するAI搭載CADプラットフォーム。
   thumbnail: https://ragnar.build/images/og-card.png
   date_added: '2026-06-17'
+  source: agent
+- id: zoo-design-studio-8a2699
+  title: Zoo Design Studio
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://zoo.dev/
+  year: 2025
+  tags:
+  - brep
+  - cad
+  - conversational-ai
+  - text-to-cad
+  summary: A professional CAD platform and infrastructure for hardware design that features built-in Text-to-CAD capabilities and Zookeeper, a conversational design agent for generating editable B-Rep CAD models from natural language.
+  summary_ja: ビルトインのText-to-CAD機能と、自然言語から編集可能なB-Rep CADモデルを生成する対話型デザインエージェント「Zookeeper」を特徴とする、ハードウェア設計向けのプロフェッショナルCADプラットフォームおよびインフラストラクチャ。
+  thumbnail: https://zoo.dev/meta-images/zoo-homepage.png
+  date_added: '2026-08-26'
   source: agent
 - id: zoo-text-to-cad-ad65da
   title: Zoo Text-to-CAD

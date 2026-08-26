@@ -6699,6 +6699,7 @@ entries:
   - symbolic-music
   summary: ChatMusician is an open-source large language model integrated with intrinsic musical abilities, capable of understanding and generating music using text-compatible ABC notation. It treats music as a second language, enabling symbolic music generation and reasoning without external multi-modal neural structures.
   summary_ja: ChatMusicianは、本質的な音楽能力を統合したオープンソースの大規模言語モデルであり、テキスト互換のABC記譜法を用いて音楽を理解・生成できます。音楽を第二言語として扱い、外部のマルチモーダル構造を必要とせずにシンボリックな音楽生成や推論を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/hf-lin/chatmusician
   date_added: '2026-07-21'
   source: agent
   arxiv_id: '2402.16153'
@@ -12030,6 +12031,37 @@ entries:
   date_added: '2026-07-15'
   source: agent
   repo: qinghew/characterfactory
+- id: diffuman4d-4d-consistent-human-view-synthesis-from-sparse-vi-1c551e
+  title: 'Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.13344
+    github: https://github.com/zju3dv/Diffuman4D
+    website: https://diffuman4d.github.io/
+  authors:
+  - Yudong Jin
+  - Sida Peng
+  - Xuan Wang
+  - Tao Xie
+  - Zhen Xu
+  - Yifan Yang
+  - Yujun Shen
+  - Hujun Bao
+  - Xiaowei Zhou
+  year: 2025
+  tags:
+  - 4d-avatar
+  - diffusion
+  - view-synthesis
+  summary: A spatio-temporal diffusion model designed to synthesize high-resolution, 4D-consistent human views and animatable avatars from sparse-view video inputs.
+  summary_ja: 疎な視点のビデオ入力から、高解像度で4次元的に一貫した人物の新規視点映像やアニメーション可能なアバターを合成する時空間拡散モデル。
+  thumbnail: https://diffuman4d.github.io/static/images/teaser_1200x600.jpg
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2507.13344'
+  repo: zju3dv/diffuman4d
 - id: humandreamer-x-932d2b
   title: HumanDreamer-X
   area: characters
@@ -12315,6 +12347,34 @@ entries:
   date_added: '2026-07-29'
   source: agent
   arxiv_id: '2406.07516'
+- id: canonicalfusion-generating-drivable-3d-human-avatars-from-mu-1d49e5
+  title: 'CanonicalFusion: Generating Drivable 3D Human Avatars from Multiple Images'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.04345
+    github: https://github.com/jsshin98/CanonicalFusion
+  authors:
+  - Jisu Shin
+  - Junmyeong Lee
+  - Seongmin Lee
+  - Min-Gyu Park
+  - Ju-Mi Kang
+  - Ju Hong Yoon
+  - Hae-Gon Jeon
+  year: 2024
+  tags:
+  - 3d-avatar
+  - lbs
+  - reconstruction
+  summary: A framework for reconstructing animatable 3D human avatars from multiple images by integrating individual reconstruction results into a canonical space using Linear Blend Skinning (LBS) weight maps and forward skinning.
+  summary_ja: 複数の画像からアニメーション可能な3D人物アバターを再構成するフレームワーク。線形ブレンドスキニング（LBS）ウェイトマップとフォワードスキニングを用いて、個々の再構成結果を標準空間（カノニカルスペース）に統合します。
+  thumbnail: https://opengraph.githubassets.com/1/jsshin98/canonicalfusion
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2407.04345'
+  repo: jsshin98/canonicalfusion
 - id: character-adapter-prompt-guided-region-control-for-high-fide-ee3a64
   title: 'Character-Adapter: Prompt-Guided Region Control for High-Fidelity Character Customization'
   area: characters
@@ -12507,6 +12567,33 @@ entries:
   source: agent
   arxiv_id: '2401.01173'
   repo: menyifang/en3d
+- id: gen-3diffusion-realistic-image-to-3d-generation-via-2d-3d-di-7f75b6
+  title: 'Gen-3Diffusion: Realistic Image-to-3D Generation via 2D & 3D Diffusion Synergy'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.06698
+    github: https://github.com/YuxuanSnow/Gen3Diffusion
+    hf: https://huggingface.co/yuxuanx/human3diffusion
+    website: https://yuxuan-xue.com/gen-3diffusion/
+  authors:
+  - Yuxuan Xue
+  - Xianghui Xie
+  - Riccardo Marin
+  - Gerard Pons-Moll
+  year: 2024
+  tags:
+  - 3d-avatar
+  - diffusion
+  - image-to-3d
+  summary: A template-free framework that generates realistic 3D objects and clothed human avatars from a single RGB image by leveraging the synergy between 2D multi-view diffusion models and 3D diffusion models.
+  summary_ja: 2Dマルチビュー拡散モデルと3D拡散モデルの相乗効果を活用し、単一のRGB画像からリアルな3Dオブジェクトや衣服を着用した人物アバターをテンプレートフリーで生成するフレームワーク。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/yuxuanx/human3diffusion.png
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2412.06698'
+  repo: yuxuansnow/gen3diffusion
 - id: motion-avatar-generate-human-and-animal-avatars-with-arbitra-1c69b7
   title: 'Motion Avatar: Generate Human and Animal Avatars with Arbitrary Motion'
   area: characters
@@ -13474,6 +13561,39 @@ entries:
   source: agent
   arxiv_id: '2407.15070'
   repo: yuelangx/gphmv2
+- id: headgap-few-shot-3d-head-avatar-via-generalizable-gaussian-p-a1bbfb
+  title: 'HeadGAP: Few-shot 3D Head Avatar via Generalizable Gaussian Priors'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.06019
+    project: https://headgap.github.io/
+  authors:
+  - Xiaozheng Zheng
+  - Chao Wen
+  - Zhaohu Li
+  - Weiyi Zhang
+  - Zuo Su
+  - Xu Chang
+  - Yang Zhao
+  - Zheng Lv
+  - Xiaoyuan Zhang
+  - Yongjie Zhang
+  - Guidong Wang
+  - Lan Xu
+  year: 2024
+  tags:
+  - 3d-head
+  - avatar-generation
+  - few-shot
+  - gaussian-splatting
+  summary: A few-shot 3D head avatar creation method that learns generalizable 3D Gaussian head priors from large-scale data, enabling high-quality personalized head avatar reconstruction and real-time animation.
+  summary_ja: 大規模データから汎用的な3Dガウシアンヘッド事前分布を学習し、高品質なパーソナライズされたヘッドアバターの再構成とリアルタイムアニメーションを可能にする、少数の画像から3Dヘッドアバターを作成する手法。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2408.06019'
+  repo: headgap/headgap.github.io
 - id: id-sculpt-256cee
   title: ID-Sculpt
   area: characters
@@ -13562,6 +13682,29 @@ entries:
   source: agent
   arxiv_id: '2401.08503'
   repo: yerfor/real3dportrait
+- id: single-image-any-face-generalisable-3d-face-generation-ef522f
+  title: 'Single Image, Any Face: Generalisable 3D Face Generation'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.16990
+  authors:
+  - Wenqing Wang
+  - Haosen Yang
+  - Josef Kittler
+  - Xiatian Zhu
+  year: 2024
+  tags:
+  - 3d-face
+  - avatar-generation
+  - reconstruction
+  - single-view
+  summary: A generalizable 3D face generation framework (Gen3D-Face) designed to reconstruct photorealistic 3D human face avatars from a single unconstrained, out-of-domain portrait image.
+  summary_ja: 制約のないドメイン外の単一のポートレート画像から、フォトリアルな3D人間の顔アバターを再構成するために設計された、汎用的な3D顔生成フレームワーク（Gen3D-Face）。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2409.16990'
 - id: smirk-3d-facial-expressions-through-analysis-by-neural-synth-57594f
   title: 'SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis'
   area: characters
@@ -13788,6 +13931,67 @@ entries:
   source: agent
   arxiv_id: '2312.01632'
   repo: chiehwangs/gaussian-head
+- id: headartist-text-conditioned-3d-head-generation-with-self-sco-e1aba3
+  title: 'HeadArtist: Text-conditioned 3D Head Generation with Self Score Distillation'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.07539
+    github: https://github.com/ant-research/HeadArtist
+  authors:
+  - Hongyu Liu
+  - Xuan Wang
+  - Ziyu Wan
+  - Yujun Shen
+  - Yibing Song
+  - Jiajia Liao
+  - Qifeng Chen
+  year: 2023
+  tags:
+  - 3d-head
+  - controlnet
+  - score-distillation
+  - text-to-3d
+  summary: A text-conditioned 3D head generation framework that utilizes a landmark-guided ControlNet as a generative prior and optimizes a parameterized 3D head model via self score distillation (SSD).
+  summary_ja: ランドマーク制御のControlNetを生成事前分布として利用し、セルフスコア蒸留（SSD）を介してパラメータ化された3Dヘッドモデルを最適化する、テキスト条件付き3Dヘッド生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ant-research/headartist
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2312.07539'
+  repo: ant-research/headartist
+- id: towards-realistic-generative-3d-face-models-50a9c4
+  title: Towards Realistic Generative 3D Face Models
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.12483
+    github: https://github.com/aashishrai3799/Towards-Realistic-Generative-3D-Face-Models
+    project: https://aashishrai3799.github.io/Towards-Realistic-Generative-3D-Face-Models/
+  authors:
+  - Aashish Rai
+  - Hiresh Gupta
+  - Ayush Pandey
+  - Francisco Vicente Carrasco
+  - Shingo Jason Takagi
+  - Amaury Aubel
+  - Daeil Kim
+  - Aayush Prakash
+  - Fernando de la Torre
+  year: 2023
+  tags:
+  - 3d-face
+  - face-editing
+  - mesh-generation
+  - texture-generation
+  summary: A 3D generative face model that combines 2D face generative models with semantic face manipulation, enabling the generation and text-guided editing of detailed 3D rendered faces with high-quality mesh and texture.
+  summary_ja: 2D顔生成モデルとセマンティックな顔操作を組み合わせることで、高品質なメッシュとテクスチャを持つ詳細な3Dレンダリング顔の生成およびテキストガイド付き編集を可能にする3D生成顔モデル。
+  thumbnail: https://opengraph.githubassets.com/1/aashishrai3799/towards-realistic-generative-3d-face-models
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2304.12483'
+  repo: aashishrai3799/towards-realistic-generative-3d-face-models
 - id: emoca-emotion-driven-monocular-face-capture-and-animation-5e4904
   title: 'EMOCA: Emotion Driven Monocular Face Capture and Animation'
   area: characters
@@ -14262,6 +14466,26 @@ entries:
   date_added: '2026-06-17'
   source: agent
   repo: rin-23/robustskinweightstransfercode
+- id: robust-weight-transfer-for-blender-7cf900
+  title: Robust Weight Transfer for Blender
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    github: https://github.com/sentfromspacevr/robust-weight-transfer
+    paper: https://dl.acm.org/doi/10.1145/3610543.3626180
+  year: 2023
+  tags:
+  - blender
+  - inpainting
+  - rigging
+  - weight-transfer
+  summary: An open-source Blender addon implementing the SIGGRAPH Asia 2023 paper "Robust Skin Weights Transfer via Weight Inpainting" to automatically and smoothly transfer skinning weights from a body mesh to clothing or accessories.
+  summary_ja: SIGGRAPH Asia 2023の論文「Robust Skin Weights Transfer via Weight Inpainting」を実装したオープンソースのBlenderアドオン。ボディメッシュから衣服やアクセサリーへ、スキニングウェイトを自動的かつ滑らかに転送する。
+  thumbnail: https://opengraph.githubassets.com/1/sentfromspacevr/robust-weight-transfer
+  date_added: '2026-08-26'
+  source: agent
+  repo: sentfromspacevr/robust-weight-transfer
 - id: skinningnet-73eb7d
   title: SkinningNet
   area: characters
@@ -14718,6 +14942,31 @@ entries:
   source: agent
   arxiv_id: '2512.25071'
   repo: edit3r/edit3r
+- id: free-form-scene-editor-da3674
+  title: Free-Form Scene Editor
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.13713
+    github: https://github.com/FudanCVL/FFSE
+  authors:
+  - Xincheng Shuai
+  - Zhenyuan Qin
+  - Henghui Ding
+  - Dacheng Tao
+  year: 2025
+  tags:
+  - 3d-aware
+  - diffusion
+  - scene-editing
+  summary: A 3D-aware autoregressive framework designed to enable intuitive, physically-consistent object editing directly on real-world images. It supports multi-round object manipulation, allowing users to move, rotate, and scale objects like in a 3D engine.
+  summary_ja: 実世界の画像上で直感的かつ物理的に一貫したオブジェクト編集を直接可能にする、3D対応の自己回帰フレームワーク。複数回のオブジェクト操作をサポートし、3Dエンジンのようにオブジェクトの移動、回転、スケーリングを行えます。
+  thumbnail: https://opengraph.githubassets.com/1/fudancvl/ffse
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2511.13713'
+  repo: fudancvl/ffse
 - id: instruct-4dgs-a9d205
   title: Instruct-4DGS
   area: gen-3d
@@ -15067,6 +15316,30 @@ entries:
   source: seed
   arxiv_id: '2403.08733'
   repo: activevisionlab/gaussctrl
+- id: gsedit-ee7989
+  title: GSEdit
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.05154
+    project: https://dbaieri.github.io/publication/gsedit
+  authors:
+  - Francesco Palandra
+  - Andrea Sanchietti
+  - Daniele Baieri
+  - Emanuele Rodolà
+  year: 2024
+  tags:
+  - 3dgs
+  - sds-loss
+  - text-guided
+  summary: An efficient text-guided pipeline for editing the style and appearance of 3D objects represented by Gaussian Splatting. It optimizes the 3D model while progressively varying the viewpoints and applying Score Distillation Sampling (SDS) loss to ensure multi-view consistency.
+  summary_ja: Gaussian Splattingで表現された3Dオブジェクトのスタイルや外観を編集するための、効率的なテキストガイド付きパイプライン。視点を段階的に変化させながら3Dモデルを最適化し、Score Distillation Sampling（SDS）損失を適用することで、多視点の一貫性を保証します。
+  thumbnail: https://dbaieri.github.io/images/apple-touch-icon-180x180.png
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2403.05154'
 - id: gseditpro-3d-gaussian-splatting-editing-with-attention-based-895f1b
   title: 'GSEditPro: 3D Gaussian Splatting Editing with Attention-based Progressive Localization'
   area: gen-3d
@@ -15266,6 +15539,34 @@ entries:
   source: agent
   arxiv_id: '2407.02034'
   repo: luocfprime/trame
+- id: dreameditor-36d830
+  title: DreamEditor
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.13455
+    github: https://github.com/zjy526223908/DreamEditor
+    project: https://zjy526223908.github.io/DreamEditor/
+  authors:
+  - Jingyu Zhuang
+  - Di Kang
+  - Yan-Pei Cao
+  - Guan-Ying Chen
+  - Linchao Bao
+  - Ying Shan
+  - Linhui Xiao
+  year: 2023
+  tags:
+  - mesh-editing
+  - neural-fields
+  - text-to-3d
+  summary: A text-driven 3D scene editing framework that represents scenes as mesh-based neural fields to allow localized editing within specific regions. It automatically identifies target regions based on text prompts and optimizes them using a pretrained text-to-image diffusion model.
+  summary_ja: シーンをメッシュベースのニューラルフィールドとして表現し、特定領域内の局所的な編集を可能にするテキスト駆動型3Dシーン編集フレームワーク。テキストプロンプトに基づいて対象領域を自動的に特定し、事前学習済みのテキスト画像拡散モデルを用いて最適化します。
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2306.13455'
+  repo: zjy526223908/dreameditor
 - id: free-editor-3c2bfd
   title: Free-Editor
   area: gen-3d
@@ -15699,6 +16000,37 @@ entries:
   source: agent
   arxiv_id: '2607.17093'
   repo: dafei-qin/paracad
+- id: pointer-cad-unifying-b-rep-and-command-sequences-via-pointer-7a9af6
+  title: 'Pointer-CAD: Unifying B-Rep and Command Sequences via Pointer-based Edges & Faces Selection'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.04337
+    github: https://github.com/Snitro/Pointer-CAD
+  authors:
+  - Dacheng Qi
+  - Chenyu Wang
+  - Jingwei Xu
+  - Tianzhe Chu
+  - Zibo Zhao
+  - Wen Liu
+  - Wenrui Ding
+  - Yi Ma
+  - Shenghua Gao
+  year: 2026
+  tags:
+  - brep
+  - cad
+  - parametric
+  - text-to-cad
+  summary: An LLM-based text-to-CAD framework that treats CAD generation as a multi-step dialogue between a textual prompt and the evolving B-Rep (Boundary Representation), predicting operations while directly pointing to geometric entities.
+  summary_ja: テキストプロンプトと進化する境界表現（B-Rep）の間のマルチステップ対話としてCAD生成を処理する、LLMベースのText-to-CADフレームワーク。幾何学的エンティティを直接ポインティングしながら、各種CAD操作を予測します。
+  thumbnail: https://opengraph.githubassets.com/1/snitro/pointer-cad
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2603.04337'
+  repo: snitro/pointer-cad
 - id: step-llm-9920ef
   title: STEP-LLM
   area: gen-3d
@@ -16374,6 +16706,25 @@ entries:
   source: agent
   arxiv_id: '2409.16294'
   repo: ferdous-alam/gencad
+- id: text-to-cad-631d48
+  title: text-to-cad
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/earthtojake/text-to-cad
+  year: 2024
+  tags:
+  - agents
+  - cad
+  - step
+  - stl
+  summary: A library of agent skills for generating, inspecting, sourcing, slicing, and handing off CAD and robot-description artifacts from local project files, supporting STEP, STL, 3MF, and GLB exports.
+  summary_ja: ローカルのプロジェクトファイルからCADやロボット記述ファイルの生成、検査、調達、スライス、ハンドオフを行うためのエージェントスキルライブラリ。STEP、STL、3MF、GLB形式でのエクスポートをサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/earthtojake/text-to-cad
+  date_added: '2026-08-26'
+  source: agent
+  repo: earthtojake/text-to-cad
 - id: text2cad-880d8e
   title: Text2CAD
   area: gen-3d
@@ -16677,6 +17028,26 @@ entries:
   source: seed
   arxiv_id: '2009.04927'
   repo: enigma-li/sketch2cad
+- id: img2threejs-3c4ca3
+  title: img2threejs
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    github: https://github.com/img2threejs/img2threejs
+    website: https://img2threejs.org/
+  year: 2026
+  tags:
+  - image-to-3d
+  - procedural-generation
+  - threejs
+  - webgl
+  summary: An open-source AI agent tool that rebuilds objects from reference images as code-only, procedural, and animation-ready Three.js models. It outputs readable TypeScript and JSON instead of opaque mesh files, making it highly efficient for web-based game development.
+  summary_ja: 参照画像からオブジェクトをコードのみのプロシージャルかつアニメーション可能なThree.jsモデルとして再構築するオープンソースのAIエージェントツール。不透明なメッシュファイルの代わりに、可読性の高いTypeScriptとJSONを出力するため、Webベースのゲーム開発に非常に効率的です。
+  thumbnail: https://img2threejs.org/og-img2threejs.jpg
+  date_added: '2026-08-26'
+  source: agent
+  repo: img2threejs/img2threejs
 - id: pixal3d-1a3924
   title: Pixal3D
   area: gen-3d
@@ -16694,6 +17065,30 @@ entries:
   thumbnail: https://opengraph.githubassets.com/1/tencentarc/pixal3d
   date_added: '2026-06-13'
   source: seed
+  repo: tencentarc/pixal3d
+- id: pixal3d-d25b74
+  title: Pixal3D
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.10922
+    github: https://github.com/TencentARC/Pixal3D
+    website: https://pixal3d.net/
+  authors:
+  - Tencent ARC
+  year: 2026
+  tags:
+  - 3d-reconstruction
+  - image-to-3d
+  - pixel-aligned
+  - scene-synthesis
+  summary: A pixel-aligned 3D generation framework that establishes direct pixel-to-3D correspondences by explicitly lifting 2D features into 3D space via back-projection. This approach achieves near-reconstruction-level fidelity and naturally extends to multi-view generation and object-separated 3D scene synthesis.
+  summary_ja: 逆投影（バックプロジェクション）を介して2D特徴量を明示的に3D空間にマッピングし、ピクセルと3Dの直接的な対応関係を構築するピクセル整合型3D生成フレームワーク。再構成レベルの忠実度を達成し、マルチビュー生成やオブジェクトごとに分離された3Dシーン合成にも対応します。
+  thumbnail: https://pixal3d.net/android-chrome-512x512.png?v=20260531
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2605.10922'
   repo: tencentarc/pixal3d
 - id: acc3d-accelerating-single-image-to-3d-diffusion-models-via-e-c32292
   title: 'Acc3D: Accelerating Single Image to 3D Diffusion Models via Edge Consistency Guided Score Distillation'
@@ -17907,6 +18302,34 @@ entries:
   source: agent
   arxiv_id: '2607.10623'
   repo: lohhhha/lato.2
+- id: lato-dd29c1
+  title: LATO
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.06357
+    github: https://github.com/TianhaoZhao668/LATO
+  authors:
+  - Tianhao Zhao
+  - Yuan Dong
+  - Lior Yariv
+  - Yoni Kasten
+  - Shimon Ullman
+  - Meirav Galun
+  year: 2026
+  tags:
+  - flow-matching
+  - mesh
+  - topology
+  - vae
+  summary: A topology-preserving latent representation and flow matching framework for explicit 3D mesh generation, representing meshes as a Vertex Displacement Field (VDF) and using a sparse voxel VAE to compress the signal into structured, topology-aware voxel latents.
+  summary_ja: 陽的な3Dメッシュ生成のためのトポロジー保存潜在表現とフロー・マッチング・フレームワーク。メッシュを頂点変位フィールド（VDF）として表現し、スパースボクセルVAEを使用して信号を構造化されたトポロジー対応ボクセル潜在空間に圧縮します。
+  thumbnail: https://opengraph.githubassets.com/1/tianhaozhao668/lato
+  date_added: '2026-08-26'
+  source: agent
+  arxiv_id: '2603.06357'
+  repo: tianhaozhao668/lato
 - id: mesh-bdf-f857bc
   title: Mesh BDF
   area: gen-3d
