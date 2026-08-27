@@ -13590,6 +13590,7 @@ entries:
   - gaussian-splatting
   summary: A few-shot 3D head avatar creation method that learns generalizable 3D Gaussian head priors from large-scale data, enabling high-quality personalized head avatar reconstruction and real-time animation.
   summary_ja: 大規模データから汎用的な3Dガウシアンヘッド事前分布を学習し、高品質なパーソナライズされたヘッドアバターの再構成とリアルタイムアニメーションを可能にする、少数の画像から3Dヘッドアバターを作成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/headgap/headgap.github.io
   date_added: '2026-08-26'
   source: agent
   arxiv_id: '2408.06019'
@@ -20689,6 +20690,33 @@ entries:
   source: agent
   arxiv_id: '2605.30263'
   repo: shengshu-ai/minwm
+- id: pixworld-unifying-3d-scene-generation-and-reconstruction-in-51adab
+  title: 'PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.05373
+    github: https://github.com/SensenGao/PixWorld
+  authors:
+  - Sensen Gao
+  - Zhaoqing Wang
+  - Qihang Cao
+  - Dongdong Yu
+  - Changhu Wang
+  - Jia-Wang Bian
+  year: 2026
+  tags:
+  - environment
+  - pixel-space
+  - reconstruction
+  - scene
+  summary: A unified framework for 3D scene generation and reconstruction operating directly in pixel space. By avoiding the information loss of latent space encoding, it achieves high-fidelity 3D scene synthesis and reconstruction without requiring a pretrained VAE.
+  summary_ja: ピクセル空間で直接動作する、3Dシーン生成と再構成の統一フレームワーク。潜在空間エンコーディングによる情報損失を回避することで、事前学習済みのVAEを必要とせずに、高忠実度な3Dシーンの合成と再構成を実現します。
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2607.05373'
+  repo: sensengao/pixworld
 - id: sage-5f174b
   title: SAGE
   area: gen-3d
@@ -20747,6 +20775,36 @@ entries:
   source: agent
   arxiv_id: '2603.12238'
   repo: roujinn/sceneassistant
+- id: scenefoundry-generating-interactive-infinite-3d-worlds-c44836
+  title: 'SceneFoundry: Generating Interactive Infinite 3D Worlds'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.05810
+    github: https://github.com/SceneFoundry/SceneFoundry
+  authors:
+  - ChunTeng Chen
+  - YiChen Hsu
+  - YiWen Liu
+  - WeiFang Sun
+  - TsaiChing Ni
+  - ChunYi Lee
+  - Min Sun
+  - YuanFu Yang
+  year: 2026
+  tags:
+  - embodied-ai
+  - environment
+  - interactive
+  - scene
+  summary: A language-guided diffusion framework that generates apartment-scale 3D environments with functionally articulated furniture and semantically diverse layouts. It uses an LLM for floor plan generation and diffusion-based placement to ensure physical usability and navigability.
+  summary_ja: 機能的に可動する家具やセマンティックに多様なレイアウトを備えた、アパートメントスケールの3D環境を生成する言語誘導型拡散フレームワーク。LLMによる間取り図生成と拡散モデルベースの配置により、物理的な実用性とナビゲーション可能性を保証します。
+  thumbnail: https://opengraph.githubassets.com/1/scenefoundry/scenefoundry
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2601.05810'
+  repo: scenefoundry/scenefoundry
 - id: syncity-3000-9ba1b2
   title: SynCity 3000
   area: gen-3d
@@ -20772,6 +20830,33 @@ entries:
   source: agent
   arxiv_id: '2607.05392'
   repo: paulengstler/syncity-3k
+- id: worldclaw-agentic-3d-open-world-generation-at-scale-7583b0
+  title: 'WorldClaw: Agentic 3D Open-World Generation at Scale'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.05248
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw
+    project: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
+  authors:
+  - Chunchao Guo
+  - Jinpeng Li
+  - Yang Li
+  - Zilong Huang
+  year: 2026
+  tags:
+  - agentic
+  - environment
+  - open-world
+  - scene
+  summary: An agentic coarse-to-fine framework for open-world 3D scene generation. It uses planning agents to translate text prompts into structured specifications of regions, terrain, assets, materials, and spatial relations, and then builds a globally coherent 3D scene.
+  summary_ja: テキストプロンプトから大規模で編集可能な3Dオープンワールドを生成する、エージェント指向の粗から密へのフレームワーク。プランニングエージェントがテキストを領域、地形、アセット、マテリアル、空間関係の構造化仕様に変換し、グローバルに一貫した3Dシーンを構築します。
+  thumbnail: https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/assets/worldclaw-share.jpg
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2608.05248'
+  repo: tencent-hunyuan/hunyuan3d-worldclaw
 - id: worldflow3d-flowing-through-3d-distributions-for-unbounded-w-4ec93c
   title: 'WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation'
   area: gen-3d
@@ -21710,6 +21795,35 @@ entries:
   date_added: '2026-06-18'
   source: agent
   arxiv_id: '2606.12213'
+- id: spherope-zero-shot-optimization-free-360-panorama-generation-78ce09
+  title: 'SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.32033
+    github: https://github.com/orhir/SpheRoPE
+    website: https://orhir.github.io/SpheRoPE/
+  authors:
+  - Or Hirschorn
+  - Aaron Olender
+  - Eli Alshan
+  - Ianir Ideses
+  - Lior Fritz
+  - Sagie Benaim
+  year: 2026
+  tags:
+  - '360'
+  - diffusion-transformer
+  - panorama
+  - zero-shot
+  summary: A zero-shot, training-free, and optimization-free framework that generates high-fidelity 360-degree panoramic images and videos by directly injecting spherical geometric priors into pre-trained diffusion transformers.
+  summary_ja: 事前学習済みのディフュージョン・トランスフォーマーに球面の幾何学的な事前分布を直接注入することにより、高忠実度な360度パノラマ画像および動画を生成する、ゼロショットかつ学習・最適化不要のフレームワーク。
+  thumbnail: https://orhir.github.io/SpheRoPE/static/images/teaser/tropical_resort.jpg
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2606.32033'
+  repo: orhir/spherope
 - id: world-shaper-a-unified-framework-for-360-panoramic-editing-1779df
   title: 'World-Shaper: A Unified Framework for 360° Panoramic Editing'
   area: gen-3d
@@ -23621,6 +23735,33 @@ entries:
   date_added: '2026-07-30'
   source: agent
   arxiv_id: '2606.14988'
+- id: towards-realistic-3d-emission-materials-dataset-baseline-and-dfa560
+  title: 'Towards Realistic 3D Emission Materials: Dataset, Baseline, and Evaluation for Emission Texture Generation'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.11006
+    github: https://github.com/yx345kw/EmissionGen
+  authors:
+  - Zhiyuan Zhang
+  - Zijian Zhou
+  - Linjun Li
+  - Long Chen
+  - Hao Tang
+  - Yichen Gong
+  year: 2026
+  tags:
+  - emission
+  - material
+  - pbr
+  - texture
+  summary: A baseline model and dataset (Objaverse-Emission) designed for emission texture generation, enabling synthesized 3D objects to faithfully reproduce self-illuminating emission materials.
+  summary_ja: 自発光する放射（エミッション）マテリアルを忠実に再現する3Dオブジェクトの合成を可能にする、放射テクスチャ生成のためのベースラインモデルおよびデータセット（Objaverse-Emission）。
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2604.11006'
+  repo: yx345kw/emissiongen
 - id: videoneumat-06efb2
   title: VideoNeuMat
   area: gen-3d
@@ -23841,6 +23982,36 @@ entries:
   source: agent
   arxiv_id: '2512.17302'
   repo: kaist-visual-ai-group/matlat
+- id: matpedia-a-universal-generative-foundation-for-high-fidelity-819a44
+  title: 'MatPedia: A Universal Generative Foundation for High-Fidelity Material Synthesis'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.16957
+    github: https://github.com/Rody-NKCS/MatPedia
+  authors:
+  - Di Luo
+  - Shuhui Yang
+  - Mingxin Yang
+  - Jiawei Lu
+  - Yixuan Tang
+  - Xintong Han
+  - Zhuo Chen
+  - Beibei Wang
+  year: 2025
+  tags:
+  - foundation-model
+  - material
+  - pbr
+  - texture
+  summary: A foundation model for material synthesis built upon a joint RGB-PBR representation that compactly encodes materials into interdependent latents for RGB appearance and PBR physical properties.
+  summary_ja: RGBの外観とPBRの物理特性を相互に依存する潜在変数にコンパクトにエンコードする、共同RGB-PBR表現に基づいたマテリアル合成のための基盤モデル。
+  thumbnail: https://opengraph.githubassets.com/1/rody-nkcs/matpedia
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2511.16957'
+  repo: rody-nkcs/matpedia
 - id: matspray-3ed59a
   title: MatSpray
   area: gen-3d
@@ -24929,6 +25100,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.20237'
+- id: bunraku-a248c2
+  title: Bunraku
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.27348
+    github: https://github.com/SparcAI-Inc/Bunraku
+  authors:
+  - Junhao Chen
+  - Jingjia Mao
+  - Dayong Li
+  - Chenghai Li
+  - Saining Zhang
+  - Zhihao Li
+  - Hao Zhao
+  - Yufei Wang
+  year: 2026
+  tags:
+  - character-generation
+  - layer-decomposition
+  - live2d
+  summary: A generative framework that automatically converts a single static 2D anime character illustration into a fully structured, layered, and editable Live2D model ready for animation.
+  summary_ja: 1枚の静的な2Dアニメキャラクターイラストから、アニメーション可能な構造化・レイヤー化された編集可能なLive2Dモデルを自動生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/sparcai-inc/bunraku
+  date_added: '2026-08-27'
+  source: agent
+  arxiv_id: '2607.27348'
+  repo: sparcai-inc/bunraku
 - id: see-through-single-image-layer-decomposition-for-anime-chara-cdcfb6
   title: 'See-through: Single-image Layer Decomposition for Anime Characters'
   area: image-2d

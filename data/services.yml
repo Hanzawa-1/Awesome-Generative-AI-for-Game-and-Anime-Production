@@ -984,6 +984,7 @@ entries:
   - voice-conversion
   summary: A professional AI voice content creation platform and voice changer that allows users to clone voices, morph speech into curated AI voices, and perform advanced audio editing for game and media production.
   summary_ja: ゲームやメディア制作向けに、音声のクローニング、厳選されたAI音声へのモーフィング、高度なオーディオ編集を可能にするプロフェッショナルなAI音声コンテンツ作成プラットフォーム。
+  thumbnail: https://www.altered.ai/_next/static/media/altered-logo-page.2f466128.webp
   date_added: '2026-06-13'
   source: agent
 - id: lovo-ai-457041
@@ -1906,6 +1907,24 @@ entries:
   thumbnail: https://cdn.prod.website-files.com/66e9a301f4fdbb270a76e94a/66e9af0ce18aa9bfc3c5862d_Screenshot%202024-09-17%20at%2017.29.46.png
   date_added: '2026-07-09'
   source: agent
+- id: cozyblanket-f9579f
+  title: CozyBlanket
+  area: gen-3d
+  task: uv-retopology
+  kind: proprietary
+  links:
+    website: https://sparseal.com/cozyblanket/
+  year: 2022
+  tags:
+  - baking
+  - ipad
+  - retopology
+  - uv
+  summary: An innovative, user-friendly retopology, UV unwrapping, and texture baking tool designed for iPad and desktop, featuring AI-assisted workflows.
+  summary_ja: iPadやデスクトップ向けに設計された、AIアシスト機能や直感的なジェスチャー操作を備える革新的なリトポロジー、UV展開、テクスチャベイクツール。
+  thumbnail: https://sparseal.com/assets/favicon/apple-touch-icon.webp
+  date_added: '2026-08-27'
+  source: agent
 - id: quadremesher-e35c8b
   title: QuadRemesher
   area: gen-3d
@@ -1975,6 +1994,23 @@ entries:
   summary_ja: 高度な複数キャラクタープロンプト、自然言語理解、アクションタグ、正確なキャラクター配置機能を備えた、最先端の商用アニメ画像生成サービス。
   thumbnail: https://novelai.net/social.png
   date_added: '2026-07-02'
+  source: agent
+- id: characterlock-ai-0506da
+  title: CharacterLock AI
+  area: image-2d
+  task: anime-character-design
+  kind: proprietary
+  links:
+    website: https://characterlock.ai/
+  year: 2024
+  tags:
+  - character-design
+  - consistent-character
+  - webtoon
+  summary: A commercial web-based AI tool designed for creators to generate consistent anime and webtoon characters across different scenes while maintaining facial features, outfits, and color palettes.
+  summary_ja: 顔の特徴、衣装、カラーパレットを維持しながら、異なるシーンにわたって一貫したアニメやウェブトーンのキャラクターを生成できる、クリエイター向けの商用WebベースAIツール。
+  thumbnail: https://characterlock.ai/og-image.png
+  date_added: '2026-08-27'
   source: agent
 - id: pixai-80f3ec
   title: PixAI
