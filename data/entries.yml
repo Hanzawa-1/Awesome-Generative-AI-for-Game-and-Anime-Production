@@ -15564,6 +15564,7 @@ entries:
   - text-to-3d
   summary: A text-driven 3D scene editing framework that represents scenes as mesh-based neural fields to allow localized editing within specific regions. It automatically identifies target regions based on text prompts and optimizes them using a pretrained text-to-image diffusion model.
   summary_ja: シーンをメッシュベースのニューラルフィールドとして表現し、特定領域内の局所的な編集を可能にするテキスト駆動型3Dシーン編集フレームワーク。テキストプロンプトに基づいて対象領域を自動的に特定し、事前学習済みのテキスト画像拡散モデルを用いて最適化します。
+  thumbnail: https://opengraph.githubassets.com/1/zjy526223908/dreameditor
   date_added: '2026-08-26'
   source: agent
   arxiv_id: '2306.13455'
@@ -20713,6 +20714,7 @@ entries:
   - scene
   summary: A unified framework for 3D scene generation and reconstruction operating directly in pixel space. By avoiding the information loss of latent space encoding, it achieves high-fidelity 3D scene synthesis and reconstruction without requiring a pretrained VAE.
   summary_ja: ピクセル空間で直接動作する、3Dシーン生成と再構成の統一フレームワーク。潜在空間エンコーディングによる情報損失を回避することで、事前学習済みのVAEを必要とせずに、高忠実度な3Dシーンの合成と再構成を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/sensengao/pixworld
   date_added: '2026-08-27'
   source: agent
   arxiv_id: '2607.05373'
@@ -23758,6 +23760,7 @@ entries:
   - texture
   summary: A baseline model and dataset (Objaverse-Emission) designed for emission texture generation, enabling synthesized 3D objects to faithfully reproduce self-illuminating emission materials.
   summary_ja: 自発光する放射（エミッション）マテリアルを忠実に再現する3Dオブジェクトの合成を可能にする、放射テクスチャ生成のためのベースラインモデルおよびデータセット（Objaverse-Emission）。
+  thumbnail: https://opengraph.githubassets.com/1/yx345kw/emissiongen
   date_added: '2026-08-27'
   source: agent
   arxiv_id: '2604.11006'
@@ -26319,6 +26322,30 @@ entries:
   source: agent
   arxiv_id: '2411.15098'
   repo: yuanshi9815/ominicontrol
+- id: repcontrolnet-controlnet-reparameterization-0953b4
+  title: 'RepControlNet: ControlNet Reparameterization'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.09240
+    paper: https://arxiv.org/pdf/2408.09240
+  authors:
+  - Zhaoli Deng
+  - Kaibin Zhou
+  - Fanyi Wang
+  - Zhenpeng Mi
+  year: 2024
+  tags:
+  - controlnet
+  - diffusion
+  - reparameterization
+  - sdxl
+  summary: RepControlNet introduces a structural reparameterization method for ControlNet, allowing the control branch to be fused back into the main diffusion backbone during inference. This eliminates the extra computational overhead and parameter count of the control network while maintaining high-quality controllable generation.
+  summary_ja: RepControlNetは、ControlNetの構造的再パラメータ化手法を提案し、推論時に制御ブランチをメインの拡散モデルのバックボーンに融合させることを可能にします。これにより、高品質な制御生成を維持しながら、制御ネットワークによる追加の計算オーバーヘッドとパラメータ数を削減します。
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2408.09240'
 - id: smartcontrol-enhancing-controlnet-for-handling-rough-visual-521de9
   title: 'SmartControl: Enhancing ControlNet for Handling Rough Visual Conditions'
   area: image-2d
@@ -27107,6 +27134,37 @@ entries:
   source: agent
   arxiv_id: '2403.19898'
   repo: htyjers/strdiffusion
+- id: ultraedit-instruction-based-fine-grained-image-editing-at-sc-33b1ed
+  title: 'UltraEdit: Instruction-based Fine-Grained Image Editing at Scale'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.05282
+    github: https://github.com/HaozheZhao/UltraEdit
+    website: https://ultra-editing.github.io/
+  authors:
+  - Haozhe Zhao
+  - Xiaojian Ma
+  - Liang Chen
+  - Shuzheng Si
+  - Rujie Wu
+  - Kaikai An
+  - Peiyu Yu
+  - Minjia Zhang
+  year: 2024
+  tags:
+  - dataset
+  - diffusion
+  - image-editing
+  - instruction-based
+  summary: A large-scale dataset and framework for instruction-based fine-grained image editing, supporting both free-form and region-based editing with high-quality automatically produced region annotations.
+  summary_ja: 指示に基づく細粒度な画像編集のための大規模データセットおよびフレームワークであり、自動生成された高品質な領域アノテーションを用いて、フリーフォームおよび領域指定の編集の両方をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/haozhezhao/ultraedit
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2407.05282'
+  repo: haozhezhao/ultraedit
 - id: anydoor-zero-shot-object-level-image-customization-690150
   title: 'AnyDoor: Zero-shot Object-level Image Customization'
   area: image-2d
@@ -27425,6 +27483,35 @@ entries:
   source: agent
   arxiv_id: '2306.00407'
   repo: alonzoleeeooo/sketchrefiner
+- id: smartedit-exploring-complex-instruction-based-image-editing-b9a1e7
+  title: 'SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.06739
+    github: https://github.com/TencentARC/SmartEdit
+  authors:
+  - Yuzhou Huang
+  - Tanghui Jia
+  - Yong Li
+  - Hang Xu
+  - Jianzhuang Liu
+  - He Zhang
+  - Shifeng Chen
+  year: 2023
+  tags:
+  - diffusion
+  - image-editing
+  - instruction-based
+  - mllm
+  summary: An instruction-based image editing framework that integrates Multimodal Large Language Models (MLLMs) to enhance the understanding and reasoning capabilities for complex editing instructions.
+  summary_ja: マルチモーダル大規模言語モデル（MLLM）を統合することで、複雑な編集指示に対する理解力と推論能力を向上させた、指示ベースの画像編集フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/tencentarc/smartedit
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2312.06739'
+  repo: tencentarc/smartedit
 - id: diffedit-480093
   title: DiffEdit
   area: image-2d
@@ -28867,6 +28954,32 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: bobbens/sketch_simplification
+- id: component-aware-sketch-to-image-generation-using-self-attent-8c7636
+  title: Component-Aware Sketch-to-Image Generation Using Self-Attention Encoding and Coordinate-Preserving Fusion
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.09484
+    paper: https://arxiv.org/pdf/2603.09484.pdf
+  authors:
+  - Ali Zia
+  - Muhammad Umer Ramzan
+  - Usman Ali
+  - Muhammad Faheem
+  - Abdelwahed Khamis
+  - Shahnawaz Qureshi
+  year: 2026
+  tags:
+  - diffusion
+  - fusion
+  - self-attention
+  - sketch
+  summary: A component-aware, self-refining framework for sketch-to-image generation that utilizes self-attention encoding and coordinate-preserving fusion to reconstruct fine-grained details and maintain spatial alignment.
+  summary_ja: 自己アテンションエンコーディングと座標保持フュージョンを利用して、きめ細かなディテールを再構築し、空間的なアライメントを維持する、コンポーネント認識型かつ自己洗練型のスケッチ画像生成フレームワーク。
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2603.09484'
 - id: mmface-dit-920cda
   title: MMFace-DiT
   area: image-2d
@@ -30159,6 +30272,31 @@ entries:
   source: agent
   arxiv_id: '2404.00722'
   repo: ming053l/drct
+- id: hit-sr-hierarchical-transformer-for-efficient-image-super-re-e5e9ff
+  title: 'HiT-SR: Hierarchical Transformer for Efficient Image Super-Resolution'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.05878
+    github: https://github.com/XiangZ-0/HiT-SR
+  authors:
+  - Xiang Zhang
+  - Yulun Zhang
+  - Fisher Yu
+  year: 2024
+  tags:
+  - efficient
+  - super-resolution
+  - transformer
+  - upscaling
+  summary: An efficient image super-resolution framework that converts transformer-based networks into hierarchical transformers. It replaces fixed small windows with expanding hierarchical windows to capture multi-scale features and establish long-range dependencies with linear complexity.
+  summary_ja: Transformerベースのネットワークを階層型Transformerに変換する、効率的な画像超解像フレームワーク。固定された小さなウィンドウを拡張する階層型ウィンドウに置き換えることで、線形計算量でマルチスケール特徴を捉え、長距離の依存関係を構築します。
+  thumbnail: https://opengraph.githubassets.com/1/xiangz-0/hit-sr
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2407.05878'
+  repo: xiangz-0/hit-sr
 - id: mambair-05e629
   title: MambaIR
   area: image-2d
@@ -31457,6 +31595,35 @@ entries:
   source: agent
   arxiv_id: '2410.13848'
   repo: deepseek-ai/janus
+- id: kandinsky-3-b4167c
+  title: Kandinsky 3
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.21061
+    github: https://github.com/ai-forever/Kandinsky-3
+  authors:
+  - Vladimir Arkhipkin
+  - Viacheslav Vasilev
+  - Andrei Filatov
+  - Igor Pavlov
+  - Julia Agafonova
+  - Nikolai Gerasimenko
+  - Anna Averchenkova
+  - Evelina Mironova
+  year: 2024
+  tags:
+  - diffusion
+  - latent-diffusion
+  - text-to-image
+  summary: A text-to-image diffusion model based on latent diffusion, designed for high-quality, photorealistic image generation and easy adaptation to downstream tasks like editing, inpainting, and video generation.
+  summary_ja: 高品質でフォトリアルな画像生成を実現する潜在拡散モデル（Latent Diffusion）に基づくテキスト画像生成モデル。画像編集、インペインティング、動画生成などの下流タスクへの容易な適応を特徴としています。
+  thumbnail: https://opengraph.githubassets.com/1/ai-forever/kandinsky-3
+  date_added: '2026-08-28'
+  source: agent
+  arxiv_id: '2410.21061'
+  repo: ai-forever/kandinsky-3
 - id: kolors-6b86a3
   title: Kolors
   area: image-2d
