@@ -32315,6 +32315,28 @@ entries:
   source: agent
   arxiv_id: '1908.05840'
   repo: blandocs/tag2pix
+- id: cgan-based-manga-colorization-using-a-single-training-image-8e0068
+  title: cGAN-based Manga Colorization Using a Single Training Image
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1706.06918
+    paper: https://arxiv.org/pdf/1706.06918
+  authors:
+  - Paulina Hensman
+  - Kiyoharu Aizawa
+  year: 2017
+  tags:
+  - adversarial
+  - cgan
+  - colorization
+  - manga
+  summary: A manga colorization method based on conditional Generative Adversarial Networks (cGAN) that can be trained using a single colorized manga image. The model addresses the scarcity of training data by learning to colorize black-and-white manga panels without relying on grayscale values.
+  summary_ja: 単一の彩色済み漫画画像を用いて学習可能な、条件付き敵対的生成ネットワーク（cGAN）に基づく漫画彩色手法を提案。グレースケール値に依存せずに白黒の漫画コマを彩色することを学習し、学習データの不足に対処します。
+  date_added: '2026-08-29'
+  source: agent
+  arxiv_id: '1706.06918'
 - id: comicolorization-semi-automatic-manga-colorization-2b8ef1
   title: 'Comicolorization: Semi-Automatic Manga Colorization'
   area: manga
@@ -33240,6 +33262,25 @@ entries:
   date_added: '2026-06-27'
   source: agent
   arxiv_id: '2604.13452'
+- id: manga-panel-layoutgan-0098b3
+  title: Manga-Panel-LayoutGAN
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/asmaends/Manga-Panel-LayoutGAN
+  year: 2026
+  tags:
+  - gan
+  - layout
+  - layoutgan
+  - manga
+  summary: An open-source application that generates unique and creative manga panel layouts using LayoutGAN++. It automatically predicts optimal panel positions and sizes to streamline the comic creation process.
+  summary_ja: LayoutGAN++を使用して、ユニークでクリエイティブなマンガのコマ割りレイアウトを生成するオープンソースアプリケーション。最適なコマの位置とサイズを自動的に予測し、コミック制作プロセスを効率化します。
+  thumbnail: https://opengraph.githubassets.com/1/asmaends/manga-panel-layoutgan
+  date_added: '2026-08-29'
+  source: agent
+  repo: asmaends/manga-panel-layoutgan
 - id: storyblender-4d1040
   title: StoryBlender
   area: manga
@@ -34044,6 +34085,25 @@ entries:
   date_added: '2026-06-20'
   source: agent
   repo: rouges78/gamestringer
+- id: overlay-translator-983125
+  title: Overlay Translator
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/ciddwd/overlay-translator
+  year: 2024
+  tags:
+  - llm
+  - localization
+  - ocr
+  - translation
+  summary: An open-source, no-root Android real-time screen translator designed for games, visual novels, and manga. It supports on-device and cloud OCR, offline LLMs via llama.cpp, and overlays translated text directly onto the screen.
+  summary_ja: ルート権限不要で動作する、Android向けのオープンソースリアルタイム画面翻訳ツール。ゲーム、ビジュアルノベル、マンガに対応し、端末内/クラウドOCR、llama.cppによるオフラインLLM翻訳、翻訳テキストの画面上への直接オーバーレイ表示をサポート。
+  thumbnail: https://opengraph.githubassets.com/1/ciddwd/overlay-translator
+  date_added: '2026-08-29'
+  source: agent
+  repo: ciddwd/overlay-translator
 - id: rstgametranslation-5617dc
   title: RSTGameTranslation
   area: text-design
@@ -34207,6 +34267,24 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: systran/faster-whisper
+- id: galtransl-2d2ede
+  title: GalTransl
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/GalTransl/GalTransl
+  year: 2023
+  tags:
+  - llm
+  - localization
+  - translation
+  - visual-novel
+  summary: An automated translation solution for visual novels and Galgames that leverages LLMs (such as GPT-4, Claude, DeepSeek, and Sakura) with advanced prompt engineering to generate high-quality in-game translation patches.
+  summary_ja: GPT-4、Claude、DeepSeek、Sakuraなどの大規模言語モデル（LLM）と高度なプロンプトエンジニアリングを活用し、ビジュアルノベルや美少女ゲーム（Galgame）の高品質なゲーム内翻訳パッチを自動生成するローカライズツール。
+  date_added: '2026-08-29'
+  source: agent
+  repo: galtransl/galtransl
 - id: lunatranslator-8188d7
   title: LunaTranslator
   area: text-design
@@ -34626,6 +34704,32 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
+- id: ai-native-games-a-survey-and-roadmap-0ac5c4
+  title: 'AI Native Games: A Survey and Roadmap'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.00527
+    paper: https://arxiv.org/pdf/2607.00527
+  authors:
+  - Zhiyue Xu
+  - Fandi Meng
+  - Kaijie Xu
+  - Clark Verbrugge
+  - Simon Lucas
+  - Jian Zhao
+  year: 2026
+  tags:
+  - ai-native
+  - gameplay-loop
+  - quest-generation
+  - survey
+  summary: A comprehensive survey defining AI-native games where runtime generative AI is constitutive of the core gameplay loop, including dynamic narrative, quest, and dialogue generation. The paper establishes a taxonomy and outlines a technical roadmap for implementing playable, AI-driven game architectures.
+  summary_ja: リアルタイムの生成AI（動的なシナリオ、クエスト、会話生成など）がコアゲームプレイのループを構成する「AIネイティブゲーム」を定義する包括的なサーベイ。その分類法を確立し、プレイ可能でAI駆動型のゲームアーキテクチャを実装するための技術的ロードマップを提示します。
+  date_added: '2026-08-29'
+  source: agent
+  arxiv_id: '2607.00527'
 - id: constory-bench-028976
   title: ConStory-Bench
   area: text-design
@@ -35061,6 +35165,34 @@ entries:
   source: agent
   arxiv_id: '2406.12665'
   repo: saranya-venkatraman/collabstory
+- id: geneva-generating-and-visualizing-branching-narratives-using-8b0840
+  title: 'GENEVA: GENErating and Visualizing branching narratives using LLMs'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.09213
+    project: https://www.microsoft.com/en-us/research/publication/geneva-generating-and-visualizing-branching-narratives-using-llms/
+    paper: https://arxiv.org/pdf/2311.09213
+  authors:
+  - Jorge Leandro
+  - Sudha Rao
+  - Michael Xu
+  - Weijia Xu
+  - Nebojsa Jojic
+  - Chris Brockett
+  - Bill Dolan
+  year: 2024
+  tags:
+  - branching
+  - llm
+  - narrative
+  - rpg
+  summary: A prototype tool that leverages GPT-4 to generate and visualize rich narrative graphs with branching and reconverging storylines for dialogue-based RPGs. It represents stories as directed acyclic graphs (DAGs) of narrative beats, allowing game designers to interactively explore and edit alternative plot paths.
+  summary_ja: GPT-4を活用して、会話型RPG向けに分岐・収束する豊かなシナリオグラフを生成・可視化するプロトタイプツール。ストーリーをナラティブ・ビートの有向非巡回グラフ（DAG）として表現し、ゲームデザイナーがインタラクティブに代替プロットを探索・編集できるようにします。
+  date_added: '2026-08-29'
+  source: agent
+  arxiv_id: '2311.09213'
 - id: guiding-and-diversifying-llm-based-story-generation-via-answ-efa77c
   title: Guiding and Diversifying LLM-Based Story Generation via Answer Set Programming
   area: text-design
@@ -35108,6 +35240,34 @@ entries:
   date_added: '2026-06-27'
   source: agent
   arxiv_id: '2404.19721'
+- id: player-driven-emergence-in-llm-driven-game-narrative-bad34c
+  title: Player-Driven Emergence in LLM-Driven Game Narrative
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.17027
+    paper: https://arxiv.org/pdf/2404.17027
+  authors:
+  - Xiangyu Peng
+  - Jessica Quaye
+  - Sudha Rao
+  - Weijia Xu
+  - Portia Botchway
+  - Chris Brockett
+  - Nebojsa Jojic
+  - Gabriel DesGarennes
+  year: 2024
+  tags:
+  - emergent-narrative
+  - llm
+  - npc
+  - text-adventure
+  summary: An exploration of how player interactions with GPT-4-powered NPCs in a text-adventure game can drive emergent narrative progression. The framework automatically converts game logs into a node-graph representation to analyze and visualize the evolution of player-driven story branches.
+  summary_ja: テキストアドベンチャーゲームにおいて、GPT-4を搭載したNPCとプレイヤーとの相互作用が、どのように創発的な物語の進行をもたらすかを調査した研究。ゲームログを自動的にノードグラフ表現に変換し、プレイヤー主導のストーリー分岐の進化を分析・可視化します。
+  date_added: '2026-08-29'
+  source: agent
+  arxiv_id: '2404.17027'
 - id: seed-story-multimodal-long-story-generation-with-large-langu-27a38b
   title: 'SEED-Story: Multimodal Long Story Generation with Large Language Model'
   area: text-design

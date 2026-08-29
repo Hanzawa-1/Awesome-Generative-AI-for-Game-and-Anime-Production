@@ -3277,6 +3277,24 @@ entries:
   thumbnail: https://www.lionbridge.com/content/lionbridge-games/en/ai-technology.thumb.800.480.png?ck=1786012596
   date_added: '2026-08-08'
   source: agent
+- id: torii-vn-translator-141f3d
+  title: Torii VN Translator
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://toriitranslate.com/visualnovel
+  year: 2025
+  tags:
+  - localization
+  - ocr
+  - translation
+  - visual-novel
+  summary: A desktop translation application for visual novels and Japanese games that supports direct text extraction via memory hooking and real-time screen OCR, rendering translations as customizable overlays or in-place image overlays.
+  summary_ja: メモリフッキングによる直接的なテキスト抽出とリアルタイム画面OCRに対応した、ビジュアルノベルや和風ゲーム向けのデスクトップ翻訳アプリケーション。翻訳結果をカスタマイズ可能なオーバーレイや、インペインティング技術を用いたインプレース画像オーバーレイとして表示可能。
+  thumbnail: https://toriitranslate.com/pages/extension/assets/demo3.jpg
+  date_added: '2026-08-29'
+  source: agent
 - id: alchemind-ai-0223cd
   title: Alchemind AI
   area: text-design
