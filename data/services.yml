@@ -4136,6 +4136,22 @@ entries:
   thumbnail: https://filecdn.minimax.chat/public/58eca777-e31f-448a-9823-e2220e49b426.png
   date_added: '2026-06-14'
   source: agent
+- id: openai-sora-08ec92
+  title: OpenAI Sora
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://openai.com/index/sora/
+  year: 2024
+  tags:
+  - proprietary
+  - text-to-video
+  - video-generation
+  summary: A state-of-the-art text-to-video model developed by OpenAI that can generate high-quality videos up to a minute long while maintaining visual quality, realistic motion, and strong adherence to complex textual prompts.
+  summary_ja: OpenAIが開発した最先端のテキスト動画生成モデル。複雑なプロンプトに忠実に従いながら、リアルな動きと高い視覚的品質を維持した最大1分間の動画を生成できます。
+  date_added: '2026-08-30'
+  source: agent
 - id: sora-7579e0
   title: Sora
   area: video

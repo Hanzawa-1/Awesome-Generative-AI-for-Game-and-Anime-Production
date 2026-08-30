@@ -34282,6 +34282,7 @@ entries:
   - visual-novel
   summary: An automated translation solution for visual novels and Galgames that leverages LLMs (such as GPT-4, Claude, DeepSeek, and Sakura) with advanced prompt engineering to generate high-quality in-game translation patches.
   summary_ja: GPT-4、Claude、DeepSeek、Sakuraなどの大規模言語モデル（LLM）と高度なプロンプトエンジニアリングを活用し、ビジュアルノベルや美少女ゲーム（Galgame）の高品質なゲーム内翻訳パッチを自動生成するローカライズツール。
+  thumbnail: https://opengraph.githubassets.com/1/galtransl/galtransl
   date_added: '2026-08-29'
   source: agent
   repo: galtransl/galtransl
@@ -36060,6 +36061,27 @@ entries:
   source: agent
   arxiv_id: '2603.26782'
   repo: bic4907/multiverse-multigame-pcg
+- id: procedural-content-metageneration-via-program-search-and-con-7abec2
+  title: Procedural Content Metageneration via Program Search and Continual Abstraction Discovery
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.17947
+  authors:
+  - Matthew Siper
+  - Ahmed Khalifa
+  - Julian Togelius
+  year: 2026
+  tags:
+  - llm
+  - pcg
+  - program-search
+  summary: Proposes a method to evolve complete Python-based level generators using Large Language Models (LLMs) through program search and Continual Abstraction Discovery (CAD), which extracts reusable primitives from high-fitness programs.
+  summary_ja: プログラム探索と継続的抽象化発見（CAD）を通じて、大規模言語モデル（LLM）を用いて完全なPythonベースのレベルジェネレータを自動進化させ、高適合度プログラムから再利用可能なプリミティブを抽出する手法を提案しています。
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2608.17947'
 - id: a-database-driven-framework-for-3d-level-generation-with-llm-e343fe
   title: A Database-Driven Framework for 3D Level Generation with LLMs
   area: text-design
@@ -36633,6 +36655,35 @@ entries:
   source: agent
   arxiv_id: '2302.05981'
   repo: shyamsn97/mario-gpt
+- id: raidenv-exploring-new-challenges-in-automated-content-balanc-4e65e2
+  title: 'RaidEnv: Exploring New Challenges in Automated Content Balancing for Boss Raid Games'
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.01676
+    github: https://github.com/CILAB-CT-GAME/RaidEnv
+  authors:
+  - Hyeon-Chang Jeon
+  - In-Chang Baek
+  - Cheong-mok Bae
+  - Taehwa Park
+  - Wonsang You
+  - Taegwan Ha
+  - Hoyun Jung
+  - Jinha Noh
+  year: 2023
+  tags:
+  - content-balancing
+  - pcg
+  - reinforcement-learning
+  summary: Presents RaidEnv, a reinforcement learning environment designed for automated content balancing and difficulty adjustment in boss raid games, reducing manual labor for game designers.
+  summary_ja: ボスレイドゲームにおける自動的なコンテンツ調整と難易度設計を目的とした強化学習環境「RaidEnv」を提案し、ゲームデザイナーの手作業による調整負荷を軽減します。
+  thumbnail: https://opengraph.githubassets.com/1/cilab-ct-game/raidenv
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2307.01676'
+  repo: cilab-ct-game/raidenv
 - id: illuminating-diverse-neural-cellular-automata-for-level-gene-9beef7
   title: Illuminating Diverse Neural Cellular Automata for Level Generation
   area: text-design
@@ -36752,6 +36803,33 @@ entries:
   source: agent
   arxiv_id: '2603.04379'
   repo: pku-yuangroup/helios
+- id: dynamic-i2v-ce0a59
+  title: Dynamic-I2V
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.19901
+  authors:
+  - Peng Liu
+  - Xiaoming Ren
+  - Fengkai Liu
+  - Qingsong Xie
+  - Quanlong Zheng
+  - Yanhao Zhang
+  - Haonan Lu
+  - Yujiu Yang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - image-to-video
+  - mllm
+  - motion-understanding
+  summary: An innovative image-to-video generation framework that integrates Multimodal Large Language Models (MLLMs) to jointly encode visual and textual conditions, significantly enhancing the understanding of complex motion and object-action relationships.
+  summary_ja: 視覚的およびテキスト的な条件を共同でエンコードするためにマルチモーダル大規模言語モデル（MLLM）を統合した、革新的な画像から動画への生成フレームワーク。複雑な動きやオブジェクトとアクションの関係性の理解を大幅に向上させます。
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2505.19901'
 - id: hunyuancustom-ed7257
   title: HunyuanCustom
   area: video
@@ -38538,6 +38616,32 @@ entries:
   source: agent
   arxiv_id: '2601.16296'
   repo: dohunlee1/memory-v2v
+- id: qwen-video-edit-317671
+  title: Qwen-Video-Edit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.14790
+    github: https://github.com/yunpeng1998/Qwen-Video-Edit
+  authors:
+  - Yunpeng Bai
+  - Yossi Gandelsman
+  - Michaël Gharbi
+  - Qixing Huang
+  year: 2026
+  tags:
+  - diffusion
+  - image-to-video
+  - latent-space
+  - video-editing
+  summary: An instruction-based video editing framework that repurposes a pre-trained image editing model (Qwen-Image-Edit) to edit videos by operating directly on video-VAE latents. It arranges latent frames as tiles of a large virtual image, bypassing the need for expensive video-pretrained transformers.
+  summary_ja: 事前学習済みの画像編集モデル（Qwen-Image-Edit）を再利用し、video-VAEの潜在空間上で直接操作することで動画を編集する指示ベースの動画編集フレームワーク。潜在フレームを1枚の大きな仮想画像のタイルとして配置することで、高コストな動画事前学習済みトランスフォーマーを不要にします。
+  thumbnail: https://opengraph.githubassets.com/1/yunpeng1998/qwen-video-edit
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2608.14790'
+  repo: yunpeng1998/qwen-video-edit
 - id: sana-streaming-dfb263
   title: SANA-Streaming
   area: video
@@ -38568,6 +38672,34 @@ entries:
   source: agent
   arxiv_id: '2605.30409'
   repo: nvlabs/sana
+- id: seen-to-scene-f74e82
+  title: Seen-to-Scene
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.14648
+    github: https://github.com/InSeokJeon/Seen_to_Scene
+  authors:
+  - Inseok Jeon
+  - Minhyeok Lee
+  - Seunghoon Lee
+  - Minseok Kang
+  - Suhwan Cho
+  - Sangyoun Lee
+  year: 2026
+  tags:
+  - diffusion
+  - outpainting
+  - temporal-consistency
+  - video-editing
+  summary: A video outpainting framework that unifies propagation-based and generation-based paradigms to expand video boundaries. It preserves existing visual content while generating temporally coherent and spatially consistent unseen regions.
+  summary_ja: 動画の境界を拡張するために、伝播ベースと生成ベースのパラダイムを統合した動画アウトペインティング（外側補完）フレームワーク。既存の視覚的コンテンツを維持しながら、時間的コヒーレンスと空間的一貫性を備えた未見の領域を生成します。
+  thumbnail: https://opengraph.githubassets.com/1/inseokjeon/seen_to_scene
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2604.14648'
+  repo: inseokjeon/seen_to_scene
 - id: vera-a-layered-diffusion-model-for-content-preserving-video-1b3842
   title: 'Vera: A Layered Diffusion Model for Content-Preserving Video Editing'
   area: video
@@ -39390,6 +39522,32 @@ entries:
   source: agent
   arxiv_id: '2204.02663'
   repo: mcg-nku/e2fgvi
+- id: nanovsr-towards-real-time-video-super-resolution-on-edge-dev-56d1e6
+  title: 'NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.10495
+    github: https://github.com/filippawlicki/nanovsr
+  authors:
+  - Filip Pawlicki
+  - Marcel Kańduła
+  - Marcin Pucek
+  - Kamil Dobies
+  year: 2026
+  tags:
+  - convolutional
+  - edge-ai
+  - real-time
+  - super-resolution
+  summary: A scalable, fully convolutional video super-resolution architecture designed for resource-constrained edge devices. It utilizes structural reparameterization to collapse multi-branch blocks into standard convolutions during inference, achieving real-time performance without custom CUDA operations.
+  summary_ja: リソース制約のあるエッジデバイス向けに設計された、スケーラブルで完全畳み込みのビデオ超解像アーキテクチャ。構造的再パラメータ化を利用して、推論時にマルチブランチブロックを標準の畳み込みに統合し、カスタムCUDA操作なしでリアルタイムなパフォーマンスを実現する。
+  thumbnail: https://opengraph.githubassets.com/1/filippawlicki/nanovsr
+  date_added: '2026-08-30'
+  source: agent
+  arxiv_id: '2607.10495'
+  repo: filippawlicki/nanovsr
 - id: ps-sr-pseudo-single-step-video-super-resolution-via-speculat-91bc33
   title: 'PS-SR: Pseudo-Single-Step Video Super-Resolution via Speculative Diffusion'
   area: video
