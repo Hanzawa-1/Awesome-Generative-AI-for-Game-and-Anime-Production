@@ -52,6 +52,36 @@ entries:
   date_added: '2026-07-27'
   source: agent
   arxiv_id: '2503.19416'
+- id: fantasytalking-58ed4d
+  title: FantasyTalking
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.04842
+    github: https://github.com/Fantasy-AMAP/fantasy-talking
+  authors:
+  - Mengchao Wang
+  - Qiang Wang
+  - Fan Jiang
+  - Yaqi Fan
+  - Yunpeng Zhang
+  - Yonggang Qi
+  - Kun Zhao
+  - Mu Xu
+  year: 2025
+  tags:
+  - audio-driven
+  - diffusion-transformer
+  - lip-sync
+  - talking-head
+  summary: A framework that leverages a pretrained video diffusion transformer (DiT) model to generate high-fidelity, coherent talking portraits with controllable motion dynamics. It uses a dual-stage audio-visual alignment to capture subtle facial expressions, global body movements, and dynamic backgrounds.
+  summary_ja: 事前学習済みのビデオ拡散トランスフォーマー（DiT）モデルを活用し、制御可能なモーションダイナミクスを備えた高精度で一貫性のあるトーキングポートレートを生成するフレームワーク。2段階のオーディオビジュアルアライメントにより、微細な表情、全身の動き、動的な背景を捉えます。
+  thumbnail: https://opengraph.githubassets.com/1/fantasy-amap/fantasy-talking
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2504.04842'
+  repo: fantasy-amap/fantasy-talking
 - id: hallo4-high-fidelity-dynamic-portrait-animation-via-direct-p-d76117
   title: 'Hallo4: High-Fidelity Dynamic Portrait Animation via Direct Preference Optimization and Temporal Motion Modulation'
   area: animation
@@ -171,6 +201,33 @@ entries:
   source: agent
   arxiv_id: '2507.18649'
   repo: livatar-1/livatar-1
+- id: personalive-487ea9
+  title: PersonaLive
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.11253
+    github: https://github.com/GVCLab/PersonaLive
+  authors:
+  - Zhiyuan Li
+  - Chi-Man Pun
+  - Chen Fang
+  - Jue Wang
+  - Xiaodong Cun
+  year: 2025
+  tags:
+  - facial-animation
+  - lip-sync
+  - live-streaming
+  - real-time
+  summary: A real-time, diffusion-based portrait animation framework designed for live streaming. It uses hybrid implicit signals (implicit facial representations and 3D implicit planes) to achieve high-quality, expressive facial animation and lip-sync with 7-22x speedup over prior diffusion models.
+  summary_ja: ライブ配信向けに設計された、リアルタイムかつ拡散モデルベースのポートレートアニメーションフレームワーク。ハイブリッド暗黙的信号（暗黙的顔表現と3D暗黙的プレーン）を採用することで、従来の拡散モデルと比較して7〜22倍の高速化を実現し、高品質で表現豊かな表情アニメーションとリップシンクを可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/gvclab/personalive
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2512.11253'
+  repo: gvclab/personalive
 - id: synctalk-high-fidelity-and-efficient-synchronized-talking-he-4f6d24
   title: 'SyncTalk++: High-Fidelity and Efficient Synchronized Talking Heads Synthesis Using Gaussian Splatting'
   area: animation
@@ -815,6 +872,25 @@ entries:
   source: agent
   arxiv_id: '2311.17590'
   repo: ziqiaopeng/synctalk
+- id: talking-head-3d-12f498
+  title: Talking Head (3D)
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    github: https://github.com/met4citizen/TalkingHead
+  year: 2023
+  tags:
+  - 3d-avatar
+  - lip-sync
+  - real-time
+  - webgl
+  summary: A JavaScript class and web application for real-time lip-sync and facial expressions using full-body 3D avatars (such as Ready Player Me GLB models) in the browser. It supports integration with major text-to-speech (TTS) APIs and handles Mixamo animations, markdown text, and subtitles.
+  summary_ja: ブラウザ上でフルボディ3Dアバター（Ready Player MeのGLBモデルなど）を使用し、リアルタイムのリップシンクと表情制御を実現するJavaScriptクラスおよびウェブアプリケーション。主要な音声合成（TTS）APIとの連携に対応し、Mixamoアニメーション、マークダウンテキスト、字幕の表示もサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/met4citizen/talkinghead
+  date_added: '2026-08-31'
+  source: agent
+  repo: met4citizen/talkinghead
 - id: vividtalk-4ee817
   title: VividTalk
   area: animation
@@ -902,6 +978,25 @@ entries:
   source: agent
   arxiv_id: '2211.14758'
   repo: opentalker/videoretalking
+- id: ulipsync-3a5342
+  title: uLipSync
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    github: https://github.com/hecomi/uLipSync
+  year: 2021
+  tags:
+  - lip-sync
+  - real-time
+  - unity
+  - vrm
+  summary: A real-time, MFCC-based lip-sync plugin for Unity. It uses Unity's Job System and Burst Compiler to perform high-performance audio analysis, allowing 3D characters (such as VRM models) to lip-sync dynamically to microphone input or audio sources.
+  summary_ja: Unity向けのリアルタイムかつMFCC（メル周波数ケプストラム係数）ベースのリップシンクプラグイン。UnityのJob SystemとBurst Compilerを利用して高性能な音声解析を行い、VRMモデルなどの3Dキャラクターをマイク入力やオーディオソースに合わせて動的にリップシンクさせることができます。
+  thumbnail: https://opengraph.githubassets.com/1/hecomi/ulipsync
+  date_added: '2026-08-31'
+  source: agent
+  repo: hecomi/ulipsync
 - id: wav2lip-53a0a1
   title: Wav2Lip
   area: animation
@@ -927,6 +1022,25 @@ entries:
   source: agent
   arxiv_id: '2008.10010'
   repo: rudrabha/wav2lip
+- id: rhubarb-lip-sync-a648c7
+  title: Rhubarb Lip Sync
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    github: https://github.com/DanielSWolf/rhubarb-lip-sync
+  year: 2016
+  tags:
+  - 2d-animation
+  - game-dev
+  - lip-sync
+  - viseme
+  summary: A command-line tool that automatically generates 2D mouth animation (visemes) from voice recordings. It is widely used in game development and 2D animation to sync character mouths with audio files, supporting output formats for Spine, After Effects, and custom game engines.
+  summary_ja: 音声録音から2Dの口の動き（バイジーム）を自動生成するコマンドラインツール。ゲーム開発や2Dアニメーションで広く使用されており、Spine、After Effects、カスタムゲームエンジン向けの出力フォーマットに対応し、キャラクターの口と音声を同期させることができます。
+  thumbnail: https://opengraph.githubassets.com/1/danielswolf/rhubarb-lip-sync
+  date_added: '2026-08-31'
+  source: agent
+  repo: danielswolf/rhubarb-lip-sync
 - id: speed-one-step-pixel-diffusion-for-high-quality-video-frame-3c3969
   title: 'SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation'
   area: animation
@@ -1092,6 +1206,56 @@ entries:
   source: agent
   arxiv_id: '2506.03119'
   repo: gseancdat/posefuse3d-ki
+- id: sg-rife-18a4b3
+  title: SG-RIFE
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.18241
+    github: https://github.com/ben813/SG-RIFE
+  authors:
+  - Pan Ben Wong
+  - Chengli Wu
+  - Hanyue Lu
+  year: 2025
+  tags:
+  - diffusion
+  - interpolation
+  - real-time
+  - rife
+  summary: A real-time video frame interpolation framework that bridges the gap between flow-based methods and diffusion-based models by injecting dense semantic priors from DINOv3. It achieves diffusion-competitive perceptual quality while maintaining near real-time speeds.
+  summary_ja: DINOv3からの高密度な意味論的プライアを注入することで、フローベースの手法と拡散ベースのモデルのギャップを埋めるリアルタイムのビデオフレーム補間フレームワーク。ほぼリアルタイムの速度を維持しながら、拡散モデルに匹敵する知覚的品質を達成します。
+  thumbnail: https://opengraph.githubassets.com/1/ben813/sg-rife
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2512.18241'
+  repo: ben813/sg-rife
+- id: time-adaptive-video-frame-interpolation-based-on-residual-di-c3d36d
+  title: Time-adaptive Video Frame Interpolation based on Residual Diffusion
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.05402
+    github: https://github.com/VicFonch/Multi-Input-Resshift-Diffusion-VFI
+  authors:
+  - Victor Fonte Chavez
+  - Claudia Esteves
+  - Jean-Bernard Hayet
+  year: 2025
+  tags:
+  - animation
+  - anime
+  - diffusion
+  - interpolation
+  summary: A diffusion-based video frame interpolation method designed specifically for traditional hand-drawn animation. It explicitly handles and re-estimates interpolation time to cope with large temporal variations and non-linear motion.
+  summary_ja: 伝統的な手描きアニメーション向けに特別に設計された、拡散ベースのビデオフレーム補間手法。補間時間を明示的に処理および再推定することで、大きな時間的変動や非線形な動きに対応します。
+  thumbnail: https://opengraph.githubassets.com/1/vicfonch/multi-input-resshift-diffusion-vfi
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2504.05402'
+  repo: vicfonch/multi-input-resshift-diffusion-vfi
 - id: tlb-vfi-temporal-aware-latent-brownian-bridge-diffusion-for-91c176
   title: 'TLB-VFI: Temporal-Aware Latent Brownian Bridge Diffusion for Video Frame Interpolation'
   area: animation
@@ -2893,6 +3057,32 @@ entries:
   source: agent
   arxiv_id: '2505.03729'
   repo: hongsukchoi/videomimic
+- id: masked-humanoid-controller-mhc-377632
+  title: Masked Humanoid Controller (MHC)
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.07295
+    paper: https://arxiv.org/pdf/2408.07295
+    website: https://masked-humanoid.github.io/mhc/
+  authors:
+  - Pranay Dugar
+  - Aayam Shrestha
+  - Fangzhou Yu
+  - Bart van Marum
+  - Alan Fern
+  year: 2024
+  tags:
+  - control
+  - humanoid
+  - physics
+  - whole-body
+  summary: A learned whole-body controller that exposes a simple yet expressive interface for commanding diverse humanoid behaviors by specifying masked target trajectories over selected subsets of state variables.
+  summary_ja: 状態変数の選択されたサブセットに対してマスクされた目標軌道を指定することにより、多様な人型ロボットの動作を指令するための、シンプルでありながら表現力豊かなインターフェースを提供する学習済み全身コントローラ。
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2408.07295'
 - id: maskedmimic-unified-physics-based-character-control-through-f20acd
   title: 'MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting'
   area: animation
@@ -3973,6 +4163,36 @@ entries:
   source: agent
   arxiv_id: '2311.16498'
   repo: magic-research/magic-animate
+- id: magicdance-aa9eff
+  title: MagicDance
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.12052
+    github: https://github.com/Boese0601/MagicDance
+    project: https://boese0601.github.io/magicdance/
+  authors:
+  - Di Chang
+  - Yiri Chen
+  - Kan Chen
+  - Yu-Xiong Wang
+  - Yan-Pei Cao
+  - Ying Shan
+  - Xiu Li
+  - Qifeng Chen
+  year: 2023
+  tags:
+  - diffusion-model
+  - expression-retargeting
+  - pose-guided
+  summary: A diffusion-based model for 2D human pose and facial expression retargeting. It generates new images of a person by controlling poses and facial expressions while accurately maintaining identity from a reference image.
+  summary_ja: 参照画像のアイデンティティを正確に維持しながら、ポーズと表情を制御して新しい画像を生成する、2D人間のポーズおよび表情リターゲティング用の拡散モデル。
+  thumbnail: https://opengraph.githubassets.com/1/boese0601/magicdance
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2311.12052'
+  repo: boese0601/magicdance
 - id: devi-d7dc8b
   title: DeVI
   area: animation
@@ -4737,6 +4957,32 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2606.05624'
+- id: lamogen-language-to-motion-generation-through-llm-guided-sym-ec89c8
+  title: 'LaMoGen: Language to Motion Generation Through LLM-Guided Symbolic Inference'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.11605
+    github: https://github.com/jjkislele/LaMoGen
+  authors:
+  - Junkun Jiang
+  - Ho Yin Au
+  - Jingyu Xiang
+  - Jie Chen
+  year: 2026
+  tags:
+  - explainable-ai
+  - llm
+  - motion-generation
+  - symbolic-inference
+  summary: A text-to-motion generation framework that utilizes LLM-guided symbolic inference and a body-part-level symbolic representation called LabanLite. It translates natural language instructions into precise, explainable, and temporally accurate human motions.
+  summary_ja: LLM誘導型のシンボリック推論と、LabanLiteと呼ばれる身体部位レベルのシンボリック表現を利用したテキストからモーションへの生成フレームワークです。自然言語の指示を、精密で説明可能かつ時間的に正確な人間の動作に変換します。
+  thumbnail: https://opengraph.githubassets.com/1/jjkislele/lamogen
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2603.11605'
+  repo: jjkislele/lamogen
 - id: mola-align-exploring-motion-language-alignment-for-text-driv-e75fa8
   title: 'MoLA-Align: Exploring Motion-Language Alignment for Text-driven Motion Generation'
   area: animation
@@ -5644,6 +5890,36 @@ entries:
   source: agent
   arxiv_id: '2602.13760'
   repo: wanglihx/sam4dcap-core
+- id: mamma-markerless-automatic-multi-person-motion-action-captur-b2a3af
+  title: 'MAMMA: Markerless & Automatic Multi-Person Motion Action Capture'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.13040
+    github: https://github.com/cuevhv/mamma
+  authors:
+  - Hanz Cuevas-Velasquez
+  - Anastasios Yiannakidis
+  - Soyong Shin
+  - Giorgio Becherini
+  - Markus Höschle
+  - Joachim Tesch
+  - Taylor Obersat
+  - Tsvetelina Alexiadis
+  year: 2025
+  tags:
+  - markerless
+  - mocap
+  - multi-person
+  - smpl-x
+  summary: A markerless motion-capture pipeline that accurately recovers SMPL-X parameters from multi-view videos of multi-person interaction sequences.
+  summary_ja: 複数人のインタラクションシーケンスのマルチビュービデオから、SMPL-Xパラメータを正確に復元するマーカーレスモーションキャプチャパイプライン。
+  thumbnail: https://opengraph.githubassets.com/1/cuevhv/mamma
+  date_added: '2026-08-31'
+  source: agent
+  arxiv_id: '2506.13040'
+  repo: cuevhv/mamma
 - id: mocapanything-009a21
   title: MoCapAnything
   area: animation
