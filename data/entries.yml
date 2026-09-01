@@ -6767,6 +6767,35 @@ entries:
   source: agent
   arxiv_id: '2506.00045'
   repo: ace-step/ace-step-1.5
+- id: diffrhythm-2-0c723e
+  title: DiffRhythm 2
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.22950
+    github: https://github.com/xiaomi-research/diffrhythm2
+  authors:
+  - Yuepeng Jiang
+  - Huakang Chen
+  - Ziqian Ning
+  - Jixun Yao
+  - Zerui Han
+  - Di Wu
+  - Meng Meng
+  - Jian Luan
+  year: 2025
+  tags:
+  - bgm
+  - music-generation
+  - soundtrack
+  summary: An end-to-end semi-autoregressive song generation framework based on block flow matching, designed for high-fidelity, controllable full-length song generation with precise lyric alignment.
+  summary_ja: ブロックフローマッチングに基づくエンドツーエンドの半自己回帰型楽曲生成フレームワーク。歌詞の正確なアライメントと、高品質でコントロール可能なフル楽曲生成を実現する。
+  thumbnail: https://opengraph.githubassets.com/1/xiaomi-research/diffrhythm2
+  date_added: '2026-09-01'
+  source: agent
+  arxiv_id: '2510.22950'
+  repo: xiaomi-research/diffrhythm2
 - id: diffrhythm-b6acb1
   title: DiffRhythm
   area: audio
@@ -6836,6 +6865,35 @@ entries:
   source: agent
   arxiv_id: '2503.00084'
   repo: funaudiollm/inspiremusic
+- id: jam-c64667
+  title: JAM
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.20880
+    github: https://github.com/declare-lab/jamify
+  authors:
+  - Renhang Liu
+  - Chia-Yu Hung
+  - Navonil Majumder
+  - Taylor Gautreaux
+  - Amir Ali Bagherzadeh
+  - Chuan Li
+  - Dorien Herremans
+  - Soujanya Poria
+  year: 2025
+  tags:
+  - bgm
+  - music-generation
+  - soundtrack
+  summary: A lightweight flow-matching song generator designed for fine-grained controllability and aesthetic alignment, enabling high-quality music and song synthesis.
+  summary_ja: 細粒度のコントロール性と美的アライメントのために設計された、軽量なフローマッチング型楽曲生成モデル。高品質な音楽および歌声合成を可能にする。
+  thumbnail: https://opengraph.githubassets.com/1/declare-lab/jamify
+  date_added: '2026-09-01'
+  source: agent
+  arxiv_id: '2507.20880'
+  repo: declare-lab/jamify
 - id: magenta-realtime-46570a
   title: Magenta RealTime
   area: audio
@@ -7856,6 +7914,25 @@ entries:
   source: agent
   arxiv_id: '2506.04073'
   repo: cordutie/texstat
+- id: ue5-pmg-procedural-music-generator-for-unreal-engine-5-ebee50
+  title: 'UE5-PMG: Procedural Music Generator for Unreal Engine 5'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/subc0der/ue5-pmg
+  year: 2024
+  tags:
+  - adaptive-audio
+  - music-generation
+  - procedural-audio
+  - unreal-engine
+  summary: An AI-powered procedural music generation plugin for Unreal Engine 5 that generates royalty-free, adaptive soundtracks in real-time. It supports text-to-music generation, real-time gameplay adaptation, stem separation, and local inference with Blueprint and C++ support.
+  summary_ja: Unreal Engine 5向けにリアルタイムで著作権フリーの適応型サウンドトラックを生成する、AI駆動のプロシージャル音楽生成プラグイン。テキストからの音楽生成、ゲームプレイへのリアルタイム適応、ステム分離、ローカル推論をサポートし、BlueprintおよびC++から利用可能です。
+  thumbnail: https://opengraph.githubassets.com/1/subc0der/ue5-pmg
+  date_added: '2026-09-01'
+  source: agent
+  repo: subc0der/ue5-pmg
 - id: cmajor-6629b2
   title: Cmajor
   area: audio
@@ -11723,6 +11800,34 @@ entries:
   source: agent
   arxiv_id: '2512.04677'
   repo: alibaba-quark/liveavatar
+- id: omnihuman-1-5-ff235c
+  title: OmniHuman-1.5
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.19209
+    project: https://omnihuman-lab.github.io/v1_5/
+  authors:
+  - Jianwen Jiang
+  - Weihong Zeng
+  - Zerong Zheng
+  - Jiaqi Yang
+  - Chao Liang
+  - Wang Liao
+  - Han Liang
+  - Yuan Zhang
+  year: 2025
+  tags:
+  - avatar
+  - bytedance
+  - diffusion-transformer
+  - talking-head
+  summary: An advanced video avatar generation framework by ByteDance that integrates cognitive simulation to produce semantically coherent and expressive character animations. By leveraging Multimodal Large Language Models for high-level semantic guidance, it generates realistic full-body movements and facial expressions aligned with the speech's rhythm and emotional context.
+  summary_ja: ByteDanceが開発した、認知シミュレーションを統合して意味的に一貫した表現力豊かなキャラクターアニメーションを生成する高度なビデオアバター生成フレームワーク。マルチモーダル大規模言語モデルを活用して高レベルの意味的ガイダンスを提供し、音声のリズムや感情の文脈に合わせたリアルな全身の動きと表情を生成します。
+  date_added: '2026-09-01'
+  source: agent
+  arxiv_id: '2508.19209'
 - id: rmavatar-photorealistic-human-avatar-reconstruction-from-mon-e032ea
   title: 'RMAvatar: Photorealistic Human Avatar Reconstruction from Monocular Video Based on Rectified Mesh-embedded Gaussians'
   area: characters

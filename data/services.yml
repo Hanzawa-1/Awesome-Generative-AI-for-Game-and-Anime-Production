@@ -514,6 +514,23 @@ entries:
   thumbnail: https://cdn-o.suno.com/meta-preview.jpg
   date_added: '2026-07-21'
   source: agent
+- id: soundraw-3ec917
+  title: Soundraw
+  area: audio
+  task: music-bgm
+  kind: proprietary
+  links:
+    website: https://soundraw.io/
+  year: 2020
+  tags:
+  - bgm
+  - music-generation
+  - soundtrack
+  summary: A royalty-free AI music generator that allows creators to customize beats, instrumentation, and song structure bar-by-bar for video and game production.
+  summary_ja: クリエイターが小節単位でビート、楽器構成、楽曲構成をカスタマイズできる、映像やゲーム制作向けのロイヤリティフリーAI音楽ジェネレーター。
+  thumbnail: https://cdn.soundraw.io/soundraw_ogp_EN.png
+  date_added: '2026-09-01'
+  source: agent
 - id: aiva-9ff156
   title: AIVA
   area: audio
@@ -596,6 +613,23 @@ entries:
   thumbnail: https://cdn-o.suno.com/meta-preview.jpg
   date_added: '2026-06-13'
   source: seed
+- id: tsugi-gamesynth-4e8679
+  title: Tsugi GameSynth
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/web/en/products-gamesynth.html
+  year: 2023
+  tags:
+  - game-audio
+  - modular-synth
+  - procedural-audio
+  - sound-design
+  summary: A comprehensive procedural sound design tool designed for game, animation, and movie production. It features specialized synthesizers for footsteps, weather, engines, and impacts, alongside a modular patching environment with over 130 synthesis and control modules.
+  summary_ja: ゲーム、アニメーション、映画制作向けに設計された総合的なプロシージャルサウンドデザインツール。足音、天候、エンジン、衝撃音などの特化型シンセサイザーに加え、130以上の合成・制御モジュールを備えたモジュラーパッチ環境を搭載しています。
+  date_added: '2026-09-01'
+  source: agent
 - id: nemisindo-3fa057
   title: Nemisindo
   area: audio
@@ -986,6 +1020,24 @@ entries:
   summary_ja: ゲームやメディア制作向けに、音声のクローニング、厳選されたAI音声へのモーフィング、高度なオーディオ編集を可能にするプロフェッショナルなAI音声コンテンツ作成プラットフォーム。
   thumbnail: https://www.altered.ai/_next/static/media/altered-logo-page.2f466128.webp
   date_added: '2026-06-13'
+  source: agent
+- id: elevenlabs-voice-design-cloning-b29b43
+  title: ElevenLabs Voice Design & Cloning
+  area: audio
+  task: voice-cloning
+  kind: proprietary
+  links:
+    website: https://elevenlabs.io/
+  year: 2022
+  tags:
+  - dubbing
+  - proprietary
+  - tts
+  - voice-cloning
+  summary: An industry-leading proprietary platform for high-fidelity AI voice generation, instant voice cloning, and professional voice replication used in game and media production.
+  summary_ja: ゲームやメディア制作で使用される、高精度なAI音声生成、インスタントボイスクローニング、およびプロフェッショナルな音声複製のための業界をリードする商用プラットフォームです。
+  thumbnail: https://elevenlabs.io/cover.png
+  date_added: '2026-09-01'
   source: agent
 - id: lovo-ai-457041
   title: Lovo AI
