@@ -1477,6 +1477,24 @@ entries:
   thumbnail: https://ragnar.build/images/og-card.png
   date_added: '2026-06-17'
   source: agent
+- id: sgs-1-spectral-labs-f18134
+  title: SGS-1 (Spectral Labs)
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://www.spectrallabs.ai/research/SGS-1
+  year: 2025
+  tags:
+  - b-rep
+  - cad
+  - parametric
+  - step
+  summary: A spatial-intelligence foundation model that generates fully manufacturable, parametric 3D CAD geometry in B-Rep (STEP) format from images, 3D meshes, or text descriptions.
+  summary_ja: 画像、3Dメッシュ、またはテキストの説明から、製造可能でパラメータ編集が可能なB-Rep（STEP）形式の3D CADジオメトリを直接生成する空間知能基盤モデル。
+  thumbnail: https://www.spectrallabs.ai/social.webp
+  date_added: '2026-09-02'
+  source: agent
 - id: zoo-design-studio-8a2699
   title: Zoo Design Studio
   area: gen-3d

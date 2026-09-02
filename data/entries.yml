@@ -13428,6 +13428,33 @@ entries:
   source: agent
   arxiv_id: '2607.23687'
   repo: google/gnm
+- id: high-fidelity-single-image-head-modeling-with-industry-grade-caa16d
+  title: High-Fidelity Single-Image Head Modeling with Industry-Grade Topology
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.04524
+  authors:
+  - Yunmu Wang
+  - Zoubin Bi
+  - Bowen Cai
+  - Chenchu Rong
+  - Jinlong Wang
+  - Junchen Deng
+  - Aocheng Huang
+  - Jidong Jia
+  - Huan Fu
+  year: 2026
+  tags:
+  - 3d-head
+  - mesh-reconstruction
+  - topology
+  summary: This paper presents a single-image head mesh reconstruction framework that addresses the challenge of simultaneously preserving facial identity and producing industry-grade topology. It adopts a coarse-to-fine hierarchical optimization pipeline across rig, joint, and vertex stages to yield meshes with semantically meaningful edge flow suitable for downstream animation workflows.
+  summary_ja: 顔のアイデンティティ保持と業界標準トポロジーの生成を同時に実現する、単一画像からの頭部メッシュ再構築フレームワーク。リグ、ジョイント、頂点の3段階にわたる粗から密への階層的最適化パイプラインを採用し、後続のアニメーションワークフローに適した意味のあるエッジフローを持つメッシュを生成します。
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2605.04524'
 - id: kaolrm-df8c39
   title: KaoLRM
   area: characters
@@ -13456,6 +13483,30 @@ entries:
   source: agent
   arxiv_id: '2601.12736'
   repo: cyberagentailab/kaolrm
+- id: realdenseface-real-time-monocular-3d-face-reconstruction-fro-4a3a39
+  title: 'RealDenseFace: Real-time Monocular 3D Face Reconstruction from Dense UV-space Priors'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.09238
+    github: https://github.com/LinzhouLi/RealDenseFace
+  authors:
+  - Linzhou Li
+  - Tianjia Shao
+  - Kun Zhou
+  year: 2026
+  tags:
+  - 3dmm
+  - face-reconstruction
+  - real-time
+  summary: RealDenseFace is a real-time optimization-based monocular 3D face reconstruction method that fits a 3D Morphable Model (3DMM) to dense UV-space network predictions. It formulates 3DMM fitting as a nonlinear least-squares problem and solves it with a tailored Gauss-Newton solver, achieving high-fidelity reconstruction at real-time speeds.
+  summary_ja: 高密度なUV空間ネットワーク予測に対して3DMM（3D Morphable Model）をフィッティングする、リアルタイムかつ最適化ベースの単眼3D顔復元手法。3DMMフィッティングを非線形最小二乗問題として定式化し、専用のGauss-Newtonソルバーで解くことで、リアルタイム速度で高精度な復元を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/linzhouli/realdenseface
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2608.09238'
+  repo: linzhouli/realdenseface
 - id: skullptor-f72530
   title: Skullptor
   area: characters
@@ -14146,6 +14197,30 @@ entries:
   source: agent
   arxiv_id: '2404.05680'
   repo: lhyfst/spherehead
+- id: cvthead-one-shot-controllable-head-avatar-with-vertex-featur-4f2b49
+  title: 'CVTHead: One-shot Controllable Head Avatar with Vertex-feature Transformer'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.06443
+  authors:
+  - Haoyu Ma
+  - Tong Zhang
+  - Shanlin Sun
+  - Xiangyi Yan
+  - Kun Han
+  - Xiaohui Xie
+  year: 2023
+  tags:
+  - 3dmm
+  - head-avatar
+  - transformer
+  summary: CVTHead is a one-shot controllable head avatar generation method that utilizes a Vertex-feature Transformer to achieve explicit face control of 3D Morphable Models (3DMM). It generates controllable neural head avatars from a single image and enables real-time animation with high-fidelity rendering.
+  summary_ja: Vertex-feature Transformerを利用して3DMM（3D Morphable Model）の明示的な顔制御を達成する、ワンショットの制御可能なヘッドアバター生成手法。単一の画像から制御可能なニューラルヘッドアバターを生成し、高精度なレンダリングによるリアルタイムのアニメーションを可能にします。
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2311.06443'
 - id: diffusionavatars-deferred-diffusion-for-high-fidelity-3d-hea-cb9443
   title: 'DiffusionAvatars: Deferred Diffusion for High-fidelity 3D Head Avatars'
   area: characters
@@ -15028,6 +15103,29 @@ entries:
   source: agent
   arxiv_id: '2606.27584'
   repo: hana001106/coin
+- id: designagent3d-0cc1ff
+  title: DesignAgent3D
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.21438
+  authors:
+  - Xiujin Liu
+  - Tianyu Yang
+  - Yilun Zhao
+  - Xiangliang Zhang
+  year: 2026
+  tags:
+  - 3d-editing
+  - indoor-scene
+  - multimodal-agent
+  - scene-editing
+  summary: An agentic framework for interactive object-level indoor 3D scene editing that couples user intent clarification with geometry-aware execution to resolve ambiguous user instructions and prevent object localization drift.
+  summary_ja: 曖昧なユーザー指示の解消と幾何学的な実行を組み合わせることで、オブジェクトのローカライズのずれを防ぎ、インタラクティブなオブジェクトレベルの屋内3Dシーン編集を可能にするエージェント型フレームワーク。
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2608.21438'
 - id: editverse3d-75426c
   title: EditVerse3D
   area: gen-3d
@@ -15172,6 +15270,64 @@ entries:
   source: agent
   arxiv_id: '2603.17841'
   repo: mt-cly/omni3dedit
+- id: seed2gs-db047f
+  title: Seed2GS
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.11928
+  authors:
+  - Zongjian Ding
+  - Yudong Gao
+  - Jiale Liu
+  - Xinglin Yu
+  - Junxing Ren
+  - Dong Wei
+  - Yajing Chen
+  - Shan Huang
+  year: 2026
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - object-extraction
+  - training-free
+  summary: A training-free and camera-free framework for extracting target objects from pre-built 3D Gaussian Splatting scenes using a single reference-view grounding, enabling efficient interactive 3D editing.
+  summary_ja: 事前に構築された3D Gaussian Splattingシーンから、単一の参照ビューのグラウンディングのみを用いてターゲットオブジェクトを抽出する、トレーニング不要かつカメラパラメータ不要のインタラクティブ3D編集フレームワーク。
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2608.11928'
+- id: svgs-a96361
+  title: SVGS
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.28126
+    github: https://github.com/amateurC/SVGS
+    website: https://amateurc.github.io/svgs.github.io/
+  authors:
+  - Pengcheng Xue
+  - Yan Tian
+  - Qiutao Song
+  - Ziyi Wang
+  - Linyang He
+  - Weiping Ding
+  - Mahmoud Hassaballah
+  - Karen Egiazarian
+  year: 2026
+  tags:
+  - 3d-editing
+  - diffusion
+  - gaussian-splatting
+  - single-view
+  summary: A text-driven 3D object editing framework that uses a single-view image and text instructions to generate multi-view consistent edited images via a cross-domain diffusion model, followed by 3D Gaussian Splatting reconstruction.
+  summary_ja: 単一視点の画像とテキスト指示を入力とし、クロスドメイン拡散モデルを介して多視点の一貫した編集画像を生成した後、3D Gaussian Splatting再構成を行うことで高品質な3Dオブジェクト編集を実現するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/amateurc/svgs
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2603.28126'
+  repo: amateurc/svgs
 - id: tango-138fc1
   title: TanGO
   area: gen-3d
@@ -20879,6 +21035,30 @@ entries:
   source: agent
   arxiv_id: '2411.11361'
   repo: wjh892521292/dar
+- id: sharpdepth-sharpening-metric-depth-predictions-using-diffusi-2f1279
+  title: 'SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.18229
+  authors:
+  - Duc-Hai Pham
+  - Tung Do
+  - Phong Nguyen
+  - Binh-Son Hua
+  - Khoi Nguyen
+  - Rang Nguyen
+  year: 2024
+  tags:
+  - depth-estimation
+  - diffusion-distillation
+  - metric-depth
+  summary: SharpDepth is a monocular metric depth estimation framework that combines the metric accuracy of discriminative models with the sharp, fine-grained boundary details of generative diffusion-based methods. It utilizes a diffusion distillation process to achieve high-fidelity depth maps with crisp edges without the heavy computational overhead of multi-step denoising.
+  summary_ja: SharpDepthは、判別モデルのメートル法的な正確さと、生成的な拡散モデルによる鮮明で微細な境界ディテールを組み合わせた単眼深度推定フレームワークです。拡散蒸留プロセスを利用することで、複数ステップのノイズ除去による重い計算負荷をかけることなく、鮮明なエッジを持つ高精度な深度マップを生成します。
+  date_added: '2026-09-02'
+  source: agent
+  arxiv_id: '2411.18229'
 - id: stablenormal-0548be
   title: StableNormal
   area: gen-3d
