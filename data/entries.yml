@@ -23675,6 +23675,35 @@ entries:
   source: agent
   arxiv_id: '2012.09855'
   repo: yshen47/infinitenature-pytorch
+- id: block3d-efficient-text-to-3d-generation-via-block-wise-diffu-712087
+  title: 'Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.19567
+    github: https://github.com/ziplab/Block3D
+  authors:
+  - Bowen Cui
+  - Weijie Wang
+  - Zeyu Zhang
+  - Yefei He
+  - Mingda Lin
+  - Haoyu Zhao
+  - Yuanyu He
+  - Donny Y. Chen
+  year: 2026
+  tags:
+  - diffusion
+  - efficiency
+  - mesh
+  summary: An efficient text-to-3D generation framework that utilizes block-wise diffusion to achieve high geometric fidelity at a significantly reduced inference cost compared to global diffusion models.
+  summary_ja: ブロック単位の拡散（Block-Wise Diffusion）を利用することで、従来のグローバルな拡散モデルと比較して推論コストを大幅に削減しつつ、高い幾何学的忠実度を達成する効率的なText-to-3D生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ziplab/block3d
+  date_added: '2026-09-03'
+  source: agent
+  arxiv_id: '2608.19567'
+  repo: ziplab/block3d
 - id: hunyuan3d-buffalo-1-0-a-unified-multimodal-model-for-scalabl-8f68bc
   title: 'Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing'
   area: gen-3d
@@ -24354,6 +24383,32 @@ entries:
   source: agent
   arxiv_id: '2602.07272'
   repo: bowenxueai/videoneumat
+- id: chord-chain-of-rendering-decomposition-for-pbr-material-esti-468770
+  title: 'Chord: Chain of Rendering Decomposition for PBR Material Estimation'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.09952
+    github: https://github.com/ubisoft/ubisoft-laforge-chord
+    project: https://ubisoft-laforge.github.io/world/chord/
+  authors:
+  - Zhi Ying
+  - Boxiang Rong
+  - Jingyu Wang
+  - Maoyuan Xu
+  year: 2025
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: Developed by Ubisoft La Forge, Chord is a two-stage generate-and-estimate framework that synthesizes shaded, tileable texture images using a fine-tuned diffusion model, then sequentially decomposes them into high-quality PBR material channels (albedo, normal, roughness, metallic) using a single-step image-conditioned diffusion model.
+  summary_ja: Ubisoft La Forgeが開発したChordは、ファインチューニングされた拡散モデルを用いて陰影のあるタイラブルなテクスチャ画像を合成し、その後、シングルステップの画像条件付き拡散モデルを用いて高品質なPBRマテリアルチャンネル（アルベド、法線、粗さ、金属度）に順次分解する2段階の生成・推定フレームワーク。
+  date_added: '2026-09-03'
+  source: agent
+  arxiv_id: '2509.09952'
+  repo: ubisoft/ubisoft-laforge-chord
 - id: chord-ubisoft-la-forge-e1bbad
   title: Chord (Ubisoft La Forge)
   area: gen-3d
@@ -25307,6 +25362,33 @@ entries:
   source: agent
   arxiv_id: '2604.27329'
   repo: youkang-kong/squadgen
+- id: triflow-generating-artist-like-3d-mesh-topology-via-nearest-13853a
+  title: 'TriFlow: Generating Artist-Like 3D Mesh Topology via Nearest-Vertex Vector Fields'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.20131
+    project: https://derkleineli.github.io/triflow/
+  authors:
+  - Haoxuan Li
+  - Ziya Erkoç
+  - Daniele Sirigatti
+  - Vladislav Rosov
+  - Lei Li
+  - Angela Dai
+  - Matthias Nießner
+  year: 2026
+  tags:
+  - flow-matching
+  - mesh-simplification
+  - retopology
+  summary: A generative approach for producing compact 3D meshes with artist-like triangle topology directly from input geometry conditions like signed distance fields. It represents mesh topology as a nearest-vertex vector field (NVF) and trains a latent flow-matching model to synthesize this field, guiding a constrained quadric error metric (QEM) mesh simplification.
+  summary_ja: 符号付き距離関数（SDF）などの入力形状から、アーティストが作成したようなコンパクトな三角メッシュトポロジーを直接生成する手法。メッシュトポロジーを最近傍頂点ベクトルフィールド（NVF）として表現し、潜在フローマッチングモデルでこのフィールドを合成することで、制約付きQEMメッシュ簡略化をガイドします。
+  thumbnail: https://derkleineli.github.io/triflow/static/images/favicon-180.png?v=2
+  date_added: '2026-09-03'
+  source: agent
+  arxiv_id: '2606.20131'
 - id: artuv-e3f50c
   title: ArtUV
   area: gen-3d
