@@ -24405,6 +24405,7 @@ entries:
   - texture
   summary: Developed by Ubisoft La Forge, Chord is a two-stage generate-and-estimate framework that synthesizes shaded, tileable texture images using a fine-tuned diffusion model, then sequentially decomposes them into high-quality PBR material channels (albedo, normal, roughness, metallic) using a single-step image-conditioned diffusion model.
   summary_ja: Ubisoft La Forgeが開発したChordは、ファインチューニングされた拡散モデルを用いて陰影のあるタイラブルなテクスチャ画像を合成し、その後、シングルステップの画像条件付き拡散モデルを用いて高品質なPBRマテリアルチャンネル（アルベド、法線、粗さ、金属度）に順次分解する2段階の生成・推定フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ubisoft/ubisoft-laforge-chord
   date_added: '2026-09-03'
   source: agent
   arxiv_id: '2509.09952'
@@ -27057,6 +27058,32 @@ entries:
   date_added: '2026-06-19'
   source: agent
   repo: aigc-apps/videox-fun
+- id: when-controlnet-meets-inexplicit-masks-a-case-study-of-contr-ce0397
+  title: 'When ControlNet Meets Inexplicit Masks: A Case Study of ControlNet on its Contour-following Ability'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.00467
+    paper: https://arxiv.org/pdf/2403.00467
+  authors:
+  - Wenjie Xuan
+  - Yufei Xu
+  - Shanshan Zhao
+  - Chaoyue Wang
+  - Juhua Liu
+  - Bo Du
+  - Dacheng Tao
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - mask-conditioning
+  summary: This paper analyzes the contour-following ability of ControlNet when dealing with noisy or inexplicit user-provided masks, proposing a Shape-aware ControlNet to enhance spatial controllability and reduce unwanted artifacts under degraded conditioning signals.
+  summary_ja: 本論文は、ノイズや不鮮明さを含むユーザー提供マスクを処理する際のControlNetの輪郭追従能力を分析し、劣化した制御信号下でも空間的な制御性を高め不要なアーティファクトを低減するShape-aware ControlNetを提案しています。
+  date_added: '2026-09-04'
+  source: agent
+  arxiv_id: '2403.00467'
 - id: xlabs-ai-flux-controlnet-e720a7
   title: XLabs-AI FLUX ControlNet
   area: image-2d
@@ -27430,6 +27457,33 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vectorspacelab/omnigen2
+- id: token-painter-5b32b0
+  title: Token Painter
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.23919
+    github: https://github.com/longtaojiang/Token-Painter
+  authors:
+  - Longtao Jiang
+  - Zhen Han
+  - Yingchen Yu
+  - Chaoqiang Guo
+  - Shengcai Liao
+  year: 2025
+  tags:
+  - autoregressive
+  - image-editing
+  - inpainting
+  - training-free
+  summary: A training-free text-guided image inpainting method based on Mask Autoregressive Models (MAR) that selectively generates masked tokens while preserving the unmasked background.
+  summary_ja: マスク自己回帰モデル（MAR）に基づく、学習不要のテキストガイド付き画像インペインティング手法。マスクされていない背景を完全に保存しながら、マスクされたトークンを選択的に生成します。
+  thumbnail: https://opengraph.githubassets.com/1/longtaojiang/token-painter
+  date_added: '2026-09-04'
+  source: agent
+  arxiv_id: '2509.23919'
+  repo: longtaojiang/token-painter
 - id: turbofill-727ead
   title: TurboFill
   area: image-2d
@@ -27544,6 +27598,35 @@ entries:
   source: agent
   arxiv_id: '2403.06976'
   repo: tencentarc/brushnet
+- id: cat-diffusion-2ae03e
+  title: CAT-Diffusion
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.08260
+    github: https://github.com/Nnn-s/CATdiffusion
+  authors:
+  - Yifu Chen
+  - Jingwen Chen
+  - Yingwei Pan
+  - Yehao Li
+  - Ting Yao
+  - Zhineng Chen
+  - Tao Mei
+  year: 2024
+  tags:
+  - clip
+  - diffusion
+  - image-editing
+  - inpainting
+  summary: A cascaded transformer-diffusion framework for text-guided object inpainting that pre-inpaints target objects in an auxiliary multi-modal feature space (CLIP) before generating high-fidelity visual details.
+  summary_ja: テキスト指示に基づくオブジェクトのインペインティングを行うための、カスケード型トランスフォーマー拡散フレームワーク。補助的なマルチモーダル特徴空間（CLIP）で対象オブジェクトを事前インペイントした後に、高精度な視覚的詳細を生成します。
+  thumbnail: https://opengraph.githubassets.com/1/nnn-s/catdiffusion
+  date_added: '2026-09-04'
+  source: agent
+  arxiv_id: '2409.08260'
+  repo: nnn-s/catdiffusion
 - id: comfyui-inpaint-nodes-5cff12
   title: ComfyUI Inpaint Nodes
   area: image-2d
@@ -29723,6 +29806,32 @@ entries:
   source: agent
   arxiv_id: '2512.22525'
   repo: jia-lab-research/dreamomni3
+- id: lots-of-fashion-multi-conditioning-for-image-generation-via-50d0ea
+  title: LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.22627
+    paper: https://arxiv.org/pdf/2507.22627
+  authors:
+  - Federico Girella
+  - Davide Talon
+  - Ziyue Liu
+  - Zanxi Ruan
+  - Yiming Wang
+  - Marco Cristani
+  year: 2025
+  tags:
+  - controlnet
+  - diffusion
+  - fashion
+  - sketch
+  summary: A multi-conditioning framework for fashion image generation that pairs global descriptions with localized sketches and text to enable precise control over design elements like necklines, pockets, and styles.
+  summary_ja: グローバルな説明文と局所的なスケッチ・テキストを組み合わせることで、ネックラインやポケット、スタイルなどのデザイン要素を精密に制御できる、ファッション画像生成向けのマルチ条件付けフレームワーク。
+  date_added: '2026-09-04'
+  source: agent
+  arxiv_id: '2507.22627'
 - id: block-and-detail-scaffolding-sketch-to-image-generation-64620e
   title: 'Block and Detail: Scaffolding Sketch-to-Image Generation'
   area: image-2d
