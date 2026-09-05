@@ -33287,6 +33287,30 @@ entries:
   date_added: '2026-07-18'
   source: agent
   arxiv_id: '2603.16359'
+- id: panel-by-panel-souls-a-performative-workflow-for-expressive-b95cce
+  title: 'Panel-by-Panel Souls: A Performative Workflow for Expressive Faces in AI-Assisted Manga Creation'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.16038
+    paper: https://arxiv.org/pdf/2511.16038
+  authors:
+  - Qing Zhang
+  - Jing Huang
+  - Yifei Huang
+  - Jun Rekimoto
+  year: 2025
+  tags:
+  - facial-expression
+  - interactive
+  - liveportrait
+  - manga
+  summary: An interactive system designed to render nuanced facial expressions in AI-assisted manga creation. It features a dual-hybrid pipeline combining landmark-based auto-detection with manual framing, and maps expressions using the LivePortrait engine to blend performative input with generative models.
+  summary_ja: AI支援によるマンガ制作において、ニュアンス豊かな表情を描写するためのインタラクティブなシステム。ランドマーク検出と手動フレーミングを組み合わせたハイブリッドパイプラインを採用し、LivePortraitエンジンを用いて実演入力と生成モデルを融合させることで、豊かな表情制御を可能にする。
+  date_added: '2026-09-05'
+  source: agent
+  arxiv_id: '2511.16038'
 - id: racig-retrieval-augmented-comic-image-generation-b4df11
   title: 'RaCig: Retrieval Augmented Comic Image Generation'
   area: manga
@@ -34522,6 +34546,30 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2306.04114'
+- id: rethinking-prl-a-multiscale-progressively-residual-learning-5766dd
+  title: 'Rethinking PRL: A Multiscale Progressively Residual Learning Network for Inverse Halftoning'
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.17355
+    github: https://github.com/FeiyuLi-cs/MSPRL
+  authors:
+  - Feiyu Li
+  - Jun Yang
+  year: 2023
+  tags:
+  - halftone
+  - image-restoration
+  - inverse-halftoning
+  - screentone
+  summary: A multiscale progressively residual learning network (MS-PRL) for inverse halftoning that recovers high-quality continuous-tone images from halftone images with only bilevel pixels.
+  summary_ja: 2値ピクセルのみで構成されるハーフトーン画像から、高品質な連続階調画像を復元する逆ハーフトーニングのための多スケール漸進的残差学習ネットワーク（MS-PRL）を提案。
+  thumbnail: https://opengraph.githubassets.com/1/feiyuli-cs/msprl
+  date_added: '2026-09-05'
+  source: agent
+  arxiv_id: '2305.17355'
+  repo: feiyuli-cs/msprl
 - id: screentone-aware-manga-super-resolution-using-deeplearning-7fc040
   title: Screentone-Aware Manga Super-Resolution Using DeepLearning
   area: manga
@@ -35141,6 +35189,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: facebookresearch/seamless_communication
+- id: whisper-unity-fbc28b
+  title: whisper.unity
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/Macoron/whisper.unity
+  authors:
+  - Macoron
+  year: 2023
+  tags:
+  - game-dev
+  - speech-to-text
+  - unity
+  - whisper
+  summary: Unity3D bindings for whisper.cpp, enabling high-performance, offline, and local speech-to-text and translation directly inside Unity game projects.
+  summary_ja: whisper.cppのUnity3D向けバインディング。Unityゲームプロジェクト内で直接、高性能、オフライン、かつローカルでの音声文字起こしと翻訳を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/macoron/whisper.unity
+  date_added: '2026-09-05'
+  source: agent
+  repo: macoron/whisper.unity
 - id: whisperx-aa661b
   title: WhisperX
   area: text-design
@@ -36093,6 +36162,30 @@ entries:
   date_added: '2026-07-18'
   source: agent
   arxiv_id: '2212.10077'
+- id: toward-automated-quest-generation-in-text-adventure-games-8901ae
+  title: Toward Automated Quest Generation in Text-Adventure Games
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1909.06283
+    paper: https://arxiv.org/pdf/1909.06283
+  authors:
+  - Prithviraj Ammanabrolu
+  - William Broniec
+  - Alex Mueller
+  - Jeremy Paul
+  - Mark O. Riedl
+  year: 2019
+  tags:
+  - procedural-storytelling
+  - quest-generation
+  - text-adventure
+  summary: A methodology for procedurally generating semantically coherent quests in text-adventure games by structuring quests as a series of actions required to progress toward a goal.
+  summary_ja: テキストアドベンチャーゲームにおいて、目標に向かって進行するために必要な一連のアクションとしてクエストを構成し、意味的に一貫したクエストを手続き的に生成する手法。
+  date_added: '2026-09-05'
+  source: agent
+  arxiv_id: '1909.06283'
 - id: agent-ecologies-471d0c
   title: Agent Ecologies
   area: text-design
