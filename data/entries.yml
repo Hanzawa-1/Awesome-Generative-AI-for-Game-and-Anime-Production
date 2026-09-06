@@ -38051,6 +38051,35 @@ entries:
   source: agent
   arxiv_id: '2310.12190'
   repo: doubiiu/dynamicrafter
+- id: i2v-adapter-658678
+  title: I2V-Adapter
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.16693
+    github: https://github.com/KlingAIResearch/I2V-Adapter
+  authors:
+  - Xun Guo
+  - Mingwu Zheng
+  - Liang Hou
+  - Yuan Gao
+  - Yufan Deng
+  - Pengfei Wan
+  - Di Zhang
+  - Yufan Liu
+  year: 2023
+  tags:
+  - adapter
+  - diffusion
+  - image-to-video
+  summary: A lightweight, training-free image-to-video adapter designed for diffusion models, enabling high-quality image-to-video generation without altering the original text-to-video model weights. It preserves the spatial structure and identity of the input image while generating temporally coherent motion.
+  summary_ja: 拡散モデル向けに設計された軽量でトレーニング不要の画像からビデオへのアダプター。元のテキストからビデオへのモデルの重みを変更することなく、高品質な画像からビデオへの生成を可能にします。時間的に一貫した動きを生成しながら、入力画像の空間構造とアイデンティティを維持します。
+  thumbnail: https://opengraph.githubassets.com/1/klingairesearch/i2v-adapter
+  date_added: '2026-09-06'
+  source: agent
+  arxiv_id: '2312.16693'
+  repo: klingairesearch/i2v-adapter
 - id: i2vgen-xl-b080a5
   title: I2VGen-XL
   area: video
@@ -39260,6 +39289,36 @@ entries:
   source: agent
   arxiv_id: '2410.05954'
   repo: jy0205/pyramid-flow
+- id: vidu-bb5a6a
+  title: Vidu
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.04233
+    github: https://github.com/shengshu-ai/vidu-skills
+  authors:
+  - Fan Bao
+  - Chendong Xiang
+  - Gang Yue
+  - Guande He
+  - Hongzhou Zhu
+  - Kaiwen Zheng
+  - Min Zhao
+  - Shilong Liu
+  year: 2024
+  tags:
+  - diffusion
+  - high-consistency
+  - t2v
+  - u-vit
+  summary: A high-performance text-to-video generator based on a diffusion model with a U-ViT backbone, capable of producing highly consistent and dynamic 1080p videos.
+  summary_ja: U-ViTをバックボーンとする拡散モデルに基づき、一貫性とダイナミックな動きに優れた高品質な1080p動画を生成可能な高性能テキスト動画生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/shengshu-ai/vidu-skills
+  date_added: '2026-09-06'
+  source: agent
+  arxiv_id: '2405.04233'
+  repo: shengshu-ai/vidu-skills
 - id: animatediff-52bb64
   title: AnimateDiff
   area: video
@@ -39745,6 +39804,30 @@ entries:
   source: agent
   arxiv_id: '2506.05046'
   repo: westlake-agi-lab/flowdirector
+- id: instructx-towards-unified-visual-editing-with-mllm-guidance-4a01b7
+  title: 'InstructX: Towards Unified Visual Editing with MLLM Guidance'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.08485
+    github: https://github.com/osamaGXD/InstructX
+    website: https://mc-e.github.io/project/InstructX/
+  authors:
+  - Osama GXD
+  - et al.
+  year: 2025
+  tags:
+  - diffusion
+  - mllm
+  - video-editing
+  summary: A unified framework for image and video editing that integrates Multimodal Large Language Models (MLLMs) with diffusion models. It leverages MLLM guidance to improve instruction-driven editing across diverse tasks, enhancing spatial and semantic accuracy.
+  summary_ja: 多モーダル大規模言語モデル（MLLM）と拡散モデルを統合した、画像および動画編集のための統一フレームワーク。MLLMのガイダンスを活用することで、指示駆動型の編集タスクにおける空間的・意味的な精度を向上させます。
+  thumbnail: https://opengraph.githubassets.com/1/osamagxd/instructx
+  date_added: '2026-09-06'
+  source: agent
+  arxiv_id: '2510.08485'
+  repo: osamagxd/instructx
 - id: mtv-inpaint-819040
   title: MTV-Inpaint
   area: video
@@ -40787,6 +40870,35 @@ entries:
   source: agent
   arxiv_id: '2505.19958'
   repo: yongliuy/ultravsr
+- id: vivid-vr-distilling-concepts-from-text-to-video-diffusion-tr-6ea0a8
+  title: 'Vivid-VR: Distilling Concepts from Text-to-Video Diffusion Transformer for Photorealistic Video Restoration'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.14483
+    github: https://github.com/csbhr/Vivid-VR
+    project: https://csbhr.github.io/projects/vivid-vr/
+  authors:
+  - Haoran Bai
+  - Xiaoxu Chen
+  - Canqian Yang
+  - Zongyao He
+  - Sibin Deng
+  - Ying Chen
+  year: 2025
+  tags:
+  - controlnet
+  - diffusion-transformer
+  - photorealistic
+  - restoration
+  summary: A generative video restoration method built on a text-to-video diffusion transformer (DiT) and ControlNet. It addresses distribution drift and multimodal alignment issues by distilling concepts from the foundation model, achieving high texture realism and temporal consistency.
+  summary_ja: テキストからビデオへの拡散トランスフォーマー（DiT）とControlNetをベースにした生成型ビデオ修復手法。基盤モデルからコンセプトを蒸留することで、分布のズレやマルチモーダルなアライメントの問題を解決し、高い質感のリアルさと時間的一貫性を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/csbhr/vivid-vr
+  date_added: '2026-09-06'
+  source: agent
+  arxiv_id: '2508.14483'
+  repo: csbhr/vivid-vr
 - id: beyond-alignment-blind-video-face-restoration-via-parsing-gu-58b89d
   title: 'Beyond Alignment: Blind Video Face Restoration via Parsing-Guided Temporal-Coherent Transformer'
   area: video

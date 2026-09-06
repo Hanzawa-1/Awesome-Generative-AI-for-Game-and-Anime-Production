@@ -3823,6 +3823,23 @@ entries:
   thumbnail: https://static.inworld.ai/public-website-2025/images/content/ef2a8b880740be311855c2c9da4eb2ebb7b26e1f-2400x1260.png
   date_added: '2026-06-13'
   source: seed
+- id: summer-engine-57f4f6
+  title: Summer Engine
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://www.summerengine.com/
+  year: 2025
+  tags:
+  - game-engine
+  - level-generation
+  - pcg
+  summary: An AI-driven game engine compatible with Godot that allows creators to build 2D and 3D game levels, scenes, and mechanics through natural language conversations.
+  summary_ja: 自然言語での会話を通じて2Dおよび3Dのゲームレベル、シーン、メカニクスを構築できる、Godot互換のAI駆動型ゲームエンジン。
+  thumbnail: https://www.summerengine.com/og-image.png
+  date_added: '2026-09-06'
+  source: agent
 - id: unreal-engine-pcg-framework-863401
   title: Unreal Engine PCG Framework
   area: text-design
@@ -3907,6 +3924,23 @@ entries:
   summary_ja: Runwayが提供する最先端の商用動画生成モデル。高忠実度で一貫性があり、高度に制御可能なテキスト・動画変換および画像・動画変換の合成機能を提供します。
   thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/blog/images/research-001.jpg
   date_added: '2026-07-05'
+  source: agent
+- id: viggle-a642d3
+  title: Viggle
+  area: video
+  task: image-to-video
+  kind: proprietary
+  links:
+    website: https://viggle.ai/
+  year: 2024
+  tags:
+  - character-animation
+  - motion-transfer
+  - proprietary
+  summary: A popular proprietary AI video generation platform specializing in character animation and motion transfer. It allows users to animate static character images using text prompts or reference motion videos, widely used in game and anime production for rapid prototyping and meme creation.
+  summary_ja: キャラクターアニメーションとモーション転送に特化した、人気の商用AIビデオ生成プラットフォーム。テキストプロンプトや参照モーションビデオを使用して静止画のキャラクターをアニメーション化することができ、ゲームやアニメ制作における迅速なプロトタイピングやミーム作成に広く使用されています。
+  thumbnail: https://assets.viggle.ai/pub/20241016-135707.jpeg
+  date_added: '2026-09-06'
   source: agent
 - id: viggle-ai-9d62ae
   title: Viggle AI
@@ -4466,4 +4500,20 @@ entries:
   summary_ja: ビデオ間スタイル転送、オーディオ連動アニメーション、テキストからビデオへの生成機能を提供する人気のAIクリエイティブプラットフォーム。ミュージシャンやクリエイターによるスタイライズされたビデオ制作に広く使用されている。
   thumbnail: https://kaiber.ai/apple-touch-icon.png
   date_added: '2026-06-21'
+  source: agent
+- id: ebsynth-b93745
+  title: EbSynth
+  area: video
+  task: video-style-transfer
+  kind: proprietary
+  links:
+    website: https://ebsynth.com/
+  tags:
+  - animation
+  - keyframe
+  - style-transfer
+  summary: A keyframe-based video style transfer tool that propagates the style of one or more hand-painted keyframes across an entire video sequence. It is widely used by artists and animators to create hand-painted, stylized, or cartoon animations from live-action footage.
+  summary_ja: 手描きされた1枚または数枚のキーフレームのスタイルを、ビデオシーケンス全体に伝播させるキーフレームベースのビデオスタイル転移ツール。実写映像から手描き風、スタイライズド、またはカートゥーン調のアニメーションを作成するために、アーティストやアニメーターに広く使用されています。
+  thumbnail: https://ebsynth.com/ebsynth-thumbnail2.png
+  date_added: '2026-09-06'
   source: agent
