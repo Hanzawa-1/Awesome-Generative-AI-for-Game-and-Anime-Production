@@ -1,4 +1,59 @@
 entries:
+- id: leaptalk-breaking-the-latency-quality-trade-off-in-talking-h-c0b804
+  title: 'LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.00079
+    github: https://github.com/zhangrongxiang/LeapTalk
+  authors:
+  - Rongxiang Zhang
+  - Songhua Liu
+  year: 2026
+  tags:
+  - lip-sync
+  - real-time
+  - single-step
+  - talking-head
+  summary: A novel framework that achieves stable and real-time talking-head generation with a single forward step, scaling to arbitrarily long videos. It addresses the latency-quality trade-off by utilizing a single-step generation process to prevent error accumulation and identity drift.
+  summary_ja: 単一のフォワードステップで安定したリアルタイムのトーキングヘッド生成を実現し、任意の長さのビデオにスケールする新しいフレームワーク。エラーの累積やアイデンティティのドリフトを防ぐ単一ステップの生成プロセスを利用することで、遅延と品質のトレードオフを解決する。
+  thumbnail: https://opengraph.githubassets.com/1/zhangrongxiang/leaptalk
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2608.00079'
+  repo: zhangrongxiang/leaptalk
+- id: anytalker-scaling-multi-person-talking-video-generation-with-cd2732
+  title: 'AnyTalker: Scaling Multi-Person Talking Video Generation with Interactivity Refinement'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.23475
+    github: https://github.com/HKUST-C4G/AnyTalker
+    website: https://hkust-c4g.github.io/AnyTalker-homepage/
+  authors:
+  - Zhizhou Zhong
+  - Yicheng Ji
+  - Zhe Kong
+  - Yiying Liu
+  - Jiarui Wang
+  - Jiasun Feng
+  - Lupeng Liu
+  - Xiangyi Wang
+  year: 2025
+  tags:
+  - lip-sync
+  - multi-person
+  - talking-head
+  - video-generation
+  summary: An audio-driven framework for generating multi-person talking videos. It features an extensible multi-stream processing architecture to scale multiple identities while ensuring seamless inter-identity interactions and realistic lip synchronization.
+  summary_ja: 複数人が会話する動画を音声駆動で生成するフレームワーク。拡張可能なマルチストリーム処理アーキテクチャを備え、シームレスな人物間の相互作用とリアルなリップシンクを保証しながら、複数のアイデンティティをスケーリングできる。
+  thumbnail: https://opengraph.githubassets.com/1/hkust-c4g/anytalker
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2511.23475'
+  repo: hkust-c4g/anytalker
 - id: echomimicv3-6bedd7
   title: EchoMimicV3
   area: animation
@@ -1565,6 +1620,34 @@ entries:
   source: agent
   arxiv_id: '2404.06913'
   repo: mcg-nju/sgm-vfi
+- id: speed-one-step-pixel-diffusion-for-high-quality-video-frame-75ceff
+  title: 'SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.15585
+    github: https://github.com/bbldCVer/SPEED
+  authors:
+  - Zihao Zhang
+  - Haoyu Zhao
+  - Siqian Yang
+  - Yidi Wu
+  - Yudong Jiang
+  - Zuxuan Wu
+  year: 2024
+  tags:
+  - diffusion
+  - interpolation
+  - one-step
+  - vfi
+  summary: SPEED is a one-step pixel diffusion framework for high-quality video frame interpolation. It utilizes a progressive multi-stage architecture with dynamic patch scaling to effectively capture multi-scale motion, structural, and appearance representations in a single step.
+  summary_ja: SPEEDは、高品質なビデオフレーム補間のためのワンステップ・ピクセル拡散フレームワークです。動的なパッチスケーリングを備えた段階的なマルチステージアーキテクチャを採用し、単一のステップでマルチスケールの動き、構造、および外観の表現を効果的に捉えます。
+  thumbnail: https://opengraph.githubassets.com/1/bbldcver/speed
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2407.15585'
+  repo: bbldcver/speed
 - id: thin-plate-spline-based-interpolation-for-animation-line-inb-e9b79d
   title: Thin-Plate Spline-based Interpolation for Animation Line Inbetweening
   area: animation
@@ -2307,6 +2390,25 @@ entries:
   source: agent
   arxiv_id: '2504.06504'
   repo: xiaohangyang829/star
+- id: bvh-motion-retargeter-2da0e1
+  title: BVH Motion Retargeter
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/BacteriaJun/BVH-Motion-Retargeter
+  year: 2024
+  tags:
+  - blender
+  - bvh
+  - mixamo
+  - ue5
+  summary: A Blender add-on designed to convert and retarget BVH motion-capture data to common humanoid skeleton conventions, including Mixamo, Unreal Engine 5, and VRM humanoid avatars.
+  summary_ja: BVHモーションキャプチャデータを、Mixamo、Unreal Engine 5、VRM人型アバターなどの一般的な人型骨格規格に変換およびリターゲットするために設計されたBlenderアドオン。
+  thumbnail: https://opengraph.githubassets.com/1/bacteriajun/bvh-motion-retargeter
+  date_added: '2026-09-07'
+  source: agent
+  repo: bacteriajun/bvh-motion-retargeter
 - id: meshret-skinned-motion-retargeting-with-dense-geometric-inte-e8cbf8
   title: 'MeshRet: Skinned Motion Retargeting with Dense Geometric Interaction Perception'
   area: animation
@@ -2333,6 +2435,25 @@ entries:
   source: agent
   arxiv_id: '2410.20986'
   repo: abcyzj/meshret
+- id: robot-retargeter-01a6a3
+  title: robot_retargeter
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/ccrpRepo/robot_retargeter
+  year: 2024
+  tags:
+  - humanoid
+  - ik
+  - mujoco
+  - smpl-x
+  summary: A toolkit for retargeting human motion (SMPL-X) or source-robot motion to target humanoid robots, featuring multi-robot side-by-side visualization and inverse kinematics via mink and MuJoCo.
+  summary_ja: 人間のモーション（SMPL-X）またはソースロボットのモーションをターゲットの人型ロボットにリターゲットするためのツールキット。minkとMuJoCoを介した逆運動学（IK）および複数ロボットの並列可視化をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/ccrprepo/robot_retargeter
+  date_added: '2026-09-07'
+  source: agent
+  repo: ccrprepo/robot_retargeter
 - id: soma-retargeter-2a997b
   title: SOMA Retargeter
   area: animation
@@ -5009,6 +5130,32 @@ entries:
   source: agent
   arxiv_id: '2604.02973'
   repo: zilize/awesome-text-to-motion
+- id: moscale-next-scale-autoregressive-models-for-text-to-motion-1d8ef2
+  title: 'MoScale: Next-Scale Autoregressive Models for Text-to-Motion Generation'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.03799
+    github: https://github.com/zhiwei-zzz/MoScale
+  authors:
+  - Zhiwei Zheng
+  - Shibo Jin
+  - Lingjie Liu
+  - Mingmin Zhao
+  year: 2026
+  tags:
+  - autoregressive
+  - hierarchical
+  - motion-generation
+  - text-to-motion
+  summary: A next-scale autoregressive framework that generates 3D human motion hierarchically from coarse to fine temporal resolutions. By providing global semantics at the coarsest scale and refining them progressively, it establishes a causal hierarchy better suited for long-range motion structure.
+  summary_ja: 3Dの人体モーションを粗い時間解像度から細かい時間解像度へと階層的に生成する、ネクストスケール自己回帰フレームワーク。最も粗いスケールでグローバルな意味論を提供し、それを段階的に洗練させることで、長時間のモーション構造に適した因果的階層を構築します。
+  thumbnail: https://opengraph.githubassets.com/1/zhiwei-zzz/moscale
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2604.03799'
+  repo: zhiwei-zzz/moscale
 - id: motionhiflow-ab48b6
   title: MotionHiFlow
   area: animation
@@ -5760,6 +5907,37 @@ entries:
   source: agent
   arxiv_id: '2603.15603'
   repo: yangtiming/fast-sam-3d-body
+- id: mocapanything-v2-2a9248
+  title: MoCapAnything V2
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.28130
+    github: https://github.com/phongdaot/MocapAnything
+    website: https://animotionlab.github.io/MoCapAnything/
+  authors:
+  - Kehong Gong
+  - Zhengyu Wen
+  - Dao Thien Phong
+  - Mingxi Xu
+  - Weixia He
+  - Qi Wang
+  - Ning Zhang
+  - Zhengyu Li
+  year: 2026
+  tags:
+  - mocap
+  - pose-estimation
+  - retargeting
+  - skeleton
+  summary: An end-to-end motion capture framework that unifies video-to-pose and pose-to-rotation learning for arbitrary skeletons from monocular videos. It supports humans, animals, and custom rigged 3D assets without relying on template-specific body models.
+  summary_ja: 単眼ビデオから任意の骨格構造に対してビデオからポーズ、ポーズから回転への学習を統合したエンドツーエンドのモーションキャプチャフレームワーク。テンプレート固有の身体モデルに依存せず、人間、動物、カスタムリグ付き3Dアセットをサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/phongdaot/mocapanything
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2604.28130'
+  repo: phongdaot/mocapanything
 - id: multi-hmr-2-a90ebc
   title: Multi-HMR 2
   area: animation
@@ -6283,6 +6461,31 @@ entries:
   source: agent
   arxiv_id: '2304.05690'
   repo: jeffffffli/hybrik
+- id: poseformerv2-853b55
+  title: PoseFormerV2
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.17472
+    github: https://github.com/QitaoZhao/PoseFormerV2
+  authors:
+  - Qitao Zhao
+  - Ce Zheng
+  - Mengyuan Liu
+  - Pichao Wang
+  - Chen Chen
+  year: 2023
+  tags:
+  - 3d-pose
+  - pose-estimation
+  - transformer
+  summary: An efficient and robust transformer-based 3D human pose estimation framework that operates in the frequency domain. It reduces computational complexity and improves robustness against noisy 2D joint detections in long video sequences.
+  summary_ja: 周波数領域で動作する、効率的かつ堅牢なトランスフォーマーベースの3D人体ポーズ推定フレームワーク。計算複雑度を低減し、長時間のビデオシーケンスにおけるノイズの多い2D関節検出に対する堅牢性を向上させます。
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '2303.17472'
+  repo: qitaozhao/poseformerv2
 - id: slahmr-simultaneous-localization-and-human-mesh-recovery-71d9e6
   title: 'SLAHMR: Simultaneous Localization and Human Mesh Recovery'
   area: animation
@@ -6609,6 +6812,31 @@ entries:
   source: agent
   arxiv_id: '1912.05656'
   repo: mkocabas/vibe
+- id: videopose3d-5720ac
+  title: VideoPose3D
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1811.11742
+    github: https://github.com/facebookresearch/VideoPose3D
+  authors:
+  - Dario Pavllo
+  - Christoph Feichtenhofer
+  - David Grangier
+  - Michael Auli
+  year: 2018
+  tags:
+  - 3d-pose
+  - pose-estimation
+  - temporal-convolution
+  summary: An efficient 3D human pose estimation model in video using dilated temporal convolutions over 2D keypoint trajectories. It introduces a semi-supervised training method using back-projection to leverage unlabeled video data.
+  summary_ja: 2Dキーポイントの軌跡に対して拡張時間畳み込み（dilated temporal convolutions）を使用する、ビデオ内の効率的な3D人体ポーズ推定モデル。バックプロジェクションを用いた半教師あり学習手法を導入し、ラベルなしビデオデータを活用します。
+  thumbnail: https://opengraph.githubassets.com/1/facebookresearch/videopose3d
+  date_added: '2026-09-07'
+  source: agent
+  arxiv_id: '1811.11742'
+  repo: facebookresearch/videopose3d
 - id: ace-step-70ff97
   title: ACE-Step
   area: audio
