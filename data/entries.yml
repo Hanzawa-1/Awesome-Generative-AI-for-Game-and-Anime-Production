@@ -6482,6 +6482,7 @@ entries:
   - transformer
   summary: An efficient and robust transformer-based 3D human pose estimation framework that operates in the frequency domain. It reduces computational complexity and improves robustness against noisy 2D joint detections in long video sequences.
   summary_ja: 周波数領域で動作する、効率的かつ堅牢なトランスフォーマーベースの3D人体ポーズ推定フレームワーク。計算複雑度を低減し、長時間のビデオシーケンスにおけるノイズの多い2D関節検出に対する堅牢性を向上させます。
+  thumbnail: https://opengraph.githubassets.com/1/qitaozhao/poseformerv2
   date_added: '2026-09-07'
   source: agent
   arxiv_id: '2303.17472'
@@ -6966,6 +6967,61 @@ entries:
   source: agent
   arxiv_id: '2605.17991'
   repo: stability-ai/stable-audio-3
+- id: v2m-zero-078545
+  title: V2M-Zero
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.11042
+    project: https://genjib.github.io/project_page/v2m_zero/
+  authors:
+  - Yan-Bo Lin
+  - Jonah Casebeer
+  - Long Mai
+  - Aniruddha Mahapatra
+  - Gedas Bertasius
+  - Nicholas J. Bryan
+  year: 2026
+  tags:
+  - bgm
+  - temporal-alignment
+  - video-to-music
+  summary: A zero-pair video-to-music generation framework that produces temporally aligned background music matching visual events without requiring paired video-music data during training.
+  summary_ja: トレーニング時にペアとなるビデオ・音楽データを必要とせず、視覚的なイベントに時間的に同期したバックグラウンドミュージックを生成するゼロペアのビデオ・トゥ・ミュージック生成フレームワーク。
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2603.11042'
+- id: vibe-2502bd
+  title: VIBE
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.30125
+    github: https://github.com/VIBE-text-video-to-music-generation/vibe
+    hf: https://huggingface.co/aryanvibhosale/vibe
+  authors:
+  - Aryan Vijay Bhosale
+  - Vaibhavi Lokegaonkar
+  - Vishnu Raj
+  - Gouthaman KV
+  - Sreyan Ghosh
+  - Ramani Duraiswami
+  - Lie Lu
+  - Dinesh Manocha
+  year: 2026
+  tags:
+  - bgm
+  - controllable
+  - video-to-music
+  summary: A text-and-video-to-music generation model that ensures background music aligns with explicit user text instructions and visual cues through a depth-wise cross-layer conditioning mechanism.
+  summary_ja: 深度方向のクロスレイヤー条件付けメカニズムを通じて、ユーザーの明示的なテキスト指示と視覚的な手がかりの両方にバックグラウンドミュージックを適合させるテキスト・ビデオ・トゥ・ミュージック生成モデル。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/aryanvibhosale/vibe.png
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2608.30125'
+  repo: vibe-text-video-to-music-generation/vibe
 - id: ace-step-f69f91
   title: ACE-Step
   area: audio
@@ -7152,6 +7208,32 @@ entries:
   source: agent
   arxiv_id: '2508.04651'
   repo: magenta/magenta-realtime
+- id: musicgen-stem-c400db
+  title: MusicGen-Stem
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.01757
+    github: https://github.com/facebookresearch/audiocraft
+    hf: https://huggingface.co/facebook/musicgen-stem-6cb
+  authors:
+  - Simon Rouard
+  - Robin San Roman
+  - Yossi Adi
+  - Axel Roebel
+  year: 2025
+  tags:
+  - audiocraft
+  - music-generation
+  - stems
+  summary: An autoregressive multi-stem music generation model that generates separate stems (bass, drums, and other) instead of a single stereo mix, allowing for high-quality music editing and adaptive mixing.
+  summary_ja: 単一のステレオミックスではなく、ベース、ドラム、その他の個別ステムを生成する自己回帰型マルチステム音楽生成モデル。高品質な音楽編集やインタラクティブなミキシングを可能にします。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/facebook/musicgen-stem-6cb.png
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2501.01757'
+  repo: facebookresearch/audiocraft
 - id: songgen-68ce98
   title: SongGen
   area: audio
@@ -7347,6 +7429,28 @@ entries:
   source: agent
   arxiv_id: '2406.10970'
   repo: facebookresearch/audiocraft
+- id: metabgm-37a7d6
+  title: MetaBGM
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.03844
+    github: https://github.com/novel2430/MetaBGM
+  authors:
+  - Haoxuan Li
+  year: 2024
+  tags:
+  - adaptive-music
+  - bgm
+  - interactive
+  summary: A dynamic soundtrack transformation framework designed for continuous multi-scene experiences, enabling background music to adapt in real-time to environmental transitions and user interactions.
+  summary_ja: 連続するマルチシーン体験向けに設計された動的サウンドトラック変換フレームワーク。環境の遷移やユーザーのインタラクションにリアルタイムで適応するBGM生成を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/novel2430/metabgm
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2409.03844'
+  repo: novel2430/metabgm
 - id: multi-track-musicldm-4d5b00
   title: Multi-Track MusicLDM
   area: audio
@@ -7371,6 +7475,29 @@ entries:
   source: agent
   arxiv_id: '2409.02845'
   repo: karchkha/mt-musicldm
+- id: sonique-845a53
+  title: SONIQUE
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.03879
+    github: https://github.com/zxxwxyyy/sonique
+  authors:
+  - Liqian Zhang
+  - Magdalena Fuentes
+  year: 2024
+  tags:
+  - bgm
+  - diffusion
+  - video-to-music
+  summary: A video background music generation model that leverages unpaired audio-visual data, combining LLM-based video understanding with conditional diffusion models to generate customizable, high-quality soundtracks.
+  summary_ja: ペアのない音響・映像データを活用し、LLMによる動画理解と条件付き拡散モデルを組み合わせて、カスタマイズ可能な高品質のサウンドトラックを生成する動画用BGM生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/zxxwxyyy/sonique
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2410.03879'
+  repo: zxxwxyyy/sonique
 - id: stable-audio-adda79
   title: Stable Audio
   area: audio
@@ -10877,6 +11004,25 @@ entries:
   source: agent
   arxiv_id: '2403.16973'
   repo: jasonppy/voicecraft
+- id: voicestudio-fb9a2f
+  title: VoiceStudio
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    github: https://github.com/debpalash/VoiceStudio
+    website: https://voicestudio.sh/
+  year: 2024
+  tags:
+  - local-first
+  - tts
+  - voice-cloning
+  summary: A fully local, open-source alternative to ElevenLabs for voice cloning, voice design, video dubbing, and text-to-speech across hundreds of languages without requiring external API keys.
+  summary_ja: 外部APIキーを必要とせず、数百の言語で音声クローニング、音声デザイン、ビデオダビング、テキスト読み上げを実行できる、完全にローカルで動作するオープンソースのElevenLabs代替ツール。
+  thumbnail: https://voicestudio.sh/og.png
+  date_added: '2026-09-08'
+  source: agent
+  repo: debpalash/voicestudio
 - id: xtts-b0e3a8
   title: XTTS
   area: audio
@@ -11621,6 +11767,35 @@ entries:
   source: agent
   arxiv_id: '2601.00664'
   repo: taekyungki/avatarforcing
+- id: avatar-forever-5e481d
+  title: Avatar-Forever
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.12107
+    github: https://github.com/leeruibin/avatarforever
+    project: https://leeruibin.github.io/avatarforever-project-page/
+  authors:
+  - Ruibin Li
+  - Tao Yang
+  - Zhiyuan Ma
+  - Fangzhou Ai
+  - Shilei Wen
+  - Lei Zhang
+  year: 2026
+  tags:
+  - audio-driven
+  - avatar
+  - real-time
+  - talking-head
+  summary: A decoupled parallel training framework for high-quality, real-time, and effectively unbounded audio-driven avatar generation. It treats generation efficiency and long-horizon robustness as independent capabilities trained in parallel, achieving 27.2 FPS on a single H100 using an LTX-Video backbone.
+  summary_ja: 高品質、リアルタイム、かつ実質的に無制限の音声駆動型アバター生成のための、分離型並列学習フレームワーク。生成効率と長期的なロバスト性を並列に学習可能な独立した機能として扱い、単一のH100上でLTX-Videoバックボーンを用いて27.2 FPSを達成します。
+  thumbnail: https://leeruibin.github.io/avatarforever-project-page/assets/overview.png
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2608.12107'
+  repo: leeruibin/avatarforever
 - id: dama-cababa
   title: DAMA
   area: characters
@@ -11998,6 +12173,33 @@ entries:
   source: agent
   arxiv_id: '2510.11650'
   repo: yuxuansnow/infinihuman
+- id: joystreamer-flash-fb542f
+  title: JoyStreamer-Flash
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.11423
+  authors:
+  - Chaochao Li
+  - Ruikui Wang
+  - Liangbo Zhou
+  - Jinheng Feng
+  - Huaishao Luo
+  - Huan Zhang
+  - Youzheng Wu
+  - Xiaodong He
+  year: 2025
+  tags:
+  - autoregressive
+  - avatar
+  - real-time
+  - talking-head
+  summary: An audio-driven autoregressive generative model synthesizing real-time, infinite-length avatar videos via advanced diffusion Transformers, ensuring superior lip-sync, temporal coherence, and visual fidelity.
+  summary_ja: 高度な拡散トランスフォーマーを介してリアルタイムで無限長の会話アバタービデオを合成する音声駆動型自己回帰生成モデル。優れたリップシンク、時間的一貫性、および視覚的忠実度を保証します。
+  date_added: '2026-09-08'
+  source: agent
+  arxiv_id: '2512.11423'
 - id: liveavatar-45b0d3
   title: LiveAvatar
   area: characters
