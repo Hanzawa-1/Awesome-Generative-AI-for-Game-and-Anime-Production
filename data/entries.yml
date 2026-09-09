@@ -16801,6 +16801,31 @@ entries:
   date_added: '2026-06-24'
   source: agent
   repo: adam-cad/cadam
+- id: cadsmith-bf46d4
+  title: CADSmith
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.26512
+    github: https://github.com/jabarkle/CADSmith
+  authors:
+  - Jesse Barkley
+  - Rumi Loghmani
+  - Amir Barati Farimani
+  year: 2026
+  tags:
+  - geometric-validation
+  - multi-agent
+  - opencascade
+  - text-to-cad
+  summary: A multi-agent pipeline that generates manufacturing-ready CAD models from natural language by combining LLM code generation with programmatic geometric validation. It utilizes nested correction loops to resolve execution errors and verify dimensional accuracy using the OpenCASCADE kernel.
+  summary_ja: LLMによるコード生成とプログラムによる幾何学的検証を組み合わせ、自然言語から製造可能なCADモデルを生成するマルチエージェントパイプライン。入れ子状の修正ループを利用して実行エラーを解決し、OpenCASCADEカーネルを用いて寸法精度を検証する。
+  thumbnail: https://opengraph.githubassets.com/1/jabarkle/cadsmith
+  date_added: '2026-09-09'
+  source: agent
+  arxiv_id: '2603.26512'
+  repo: jabarkle/cadsmith
 - id: clarify-before-you-draw-4f9916
   title: Clarify Before You Draw
   area: gen-3d
@@ -16856,6 +16881,36 @@ entries:
   source: agent
   arxiv_id: '2606.31579'
   repo: autodeskailab/dualbrep
+- id: graph-cad-49c661
+  title: Graph-CAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.10075
+    github: https://github.com/EESJGong/Graph-CAD
+  authors:
+  - Shengjie Gong
+  - Wenjie Peng
+  - Hongyuan Chen
+  - Gangyu Zhang
+  - Yunqing Hu
+  - Huiyuan Zhang
+  - Shuangping Huang
+  - Tianshui Chen
+  year: 2026
+  tags:
+  - assembly
+  - geometry-aware
+  - graph-representation
+  - text-to-cad
+  summary: A text-to-CAD generation framework that introduces a hierarchical, geometry-aware graph as an intermediate representation to explicitly model assembly structures and geometric constraints. This approach prevents cascading errors in long-horizon CAD code generation by structuring the design process before rendering.
+  summary_ja: アセンブリ構造と幾何学的制約を明示的にモデル化するため、中間表現として階層的かつ幾何学を考慮したグラフを導入するText-to-CAD生成フレームワーク。レンダリング前に設計プロセスを構造化することで、長時間のCADコード生成における連鎖的なエラーを防ぐ。
+  thumbnail: https://opengraph.githubassets.com/1/eesjgong/graph-cad
+  date_added: '2026-09-09'
+  source: agent
+  arxiv_id: '2604.10075'
+  repo: eesjgong/graph-cad
 - id: hiercad-hierarchical-text-to-cad-design-via-structure-alignm-7b69e1
   title: 'HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding'
   area: gen-3d
@@ -17398,6 +17453,34 @@ entries:
   source: agent
   arxiv_id: '2505.22914'
   repo: col14m/cadrille
+- id: drawing2cad-46f6d7
+  title: Drawing2CAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.18733
+    github: https://github.com/lllssc/Drawing2CAD
+  authors:
+  - Feiwei Qin
+  - Shichao Lu
+  - Junhao Hou
+  - Changmiao Wang
+  - Meie Fang
+  - Ligang Liu
+  year: 2025
+  tags:
+  - drawing-to-cad
+  - parametric
+  - sequence-to-sequence
+  - vector-graphics
+  summary: A sequence-to-sequence learning framework designed to generate parametric 3D CAD models directly from 2D vector drawings (SVGs). It bridges the gap between traditional 2D engineering drawings and 3D CAD reconstruction by learning to predict CAD command sequences from vector graphics.
+  summary_ja: 2Dベクター画像（SVG）から直接パラメータ付き3D CADモデルを生成する、Sequence-to-Sequence学習フレームワーク。ベクターグラフィックスからCADコマンドシーケンスを予測することを学習し、従来の2D設計図面と3D CAD再構成の間のギャップを埋める。
+  thumbnail: https://opengraph.githubassets.com/1/lllssc/drawing2cad
+  date_added: '2026-09-09'
+  source: agent
+  arxiv_id: '2508.18733'
+  repo: lllssc/drawing2cad
 - id: dtgbrepgen-a-novel-b-rep-generative-model-through-decoupling-7c9ae8
   title: 'DTGBrepGen: A Novel B-rep Generative Model through Decoupling Topology and Geometry'
   area: gen-3d
@@ -17459,6 +17542,25 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2504.14257'
+- id: multi-agent-cad-mac-afab30
+  title: Multi-Agent CAD (MAC)
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/Pan-Chera/Multi-Agent-CAD
+  year: 2025
+  tags:
+  - 3d-printing
+  - build123d
+  - multi-agent
+  - text-to-cad
+  summary: A decoupled multi-agent framework designed for efficient text-to-CAD generation using constrained test-time compute. It coordinates multiple specialized AI agents to generate highly accurate, printable 3D models from concise natural language prompts while significantly reducing token usage and inference costs.
+  summary_ja: 制約付きテストタイム計算量を用いて効率的なText-to-CAD生成を行う、分離型マルチエージェントフレームワーク。複数の専門AIエージェントを協調させることで、簡潔な自然言語プロンプトから高精度で印刷可能な3Dモデルを生成し、トークン使用量と推論コストを大幅に削減する。
+  thumbnail: https://opengraph.githubassets.com/1/pan-chera/multi-agent-cad
+  date_added: '2026-09-09'
+  source: agent
+  repo: pan-chera/multi-agent-cad
 - id: nurbgen-56ce1c
   title: NURBGen
   area: gen-3d
@@ -20710,6 +20812,32 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: pku-yuangroup/ultrashape-1.0
+- id: geonext-video-generative-models-as-geometry-learner-21fa8f
+  title: 'GeoNeXt: Video Generative Models as Geometry Learner'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.28549
+    github: https://github.com/Creative-Intelligence-Studio/GeoNeXt
+  authors:
+  - Haosen Yang
+  - Jifei Song
+  - Zhensong Zhang
+  - Xiatian Zhu
+  - Jiankang Deng
+  year: 2026
+  tags:
+  - depth-estimation
+  - normal-estimation
+  - video-diffusion
+  summary: A unified geometry estimation framework that repurposes pretrained video generative models for monocular depth and surface normal estimation. By formulating geometry estimation as a next-frame prediction task, it leverages temporal priors to co-generate highly consistent depth and normal maps.
+  summary_ja: 事前学習済みの動画生成モデルを単眼深度および法線マップ推定に転用する、統合された幾何推定フレームワーク。幾何推定を「次フレーム予測」タスクとして再定義することで、動画モデルの時間的プライアを活用し、一貫性の高い深度マップと法線マップを共同生成します。
+  thumbnail: https://opengraph.githubassets.com/1/creative-intelligence-studio/geonext
+  date_added: '2026-09-09'
+  source: agent
+  arxiv_id: '2608.28549'
+  repo: creative-intelligence-studio/geonext
 - id: infinidepth-6597e7
   title: InfiniDepth
   area: gen-3d
@@ -21129,6 +21257,33 @@ entries:
   source: agent
   arxiv_id: '2406.01493'
   repo: jiahao-shao1/chronodepth
+- id: depth-anything-unleashing-the-power-of-large-scale-unlabeled-a908b9
+  title: 'Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.10891
+    github: https://github.com/LiheYang/Depth-Anything
+  authors:
+  - Lihe Yang
+  - Bingyi Kang
+  - Zilong Huang
+  - Xiaogang Xu
+  - Jiashi Feng
+  - Hengshuang Zhao
+  year: 2024
+  tags:
+  - depth-estimation
+  - foundation-model
+  - monocular-depth
+  summary: A highly practical foundation model for robust monocular depth estimation trained on a massive dataset of 1.5M labeled and 62M unlabeled images. It achieves strong zero-shot generalization across diverse environments, making it highly useful for generating depth maps from arbitrary game or anime scenes.
+  summary_ja: 150万枚のラベル付き画像と6200万枚のラベルなし画像からなる大規模データセットで学習された、実用的な単眼奥行き推定（MDE）の基盤モデル。多様な環境において強力なゼロショット汎化性能を発揮し、ゲームやアニメの任意のシーンから高精度な深度マップを生成するのに適しています。
+  thumbnail: https://opengraph.githubassets.com/1/liheyang/depth-anything
+  date_added: '2026-09-09'
+  source: agent
+  arxiv_id: '2401.10891'
+  repo: liheyang/depth-anything
 - id: depth-anything-v2-ddec49
   title: Depth Anything V2
   area: gen-3d
