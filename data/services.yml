@@ -1789,6 +1789,24 @@ entries:
   thumbnail: https://360hextile.com/static/images/og-image-1200x630.png?v=1787318162
   date_added: '2026-06-25'
   source: agent
+- id: blockade-labs-skybox-ai-546be3
+  title: Blockade Labs Skybox AI
+  area: gen-3d
+  task: skybox-panorama
+  kind: proprietary
+  links:
+    website: https://www.blockadelabs.com/
+  year: 2023
+  tags:
+  - hdri
+  - panorama
+  - proprietary
+  - skybox
+  summary: An industry-standard generative AI tool by Blockade Labs that allows users to instantly generate high-quality, seamless 360-degree skyboxes and HDRI environments from text prompts and sketches.
+  summary_ja: Blockade Labsが提供する業界標準の生成AIツールで、テキストプロンプトやスケッチから、高品質でシームレスな360度スカイボックスやHDRI環境を即座に生成できます。
+  thumbnail: https://static.wixstatic.com/media/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8d6639_b2ee76a88e224659804c1ef09c7bc5da%7Emv2.jpg
+  date_added: '2026-09-10'
+  source: agent
 - id: skybox-ai-blockade-labs-a12daf
   title: Skybox AI (Blockade Labs)
   area: gen-3d

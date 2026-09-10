@@ -22856,6 +22856,32 @@ entries:
   date_added: '2026-06-25'
   source: agent
   arxiv_id: '2601.16192'
+- id: mover360-controllable-object-manipulation-in-360-panoramic-i-75ce19
+  title: 'Mover360: Controllable Object Manipulation in 360° Panoramic Images'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.23238
+    github: https://github.com/zhonghaoyi/Mover360
+  authors:
+  - Haoyi Zhong
+  - Fang-Lue Zhang
+  - Andrew Chalmers
+  - Taehyun Rhee
+  year: 2026
+  tags:
+  - '360'
+  - editing
+  - inpainting
+  - panorama
+  summary: A controllable object manipulation framework designed specifically for 360° equirectangular projection (ERP) images, supporting object translation, reference-guided insertion, and removal while maintaining global scene continuity.
+  summary_ja: 360度等距円筒図法（ERP）画像向けに設計された制御可能なオブジェクト操作フレームワークで、グローバルなシーンの連続性を維持しながら、オブジェクトの移動、参照画像に基づく挿入、および削除をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/zhonghaoyi/mover360
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2608.23238'
+  repo: zhonghaoyi/mover360
 - id: panoworld-a-generative-spatial-world-model-for-consistent-wh-653067
   title: 'PanoWorld: A Generative Spatial World Model for Consistent Whole-House Panorama Synthesis'
   area: gen-3d
@@ -23111,6 +23137,31 @@ entries:
   source: agent
   arxiv_id: '2504.11379'
   repo: intmegroup/omni2
+- id: panogen-domain-adapted-text-guided-panoramic-environment-gen-7eb663
+  title: 'PanoGen++: Domain-Adapted Text-Guided Panoramic Environment Generation'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.09938
+  authors:
+  - Sen Wang
+  - Dongliang Zhou
+  - Liang Xie
+  - Chao Xu
+  - Ye Yan
+  - Erwei Yin
+  year: 2025
+  tags:
+  - '360'
+  - diffusion
+  - environment
+  - panorama
+  summary: An advanced framework that leverages domain-adapted diffusion models to generate diverse, photorealistic 360-degree panoramic environments from text descriptions.
+  summary_ja: ドメイン適応型拡散モデルを活用し、テキスト記述から多様でリアルな360度パノラマ環境を生成する高度なフレームワーク。
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2503.09938'
 - id: panowan-lifting-diffusion-video-generation-models-to-360-wit-6c5ffa
   title: 'PanoWan: Lifting Diffusion Video Generation Models to 360° with Latitude/Longitude-aware Mechanisms'
   area: gen-3d
@@ -23428,6 +23479,26 @@ entries:
   source: agent
   arxiv_id: '2412.04827'
   repo: avinashpaliwal/panodreamer
+- id: sdxl-360-diffusion-3b33bc
+  title: SDXL 360 Diffusion
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    github: https://github.com/ProGamerGov/pytorch360convert
+    hf: https://huggingface.co/ProGamerGov/sdxl-360-diffusion
+  year: 2024
+  tags:
+  - '360'
+  - panorama
+  - sdxl
+  - skybox
+  summary: A 3.5 billion parameter text-to-image model fine-tuned on SDXL 1.0 to generate seamless 360-degree equirectangular spherical images for skyboxes, VR environments, and 3D scenes.
+  summary_ja: SDXL 1.0をベースに微調整された35億パラメータのテキスト画像生成モデルで、スカイボックス、VR環境、3Dシーン向けのシームレスな360度等距円筒図法（エクイレクタングラー）画像を生成します。
+  thumbnail: https://huggingface.co/ProGamerGov/sdxl-360-diffusion/resolve/main/examples/gallery_grid.jpg
+  date_added: '2026-09-10'
+  source: agent
+  repo: progamergov/pytorch360convert
 - id: spherediffusion-e4ed9f
   title: SphereDiffusion
   area: gen-3d
@@ -23761,6 +23832,33 @@ entries:
   date_added: '2026-08-13'
   source: agent
   repo: danial-barazandeh/earthbender
+- id: earthcrafter-scalable-3d-earth-generation-via-dual-sparse-la-ddd59d
+  title: 'EarthCrafter: Scalable 3D Earth Generation via Dual-Sparse Latent Diffusion'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.16535
+    github: https://github.com/whiteinblue/EarthCrafter
+    website: https://whiteinblue.github.io/earthcrafter/
+  authors:
+  - Shang Liu
+  - Chenjie Cao
+  - Chaohui Yu
+  - Wen Qian
+  - Jing Wang
+  - Fan Wang
+  year: 2025
+  tags:
+  - 3d-generation
+  - gaussian-splatting
+  - terrain
+  summary: A framework for large-scale 3D Earth and terrain generation that decouples structural and textural synthesis. It utilizes dual sparse 3D-VAEs to compress high-resolution geometric voxels and 2D Gaussian Splats into compact latent spaces, enabling efficient generation across vast geographic scales.
+  summary_ja: 構造とテクスチャの合成を分離することで、大規模な3D地球および地形生成を可能にするフレームワーク。デュアルスパース3D-VAEを用いて高解像度な幾何学的ボクセルと2D Gaussian Splattingをコンパクトな潜在空間に圧縮し、広大な地理的スケールでの効率的な生成を実現します。
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2507.16535'
+  repo: whiteinblue/earthcrafter
 - id: embodiedgen-e6ba58
   title: EmbodiedGen
   area: gen-3d
@@ -23791,6 +23889,27 @@ entries:
   source: agent
   arxiv_id: '2506.10600'
   repo: horizonrobotics/embodiedgen
+- id: geodiffussr-generative-terrain-texturing-with-elevation-fide-e568d1
+  title: 'Geodiffussr: Generative Terrain Texturing with Elevation Fidelity'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.23029
+  authors:
+  - Tai Inui
+  - Alexander Matsumura
+  - Edgar Simo-Serra
+  year: 2025
+  tags:
+  - elevation
+  - terrain
+  - texture
+  summary: A flow-matching pipeline designed to synthesize text-guided terrain texture maps that strictly adhere to a supplied Digital Elevation Map (DEM). It uses multi-scale content aggregation to inject elevation features into UNet blocks, ensuring global-to-local consistency.
+  summary_ja: 提供されたデジタル標高マップ（DEM）に厳密に準拠した、テキストガイド付きの地形テクスチャマップを合成するフローマッチングパイプライン。マルチスケールコンテンツ集約（MCA）を用いて標高特徴をUNetブロックに注入し、広域から局所までの整合性を保証します。
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2511.23029'
 - id: infinite-leagues-under-the-sea-photorealistic-3d-underwater-517699
   title: 'Infinite Leagues Under the Sea: Photorealistic 3D Underwater Terrain Generation by Latent Fractal Diffusion Models'
   area: gen-3d
@@ -24009,6 +24128,34 @@ entries:
   source: agent
   arxiv_id: '2410.10766'
   repo: youwyu/adaptive-diffusion-terrain
+- id: citycraft-a-real-crafter-for-3d-city-generation-c58ac7
+  title: 'CityCraft: A Real Crafter for 3D City Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.04983
+    github: https://github.com/djFatNerd/CityCraft
+  authors:
+  - Jie Deng
+  - Wenhao Chai
+  - Junsheng Huang
+  - Zhonghan Zhao
+  - Qixuan Huang
+  - Mingyan Gao
+  - Jianshu Guo
+  - Shengyu Hao
+  year: 2024
+  tags:
+  - city-generation
+  - layout
+  - procedural
+  summary: A modular framework for 3D city generation that integrates diffusion transformer layout synthesis, LLM-driven land-use planning, and procedural scene assembly.
+  summary_ja: 拡散トランスフォーマーによるレイアウト合成、LLM駆動の土地利用計画、および手続き型シーンアセンブリを統合した、3D都市生成のためのモジュール式フレームワーク。
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2406.04983'
+  repo: djfatnerd/citycraft
 - id: gaussiancity-44c4a6
   title: GaussianCity
   area: gen-3d
@@ -24831,6 +24978,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2211.10440'
+- id: mate-images-are-all-you-need-for-material-transfer-via-diffu-9a64d4
+  title: 'MaTe: Images Are All You Need for Material Transfer via Diffusion Transformer'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2605.15660
+    paper: https://arxiv.org/pdf/2605.15660
+  authors:
+  - Nisha Huang
+  - Henglin Liu
+  - Yizhou Lin
+  - Kaer Huang
+  - Chubin Chen
+  - Jie Guo
+  - Tong-Yee Lee
+  - Xiu Li
+  year: 2026
+  tags:
+  - diffusion
+  - material-transfer
+  - texture
+  - transformer
+  summary: A streamlined diffusion framework for material transfer that eliminates textual guidance and reference networks, integrating input images at the token level via multi-modal attention in a shared latent space.
+  summary_ja: テキストによるガイダンスや参照ネットワークを排除し、共有潜在空間内のマルチモーダルアテンションを介してトークンレベルで入力画像を統合する、マテリアル転送のための合理化された拡散フレームワーク。
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2605.15660'
 - id: material-apprentice-reflecting-process-expertise-in-procedur-b2a8f5
   title: 'Material Apprentice: Reflecting Process Expertise in Procedural Material Generation'
   area: gen-3d
@@ -25014,6 +25189,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: ubisoft/ubisoft-laforge-chord
+- id: himat-dit-based-ultra-high-resolution-svbrdf-generation-fc3ddc
+  title: 'HiMat: DiT-based Ultra-High Resolution SVBRDF Generation'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.07011
+    github: https://github.com/zeahmd/himat
+    paper: https://arxiv.org/pdf/2508.07011
+  authors:
+  - Zixiong Wang
+  - Jian Yang
+  - Yiwei Hu
+  - Milos Hasan
+  - Beibei Wang
+  year: 2025
+  tags:
+  - dit
+  - pbr
+  - svbrdf
+  - texture
+  summary: A Diffusion Transformer (DiT) framework designed for ultra-high-resolution (up to 4K) spatially varying bidirectional reflectance distribution function (SVBRDF) generation, maintaining pixel-level alignment across multiple reflectance maps.
+  summary_ja: 複数の反射率マップ間でピクセルレベルの整合性を維持しながら、最大4Kの超高解像度SVBRDF（空間的に変化する双方向反射率分布関数）を生成するために設計されたDiffusion Transformer（DiT）フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zeahmd/himat
+  date_added: '2026-09-10'
+  source: agent
+  arxiv_id: '2508.07011'
+  repo: zeahmd/himat
 - id: intrinsix-high-quality-pbr-generation-using-image-priors-e56076
   title: 'IntrinsiX: High-Quality PBR Generation using Image Priors'
   area: gen-3d
