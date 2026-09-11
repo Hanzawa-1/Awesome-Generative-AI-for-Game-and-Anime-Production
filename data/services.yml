@@ -2561,6 +2561,23 @@ entries:
   thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca9105d4f07b7d38a3f7f7_opengraph-topaz-giga.webp
   date_added: '2026-07-24'
   source: agent
+- id: recraft-110108
+  title: Recraft
+  area: image-2d
+  task: text-to-image
+  kind: proprietary
+  links:
+    website: https://www.recraft.ai/
+  year: 2023
+  tags:
+  - graphic-design
+  - proprietary
+  - vector
+  summary: A professional AI graphic design platform that generates high-quality raster images and fully editable vector art (SVG) from text prompts, tailored for designers and creative studios.
+  summary_ja: テキストプロンプトから高品質なラスタ画像や完全に編集可能なベクターアート（SVG）を生成する、デザイナーやクリエイティブスタジオ向けのプロフェッショナルなAIグラフィックデザインプラットフォームです。
+  thumbnail: https://framerusercontent.com/images/DQYq5TdScDK93Z2wZVneS7R3xOU.png
+  date_added: '2026-09-11'
+  source: agent
 - id: adobe-firefly-api-aa004e
   title: Adobe Firefly API
   area: image-2d

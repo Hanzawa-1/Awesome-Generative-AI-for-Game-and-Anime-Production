@@ -23855,6 +23855,7 @@ entries:
   - terrain
   summary: A framework for large-scale 3D Earth and terrain generation that decouples structural and textural synthesis. It utilizes dual sparse 3D-VAEs to compress high-resolution geometric voxels and 2D Gaussian Splats into compact latent spaces, enabling efficient generation across vast geographic scales.
   summary_ja: 構造とテクスチャの合成を分離することで、大規模な3D地球および地形生成を可能にするフレームワーク。デュアルスパース3D-VAEを用いて高解像度な幾何学的ボクセルと2D Gaussian Splattingをコンパクトな潜在空間に圧縮し、広大な地理的スケールでの効率的な生成を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/whiteinblue/earthcrafter
   date_added: '2026-09-10'
   source: agent
   arxiv_id: '2507.16535'
@@ -24152,6 +24153,7 @@ entries:
   - procedural
   summary: A modular framework for 3D city generation that integrates diffusion transformer layout synthesis, LLM-driven land-use planning, and procedural scene assembly.
   summary_ja: 拡散トランスフォーマーによるレイアウト合成、LLM駆動の土地利用計画、および手続き型シーンアセンブリを統合した、3D都市生成のためのモジュール式フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/djfatnerd/citycraft
   date_added: '2026-09-10'
   source: agent
   arxiv_id: '2406.04983'
@@ -28151,6 +28153,36 @@ entries:
   source: agent
   arxiv_id: '2606.19195'
   repo: hustvl/moebius
+- id: ace-44e778
+  title: ACE++
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.02487
+    github: https://github.com/ali-vilab/ACE_plus
+    project: https://ali-vilab.github.io/ACE_plus_page/
+  authors:
+  - Chaojie Mao
+  - Jingfeng Zhang
+  - Yulin Pan
+  - Zeyinzi Jiang
+  - Zhen Han
+  - Yu Liu
+  - Jingren Zhou
+  year: 2025
+  tags:
+  - diffusion
+  - image-editing
+  - inpainting
+  - instruction-following
+  summary: An instruction-based diffusion framework developed by Alibaba Tongyi Lab that unifies reference image generation, local editing, and controllable generation. It improves upon the Long-context Condition Unit (LCU) and utilizes a two-stage training scheme to enable high-quality context-aware content filling and precise instruction following.
+  summary_ja: アリババの通義ラボ（Tongyi Lab）が開発した、参照画像生成、局所編集、および制御可能な生成を統合する指示ベースの拡散フレームワーク。Long-context Condition Unit（LCU）を改良し、2段階のトレーニングスキームを採用することで、高品質な文脈適応型のコンテンツ埋め込みと精密な指示追従を実現しています。
+  thumbnail: https://ali-vilab.github.io/ACE_plus_page/static/images/icon.png
+  date_added: '2026-09-11'
+  source: agent
+  arxiv_id: '2501.02487'
+  repo: ali-vilab/ace_plus
 - id: flux-1-kontext-dev-807f2a
   title: FLUX.1 Kontext [dev]
   area: image-2d
@@ -29277,6 +29309,33 @@ entries:
   source: agent
   arxiv_id: '2603.05971'
   repo: tellurion-kanata/colorizediffusionxl
+- id: gapfill-no-pixel-left-behind-filling-gaps-in-anime-colorizat-e1c091
+  title: 'GapFill (No Pixel Left Behind: Filling Gaps in Anime Colorization)'
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.00800
+    github: https://github.com/marc2825/GapFill
+  authors:
+  - Masahiro Kono
+  - Akinobu Maejima
+  - Yuki Koyama
+  - Yotam Sechayk
+  - Takeo Igarashi
+  year: 2026
+  tags:
+  - anime
+  - colorization
+  - gap-filling
+  - production-tool
+  summary: A production-focused tool designed to automatically detect and fill tiny unpainted regions ("gaps") that frequently occur during the digital colorization of anime line art, significantly reducing manual cleanup time for artists.
+  summary_ja: アニメの線画デジタル彩色時に頻繁に発生する、塗り残された微小な領域（隙間）を自動的に検出して塗りつぶす、制作現場向けのツール。アーティストの手作業による修正時間を大幅に削減します。
+  thumbnail: https://opengraph.githubassets.com/1/marc2825/gapfill
+  date_added: '2026-09-11'
+  source: agent
+  arxiv_id: '2609.00800'
+  repo: marc2825/gapfill
 - id: instanceanimator-multi-instance-sketch-video-colorization-b0b340
   title: 'InstanceAnimator: Multi-Instance Sketch Video Colorization'
   area: image-2d
@@ -30674,6 +30733,37 @@ entries:
   source: agent
   arxiv_id: '2404.07987'
   repo: liming-ai/controlnet_plus_plus
+- id: it-s-all-about-your-sketch-democratising-sketch-control-in-d-ca978e
+  title: 'It''s All About Your Sketch: Democratising Sketch Control in Diffusion Models'
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.07234
+    github: https://github.com/subhadeepkoley/StableSketching
+    project: https://subhadeepkoley.github.io/StableSketching/
+    paper: https://arxiv.org/pdf/2403.07234
+  authors:
+  - Subhadeep Koley
+  - Ayan Kumar Bhunia
+  - Deeptanshu Sekhri
+  - Aneeshan Sain
+  - Pinaki Nath Chowdhury
+  - Tao Xiang
+  - Yi-Zhe Song
+  year: 2024
+  tags:
+  - controlnet
+  - cvpr
+  - diffusion
+  - sketch
+  summary: An abstraction-aware sketch-to-image framework that enables amateur, rough sketches to guide text-to-image diffusion models effectively, resolving spatial deformities and alignment issues common in standard control adapters.
+  summary_ja: アマチュアが描いた大まかなスケッチでもテキストから画像への拡散モデルを効果的に制御できるようにする、抽象化を考慮したフレームワーク。従来のコントロールアダプターで発生しがちだった空間的な歪みや位置合わせの問題を解決します。
+  thumbnail: https://opengraph.githubassets.com/1/subhadeepkoley/stablesketching
+  date_added: '2026-09-11'
+  source: agent
+  arxiv_id: '2403.07234'
+  repo: subhadeepkoley/stablesketching
 - id: one-step-image-translation-with-text-to-image-models-pix2pix-0809d5
   title: One-Step Image Translation with Text-to-Image Models (Pix2Pix-Turbo)
   area: image-2d
