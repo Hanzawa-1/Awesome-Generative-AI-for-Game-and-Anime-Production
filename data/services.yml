@@ -3043,6 +3043,23 @@ entries:
   thumbnail: https://www.jenova.ai/images/jenova-art-image.jpg
   date_added: '2026-06-13'
   source: seed
+- id: koma-studio-0e7694
+  title: KOMA Studio
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://koma-studio.site/
+  year: 2024
+  tags:
+  - inpainting
+  - manga
+  - translation
+  - typesetting
+  summary: An AI-powered desktop scanlation software designed for manga, manhwa, and comics. It combines context-aware AI translation, smart typesetting, automatic cleaning, and style-aware inpainting redraw into a single unified pipeline.
+  summary_ja: マンガ、マンファ、コミック向けに設計されたAI搭載のデスクトップ型翻訳・写植ソフトウェア。文脈を考慮したAI翻訳、スマートな写植、自動クリーニング、および画風を考慮したインペインティング再描画を単一の統合パイプラインに組み合わせています。
+  date_added: '2026-09-12'
+  source: agent
 - id: ismanga-e06967
   title: IsManga
   area: manga

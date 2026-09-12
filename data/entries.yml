@@ -34395,6 +34395,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: jbilcke-hf/ai-comic-factory
+- id: cogcartoon-towards-practical-story-visualization-d296c8
+  title: 'CogCartoon: Towards Practical Story Visualization'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.10718
+    paper: https://arxiv.org/pdf/2312.10718
+  authors:
+  - Zhongyang Zhu
+  - Jie Tang
+  year: 2023
+  tags:
+  - cartoon-style
+  - character-consistency
+  - story-visualization
+  summary: A practical story visualization framework based on pre-trained diffusion models that introduces a character-plugin generation strategy to represent specific characters as compact plugins. It enables long story visualization and consistent cartoon-style rendering with minimal data and storage requirements.
+  summary_ja: 事前学習済みの拡散モデルに基づく実用的なストーリー可視化フレームワーク。特定のキャラクターを軽量なプラグインとして表現するキャラクタープラグイン生成戦略を導入し、最小限のデータとストレージ要件で、一貫したカートゥーンスタイルの描画と長編ストーリーの可視化を可能にします。
+  date_added: '2026-09-12'
+  source: agent
+  arxiv_id: '2312.10718'
 - id: manga109-v2026-956e1b
   title: Manga109-v2026
   area: manga
@@ -34632,6 +34653,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hgmzhn/manga-translator-ui
+- id: manga-typesetter-27d5b4
+  title: Manga Typesetter
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/komiq-cc/manga-typesetter
+  year: 2024
+  tags:
+  - lettering
+  - manga
+  - scanlation
+  - typesetting
+  summary: A lightweight desktop application for manga and webtoon scanlation and lettering without requiring Photoshop. It features balloon-aware text placement, gradient and pattern fills, bulk styling by tags, and editable-layer PSD export.
+  summary_ja: Photoshopを必要とせずに、マンガやウェブトゥーンの翻訳・写植を行える軽量なデスクトップアプリケーション。吹き出しを考慮したテキスト配置、グラデーションやパターンの塗りつぶし、タグによる一括スタイリング、編集可能なレイヤー付きPSD書き出しなどの機能を備えています。
+  thumbnail: https://opengraph.githubassets.com/1/komiq-cc/manga-typesetter
+  date_added: '2026-09-12'
+  source: agent
+  repo: komiq-cc/manga-typesetter
 - id: mangatranslator-e6bc7c
   title: MangaTranslator
   area: manga
@@ -35702,6 +35742,30 @@ entries:
   date_added: '2026-07-25'
   source: agent
   repo: patrickctyyx/screentone-removal
+- id: chorus-effort-aware-multi-agent-human-ai-collaboration-for-p-ecffe7
+  title: 'CHORUS: Effort-Aware Multi-Agent Human-AI Collaboration for Professional Translation'
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.19016
+    paper: https://arxiv.org/pdf/2602.19016
+  authors:
+  - George X. Wang
+  - Jiaqian Hu
+  - Guande Wu
+  - Jing Qian
+  year: 2026
+  tags:
+  - human-ai
+  - localization
+  - multi-agent
+  - translation
+  summary: A mixed-initiative translation system designed for professional translators that utilizes a multi-agent collaboration framework based on MQM theory. The system adapts to individual translator styles and traits, reducing completion time and cognitive effort while improving translation quality.
+  summary_ja: MQM理論に基づくマルチエージェント協調フレームワークを利用した、プロの翻訳者向けに設計された人間とAIの協調翻訳システム。個々の翻訳者のスタイルや特徴に適応し、翻訳品質を向上させながら、作業時間と認知負荷を削減します。
+  date_added: '2026-09-12'
+  source: agent
+  arxiv_id: '2602.19016'
 - id: meowth-gba-translator-07e063
   title: Meowth GBA Translator
   area: text-design
@@ -35983,6 +36047,25 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: hillya51/lunatranslator
+- id: open-lyrics-openlrc-b27ee5
+  title: Open-Lyrics (openlrc)
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/zh-plus/openlrc
+  year: 2023
+  tags:
+  - llm
+  - subtitles
+  - translation
+  - whisper
+  summary: An open-source Python library that transcribes audio using faster-whisper and translates/polishes the text into .lrc subtitles using LLMs like OpenAI and Anthropic. It features context-aware translation, audio preprocessing to reduce hallucinations, and token-efficient translation modes.
+  summary_ja: faster-whisperを使用して音声を文字起こしし、OpenAIやAnthropicなどのLLMを用いて.lrc字幕に翻訳・推敲するオープンソースのPythonライブラリ。文脈を考慮した翻訳、ハルシネーションを抑制する音声前処理、トークン効率の良い翻訳モードを備えています。
+  thumbnail: https://opengraph.githubassets.com/1/zh-plus/openlrc
+  date_added: '2026-09-12'
+  source: agent
+  repo: zh-plus/openlrc
 - id: playtranslate-7d7301
   title: PlayTranslate
   area: text-design
@@ -36723,6 +36806,31 @@ entries:
   date_added: '2026-08-01'
   source: agent
   arxiv_id: '2501.09099'
+- id: genquest-an-llm-based-text-adventure-game-for-language-learn-4cdeea
+  title: 'GenQuest: An LLM-based Text Adventure Game for Language Learners'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.04498
+    paper: https://arxiv.org/pdf/2510.04498
+  authors:
+  - Qiao Wang
+  - Adnan Labib
+  - Robert Swier
+  - Michael Hofmeyr
+  - Zheng Yuan
+  year: 2025
+  tags:
+  - interactive-fiction
+  - llm
+  - quest-generation
+  - text-adventure
+  summary: A generative text adventure game system that leverages Large Language Models to dynamically generate branching "choose-your-own-adventure" style narrative quests tailored to a player's proficiency level.
+  summary_ja: プレイヤーの習熟度レベルに合わせた分岐型の「自分で選ぶ冒険」スタイルのナラティブクエストを、大規模言語モデル（LLM）を用いて動的に生成するテキストアドベンチャーゲームシステム。
+  date_added: '2026-09-12'
+  source: agent
+  arxiv_id: '2510.04498'
 - id: narrative-to-scene-generation-1fd0b4
   title: Narrative-to-Scene Generation
   area: text-design
@@ -36840,6 +36948,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2505.03547'
+- id: agents-room-narrative-generation-through-multi-step-collabor-3fa94f
+  title: 'Agents'' Room: Narrative Generation through Multi-step Collaboration'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.02603
+    github: https://github.com/google-deepmind/tell_me_a_story
+    paper: https://arxiv.org/pdf/2410.02603
+  authors:
+  - Fantine Huot
+  - Reinald Kim Amplayo
+  - Jennimaria Palomaki
+  - Alice Shoshana Jakobovits
+  - Elizabeth Clark
+  - Mirella Lapata
+  year: 2024
+  tags:
+  - agents
+  - llm
+  - narrative
+  - story-generation
+  summary: A multi-agent narrative generation framework inspired by narrative theory that decomposes story writing into specialized subtasks handled by collaborative agents. It includes the "Tell Me A Story" dataset of complex writing prompts and human-written stories.
+  summary_ja: 複数の専門エージェントの協調によってストーリー執筆をサブタスクに分解して実行する、ナラティブ理論に着想を得たマルチエージェント物語生成フレームワーク。複雑な執筆プロンプトと人間が執筆したストーリーからなる「Tell Me A Story」データセットを同梱する。
+  thumbnail: https://opengraph.githubassets.com/1/google-deepmind/tell_me_a_story
+  date_added: '2026-09-12'
+  source: agent
+  arxiv_id: '2410.02603'
+  repo: google-deepmind/tell_me_a_story
 - id: collabstory-multi-llm-collaborative-story-generation-and-aut-206529
   title: 'CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis'
   area: text-design
@@ -37251,6 +37388,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2511.10277'
+- id: gemma3npc-2e7abf
+  title: Gemma3NPC
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    github: https://github.com/chimbiwide/Gemma3NPC
+    hf: https://huggingface.co/collections/npcLM/gemma3npc
+  year: 2025
+  tags:
+  - dialogue
+  - gemma
+  - npc
+  - roleplay
+  summary: An open-source project featuring fine-tuned Gemma models (such as Gemma 3 and Gemma 4) optimized specifically for live NPC interactions, quest generation, and roleplaying in video games.
+  summary_ja: ビデオゲームにおけるリアルタイムのNPCインタラクション、クエスト生成、ロールプレイングに特化して最適化された、微調整済みのGemmaモデル（Gemma 3やGemma 4など）を提供するオープンソースプロジェクト。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/collections/npcLM/gemma3npc-689a3eb0103b7ea749ca3c73.png
+  date_added: '2026-09-12'
+  source: agent
+  repo: chimbiwide/gemma3npc
 - id: interactive-ai-npcs-powered-by-llms-technical-report-for-the-f40ca0
   title: 'Interactive AI NPCs Powered by LLMs: Technical Report for the CPDC Challenge 2025'
   area: text-design
