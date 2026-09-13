@@ -4395,6 +4395,41 @@ entries:
   thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-06-13'
   source: seed
+- id: adobe-premiere-pro-generative-extend-2753bf
+  title: Adobe Premiere Pro Generative Extend
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/premiere.html
+  year: 2025
+  tags:
+  - firefly
+  - industry-standard
+  - video-editing
+  - video-extension
+  summary: An AI-powered feature in Adobe Premiere Pro, powered by the Firefly Video Model, that allows video editors to extend the beginning or end of video clips by up to two seconds and audio clips by up to ten seconds to smooth transitions.
+  summary_ja: Adobe Premiere ProのAI機能（Firefly Video Model搭載）で、動画クリップの開始または終了部分を最大2秒間、オーディオクリップを最大10秒間延長できます。追加のフレームをインテリジェントに生成し、トランジションをスムーズにします。
+  date_added: '2026-09-13'
+  source: agent
+- id: runway-inpainting-b80775
+  title: Runway Inpainting
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runwayml.com/
+  year: 2024
+  tags:
+  - inpainting
+  - object-removal
+  - vfx
+  - video-editing
+  summary: An AI-powered video editing tool that allows users to seamlessly remove objects, people, or watermarks from video footage using simple brush strokes. It leverages advanced temporal consistency algorithms to ensure clean, artifact-free results.
+  summary_ja: シンプルなブラシ操作で、動画からオブジェクト、人物、ウォーターマークをシームレスに削除できる、プロフェッショナル向けのAI搭載動画編集ツール。高度な時間的一貫性アルゴリズムを活用し、フレーム全体でクリーンでアーティファクトのない結果を保証します。
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
+  date_added: '2026-09-13'
+  source: agent
 - id: runway-ai-magic-tools-d4fb7e
   title: Runway AI Magic Tools
   area: video

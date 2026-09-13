@@ -39001,6 +39001,33 @@ entries:
   source: agent
   arxiv_id: '2501.00103'
   repo: lightricks/ltx-video
+- id: mofa-video-f6b04c
+  title: MOFA-Video
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.20222
+    github: https://github.com/MyNiuuu/MOFA-Video
+  authors:
+  - Muyao Niu
+  - Wenyu Li
+  - Xiangyu Zhu
+  - Dong Liang
+  - Zhaoxiang Zhang
+  - Zhen Lei
+  year: 2024
+  tags:
+  - controllable-generation
+  - image-animation
+  - motion-transfer
+  summary: MOFA-Video is a controllable image animation framework that adapts motions from different domains to a frozen image-to-video diffusion model. By employing sparse-to-dense motion generation and flow-based motion adaptation, it enables precise control over image animation using trajectories, keypoint sequences, or reference videos.
+  summary_ja: MOFA-Videoは、異なるドメインのモーションをフリーズされた画像からビデオ（I2V）への拡散モデルに適応させる、制御可能な画像アニメーションフレームワークです。疎から密へのモーション生成とフローベースのモーション適応を採用することで、軌跡、キーポイントシーケンス、または参照ビデオを使用した画像アニメーションの正確な制御を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/myniuuu/mofa-video
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2405.20222'
+  repo: myniuuu/mofa-video
 - id: motion-i2v-4fc9ea
   title: Motion-I2V
   area: video
@@ -39905,6 +39932,29 @@ entries:
   source: agent
   arxiv_id: '2108.11515'
   repo: peterl1n/robustvideomatting
+- id: cosmos-3-omnimodal-world-models-for-physical-ai-150777
+  title: 'Cosmos 3: Omnimodal World Models for Physical AI'
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.02800
+    github: https://github.com/NVIDIA/cosmos
+  authors:
+  - NVIDIA
+  year: 2026
+  tags:
+  - multimodal
+  - open-weights
+  - video-generation
+  - world-model
+  summary: An open-source omnimodal world foundation model family designed to jointly process and generate language, images, video, audio, and action sequences. It features a mixture-of-transformers architecture optimized for physical AI, world simulation, and high-fidelity video generation.
+  summary_ja: 言語、画像、動画、音声、およびアクションシーケンスを統合的に処理・生成する、オープンソースの多角的世界基盤モデル。物理AI、世界シミュレーション、および高精度な動画生成に最適化されたMixture-of-Transformers（MoT）アーキテクチャを採用しています。
+  thumbnail: https://opengraph.githubassets.com/1/nvidia/cosmos
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2606.02800'
+  repo: nvidia/cosmos
 - id: ltx-2-090b7e
   title: LTX-2
   area: video
@@ -40404,6 +40454,29 @@ entries:
   source: agent
   arxiv_id: '2602.15031'
   repo: yehonathanlitman/editctrl
+- id: effecterase-joint-video-object-removal-and-insertion-for-hig-5af4cd
+  title: 'EffectErase: Joint Video Object Removal and Insertion for High-Quality Effect Erasing'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.19224
+    github: https://github.com/FudanCVL/EffectErase
+  authors:
+  - Fudan University
+  year: 2026
+  tags:
+  - object-removal
+  - video-editing
+  - video-inpainting
+  - wan2.1
+  summary: A video object removal framework that jointly learns object removal and insertion. Built on the Wan2.1 video generation system, it effectively eliminates dynamic target objects along with their complex visual effects like shadows and reflections.
+  summary_ja: オブジェクトの除去と挿入を共同学習する動画オブジェクト除去フレームワーク。Wan2.1動画生成システムをベースに構築され、動的なターゲットオブジェクトだけでなく、その影や反射などの複雑な視覚効果を効果的に排除し、シームレスな背景を復元します。
+  thumbnail: https://opengraph.githubassets.com/1/fudancvl/effecterase
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2603.19224'
+  repo: fudancvl/effecterase
 - id: firered-openstoryline-9c019c
   title: FireRed-OpenStoryline
   area: video
@@ -41485,6 +41558,60 @@ entries:
   source: agent
   arxiv_id: '2204.02663'
   repo: mcg-nku/e2fgvi
+- id: duo-vsr-dual-stream-distillation-for-one-step-video-super-re-28eb6d
+  title: 'DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.22271
+    github: https://github.com/cszy98/DUO-VSR
+    paper: https://arxiv.org/pdf/2603.22271.pdf
+  authors:
+  - Zhengyao Lv
+  - Xintao Wang
+  - Ying Shan
+  year: 2026
+  tags:
+  - distillation
+  - one-step-generation
+  - video-super-resolution
+  summary: DUO-VSR is a dual-stream distillation framework that compresses multi-step video super-resolution models into a one-step generator. It utilizes progressive guided distillation initialization and joint optimization of distribution matching distillation and GAN losses to maintain high visual quality and temporal consistency.
+  summary_ja: DUO-VSRは、多ステップのビデオ超解像モデルをワンステップのジェネレーターに圧縮する、デュアルストリーム蒸留フレームワークです。段階的にガイドされた蒸留初期化と、分布マッチング蒸留およびGAN損失の共同最適化を利用して、高い視覚的品質と時間的一貫性を維持します。
+  thumbnail: https://opengraph.githubassets.com/1/cszy98/duo-vsr
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2603.22271'
+  repo: cszy98/duo-vsr
+- id: litevsr-lightweight-adaptation-of-frozen-diffusion-transform-522b87
+  title: 'LiteVSR: Lightweight Adaptation of Frozen Diffusion Transformers for Video Super-Resolution'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.09250
+    github: https://github.com/YuCao16/LiteVSR
+    paper: https://arxiv.org/pdf/2606.09250.pdf
+    website: https://yucao16.github.io/LiteVSR/
+  authors:
+  - Yu Cao
+  - Ziquan Liu
+  - Zhensong Zhang
+  - Jiankang Deng
+  - Shaogang Gong
+  - Jifei Song
+  year: 2026
+  tags:
+  - adapter
+  - diffusion-transformer
+  - video-super-resolution
+  summary: LiteVSR is a lightweight video super-resolution framework that adapts frozen Diffusion Transformers using a state-aware adapter. It simplifies the adaptation process by predicting a constant velocity field across timesteps, reducing the need for complex time-varying transformations.
+  summary_ja: LiteVSRは、状態認識アダプターを用いてフリーズされたDiffusion Transformerを適応させる、軽量なビデオ超解像フレームワークです。タイムステップ間で一定の速度場を予測することで適応プロセスを簡略化し、複雑な時間変化を伴う変換の必要性を低減します。
+  thumbnail: https://opengraph.githubassets.com/1/yucao16/litevsr
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2606.09250'
+  repo: yucao16/litevsr
 - id: nanovsr-towards-real-time-video-super-resolution-on-edge-dev-56d1e6
   title: 'NanoVSR: Towards Real-Time Video Super-Resolution on Edge Devices'
   area: video
@@ -42342,6 +42469,32 @@ entries:
   source: agent
   arxiv_id: '2605.17312'
   repo: showlab/vista
+- id: freevis-training-free-video-stylization-with-inconsistent-re-541f95
+  title: 'FreeViS: Training-free Video Stylization with Inconsistent References'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.01686
+    github: https://github.com/XuJiacong/FreeViS
+    project: https://xujiacong.github.io/FreeViS/
+  authors:
+  - Jiacong Xu
+  - Yiqun Mei
+  - Ke Zhang
+  - Vishal M. Patel
+  year: 2025
+  tags:
+  - diffusion
+  - training-free
+  - video-style-transfer
+  summary: A training-free video stylization framework that leverages multiple inconsistent stylized references to generate high-quality stylized videos with rich style details and strong temporal coherence.
+  summary_ja: 豊富なスタイル詳細と強力な時間的一貫性を備えた高品質なスタイル化ビデオを生成するために、複数の不一致なスタイル参照画像を活用する、トレーニング不要のビデオスタイル変換フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/xujiacong/freevis
+  date_added: '2026-09-13'
+  source: agent
+  arxiv_id: '2510.01686'
+  repo: xujiacong/freevis
 - id: fresco-v2-abd527
   title: FRESCO-v2
   area: video
