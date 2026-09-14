@@ -392,6 +392,35 @@ entries:
   source: agent
   arxiv_id: '2405.03121'
   repo: x-lance/anitalker
+- id: degstalk-decomposed-per-embedding-gaussian-fields-for-hair-p-e0191a
+  title: 'DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.20148
+    github: https://github.com/CVI-SZU/DEGSTalk
+  authors:
+  - Kaijun Deng
+  - Dezhi Zheng
+  - Jindong Xie
+  - Jinbao Wang
+  - Weicheng Xie
+  - Linlin Shen
+  - Siyang Song
+  year: 2024
+  tags:
+  - 3dgs
+  - gaussian-splatting
+  - hair-rendering
+  - talking-head
+  summary: A 3D Gaussian Splatting (3DGS)-based talking face synthesis method that addresses the challenge of rendering realistic long hair and complex head motions by decomposing the scene into static, dynamic, and hair-specific Gaussian fields.
+  summary_ja: 3Dガウシアン・スプラッティング（3DGS）に基づき、シーンを静的、動的、および髪専用のガウシアンフィールドに分解することで、リアルな長髪や複雑な頭部運動を伴うトーキングフェイスを高品質に合成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/cvi-szu/degstalk
+  date_added: '2026-09-14'
+  source: agent
+  arxiv_id: '2412.20148'
+  repo: cvi-szu/degstalk
 - id: ditto-motion-space-diffusion-for-controllable-realtime-talki-0b1741
   title: 'Ditto: Motion-Space Diffusion for Controllable Realtime Talking Head Synthesis'
   area: animation
@@ -544,6 +573,32 @@ entries:
   source: agent
   arxiv_id: '2403.12886'
   repo: miccunifi/emovoca
+- id: float-generative-motion-latent-flow-matching-for-audio-drive-da0c26
+  title: 'FLOAT: Generative Motion Latent Flow Matching for Audio-driven Talking Portrait'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.01064
+    github: https://github.com/deepbrainai-research/float
+    project: https://deepbrainai-research.github.io/float/
+  authors:
+  - Taekyung Ki
+  - Dongchan Min
+  - Gyeongsu Chae
+  year: 2024
+  tags:
+  - flow-matching
+  - lip-sync
+  - portrait-animation
+  - talking-head
+  summary: A flow-matching-based audio-driven talking portrait generation method that shifts generative modeling from pixel-based latent space to a learned orthogonal motion latent space, enabling efficient and temporally consistent video generation from a single source image and audio.
+  summary_ja: 1枚のソース画像と音声から、ピクセルベースの潜在空間ではなく、学習された直交モーション潜在空間でフローマッチングを用いることで、効率的かつ時間的一貫性のある高品質なトーキングポートレート動画を生成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/deepbrainai-research/float
+  date_added: '2026-09-14'
+  source: agent
+  arxiv_id: '2412.01064'
+  repo: deepbrainai-research/float
 - id: hallo-824ff6
   title: Hallo
   area: animation
@@ -2148,6 +2203,29 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2605.06593'
+- id: skinned-motion-retargeting-via-artifact-driven-kinematic-pri-36b29d
+  title: Skinned Motion Retargeting via Artifact-driven Kinematic Prior Refinement
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.06517
+  authors:
+  - Seokhyeon Hong
+  - Chaelin Kim
+  - Inseo Jang
+  - Soojin Choi
+  - Junyong Noh
+  year: 2026
+  tags:
+  - geometry-aware
+  - retargeting
+  - skinned-character
+  summary: A geometry-aware motion retargeting framework that addresses self-penetration artifacts on the posed target mesh by converting them into corrective cues in a shared motion embedding via a motion-to-vertex Jacobian.
+  summary_ja: ターゲットキャラクターのメッシュ上で発生する自己干渉（めり込み）を検出し、モーション・トゥ・バーテックス（運動から頂点への）ヤコビアンを介して共有モーション埋め込み内の修正キューに変換することで、自己干渉を抑制するジオメトリ対応型モーションリターゲティング手法。
+  date_added: '2026-09-14'
+  source: agent
+  arxiv_id: '2609.06517'
 - id: skinned-motion-retargeting-with-spatially-adaptive-interacti-8d494d
   title: Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance
   area: animation
@@ -3070,6 +3148,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vc-bonn/saft
+- id: skillmimic-v2-learning-robust-and-generalizable-interaction-460f75
+  title: 'SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.02094
+    github: https://github.com/Ingrid789/SkillMimic-V2
+  authors:
+  - Runyi Yu
+  - Yinhuai Wang
+  - Qihan Zhao
+  - Hok Wai Tsui
+  - Jingbo Wang
+  - Ping Tan
+  - Qifeng Chen
+  year: 2025
+  tags:
+  - character-control
+  - interaction-skills
+  - physics-animation
+  - reinforcement-learning
+  summary: A reinforcement learning framework that enables physically simulated characters to learn robust and generalizable interaction skills from sparse, noisy, and disconnected demonstrations.
+  summary_ja: スパースでノイズが多く、断片的なデモンストレーションから、物理シミュレーションされたキャラクターが堅牢で汎用的なインタラクションスキルを学習できるようにする強化学習フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ingrid789/skillmimic-v2
+  date_added: '2026-09-14'
+  source: agent
+  arxiv_id: '2505.02094'
+  repo: ingrid789/skillmimic-v2
 - id: smp-reusable-score-matching-motion-priors-for-physics-based-9976bf
   title: 'SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control'
   area: animation
@@ -4513,6 +4620,25 @@ entries:
   source: agent
   arxiv_id: '2512.08500'
   repo: jiann-li/mimic2dm_release
+- id: mimickit-18d6a3
+  title: MimicKit
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    github: https://github.com/xbpeng/MimicKit
+  year: 2025
+  tags:
+  - character-control
+  - motion-imitation
+  - physics
+  - reinforcement-learning
+  summary: A lightweight suite of motion imitation methods for training motion controllers, supporting algorithms like DeepMimic, AMP, ASE, and SMP across multiple simulation engines.
+  summary_ja: DeepMimic、AMP、ASE、SMPなどのアルゴリズムをサポートし、複数のシミュレーションエンジンに対応した、モーションコントローラー訓練用の軽量なモーション模倣手法スイート。
+  thumbnail: https://opengraph.githubassets.com/1/xbpeng/mimickit
+  date_added: '2026-09-14'
+  source: agent
+  repo: xbpeng/mimickit
 - id: parc-physics-based-augmentation-with-reinforcement-learning-96e253
   title: 'PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers'
   area: animation
@@ -5638,6 +5764,36 @@ entries:
   source: agent
   arxiv_id: '2403.18512'
   repo: qrzou/parco
+- id: scamo-74b8f9
+  title: ScaMo
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.14559
+    github: https://github.com/shunlinlu/ScaMo_code
+  authors:
+  - Shunlin Lu
+  - Jingbo Wang
+  - Zeyu Lu
+  - Ling-Hao Chen
+  - Wenxun Dai
+  - Junting Dong
+  - Zhiyang Dou
+  - Bo Dai
+  - Ruimao Zhang
+  year: 2024
+  tags:
+  - motion-generation
+  - scaling-law
+  - text-to-motion
+  summary: A scalable autoregressive motion generation framework designed to explore scaling laws in text-to-motion tasks. It features a Motion FSQ-VAE tokenizer for stable, high-fidelity motion quantization and a text-prefix autoregressive transformer, scaling up to 3 billion parameters.
+  summary_ja: テキストから動作を生成するタスクにおけるスケーリング則を探求するために設計された、スケーラブルな自己回帰型動作生成フレームワークです。安定した高精度な動作量子化を実現するMotion FSQ-VAEトークナイザーと、テキストプレフィックス自己回帰トランスフォーマーを採用し、最大30億パラメータまで拡張可能です。
+  thumbnail: https://opengraph.githubassets.com/1/shunlinlu/scamo_code
+  date_added: '2026-09-14'
+  source: agent
+  arxiv_id: '2412.14559'
+  repo: shunlinlu/scamo_code
 - id: sopo-text-to-motion-generation-using-semi-online-preference-bd5692
   title: 'SoPo: Text-to-Motion Generation Using Semi-Online Preference Optimization'
   area: animation
@@ -5692,6 +5848,25 @@ entries:
   source: agent
   arxiv_id: '2404.10685'
   repo: nv-tlabs/tesmo
+- id: text-to-vrma-ee6223
+  title: Text-To-VRMA
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    github: https://github.com/Kirakun0328/text-to-vrma
+  year: 2024
+  tags:
+  - text-to-motion
+  - vrm
+  - vrma
+  - vtuber
+  summary: An open-source web application designed to generate VRM Animation (.vrma) files from text descriptions. It supports Japanese and English prompts, utilizes LLM keyframing and NVIDIA ARDY engines, and allows users to preview animations on VRM characters directly in the browser.
+  summary_ja: テキスト記述からVRMアニメーション（.vrma）ファイルを生成するために設計されたオープンソースのWebアプリケーションです。日本語と英語のプロンプトに対応し、LLMキーフレーム生成やNVIDIA ARDYエンジンを利用して、ブラウザ上でVRMキャラクターのモーションをプレビュー・エクスポートできます。
+  thumbnail: https://opengraph.githubassets.com/1/kirakun0328/text-to-vrma
+  date_added: '2026-09-14'
+  source: agent
+  repo: kirakun0328/text-to-vrma
 - id: momask-efdbc2
   title: MoMask
   area: animation

@@ -154,6 +154,24 @@ entries:
   thumbnail: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692080/capsule_616x353.jpg?t=1759407436
   date_added: '2026-06-29'
   source: agent
+- id: svfi-squirrel-video-frame-interpolation-faee87
+  title: SVFI (Squirrel Video Frame Interpolation)
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://store.steampowered.com/app/1692080/SVFI/
+  year: 2021
+  tags:
+  - anime
+  - app
+  - inbetweening
+  - interpolation
+  summary: A popular commercial video frame interpolation and super-resolution software tool widely used by video editors and anime creators. It integrates advanced AI models like RIFE and GMFSS to upscale and smooth out low-FPS animations.
+  summary_ja: ビデオエディターやアニメクリエイターに広く使用されている、人気の商用ビデオフレーム補間および超解像ソフトウェアツールです。RIFEやGMFSSなどの高度なAIモデルを統合し、低フレームレートのアニメーションを高画質化・滑らかに補間します。
+  thumbnail: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1692080/capsule_616x353.jpg?t=1759407436
+  date_added: '2026-09-14'
+  source: agent
 - id: smoothvideo-project-26c5ff
   title: SmoothVideo Project
   area: animation
@@ -258,6 +276,23 @@ entries:
   summary_ja: ゲーム開発や映画制作向けの高度なモーションリターゲティング、モーション編集、ライブモーションキャプチャ連携機能を備えた、プロフェッショナルなリアルタイム3Dアニメーションおよびキャラクター作成ソフトウェア。
   thumbnail: https://www.reallusion.com/iclone/includes/images/iclone_og.jpg?20220512
   date_added: '2026-07-13'
+  source: agent
+- id: ragdoll-dynamics-2564c3
+  title: Ragdoll Dynamics
+  area: animation
+  task: physics-animation
+  kind: proprietary
+  links:
+    website: https://ragdolldynamics.com/
+  year: 2021
+  tags:
+  - blender-addon
+  - maya-plugin
+  - physics-animation
+  - real-time-physics
+  summary: A real-time physics solver for Autodesk Maya and Blender that allows animators to generate overlapping animation and full-body dynamics directly on animation controls.
+  summary_ja: Autodesk MayaおよびBlender向けのリアルタイム物理ソルバー。アニメーターがアニメーションコントロール上で直接、オーバーラップアニメーションや全身のダイナミクスを生成できるようにする。
+  date_added: '2026-09-14'
   source: agent
 - id: deepmotion-a58bdd
   title: DeepMotion
