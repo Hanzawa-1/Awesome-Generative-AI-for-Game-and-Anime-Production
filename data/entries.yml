@@ -8502,6 +8502,25 @@ entries:
   date_added: '2026-07-14'
   source: agent
   repo: wasted-audio/hvcc
+- id: metasounds-procedural-audio-engine-a58459
+  title: MetaSounds Procedural Audio Engine
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/Humank1nd/metasounds-procedural-audio
+  year: 2023
+  tags:
+  - metasounds
+  - procedural-audio
+  - sound-synthesis
+  - unreal-engine
+  summary: A real-time procedural audio synthesis and acoustic raycast engine built for Unreal Engine 5 MetaSounds. It models physical acoustic invariants of internal combustion engines, such as cylinder firing rates and radial Doppler shifts, to synthesize audio parameters mathematically in real-time.
+  summary_ja: Unreal Engine 5のMetaSounds向けに構築された、リアルタイムのプロシージャル音響合成および音響レイキャストエンジン。シリンダーの点火率やラジアルドップラー効果などの内燃機関の物理的な音響不変量をモデル化し、リアルタイムで数学的にオーディオパラメータを合成します。
+  thumbnail: https://opengraph.githubassets.com/1/humank1nd/metasounds-procedural-audio
+  date_added: '2026-09-15'
+  source: agent
+  repo: humank1nd/metasounds-procedural-audio
 - id: noisebandnet-2804bd
   title: NoiseBandNet
   area: audio
@@ -10429,6 +10448,34 @@ entries:
   source: agent
   arxiv_id: '2407.05407'
   repo: funaudiollm/cosyvoice
+- id: e2-tts-a42cdf
+  title: E2 TTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.18009
+  authors:
+  - Sefik Emre Eskimez
+  - Xiaofei Wang
+  - Manthan Thakker
+  - Canrun Li
+  - Zirun Zhu
+  - Min Tang
+  - Zhen Xiao
+  - Sheng Zhao
+  - Jinyu Li
+  year: 2024
+  tags:
+  - flow-matching
+  - non-autoregressive
+  - tts
+  - zero-shot
+  summary: A fully non-autoregressive zero-shot text-to-speech system that offers human-level naturalness and state-of-the-art speaker similarity and intelligibility. It uses a flow-matching-based mel spectrogram generator trained on character sequences with filler tokens, bypassing the need for complex alignment or duration modeling.
+  summary_ja: 人間レベルの自然さと、最先端の話者類似性および明瞭度を提供する、完全非自動回帰型のゼロショットテキスト読み上げ（TTS）システム。フィラートークンを含む文字シーケンスで訓練されたフローマッチングベースのメルスペクトログラムジェネレータを使用し、複雑なアライメントや音素長の予測を不要にしています。
+  date_added: '2026-09-15'
+  source: agent
+  arxiv_id: '2406.18009'
 - id: f5-tts-ad5708
   title: F5-TTS
   area: audio
@@ -12494,6 +12541,39 @@ entries:
   source: agent
   arxiv_id: '2509.02466'
   repo: yanwen-w/tera
+- id: anigs-animatable-gaussian-avatar-from-a-single-image-with-in-6655a9
+  title: 'AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.02684
+    github: https://github.com/aigc3d/AniGS
+    website: https://lingtengqiu.github.io/2024/AniGS/
+  authors:
+  - Lingteng Qiu
+  - Liyuan Ma
+  - Guanjun Wu
+  - Qi Zu
+  - Yushuang Wu
+  - Wayne Wu
+  - Ziwei Liu
+  - Binh-Son Hua
+  - Shuguang Cui
+  - Xiaoguang Han
+  year: 2024
+  tags:
+  - 3dgs
+  - 4dgs
+  - human-avatar
+  - single-image
+  summary: A method for generating animatable 3D human avatars from a single image. It utilizes a video diffusion model to generate multi-view canonical pose images and models multi-view inconsistencies as temporal changes in 4D Gaussian Splatting, enabling high-fidelity reconstruction and real-time animation.
+  summary_ja: 単一の画像からアニメーション可能な3D人物アバターを生成する手法。ビデオ拡散モデルを利用してマルチビューの標準ポーズ画像を生成し、マルチビュー間の不整合を4D Gaussian Splattingの時間的変化としてモデリングすることで、高精度な再構成とリアルタイムアニメーションを可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/aigc3d/anigs
+  date_added: '2026-09-15'
+  source: agent
+  arxiv_id: '2412.02684'
+  repo: aigc3d/anigs
 - id: audio2photoreal-f3a360
   title: Audio2Photoreal
   area: characters
