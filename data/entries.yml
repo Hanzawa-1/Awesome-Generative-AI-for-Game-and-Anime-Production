@@ -13025,6 +13025,32 @@ entries:
   date_added: '2026-08-26'
   source: agent
   arxiv_id: '2601.07660'
+- id: tgrhuman-text-guided-realistic-3d-human-generation-via-diffu-74687f
+  title: 'TGRHuman: Text-Guided Realistic 3D Human Generation via Diffusion Renderer'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.12175
+    project: https://cic.tju.edu.cn/faculty/likun/projects/TGRHuman/index.html
+    paper: https://arxiv.org/pdf/2608.12175
+  authors:
+  - Muxin Zhang
+  - Chaohui Yu
+  - Yuanwang Yang
+  - Min Wei
+  - Zhuo Su
+  - Kun Li
+  year: 2026
+  tags:
+  - 3d-human
+  - diffusion-renderer
+  - text-to-3d
+  summary: A novel framework for text-guided realistic 3D human generation that decouples geometry and texture generation. It uses a high-resolution generative module for multi-view normals and a diffusion renderer for dense, spatially consistent texture synthesis.
+  summary_ja: 形状とテクスチャの生成を分離する、テキスト指示型のリアルな3D人間生成フレームワーク。マルチビュー法線用の高解像度生成モジュールと、空間的一貫性のある高密度なテクスチャ合成のための拡散レンダラーを採用しています。
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2608.12175'
 - id: cartoonalive-059437
   title: CartoonAlive
   area: characters
@@ -14301,6 +14327,35 @@ entries:
   source: agent
   arxiv_id: '2504.14967'
   repo: ant-research/tensorialgaussianavatar
+- id: 3dgh-3d-head-generation-with-composable-hair-and-face-454111
+  title: '3DGH: 3D Head Generation with Composable Hair and Face'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.20875
+    github: https://github.com/c-he/3DGH
+  authors:
+  - Chengan He
+  - Junxuan Li
+  - Tobias Kirschstein
+  - Artem Sevastopolsky
+  - Shunsuke Saito
+  - Qingyang Tan
+  - Javier Romero
+  - Chen Cao
+  year: 2025
+  tags:
+  - 3d-head
+  - gaussian-splatting
+  - hair-generation
+  summary: An unconditional generative model for 3D human heads that separates hair and face components using a template-based 3D Gaussian Splatting representation.
+  summary_ja: テンプレートベースの3D Gaussian Splatting表現を用いて髪と顔のコンポーネントを分離し、個別に制御可能にする3D人間の頭部用無条件生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/c-he/3dgh
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2506.20875'
+  repo: c-he/3dgh
 - id: arc2avatar-generating-expressive-3d-avatars-from-a-single-im-183066
   title: 'Arc2Avatar: Generating Expressive 3D Avatars from a Single Image via ID Guidance'
   area: characters
@@ -14357,6 +14412,32 @@ entries:
   source: agent
   arxiv_id: '2502.20323'
   repo: xg-chu/artalk
+- id: audio-driven-universal-gaussian-head-avatars-235ccb
+  title: Audio-Driven Universal Gaussian Head Avatars
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.18924
+    github: https://github.com/Kartik-Teotia/UniGAHA
+  authors:
+  - Kartik Teotia
+  - Helge Rhodin
+  - Mohit Mendiratta
+  - Hyeongwoo Kim
+  - Marc Habermann
+  - Christian Theobalt
+  year: 2025
+  tags:
+  - audio-driven
+  - gaussian-splatting
+  - talking-head
+  summary: An audio-driven universal photorealistic avatar synthesis method combining a person-agnostic speech model with a Universal Head Avatar Prior (UHAP) trained on cross-identity multi-view videos.
+  summary_ja: 個人に依存しない音声モデルと、クロスアイデンティティのマルチビュー動画で訓練されたユニバーサルヘッドアバター事前分布（UHAP）を組み合わせた、音声駆動型の汎用フォトリアルアバター合成手法。
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2509.18924'
+  repo: kartik-teotia/unigaha
 - id: fastavatar-instant-3d-gaussian-splatting-for-faces-from-sing-0588ff
   title: 'FastAvatar: Instant 3D Gaussian Splatting for Faces from Single Unconstrained Poses'
   area: characters
@@ -19782,6 +19863,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: xrvitd/meshmosaic
+- id: meshy-t2-fast-native-mesh-generation-with-flow-matching-c87e65
+  title: 'Meshy T2: Fast Native Mesh Generation with Flow Matching'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.28675
+    github: https://github.com/meshy-dev/meshy-t2
+  authors:
+  - Jiale Xu
+  - Rendong Liang
+  - Yuhao Long
+  - Siyuan Shen
+  - Zangyueyang Xian
+  - Xiaofei Wu
+  - Zeyi Xu
+  - Yuanming Hu
+  year: 2026
+  tags:
+  - 3d-generation
+  - flow-matching
+  - mesh
+  summary: A fast native mesh generation framework built on flow matching that bypasses slow autoregressive serialization and iso-surface extraction, enabling high-quality, multi-part 3D mesh generation from a single image in seconds.
+  summary_ja: フローマッチングをベースにした高速なネイティブ3Dメッシュ生成フレームワーク。低速な自己回帰シリアライズや等値面抽出を回避し、単一の画像から高品質なマルチパーツ3Dメッシュを数秒で生成します。
+  thumbnail: https://opengraph.githubassets.com/1/meshy-dev/meshy-t2
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2607.28675'
+  repo: meshy-dev/meshy-t2
 - id: modly-c0bd7a
   title: Modly
   area: gen-3d
@@ -20348,6 +20458,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vast-ai-research/triposf
+- id: baking-gaussian-splatting-into-diffusion-denoiser-for-fast-a-b6f3b6
+  title: Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.14384
+    github: https://github.com/caiyuanhao1998/Open-DiffusionGS
+  authors:
+  - Yuanhao Cai
+  - He Zhang
+  - Kai Zhang
+  - Yixun Liang
+  - Mengwei Ren
+  - Fujun Luan
+  - Qing Liu
+  - Soo Ye Kim
+  year: 2024
+  tags:
+  - 3d-generation
+  - diffusion
+  - gaussian-splatting
+  summary: A single-stage 3D diffusion model that directly outputs 3D Gaussian point clouds at each timestep, enforcing view consistency and enabling fast, scalable object generation and scene reconstruction from a single view.
+  summary_ja: 各タイムステップで3Dガウシアンポイントクラウドを直接出力するシングルステージの3D拡散モデル。視点の一貫性を保証し、単一のビューから高速かつスケーラブルなオブジェクト生成とシーン再構成を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/caiyuanhao1998/open-diffusiongs
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2411.14384'
+  repo: caiyuanhao1998/open-diffusiongs
 - id: bpt-blocked-and-patchified-tokenization-df996e
   title: BPT (Blocked and Patchified Tokenization)
   area: gen-3d
@@ -21512,6 +21651,37 @@ entries:
   source: agent
   arxiv_id: '2406.01493'
   repo: jiahao-shao1/chronodepth
+- id: depth-any-video-with-scalable-synthetic-data-978f64
+  title: Depth Any Video with Scalable Synthetic Data
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.10815
+    github: https://github.com/Nightmare-n/DepthAnyVideo
+    project: https://depthanyvideo.github.io/
+  authors:
+  - Honghui Yang
+  - Di Huang
+  - Wei Yin
+  - Chunhua Shen
+  - Haifeng Liu
+  - Xiaofei He
+  - Binbin Lin
+  - Wanli Ouyang
+  - Tong He
+  year: 2024
+  tags:
+  - depth
+  - diffusion
+  - video-depth
+  summary: A video depth estimation model trained on a scalable synthetic dataset of 40,000 video clips from diverse games, leveraging generative video diffusion priors to handle varying video lengths and frame rates.
+  summary_ja: 多様なゲームからキャプチャされた4万本のビデオクリップからなるスケーラブルな合成データセットで訓練され、ビデオ拡散モデルの強力な事前知識を活用して様々な長さやフレームレートの動画に対応する深度推定モデル。
+  thumbnail: https://opengraph.githubassets.com/1/nightmare-n/depthanyvideo
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2410.10815'
+  repo: nightmare-n/depthanyvideo
 - id: depth-anything-unleashing-the-power-of-large-scale-unlabeled-a908b9
   title: 'Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data'
   area: gen-3d
@@ -21820,6 +21990,34 @@ entries:
   source: agent
   arxiv_id: '2404.15506'
   repo: yvanyin/metric3d
+- id: moge-unlocking-accurate-monocular-geometry-estimation-for-op-d1b8b2
+  title: 'MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.19115
+    github: https://github.com/microsoft/MoGe
+  authors:
+  - Ruicheng Wang
+  - Sicheng Xu
+  - Cassie Dai
+  - Jianfeng Xiang
+  - Yu Deng
+  - Xin Tong
+  - Jiaolong Yang
+  year: 2024
+  tags:
+  - depth
+  - normal-map
+  - point-cloud
+  summary: A powerful model from Microsoft that directly predicts a 3D point map, depth map, and surface normal map from a single open-domain image, utilizing novel global and local geometry supervisions.
+  summary_ja: 単一のオープンドメイン画像から3Dポイントマップ、深度マップ、および法線マップを直接予測する、Microsoftが開発した高精度な単眼幾何推定モデル。
+  thumbnail: https://opengraph.githubassets.com/1/microsoft/moge
+  date_added: '2026-09-16'
+  source: agent
+  arxiv_id: '2410.19115'
+  repo: microsoft/moge
 - id: prompting-depth-anything-for-4k-resolution-accurate-metric-d-b3ae10
   title: Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation
   area: gen-3d
