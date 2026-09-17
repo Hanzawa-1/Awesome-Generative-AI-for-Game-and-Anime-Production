@@ -2221,6 +2221,24 @@ entries:
   thumbnail: https://storage.googleapis.com/wcorp_public/wcorp/static/og_card.jpg
   date_added: '2026-06-18'
   source: agent
+- id: copainter-shadowing-b12af0
+  title: copainter Shadowing
+  area: image-2d
+  task: cel-shading
+  kind: proprietary
+  links:
+    website: https://www.copainter.ai/en/shadowing
+  year: 2024
+  tags:
+  - anime
+  - cel-shading
+  - illustration
+  - shadowing
+  summary: A web-based AI assistant designed for illustration and animation production that automatically generates 3D-style and anime-style flat shadows (cel-shading) from lineart and optional underpainting, featuring a movable light source to dynamically adjust shadow shapes.
+  summary_ja: 線画や下塗り画像から3D風およびアニメ風のフラットな影（セルシェーディング）を自動生成する、イラスト・アニメ制作向けのWebベースAIアシスタント。可動式の光源により、影の形状をリアルタイムに調整可能。
+  thumbnail: https://www.copainter.ai/images/hero.webp
+  date_added: '2026-09-17'
+  source: agent
 - id: flat-kit-4ad69a
   title: Flat Kit
   area: image-2d

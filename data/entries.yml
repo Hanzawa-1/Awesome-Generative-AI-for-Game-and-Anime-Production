@@ -14434,6 +14434,7 @@ entries:
   - talking-head
   summary: An audio-driven universal photorealistic avatar synthesis method combining a person-agnostic speech model with a Universal Head Avatar Prior (UHAP) trained on cross-identity multi-view videos.
   summary_ja: 個人に依存しない音声モデルと、クロスアイデンティティのマルチビュー動画で訓練されたユニバーサルヘッドアバター事前分布（UHAP）を組み合わせた、音声駆動型の汎用フォトリアルアバター合成手法。
+  thumbnail: https://opengraph.githubassets.com/1/kartik-teotia/unigaha
   date_added: '2026-09-16'
   source: agent
   arxiv_id: '2509.18924'
@@ -22290,6 +22291,28 @@ entries:
   source: agent
   arxiv_id: '2605.30263'
   repo: shengshu-ai/minwm
+- id: openworldlib-a-unified-codebase-and-definition-of-advanced-w-17d894
+  title: 'OpenWorldLib: A Unified Codebase and Definition of Advanced World Models'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.04707
+    github: https://github.com/OpenDCAI/OpenWorldLib
+  authors:
+  - OpenDCAI
+  year: 2026
+  tags:
+  - 3d-scene
+  - framework
+  - world-model
+  summary: A unified world model inference framework that standardizes tasks such as interactive video generation, 3D scene generation, multimodal reasoning, and vision-language-action (VLA) models.
+  summary_ja: インタラクティブなビデオ生成、3Dシーン生成、マルチモーダル推論、およびVision-Language-Action（VLA）モデルなどのタスクを標準化する、統合された世界モデル推論フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/opendcai/openworldlib
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2604.04707'
+  repo: opendcai/openworldlib
 - id: pixworld-unifying-3d-scene-generation-and-reconstruction-in-51adab
   title: 'PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space'
   area: gen-3d
@@ -22663,6 +22686,35 @@ entries:
   date_added: '2026-08-20'
   source: agent
   repo: sereneee1201/magic
+- id: matrix-3d-omnidirectional-explorable-3d-world-generation-5c391f
+  title: 'Matrix-3D: Omnidirectional Explorable 3D World Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.08086
+    github: https://github.com/SkyworkAI/Matrix-3D
+  authors:
+  - Zhongqi Yang
+  - Wenhang Ge
+  - Yuqi Li
+  - Jiaqi Chen
+  - Haoyuan Li
+  - Mengyin An
+  - Fei Kang
+  - Hua Xue
+  year: 2025
+  tags:
+  - 3d-scene
+  - panorama
+  - world-generation
+  summary: A framework that utilizes panoramic representation for wide-coverage omnidirectional explorable 3D world generation, combining conditional video generation and panoramic reconstruction.
+  summary_ja: 条件付きビデオ生成とパノラマ再構成を組み合わせ、広範囲かつ全方位に探索可能な3D世界を単一の画像やテキストプロンプトから生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/skyworkai/matrix-3d
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2508.08086'
+  repo: skyworkai/matrix-3d
 - id: mmgdreamer-mixed-modality-graph-for-geometry-controllable-3d-f8c315
   title: 'MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation'
   area: gen-3d
@@ -25320,6 +25372,35 @@ entries:
   source: agent
   arxiv_id: '2403.14613'
   repo: liuff19/dreamreward
+- id: placiddreamer-c24cc1
+  title: PlacidDreamer
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.13976
+    github: https://github.com/HansenHuang0823/PlacidDreamer
+  authors:
+  - Shuo Huang
+  - Shikun Sun
+  - Zixuan Wang
+  - Xiaoyu Qin
+  - Yanmin Xiong
+  - Yuan Zhang
+  - Pengfei Wan
+  - Di Zhang
+  year: 2024
+  tags:
+  - diffusion
+  - score-distillation
+  - text-to-3d
+  summary: A unified text-to-3D generation framework that uses a single multi-view diffusion model for initialization, multi-view consistency, and text-conditioned generation, while addressing over-saturation with a Balanced Score Distillation algorithm.
+  summary_ja: 単一のマルチビュー拡散モデルを初期化、マルチビュー一貫性、およびテキスト条件付き生成に使用し、Balanced Score Distillationアルゴリズムによって過彩度問題を解決する、統合型テキスト3D生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/hansenhuang0823/placiddreamer
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2407.13976'
+  repo: hansenhuang0823/placiddreamer
 - id: gaussiandreamer-8985a2
   title: GaussianDreamer
   area: gen-3d
@@ -26063,6 +26144,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vast-ai-research/seqtex
+- id: vlmaterial-procedural-material-generation-with-large-vision-292af6
+  title: 'VLMaterial: Procedural Material Generation with Large Vision-Language Models'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.18623
+    github: https://github.com/mit-gfx/VLMaterial
+  authors:
+  - Beichen Li
+  - Rundi Wu
+  - Armando Solar-Lezama
+  - Changxi Zheng
+  - Liang Shi
+  - Bernd Bickel
+  - Wojciech Matusik
+  year: 2025
+  tags:
+  - material
+  - pbr
+  - procedural
+  summary: A framework that leverages large vision-language models to generate procedural materials represented as functional node graphs (Python programs) from input images.
+  summary_ja: 大型視覚言語モデル（VLM）を活用し、入力画像からプログラム（Python）形式のノードグラフとして表現される手続き型（プロシージャル）マテリアルを生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/mit-gfx/vlmaterial
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2501.18623'
+  repo: mit-gfx/vlmaterial
 - id: 3dtopia-xl-382d4c
   title: 3DTopia-XL
   area: gen-3d
@@ -26316,6 +26425,51 @@ entries:
   source: agent
   arxiv_id: '2412.14148'
   repo: aigc3d/mcmat
+- id: pbrfusion-3bc3dd
+  title: PBRFusion
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    github: https://github.com/Night1099/COMFYUI-PBRFusion4
+    hf: https://huggingface.co/NightRaven109/PBRFusion
+  year: 2024
+  tags:
+  - pbr
+  - rtx-remix
+  - texture
+  summary: A community-developed diffusion model and ComfyUI extension widely used in RTX Remix workflows to upscale textures and generate high-quality normal, roughness, and depth maps for game remastering.
+  summary_ja: RTX Remixのワークフローで広く使用されている、コミュニティ開発の拡散モデルおよびComfyUI拡張機能。ゲームのリマスター向けにテクスチャをアップスケールし、高品質な法線、粗さ、深度マップを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/night1099/comfyui-pbrfusion4
+  date_added: '2026-09-17'
+  source: agent
+  repo: night1099/comfyui-pbrfusion4
+- id: stablematerials-enhancing-diversity-in-material-generation-v-a143b2
+  title: 'StableMaterials: Enhancing Diversity in Material Generation via Semi-Supervised Learning'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.09293
+    github: https://github.com/Joey-Jang/StableMaterials
+    hf: https://huggingface.co/gvecchio/StableMaterials
+  authors:
+  - Giuseppe Vecchio
+  - Renato Sortino
+  - Simone Palazzo
+  - Concetto Spampinato
+  year: 2024
+  tags:
+  - diffusion
+  - pbr
+  - texture
+  summary: A diffusion-based model designed for generating photorealistic PBR materials from text or image prompts, integrating semi-supervised learning with Latent Diffusion Models (LDMs).
+  summary_ja: テキストまたは画像プロンプトからフォトリアルなPBRマテリアルを生成する拡散モデル。半教師あり学習と潜在拡散モデル（LDM）を統合し、多様で高品質なマテリアルマップを生成します。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/gvecchio/StableMaterials.png
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2406.09293'
+  repo: joey-jang/stablematerials
 - id: syncmvd-8a2876
   title: SyncMVD
   area: gen-3d
@@ -26578,6 +26732,34 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: fishwowater/open3dstudio
+- id: seamflow-structure-aware-flow-matching-on-edge-probabilities-01ecdc
+  title: 'SeamFlow: Structure-Aware Flow Matching on Edge Probabilities for Artist-Like UV Unwrapping'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.04751
+    project: https://meshy-dev.github.io/seamflow/
+  authors:
+  - Yuming Zhao
+  - Zangyueyang Xian
+  - Qijian Zhang
+  - Rendong Liang
+  - Qin Jia
+  - Ying He
+  - Junhui Hou
+  year: 2026
+  tags:
+  - flow-matching
+  - mesh
+  - unwrapping
+  - uv
+  summary: A generative framework for 3D surface cutting and UV unwrapping that models seam layout as a continuous flow matching process over edge probabilities. It combines local mesh topology with global shape context to produce semantically coherent, low-distortion seams.
+  summary_ja: エッジ確率上の連続フロー・マッチング・プロセスとしてシーム配置をモデル化する、3Dサーフェス分割およびUV展開のための生成フレームワーク。局所的なメッシュ・トポロジーと大域的な形状コンテキストを組み合わせることで、意味的に一貫した低歪みのシームを生成します。
+  thumbnail: https://meshy-dev.github.io/seamflow/static/images/seamflow-teaser.jpg
+  date_added: '2026-09-17'
+  source: agent
+  arxiv_id: '2609.04751'
 - id: squadgen-generating-simple-quad-layouts-via-chart-distance-f-83fb48
   title: 'SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields'
   area: gen-3d
