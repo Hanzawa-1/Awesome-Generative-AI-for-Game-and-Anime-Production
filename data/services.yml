@@ -2311,6 +2311,22 @@ entries:
   summary_ja: Photoshopに直接統合されたAdobeのフラッグシップ生成AIツールで、シンプルなテキストプロンプトを使用して画像内のコンテンツを追加、拡張、または削除できます。コンセプトアートのイテレーション、背景のクリーンアップ、アセット生成など、プロのゲームやアニメ制作で広く使用されています。
   date_added: '2026-08-07'
   source: agent
+- id: leonardo-ai-canvas-bcdada
+  title: Leonardo AI Canvas
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://leonardo.ai/
+  year: 2023
+  tags:
+  - image-editing
+  - inpainting
+  - outpainting
+  summary: Leonardo AI is a popular generative art platform featuring the AI Canvas, an interactive workspace designed for precise image editing, inpainting, outpainting, and style-consistent asset generation. It is widely used by game and anime studios for rapid prototyping and asset refinement.
+  summary_ja: ゲームやアニメのスタジオで迅速なプロトタイピングやアセットの洗練に広く使用されている、画像生成プラットフォーム。インペインティング、アウトペインティング、スタイルの一貫性を保ったアセット生成のためのインタラクティブなワークスペース「AI Canvas」を提供します。
+  date_added: '2026-09-18'
+  source: agent
 - id: clipdrop-f01b6a
   title: Clipdrop
   area: image-2d

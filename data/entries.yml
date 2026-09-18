@@ -28871,6 +28871,33 @@ entries:
   source: agent
   arxiv_id: '2504.20690'
   repo: river-zhang/icedit
+- id: infiniteyou-ef11c0
+  title: InfiniteYou
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.16418
+    github: https://github.com/bytedance/InfiniteYou
+  authors:
+  - Liming Jiang
+  - Qing Yan
+  - Yumin Jia
+  - Zichuan Liu
+  - Hao Kang
+  - Xin Lu
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - identity-preserving
+  - image-editing
+  summary: InfiniteYou is an identity-preserving image editing and photo recrafting framework built on advanced Diffusion Transformers (DiTs) like FLUX. It introduces InfuseNet to inject identity features into the DiT backbone, enabling flexible, high-fidelity, and aesthetically pleasing character editing while maintaining strict identity similarity.
+  summary_ja: FLUXなどの高度なDiffusion Transformer（DiT）をベースにした、アイデンティティを維持する画像編集および写真再構成フレームワーク。InfuseNetを導入してDiTバックボーンにアイデンティティ特徴を注入し、高い類似性を維持しながら柔軟で高品質なキャラクター編集を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/bytedance/infiniteyou
+  date_added: '2026-09-18'
+  source: agent
+  arxiv_id: '2503.16418'
+  repo: bytedance/infiniteyou
 - id: inpaint4drag-778390
   title: Inpaint4Drag
   area: image-2d
@@ -28894,6 +28921,35 @@ entries:
   source: agent
   arxiv_id: '2509.04582'
   repo: visual-ai/inpaint4drag
+- id: magicquill-v2-3b32f8
+  title: MagicQuill V2
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.03046
+    github: https://github.com/zliucz/MagicQuillV2
+  authors:
+  - Zichen Liu
+  - Yue Yu
+  - Hao Ouyang
+  - Qiuyu Wang
+  - Shuailei Ma
+  - Ka Leong Cheng
+  - Wen Wang
+  - Qingyan Bai
+  year: 2025
+  tags:
+  - image-editing
+  - interactive-editing
+  - layered-composition
+  summary: MagicQuill V2 introduces a layered composition paradigm to generative image editing, deconstructing creative intent into distinct, controllable visual cues (Content, Spatial, Structural, and Color). This allows users to perform precise, interactive image editing with granular control over object placement, shape, and appearance.
+  summary_ja: 生成的な画像編集にレイヤー合成パラダイムを導入し、クリエイティブな意図を「コンテンツ」「空間」「構造」「色」という個別の制御可能な視覚的手がかりに分解するシステム。オブジェクトの配置、形状、外観を直感的かつ精密に制御できます。
+  thumbnail: https://opengraph.githubassets.com/1/zliucz/magicquillv2
+  date_added: '2026-09-18'
+  source: agent
+  arxiv_id: '2512.03046'
+  repo: zliucz/magicquillv2
 - id: omnigen2-7d51b6
   title: OmniGen2
   area: image-2d
@@ -28912,6 +28968,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vectorspacelab/omnigen2
+- id: step1x-edit-d675c8
+  title: Step1X-Edit
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.17761
+    github: https://github.com/stepfun-ai/Step1X-Edit
+  authors:
+  - Fukun Yin
+  - Shiyu Liu
+  - Yucheng Han
+  - Zhibo Wang
+  - Peng Xing
+  - Rui Wang
+  - Wei Cheng
+  - Yingming Wang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - image-editing
+  - mllm
+  summary: Step1X-Edit is a state-of-the-art image editing framework that leverages Multimodal Large Language Models (MLLMs) to parse instructions and generate editing tokens, which are then decoded into images using a Diffusion Transformer (DiT) backbone. It achieves performance comparable to closed-source models like GPT-4o and Gemini 2 Flash.
+  summary_ja: MLLM（マルチモーダル大規模言語モデル）を利用して編集指示を解析し、DiT（Diffusion Transformer）ベースのネットワークで画像をデコードする、最先端のオープンソース画像編集フレームワーク。GPT-4oやGemini 2 Flashなどの商用モデルに匹敵する編集精度を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/stepfun-ai/step1x-edit
+  date_added: '2026-09-18'
+  source: agent
+  arxiv_id: '2504.17761'
+  repo: stepfun-ai/step1x-edit
 - id: token-painter-5b32b0
   title: Token Painter
   area: image-2d
@@ -30665,6 +30750,25 @@ entries:
   date_added: '2026-07-17'
   source: agent
   repo: lllyasviel/style2paints
+- id: paintschainer-a0b827
+  title: PaintsChainer
+  area: image-2d
+  task: lineart-colorization
+  kind: oss
+  links:
+    github: https://github.com/pfnet/PaintsChainer
+  year: 2017
+  tags:
+  - chainer
+  - colorization
+  - interactive
+  - sketch
+  summary: A classic, highly influential open-source line drawing colorization tool developed by Preferred Networks. It utilizes deep learning to automatically colorize sketches with optional user-provided color hints, laying the foundation for modern interactive AI colorization workflows.
+  summary_ja: Preferred Networksによって開発された、非常に影響力のあるクラシックなオープンソース線画自動着色ツール。ディープラーニングを利用し、ユーザーが指定したカラーヒントを参考にしながらスケッチを自動着色し、現代のインタラクティブなAI着色ワークフローの基礎を築きました。
+  thumbnail: https://opengraph.githubassets.com/1/pfnet/paintschainer
+  date_added: '2026-09-18'
+  source: agent
+  repo: pfnet/paintschainer
 - id: style2paints-a76913
   title: Style2Paints
   area: image-2d
@@ -31700,6 +31804,28 @@ entries:
   source: agent
   arxiv_id: '2211.13752'
   repo: ogkalu2/sketch-guided-stable-diffusion
+- id: abstract-lora-unlocking-single-image-style-transfer-through-39b987
+  title: 'Abstract-LoRA: Unlocking Single-Image Style Transfer through Targeted U-Net Block Training'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.13239
+    github: https://github.com/Xinglin-Hu/Abstract-LoRA
+  authors:
+  - Xinglin Hu
+  year: 2026
+  tags:
+  - lora
+  - sdxl
+  - style-transfer
+  summary: A single-image style transfer method built on SDXL and LoRA that improves style-content disentanglement by training LoRA weights on targeted U-Net blocks. It introduces background-aware disentanglement and abstract color representation extraction to handle complex backgrounds and preserve content structure.
+  summary_ja: SDXLとLoRAをベースにしたシングルイメージのスタイル転送手法。ターゲットとなるU-NetブロックでLoRAの重みをトレーニングすることで、スタイルとコンテンツのデタングル（もつれ戻し）を向上させ、背景を考慮した分離と抽象的な色彩表現の抽出により、複雑な背景の処理とコンテンツ構造の維持を実現。
+  thumbnail: https://opengraph.githubassets.com/1/xinglin-hu/abstract-lora
+  date_added: '2026-09-18'
+  source: agent
+  arxiv_id: '2609.13239'
+  repo: xinglin-hu/abstract-lora
 - id: anystyle-a-single-lora-is-sufficient-for-image-guided-style-34ca71
   title: 'AnyStyle: A Single LoRA is Sufficient for Image-Guided Style Transfer'
   area: image-2d
