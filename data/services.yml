@@ -3008,6 +3008,24 @@ entries:
   thumbnail: https://anifusion.ai/api/og/home?lang=en
   date_added: '2026-07-18'
   source: agent
+- id: comicsai-128951
+  title: ComicsAI
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://www.comicsai.org/
+  year: 2024
+  tags:
+  - comic
+  - manga
+  - webtoon
+  - workspace
+  summary: An AI comic production workspace that provides a suite of tools for story writing, character casting, panel generation, page layout design, and webtoon episode planning with character consistency.
+  summary_ja: ストーリー執筆、キャラクター設定、コマ生成、ページレイアウト設計、およびキャラクターの一貫性を保ったウェブトゥーンのエピソード計画を支援するAIコミック制作ワークスペース。
+  thumbnail: https://www.comicsai.org/images/hero-impact-og.webp
+  date_added: '2026-09-19'
+  source: agent
 - id: dashtoon-studio-baaeb6
   title: Dashtoon Studio
   area: manga

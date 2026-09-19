@@ -37393,6 +37393,29 @@ entries:
   source: agent
   arxiv_id: '2604.25482'
   repo: anon-researcher-rpg/dependency-driven-prompt-pipeline
+- id: ivie-a-neuro-symbolic-approach-to-incremental-and-validated-1a65b8
+  title: 'IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.13348
+  authors:
+  - Micaela Vaucher
+  - Santiago Silveira
+  - Santiago Góngora
+  - Luis Chiruzzo
+  year: 2026
+  tags:
+  - interactive-fiction
+  - neuro-symbolic
+  - puzzle-design
+  - world-generation
+  summary: An incremental and validated interactive experience generator that combines the creative capabilities of LLMs with symbolic validation. It implements a four-stage pipeline to design settings, characters, and puzzles while ensuring the generated world remains coherent and playable.
+  summary_ja: LLMの創造的な能力とシンボリックな検証を組み合わせた、段階的かつ検証済みのインタラクティブ体験ジェネレーター。設定、キャラクター、パズルの設計を行う4段階のパイプラインを実装し、生成された世界の一貫性とプレイ可能性を保証します。
+  date_added: '2026-09-19'
+  source: agent
+  arxiv_id: '2606.13348'
 - id: magnet-character-grounded-multi-agent-story-generation-for-l-2e2c9d
   title: 'MAGNET: Character-Grounded Multi-Agent Story Generation for Long-Form Narratives'
   area: text-design
@@ -37616,6 +37639,32 @@ entries:
   source: agent
   arxiv_id: '2509.04481'
   repo: rimichen/2025_narrativescene
+- id: payador-a-minimalist-approach-to-grounding-language-models-o-cbd7c2
+  title: 'PAYADOR: A Minimalist Approach to Grounding Language Models on Structured Data for Interactive Storytelling and Role-playing Games'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.07304
+    github: https://github.com/pln-fing-udelar/payador
+  authors:
+  - Santiago Góngora
+  - Luis Chiruzzo
+  - Gonzalo Méndez
+  - Pablo Gervás
+  year: 2025
+  tags:
+  - interactive-storytelling
+  - neuro-symbolic
+  - rpg
+  - world-update
+  summary: A neuro-symbolic approach to the world-update problem in interactive storytelling and role-playing games. It grounds large language models on structured data to predict the outcomes of player actions, enabling improvisational and coherent narrative progression.
+  summary_ja: インタラクティブストーリーテリングやロールプレイングゲームにおける世界状態の更新問題に対するニューロシンボリックアプローチ。LLMを構造化データにグラウンディングさせてプレイヤーの行動結果を予測し、即興的かつ一貫したシナリオ進行を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/pln-fing-udelar/payador
+  date_added: '2026-09-19'
+  source: agent
+  arxiv_id: '2504.07304'
+  repo: pln-fing-udelar/payador
 - id: questgen-90c48e
   title: Questgen
   area: text-design
@@ -37895,6 +37944,28 @@ entries:
   source: agent
   arxiv_id: '2407.08683'
   repo: tencentarc/seed-story
+- id: what-if-exploring-branching-narratives-by-meta-prompting-lar-a697c1
+  title: 'WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.10582
+  authors:
+  - Runsheng "Anson" Huang
+  - Lara J. Martin
+  - Chris Callison-Burch
+  year: 2024
+  tags:
+  - branching-narrative
+  - interactive-fiction
+  - llm
+  - meta-prompting
+  summary: A system that uses zero-shot meta-prompting to generate branching narratives and alternate timelines from a prewritten linear story. It allows players to explore different narrative paths by choosing between decisions generated dynamically by GPT-4.
+  summary_ja: ゼロショットのメタプロンプティングを使用して、事前に書かれた直線的なストーリーから分岐シナリオや代替タイムラインを生成するシステム。GPT-4によって動的に生成された選択肢をプレイヤーが選ぶことで、多様な物語の分岐を探索できます。
+  date_added: '2026-09-19'
+  source: agent
+  arxiv_id: '2412.10582'
 - id: mistral-7b-c81ddf
   title: Mistral 7B
   area: text-design
@@ -38054,6 +38125,27 @@ entries:
   source: agent
   arxiv_id: '2607.17250'
   repo: hkust-knowcomp/evolvingworld
+- id: long-lived-characters-local-inference-incremental-memory-mai-dd3ffb
+  title: 'Long-Lived Characters, Local Inference: Incremental Memory Maintenance for Game NPCs'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.18935
+    paper: https://arxiv.org/pdf/2609.18935
+  authors:
+  - Zimu Xu
+  year: 2026
+  tags:
+  - dialogue
+  - llm
+  - memory
+  - npc
+  summary: Addresses the challenge of memory maintenance for locally deployed LLM-based game NPCs by proposing an incremental memory maintenance system that avoids rereading the entire history before every conversation.
+  summary_ja: ローカルにデプロイされたLLMベースのゲームNPCにおけるメモリ維持の課題に対処するため、会話のたびに全履歴を再読み込みすることを避けるインクリメンタルなメモリ維持システムを提案。
+  date_added: '2026-09-19'
+  source: agent
+  arxiv_id: '2609.18935'
 - id: persona-pruner-eed494
   title: Persona-Pruner
   area: text-design
