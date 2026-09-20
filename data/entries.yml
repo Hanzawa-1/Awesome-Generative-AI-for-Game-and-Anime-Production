@@ -39221,6 +39221,28 @@ entries:
   source: agent
   arxiv_id: '2412.15200'
   repo: tencentarc/di-pcg
+- id: dreamgarden-a-designer-assistant-for-growing-games-from-a-si-b7e6be
+  title: 'DreamGarden: A Designer Assistant for Growing Games from a Single Prompt'
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.01791
+  authors:
+  - Sam Earle
+  - Samyak Parajuli
+  - Andrzej Banburski-Fahey
+  year: 2024
+  tags:
+  - game-design
+  - llm
+  - pcg
+  - unreal-engine
+  summary: An LLM-driven planning and design assistant for Unreal Engine that recursively refines high-level user prompts into actionable design plans and task sequences to grow diverse game environments.
+  summary_ja: 高レベルなユーザーのプロンプトを再帰的に実行可能な設計計画とタスクシーケンスに洗練し、多様なゲーム環境を構築する、Unreal Engine向けのLLM駆動型プランニング・設計アシスタント。
+  date_added: '2026-09-20'
+  source: agent
+  arxiv_id: '2410.01791'
 - id: game-generation-via-large-language-models-71b5d9
   title: Game Generation via Large Language Models
   area: text-design
@@ -40928,6 +40950,29 @@ entries:
   source: agent
   arxiv_id: '2501.03575'
   repo: nvidia/cosmos
+- id: nvidia-cosmos-f68b9c
+  title: NVIDIA Cosmos
+  area: video
+  task: text-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.00062
+    github: https://github.com/NVIDIA/Cosmos
+  authors:
+  - NVIDIA
+  year: 2025
+  tags:
+  - open-weights
+  - physical-ai
+  - video-generation
+  - world-model
+  summary: An open platform of world foundation models designed for physical AI and world simulation, supporting high-fidelity text-to-video, image-to-video, and video-to-video generation.
+  summary_ja: 物理AIおよび世界シミュレーション向けに設計されたオープンな世界基盤モデルプラットフォームであり、高精度なテキストからの動画生成、画像からの動画生成、および動画から動画への変換をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/nvidia/cosmos
+  date_added: '2026-09-20'
+  source: agent
+  arxiv_id: '2511.00062'
+  repo: nvidia/cosmos
 - id: wan2-1-bc34c3
   title: Wan2.1
   area: video
@@ -42112,6 +42157,32 @@ entries:
   source: agent
   arxiv_id: '2412.00857'
   repo: nevsnev/floed
+- id: streaming-video-diffusion-svdiff-bd03f2
+  title: Streaming Video Diffusion (SVDiff)
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.19726
+    github: https://github.com/Chenfeng1271/SVDiff
+  authors:
+  - Feng Chen
+  - Zhen Yang
+  - Bohan Zhuang
+  - Qi Wu
+  year: 2024
+  tags:
+  - diffusion
+  - real-time
+  - streaming
+  - video-editing
+  summary: A streaming video diffusion framework designed for online video editing. It incorporates compact spatial-aware temporal recurrence into off-the-shelf Stable Diffusion models, enabling real-time, consistent editing of streaming video frames.
+  summary_ja: オンラインビデオ編集向けに設計されたストリーミングビデオ拡散フレームワーク。コンパクトな空間認識型時間再帰構造を既存のStable Diffusionモデルに組み込むことで、ストリーミングビデオフレームのリアルタイムで一貫した編集を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/chenfeng1271/svdiff
+  date_added: '2026-09-20'
+  source: agent
+  arxiv_id: '2405.19726'
+  repo: chenfeng1271/svdiff
 - id: towards-language-driven-video-inpainting-via-multimodal-larg-e54d68
   title: Towards Language-Driven Video Inpainting via Multimodal Large Language Models
   area: video
@@ -42914,6 +42985,35 @@ entries:
   source: agent
   arxiv_id: '2508.14483'
   repo: csbhr/vivid-vr
+- id: arbitrary-scale-video-super-resolution-with-structural-and-t-e7e3a7
+  title: Arbitrary-Scale Video Super-Resolution with Structural and Textural Priors
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.09919
+    github: https://github.com/shangwei5/ST-AVSR
+    paper: https://arxiv.org/pdf/2407.09919
+  authors:
+  - Wei Shang
+  - Dongwei Ren
+  - Wanying Zhang
+  - Yuming Fang
+  - Wangmeng Zuo
+  - Kede Ma
+  year: 2024
+  tags:
+  - arbitrary-scale
+  - recurrent
+  - restoration
+  - video-super-resolution
+  summary: An arbitrary-scale video super-resolution framework that leverages structural and textural priors. It uses a flow-guided recurrent unit to aggregate spatiotemporal information and a scale-aware lookup table to handle arbitrary upscaling factors.
+  summary_ja: 構造的およびテクスチャ的な事前情報を活用する、任意倍率対応のビデオ超解像フレームワーク。フロー誘導型リカレントユニットによる時空間情報の集約と、スケール認識型ルックアップテーブルにより、任意のアップスケーリング倍率に対応します。
+  thumbnail: https://opengraph.githubassets.com/1/shangwei5/st-avsr
+  date_added: '2026-09-20'
+  source: agent
+  arxiv_id: '2407.09919'
+  repo: shangwei5/st-avsr
 - id: beyond-alignment-blind-video-face-restoration-via-parsing-gu-58b89d
   title: 'Beyond Alignment: Blind Video Face Restoration via Parsing-Guided Temporal-Coherent Transformer'
   area: video
@@ -43050,6 +43150,32 @@ entries:
   date_added: '2026-07-19'
   source: agent
   arxiv_id: '2404.12388'
+- id: stablevsr-enhancing-perceptual-quality-in-video-super-resolu-a7be69
+  title: 'StableVSR: Enhancing Perceptual Quality in Video Super-Resolution through Temporally-Consistent Detail Synthesis using Diffusion Models'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.15908
+    github: https://github.com/claudiom4sir/StableVSR
+    paper: https://arxiv.org/pdf/2311.15908
+  authors:
+  - Claudio Rota
+  - Marco Buzzelli
+  - Joost van de Weijer
+  year: 2023
+  tags:
+  - diffusion
+  - restoration
+  - temporal-consistency
+  - video-super-resolution
+  summary: A video super-resolution method based on diffusion models that enhances perceptual quality by synthesizing realistic and temporally-consistent details. It introduces a Temporal Conditioning Module (TCM) to adapt pre-trained single-image super-resolution models for video.
+  summary_ja: 拡散モデルに基づき、現実的かつ時間的一貫性のある詳細を合成することで知覚的品質を向上させるビデオ超解像手法。事前学習済みの単一画像超解像モデルをビデオ向けに適応させる時間条件付けモジュール（TCM）を導入しています。
+  thumbnail: https://opengraph.githubassets.com/1/claudiom4sir/stablevsr
+  date_added: '2026-09-20'
+  source: agent
+  arxiv_id: '2311.15908'
+  repo: claudiom4sir/stablevsr
 - id: upscale-a-video-a0c73c
   title: Upscale-A-Video
   area: video

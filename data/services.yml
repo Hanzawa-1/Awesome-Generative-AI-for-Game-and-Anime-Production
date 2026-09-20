@@ -4098,6 +4098,23 @@ entries:
   thumbnail: https://assets.viggle.ai/pub/20241016-135707.jpeg
   date_added: '2026-06-14'
   source: agent
+- id: beeble-ai-9027c9
+  title: Beeble AI
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://beeble.ai/
+  year: 2026
+  tags:
+  - background-removal
+  - rotoscoping
+  - vfx
+  summary: Beeble AI is an AI-powered VFX platform that offers advanced background removal and rotoscoping tools to generate clean alpha mattes. It integrates with professional DCC tools like Nuke, After Effects, and DaVinci Resolve, supporting high-resolution production pipelines.
+  summary_ja: Beeble AIは、クリーンなアルファマットを生成するための高度な背景削除およびロトスコープツールを提供する、AI搭載のVFXプラットフォームです。Nuke、After Effects、DaVinci ResolveなどのプロフェッショナルなDCCツールと統合し、高解像度の制作パイプラインをサポートします。
+  thumbnail: https://beeble.ai/images/og/default.png
+  date_added: '2026-09-20'
+  source: agent
 - id: boris-fx-silhouette-230dd9
   title: Boris FX Silhouette
   area: video
@@ -4133,6 +4150,23 @@ entries:
   summary_ja: プロフェッショナルなロトスコープ、ペイント、コンポジットの業界標準として広く認知されている、アカデミー賞およびエミー賞受賞のビジュアルエフェクトソフトウェア。高度なノードベースのワークフロー、統合されたMochaトラッキング、AI支援によるマスキングツールを備え、複雑なVFXパイプラインを効率化します。
   thumbnail: https://borisfx-com-res.cloudinary.com/image/upload/w_1200,c_fill,g_auto,ar_1.91/v1772150778/Marketing/2026%20Logos/BorisFX/PNG/BFX.png
   date_added: '2026-06-21'
+  source: agent
+- id: smart-roto-b7bcc2
+  title: Smart Roto
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://smartroto.com/
+  year: 2026
+  tags:
+  - online-tool
+  - rotoscoping
+  - vfx
+  summary: Smart Roto is an online, browser-based automatic rotoscoping tool that propagates user-drawn splines across video frames while keeping every spline fully editable. It is designed for professional VFX workflows, supporting up to 8K plates and EXR export.
+  summary_ja: Smart Rotoは、ユーザーが描画したスプラインをビデオフレーム全体に伝播させつつ、すべてのスプラインを完全に編集可能な状態に保つ、オンラインのブラウザベース自動ロトスコープツールです。最大8KのプレートやEXRエクスポートをサポートし、プロフェッショナルなVFXワークフロー向けに設計されています。
+  thumbnail: https://smartroto.com/assets/og-image.png
+  date_added: '2026-09-20'
   source: agent
 - id: autodesk-flow-studio-f04955
   title: Autodesk Flow Studio
