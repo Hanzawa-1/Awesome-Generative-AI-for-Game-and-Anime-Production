@@ -256,6 +256,88 @@ entries:
   source: agent
   arxiv_id: '2507.18649'
   repo: livatar-1/livatar-1
+- id: llia-dc6d03
+  title: LLIA
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.05806
+    github: https://github.com/MeiGen-AI/llia
+  authors:
+  - Haojie Yu
+  - Zhaonian Wang
+  - Yihan Pan
+  - Meng Cheng
+  - Hao Yang
+  - Chao Wang
+  - Tao Xie
+  - Xiaoming Xu
+  year: 2025
+  tags:
+  - lip-sync
+  - low-latency
+  - real-time
+  summary: A real-time, low-latency audio-driven portrait video generation framework based on diffusion models. It optimizes computational requirements to enable deployment in interactive avatar applications requiring high speed and minimal latency.
+  summary_ja: 拡散モデルに基づく、リアルタイムかつ低遅延の音声駆動型ポートレート動画生成フレームワーク。計算負荷を最適化することで、高速動作と最小限の遅延が求められるインタラクティブなアバターアプリケーションへの展開を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/meigen-ai/llia
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2506.05806'
+  repo: meigen-ai/llia
+- id: multitalk-let-them-talk-1af5ef
+  title: MultiTalk (Let Them Talk)
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.22647
+    github: https://github.com/MeiGen-AI/MultiTalk
+  authors:
+  - Zhe Kong
+  - Feng Gao
+  - Yong Zhang
+  - Zhuoliang Kang
+  - Xiaoming Wei
+  - Xunliang Cai
+  - Guanying Chen
+  - Wenhan Luo
+  year: 2025
+  tags:
+  - lip-sync
+  - multi-person
+  - talking-head
+  summary: An audio-driven multi-person conversational video generation framework that handles multi-stream audio inputs. It addresses the incorrect binding problem between audio and multiple individuals, enabling synchronized facial movements and conversation dynamics for multiple characters.
+  summary_ja: 複数ストリームの音声入力を処理可能な、音声駆動型の複数人会話動画生成フレームワーク。音声と複数の人物間の誤った紐付け問題を解決し、複数キャラクターの同期した顔の動きや会話のダイナミクスを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/meigen-ai/multitalk
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2505.22647'
+  repo: meigen-ai/multitalk
+- id: omnihuman-1-9194ec
+  title: OmniHuman-1
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.01061
+    project: https://omnihuman-lab.github.io/
+  authors:
+  - Gaojie Lin
+  - Jianwen Jiang
+  - Jiaqi Yang
+  - Zerong Zheng
+  - Chao Liang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - lip-sync
+  - talking-head
+  summary: A Diffusion Transformer-based framework for end-to-end human animation that scales up data by mixing motion-related conditions. It generates highly realistic human videos from a single portrait and weak driving signals like audio, supporting various aspect ratios and body proportions.
+  summary_ja: モーション関連の条件を混合することでデータ規模を拡張する、Diffusion Transformerベースのエンドツーエンド人物アニメーションフレームワーク。1枚のポートレートと音声などの弱い駆動信号から、様々なアスペクト比や身体プロポーションに対応した極めてリアルな人物動画を生成します。
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2502.01061'
 - id: personalive-487ea9
   title: PersonaLive
   area: animation
@@ -1316,6 +1398,28 @@ entries:
   source: agent
   arxiv_id: '2506.03119'
   repo: gseancdat/posefuse3d-ki
+- id: sage-structure-aware-generative-video-transitions-between-di-1d0aa0
+  title: 'SAGE: Structure-Aware Generative Video Transitions between Diverse Clips'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.24667
+    paper: https://arxiv.org/pdf/2510.24667
+  authors:
+  - Mia Kan
+  - Yilin Liu
+  - Niloy Mitra
+  year: 2025
+  tags:
+  - generative
+  - interpolation
+  - transition
+  summary: A structure-aware generative video transition framework designed to synthesize intermediate frames between diverse video clips with large temporal gaps or significant semantic differences.
+  summary_ja: 大きな時間的ギャップや顕著なセマンティックの違いを持つ多様なビデオクリップ間に、構造を考慮した中間フレームを合成するために設計された生成型ビデオ遷移フレームワーク。
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2510.24667'
 - id: sg-rife-18a4b3
   title: SG-RIFE
   area: animation
@@ -1597,6 +1701,31 @@ entries:
   date_added: '2026-08-24'
   source: agent
   repo: markmohr/jostc
+- id: layerinbetween-occlusion-aware-stroke-correspondence-and-inb-7e92ba
+  title: 'LayerInbetween: Occlusion-Aware Stroke Correspondence and Inbetweening with Automatic Layering'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    github: https://github.com/MarkMoHR/LayerInbetween
+    project: https://mo-haoran.com/LayerInbetween/
+  authors:
+  - Haoran Mo
+  - Zhongyue Guan
+  - Yixin Hu
+  - Zeyu Wang
+  year: 2024
+  tags:
+  - animation
+  - inbetweening
+  - stroke
+  - vector
+  summary: An occlusion-aware framework for vector stroke correspondence and automatic inbetweening in 2D animation. It performs automatic layering to guide stroke tracing and correspondence finding for occluded strokes, resolving occlusion in the inbetween frames.
+  summary_ja: 2Dアニメーションにおけるオクルージョンを考慮したベクターストロークの対応付けと自動中割り（インビトウィーニング）のためのフレームワーク。自動レイヤリングにより、遮蔽されたストロークのトレースと対応探索をガイドし、中間フレームでのオクルージョンを解決する。
+  thumbnail: https://opengraph.githubassets.com/1/markmohr/layerinbetween
+  date_added: '2026-09-21'
+  source: agent
+  repo: markmohr/layerinbetween
 - id: ldmvfi-5896d7
   title: LDMVFI
   area: animation
@@ -2577,6 +2706,34 @@ entries:
   source: agent
   arxiv_id: '2407.11266'
   repo: rongakowang/mmdmc
+- id: perpetual-humanoid-control-for-real-time-simulated-avatars-a28696
+  title: Perpetual Humanoid Control for Real-time Simulated Avatars
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.06456
+    github: https://github.com/ZhengyiLuo/PHC
+    website: https://www.zhengyiluo.com/PHC-Site/
+  authors:
+  - Zhengyi Luo
+  - Jinkun Cao
+  - Jingwen Ye
+  - Tingting Han
+  - Alexander G. Hauptmann
+  year: 2023
+  tags:
+  - avatar
+  - imitation
+  - physics
+  - retargeting
+  summary: A physics-based character animation framework that trains a single robust policy (Perpetual Humanoid Controller) to perform real-time motion imitation and retargeting across diverse body shapes and proportions.
+  summary_ja: 多様な体型やプロポーションを持つキャラクターに対して、リアルタイムのモーション模倣およびリターゲットを実行する、物理ベースのキャラクターアニメーションフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zhengyiluo/phc
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2305.06456'
+  repo: zhengyiluo/phc
 - id: physics-based-motion-retargeting-from-sparse-inputs-2fef62
   title: Physics-based Motion Retargeting from Sparse Inputs
   area: animation
@@ -2763,6 +2920,31 @@ entries:
   date_added: '2026-08-10'
   source: agent
   arxiv_id: '2606.25056'
+- id: instantmimic-a-high-performance-system-for-learning-physics-90bcc1
+  title: 'InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.09821
+    github: https://github.com/Scripter36/InstantMimic
+  authors:
+  - Ikjun Choi
+  - Geonho Leem
+  - Jungdam Won
+  year: 2026
+  tags:
+  - gpu-native
+  - motion-mimicking
+  - physics
+  - reinforcement-learning
+  summary: A GPU-native reinforcement learning system designed to learn physics-based character skills in seconds. By leveraging high-performance simulation and parallelized training, it enables rapid motion mimicking and makes LLM-agent-driven hyperparameter search practical.
+  summary_ja: 物理ベースのキャラクター動作スキルを数秒で学習できるように設計された、GPUネイティブの強化学習システム。高性能なシミュレーションと並列トレーニングを活用することで、迅速なモーション模倣を可能にし、LLMエージェントによるハイパーパラメータ探索を実用化します。
+  thumbnail: https://opengraph.githubassets.com/1/scripter36/instantmimic
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2609.09821'
+  repo: scripter36/instantmimic
 - id: interagent-physics-based-multi-agent-command-execution-via-d-c90036
   title: 'InterAgent: Physics-based Multi-agent Command Execution via Diffusion on Interaction Graphs'
   area: animation
@@ -3940,6 +4122,35 @@ entries:
   date_added: '2026-08-10'
   source: agent
   arxiv_id: '2504.10905'
+- id: mtvcraft-tokenizing-4d-motion-for-arbitrary-character-animat-b4bcdb
+  title: 'MTVCraft: Tokenizing 4D Motion for Arbitrary Character Animation'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.10238
+    github: https://github.com/DINGYANB/MTVCrafter
+  authors:
+  - Yanbo Ding
+  - Xirui Hu
+  - Zhizhi Guo
+  - Yan Zhang
+  - Xinrui Wang
+  - Zhixiang He
+  - Chi Zhang
+  - Yali Wang
+  year: 2025
+  tags:
+  - 4d-motion
+  - character-animation
+  - pose-guided
+  summary: A character animation framework that directly models raw 3D motion sequences (4D motion) instead of relying on 2D-rendered pose images. It tokenizes 4D motion to enable precise, open-world animation of arbitrary characters.
+  summary_ja: 2Dレンダリングされたポーズ画像に依存せず、生の3Dモーションシーケンス（4Dモーション）を直接モデリングするキャラクターアニメーションフレームワーク。4Dモーションをトークン化することで、任意のキャラクターの正確でオープンワールドなアニメーションを可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/dingyanb/mtvcrafter
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2505.10238'
+  repo: dingyanb/mtvcrafter
 - id: poseanything-0820f0
   title: PoseAnything
   area: animation
@@ -4747,6 +4958,33 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2410.05791'
+- id: learning-uniformly-distributed-embedding-clusters-of-stylist-88f4dd
+  title: Learning Uniformly Distributed Embedding Clusters of Stylistic Skills for Physically Simulated Characters
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.06459
+    website: https://learnedunimax.github.io/
+  authors:
+  - Nian Liu
+  - Libin Liu
+  - Zilong Zhang
+  - Zi Wang
+  - Hongzhao Xie
+  - Tengyu Liu
+  - Xinyi Tong
+  - Yaodong Yang
+  year: 2024
+  tags:
+  - physics-simulation
+  - reinforcement-learning
+  - style-control
+  summary: Proposes a skill-conditioned controller that leverages Neural Collapse and an Embedding Expansion technique to learn uniformly distributed stylistic embedding clusters on a hypersphere for physics-based character control.
+  summary_ja: ニューラルコラプス（Neural Collapse）と埋め込み拡張技術を利用し、ハイパースフィア上に均一に分布したスタイル埋め込みクラスタを学習することで、物理シミュレーション下のキャラクターに多様なスキルを制御させる手法。
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2411.06459'
 - id: protomotions-8d76b1
   title: ProtoMotions
   area: animation
@@ -5438,6 +5676,62 @@ entries:
   source: agent
   arxiv_id: '2512.13840'
   repo: hynann/molingo
+- id: mosa-motion-generation-with-scalable-autoregressive-modeling-45884a
+  title: 'MoSa: Motion Generation with Scalable Autoregressive Modeling'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.01200
+    github: https://github.com/eanson023/MoSa
+  authors:
+  - Mengyuan Liu
+  - Sheng Yan
+  - Yong Wang
+  - Yingjie Li
+  - Gui-Bin Bian
+  - Hong Liu
+  year: 2025
+  tags:
+  - autoregressive
+  - text-to-motion
+  - vq-vae
+  summary: A hierarchical motion generation framework that enhances the Vector Quantization-guided Generative Transformers paradigm through a coarse-to-fine scalable generation process.
+  summary_ja: 粗い表現から細かい表現へのスケーラブルな生成プロセスを通じて、ベクトル量子化ガイド付き生成トランスフォーマーのパラダイムを強化する階層的モーション生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/eanson023/mosa
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2511.01200'
+  repo: eanson023/mosa
+- id: motion-anything-any-to-motion-generation-2bcb52
+  title: 'Motion Anything: Any to Motion Generation'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.06955
+    github: https://github.com/whuhxb/MotionAnything
+  authors:
+  - Zeyu Zhang
+  - Yiran Wang
+  - Wei Mao
+  - Danning Li
+  - Rui Zhao
+  - Biao Wu
+  - Zirui Song
+  - Bohan Zhuang
+  year: 2025
+  tags:
+  - mask-modeling
+  - motion-generation
+  - text-to-motion
+  summary: An any-to-motion generation framework that enables fine-grained spatial and temporal control over generated motion by introducing an attention-based mask modeling strategy to prioritize dynamic frames and body parts.
+  summary_ja: アテンションベースのマスクモデリング戦略を導入することで、動的なフレームや身体部位を優先し、生成されるモーションのきめ細かな空間的・時間的制御を可能にするモーション生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/whuhxb/motionanything
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2503.06955'
+  repo: whuhxb/motionanything
 - id: motiongpt3-35f9b3
   title: MotionGPT3
   area: animation
@@ -5550,6 +5844,31 @@ entries:
   source: agent
   arxiv_id: '2511.19217'
   repo: wengwanjiang/realign
+- id: remomask-retrieval-augmented-masked-motion-generation-791e53
+  title: 'ReMoMask: Retrieval-Augmented Masked Motion Generation'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.02605
+    github: https://github.com/AIGeeksGroup/ReMoMask
+  authors:
+  - Zhengdao Li
+  - Siheng Wang
+  - Zeyu Zhang
+  - Hao Tang
+  year: 2025
+  tags:
+  - masked-diffusion
+  - rag
+  - text-to-motion
+  summary: A retrieval-augmented masked text-to-motion generation framework that unifies retrieval-augmented generation (RAG) with masked diffusion to synthesize temporally coherent and semantically aligned human motions.
+  summary_ja: 検索拡張生成（RAG）とマスク型拡散モデルを統合することで、時間的一貫性と意味的整合性を備えた人間の動作を合成する、検索拡張マスク型テキスト・トゥ・モーション生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/aigeeksgroup/remomask
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2508.02605'
+  repo: aigeeksgroup/remomask
 - id: snapmogen-6ef9a5
   title: SnapMoGen
   area: animation
@@ -5680,6 +5999,33 @@ entries:
   source: agent
   arxiv_id: '2411.16575'
   repo: neu-vi/mardm
+- id: motion-agent-a-conversational-framework-for-human-motion-gen-2dff15
+  title: 'Motion-Agent: A Conversational Framework for Human Motion Generation with LLMs'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.17013
+    github: https://github.com/szqwu/Motion-Agent
+  authors:
+  - Qi Wu
+  - Yubo Zhao
+  - Yifan Wang
+  - Xinhang Liu
+  - Yu-Wing Tai
+  - Chi-Keung Tang
+  year: 2024
+  tags:
+  - conversational-agent
+  - llm
+  - text-to-motion
+  summary: An efficient conversational framework for human motion generation, editing, and understanding that utilizes a pre-trained language model to bridge the gap between motion and text.
+  summary_ja: 事前学習済みの言語モデルを利用して動作とテキストのギャップを埋める、人間の動作生成、編集、および理解のための効率的な対話型フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/szqwu/motion-agent
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2405.17013'
+  repo: szqwu/motion-agent
 - id: motiongpt3-human-motion-as-a-second-modality-b14a35
   title: 'MotionGPT3: Human Motion as a Second Modality'
   area: animation
@@ -5867,6 +6213,33 @@ entries:
   date_added: '2026-09-14'
   source: agent
   repo: kirakun0328/text-to-vrma
+- id: versatilemotion-a-unified-framework-for-motion-synthesis-and-e8f289
+  title: 'VersatileMotion: A Unified Framework for Motion Synthesis and Comprehension'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17335
+    github: https://github.com/ZeyuLing/VersatileMotion
+  authors:
+  - Zeyu Ling
+  - Bo Han
+  - Shiyang Li
+  - Jikang Cheng
+  - Hongdeng Shen
+  - Changqing Zou
+  year: 2024
+  tags:
+  - llm
+  - motion-understanding
+  - text-to-motion
+  summary: A unified framework that adapts Large Language Models (LLMs) via a Motion Tokenizer and an autoregressive Transformer to perform both motion generation and motion understanding tasks.
+  summary_ja: モーショントークナイザーと自己回帰トランスフォーマーを介して大規模言語モデル（LLM）を適応させ、動作生成と動作理解の両方のタスクを実行する統一フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zeyuling/versatilemotion
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2411.17335'
+  repo: zeyuling/versatilemotion
 - id: momask-efdbc2
   title: MoMask
   area: animation
@@ -6328,6 +6701,35 @@ entries:
   source: agent
   arxiv_id: '2508.17239'
   repo: kenadamsjoseph/perspose
+- id: prompthmr-promptable-human-mesh-recovery-9be75b
+  title: 'PromptHMR: Promptable Human Mesh Recovery'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.06397
+    github: https://github.com/yufu-wang/PromptHMR
+    project: https://yufu-wang.github.io/PromptHMR/
+  authors:
+  - Yufu Wang
+  - Yu Sun
+  - Priyanka Patel
+  - Kostas Daniilidis
+  - Michael J. Black
+  - Muhammed Kocabas
+  year: 2025
+  tags:
+  - human-mesh-recovery
+  - mocap
+  - pose-estimation
+  - smpl
+  summary: An open-source framework for promptable human mesh recovery that allows incorporating auxiliary side information (such as 2D keypoints, bounding boxes, or text prompts) to improve 3D reconstruction accuracy in challenging scenarios like crowds and occlusions.
+  summary_ja: 混雑したシーンや遮蔽などの困難な状況において、2Dキーポイント、バウンディングボックス、テキストプロンプトなどの補助的な情報をプロンプトとして取り込むことで、3D再構成の精度を向上させるプロンプト可能な人間メッシュ復元フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/yufu-wang/prompthmr
+  date_added: '2026-09-21'
+  source: agent
+  arxiv_id: '2504.06397'
+  repo: yufu-wang/prompthmr
 - id: sam-body4d-871476
   title: SAM-Body4D
   area: animation
