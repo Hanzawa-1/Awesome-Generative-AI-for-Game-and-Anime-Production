@@ -9426,6 +9426,33 @@ entries:
   date_added: '2026-08-25'
   source: agent
   arxiv_id: '2510.12175'
+- id: cafa-b60165
+  title: CAFA
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.06778
+    github: https://github.com/CAFA-VT2A/CAFA
+  authors:
+  - Roi Benita
+  - Michael Finkelson
+  - Tavi Halperin
+  - Gleb Sterkin
+  - Yossi Adi
+  year: 2025
+  tags:
+  - control
+  - foley
+  - sfx
+  - video-to-audio
+  summary: A Controllable Automatic Foley Artist (CAFA) that generates synchronized sound effects for silent videos with enhanced user control via text prompts and reference audio.
+  summary_ja: テキストプロンプトや参照音声による高度なユーザー制御を可能にし、無音映像に対して同期した効果音を生成する制御可能な自動フォーリー生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/cafa-vt2a/cafa
+  date_added: '2026-09-22'
+  source: agent
+  arxiv_id: '2504.06778'
+  repo: cafa-vt2a/cafa
 - id: dreamfoley-87a529
   title: DreamFoley
   area: audio
@@ -10256,6 +10283,35 @@ entries:
   source: agent
   arxiv_id: '2603.24589'
   repo: giantailab/yingmusic-singer
+- id: ditsinger-a02cd1
+  title: DiTSinger
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.09016
+    paper: https://arxiv.org/abs/2510.09016
+  authors:
+  - Zongcai Du
+  - Guilin Deng
+  - Xiaofeng Guo
+  - Xin Gao
+  - Linke Li
+  - Kaichang Cheng
+  - Fubo Han
+  - Siyu Yang
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - dit
+  - scaling
+  - svs
+  summary: A Diffusion Transformer (DiT) based singing voice synthesis model that scales SVS with a large-scale corpus of over 500 hours of high-quality Chinese singing data. It incorporates Rotary Position Embedding (RoPE) and implicit alignment to achieve expressive vocal generation.
+  summary_ja: 500時間以上の高品質な中国語歌唱データからなる大規模コーパスを用いて、歌声合成（SVS）のスケールアップを図るDiffusion Transformer（DiT）ベースのモデル。Rotary Position Embedding（RoPE）と暗黙的アライメントを組み込み、表現力豊かなボーカル生成を実現します。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-09-22'
+  source: agent
+  arxiv_id: '2510.09016'
 - id: tcsinger-2-865c8f
   title: TCSinger 2
   area: audio
@@ -12364,6 +12420,32 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: elrond79/pinocchio
+- id: aptavatar-4abad7
+  title: AptAvatar
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.24013
+    github: https://github.com/TaoLiveAIGC/AptAvatar
+  authors:
+  - Hengyuan Zhang
+  - Jingna Sun
+  - Meiguang Jin
+  - Junfeng Ma
+  year: 2026
+  tags:
+  - audio-driven
+  - distillation
+  - talking-head
+  - video-generation
+  summary: A 14-billion parameter long-form audio-driven avatar generation framework designed for production-ready, fast, and expressive inference. It utilizes endpoint-anchored distribution distillation and self-generated history replay to deliver vivid motion and high-fidelity video generation without quality degradation over long durations.
+  summary_ja: プロダクション対応の高速かつ表現力豊かな推論向けに設計された、140億パラメータの長尺オーディオ駆動型アバター生成フレームワーク。終点アンカー型分布蒸留と自己生成履歴リプレイを利用し、長時間の生成でも品質を損なうことなく、生き生きとした動きと高精度な動画生成を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/taoliveaigc/aptavatar
+  date_added: '2026-09-22'
+  source: agent
+  arxiv_id: '2607.24013'
+  repo: taoliveaigc/aptavatar
 - id: avatar-forcing-3f6bdb
   title: Avatar Forcing
   area: characters
@@ -12585,6 +12667,35 @@ entries:
   source: agent
   arxiv_id: '2605.26486'
   repo: meigen-ai/longcat-video-avatar
+- id: luna-6f0286
+  title: LUNA
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.31981
+    project: https://penghtyx.github.io/LUNA/
+  authors:
+  - Peng Li
+  - Rawal Khirodkar
+  - Junxuan Li
+  - Yuan Dong
+  - Chen Cao
+  - Yuan Liu
+  - Wenhan Luo
+  - Yike Guo
+  - Shunsuke Saito
+  year: 2026
+  tags:
+  - 3d-gaussian
+  - animation
+  - avatar
+  - lbs-free
+  summary: An LBS-free universal neural animation model that directly maps diverse 2D controls, such as images, keypoints, and sketches, into 3D Gaussian deformations. It bypasses explicit body fitting and linear blend skinning to deliver realistic human motion and zero-shot cross-identity generalization.
+  summary_ja: 画像、キーポイント、スケッチなどの多様な2D制御を3Dガウシアンの変形に直接マッピングする、LBS（Linear Blend Skinning）フリーの汎用ニューラルアニメーションモデル。明示的なボディフィッティングやスキンニングを回避し、リアルな人間動作とゼロショットのクロスアイデンティティ一般化を実現します。
+  date_added: '2026-09-22'
+  source: agent
+  arxiv_id: '2606.31981'
 - id: monocular-avatar-reconstruction-via-cascaded-diffusion-prior-8f5630
   title: Monocular Avatar Reconstruction via Cascaded Diffusion Priors and UV-Space Differentiable Shading
   area: characters
@@ -13069,6 +13180,26 @@ entries:
   date_added: '2026-06-30'
   source: agent
   repo: duixcom/duix-avatar
+- id: duix-mobile-8e44c3
+  title: Duix-Mobile
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    github: https://github.com/duixcom/Duix-Mobile
+    website: https://www.duix.com/
+  year: 2024
+  tags:
+  - avatar
+  - interactive
+  - on-device
+  - sdk
+  summary: An open-source SDK for deploying real-time interactive AI avatars directly on mobile devices and embedded screens. It supports on-device deployment with low latency, enabling developers to integrate LLM, ASR, and TTS services for natural conversations.
+  summary_ja: モバイルデバイスや組み込みスクリーン上にリアルタイムでインタラクティブなAIアバターを直接デプロイするためのオープンソースSDK。低遅延のオンデバイス展開をサポートし、開発者がLLM、ASR、TTSサービスを統合して自然な対話を実現できます。
+  thumbnail: https://www.duix.com/assets/openGraph/home.webp
+  date_added: '2026-09-22'
+  source: agent
+  repo: duixcom/duix-mobile
 - id: exavatar-c9704a
   title: ExAvatar
   area: characters
