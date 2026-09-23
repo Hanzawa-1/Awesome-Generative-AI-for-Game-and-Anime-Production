@@ -16707,6 +16707,32 @@ entries:
   source: agent
   arxiv_id: '2602.04349'
   repo: bluedyee/vecset-edit
+- id: visculpt-4d8150
+  title: ViSculpt
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.24169
+    github: https://github.com/sig-pku/ViSculpt
+  authors:
+  - Bo Pang
+  - Jiaqi Pan
+  - Xiaocheng Zhang
+  - Jiacheng Xu
+  - Guoping Wang
+  - Peng-Shuai Wang
+  year: 2026
+  tags:
+  - geometry-editing
+  - llm-agent
+  - mesh-editing
+  summary: A training-free, visual-centric agentic geometry editing framework that leverages large language models to perform perception-driven editing of arbitrary existing meshes. It translates creative intent into precise operations while preserving untouched regions.
+  summary_ja: 大型言語モデルを活用して、既存の任意のメッシュに対して知覚駆動型の編集を行う、トレーニング不要で視覚中心のエージェント型ジオメトリ編集フレームワーク。未編集の領域を維持しながら、クリエイティブな意図を正確な操作に変換します。
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2608.24169'
+  repo: sig-pku/visculpt
 - id: arap-gs-drag-driven-as-rigid-as-possible-3d-gaussian-splatti-9eebe8
   title: 'ARAP-GS: Drag-driven As-Rigid-As-Possible 3D Gaussian Splatting Editing with Diffusion Prior'
   area: gen-3d
@@ -16732,6 +16758,32 @@ entries:
   date_added: '2026-08-26'
   source: agent
   arxiv_id: '2504.12788'
+- id: demapgs-ca6ec7
+  title: DeMapGS
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.10572
+    github: https://github.com/CyberAgentAILab/DeMapGS
+  authors:
+  - Shuyi Zhou
+  - Shengze Zhong
+  - Kenshi Takayama
+  - Takafumi Taketomi
+  - Takeshi Oishi
+  year: 2025
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - mesh-deformation
+  summary: A structured Gaussian Splatting framework that jointly optimizes deformable template meshes and surface-attached 2D Gaussian splats. This unified representation overcomes topological inconsistencies and enhances editing flexibility, supporting high-fidelity diffuse, normal, and displacement map extraction.
+  summary_ja: 変形可能なテンプレートメッシュと表面に付着した2D Gaussian Splatを共同で最適化する、構造化されたGaussian Splattingフレームワーク。この統一表現によりトポロジーの不整合を克服し、編集の柔軟性を高め、高精度なディフューズ、法線、ディスプレイスメントマップの抽出をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/cyberagentailab/demapgs
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2512.10572'
+  repo: cyberagentailab/demapgs
 - id: drag-your-gaussian-e05d4e
   title: Drag Your Gaussian
   area: gen-3d
@@ -17348,6 +17400,33 @@ entries:
   source: agent
   arxiv_id: '2403.10050'
   repo: slothfulxtx/texture-gs
+- id: tip-editor-68af82
+  title: TIP-Editor
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.14828
+    github: https://github.com/zjy526223908/TIP-Editor
+  authors:
+  - Jingyu Zhuang
+  - Di Kang
+  - Yan-Pei Cao
+  - Guanbin Li
+  - Liang Lin
+  - Ying Shan
+  year: 2024
+  tags:
+  - 3d-editing
+  - image-prompt
+  - text-to-3d
+  summary: A 3D scene editing framework that accepts both text and image prompts alongside a 3D bounding box to specify the editing region. It enables precise control over the appearance and location of edited objects by utilizing a localized editing pipeline.
+  summary_ja: テキストと画像のプロンプト、および編集領域を指定する3Dバウンディングボックスを受け取る3Dシーン編集フレームワーク。局所的な編集パイプラインを利用することで、編集されたオブジェクトの外観と位置を正確に制御できます。
+  thumbnail: https://opengraph.githubassets.com/1/zjy526223908/tip-editor
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2401.14828'
+  repo: zjy526223908/tip-editor
 - id: trame-trajectory-anchored-multi-view-editing-for-text-guided-5f2f7f
   title: 'TrAME: Trajectory-Anchored Multi-View Editing for Text-Guided 3D Gaussian Splatting Manipulation'
   area: gen-3d
@@ -17751,6 +17830,35 @@ entries:
   source: agent
   arxiv_id: '2606.31579'
   repo: autodeskailab/dualbrep
+- id: futurecad-abfbb5
+  title: FutureCAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.11831
+    github: https://github.com/JohanStackk/FutureCAD
+    paper: https://arxiv.org/pdf/2603.11831
+  authors:
+  - Jiahao Li
+  - Qingwang Zhang
+  - Qiuyu Chen
+  - Guozhan Qiu
+  - Yunzhong Lou
+  - Xiangdong Zhou
+  year: 2026
+  tags:
+  - brep
+  - cad
+  - parametric
+  - text-to-cad
+  summary: A framework that integrates large language models with a boundary representation grounding transformer (BRepGround) to generate high-fidelity parametric CAD models from text descriptions.
+  summary_ja: テキスト記述から高精度なパラメータ付きCADモデルを生成するために、大規模言語モデル（LLM）と境界表現グラウンディングトランスフォーマー（BRepGround）を統合したフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/johanstackk/futurecad
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2603.11831'
+  repo: johanstackk/futurecad
 - id: graph-cad-49c661
   title: Graph-CAD
   area: gen-3d
@@ -21740,6 +21848,38 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: pku-yuangroup/ultrashape-1.0
+- id: depthart-scaling-foundation-monocular-depth-to-tiny-models-5b8625
+  title: 'DepthART: Scaling Foundation Monocular Depth to Tiny Models'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.17099
+    github: https://github.com/xuefeng-cvr/DepthART
+    paper: https://arxiv.org/pdf/2607.17099
+    website: https://xuefeng-cvr.github.io/DepthART/
+  authors:
+  - Feng Xue
+  - Wu Chen
+  - Mingshuai Zhao
+  - Guofeng Zhong
+  - Anlong Ming
+  - Haozhe Wang
+  - Dianqiao Lei
+  - Zhaowen Lin
+  year: 2026
+  tags:
+  - depth
+  - metric-depth
+  - on-device
+  - tiny-model
+  summary: A compact monocular depth estimation model designed for on-device deployment. It bridges the gap between heavy foundation models and tiny models, supporting both affine-invariant relative depth and camera-aware metric depth with high zero-shot generalization.
+  summary_ja: デバイス上へのデプロイ向けに設計されたコンパクトな単眼深度推定モデル。巨大な基盤モデルと極小モデルのギャップを埋め、アフィン不変な相対深度とカメラ情報を考慮した絶対（メトリック）深度の両方を、高いゼロショット汎化性能でサポートする。
+  thumbnail: https://opengraph.githubassets.com/1/xuefeng-cvr/depthart
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2607.17099'
+  repo: xuefeng-cvr/depthart
 - id: geonext-video-generative-models-as-geometry-learner-21fa8f
   title: 'GeoNeXt: Video Generative Models as Geometry Learner'
   area: gen-3d
@@ -21795,6 +21935,37 @@ entries:
   source: agent
   arxiv_id: '2601.03252'
   repo: zju3dv/infinidepth
+- id: marigold-v2-revisiting-diffusion-transformers-for-monocular-58f33d
+  title: 'Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.08084
+    github: https://github.com/huawei-bayerlab/marigold-v2
+    paper: https://arxiv.org/pdf/2609.08084
+  authors:
+  - Igor Pavlovic
+  - Thiemo Wandel
+  - Anton Obukhov
+  - Luca Bartolomei
+  - Andrey Davydov
+  - Fabio Tosi
+  - Matteo Poggi
+  - Sabine Süsstrunk
+  year: 2026
+  tags:
+  - depth
+  - diffusion
+  - dit
+  - normal-map
+  summary: An upgraded version of the Marigold depth estimation framework that leverages Diffusion Transformers (DiT) to produce highly detailed, sharp, and out-of-distribution robust monocular depth and surface normal maps.
+  summary_ja: Diffusion Transformer（DiT）を活用して、極めて詳細でシャープな、かつ未知のデータに対しても頑健な単眼深度マップおよび法線マップを生成する、Marigold深度推定フレームワークのアップグレード版。
+  thumbnail: https://opengraph.githubassets.com/1/huawei-bayerlab/marigold-v2
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2609.08084'
+  repo: huawei-bayerlab/marigold-v2
 - id: metricanything-scaling-metric-depth-pretraining-with-noisy-h-21eaf0
   title: 'MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources'
   area: gen-3d
@@ -21853,6 +22024,36 @@ entries:
   source: agent
   arxiv_id: '2605.30060'
   repo: aigc3d/vigeo
+- id: weather-conditioned-depth-anything-90a260
+  title: Weather-Conditioned Depth Anything
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.04827
+    github: https://github.com/taco-group/DA-W
+    paper: https://arxiv.org/pdf/2609.04827
+    website: https://zhaoming-tamu.github.io/WCDA/
+  authors:
+  - Zhaoming Xu
+  - Chan-Wei Hu
+  - Kuan-Ru Huang
+  - Zihao Zhu
+  - Renjie Li
+  - Yang Zhou
+  - Zhengzhong Tu
+  year: 2026
+  tags:
+  - depth
+  - style-filter
+  - weather-robust
+  summary: A weather-robust monocular depth estimation framework built on Depth Anything V2. It explicitly disentangles style from content using a Style Filter to achieve robust zero-shot relative depth estimation under adverse conditions like fog, rain, snow, and low light.
+  summary_ja: Depth Anything V2をベースに構築された、悪天候に強い単眼深度推定フレームワーク。スタイルフィルターを用いてスタイルとコンテンツを明示的に分離することで、霧、雨、雪、低照度などの悪条件下でも頑健なゼロショット相対深度推定を実現する。
+  thumbnail: https://opengraph.githubassets.com/1/taco-group/da-w
+  date_added: '2026-09-23'
+  source: agent
+  arxiv_id: '2609.04827'
+  repo: taco-group/da-w
 - id: zipdepth-bringing-lightweight-zero-shot-monocular-depth-anyw-eb09ac
   title: 'ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device'
   area: gen-3d

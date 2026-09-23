@@ -1335,6 +1335,23 @@ entries:
   summary_ja: ピクシブが開発した、アニメ調の人型アバターをデザイン・カスタマイズできる人気の3Dキャラクター制作ソフトウェア。髪型のモデリング、テクスチャペイント、衣装のカスタマイズを直感的なブラシツールで行うことができ、標準的なVRM形式でエクスポート可能です。
   date_added: '2026-06-24'
   source: agent
+- id: facegen-cb06b4
+  title: FaceGen
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://facegen.com/
+  year: 2024
+  tags:
+  - 3d-face
+  - blendshapes
+  - commercial
+  - head-generation
+  summary: A commercial 3D face creation software that generates realistic 3D human heads from one or more photos, with automatic generation of animation targets and compatibility with 3D scan data.
+  summary_ja: 1枚以上の写真からリアルな3Dの顔モデルを自動生成する商用ソフトウェア。アニメーション用のブレンドシェイプの自動作成や、3Dスキャンデータとの連携にも対応。
+  date_added: '2026-09-23'
+  source: agent
 - id: headshot-3-dfa27e
   title: Headshot 3
   area: characters
@@ -1475,6 +1492,7 @@ entries:
   - weights
   summary: A popular commercial Blender addon that implements voxel-based heat diffusion skinning to overcome the limitations of Blender's native automatic weights, especially for overlapping geometries like clothing and hair.
   summary_ja: Blender標準の自動ウェイトの制限を克服するために、ボクセルベースの熱拡散スキニングを実装した人気の商用Blenderアドオン。衣服や髪などの重なり合うジオメトリに特に効果的です。
+  thumbnail: https://assets.superhivemarket.com/store/product/151551/image/xlarge-8096008a0a568f24990bf548255d2039.png
   date_added: '2026-08-05'
   source: agent
 - id: spline-ai-89a525
