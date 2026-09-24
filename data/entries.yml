@@ -16729,6 +16729,7 @@ entries:
   - mesh-editing
   summary: A training-free, visual-centric agentic geometry editing framework that leverages large language models to perform perception-driven editing of arbitrary existing meshes. It translates creative intent into precise operations while preserving untouched regions.
   summary_ja: 大型言語モデルを活用して、既存の任意のメッシュに対して知覚駆動型の編集を行う、トレーニング不要で視覚中心のエージェント型ジオメトリ編集フレームワーク。未編集の領域を維持しながら、クリエイティブな意図を正確な操作に変換します。
+  thumbnail: https://opengraph.githubassets.com/1/sig-pku/visculpt
   date_added: '2026-09-23'
   source: agent
   arxiv_id: '2608.24169'
@@ -23480,6 +23481,34 @@ entries:
   source: agent
   arxiv_id: '2502.05874'
   repo: yangzhifeio/mmgdreamer
+- id: scene-splatter-momentum-3d-scene-generation-from-single-imag-037bbb
+  title: 'Scene Splatter: Momentum 3D Scene Generation from Single Image with Video Diffusion Model'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.02764
+    github: https://github.com/shengjun-zhang/Scene-Splatter
+    project: https://shengjun-zhang.github.io/SceneSplatter/
+  authors:
+  - Shengjun Zhang
+  - Jinzhao Li
+  - Xin Fei
+  - Hao Liu
+  - Yueqi Duan
+  year: 2025
+  tags:
+  - diffusion
+  - gaussian-splatting
+  - scene-generation
+  - video-diffusion
+  summary: A momentum-based paradigm for video diffusion that generates generic 3D scenes from a single image. It addresses the limitations of video length and scene inconsistency in novel-view synthesis by constructing noisy samples from historical frames, enabling stable and high-quality 3D reconstruction.
+  summary_ja: ビデオ拡散モデルを用いて単一の画像から一般的な3Dシーンを生成する、モメンタムベースのパラダイム。過去のフレームからノイズを含むサンプルを構築することで、新規ビュー合成におけるビデオの長さの制限やシーンの不整合を解消し、安定した高品質な3D再構成を可能にする。
+  thumbnail: https://opengraph.githubassets.com/1/shengjun-zhang/scene-splatter
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2504.02764'
+  repo: shengjun-zhang/scene-splatter
 - id: scenegen-3afc89
   title: SceneGen
   area: gen-3d
@@ -23507,6 +23536,35 @@ entries:
   source: agent
   arxiv_id: '2508.15769'
   repo: mengmouxu/scenegen
+- id: scenepainter-semantically-consistent-perpetual-3d-scene-gene-abb607
+  title: 'ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.19058
+    github: https://github.com/xiac20/ScenePainter
+    project: https://xiac20.github.io/ScenePainter/
+  authors:
+  - Chong Xia
+  - Shengjun Zhang
+  - Fangfu Liu
+  - Chang Liu
+  - Khodchaphun Hirunyaratsameewong
+  - Yueqi Duan
+  year: 2025
+  tags:
+  - outpainting
+  - perpetual-scene
+  - scene-generation
+  - scene-graph
+  summary: A framework for perpetual 3D scene generation that produces long-range, coherent 3D view sequences from a single image. It addresses semantic drift by aligning the outpainting model's scene-specific priors with concept relations represented in a scene concept graph.
+  summary_ja: 単一の画像から長範囲で一貫した3Dビューシーケンスを生成する、永続的な3Dシーン生成のためのフレームワーク。シーンコンセプトグラフで表現された概念関係とアウトペインティングモデルのシーン固有の事前分布を整合させることで、セマンティックドリフト（意味の逸脱）の問題を解決する。
+  thumbnail: https://opengraph.githubassets.com/1/xiac20/scenepainter
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2507.19058'
+  repo: xiac20/scenepainter
 - id: scenethesis-a-language-and-vision-agentic-framework-for-3d-s-3c450f
   title: 'Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation'
   area: gen-3d
@@ -23617,6 +23675,40 @@ entries:
   source: agent
   arxiv_id: '2403.09439'
   repo: franklinz233/3d_scene_generation
+- id: blockfusion-expandable-3d-scene-generation-using-latent-tri-78c7e2
+  title: 'BlockFusion: Expandable 3D Scene Generation using Latent Tri-plane Extrapolation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.17053
+    github: https://github.com/Tencent/BlockFusion
+    project: https://yang-l1.github.io/blockfusion/
+  authors:
+  - Zhennan Wu
+  - Yang Li
+  - Han Yan
+  - Taizhang Shang
+  - Weixuan Sun
+  - Senbo Wang
+  - Ruikai Cui
+  - Weizhe Liu
+  - Hiroyuki Sato
+  - Hongdong Li
+  - Pan Ji
+  year: 2024
+  tags:
+  - diffusion
+  - infinite-world
+  - scene-generation
+  - tri-plane
+  summary: A diffusion-based model that generates 3D scenes as unit blocks and seamlessly incorporates new blocks to extend the scene infinitely. It utilizes a latent tri-plane representation and an extrapolation mechanism to ensure geometric and stylistic consistency across block boundaries.
+  summary_ja: 3Dシーンを単位ブロックとして生成し、新しいブロックをシームレスに結合してシーンを無限に拡張できる拡散ベースのモデル。潜在トライプレーン表現と外挿メカニズムを利用して、ブロック境界を越えた幾何学的およびスタイル的な一貫性を確保する。
+  thumbnail: https://opengraph.githubassets.com/1/tencent/blockfusion
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2401.17053'
+  repo: tencent/blockfusion
 - id: director3d-e03e0e
   title: Director3D
   area: gen-3d
@@ -23738,6 +23830,41 @@ entries:
   source: agent
   arxiv_id: '2405.00915'
   repo: ymxlzgy/echoscene
+- id: frankenstein-generating-semantic-compositional-3d-scenes-in-0424e4
+  title: 'Frankenstein: Generating Semantic-Compositional 3D Scenes in One Tri-Plane'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.16210
+    github: https://github.com/Tencent/Frankenstein
+    project: https://wolfball.github.io/frankenstein/
+  authors:
+  - Han Yan
+  - Yang Li
+  - Zhennan Wu
+  - Shenzhou Chen
+  - Weixuan Sun
+  - Taizhang Shang
+  - Weizhe Liu
+  - Tian Chen
+  - Xiaqiang Dai
+  - Chao Ma
+  - Hongdong Li
+  - Pan Ji
+  year: 2024
+  tags:
+  - compositional
+  - diffusion
+  - scene-generation
+  - sdf
+  summary: A diffusion-based framework that generates semantic-compositional 3D scenes in a single pass. It decodes multiple Signed Distance Fields (SDFs) from a single tri-plane tensor, allowing the simultaneous generation of multiple separated, semantically meaningful shapes that can be individually edited or rearranged.
+  summary_ja: 単一のパスでセマンティック構成要素に分解された3Dシーンを生成する拡散ベースのフレームワーク。単一のトライプレーンテンソルから複数の符号付き距離関数（SDF）をデコードすることで、個別に編集や再配置が可能な、セマンティックに意味のある複数の独立した形状を同時に生成できる。
+  thumbnail: https://opengraph.githubassets.com/1/tencent/frankenstein
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2403.16210'
+  repo: tencent/frankenstein
 - id: instructscene-instruction-driven-3d-indoor-scene-synthesis-w-cab372
   title: 'InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior'
   area: gen-3d
@@ -24475,6 +24602,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: chronos123/spnd
+- id: spotdiffusion-a-fast-approach-for-seamless-panorama-generati-1baae5
+  title: 'SpotDiffusion: A Fast Approach For Seamless Panorama Generation Over Time'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.15507
+    github: https://github.com/stanifrolov/spotdiffusion
+  authors:
+  - Stanislav Frolov
+  - Tobias Plötz
+  - Andreas Dengel
+  year: 2025
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  summary: An efficient method for high-resolution panorama generation that eliminates the need for overlapping denoising predictions. It shifts non-overlapping denoising windows over time to correct seams in subsequent timesteps, resulting in coherent, sharp images with fewer overall steps.
+  summary_ja: 重複するデノイジング予測を不要にする、高解像度パノラマ生成のための効率的な手法。重複しないデノイジングウィンドウを時間経過とともにシフトさせることで、後続のタイムステップで継ぎ目を修正し、より少ないステップ数で一貫性のある鮮明な画像を生成します。
+  thumbnail: https://opengraph.githubassets.com/1/stanifrolov/spotdiffusion
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2407.15507'
+  repo: stanifrolov/spotdiffusion
 - id: tandit-tangent-plane-diffusion-transformer-for-high-quality-7def0e
   title: 'TanDiT: Tangent-Plane Diffusion Transformer for High-Quality 360° Panorama Generation'
   area: gen-3d
@@ -24581,6 +24733,33 @@ entries:
   date_added: '2026-08-20'
   source: agent
   arxiv_id: '2407.07174'
+- id: customizing-360-degree-panoramas-through-text-to-image-diffu-87c379
+  title: Customizing 360-Degree Panoramas through Text-to-Image Diffusion Models
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.18840
+    github: https://github.com/littlewhitesea/StitchDiffusion
+    website: https://littlewhitesea.github.io/stitchdiffusion.github.io/
+  authors:
+  - Hai Wang
+  - Xiaoyu Xiang
+  - Yuchen Fan
+  - Jing-Hao Xue
+  year: 2024
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  summary: A method for customizing 360-degree panoramas using text-to-image diffusion models. It introduces StitchDiffusion, which performs pre-denoising operations on the stitch block of the leftmost and rightmost image regions to ensure seamless boundary continuity.
+  summary_ja: テキストから画像への拡散モデルを用いて360度パノラマをカスタマイズする手法。画像の左端と右端の領域からなるステッチブロックに対して事前デノイジング処理を行う「StitchDiffusion」を導入し、シームレスな境界の連続性を保証します。
+  thumbnail: https://opengraph.githubassets.com/1/littlewhitesea/stitchdiffusion
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2310.18840'
+  repo: littlewhitesea/stitchdiffusion
 - id: diffpano-scalable-and-consistent-text-to-panorama-generation-17b5e6
   title: 'DiffPano: Scalable and Consistent Text to Panorama Generation with Spherical Epipolar-Aware Diffusion'
   area: gen-3d
@@ -25533,6 +25712,32 @@ entries:
   source: agent
   arxiv_id: '2312.01508'
   repo: wenhaochai/citygen
+- id: infinicity-infinite-scale-city-synthesis-b0bba1
+  title: 'InfiniCity: Infinite-Scale City Synthesis'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.09637
+    website: https://hubert0527.github.io/infinicity/
+  authors:
+  - Chieh Hubert Lin
+  - Hsin-Ying Lee
+  - Willi Menapace
+  - Menglei Chai
+  - Aliaksandr Siarohin
+  - Ming-Hsuan Yang
+  - Sergey Tulyakov
+  year: 2023
+  tags:
+  - 3d-scene
+  - city-generation
+  - voxel
+  summary: A modular framework for infinite-scale 3D city synthesis that generates arbitrary-scale 2D bird's-eye-view maps, lifts them to 3D octrees via voxel completion, and renders them using a voxel-based neural renderer.
+  summary_ja: 無限スケールの3D都市合成のためのモジュール式フレームワーク。任意のスケールの2D俯瞰マップを生成し、ボクセル補完によって3Dオクトリーに変換した上で、ボクセルベースのニューラルレンダラーを用いて描画する。
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2301.09637'
 - id: infinigen-aef0c8
   title: Infinigen
   area: gen-3d
@@ -25564,6 +25769,29 @@ entries:
   source: agent
   arxiv_id: '2306.09310'
   repo: princeton-vl/infinigen
+- id: terrain-diffusion-network-climatic-aware-terrain-generation-6c67cc
+  title: 'Terrain Diffusion Network: Climatic-Aware Terrain Generation with Geological Sketch Guidance'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.16725
+  authors:
+  - Zexin Hu
+  - Kun Hu
+  - Clinton Mo
+  - Lei Pan
+  - Zhiyong Wang
+  year: 2023
+  tags:
+  - diffusion
+  - sketch-guided
+  - terrain
+  summary: A diffusion-based terrain generation framework that incorporates user-guided geological sketches (rivers, ridges, basins, and peaks) and a multi-level denoising scheme to generate realistic, climatic-aware terrains.
+  summary_ja: 川、尾根、盆地、山頂などの地質学的スケッチによるユーザー指示を取り入れ、マルチレベルのノイズ除去スキームを用いて、侵食や地殻変動の影響を反映したリアルな地形を生成する拡散モデルベースのフレームワーク。
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2308.16725'
 - id: terrain3d-0e90c3
   title: Terrain3D
   area: gen-3d
@@ -25778,6 +26006,31 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: avalovelace1/brickgpt
+- id: consistent-flow-distillation-for-text-to-3d-generation-e73704
+  title: Consistent Flow Distillation for Text-to-3D Generation
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.05445
+    github: https://github.com/runjie-yan/ConsistentFlowDistillation
+    paper: https://arxiv.org/pdf/2501.05445
+  authors:
+  - Runjie Yan
+  - Xuanchi Ren
+  - Xiaolong Wang
+  year: 2025
+  tags:
+  - diffusion
+  - score-distillation
+  - text-to-3d
+  summary: Introduces Consistent Flow Distillation (CFD), a method that leverages the gradient of the diffusion ODE or SDE sampling process to guide 3D generation, addressing the over-smoothing and low-diversity issues of Score Distillation Sampling (SDS).
+  summary_ja: 従来のScore Distillation Sampling (SDS)における過度な平滑化や多様性の低さといった課題を解決するため、拡散モデルのODEまたはSDEサンプリングプロセスの勾配を利用して3D生成をガイドする「Consistent Flow Distillation (CFD)」を提案。
+  thumbnail: https://opengraph.githubassets.com/1/runjie-yan/consistentflowdistillation
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2501.05445'
+  repo: runjie-yan/consistentflowdistillation
 - id: direct3d-s2-55eb84
   title: Direct3D-S2
   area: gen-3d
@@ -26023,6 +26276,32 @@ entries:
   source: agent
   arxiv_id: '2406.00093'
   repo: sunzey/bootstrap3d
+- id: connecting-consistency-distillation-to-score-distillation-fo-1b2578
+  title: Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.13584
+    github: https://github.com/LMozart/ECCV2024-GCS-BEG
+    paper: https://arxiv.org/pdf/2407.13584
+  authors:
+  - Zongrui Li
+  - Minghui Hu
+  - Qian Zheng
+  - Xudong Jiang
+  year: 2024
+  tags:
+  - consistency-distillation
+  - score-distillation
+  - text-to-3d
+  summary: Analyzes score distillation methods by connecting consistency distillation theory to score distillation, proposing an optimization framework that improves the fidelity and detail of 3D assets generated from text prompts.
+  summary_ja: 整合性蒸留（Consistency Distillation）の理論をスコア蒸留に結びつけることで従来のスコア蒸留手法を分析し、テキストプロンプトから生成される3Dアセットの忠実度と詳細度を向上させる最適化フレームワークを提案。
+  thumbnail: https://opengraph.githubassets.com/1/lmozart/eccv2024-gcs-beg
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2407.13584'
+  repo: lmozart/eccv2024-gcs-beg
 - id: direct-3d-128ddf
   title: DIRECT-3D
   area: gen-3d
@@ -26135,6 +26414,30 @@ entries:
   source: agent
   arxiv_id: '2407.13976'
   repo: hansenhuang0823/placiddreamer
+- id: turbo3d-ultra-fast-text-to-3d-generation-ae7208
+  title: 'Turbo3D: Ultra-fast Text-to-3D Generation'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.04470
+    paper: https://arxiv.org/pdf/2412.04470
+    website: https://turbo-3d.github.io/
+  authors:
+  - Yongwei Chen
+  - Yuan-Chen Guo
+  - Ying-Tian Liu
+  - Song-Hai Zhang
+  year: 2024
+  tags:
+  - fast-generation
+  - gaussian-splatting
+  - text-to-3d
+  summary: Presents Turbo3D, an ultra-fast text-to-3D generation system that produces high-quality 3D Gaussian Splatting assets in under one second using a rapid 4-step, 4-view diffusion generator and an efficient feed-forward Gaussian reconstructor.
+  summary_ja: 高速な4ステップ・4ビュー拡散ジェネレータと効率的なフィードフォワード型Gaussian reconstructorを組み合わせることで、高品質な3D Gaussian Splattingアセットを1秒未満で生成する超高速テキスト3D生成システム「Turbo3D」を提案。
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2412.04470'
 - id: gaussiandreamer-8985a2
   title: GaussianDreamer
   area: gen-3d
@@ -27159,6 +27462,34 @@ entries:
   source: agent
   arxiv_id: '2412.14148'
   repo: aigc3d/mcmat
+- id: neural-lightrig-unlocking-accurate-object-normal-and-materia-55a101
+  title: 'Neural LightRig: Unlocking Accurate Object Normal and Material Estimation with Multi-Light Diffusion'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.09593
+    github: https://github.com/ZexinHe/Neural-LightRig
+    website: https://neural-lightrig.github.io/Page/
+  authors:
+  - Zexin He
+  - Tengfei Wang
+  - Xin Huang
+  - Xingang Pan
+  - Ziwei Liu
+  year: 2024
+  tags:
+  - diffusion
+  - material
+  - normal-map
+  - pbr
+  summary: A framework that estimates accurate surface normals and PBR material properties from a single image by generating multi-light images using a diffusion model, providing rich auxiliary illumination cues.
+  summary_ja: 拡散モデルを用いてマルチライト画像を生成することで、単一の画像から正確な表面法線とPBRマテリアル特性を推定し、豊富な補助照明キューを提供するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zexinhe/neural-lightrig
+  date_added: '2026-09-24'
+  source: agent
+  arxiv_id: '2412.09593'
+  repo: zexinhe/neural-lightrig
 - id: pbrfusion-3bc3dd
   title: PBRFusion
   area: gen-3d
@@ -28048,6 +28379,25 @@ entries:
   date_added: '2026-08-20'
   source: agent
   arxiv_id: '2409.19946'
+- id: illustrious-noobai-style-explorer-e2371e
+  title: Illustrious & NoobAI Style Explorer
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    github: https://github.com/ThetaCursed/Illustrious-NoobAI-Style-Explorer
+  year: 2024
+  tags:
+  - anime
+  - danbooru
+  - prompting
+  - style-explorer
+  summary: A fast, visual reference library for over 16,000 artist styles, optimized for Illustrious XL and NoobAI-XL models using the Danbooru tagging system.
+  summary_ja: Danbooruタグシステムを使用するIllustrious XLおよびNoobAI-XLモデル向けに最適化された、16,000以上のアーティストスタイルを網羅する高速なビジュアルリファレンスライブラリ。
+  thumbnail: https://opengraph.githubassets.com/1/thetacursed/illustrious-noobai-style-explorer
+  date_added: '2026-09-24'
+  source: agent
+  repo: thetacursed/illustrious-noobai-style-explorer
 - id: lora-mix-37ec5d
   title: LoRA-Mix
   area: image-2d
