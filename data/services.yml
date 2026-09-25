@@ -2489,6 +2489,24 @@ entries:
   thumbnail: https://cdn.openart.ai/assets/home/usecase_thumbnails/sketch_to_image.jpg
   date_added: '2026-08-07'
   source: agent
+- id: samsung-galaxy-ai-sketch-to-image-af9ae6
+  title: Samsung Galaxy AI Sketch to Image
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.samsung.com/us/support/answer/ANS10003469/
+  year: 2024
+  tags:
+  - drawing-assist
+  - mobile
+  - on-device
+  - sketch
+  summary: An on-device generative AI feature integrated into Samsung Galaxy devices that transforms rough hand-drawn doodles or sketches on top of photos into detailed, photorealistic objects matching the style of the image.
+  summary_ja: Samsung Galaxyデバイスに統合されたオンデバイス生成AI機能。写真の上に描いたラフな手書きの落書きやスケッチを、画像のスタイルに合わせた詳細でリアルなオブジェクトに変換する。
+  thumbnail: https://image-us.samsung.com/SamsungUS/support/logo-square-letter.png
+  date_added: '2026-09-25'
+  source: agent
 - id: freepik-pikaso-4b244d
   title: Freepik Pikaso
   area: image-2d

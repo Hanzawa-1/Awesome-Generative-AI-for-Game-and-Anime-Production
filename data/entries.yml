@@ -30052,6 +30052,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: vectorspacelab/omnigen2
+- id: pixelhacker-dc64eb
+  title: PixelHacker
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.20438
+    github: https://github.com/hustvl/PixelHacker
+  authors:
+  - Ziyang Xu
+  - Kangsheng Duan
+  - Xiaolei Shen
+  - Zhifeng Ding
+  - Wenyu Liu
+  - Xiaohu Ruan
+  - Xiaoxin Chen
+  - Xinggang Wang
+  year: 2025
+  tags:
+  - diffusion
+  - editing
+  - inpainting
+  summary: A diffusion-based image inpainting model that introduces Latent Categories Guidance (LCG) to maintain structural and semantic consistency. It achieves state-of-the-art performance on benchmarks like Places2, CelebA-HQ, and FFHQ.
+  summary_ja: 構造的および意味的な一貫性を維持するためにLatent Categories Guidance（LCG）を導入した、拡散モデルベースの画像インペインティング手法。Places2、CelebA-HQ、FFHQなどのベンチマークで優れた性能を達成しています。
+  thumbnail: https://opengraph.githubassets.com/1/hustvl/pixelhacker
+  date_added: '2026-09-25'
+  source: agent
+  arxiv_id: '2504.20438'
+  repo: hustvl/pixelhacker
 - id: step1x-edit-d675c8
   title: Step1X-Edit
   area: image-2d
@@ -30299,6 +30328,32 @@ entries:
   source: agent
   arxiv_id: '2403.14487'
   repo: design-edit/designedit
+- id: diffeditor-92824f
+  title: DiffEditor
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.02583
+    github: https://github.com/MC-E/DragonDiffusion
+  authors:
+  - Chong Mou
+  - Xintao Wang
+  - Jiechong Song
+  - Ying Shan
+  - Jian Zhang
+  year: 2024
+  tags:
+  - diffusion
+  - drag
+  - editing
+  summary: A diffusion-based image editing framework that improves fine-grained editing accuracy and flexibility. It integrates image prompts, a combined SDE-ODE formulation, regional score-based gradient guidance, and a time travel strategy to enable precise local modifications.
+  summary_ja: 細粒度な画像編集の精度と柔軟性を向上させる、拡散モデルベースの画像編集フレームワーク。画像プロンプト、SDEとODEの組み合わせ、領域スコアに基づく勾配ガイダンス、およびタイムトラベル戦略を統合することで、正確な局所的修正を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/mc-e/dragondiffusion
+  date_added: '2026-09-25'
+  source: agent
+  arxiv_id: '2402.02583'
+  repo: mc-e/dragondiffusion
 - id: diffree-c68648
   title: Diffree
   area: image-2d
@@ -32285,6 +32340,27 @@ entries:
   date_added: '2026-06-26'
   source: agent
   repo: hepesu/linedistiller
+- id: sketchkeras-df0600
+  title: sketchKeras
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/sketchKeras
+  authors:
+  - Lyumin Zhang
+  year: 2018
+  tags:
+  - keras
+  - lineart
+  - sketch
+  - u-net
+  summary: A popular U-Net based neural network model designed to convert finished color paintings and anime illustrations into clean, hand-drawn style pencil sketches and line art.
+  summary_ja: 完成したカラー絵画やアニメイラストを、クリーンで手描き風の鉛筆スケッチや線画に変換するために設計された、人気のU-Netベースのニューラルネットワークモデル。
+  thumbnail: https://opengraph.githubassets.com/1/lllyasviel/sketchkeras
+  date_added: '2026-09-25'
+  source: agent
+  repo: lllyasviel/sketchkeras
 - id: deep-extraction-of-manga-structural-lines-0a1bc5
   title: Deep Extraction of Manga Structural Lines
   area: image-2d
@@ -32640,6 +32716,31 @@ entries:
   source: agent
   arxiv_id: '2409.08026'
   repo: kaist-cvml/scribble-guided-diffusion
+- id: sketch-guided-image-inpainting-with-partial-discrete-diffusi-1444c1
+  title: Sketch-guided Image Inpainting with Partial Discrete Diffusion Process
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.11949
+    github: https://github.com/vl2g/Sketch-Inpainting
+  authors:
+  - Nakul Sharma
+  - Saurabh Kumar
+  - Sandeep Kumar
+  - Subrahmanyam Murala
+  year: 2024
+  tags:
+  - diffusion
+  - inpainting
+  - sketch
+  summary: A novel sketch-guided image inpainting method that introduces a partial discrete diffusion process (PDDP) to corrupt and reconstruct only the regions of interest, allowing precise shape and pose control.
+  summary_ja: 関心領域のみを破損・再構成する部分離散拡散プロセス（PDDP）を導入し、正確な形状やポーズの制御を可能にする、スケッチ誘導型の画像インペインティング手法。
+  thumbnail: https://opengraph.githubassets.com/1/vl2g/sketch-inpainting
+  date_added: '2026-09-25'
+  source: agent
+  arxiv_id: '2404.11949'
+  repo: vl2g/sketch-inpainting
 - id: sketch-guided-scene-image-generation-2cce6d
   title: Sketch-Guided Scene Image Generation
   area: image-2d
@@ -33830,6 +33931,27 @@ entries:
   source: agent
   arxiv_id: '2411.15269'
   repo: csguoh/mambair
+- id: neosr-120c36
+  title: neosr
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    github: https://github.com/neosr-project/neosr
+  authors:
+  - neosr-project
+  year: 2024
+  tags:
+  - anime
+  - super-resolution
+  - training-framework
+  - upscaling
+  summary: An open-source training framework for real-world single-image super-resolution models, optimized for fast training iterations, low GPU requirements, and practical restoration of photos and anime.
+  summary_ja: 実世界の単一画像超解像モデルをトレーニングするためのオープンソースのフレームワーク。高速なトレーニング反復、低いGPU要件、写真やアニメの実用的な復元に最適化されている。
+  thumbnail: https://opengraph.githubassets.com/1/neosr-project/neosr
+  date_added: '2026-09-25'
+  source: agent
+  repo: neosr-project/neosr
 - id: osediff-one-step-effective-diffusion-network-for-real-world-5a9ddd
   title: 'OSEDiff: One-Step Effective Diffusion Network for Real-World Image Super-Resolution'
   area: image-2d
