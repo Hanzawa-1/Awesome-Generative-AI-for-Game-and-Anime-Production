@@ -37752,6 +37752,72 @@ entries:
   date_added: '2026-08-01'
   source: agent
   repo: olcmyk/meowth-gba-translator
+- id: aya-expanse-3bf43b
+  title: Aya Expanse
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.04261
+    hf: https://huggingface.co/collections/CohereLabs/cohere-labs-aya-expanse-671a83d6b2c07c692beab3c3
+  authors:
+  - John Dang
+  - Shivalika Singh
+  - Daniel D'souza
+  - Arash Ahmadian
+  - Alejandro Salamanca
+  - Madeline Smith
+  - Aidan Peppin
+  - Sungjin Hong
+  - Manoj Govindassamy
+  - Terrence Zhao
+  - Sandra Kublik
+  - Meor Amer
+  - Viraat Aryabumi
+  - Jon Ander Campos
+  - Yi-Chern Tan
+  - Tom Kocmi
+  - Florian Strub
+  - Nathan Grinsztajn
+  - Yannis Flet-Berliac
+  - Acyr Locatelli
+  - Hangyu Lin
+  - Dwarak Talupuru
+  - Bharat Venkitesh
+  - David Cairuz
+  - Bowen Yang
+  - Tim Chung
+  - Wei-Yin Ko
+  - Sylvie Shang Shi
+  - Amir Shukayev
+  - Sammie Bae
+  - Aleksandra Piktus
+  - Roman Castagné
+  - Felipe Cruz-Salinas
+  - Eddie Kim
+  - Lucas Crawhall-Stein
+  - Adrien Morisot
+  - Sudip Roy
+  - Phil Blunsom
+  - Ivan Zhang
+  - Aidan Gomez
+  - Nick Frosst
+  - Marzieh Fadaee
+  - Beyza Ermis
+  - Ahmet Üstün
+  - Sara Hooker
+  year: 2024
+  tags:
+  - cohere
+  - llm
+  - multilingual
+  - translation
+  summary: A state-of-the-art family of multilingual instruction-tuned language models (8B and 32B) developed by Cohere For AI. It supports 23 languages and leverages advancements in data arbitrage, multilingual preference training, and model merging to deliver superior translation and localization performance.
+  summary_ja: Cohere For AIが開発した、23言語に対応する最先端の多言語指示微調整済み言語モデルファミリー（8Bおよび32B）。データアービトラージ、多言語選好学習、モデルマージなどの技術を駆使し、優れた翻訳およびローカライズ性能を提供します。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/collections/CohereLabs/cohere-labs-aya-expanse-671a83d6b2c07c692beab3c3.png
+  date_added: '2026-09-26'
+  source: agent
+  arxiv_id: '2412.04261'
 - id: enhancing-entertainment-translation-for-indian-languages-usi-adf501
   title: Enhancing Entertainment Translation for Indian Languages using Adaptive Context, Style and LLMs
   area: text-design
@@ -38075,6 +38141,93 @@ entries:
   date_added: '2026-07-11'
   source: agent
   repo: sakurallm/sakurallm
+- id: seamless-c90e8b
+  title: Seamless
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.05187
+    github: https://github.com/facebookresearch/seamless_communication
+  authors:
+  - Seamless Communication
+  - Loïc Barrault
+  - Yu-An Chung
+  - Mariano Coria Meglioli
+  - David Dale
+  - Ning Dong
+  - Mark Duppenthaler
+  - Paul-Ambroise Duquenne
+  - Brian Ellis
+  - Hady Elsahar
+  - Justin Haaheim
+  - John Hoffman
+  - Min-Jae Hwang
+  - Hirofumi Inaguma
+  - Christopher Klaiber
+  - Ilia Kulikov
+  - Pengwei Li
+  - Daniel Licht
+  - Jean Maillard
+  - Ruslan Mavlyutov
+  - Alice Rakotoarison
+  - Kaushik Ram Sadagopan
+  - Abinesh Ramakrishnan
+  - Tuan Tran
+  - Guillaume Wenzek
+  - Yilin Yang
+  - Ethan Ye
+  - Ivan Evtimov
+  - Pierre Fernandez
+  - Cynthia Gao
+  - Prangthip Hansanti
+  - Elahe Kalbassi
+  - Amanda Kallet
+  - Artyom Kozhevnikov
+  - Gabriel Mejia Gonzalez
+  - Robin San Roman
+  - Christophe Touret
+  - Corinne Wong
+  - Carleigh Wood
+  - Bokai Yu
+  - Pierre Andrews
+  - Can Balioglu
+  - Peng-Jen Chen
+  - Marta R. Costa-jussà
+  - Maha Elbayad
+  - Hongyu Gong
+  - Francisco Guzmán
+  - Kevin Heffernan
+  - Somya Jain
+  - Justine Kao
+  - Ann Lee
+  - Xutai Ma
+  - Alex Mourachko
+  - Benjamin Peloquin
+  - Juan Pino
+  - Sravya Popuri
+  - Christophe Ropers
+  - Safiyyah Saleem
+  - Holger Schwenk
+  - Anna Sun
+  - Paden Tomasello
+  - Changhan Wang
+  - Jeff Wang
+  - Skyler Wang
+  - Mary Williamson
+  year: 2023
+  tags:
+  - meta
+  - multilingual
+  - speech-translation
+  - streaming
+  summary: A family of AI translation models by Meta that enables end-to-end expressive and streaming speech-to-speech and speech-to-text translation. It integrates SeamlessExpressive to preserve vocal styles, prosody, and emotional nuances, and SeamlessStreaming for low-latency simultaneous translation.
+  summary_ja: 音声から音声、および音声からテキストへのエンドツーエンドの表現力豊かなストリーミング翻訳を可能にする、MetaのAI翻訳モデルファミリー。話者の声のスタイルや韻律、感情のニュアンスを維持するSeamlessExpressiveと、低遅延で同時通訳を行うSeamlessStreamingを統合しています。
+  thumbnail: https://opengraph.githubassets.com/1/facebookresearch/seamless_communication
+  date_added: '2026-09-26'
+  source: agent
+  arxiv_id: '2312.05187'
+  repo: facebookresearch/seamless_communication
 - id: seamlessm4t-79c802
   title: SeamlessM4T
   area: text-design
@@ -38669,6 +38822,30 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: ilearn-lab/novelclaw
+- id: storycomposerai-supporting-human-ai-story-co-creation-throug-dff70b
+  title: 'StoryComposerAI: Supporting Human-AI Story Co-Creation Through Decomposition and Linking'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.21486
+    paper: https://arxiv.org/pdf/2602.21486
+  authors:
+  - Shuo Niu
+  - Dylan Clements
+  - Marina Margalit Nemanov
+  - Hyungsin Kim
+  year: 2026
+  tags:
+  - co-creation
+  - narrative
+  - story
+  - storyboard
+  summary: A human-AI story co-creation system designed to enhance user control and narrative consistency. It utilizes a decomposition and linking paradigm, allowing creators to break down story ideas into structured components (characters, settings, plot points) and link them visually to generate coherent digital storyboards and narratives.
+  summary_ja: ユーザーのコントロール性と物語の一貫性を高めるために設計された、人間とAIのストーリー共同創作システムです。分解とリンク（decomposition and linking）のパラダイムを採用しており、クリエイターがストーリーのアイデアを構造化された要素（キャラクター、設定、プロットポイント）に分解し、それらを視覚的にリンクさせることで、一貫性のあるデジタルストーリーボードやナラティブを生成します。
+  date_added: '2026-09-26'
+  source: agent
+  arxiv_id: '2602.21486'
 - id: storyspark-module-wise-evolutionary-search-for-story-premise-71b9d6
   title: 'StorySpark: Module-wise Evolutionary Search for Story Premise Generation'
   area: text-design
@@ -39121,6 +39298,30 @@ entries:
   date_added: '2026-08-29'
   source: agent
   arxiv_id: '2404.17027'
+- id: sard-a-human-ai-collaborative-story-generation-ccfe7f
+  title: 'SARD: A Human-AI Collaborative Story Generation'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.01575
+    paper: https://arxiv.org/pdf/2403.01575
+  authors:
+  - Ahmed Y. Radwan
+  - Khaled M. Alasmari
+  - Omar A. Abdulbagi
+  - Emad A. Alghamdi
+  year: 2024
+  tags:
+  - collaborative
+  - narrative
+  - story
+  - storyboard
+  summary: A human-AI collaborative story generation system featuring a drag-and-drop visual storyboard interface. It allows writers to decompose narratives into chapters and scenes, visualize story structures as nodes, and interactively guide LLMs to generate coherent multi-chapter stories.
+  summary_ja: ドラッグ＆ドロップ式のビジュアルストーリーボードインターフェースを備えた、人間とAIの協調型ストーリー生成システムです。ライターが物語を章やシーンに分解し、ストーリー構造をノードとして視覚化しながら、LLMをインタラクティブに誘導して一貫性のある複数章のストーリーを生成することを可能にします。
+  date_added: '2026-09-26'
+  source: agent
+  arxiv_id: '2403.01575'
 - id: seed-story-multimodal-long-story-generation-with-large-langu-27a38b
   title: 'SEED-Story: Multimodal Long Story Generation with Large Language Model'
   area: text-design
@@ -39150,6 +39351,29 @@ entries:
   source: agent
   arxiv_id: '2407.08683'
   repo: tencentarc/seed-story
+- id: storyverse-towards-co-authoring-dynamic-plot-with-llm-based-b13bf6
+  title: 'StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.13042
+    paper: https://arxiv.org/pdf/2405.13042
+  authors:
+  - Yi Wang
+  - Qian Zhou
+  - David Ledo
+  year: 2024
+  tags:
+  - narrative
+  - quest
+  - simulation
+  - story
+  summary: A plot creation workflow and system that bridges authorial intent and emergent behaviors from LLM-driven character simulation. It introduces "abstract acts" as a narrative planning structure, allowing writers to author high-level plot outlines that are dynamically instantiated into specific character actions based on the game world state.
+  summary_ja: 作者の意図とLLM駆動のキャラクターシミュレーションから生じる創発的行動を仲介するプロット作成ワークフローおよびシステムです。「抽象的アクト（abstract acts）」と呼ばれるナラティブプランニング構造を導入し、ゲーム世界の状況に応じて具体的なキャラクターの行動へと動的にインスタンス化される高レベルのプロットアウトラインの作成を可能にします。
+  date_added: '2026-09-26'
+  source: agent
+  arxiv_id: '2405.13042'
 - id: what-if-exploring-branching-narratives-by-meta-prompting-lar-a697c1
   title: 'WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models'
   area: text-design
