@@ -4569,6 +4569,23 @@ entries:
   summary_ja: Adobe Premiere ProのAI機能（Firefly Video Model搭載）で、動画クリップの開始または終了部分を最大2秒間、オーディオクリップを最大10秒間延長できます。追加のフレームをインテリジェントに生成し、トランジションをスムーズにします。
   date_added: '2026-09-13'
   source: agent
+- id: diffusion-studio-b309e6
+  title: Diffusion Studio
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://diffusion.studio/
+  year: 2024
+  tags:
+  - ai-agent
+  - browser-based
+  - video-editing
+  summary: A professional browser-based AI video editor featuring an infinite canvas, timeline-based sequencing, and deep integration with coding agents for automated video workflows.
+  summary_ja: 無限のキャンバス、タイムラインベースのシーケンス、自動化されたビデオワークフローのためのコーディングエージェントとの深い統合を特徴とする、プロフェッショナルなブラウザベースのAIビデオエディタ。
+  thumbnail: https://diffusion.studio/og-default.png
+  date_added: '2026-09-27'
+  source: agent
 - id: runway-inpainting-b80775
   title: Runway Inpainting
   area: video

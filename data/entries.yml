@@ -41362,6 +41362,60 @@ entries:
   source: agent
   arxiv_id: '2401.15977'
   repo: g-u-n/motion-i2v
+- id: open-sora-f5f8a0
+  title: Open-Sora
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.20404
+    github: https://github.com/hpcaitech/Open-Sora
+  authors:
+  - Zangwei Zheng
+  - Xiangyu Peng
+  - Tianji Yang
+  - Chenhui Shen
+  - Shenggui Li
+  - Hongxin Liu
+  - Yukun Zhou
+  - Tianyi Li
+  - Yang You
+  year: 2024
+  tags:
+  - diffusion
+  - image-to-video
+  - open-source
+  - video-generation
+  summary: An open-source initiative by Colossal-AI to democratize efficient, high-quality video production, supporting text-to-video, image-to-video, and video-to-video generation with flexible aspect ratios and durations.
+  summary_ja: Colossal-AIによる、効率的で高品質な動画制作を民主化するためのオープンソースプロジェクト。テキストからの動画生成、画像からの動画生成（Image-to-Video）、動画から動画への変換を、柔軟なアスペクト比と長さでサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/hpcaitech/open-sora
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2412.20404'
+  repo: hpcaitech/open-sora
+- id: open-sora-plan-534e2f
+  title: Open-Sora Plan
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.00131
+    github: https://github.com/PKU-YuanGroup/Open-Sora-Plan
+  authors:
+  - Open-Sora Plan Team
+  year: 2024
+  tags:
+  - diffusion
+  - image-to-video
+  - vae
+  - video-generation
+  summary: An open-source large video generation framework featuring a Wavelet-Flow Variational Autoencoder (WFVAE) and supporting high-resolution, long-duration text-to-video and image-to-video synthesis.
+  summary_ja: Wavelet-Flow Variational Autoencoder (WFVAE) を特徴とするオープンソースの大規模動画生成フレームワーク。高解像度かつ長時間のテキストからの動画生成および画像からの動画生成（Image-to-Video）をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/pku-yuangroup/open-sora-plan
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2412.00131'
+  repo: pku-yuangroup/open-sora-plan
 - id: animatediff-ac3116
   title: AnimateDiff
   area: video
@@ -41864,6 +41918,25 @@ entries:
   source: agent
   arxiv_id: '2401.03407'
   repo: zhengpeng7/birefnet
+- id: grounded-sam-2-ground-and-track-anything-in-videos-7bb5cd
+  title: 'Grounded SAM 2: Ground and Track Anything in Videos'
+  area: video
+  task: rotoscoping
+  kind: oss
+  links:
+    github: https://github.com/IDEA-Research/Grounded-SAM-2
+  year: 2024
+  tags:
+  - grounding-dino
+  - rotoscoping
+  - sam2
+  - video-segmentation
+  summary: An open-source pipeline that integrates Grounding DINO, Florence-2, and SAM 2 to detect, segment, and track any object in videos based on text prompts, enabling automated rotoscoping.
+  summary_ja: Grounding DINO、Florence-2、およびSAM 2を統合し、テキストプロンプトに基づいてビデオ内の任意のオブジェクトを検出・セグメンテーション・追跡し、自動化されたロトスコープを可能にするオープンソースパイプライン。
+  thumbnail: https://opengraph.githubassets.com/1/idea-research/grounded-sam-2
+  date_added: '2026-09-27'
+  source: agent
+  repo: idea-research/grounded-sam-2
 - id: livos-729753
   title: LiVOS
   area: video
@@ -43587,6 +43660,32 @@ entries:
   source: agent
   arxiv_id: '2412.00857'
   repo: nevsnev/floed
+- id: i2vedit-71e49a
+  title: I2VEdit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.16537
+    github: https://github.com/Vicky0522/I2VEdit
+  authors:
+  - Wenqi Ouyang
+  - Yi Dong
+  - Lei Yang
+  - Jianlou Si
+  - Xingang Pan
+  year: 2024
+  tags:
+  - diffusion
+  - i2v
+  - video-editing
+  summary: A first-frame-guided video editing framework that propagates edits made on the first frame to the entire video using image-to-video diffusion models, ensuring temporal consistency and preserving original motion.
+  summary_ja: 画像からビデオへの拡散モデルを使用して、最初のフレームに加えられた編集をビデオ全体に伝播させ、時間的一貫性を確保しながら元のモーションを維持する、初フレーム誘導型ビデオ編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/vicky0522/i2vedit
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2405.16537'
+  repo: vicky0522/i2vedit
 - id: streaming-video-diffusion-svdiff-bd03f2
   title: Streaming Video Diffusion (SVDiff)
   area: video
@@ -43642,6 +43741,56 @@ entries:
   source: agent
   arxiv_id: '2401.10226'
   repo: jianzongwu/language-driven-video-inpainting
+- id: videodirector-2a666d
+  title: VideoDirector
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17592
+    github: https://github.com/Yukun66/Video_Director
+  authors:
+  - Yukun Wang
+  - Yuan Shen
+  - Xingyi Yang
+  - Jieping Ye
+  - Xinchao Wang
+  year: 2024
+  tags:
+  - diffusion
+  - t2v
+  - video-editing
+  summary: A precise video editing framework that leverages pretrained text-to-video (T2V) diffusion models, utilizing spatiotemporal decoupled guidance and multi-frame null-text optimization to achieve high temporal consistency and edit fidelity.
+  summary_ja: 事前学習済みのテキストからビデオ（T2V）への拡散モデルを活用し、時空間デカップルガイダンスとマルチフレームヌルテキスト最適化を利用して、高い時間的一貫性と編集忠実度を達成する精密なビデオ編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/yukun66/video_director
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2411.17592'
+  repo: yukun66/video_director
+- id: videoshop-eb61af
+  title: Videoshop
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.14617
+    github: https://github.com/sfanxiang/videoshop
+  authors:
+  - Xiang Fan
+  - Anand Bhattad
+  - David Forsyth
+  year: 2024
+  tags:
+  - diffusion
+  - training-free
+  - video-editing
+  summary: A training-free localized semantic video editing algorithm that propagates user edits from the first frame to subsequent frames using noise-extrapolated diffusion inversion.
+  summary_ja: ノイズ外挿拡散反転を用いて、最初のフレームに対するユーザーの編集を後続のフレームに伝播させる、トレーニング不要の局所的セマンティックビデオ編集アルゴリズム。
+  thumbnail: https://opengraph.githubassets.com/1/sfanxiang/videoshop
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2403.14617'
+  repo: sfanxiang/videoshop
 - id: controlvideo-conditional-control-for-one-shot-text-driven-vi-575a67
   title: 'ControlVideo: Conditional Control for One-shot Text-driven Video Editing and Beyond'
   area: video
@@ -44242,6 +44391,36 @@ entries:
   source: agent
   arxiv_id: '2509.23980'
   repo: jp-guo/oasis
+- id: realisvsr-detail-enhanced-diffusion-for-real-world-4k-video-f983dc
+  title: 'RealisVSR: Detail-enhanced Diffusion for Real-World 4K Video Super-Resolution'
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.19138
+    github: https://github.com/zws98/RealisVSR-project
+    website: https://zws98.github.io/RealisVSR-project/
+  authors:
+  - Weisong Zhao
+  - Jingkai Zhou
+  - Xiangyu Zhu
+  - Weihua Chen
+  - Xiao-Yu Zhang
+  - Zhen Lei
+  - Fan Wang
+  year: 2025
+  tags:
+  - 4k
+  - controlnet
+  - diffusion
+  - video-super-resolution
+  summary: A detail-enhanced video super-resolution framework that integrates a Consistency Preserved ControlNet with Wan2.1 and utilizes a High-Frequency Rectified Diffusion Loss to recover high-frequency details under complex real-world degradations.
+  summary_ja: Consistency Preserved ControlNetをWan2.1と統合し、高周波補正拡散損失を利用することで、複雑な現実世界の劣化下でも高周波ディテールを復元する、ディテール強化型動画超解像フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zws98/realisvsr-project
+  date_added: '2026-09-27'
+  source: agent
+  arxiv_id: '2507.19138'
+  repo: zws98/realisvsr-project
 - id: seedvr-381f96
   title: SeedVR
   area: video
