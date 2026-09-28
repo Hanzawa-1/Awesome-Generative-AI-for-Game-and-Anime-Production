@@ -119,6 +119,23 @@ entries:
   thumbnail: https://www.d-id.com/wp-content/uploads/2024/01/website-preview-image-3.png
   date_added: '2026-06-22'
   source: agent
+- id: cacani-920885
+  title: CACANi
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://cacani.sg/
+  year: 2022
+  tags:
+  - anime
+  - inbetweening
+  - software
+  - vector
+  summary: A professional 2D vector animation software that specializes in computer-assisted inbetweening and coloring. It automatically generates intermediate frames from keyframes while maintaining stroke correspondence, significantly reducing the manual workload for clean-up and inbetween artists.
+  summary_ja: コンピューター支援による中割り（インビトウィーン）と彩色に特化したプロフェッショナル向けの2Dベクトルアニメーション制作ソフト。キーフレームからストロークの対応関係を維持したまま中間フレームを自動生成し、クリーンアップや動画工程の作業負荷を大幅に軽減する。
+  date_added: '2026-09-28'
+  source: agent
 - id: squirrel-video-frame-interpolation-svfi-b8d53a
   title: Squirrel Video Frame Interpolation (SVFI)
   area: animation
@@ -463,6 +480,24 @@ entries:
   summary: An AI-powered cloud platform that automatically animates, lights, and composes 3D CG characters into live-action video. It performs multi-camera or single-camera motion capture, camera tracking, and actor replacement, exporting clean FBX/OBJ motion data and camera tracks to Blender, Maya, or Unreal Engine.
   summary_ja: 実写映像内の人物を3DのCGキャラクターに自動で置き換え、アニメーション、ライティング、合成を行うAI搭載クラウドプラットフォーム。マルチカメラまたはシングルカメラのモーションキャプチャ、カメラトラッキングを実行し、Blender、Maya、Unreal Engine向けにクリーンなFBX/OBJモーションデータやカメラ軌道を出力できる。
   date_added: '2026-07-06'
+  source: agent
+- id: rokoko-video-dec593
+  title: Rokoko Video
+  area: animation
+  task: video-mocap
+  kind: proprietary
+  links:
+    website: https://www.rokoko.com/products/video
+  year: 2022
+  tags:
+  - animation
+  - browser-based
+  - free
+  - mocap
+  summary: A free browser-based AI motion capture tool by Rokoko that extracts 3D character animation from video clips or webcams, exporting directly to FBX, BVH, or major game engines.
+  summary_ja: ビデオクリップやウェブカメラから3Dキャラクターアニメーションを抽出し、FBX、BVH、または主要なゲームエンジンに直接エクスポートできる、Rokokoによる無料のブラウザベースAIモーションキャプチャツール。
+  thumbnail: https://cdn.prod.website-files.com/5e6b63ac3b6e253f11889f39/63931eed3e7c3af489f0510d_video%20(1).jpg
+  date_added: '2026-09-28'
   source: agent
 - id: kinetix-ce4843
   title: Kinetix

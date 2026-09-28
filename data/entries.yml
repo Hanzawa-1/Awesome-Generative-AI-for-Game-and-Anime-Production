@@ -2783,6 +2783,31 @@ entries:
   source: agent
   arxiv_id: '2306.08006'
   repo: hlcdyy/pan-motion-retargeting
+- id: pose-to-motion-cross-domain-motion-retargeting-with-pose-pri-1d6ebc
+  title: 'Pose-to-Motion: Cross-Domain Motion Retargeting with Pose Prior'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.20249
+    project: https://qingqing-zhao.github.io/pose2motion
+  authors:
+  - Qingqing Zhao
+  - Peizhuo Li
+  - Wang Yifan
+  - Olga Sorkine-Hornung
+  - Gordon Wetzstein
+  year: 2023
+  tags:
+  - motion-retargeting
+  - motion-synthesis
+  - pose-prior
+  summary: A novel motion-retargeting approach for motion synthesis that transfers motion from an existing motion capture dataset of a source character to a target character using only static pose data from the target domain. This addresses the scarcity of high-quality motion data for diverse character skeletons.
+  summary_ja: 静的なポーズデータのみを用いて、ソースキャラクターの既存のモーションキャプチャデータからターゲットキャラクターへモーションを転送する、モーション合成のための新しいモーションリターゲット手法。多様なキャラクター骨格における高品質なモーションデータの不足を解消します。
+  thumbnail: https://cyanzhao42.github.io/pose2motion/teaser.png
+  date_added: '2026-09-28'
+  source: agent
+  arxiv_id: '2310.20249'
 - id: r2et-skinned-motion-retargeting-with-residual-perception-of-6664fc
   title: 'R2ET: Skinned Motion Retargeting with Residual Perception of Motion Semantics & Geometry'
   area: animation
@@ -4467,6 +4492,33 @@ entries:
   source: agent
   arxiv_id: '2411.17697'
   repo: francis-rings/stableanimator
+- id: tcan-animating-human-images-with-temporally-consistent-pose-236a03
+  title: 'TCAN: Animating Human Images with Temporally Consistent Pose Guidance using Diffusion Models'
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.09012
+    github: https://github.com/eccv2024tcan/TCAN
+    website: https://eccv2024tcan.github.io/
+  authors:
+  - Jeongho Kim
+  - Min-Jung Kim
+  - Junsoo Lee
+  - Jaegul Choo
+  year: 2024
+  tags:
+  - controlnet
+  - lora
+  - pose-guided
+  - temporal-consistency
+  summary: A pose-driven human image animation method designed to be robust to erroneous poses and highly consistent over time. It utilizes a pre-trained ControlNet without fine-tuning, combined with a temporal consistency module and LoRA, to achieve stable video synthesis.
+  summary_ja: 誤ったポーズ入力に対して頑健であり、時間的に極めて一貫した人物画像アニメーションを生成するポーズ駆動型手法。事前学習済みのControlNetを微調整なしで利用し、時間的一貫性モジュールとLoRAを組み合わせることで、安定した動画合成を実現します。
+  thumbnail: https://eccv2024tcan.github.io/resources/images/can.png
+  date_added: '2026-09-28'
+  source: agent
+  arxiv_id: '2407.09012'
+  repo: eccv2024tcan/tcan
 - id: unianimate-63643d
   title: UniAnimate
   area: animation
