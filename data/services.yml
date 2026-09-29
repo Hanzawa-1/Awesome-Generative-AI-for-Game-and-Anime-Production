@@ -735,6 +735,23 @@ entries:
   thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/metasounds-in-unreal-engine&application_version=5.8
   date_added: '2026-06-16'
   source: agent
+- id: tsugi-dsp-action-fc2374
+  title: Tsugi DSP Action
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/
+  year: 2021
+  tags:
+  - game-audio
+  - procedural-audio
+  - sound-effects
+  - synthesis
+  summary: A procedural sound design tool that allows creators to generate dynamic, high-quality action sound effects by drawing gestures and adjusting synthesis parameters in real time.
+  summary_ja: ジェスチャーを描き、合成パラメータをリアルタイムで調整することで、ダイナミックで高品質なアクション効果音を簡単に生成できるプロシージャルサウンドデザインツール。
+  date_added: '2026-09-29'
+  source: agent
 - id: tsugi-dsp-series-363a78
   title: Tsugi DSP Series
   area: audio

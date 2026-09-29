@@ -8898,6 +8898,35 @@ entries:
   source: agent
   arxiv_id: '2506.04073'
   repo: cordutie/texstat
+- id: diffsound-8a0a0e
+  title: DiffSound
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.13486
+    github: https://github.com/TechnetiumMan/DiffSound
+    project: https://hellojxt.github.io/DiffSound/
+  authors:
+  - Xutong Jin
+  - Chenxi Xu
+  - Ruohan Gao
+  - Jiajun Wu
+  - Guoping Wang
+  - Sheng Li
+  year: 2024
+  tags:
+  - differentiable
+  - physical-audio
+  - procedural-audio
+  - sound-synthesis
+  summary: A differentiable modal sound rendering and inverse rendering framework designed for physics-based modal sound synthesis and estimating physical properties from real-world audio.
+  summary_ja: 物理ベースのモーダル音響合成および実世界のオーディオからの物理特性推定のために設計された、微分可能なモーダル音響レンダリングおよび逆レンダリングフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/technetiumman/diffsound
+  date_added: '2026-09-29'
+  source: agent
+  arxiv_id: '2409.13486'
+  repo: technetiumman/diffsound
 - id: ue5-pmg-procedural-music-generator-for-unreal-engine-5-ebee50
   title: 'UE5-PMG: Procedural Music Generator for Unreal Engine 5'
   area: audio
@@ -11635,6 +11664,36 @@ entries:
   date_added: '2026-08-18'
   source: agent
   arxiv_id: '2406.16314'
+- id: funaudiollm-cosyvoice-2243df
+  title: FunAudioLLM (CosyVoice)
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.04051
+    github: https://github.com/QwenAudio/CosyVoice
+    paper: https://arxiv.org/pdf/2407.04051
+  authors:
+  - Keyu An
+  - Qian Chen
+  - Chong Deng
+  - Zhihao Du
+  - Changfeng Gao
+  - Zhifu Gao
+  - Yue Gu
+  - Ting He
+  year: 2024
+  tags:
+  - multilingual
+  - tts
+  - voice-cloning
+  summary: FunAudioLLM is a family of speech foundation models featuring CosyVoice for natural speech generation. CosyVoice supports zero-shot multilingual voice cloning, cross-lingual voice cloning, and fine-grained control over timbre, speaking style, and emotion.
+  summary_ja: FunAudioLLMは、自然な音声生成のためのCosyVoiceを特徴とする音声基盤モデルファミリーです。CosyVoiceは、ゼロショットの多言語ボイスクローニング、クロスリンガルボイスクローニング、および音色、話速、感情のきめ細かな制御をサポートしています。
+  thumbnail: https://opengraph.githubassets.com/1/qwenaudio/cosyvoice
+  date_added: '2026-09-29'
+  source: agent
+  arxiv_id: '2407.04051'
+  repo: qwenaudio/cosyvoice
 - id: maskgct-6e8729
   title: MaskGCT
   area: audio
@@ -12933,6 +12992,31 @@ entries:
   source: agent
   arxiv_id: '2502.20220'
   repo: tobias-kirschstein/avat3r
+- id: gsac-leveraging-gaussian-splatting-for-photorealistic-avatar-ec742d
+  title: 'GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.12999
+    github: https://github.com/VU-RASL/GSAC
+  authors:
+  - Rendong Zhang
+  - Alexandra Watkins
+  - Nilanjan Sarkar
+  year: 2025
+  tags:
+  - 3d-avatar
+  - gaussian-splatting
+  - real-time
+  - unity
+  summary: A framework that leverages 3D Gaussian Splatting to create photorealistic, animatable avatars from smartphone videos, with seamless integration into the Unity game engine for real-time interactive applications.
+  summary_ja: スマートフォンのビデオからフォトリアルでアニメーション可能なアバターを作成する3D Gaussian Splattingフレームワーク。Unityゲームエンジンへのシームレスな統合をサポートし、リアルタイムのインタラクティブなアプリケーションに対応します。
+  thumbnail: https://opengraph.githubassets.com/1/vu-rasl/gsac
+  date_added: '2026-09-29'
+  source: agent
+  arxiv_id: '2504.12999'
+  repo: vu-rasl/gsac
 - id: infinihuman-b22a17
   title: InfiniHuman
   area: characters
@@ -13478,6 +13562,60 @@ entries:
   source: agent
   arxiv_id: '2403.15931'
   repo: bytedance/x-portrait
+- id: 3dgs-avatar-animatable-avatars-via-deformable-3d-gaussian-sp-db33bf
+  title: '3DGS-Avatar: Animatable Avatars via Deformable 3D Gaussian Splatting'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.09228
+    github: https://github.com/mikeqzy/3dgs-avatar-release
+  authors:
+  - Zhiyin Qian
+  - Shaofei Wang
+  - Marko Mihajlovic
+  - Andreas Geiger
+  - Siyu Tang
+  year: 2023
+  tags:
+  - 3d-avatar
+  - animatable
+  - gaussian-splatting
+  - real-time
+  summary: An approach that creates animatable human avatars from monocular videos using deformable 3D Gaussian Splatting. It achieves high-quality novel-view and novel-pose image synthesis with fast training and real-time rendering.
+  summary_ja: 単眼ビデオから変形可能な3D Gaussian Splattingを用いてアニメーション可能なヒューマンアバターを作成する手法。高速なトレーニングとリアルタイムレンダリングにより、高品質な新規ビューおよび新規ポーズの画像合成を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/mikeqzy/3dgs-avatar-release
+  date_added: '2026-09-29'
+  source: agent
+  arxiv_id: '2312.09228'
+  repo: mikeqzy/3dgs-avatar-release
+- id: dreamavatar-text-and-shape-guided-3d-human-avatar-generation-a43a15
+  title: 'DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.00916
+    github: https://github.com/yukangcao/DreamAvatar
+  authors:
+  - Yukang Cao
+  - Yan-Pei Cao
+  - Kai Han
+  - Ying Shan
+  - Kwan-Yee K. Wong
+  year: 2023
+  tags:
+  - 3d-avatar
+  - diffusion
+  - nerf
+  - text-to-3d
+  summary: A text-and-shape guided framework for generating high-quality 3D human avatars with controllable poses. It utilizes a trainable NeRF for predicting density and color, and leverages pretrained 2D text-to-image diffusion models to guide the generation process.
+  summary_ja: テキストと形状のガイドを用いて、ポーズ制御可能な高品質3Dヒューマンアバターを生成するフレームワーク。学習可能なNeRFで密度と色を予測し、事前学習済みの2Dテキスト画像拡散モデルを活用して生成プロセスをガイドします。
+  thumbnail: https://opengraph.githubassets.com/1/yukangcao/dreamavatar
+  date_added: '2026-09-29'
+  source: agent
+  arxiv_id: '2304.00916'
+  repo: yukangcao/dreamavatar
 - id: gaussianavatars-1eef85
   title: GaussianAvatars
   area: characters
