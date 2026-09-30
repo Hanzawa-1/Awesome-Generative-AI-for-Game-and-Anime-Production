@@ -1473,6 +1473,24 @@ entries:
   thumbnail: https://www.reallusion.com/character-creator/headshot/includes/images/overview/og-overview.jpg
   date_added: '2026-07-01'
   source: agent
+- id: facebuilder-for-blender-keentools-41c612
+  title: FaceBuilder for Blender (KeenTools)
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://keentools.io/products/facebuilder-for-blender
+  year: 2019
+  tags:
+  - blender-addon
+  - commercial
+  - face-modeling
+  - photogrammetry
+  summary: A popular commercial add-on for Blender and Nuke that allows artists to easily sculpt 3D human faces and heads based on a few photographs, producing game-ready, animatable meshes.
+  summary_ja: 数枚の写真からBlenderやNuke内で簡単に3Dの顔や頭部モデルをスカルプトできる、業界で広く使われている商用アドオン。ゲーム対応でアニメーション可能なメッシュを生成します。
+  thumbnail: https://cdn.prod.website-files.com/58c5480657a2703f67305c6c/65f801586520a8150b4949c6_maxresdefault.png
+  date_added: '2026-09-30'
+  source: agent
 - id: actorcore-accurig-c96144
   title: ActorCore AccuRIG
   area: characters
@@ -1563,6 +1581,24 @@ entries:
   summary_ja: 自然言語プロンプトを介して3Dオブジェクト、テクスチャ、アニメーションの生成や編集を行える、ブラウザベースの協調型3Dデザイン・編集ツール。
   thumbnail: https://spline.design/_next/static/immutable/media/spline_image_banner.2at491x3fx670.png
   date_added: '2026-06-17'
+  source: agent
+- id: adam-cad-copilot-0cede9
+  title: Adam CAD Copilot
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://adam.new/
+  year: 2026
+  tags:
+  - cad
+  - copilot
+  - fusion360
+  - onshape
+  summary: An AI-powered CAD copilot designed for hardware and mechanical engineering teams that integrates directly into professional CAD software like Onshape and Autodesk Fusion. It supports prompt-driven part editing, selection-based feature creation, and automated feature tree optimization.
+  summary_ja: OnshapeやAutodesk Fusionなどのプロフェッショナル向けCADソフトウェアに直接統合される、ハードウェアおよび機械設計チーム向けのAI搭載CADコパイロット。プロンプト駆動型の部品編集、選択ベースのフィーチャ作成、およびフィーチャツリーの自動最適化をサポートします。
+  thumbnail: https://adam.new/og.png
+  date_added: '2026-09-30'
   source: agent
 - id: ragnar-cad-c079df
   title: Ragnar CAD

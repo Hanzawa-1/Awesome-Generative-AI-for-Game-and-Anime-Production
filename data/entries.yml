@@ -13691,6 +13691,25 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2607.07817'
+- id: omnichar-b1b106
+  title: OmniChar
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    github: https://github.com/omnichar/OmniChar
+    website: https://www.omnichar.org/
+  year: 2026
+  tags:
+  - character-studio
+  - consistent-character
+  - lora
+  summary: An open-source AI character studio for portable identity, allowing creators to build multi-model consistent characters, train LoRAs, and generate consistent character sheets locally on their own GPUs.
+  summary_ja: ポータブルなアイデンティティのためのオープンソースのAIキャラクタースタジオ。クリエイターがマルチモデルで一貫したキャラクターを構築し、LoRAをトレーニングし、自身のGPUでローカルに一貫したキャラクターシートを生成できるようにする。
+  thumbnail: https://www.omnichar.org/og.png
+  date_added: '2026-09-30'
+  source: agent
+  repo: omnichar/omnichar
 - id: rotate-your-character-revisiting-video-diffusion-models-for-c971ba
   title: 'Rotate Your Character: Revisiting Video Diffusion Models for High-Quality 3D Character Generation'
   area: characters
@@ -13723,6 +13742,29 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2601.05722'
+- id: sdo-subspace-deconflicting-operator-for-multi-adapter-compos-b43f49
+  title: 'SDO: Subspace Deconflicting Operator for Multi-Adapter Composition'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.13820
+  authors:
+  - Zhongsheng Wang
+  - Zhedong Lin
+  - Qian Liu
+  - Xinyu Zhang
+  - Jiamou Liu
+  year: 2026
+  tags:
+  - adapter-composition
+  - diffusion
+  - multi-character
+  summary: A parameter-space subspace deconflicting operator (SDO) designed for multi-adapter composition, preventing identity mixing and attribute leakage when generating multiple distinct characters in a single scene.
+  summary_ja: マルチアダプター合成向けに設計されたパラメータ空間のサブスペース衝突回避オペレーター（SDO）。単一シーン内で複数の異なるキャラクターを生成する際のアイデンティティの混同や属性のリークを防ぎます。
+  date_added: '2026-09-30'
+  source: agent
+  arxiv_id: '2608.13820'
 - id: stdgen-a-comprehensive-system-for-semantic-decomposed-3d-cha-80342d
   title: 'StdGEN++: A Comprehensive System for Semantic-Decomposed 3D Character Generation'
   area: characters
@@ -17543,6 +17585,24 @@ entries:
   source: agent
   arxiv_id: '2408.08000'
   repo: ewrfcas/mvinpainter
+- id: splatviz-d38420
+  title: splatviz
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    github: https://github.com/Florian-Barthel/splatviz
+  year: 2024
+  tags:
+  - 3dgs
+  - editing
+  - viewer
+  summary: A full Python interactive 3D Gaussian Splatting viewer and editor that enables real-time editing, live tracking of training runs, and side-by-side scene comparison.
+  summary_ja: リアルタイム編集、トレーニング実行のライブ追跡、およびシーンの並行比較を可能にする、フルPythonインタラクティブ3D Gaussian Splattingビューア兼エディタ。
+  thumbnail: https://opengraph.githubassets.com/1/florian-barthel/splatviz
+  date_added: '2026-09-30'
+  source: agent
+  repo: florian-barthel/splatviz
 - id: supersplat-afe37b
   title: SuperSplat
   area: gen-3d
@@ -17647,6 +17707,33 @@ entries:
   source: agent
   arxiv_id: '2407.02034'
   repo: luocfprime/trame
+- id: vcedit-40ebd6
+  title: VcEdit
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.11868
+    github: https://github.com/Yuxuan-W/VcEdit
+  authors:
+  - Yuxuan Wang
+  - Xuanyu Yi
+  - Zike Wu
+  - Na Zhao
+  - Long Chen
+  - Hanwang Zhang
+  year: 2024
+  tags:
+  - 3dgs
+  - diffusion
+  - editing
+  summary: A view-consistent 3D editing framework for 3D Gaussian Splatting that addresses multi-view inconsistency by propagating edits across views using a single-stage diffusion model.
+  summary_ja: 1段階の拡散モデルを使用してビュー間で編集を伝播させることにより、マルチビューの不整合を解消する、3D Gaussian Splatting向けのビュー一貫性のある3D編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/yuxuan-w/vcedit
+  date_added: '2026-09-30'
+  source: agent
+  arxiv_id: '2403.11868'
+  repo: yuxuan-w/vcedit
 - id: dreameditor-36d830
   title: DreamEditor
   area: gen-3d
@@ -19983,6 +20070,35 @@ entries:
   source: agent
   arxiv_id: '2406.09756'
   repo: naver/mast3r
+- id: hunyuan3d-1-0-a-unified-framework-for-text-to-3d-and-image-t-73dc47
+  title: 'Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.02293
+    github: https://github.com/Tencent-Hunyuan/Hunyuan3D-1
+  authors:
+  - Xianghui Yang
+  - Huiwen Shi
+  - Bowen Zhang
+  - Fan Yang
+  - Jiacheng Wang
+  - Hongxu Zhao
+  - Xinhai Liu
+  - Xinzhou Wang
+  year: 2024
+  tags:
+  - image-to-3d
+  - mesh
+  - multi-view
+  - text-to-3d
+  summary: A unified framework for text-to-3D and image-to-3D generation that employs a two-stage pipeline. It first generates multi-view RGB images using a multi-view diffusion model and then reconstructs high-quality 3D meshes or Gaussian splats.
+  summary_ja: 2段階のパイプラインを採用した、テキストおよび画像からの3D生成のための統合フレームワーク。まず多視野拡散モデルを用いてマルチビューRGB画像を生成し、その後、高品質な3Dメッシュまたはガウシアン・スプラッティングを再構築します。
+  date_added: '2026-09-30'
+  source: agent
+  arxiv_id: '2411.02293'
+  repo: tencent-hunyuan/hunyuan3d-1
 - id: instantmesh-ed23a2
   title: InstantMesh
   area: gen-3d
@@ -22186,6 +22302,30 @@ entries:
   source: agent
   arxiv_id: '2601.22054'
   repo: metric-anything/metric-anything
+- id: transnormal-2-geometry-grounded-rectified-flow-with-edge-awa-e0961f
+  title: 'TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.06665
+    github: https://github.com/longxiang-ai/TransNormal-2
+  authors:
+  - Mingwei Li
+  - Yi Yang
+  - Hehe Fan
+  year: 2026
+  tags:
+  - flux
+  - normal-map
+  - rectified-flow
+  summary: A FLUX.2-based rectified-flow framework designed for precise monocular surface normal estimation, correcting VAE reconstruction errors at object boundaries using geometry-aware training losses.
+  summary_ja: FLUX.2ベースの整流フロー（Rectified Flow）フレームワークであり、幾何学的な損失関数を用いてオブジェクト境界のVAE再構成エラーを修正し、高精度な単眼法線マップを推定する。
+  thumbnail: https://opengraph.githubassets.com/1/longxiang-ai/transnormal-2
+  date_added: '2026-09-30'
+  source: agent
+  arxiv_id: '2609.06665'
+  repo: longxiang-ai/transnormal-2
 - id: vigeo-f85dad
   title: ViGeo
   area: gen-3d
@@ -22438,6 +22578,37 @@ entries:
   source: agent
   arxiv_id: '2505.09358'
   repo: prs-eth/marigold
+- id: moge-2-accurate-monocular-geometry-with-metric-scale-and-sha-cae555
+  title: 'MoGe-2: Accurate Monocular Geometry with Metric Scale and Sharp Details'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.02546
+    github: https://github.com/microsoft/MoGe
+  authors:
+  - Ruicheng Wang
+  - Sicheng Xu
+  - Yuan Dong
+  - Yu Deng
+  - Jianfeng Xiang
+  - Zhen Lv
+  - Gen Sun
+  - Xin Tong
+  - Jiaolong Yang
+  year: 2025
+  tags:
+  - 3d-reconstruction
+  - depth
+  - metric-depth
+  - normal-map
+  summary: An advanced monocular geometry estimation model that recovers a metric-scale 3D point map, depth map, and surface normals of a scene from a single image with enhanced detail recovery.
+  summary_ja: 単一の画像から、詳細なディテールを維持しつつ、メートルスケールの3Dポイントマップ、深度マップ、および法線マップを復元する高度な単眼幾何推定モデル。
+  thumbnail: https://opengraph.githubassets.com/1/microsoft/moge
+  date_added: '2026-09-30'
+  source: agent
+  arxiv_id: '2507.02546'
+  repo: microsoft/moge
 - id: normalcrafter-learning-temporally-consistent-normals-from-vi-fe3d1f
   title: 'NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors'
   area: gen-3d
