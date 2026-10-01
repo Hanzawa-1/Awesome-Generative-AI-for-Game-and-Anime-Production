@@ -20095,6 +20095,7 @@ entries:
   - text-to-3d
   summary: A unified framework for text-to-3D and image-to-3D generation that employs a two-stage pipeline. It first generates multi-view RGB images using a multi-view diffusion model and then reconstructs high-quality 3D meshes or Gaussian splats.
   summary_ja: 2段階のパイプラインを採用した、テキストおよび画像からの3D生成のための統合フレームワーク。まず多視野拡散モデルを用いてマルチビューRGB画像を生成し、その後、高品質な3Dメッシュまたはガウシアン・スプラッティングを再構築します。
+  thumbnail: https://opengraph.githubassets.com/1/tencent-hunyuan/hunyuan3d-1
   date_added: '2026-09-30'
   source: agent
   arxiv_id: '2411.02293'
@@ -23358,6 +23359,33 @@ entries:
   source: agent
   arxiv_id: '2606.16993'
   repo: amap-ml/dreamx-world
+- id: gen3r-3d-scene-generation-meets-feed-forward-reconstruction-044e63
+  title: 'Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.04090
+    github: https://github.com/JaceyHuang/Gen3R
+  authors:
+  - Jiaxin Huang
+  - Yuanbo Yang
+  - Bangbang Yang
+  - Lin Ma
+  - Yuewen Ma
+  - Yiyi Liao
+  year: 2026
+  tags:
+  - 3d-scene
+  - reconstruction
+  - video-diffusion
+  summary: A method that bridges foundational reconstruction models and video diffusion models to generate both RGB videos and corresponding 3D geometry (including camera trajectories) for scene-level 3D generation.
+  summary_ja: 基盤再構成モデルとビデオ拡散モデルを融合させ、シーンレベルの3D生成において、RGBビデオとそれに対応する3Dジオメトリ（カメラ軌跡を含む）を同時に生成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/jaceyhuang/gen3r
+  date_added: '2026-10-01'
+  source: agent
+  arxiv_id: '2601.04090'
+  repo: jaceyhuang/gen3r
 - id: minwm-0a3713
   title: minWM
   area: gen-3d
@@ -24583,6 +24611,35 @@ entries:
   date_added: '2026-06-25'
   source: agent
   arxiv_id: '2601.16192'
+- id: canvas360-enhancing-in-context-panoramic-generation-via-geom-fbcd9c
+  title: 'Canvas360: Enhancing In-context Panoramic Generation via Geometric-aware Pretraining'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.08765
+    github: https://github.com/Insta360-Research-Team/Canvas360
+    hf: https://huggingface.co/Insta360-Research/Canvas360-Panorama-Image-Generation
+    website: https://zry000.github.io/Canvas360/
+  authors:
+  - Haoran Feng
+  - Ruiyang Zhang
+  - Longyi Zhang
+  - Dizhe Zhang
+  - Lu Qi
+  year: 2026
+  tags:
+  - '360'
+  - flux
+  - panorama
+  - skybox
+  summary: A FLUX-based framework for in-context panoramic generation that combines geometry-aware pretraining with task-specific fine-tuning. It supports text-to-panorama, inpainting, outpainting, editing, and style transfer with seamless 360-degree boundaries.
+  summary_ja: FLUXをベースにしたインコンテキスト全天球パノラマ生成のための2段階フレームワーク。幾何学を考慮した事前学習とタスク固有の微調整を組み合わせることで、シームレスな360度境界を持つテキストからのパノラマ生成、インペインティング、アウトペインティング、編集、スタイル転送をサポートします。
+  thumbnail: https://zry000.github.io/Canvas360/static/images/teaser.jpg
+  date_added: '2026-10-01'
+  source: agent
+  arxiv_id: '2607.08765'
+  repo: insta360-research-team/canvas360
 - id: mover360-controllable-object-manipulation-in-360-panoramic-i-75ce19
   title: 'Mover360: Controllable Object Manipulation in 360° Panoramic Images'
   area: gen-3d
@@ -25540,6 +25597,36 @@ entries:
   source: agent
   arxiv_id: '2604.22828'
   repo: jinqicao/metaearth3d
+- id: sat2city-v2-native-3d-city-asset-generation-from-a-single-sa-543ea8
+  title: 'Sat2City v2: Native 3D City Asset Generation from a Single Satellite Image'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.24138
+    github: https://github.com/thua919/Sat2City-release
+    paper: https://arxiv.org/pdf/2606.24138
+  authors:
+  - Tongyan Hua
+  - Dongli Wu
+  - Jinjing Zhu
+  - Yinrui Ren
+  - Zhongcheng Hong
+  - Ying-Cong Chen
+  - Hui Xiong
+  - Wufan Zhao
+  year: 2026
+  tags:
+  - city-generation
+  - diffusion
+  - satellite
+  summary: A framework for generating explicit, textured 3D city assets from a single satellite image using cascaded sparse-voxel latent diffusion conditioned on satellite-derived height maps.
+  summary_ja: 衛星画像から得られた高さマップを条件とするカスケード型スパースボクセル潜在拡散モデルを用いて、単一の衛星画像から明示的でテクスチャ付きの3D都市アセットを生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/thua919/sat2city-release
+  date_added: '2026-10-01'
+  source: agent
+  arxiv_id: '2606.24138'
+  repo: thua919/sat2city-release
 - id: world-reconstruction-from-inconsistent-views-8fc64a
   title: World Reconstruction From Inconsistent Views
   area: gen-3d
@@ -25563,6 +25650,35 @@ entries:
   source: agent
   arxiv_id: '2603.16736'
   repo: lukashoel/video_to_world
+- id: worldweave-growing-persistent-geometric-worlds-for-video-gen-6fe829
+  title: 'WorldWeave: Growing Persistent Geometric Worlds for Video Generation'
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.34221
+    github: https://github.com/laiyindagm/WorldWeave
+    paper: https://arxiv.org/pdf/2609.34221
+  authors:
+  - Yifan Huang
+  - Lifan Jiang
+  - Qingyue Hao
+  - Cheng Chen
+  - Boxi Wu
+  - Xiaoxue Ren
+  - Xiaofei He
+  - Dehai Zhao
+  year: 2026
+  tags:
+  - 3d-scene
+  - elevation-map
+  - world-generation
+  summary: A world generation framework that decouples world-state maintenance from visual rendering by combining continual elevation-map generation with agent-guided scene organization and stitching to build an expandable explicit 3D world state.
+  summary_ja: 継続的な標高マップ生成とエージェント誘導型のシーン構成・結合を組み合わせることで、拡張可能な明示的3Dワールド状態を構築し、ワールド状態の維持と視覚的レンダリングを分離する世界生成フレームワーク。
+  date_added: '2026-10-01'
+  source: agent
+  arxiv_id: '2609.34221'
+  repo: laiyindagm/worldweave
 - id: citydreamer4d-ecebbb
   title: CityDreamer4D
   area: gen-3d
@@ -26608,6 +26724,27 @@ entries:
   source: agent
   arxiv_id: '2511.05609'
   repo: emmaleee789/trace
+- id: worldgen-cb690f
+  title: WorldGen
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    github: https://github.com/ZiYang-xie/WorldGen
+  authors:
+  - Ziyang Xie
+  year: 2025
+  tags:
+  - 3d-scene
+  - gaussian-splatting
+  - text-to-3d
+  - world-generation
+  summary: An open-source 3D scene generation tool that creates complete, explorable 3D environments from text prompts or reference images in seconds. It supports 360° consistent exploration, indoor and outdoor scenes, and outputs both Gaussian splatting and mesh formats.
+  summary_ja: テキストプロンプトや参照画像から、探索可能な完全な3D環境を数秒で生成するオープンソースの3Dシーン生成ツール。360°の一貫した探索、屋内および屋外シーンをサポートし、Gaussian Splattingとメッシュ形式の両方で出力できます。
+  thumbnail: https://opengraph.githubassets.com/1/ziyang-xie/worldgen
+  date_added: '2026-10-01'
+  source: agent
+  repo: ziyang-xie/worldgen
 - id: bootstrap3d-de5338
   title: Bootstrap3D
   area: gen-3d
@@ -27324,6 +27461,35 @@ entries:
   source: agent
   arxiv_id: '2512.17302'
   repo: kaist-visual-ai-group/matlat
+- id: matmart-material-reconstruction-of-3d-objects-via-diffusion-25679a
+  title: 'MatMart: Material Reconstruction of 3D Objects via Diffusion'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.18900
+    project: https://alibaba.github.io/Taobao3D/en/blog/matmart/
+  authors:
+  - Xiuchao Wu
+  - Pengfei Zhu
+  - Jiangjing Lyu
+  - Xinguo Liu
+  - Jie Guo
+  - Yanwen Guo
+  - Weiwei Xu
+  - Chengfei Lyu
+  year: 2025
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: MatMart is a two-stage material reconstruction framework for 3D objects that combines accurate material prediction from inputs with prior-guided material generation for unobserved views. It utilizes progressive inference alongside a diffusion model to achieve high-fidelity, relightable PBR material recovery.
+  summary_ja: MatMartは、入力からの正確なマテリアル予測と、未観測ビューに対する事前知識ガイド付きマテリアル生成を組み合わせた、3Dオブジェクト向けの2段階マテリアル再構成フレームワークです。拡散モデルとともに段階的な推論を利用し、高精度で再ライティング可能なPBRマテリアルの復元を実現します。
+  thumbnail: https://alibaba.github.io/Taobao3D/overview.png
+  date_added: '2026-10-01'
+  source: agent
+  arxiv_id: '2511.18900'
 - id: matpedia-a-universal-generative-foundation-for-high-fidelity-819a44
   title: 'MatPedia: A Universal Generative Foundation for High-Fidelity Material Synthesis'
   area: gen-3d
