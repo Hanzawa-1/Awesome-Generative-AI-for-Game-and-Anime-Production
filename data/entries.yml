@@ -23,6 +23,29 @@ entries:
   source: agent
   arxiv_id: '2608.00079'
   repo: zhangrongxiang/leaptalk
+- id: nanoavatar-550f80
+  title: NanoAvatar
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    github: https://github.com/wpydcr/NanoAvatar
+    project: https://github.com/wpydcr/NanoAvatar#demo
+    hf: https://huggingface.co/wpydcr/NanoAvatar
+  authors:
+  - wpydcr
+  year: 2026
+  tags:
+  - android
+  - audio-driven
+  - lip-sync
+  - on-device
+  - real-time
+  summary: NanoAvatar generates high-fidelity talking-avatar video from audio locally on Android, without a cloud GPU. It includes an offline recording demo, Python inference code, and downloadable model weights. Source code is MIT; lip-sync weights and the bundled avatar are CC BY-NC 4.0.
+  summary_ja: NanoAvatar は、クラウド GPU を使わずに Android 端末上で音声から高精細なトーキングアバター動画を生成します。オフライン録音デモ、Python 推論コード、ダウンロード可能なモデル重みを提供しています。ソースコードは MIT、リップシンクモデルの重みと同梱アバターは CC BY-NC 4.0 です。
+  date_added: '2026-09-12'
+  source: manual
+  repo: wpydcr/nanoavatar
 - id: anytalker-scaling-multi-person-talking-video-generation-with-cd2732
   title: 'AnyTalker: Scaling Multi-Person Talking Video Generation with Interactivity Refinement'
   area: animation
