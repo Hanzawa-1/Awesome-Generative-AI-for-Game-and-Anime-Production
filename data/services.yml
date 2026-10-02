@@ -2469,6 +2469,24 @@ entries:
   thumbnail: https://storyblok-cdn.photoroom.com/f/191576/2400x1260/5c12e4c46c/photoroom-og-generic.webp/m/1200x0/filters:format(jpeg):quality(80):no_upscale()
   date_added: '2026-08-21'
   source: agent
+- id: clip-studio-paint-ai-colorize-b7e89d
+  title: Clip Studio Paint AI Colorize
+  area: image-2d
+  task: lineart-colorization
+  kind: proprietary
+  links:
+    website: https://help.clip-studio.com/en-us/manual_en/390_filters/AI_Tools.htm
+  year: 2018
+  tags:
+  - colorization
+  - lineart
+  - proprietary
+  - software
+  summary: Clip Studio Paint features an integrated AI-powered automatic colorization tool that allows digital artists to colorize line art using server-side deep learning. It supports automatic coloring as well as hint-based colorization where users can paint color splotches on a separate layer to guide the AI.
+  summary_ja: Clip Studio Paintには、サーバー側のディープラーニングを使用して線画を自動的に着色できる、AI搭載の自動彩色機能が統合されています。自動彩色のほか、別レイヤーに描いたヒント色を元に着色結果をコントロールするヒント画像彩色にも対応しています。
+  thumbnail: https://help.clip-studio.com/img/ogp_manual.jpg
+  date_added: '2026-10-02'
+  source: agent
 - id: petalica-paint-e04d0a
   title: Petalica Paint
   area: image-2d

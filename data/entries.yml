@@ -25675,6 +25675,7 @@ entries:
   - world-generation
   summary: A world generation framework that decouples world-state maintenance from visual rendering by combining continual elevation-map generation with agent-guided scene organization and stitching to build an expandable explicit 3D world state.
   summary_ja: 継続的な標高マップ生成とエージェント誘導型のシーン構成・結合を組み合わせることで、拡張可能な明示的3Dワールド状態を構築し、ワールド状態の維持と視覚的レンダリングを分離する世界生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/laiyindagm/worldweave
   date_added: '2026-10-01'
   source: agent
   arxiv_id: '2609.34221'
@@ -29797,6 +29798,27 @@ entries:
   source: agent
   arxiv_id: '2509.21938'
   repo: mung3477/semanticcontrol
+- id: comfyui-anima-lllite-998d37
+  title: ComfyUI-Anima-LLLite
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/kohya-ss/ComfyUI-Anima-LLLite
+  authors:
+  - kohya-ss
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - dit
+  - lightweight
+  summary: ComfyUI-Anima-LLLite is a custom node implementation of ControlNet-LLLite tailored for the DiT-based Anima model. It allows users to apply lightweight, low-rank spatial conditioning to Diffusion Transformer architectures at inference time.
+  summary_ja: ComfyUI-Anima-LLLiteは、DiTベースのAnimaモデル向けに調整されたControlNet-LLLiteのカスタムノード実装です。推論時にDiffusion Transformer（DiT）アーキテクチャに対して軽量な低ランク空間条件付けを適用することができます。
+  thumbnail: https://opengraph.githubassets.com/1/kohya-ss/comfyui-anima-lllite
+  date_added: '2026-10-02'
+  source: agent
+  repo: kohya-ss/comfyui-anima-lllite
 - id: controlnet-controlnet-union-sdxl-066c5d
   title: ControlNet++ (ControlNet-Union SDXL)
   area: image-2d
@@ -29819,6 +29841,27 @@ entries:
   date_added: '2026-07-24'
   source: agent
   repo: xinsir6/controlnetplus
+- id: controlnet-lllite-comfyui-42dd92
+  title: ControlNet-LLLite (ComfyUI)
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/kohya-ss/ControlNet-LLLite-ComfyUI
+  authors:
+  - kohya-ss
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - lightweight
+  - sdxl
+  summary: ControlNet-LLLite is a lightweight, LoRA-like alternative to traditional ControlNet models, designed to inject low-rank spatial conditioning directly into the attention layers of the UNet. It significantly reduces VRAM and disk storage requirements (typically under 30MB per checkpoint) while maintaining high-quality control for tasks like Canny, depth, and lineart.
+  summary_ja: ControlNet-LLLiteは、従来のControlNetモデルに代わる軽量なLoRA風のアーキテクチャであり、UNetのAttentionレイヤーに低ランクの空間条件付けを直接注入します。Canny、深度、線画などのタスクにおいて、高品質な制御を維持しながら、VRAMとディスク容量（通常チェックポイントあたり30MB未満）を大幅に削減します。
+  thumbnail: https://opengraph.githubassets.com/1/kohya-ss/controlnet-lllite-comfyui
+  date_added: '2026-10-02'
+  source: agent
+  repo: kohya-ss/controlnet-lllite-comfyui
 - id: controlnext-powerful-and-efficient-control-for-image-and-vid-e54d0f
   title: 'ControlNeXt: Powerful and Efficient Control for Image and Video Generation'
   area: image-2d
@@ -31312,6 +31355,31 @@ entries:
   source: agent
   arxiv_id: '2306.10012'
   repo: osu-nlp-group/magicbrush
+- id: magicremover-8ad92a
+  title: MagicRemover
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.02848
+    paper: https://arxiv.org/pdf/2310.02848
+  authors:
+  - Siyuan Yang
+  - Lu Zhang
+  - Liqian Ma
+  - Yu Liu
+  - Jingjing Fu
+  - You He
+  year: 2023
+  tags:
+  - diffusion
+  - inpainting
+  - tuning-free
+  summary: A tuning-free text-guided image inpainting method that utilizes attention guidance within the diffusion model's sampling process to precisely erase objects and restore occluded content.
+  summary_ja: 拡散モデルのサンプリングプロセス内でのアテンションガイダンスを利用して、オブジェクトを正確に消去し、遮蔽されたコンテンツを復元する、チューニングフリーのテキストガイド付き画像インペインティング手法。
+  date_added: '2026-10-02'
+  source: agent
+  arxiv_id: '2310.02848'
 - id: masactrl-244ed7
   title: MasaCtrl
   area: image-2d
@@ -33768,6 +33836,29 @@ entries:
   source: agent
   arxiv_id: '2502.18461'
   repo: hvision-nku/k-lora
+- id: np-lora-null-space-projection-for-subject-style-lora-fusion-a7d922
+  title: 'NP-LoRA: Null Space Projection for Subject-Style LoRA Fusion'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.11051
+  authors:
+  - Chuheng Chen
+  - Xiaofei Zhou
+  - Geyuan Zhang
+  - Yong Huang
+  year: 2025
+  tags:
+  - lora
+  - lora-fusion
+  - null-space
+  - style-transfer
+  summary: A training-free framework that uses asymmetric null-space projection to fuse subject and style LoRAs. It models how independently trained LoRAs interact in the shared parameter space, preventing content-style interference and leakage.
+  summary_ja: 非対称な零空間（Null Space）射影を使用して、被写体とスタイルのLoRAを融合するトレーニング不要のフレームワーク。独立してトレーニングされたLoRAが共有パラメータ空間でどのように相互作用するかをモデル化し、コンテンツとスタイルの干渉やリークを防ぎます。
+  date_added: '2026-10-02'
+  source: agent
+  arxiv_id: '2511.11051'
 - id: splitflux-learning-to-decouple-content-and-style-from-a-sing-18639b
   title: 'SplitFlux: Learning to Decouple Content and Style from a Single Image'
   area: image-2d
@@ -34022,6 +34113,33 @@ entries:
   source: agent
   arxiv_id: '2407.00788'
   repo: instantx-research/instantstyle-plus
+- id: lora-rar-learning-to-merge-loras-via-hypernetworks-for-subje-a9e8a0
+  title: 'LoRA.rar: Learning to Merge LoRAs via Hypernetworks for Subject-Style Conditioned Image Generation'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.05148
+    github: https://github.com/donaldssh/LoRA.rar
+  authors:
+  - Donald Shenaj
+  - Ondrej Bohdal
+  - Mete Ozay
+  - Pietro Zanuttigh
+  - Umberto Michieli
+  year: 2024
+  tags:
+  - hypernetwork
+  - lora
+  - lora-merging
+  - style-transfer
+  summary: A hypernetwork-based method for merging subject and style LoRAs. Instead of slow optimization-based merging, it uses a hypernetwork to predict the optimal merge weights, enabling high-quality subject-style conditioned image generation in real-time.
+  summary_ja: ハイパーネットワークに基づく被写体とスタイルのLoRAマージ手法。時間のかかる最適化ベースのマージの代わりに、ハイパーネットワークを使用して最適なマージウェイトを予測し、高品質な被写体・スタイル条件付き画像生成をリアルタイムで可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/donaldssh/lora.rar
+  date_added: '2026-10-02'
+  source: agent
+  arxiv_id: '2412.05148'
+  repo: donaldssh/lora.rar
 - id: styleshot-a-snapshot-on-any-style-5bd3b9
   title: 'StyleShot: A Snapshot on Any Style'
   area: image-2d
