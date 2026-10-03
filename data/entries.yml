@@ -37053,6 +37053,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.21182'
+- id: onomatobridge-onomatopoeia-translation-and-rendering-pipelin-4e1dde
+  title: 'OnomatoBridge: Onomatopoeia Translation and Rendering Pipeline in Manga'
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.21199
+    paper: https://arxiv.org/abs/2609.21199
+  authors:
+  - Takara Taniguchi
+  - Wataru Shimoda
+  - Kota Yamaguchi
+  - Hideki Nakayama
+  year: 2026
+  tags:
+  - inpainting
+  - lettering
+  - onomatopoeia
+  - translation
+  summary: 'A specialized pipeline for visual onomatopoeia translation in manga that replaces Japanese sound effects with translated equivalents while preserving their unique artistic styles. It operates in three stages: inpainting the original onomatopoeia, extracting its visual structure, and rendering the translated text.'
+  summary_ja: マンガにおける視覚的な擬音語・擬声語（オノマトペ）の翻訳と描画を行うパイプライン。元のオノマトペのインペインティング、視覚構造の抽出、翻訳されたテキストの描画の3段階で処理し、独特の芸術的スタイルを維持したまま他言語に置き換えます。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-03'
+  source: agent
+  arxiv_id: '2609.21199'
 - id: indonesian-manhwa-translation-pipeline-386ed5
   title: Indonesian Manhwa Translation Pipeline
   area: manga
@@ -37227,6 +37252,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2411.02589'
+- id: koharu-7dae9f
+  title: Koharu
+  area: manga
+  task: manga-translation
+  kind: oss
+  links:
+    github: https://github.com/koharu-rs/koharu
+  year: 2024
+  tags:
+  - local-llm
+  - ocr
+  - rust
+  - translation
+  summary: A local-first, AI-powered manga translator written in Rust that automates detection, OCR, translation, and inpainting. It runs vision models and LLMs locally (via GGUF) to ensure data privacy while offering multi-format project management and a selective pipeline.
+  summary_ja: 検出、OCR、翻訳、インペインティングを自動化する、Rust製のローカルファーストなAI搭載マンガ翻訳ツール。データのプライバシーを確保するためにビジョンモデルやLLMをローカル（GGUF経由）で実行し、マルチフォーマットのプロジェクト管理や選択的パイプラインを提供します。
+  thumbnail: https://opengraph.githubassets.com/1/koharu-rs/koharu
+  date_added: '2026-10-03'
+  source: agent
+  repo: koharu-rs/koharu
 - id: manga-translator-android-f96c4a
   title: Manga Translator Android
   area: manga
@@ -37755,6 +37799,45 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2412.19141'
+- id: manga-editor-desu-4bcb0f
+  title: Manga Editor Desu!
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/new-sankaku/manga-editor-desu
+    website: https://new-sankaku.github.io/manga-editor-desu/
+  year: 2024
+  tags:
+  - editor
+  - layout
+  - manga
+  - screentone
+  summary: A standalone, browser-based open-source manga and comic page editor featuring pre-equipped panel layouts, speech bubbles, vertical text, screen tones, and optional AI image generation backends.
+  summary_ja: プリセットされたコマレイアウト、吹き出し、縦書きテキスト、スクリーントーン、およびオプションのAI画像生成バックエンドを備えた、ブラウザベースのスタンドアロンなオープンソースのマンガ・コミック編集ツール。
+  thumbnail: https://new-sankaku.github.io/manga-editor-desu/03_images/PagePreview/Git/Preview-mini.png
+  date_added: '2026-10-03'
+  source: agent
+  repo: new-sankaku/manga-editor-desu
+- id: manga-layout-analysis-70afc2
+  title: Manga Layout Analysis
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    github: https://github.com/xyntechx/Manga-Layout-Analysis
+  year: 2024
+  tags:
+  - analysis
+  - layout
+  - manga
+  - segmentation
+  summary: An end-to-end deep learning system integrating instance segmentation models and optical character recognition (OCR) to analyze manga page layouts, detecting panels and text regions.
+  summary_ja: インスタンスセグメンテーションモデルと光学文字認識（OCR）を統合し、マンガのページレイアウトを分析してコマやテキスト領域を検出するエンドツーエンドのディープラーニングシステム。
+  thumbnail: https://opengraph.githubassets.com/1/xyntechx/manga-layout-analysis
+  date_added: '2026-10-03'
+  source: agent
+  repo: xyntechx/manga-layout-analysis
 - id: mangadiffusion-d5c36e
   title: MangaDiffusion
   area: manga
@@ -39252,6 +39335,26 @@ entries:
   date_added: '2026-06-27'
   source: agent
   repo: weblateorg/weblate
+- id: subtitle-edit-d81406
+  title: Subtitle Edit
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/SubtitleEdit/subtitleedit
+    website: https://www.nikse.dk/subtitleedit
+  year: 2009
+  tags:
+  - localization
+  - subtitles
+  - translation
+  - whisper
+  summary: A popular open-source subtitle editor that features automatic speech-to-text transcription and translation using OpenAI's Whisper, supporting a wide range of subtitle formats and translation engines.
+  summary_ja: OpenAIのWhisperを使用した自動音声文字起こしおよび翻訳機能を備え、幅広い字幕フォーマットや翻訳エンジンをサポートする非常に人気の高いオープンソースの字幕エディタ。
+  thumbnail: https://opengraph.githubassets.com/1/subtitleedit/subtitleedit
+  date_added: '2026-10-03'
+  source: agent
+  repo: subtitleedit/subtitleedit
 - id: ai-native-games-a-survey-and-roadmap-0ac5c4
   title: 'AI Native Games: A Survey and Roadmap'
   area: text-design
