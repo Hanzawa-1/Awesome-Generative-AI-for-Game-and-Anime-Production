@@ -41617,6 +41617,26 @@ entries:
   source: agent
   arxiv_id: '2307.01676'
   repo: cilab-ct-game/raidenv
+- id: reconstructing-existing-levels-through-level-inpainting-daaa33
+  title: Reconstructing Existing Levels through Level Inpainting
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.09472
+  authors:
+  - Johor Jara Gonzalez
+  - Matthew Guzdial
+  year: 2023
+  tags:
+  - level-generation
+  - pcg
+  - pcgml
+  summary: A procedural content generation framework that introduces level inpainting to reconstruct and extend video game levels. It adapts autoencoder and generative adversarial network techniques from image inpainting to the game level domain.
+  summary_ja: ビデオゲームのレベルを再構築および拡張するための「レベルインペインティング」を導入するプロシージャル・コンテンツ生成フレームワーク。画像インペインティングのオートエンコーダーおよび敵対的生成ネットワーク（GAN）技術をゲームレベルのドメインに適応させます。
+  date_added: '2026-10-04'
+  source: agent
+  arxiv_id: '2309.09472'
 - id: illuminating-diverse-neural-cellular-automata-for-level-gene-9beef7
   title: Illuminating Diverse Neural Cellular Automata for Level Generation
   area: text-design
@@ -42552,6 +42572,35 @@ entries:
   source: agent
   arxiv_id: '2512.11782'
   repo: pq-yang/matanyone
+- id: sa2va-marrying-sam2-with-mllm-for-dense-grounded-understandi-1ac5c6
+  title: 'Sa2VA: Marrying SAM2 with MLLM for Dense Grounded Understanding of Images and Videos'
+  area: video
+  task: rotoscoping
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.04001
+    github: https://github.com/bytedance/Sa2VA
+    project: https://lxtgh.github.io/project/sa2va/
+  authors:
+  - Xiangtai Li
+  - Haobo Yuan
+  - Yining Li
+  - Guangqiang Zhao
+  - Kai Chen
+  - Chen Change Loy
+  year: 2025
+  tags:
+  - mllm
+  - sam2
+  - segmentation
+  - tracking
+  summary: Sa2VA is a unified model that couples SAM 2 with a Multimodal Large Language Model (MLLM) to support dense grounded understanding of both images and videos. It enables high-quality video referring segmentation, allowing users to segment and track objects in videos using natural language prompts.
+  summary_ja: Sa2VAは、SAM 2とマルチモーダル大規模言語モデル（MLLM）を統合し、画像と動画の両方で高精度なグラウンディング（領域特定）を実現する統一モデルです。自然言語プロンプトを用いて動画内のオブジェクトをセグメンテーションおよび追跡する、高度なビデオ参照セグメンテーション（Referring Video Segmentation）をサポートします。
+  thumbnail: https://opengraph.githubassets.com/1/bytedance/sa2va
+  date_added: '2026-10-04'
+  source: agent
+  arxiv_id: '2501.04001'
+  repo: bytedance/sa2va
 - id: sam-3-85c332
   title: SAM 3
   area: video
@@ -44539,6 +44588,36 @@ entries:
   source: agent
   arxiv_id: '2403.14617'
   repo: sfanxiang/videoshop
+- id: avid-any-length-video-inpainting-with-diffusion-model-247a74
+  title: 'AVID: Any-Length Video Inpainting with Diffusion Model'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.03816
+    github: https://github.com/zhang-zx/AVID
+  authors:
+  - Zhixing Zhang
+  - Bichen Wu
+  - Xiaoyan Wang
+  - Yaqiao Luo
+  - Luxin Zhang
+  - Yinan Zhao
+  - Peter Vajda
+  - Dimitris Metaxas
+  year: 2023
+  tags:
+  - diffusion
+  - inpainting
+  - video-editing
+  - video-inpainting
+  summary: AVID is a diffusion-based framework for any-length video inpainting and text-guided editing. It addresses temporal consistency and memory constraints by utilizing a segment-aware temporal attention mechanism and a sliding window inference strategy, allowing seamless object removal and localized video editing.
+  summary_ja: 任意の長さの動画に対して、テキスト指示に基づいたインペイントや編集を可能にする拡散モデルベースのフレームワーク。セグメント対応のテンポラルアテンションとスライディングウィンドウ推論により、メモリ制限を克服しつつ、時間的一貫性を保ったオブジェクト除去や局所編集を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/zhang-zx/avid
+  date_added: '2026-10-04'
+  source: agent
+  arxiv_id: '2312.03816'
+  repo: zhang-zx/avid
 - id: controlvideo-conditional-control-for-one-shot-text-driven-vi-575a67
   title: 'ControlVideo: Conditional Control for One-shot Text-driven Video Editing and Beyond'
   area: video

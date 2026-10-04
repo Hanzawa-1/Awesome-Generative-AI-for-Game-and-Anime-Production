@@ -4450,6 +4450,26 @@ entries:
   thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-07-19'
   source: agent
+- id: runway-gen-4-5-b4982e
+  title: Runway Gen-4.5
+  area: video
+  task: text-to-video
+  kind: proprietary
+  links:
+    website: https://runway.com/research/introducing-runway-gen-4.5
+  authors:
+  - Runway
+  year: 2026
+  tags:
+  - commercial
+  - proprietary
+  - text-to-video
+  - video-generation
+  summary: Runway's next-generation proprietary video foundation model, setting new standards for dynamic action generation, temporal consistency, and precise controllability across diverse generation modes.
+  summary_ja: Runwayが開発した次世代の商用動画生成基盤モデル。ダイナミックなアクション生成、時間的一貫性、および多様な生成モードにわたる精密な制御性において新たな基準を確立しています。
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/images/research/gen/launch-post/card-gen-4.5.png
+  date_added: '2026-10-04'
+  source: agent
 - id: sora-2-a13e3f
   title: Sora 2
   area: video
@@ -4744,6 +4764,23 @@ entries:
   summary_ja: Descriptは、文字起こしされたテキストを編集することで動画や音声を編集できる、AI搭載の協調型オーディオ・ビデオエディターです。自動文字起こし、AI音声生成、不要なつなぎ言葉の除去、スタジオ品質の音響補正などの機能を備えています。
   thumbnail: https://cdn.sanity.io/images/lsw4j9eq/production/126b70d12a747eb60c81bad5b72942f7d75041dd-1200x630.jpg?fit=max&auto=format
   date_added: '2026-06-13'
+  source: agent
+- id: avclabs-video-enhancer-ai-bf85cf
+  title: AVCLabs Video Enhancer AI
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://www.avclabs.com/video-enhancer-ai.html
+  year: 2024
+  tags:
+  - commercial
+  - denoising
+  - restoration
+  - upscaling
+  summary: An AI-powered video enhancement and upscaling software that restores clarity to blurry, noisy, or low-resolution videos. It utilizes deep learning models to upscale footage up to 8K, remove compression artifacts, and enhance facial details.
+  summary_ja: ぼやけた映像、ノイズの多い映像、または低解像度のビデオの鮮明さを復元する、AI搭載のビデオ品質向上・アップスケーリングソフトウェア。ディープラーニングモデルを活用して、最大8Kへのアップスケーリング、圧縮アーティファクトの除去、顔のディテールの補正を行います。
+  date_added: '2026-10-04'
   source: agent
 - id: topaz-video-ai-e3a43d
   title: Topaz Video AI
