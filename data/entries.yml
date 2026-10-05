@@ -1,4 +1,59 @@
 entries:
+- id: avtr-1-0f711f
+  title: AVTR-1
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.22913
+    github: https://github.com/avaturn-live/avtr-1
+  authors:
+  - Artem Kravtsov
+  - Dmitrii Ziganshin
+  - Vsevolod Poletaev
+  - Gleb Balitskiy
+  - Anastasia Tikhonova
+  - Egor Burkov
+  - Vadim Lebedev
+  year: 2026
+  tags:
+  - audio-driven
+  - avatar
+  - flow-matching
+  - real-time
+  summary: An open-source stack for real-time interactive avatar conversations, featuring a compact 153M-parameter autoregressive flow-matching motion generator conditioned on both participants' audio.
+  summary_ja: 参加者双方の音声に条件付けられたコンパクトな153Mパラメータの自己回帰フローマッチング動作生成器を特徴とする、リアルタイムのインタラクティブなアバター会話のためのオープンソーススタック。
+  thumbnail: https://opengraph.githubassets.com/1/avaturn-live/avtr-1
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2609.22913'
+  repo: avaturn-live/avtr-1
+- id: emotag-1a1b96
+  title: EmoTaG
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.21332
+    github: https://github.com/jamesdemon923/EmoTaG
+  authors:
+  - Haolan Xu
+  - Keli Cheng
+  - Lei Wang
+  - Ning Bi
+  - Xiaoming Liu
+  year: 2026
+  tags:
+  - emotion-aware
+  - few-shot
+  - gaussian-splatting
+  summary: An emotion-aware talking head synthesis framework based on 3D Gaussian Splatting that enables few-shot personalization with expressive facial motion and stable geometry.
+  summary_ja: 表現力豊かな表情の動きと安定した幾何学的形状を備えた、3D Gaussian Splattingに基づく感情認識型トーキングヘッド合成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/jamesdemon923/emotag
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2603.21332'
+  repo: jamesdemon923/emotag
 - id: leaptalk-breaking-the-latency-quality-trade-off-in-talking-h-c0b804
   title: 'LeapTalk: Breaking the Latency-Quality Trade-off in Talking Head Generation'
   area: animation
@@ -23,6 +78,35 @@ entries:
   source: agent
   arxiv_id: '2608.00079'
   repo: zhangrongxiang/leaptalk
+- id: xemo-talker-d446fd
+  title: Xemo-Talker
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.14700
+    github: https://github.com/chaolongy/Xemo-Talker
+  authors:
+  - Chaolong Yang
+  - Yinuo Guo
+  - Kai Yao
+  - Yuyao Yan
+  - Jie Sun
+  - Guangliang Cheng
+  - Shibin Wu
+  - Bin Dong
+  year: 2026
+  tags:
+  - audio-driven
+  - emotion-control
+  - talking-head
+  summary: An audio-driven talking portrait synthesis framework that achieves explicit and precise emotion control by decoupling neutral speech-to-motion mapping from emotion-related variations.
+  summary_ja: ニュートラルな音声からモーションへのマッピングと感情に関連する変化を分離することで、明示的かつ正確な感情制御を実現する音声駆動型トーキングポートレート合成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/chaolongy/xemo-talker
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2608.14700'
+  repo: chaolongy/xemo-talker
 - id: anytalker-scaling-multi-person-talking-video-generation-with-cd2732
   title: 'AnyTalker: Scaling Multi-Person Talking Video Generation with Interactivity Refinement'
   area: animation
@@ -1233,6 +1317,98 @@ entries:
   date_added: '2026-08-31'
   source: agent
   repo: danielswolf/rhubarb-lip-sync
+- id: bridging-event-streams-and-dit-event-guided-video-frame-inte-6eda29
+  title: 'Bridging Event Streams and DiT: Event-Guided Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.10479
+  authors:
+  - Guixu Lin
+  - Yuyang Yu
+  - Xiang Ji
+  - Linyao Chen
+  - Zhengwei Yin
+  - Mengshun Hu
+  - Mingdeng Cao
+  - Shengfeng He
+  year: 2026
+  tags:
+  - diffusion-model
+  - event-camera
+  - video-interpolation
+  summary: This paper introduces an event-guided video frame interpolation framework that leverages high-temporal-resolution motion cues from event cameras to guide latent diffusion models, resolving motion blur and structural distortions without training an event-assisted model.
+  summary_ja: 本論文は、イベントカメラからの高時間解像度な運動手がかりを活用して潜在拡散モデルをガイドし、イベント支援モデルをトレーニングすることなく、モーションブラーや構造的歪みを解決するイベントガイド型ビデオフレーム補間フレームワークを提案します。
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2608.10479'
+- id: following-motion-for-sequential-modeling-in-video-frame-inte-4902f2
+  title: Following Motion for Sequential Modeling in Video Frame Interpolation
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.22861
+  authors:
+  - Jaehyun Park
+  - Nam Ik Cho
+  year: 2026
+  tags:
+  - mamba
+  - state-space-model
+  - video-interpolation
+  summary: Motion-Guided Mamba for Video Frame Interpolation (MGMVFI) adapts the selective state space model (Mamba) to video frame interpolation by incorporating dynamic motion trajectories to overcome the limitations of predefined scanning orders.
+  summary_ja: MGMVFI（Motion-Guided Mamba for Video Frame Interpolation）は、動的な運動軌道を組み込むことで、事前定義されたスキャン順序の制限を克服し、選択的状態空間モデル（Mamba）をビデオフレーム補間に適応させます。
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2608.22861'
+- id: mass-motion-aligned-selective-scan-for-refinement-in-flow-ba-28a5c4
+  title: 'MASS: Motion-Aligned Selective Scan for Refinement in Flow-Based Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.27718
+  authors:
+  - Jun-Sang Yoo
+  - Seung-Won Jung
+  year: 2026
+  tags:
+  - mamba
+  - state-space-model
+  - video-interpolation
+  summary: Motion-Aligned Selective Scan (MASS) is a video frame interpolation framework that reformulates feature scanning in selective State Space Models (SSMs) to align with physical motion, improving interpolation under large, non-linear motions and complex occlusions.
+  summary_ja: MASS（Motion-Aligned Selective Scan）は、選択的状態空間モデル（SSM）における特徴スキャンを物理的な運動に合わせるように再定式化し、大きな非線形運動や複雑な遮蔽下での補間精度を向上させるビデオフレーム補間フレームワークです。
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2606.27718'
+- id: snm-vfi-symmetric-nonlinear-motion-guided-generative-video-f-a1052a
+  title: 'SNM-VFI: Symmetric Nonlinear Motion-Guided Generative Video Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.13460
+  authors:
+  - Jisoo Jeong
+  - Hong Cai
+  - Jamie Menjay Lin
+  - Hanno Ackermann
+  - Hyeonjun Sim
+  - Yinhao Zhu
+  - Yunxiao Shi
+  - Fatih Porikli
+  year: 2026
+  tags:
+  - diffusion-model
+  - optical-flow
+  - video-interpolation
+  summary: SNM-VFI is a training-free framework for motion-controllable generative video frame interpolation that guides the generative process of pre-trained video diffusion models using correspondence-aware frames from a symmetric nonlinear motion model.
+  summary_ja: SNM-VFIは、対称非線形運動モデルから得られる対応関係を考慮したフレームを用いて、事前学習済みのビデオ拡散モデルの生成プロセスをガイドする、モーション制御可能な生成型ビデオフレーム補間のためのトレーニングフリーなフレームワークです。
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2608.13460'
 - id: speed-one-step-pixel-diffusion-for-high-quality-video-frame-3c3969
   title: 'SPEED: One-Step Pixel Diffusion for High-quality Video Frame Interpolation'
   area: animation
@@ -2412,6 +2588,36 @@ entries:
   source: agent
   arxiv_id: '2603.16858'
   repo: nvidia/soma-retargeter
+- id: unified-motion-retargeting-for-humanoids-with-learned-point-893fd8
+  title: Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.02134
+    github: https://github.com/hanyang9/UMR
+  authors:
+  - Hanyang Cao
+  - Yuetong Fang
+  - Taesoo Kwon
+  - Runyi Yu
+  - Ji Ma
+  - Jing Tan
+  - Yangchen Zhou
+  - Baoze Du
+  year: 2026
+  tags:
+  - humanoid
+  - motion-retargeting
+  - point-cloud
+  - robotics
+  summary: A framework that learns dense point cloud correspondence between human and humanoid robot surfaces without requiring manually designed keypoint mappings. It optimizes robot motion using matched surface positions, orientations, contacts, and kinematic constraints.
+  summary_ja: 手動で設計されたキーポイントマッピングを必要とせず、人間と人型ロボットの表面間の密なポイントクラウド対応関係を学習するフレームワーク。一致した表面位置、方向、接触、および運動学的制約を用いてロボットの動作を最適化する。
+  thumbnail: https://opengraph.githubassets.com/1/hanyang9/umr
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2609.02134'
+  repo: hanyang9/umr
 - id: gmr-general-motion-retargeting-0d5ac4
   title: 'GMR: General Motion Retargeting'
   area: animation
@@ -3408,6 +3614,7 @@ entries:
   - physics
   summary: A framework that leverages pre-trained motion diffusion models and score distillation sampling (SDS) to create reusable, task-agnostic motion priors for physics-based character control.
   summary_ja: 事前学習済みのモーション拡散モデルとスコア蒸留サンプリング（SDS）を活用し、物理ベースのキャラクター制御向けに再利用可能でタスクに依存しないモーションプライアを構築するフレームワーク。
+  thumbnail: https://xbpeng.github.io/projects/SMP/smp_teaser_small.jpg
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2512.03028'
@@ -3539,6 +3746,7 @@ entries:
   - physics-animation
   summary: Formulates physics-based character control as a general motion inpainting problem, allowing characters to be controlled via sparse keyframes, text instructions, or scene constraints while maintaining physical plausibility.
   summary_ja: 物理ベースのキャラクター制御を一般的なモーションインペインティング問題として定式化し、物理的な妥当性を維持しながら、疎なキーフレーム、テキスト指示、またはシーンの制約を介してキャラクターを制御できるようにします。
+  thumbnail: https://xbpeng.github.io/projects/MaskedMimic/MaskedMimic_teaser_small.jpg
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2409.14393'
@@ -4235,6 +4443,35 @@ entries:
   source: agent
   arxiv_id: '2504.14977'
   repo: damo-cv/realisdance
+- id: skyreels-a1-638dcd
+  title: SkyReels-A1
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.10841
+    github: https://github.com/SkyworkAI/SkyReels-A1
+  authors:
+  - Di Qiu
+  - Zhengcong Fei
+  - Rui Wang
+  - Jialin Bai
+  - Changqian Yu
+  - Mingyuan Fan
+  - Guibin Chen
+  - Xiang Wen
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - portrait-animation
+  - pose-guided
+  summary: An expressive portrait and character animation framework built on video diffusion Transformers (DiTs) that addresses identity distortion and background instability.
+  summary_ja: ビデオ拡散トランスフォーマー（DiT）をベースに構築され、アイデンティティの歪みや背景の不安定さを解消する、表現力豊かなポートレートおよびキャラクターアニメーションフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/skyworkai/skyreels-a1
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2502.10841'
+  repo: skyworkai/skyreels-a1
 - id: stableanimator-ab1879
   title: StableAnimator++
   area: animation
@@ -5010,6 +5247,26 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2410.05791'
+- id: genesis-525c2a
+  title: Genesis
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    github: https://github.com/Genesis-Embodied-AI/genesis-world
+    website: https://genesis-world.readthedocs.io/
+  year: 2024
+  tags:
+  - physics
+  - rl
+  - robotics
+  - simulation
+  summary: An open-source, high-performance physics simulation platform designed for general-purpose robotics, computer graphics, and physical AI. It features a unified multi-physics engine, a photorealistic renderer, and a cross-platform compiler, achieving simulation speeds significantly faster than existing GPU-accelerated stacks.
+  summary_ja: 汎用ロボティクス、コンピュータグラフィックス、および物理AI向けに設計された、オープンソースの高性能物理シミュレーションプラットフォーム。統合されたマルチフィジックスエンジン、フォトリアルなレンダラー、クロスプラットフォームコンパイラを特徴とし、既存のGPU加速スタックよりも大幅に高速なシミュレーション速度を実現します。
+  thumbnail: https://genesis-world.readthedocs.io/en/latest/_static/apple-touch-icon.png
+  date_added: '2026-10-05'
+  source: agent
+  repo: genesis-embodied-ai/genesis-world
 - id: learning-uniformly-distributed-embedding-clusters-of-stylist-88f4dd
   title: Learning Uniformly Distributed Embedding Clusters of Stylistic Skills for Physically Simulated Characters
   area: animation
@@ -5076,6 +5333,7 @@ entries:
   - text-to-behavior
   summary: An advanced framework that scales language-directed physics-based character control to hundreds of motions using progressive supervised distillation, enabling robust and responsive text-to-behavior synthesis.
   summary_ja: 段階的教師あり蒸留を用いて、言語指向の物理ベースキャラクター制御を数百の動作にスケールアップし、堅牢で応答性の高いテキストから行動への合成を可能にする先進的なフレームワーク。
+  thumbnail: https://xbpeng.github.io/projects/SuperPADL/SuperPADL_teaser_small.jpg
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2407.10481'
@@ -5107,6 +5365,36 @@ entries:
   source: agent
   arxiv_id: '2306.00416'
   repo: yi-shi94/amdm
+- id: barkour-9f8b94
+  title: Barkour
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.14654
+    github: https://github.com/google-deepmind/barkour_robot
+  authors:
+  - Ken Caluwaerts
+  - Atil Iscen
+  - J. Chase Kew
+  - Wenhao Yu
+  - Tingnan Zhang
+  - Daniel Freeman
+  - Kuang-Huei Lee
+  - Lisa Lee
+  year: 2023
+  tags:
+  - agility
+  - benchmark
+  - quadruped
+  - rl
+  summary: A benchmark and control framework developed by Google DeepMind to quantify and achieve animal-level agility in quadruped robots. It utilizes deep reinforcement learning to train policies capable of navigating complex obstacle courses with high-speed leaps, climbs, and turns.
+  summary_ja: Google DeepMindによって開発された、四足歩行ロボットにおける動物レベルの敏捷性を定量化および実現するためのベンチマークおよび制御フレームワーク。深層強化学習を利用して、高速な跳躍、登坂、旋回を伴う複雑な障害物コースをナビゲートできるポリシーを訓練します。
+  thumbnail: https://opengraph.githubassets.com/1/google-deepmind/barkour_robot
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2305.14654'
+  repo: google-deepmind/barkour_robot
 - id: calm-c1a312
   title: CALM
   area: animation
@@ -5261,6 +5549,30 @@ entries:
   date_added: '2026-07-13'
   source: agent
   repo: sopiro/unity-procedural-animation
+- id: walk-these-ways-1beef4
+  title: Walk These Ways
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.03238
+    github: https://github.com/Improbable-AI/walk-these-ways
+  authors:
+  - Gabriel B Margolis
+  - Pulkit Agrawal
+  year: 2022
+  tags:
+  - locomotion
+  - quadruped
+  - rl
+  - sim-to-real
+  summary: A reinforcement learning framework for quadruped locomotion that learns a single policy encoding a structured family of diverse locomotion strategies. It provides sim-to-real training and deployment tools, allowing rapid behavior tuning and adaptation in real-world environments.
+  summary_ja: 多様な移動戦略の構造化されたファミリーを単一のポリシーにエンコードして学習する、四足歩行ロボット向けの強化学習フレームワーク。シミュレーションから実機へのトレーニングおよびデプロイツールを提供し、実世界環境での迅速な動作調整と適応を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/improbable-ai/walk-these-ways
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2212.03238'
+  repo: improbable-ai/walk-these-ways
 - id: unicon-universal-neural-controller-for-physics-based-charact-e3a169
   title: 'UniCon: Universal Neural Controller For Physics-based Character Motion'
   area: animation
@@ -5348,6 +5660,33 @@ entries:
   date_added: '2026-06-22'
   source: agent
   repo: unity-technologies/ml-agents
+- id: ardy-f77ae1
+  title: ARDY
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.08741
+    github: https://github.com/nv-tlabs/ardy
+  authors:
+  - Kaifeng Zhao
+  - Mathis Petrovich
+  - Haotian Zhang
+  - Tingwu Wang
+  - Siyu Tang
+  - Davis Rempe
+  year: 2026
+  tags:
+  - autoregressive
+  - interactive
+  - motion-generation
+  summary: An autoregressive diffusion framework with hybrid representations designed for real-time, interactive 3D human motion generation from text prompts and kinematic constraints.
+  summary_ja: テキストプロンプトや運動学的制約から、リアルタイムかつインタラクティブに3D人間の動作を生成するために設計された、ハイブリッド表現を用いた自己回帰型拡散フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/nv-tlabs/ardy
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2607.08741'
+  repo: nv-tlabs/ardy
 - id: drawmotion-0e9f71
   title: DrawMotion
   area: animation
@@ -6025,6 +6364,35 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2411.18654'
+- id: large-motion-model-lmm-aef8d5
+  title: Large Motion Model (LMM)
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.01284
+    github: https://github.com/MotrixLab/LMM
+  authors:
+  - Mingyuan Zhang
+  - Daisheng Jin
+  - Chenyang Gu
+  - Fangzhou Hong
+  - Zhongang Cai
+  - Jingfang Huang
+  - Chongzhi Zhang
+  - Xinying Guo
+  year: 2024
+  tags:
+  - foundation-model
+  - motion-generation
+  - multi-modal
+  summary: A unified, motion-centric multi-modal framework that scales human motion generation across multiple tasks, including text-to-motion and music-to-dance, within a single generalist model.
+  summary_ja: テキストからのモーション生成や音楽からのダンス生成など、多様なモーション生成タスクを単一の汎用モデルに統合した、モーション中心のマルチモーダルフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/motrixlab/lmm
+  date_added: '2026-10-05'
+  source: agent
+  arxiv_id: '2404.01284'
+  repo: motrixlab/lmm
 - id: mardm-fb25a0
   title: MARDM
   area: animation
