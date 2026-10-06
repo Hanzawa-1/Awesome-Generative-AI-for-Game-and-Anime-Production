@@ -8019,6 +8019,35 @@ entries:
   source: agent
   arxiv_id: '2608.30125'
   repo: vibe-text-video-to-music-generation/vibe
+- id: yue2-109b18
+  title: YuE2
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.33757
+    github: https://github.com/multimodal-art-projection/YuE
+  authors:
+  - Ruibin Yuan
+  - Jiahao Pan
+  - Junyan Jiang
+  - Zhiyue Wu
+  - Ziya Zhou
+  - Jiankai Sun
+  - Yizhi Li
+  - Ge Zhang
+  year: 2026
+  tags:
+  - bgm
+  - lyrics-to-song
+  - music-generation
+  - transformer
+  summary: An advanced open-source music generation foundation model that unifies symbolic planning and audio generation. It uses a Mixture-of-Transformers (MoT) architecture to first generate a readable score (specifying melody and harmony) and then realize it as high-fidelity full-song audio with vocals, supporting zero-shot covers and agentic music editing.
+  summary_ja: 記号的プランニングとオーディオ生成を統合した、高度なオープンソースの音楽生成基盤モデル。Mixture-of-Transformers（MoT）アーキテクチャを採用し、まずメロディとハーモニーを指定する楽譜を生成した上で、ボーカルを含む高忠実度なフル楽曲オーディオとして出力します。ゼロショットのカバー曲生成やエージェント型音楽編集もサポートしています。
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2609.33757'
+  repo: multimodal-art-projection/yue
 - id: ace-step-f69f91
   title: ACE-Step
   area: audio
@@ -9063,6 +9092,30 @@ entries:
   date_added: '2026-08-25'
   source: agent
   arxiv_id: '2607.00309'
+- id: formula-bank-rethinking-procedural-audio-pre-training-4b6bd6
+  title: Formula-Bank (Rethinking Procedural Audio Pre-training)
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.15067
+    github: https://github.com/Cross-Innovation-Lab/Formula-Bank
+  authors:
+  - Jiajun Peng
+  - Fengrui Liu
+  - Xinyu Liu
+  - Feng Liu
+  year: 2026
+  tags:
+  - audio-synthesis
+  - pre-training
+  - procedural-audio
+  summary: A benchmark and framework for scaling and adapting procedural audio pre-training, exploring how formula-class coverage and rendering diversity affect transferable audio representation learning.
+  summary_ja: 手続き型オーディオ（プロシージャルオーディオ）の事前学習をスケーリングおよび適応させるためのベンチマークおよびフレームワーク。数式クラスの網羅性とレンダリングの多様性が、転移可能なオーディオ表現学習に与える影響を調査しています。
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2609.15067'
+  repo: cross-innovation-lab/formula-bank
 - id: helixworld-real-time-interactive-audio-visual-world-model-cbea51
   title: 'HelixWorld: Real-Time Interactive Audio-Visual World Model'
   area: audio
@@ -10464,6 +10517,35 @@ entries:
   date_added: '2026-08-11'
   source: agent
   arxiv_id: '2312.15821'
+- id: audioldm-text-to-audio-generation-with-latent-diffusion-mode-4461a3
+  title: 'AudioLDM: Text-to-Audio Generation with Latent Diffusion Models'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.12503
+    paper: https://arxiv.org/abs/2301.12503
+  authors:
+  - Haohe Liu
+  - Zehua Chen
+  - Yi Yuan
+  - Xinhao Mei
+  - Xubo Liu
+  - Danilo Mandic
+  - Wenwu Wang
+  - Mark D. Plumbley
+  year: 2023
+  tags:
+  - audio-generation
+  - foley
+  - latent-diffusion
+  - sfx
+  summary: AudioLDM is a text-to-audio generation system built on a latent diffusion model that learns continuous audio representations from Contrastive Language-Audio Pretraining (CLAP) latents. It can generate high-quality sound effects, foley, and music from natural language descriptions.
+  summary_ja: AudioLDMは、Contrastive Language-Audio Pretraining（CLAP）の潜在空間から連続的なオーディオ表現を学習する、潜在拡散モデル（LDM）ベースのテキスト音声生成システムです。自然言語の説明から、高品質な効果音、環境音（Foley）、音楽を生成することができます。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2301.12503'
 - id: diff-foley-49a767
   title: Diff-Foley
   area: audio
@@ -11758,6 +11840,29 @@ entries:
   source: seed
   arxiv_id: '2106.06103'
   repo: jaywalnut310/vits
+- id: cosyvoice-3-qwen-audio-3-0-tts-1eb76a
+  title: CosyVoice 3 / Qwen-Audio-3.0-TTS
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.16514
+  authors:
+  - Qian Chen
+  - Xiangang Li
+  - Xiang Lv
+  - Han Zhao
+  - Tianyu Zhao
+  year: 2026
+  tags:
+  - flow-matching
+  - tts
+  - voice-cloning
+  summary: A technical retrospective of the CosyVoice lineage (from CosyVoice to CosyVoice 3 and Qwen-Audio-3.0-TTS), detailing a scalable multilingual zero-shot text-to-speech system that separates speech planning via an autoregressive language model from acoustic rendering via flow matching.
+  summary_ja: CosyVoiceからCosyVoice 3、Qwen-Audio-3.0-TTSに至る系統の技術的レトロスペクティブ。自己回帰言語モデルによる音声計画と、フローマッチングによる音響レンダリングを分離した、スケーラブルな多言語ゼロショット音声合成システムを詳述しています。
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2609.16514'
 - id: higgs-audio-877835
   title: Higgs Audio
   area: audio
@@ -13527,6 +13632,32 @@ entries:
   source: agent
   arxiv_id: '2501.07104'
   repo: rmavatar/rmavatar
+- id: taoavatar-real-time-lifelike-full-body-talking-avatars-for-a-662ef0
+  title: 'TaoAvatar: Real-Time Lifelike Full-Body Talking Avatars for Augmented Reality via 3D Gaussian Splatting'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.17032
+  authors:
+  - Jianchuan Chen
+  - Jingchuan Hu
+  - Gaige Wang
+  - Zhonghua Jiang
+  - Tiansong Zhou
+  - Zhiwen Chen
+  - Chengfei Lv
+  year: 2025
+  tags:
+  - 3dgs
+  - augmented-reality
+  - avatar
+  - real-time
+  summary: A high-fidelity, lightweight, 3DGS-based full-body talking avatar framework designed for real-time performance on mobile and AR devices, driven by various facial and body motion signals.
+  summary_ja: さまざまな顔や体のモーション信号によって駆動され、モバイルやARデバイス上でリアルタイムに動作するように設計された、高精度かつ軽量な3DGSベースの全身トーキングアバターフレームワーク。
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2503.17032'
 - id: tera-rethinking-text-guided-realistic-3d-avatar-generation-9b61f8
   title: 'TeRA: Rethinking Text-guided Realistic 3D Avatar Generation'
   area: characters
@@ -13817,6 +13948,31 @@ entries:
   source: agent
   arxiv_id: '2412.14963'
   repo: yiyuzhuang/idol
+- id: one-shot-one-talk-whole-body-talking-avatar-from-a-single-im-4e29ed
+  title: 'One Shot, One Talk: Whole-body Talking Avatar from a Single Image'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.01106
+  authors:
+  - Jun Xiang
+  - Yudong Guo
+  - Leipeng Hu
+  - Boyang Guo
+  - Yancheng Yuan
+  - Juyong Zhang
+  year: 2024
+  tags:
+  - 3dgs
+  - avatar
+  - one-shot
+  - talking-head
+  summary: A pipeline for constructing a whole-body talking avatar from a single image, utilizing pose-guided video generation models and 3D Gaussian Splatting to achieve realistic body gestures and natural expression changes.
+  summary_ja: 単一の画像から全身のトーキングアバターを構築するパイプライン。ポーズ誘導型ビデオ生成モデルと3Dガウシアン・スプラッティングを活用し、リアルなジェスチャーと自然な表情変化を実現する。
+  date_added: '2026-10-06'
+  source: agent
+  arxiv_id: '2412.01106'
 - id: puzzleavatar-0fda47
   title: PuzzleAvatar
   area: characters
