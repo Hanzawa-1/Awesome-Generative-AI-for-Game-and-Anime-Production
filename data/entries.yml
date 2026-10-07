@@ -8044,6 +8044,7 @@ entries:
   - transformer
   summary: An advanced open-source music generation foundation model that unifies symbolic planning and audio generation. It uses a Mixture-of-Transformers (MoT) architecture to first generate a readable score (specifying melody and harmony) and then realize it as high-fidelity full-song audio with vocals, supporting zero-shot covers and agentic music editing.
   summary_ja: 記号的プランニングとオーディオ生成を統合した、高度なオープンソースの音楽生成基盤モデル。Mixture-of-Transformers（MoT）アーキテクチャを採用し、まずメロディとハーモニーを指定する楽譜を生成した上で、ボーカルを含む高忠実度なフル楽曲オーディオとして出力します。ゼロショットのカバー曲生成やエージェント型音楽編集もサポートしています。
+  thumbnail: https://opengraph.githubassets.com/1/multimodal-art-projection/yue
   date_added: '2026-10-06'
   source: agent
   arxiv_id: '2609.33757'
@@ -9112,6 +9113,7 @@ entries:
   - procedural-audio
   summary: A benchmark and framework for scaling and adapting procedural audio pre-training, exploring how formula-class coverage and rendering diversity affect transferable audio representation learning.
   summary_ja: 手続き型オーディオ（プロシージャルオーディオ）の事前学習をスケーリングおよび適応させるためのベンチマークおよびフレームワーク。数式クラスの網羅性とレンダリングの多様性が、転移可能なオーディオ表現学習に与える影響を調査しています。
+  thumbnail: https://opengraph.githubassets.com/1/cross-innovation-lab/formula-bank
   date_added: '2026-10-06'
   source: agent
   arxiv_id: '2609.15067'
@@ -14215,6 +14217,32 @@ entries:
   date_added: '2026-07-22'
   source: agent
   arxiv_id: '2607.07817'
+- id: evotale-continual-character-customization-for-expanding-stor-b2676a
+  title: 'EvoTale: Continual Character Customization for Expanding Story Worlds'
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.16285
+  authors:
+  - Jinlu Zhang
+  - Qiyun Wang
+  - Baoxiang Du
+  - Jiayi Ji
+  - Jing He
+  - Rongsheng Zhang
+  - Tangjie Lv
+  - Xiaoshuai Sun
+  year: 2026
+  tags:
+  - character-customization
+  - identity-preserving
+  - story-visualization
+  summary: A continual character customization framework designed for expanding story worlds, enabling the integration of new user-specified characters while preserving recurring character identities. It addresses identity conflicts and customization difficulties in multi-character narrative scenes.
+  summary_ja: 拡張するストーリー世界向けに設計された継続的なキャラクターカスタマイズフレームワーク。既存のキャラクターのアイデンティティを維持しつつ、ユーザーが指定した新しいキャラクターを統合することを可能にし、複数キャラクターが登場する物語シーンでの競合を解決します。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2603.16285'
 - id: omnichar-b1b106
   title: OmniChar
   area: characters
@@ -15483,6 +15511,33 @@ entries:
   source: agent
   arxiv_id: '2601.12736'
   repo: cyberagentailab/kaolrm
+- id: match-feed-forward-gaussian-registration-for-head-avatar-cre-29d1a5
+  title: 'MATCH: Feed-forward Gaussian Registration for Head Avatar Creation and Editing'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.15811
+    github: https://github.com/malteprinzler/match
+    project: https://malteprinzler.github.io/projects/match/
+    paper: https://arxiv.org/pdf/2603.15811
+  authors:
+  - Malte Prinzler
+  - Paulo Gotardo
+  - Siyu Tang
+  - Timo Bolkart
+  year: 2026
+  tags:
+  - gaussian-splatting
+  - head-avatar
+  - multi-view
+  - reconstruction
+  summary: A multi-view Gaussian registration method that directly predicts topologically corresponding 3D Gaussian splat textures from calibrated multi-view images in 0.5 seconds, enabling rapid head avatar creation and editing.
+  summary_ja: キャリブレーションされた多視点画像から、トポロジー的に対応する3Dガウシアンスプラットのテクスチャをわずか0.5秒で直接予測し、高速なヘッドアバターの作成と編集を可能にするマルチビュー登録手法。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2603.15811'
+  repo: malteprinzler/match
 - id: realdenseface-real-time-monocular-3d-face-reconstruction-fro-4a3a39
   title: 'RealDenseFace: Real-time Monocular 3D Face Reconstruction from Dense UV-space Priors'
   area: characters
@@ -15585,6 +15640,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2605.14594'
+- id: uvfacefusion-fast-multi-view-topologically-consistent-face-r-50fd07
+  title: 'UVFaceFusion: Fast Multi-view Topologically Consistent Face Reconstruction in the Wild via UV-space Neural Fusion'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2607.18798
+    github: https://github.com/grignarder/UVFaceFusion
+    paper: https://arxiv.org/pdf/2607.18798
+  authors:
+  - Xin Ming
+  - Yuxuan Han
+  - Junhai Yong
+  - Feng Xu
+  year: 2026
+  tags:
+  - face-reconstruction
+  - multi-view
+  - neural-fusion
+  - uv-space
+  summary: A feed-forward framework for fast, topologically consistent multi-view face reconstruction that replaces heuristic optimization with learnable neural fusion in a canonical UV space.
+  summary_ja: 従来のヒューリスティックな最適化を、標準的なUV空間における学習可能なニューラル融合に置き換えることで、高速かつトポロジー的に一貫した多視点3D顔再構成を実現するフィードフォワードフレームワーク。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2607.18798'
+  repo: grignarder/uvfacefusion
 - id: 3d-gaussian-head-avatars-with-expressive-dynamic-appearances-4e941d
   title: 3D Gaussian Head Avatars with Expressive Dynamic Appearances by Compact Tensorial Representations
   area: characters
@@ -15870,6 +15951,34 @@ entries:
   source: agent
   arxiv_id: '2505.00615'
   repo: simongiebenhain/pixel3dmm
+- id: rgbavatar-reduced-gaussian-blendshapes-for-online-modeling-o-6d7c03
+  title: 'RGBAvatar: Reduced Gaussian Blendshapes for Online Modeling of Head Avatars'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.12886
+    github: https://github.com/gapszju/RGBAvatar
+    paper: https://arxiv.org/pdf/2503.12886
+  authors:
+  - Linzhou Li
+  - Yumeng Li
+  - Yanlin Weng
+  - Youyi Zheng
+  - Kun Zhou
+  year: 2025
+  tags:
+  - blendshapes
+  - gaussian-splatting
+  - head-avatar
+  - real-time
+  summary: A method for reconstructing photorealistic, animatable head avatars on the fly by mapping tracked 3DMM parameters into reduced blendshape weights with an MLP, creating a compact set of 3D Gaussian blendshape bases.
+  summary_ja: トラッキングされた3DMMパラメータをMLPによって削減されたブレンドシェイプの重みにマッピングし、コンパクトな3Dガウシアンブレンドシェイプ基底を構築することで、リアルタイムでアニメーション可能な高品質ヘッドアバターを瞬時に再構成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/gapszju/rgbavatar
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2503.12886'
+  repo: gapszju/rgbavatar
 - id: stylemm-stylized-3d-morphable-face-model-via-text-driven-ali-f5a3e0
   title: 'StyleMM: Stylized 3D Morphable Face Model via Text-Driven Aligned Image Translation'
   area: characters
@@ -15896,6 +16005,33 @@ entries:
   source: agent
   arxiv_id: '2508.11203'
   repo: kwanyun/eas
+- id: vggtface-topologically-consistent-facial-geometry-reconstruc-81029e
+  title: 'VGGTFace: Topologically Consistent Facial Geometry Reconstruction in the Wild'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.20366
+    github: https://github.com/grignarder/vggtface
+    paper: https://arxiv.org/pdf/2511.20366
+  authors:
+  - Xin Ming
+  - Yuxuan Han
+  - Tianyu Huang
+  - Feng Xu
+  year: 2025
+  tags:
+  - face-reconstruction
+  - mesh
+  - multi-view
+  - topology
+  summary: An automatic approach that leverages a 3D foundation model (VGGT) to reconstruct topologically consistent 3D facial geometry from in-the-wild multi-view images captured by everyday users in less than 10 seconds.
+  summary_ja: 3D基盤モデル（VGGT）を活用し、日常的な環境で撮影された多視点画像から、トポロジー的に一貫した3D顔形状を10秒未満で自動的に再構成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/grignarder/vggtface
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2511.20366'
+  repo: grignarder/vggtface
 - id: facelift-873b67
   title: FaceLift
   area: characters
@@ -17135,6 +17271,33 @@ entries:
   source: agent
   arxiv_id: '2601.07963'
   repo: dongjiahua/3dgs-drag
+- id: alchemy3d-scaling-versatile-3d-assets-editing-with-a-million-0925d1
+  title: 'Alchemy3D: Scaling Versatile 3D Assets Editing with a Million-Scale Dataset'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.34271
+    github: https://github.com/libd1/Alchemy3D
+    paper: https://arxiv.org/pdf/2609.34271
+  authors:
+  - Badi Li
+  - Tianxin Huang
+  - Yu Zhou
+  - Wei-Shi Zheng
+  - Yi Ma
+  - Shenghua Gao
+  year: 2026
+  tags:
+  - 3d-editing
+  - asset-editing
+  - dataset
+  summary: A unified framework for training and evaluating versatile 3D asset editors, featuring a million-scale dataset for source-aware 3D editing. It addresses the scarcity of high-quality paired training data and provides a robust benchmark for controllable 3D asset modification.
+  summary_ja: ソースを考慮した3D編集のための100万規模のデータセットを特徴とする、多用途な3Dアセットエディタのトレーニングおよび評価のための統一フレームワーク。高品質なペア学習データの不足に対処し、制御可能な3Dアセット編集のための頑健なベンチマークを提供します。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2609.34271'
+  repo: libd1/alchemy3d
 - id: coin-b513b3
   title: CoIn
   area: gen-3d
@@ -17326,6 +17489,34 @@ entries:
   source: agent
   arxiv_id: '2603.17841'
   repo: mt-cly/omni3dedit
+- id: prioredit3d-learning-3d-editing-without-paired-supervision-v-ca3e4a
+  title: 'PriorEdit3D: Learning 3D Editing without Paired Supervision via Generative Prior Distillation'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.04942
+    github: https://github.com/thiamine128/PriorEdit3D
+    paper: https://arxiv.org/pdf/2609.04942
+  authors:
+  - Hao Wen
+  - Weibin Yun
+  - Hongxing Fan
+  - Haotian Lu
+  - Rui Chen
+  - Zehuan Huang
+  - Lu Sheng
+  year: 2026
+  tags:
+  - 3d-editing
+  - distillation
+  - feed-forward
+  summary: A feed-forward 3D editing framework that learns instruction-guided 3D editing without paired 3D supervision. It distills 2D visual and VLM-based semantic priors into a 3D-aware model, utilizing a distribution matching regularization to prevent geometric collapse and maintain multi-view consistency.
+  summary_ja: ペアとなる3D教師データなしで指示に基づいた3D編集を学習する、フィードフォワード型の3D編集フレームワーク。2Dの視覚的およびVLMベースのセマンティックプライアを3D認識モデルに蒸留し、幾何学的崩壊を防ぎマルチビューの一貫性を維持するために分布マッチング正則化を利用します。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2609.04942'
+  repo: thiamine128/prioredit3d
 - id: seed2gs-db047f
   title: Seed2GS
   area: gen-3d
@@ -17490,6 +17681,28 @@ entries:
   source: agent
   arxiv_id: '2608.24169'
   repo: sig-pku/visculpt
+- id: wings-reference-free-gaussian-splatting-inpainting-with-3d-n-d62f5a
+  title: 'WINGS: Reference-Free Gaussian Splatting Inpainting with 3D-Native Generative Priors'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.37816
+    paper: https://arxiv.org/pdf/2609.37816
+  authors:
+  - Noé Lallouet
+  - Michael Fischer
+  - Elie Michel
+  year: 2026
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - inpainting
+  summary: A reference-free 3D Gaussian Splatting inpainting method that operates natively in 3D space, bypassing the need for 2D diffusion models to generate multi-view consistent reference views. It leverages 3D-native generative priors to produce plausible geometry and appearance within masked regions efficiently.
+  summary_ja: 2D拡散モデルによるマルチビュー一貫性のある参照画像の生成を必要とせず、3D空間内でネイティブに動作する参照フリーの3D Gaussian Splattingインペインティング手法。3Dネイティブな生成プライアを活用し、マスクされた領域内に妥当な形状と外観を効率的に生成します。
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2609.37816'
 - id: arap-gs-drag-driven-as-rigid-as-possible-3d-gaussian-splatti-9eebe8
   title: 'ARAP-GS: Drag-driven As-Rigid-As-Possible 3D Gaussian Splatting Editing with Diffusion Prior'
   area: gen-3d
@@ -20287,6 +20500,33 @@ entries:
   source: agent
   arxiv_id: '2501.04689'
   repo: stability-ai/stable-point-aware-3d
+- id: sparc3d-sparse-representation-and-construction-for-high-reso-ebfeca
+  title: 'Sparc3D: Sparse Representation and Construction for High-Resolution 3D Shapes Modeling'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.14521
+    github: https://github.com/lizhihao6/Sparc3D
+  authors:
+  - Zhihao Li
+  - Yufei Wang
+  - Heliang Zheng
+  - Yihao Luo
+  - Bihan Wen
+  year: 2025
+  tags:
+  - image-to-3d
+  - mesh
+  - sparse-representation
+  - vae
+  summary: A unified 3D shape modeling framework that utilizes sparse representation to generate high-resolution 3D meshes. It addresses detail loss in traditional VAE-based pipelines by directly learning a sparse latent representation of 3D geometry.
+  summary_ja: 疎な表現を利用して高解像度の3Dメッシュを生成する、統一された3D形状モデリングフレームワーク。3D幾何形状の疎な潜在表現を直接学習することにより、従来のVAEベースのパイプラインにおける詳細の損失を解消します。
+  thumbnail: https://opengraph.githubassets.com/1/lizhihao6/sparc3d
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2505.14521'
+  repo: lizhihao6/sparc3d
 - id: sparseflex-b7190e
   title: SparseFlex
   area: gen-3d
@@ -21826,6 +22066,35 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: mobiuslqm/nabla-r2d3
+- id: nautilus-locality-aware-autoencoder-for-scalable-mesh-genera-e8693f
+  title: 'Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.14317
+    github: https://github.com/Yuxuan-W/Nautilus
+  authors:
+  - Yuxuan Wang
+  - Xuanyu Yi
+  - Haohan Weng
+  - Qingshan Xu
+  - Xiaokang Wei
+  - Xianghui Yang
+  - Chunchao Guo
+  - Long Chen
+  year: 2025
+  tags:
+  - autoencoder
+  - mesh
+  - reconstruction
+  summary: A locality-aware autoencoder framework designed for scalable 3D mesh generation, enabling direct modeling of continuous surface quality and producing high-quality, clean meshes.
+  summary_ja: スケーラブルな3Dメッシュ生成向けに設計された局所性認識型オートエンコーダフレームワークであり、連続的な表面品質の直接モデリングを可能にし、高品質でクリーンなメッシュを生成する。
+  thumbnail: https://opengraph.githubassets.com/1/yuxuan-w/nautilus
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2501.14317'
+  repo: yuxuan-w/nautilus
 - id: partcrafter-187bab
   title: PartCrafter
   area: gen-3d
@@ -21913,6 +22182,57 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: lizhihao6/sparc3d
+- id: topology-preserved-auto-regressive-mesh-generation-in-the-ma-1bb43b
+  title: Topology-Preserved Auto-regressive Mesh Generation in the Manner of Weaving Silk
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.02477
+    github: https://github.com/gaochao-s/Mesh-Silksong
+  authors:
+  - Gaochao Song
+  - Zibo Zhao
+  - Haohan Weng
+  - Jingbo Zeng
+  - Rongfei Jia
+  - Shenghua Gao
+  year: 2025
+  tags:
+  - autoregressive
+  - mesh
+  - topology
+  summary: A compact and efficient mesh representation and tokenization algorithm that generates topology-preserved polygon meshes in an autoregressive manner akin to silk weaving.
+  summary_ja: 絹織りのように自己回帰的にトポロジーが保持されたポリゴンメッシュを生成する、コンパクトで効率的なメッシュ表現およびトークン化アルゴリズム。
+  thumbnail: https://opengraph.githubassets.com/1/gaochao-s/mesh-silksong
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2507.02477'
+  repo: gaochao-s/mesh-silksong
+- id: treemeshgpt-artistic-mesh-generation-with-autoregressive-tre-5306dc
+  title: 'TreeMeshGPT: Artistic Mesh Generation with Autoregressive Tree Sequencing'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.11629
+    github: https://github.com/sail-sg/TreeMeshGPT
+  authors:
+  - Stefan Lionar
+  - Jiabin Liang
+  - Gim Hee Lee
+  year: 2025
+  tags:
+  - autoregressive
+  - mesh
+  - transformer
+  summary: An autoregressive Transformer that generates high-quality artistic meshes aligned with input point clouds using a novel Autoregressive Tree Sequencing based on triangle adjacency.
+  summary_ja: 三角形の隣接関係に基づく新しい自己回帰ツリーシーケンシングを使用し、入力点群に整合した高品質なアーティスティックメッシュを生成する自己回帰トランスフォーマー。
+  thumbnail: https://opengraph.githubassets.com/1/sail-sg/treemeshgpt
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2503.11629'
+  repo: sail-sg/treemeshgpt
 - id: triposf-11321c
   title: TripoSF
   area: gen-3d
@@ -22827,6 +23147,35 @@ entries:
   source: agent
   arxiv_id: '2601.22054'
   repo: metric-anything/metric-anything
+- id: sapiens2-foundation-for-human-vision-models-431aba
+  title: 'Sapiens2: Foundation for Human Vision Models'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.21681
+    github: https://github.com/facebookresearch/sapiens
+    hf: https://huggingface.co/facebook/sapiens2-seg-0.8b
+  authors:
+  - Rawal Khirodkar
+  - He Wen
+  - Julieta Martinez
+  - Yuan Dong
+  - Su Zhaoen
+  - Shunsuke Saito
+  year: 2026
+  tags:
+  - depth
+  - geometry
+  - human-centric
+  - normal-map
+  summary: Sapiens2 is a family of high-resolution vision transformers (0.4B to 5B parameters) for human-centric tasks, including depth estimation and surface normal prediction. Pretrained on 1 billion human images, it supports native 1K and 4K resolution inference, delivering highly detailed and temporally consistent dense geometry predictions for human bodies.
+  summary_ja: Sapiens2は、深度推定や法線マップ生成を含む人間中心のビジョンタスク向けに設計された、0.4億〜50億パラメータの超高解像度トランスフォーマーモデル群です。10億枚の人間画像で事前学習され、ネイティブ1Kおよび4K解像度での推論をサポートし、人体に対して極めて詳細で一貫した幾何学的予測を提供します。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/facebook/sapiens2-seg-0.8b.png
+  date_added: '2026-10-07'
+  source: agent
+  arxiv_id: '2604.21681'
+  repo: facebookresearch/sapiens
 - id: transnormal-2-geometry-grounded-rectified-flow-with-edge-awa-e0961f
   title: 'TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation'
   area: gen-3d
