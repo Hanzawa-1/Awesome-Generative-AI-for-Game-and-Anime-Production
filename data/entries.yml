@@ -15534,6 +15534,7 @@ entries:
   - reconstruction
   summary: A multi-view Gaussian registration method that directly predicts topologically corresponding 3D Gaussian splat textures from calibrated multi-view images in 0.5 seconds, enabling rapid head avatar creation and editing.
   summary_ja: キャリブレーションされた多視点画像から、トポロジー的に対応する3Dガウシアンスプラットのテクスチャをわずか0.5秒で直接予測し、高速なヘッドアバターの作成と編集を可能にするマルチビュー登録手法。
+  thumbnail: https://opengraph.githubassets.com/1/malteprinzler/match
   date_added: '2026-10-07'
   source: agent
   arxiv_id: '2603.15811'
@@ -15662,6 +15663,7 @@ entries:
   - uv-space
   summary: A feed-forward framework for fast, topologically consistent multi-view face reconstruction that replaces heuristic optimization with learnable neural fusion in a canonical UV space.
   summary_ja: 従来のヒューリスティックな最適化を、標準的なUV空間における学習可能なニューラル融合に置き換えることで、高速かつトポロジー的に一貫した多視点3D顔再構成を実現するフィードフォワードフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/grignarder/uvfacefusion
   date_added: '2026-10-07'
   source: agent
   arxiv_id: '2607.18798'
@@ -17294,6 +17296,7 @@ entries:
   - dataset
   summary: A unified framework for training and evaluating versatile 3D asset editors, featuring a million-scale dataset for source-aware 3D editing. It addresses the scarcity of high-quality paired training data and provides a robust benchmark for controllable 3D asset modification.
   summary_ja: ソースを考慮した3D編集のための100万規模のデータセットを特徴とする、多用途な3Dアセットエディタのトレーニングおよび評価のための統一フレームワーク。高品質なペア学習データの不足に対処し、制御可能な3Dアセット編集のための頑健なベンチマークを提供します。
+  thumbnail: https://opengraph.githubassets.com/1/libd1/alchemy3d
   date_added: '2026-10-07'
   source: agent
   arxiv_id: '2609.34271'
@@ -24259,6 +24262,38 @@ entries:
   source: agent
   arxiv_id: '2601.04090'
   repo: jaceyhuang/gen3r
+- id: lyra-2-0-e18f26
+  title: Lyra 2.0
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2604.13036
+    github: https://github.com/nv-tlabs/lyra
+    paper: https://arxiv.org/abs/2604.13036
+    website: https://nv-tlabs.github.io/Project-Lyra/
+  authors:
+  - Tianchang Shen
+  - Sherwin Bahmani
+  - Kai He
+  - Sangeetha Grama Srinivasan
+  - Tianshi Cao
+  - Jiawei Ren
+  - Ruilong Li
+  - Zian Wang
+  year: 2026
+  tags:
+  - 3d-scene
+  - consistency
+  - video-to-3d
+  - world-model
+  summary: Developed by NVIDIA, Lyra 2.0 is a framework for generating persistent, explorable 3D worlds at scale from a single image or video walkthrough. It addresses spatial forgetting and temporal drifting over long camera trajectories to produce 3D-consistent environments ready for real-time rendering.
+  summary_ja: NVIDIAが開発したLyra 2.0は、1枚の画像や動画のウォークスルーから、永続的で探索可能な大規模3Dワールドを生成するフレームワーク。長いカメラ軌道における空間的な忘却や時間的なドリフトに対処し、リアルタイムレンダリングに対応した3D一貫性のある環境を構築する。
+  thumbnail: https://opengraph.githubassets.com/1/nv-tlabs/lyra
+  date_added: '2026-10-08'
+  source: agent
+  arxiv_id: '2604.13036'
+  repo: nv-tlabs/lyra
 - id: minwm-0a3713
   title: minWM
   area: gen-3d
@@ -24534,6 +24569,36 @@ entries:
   source: agent
   arxiv_id: '2501.10462'
   repo: sparklingh/bloomscene
+- id: bolt3d-90962b
+  title: Bolt3D
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.14445
+    paper: https://arxiv.org/abs/2503.14445
+    website: https://szymanowiczs.github.io/bolt3d
+  authors:
+  - Stanislaw Szymanowicz
+  - Jason Y. Zhang
+  - Pratul Srinivasan
+  - Ruiqi Gao
+  - Arthur Brussee
+  - Aleksander Holynski
+  - Ricardo Martin-Brualla
+  - Jonathan T. Barron
+  year: 2025
+  tags:
+  - diffusion
+  - fast-generation
+  - feed-forward
+  - gaussian-splatting
+  summary: A latent diffusion model designed for fast, feed-forward 3D scene generation that directly samples a 3D scene representation in less than seven seconds on a single GPU. It leverages scalable 2D diffusion network architectures to produce consistent, high-fidelity multi-view Splatter Images that combine into a complete 3D Gaussian scene.
+  summary_ja: 単一のGPU上で7秒未満で3Dシーン表現を直接サンプリングする、高速なフィードフォワード3Dシーン生成向け潜在拡散モデル。スケーラブルな2D拡散ネットワークアーキテクチャを活用し、一貫性のある高精度なマルチビューのスプラッター画像を生成して、完全な3Dガウシアンシーンを構築する。
+  thumbnail: https://szymanowiczs.github.io/bolt3d/img/rep_img.png
+  date_added: '2026-10-08'
+  source: agent
+  arxiv_id: '2503.14445'
 - id: flashworld-e18d82
   title: FlashWorld
   area: gen-3d
@@ -26237,6 +26302,33 @@ entries:
   source: agent
   arxiv_id: '2403.10044'
   repo: wutao-cs/spherediffusion
+- id: 360-degree-panorama-generation-from-few-unregistered-nfov-im-c5d609
+  title: 360-Degree Panorama Generation from Few Unregistered NFoV Images
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.14686
+    github: https://github.com/shanemankiw/Panodiff
+  authors:
+  - Jionghao Wang
+  - Ziyu Chen
+  - Jun Ling
+  - Rong Xie
+  - Li Song
+  year: 2023
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  summary: A diffusion-based framework (PanoDiff) that generates high-quality 360-degree panoramas from a few unregistered narrow field-of-view (NFoV) images, addressing the challenges of incomplete inputs and lack of camera pose registration.
+  summary_ja: 位置合わせされていない少数の狭視野（NFoV）画像から、高品質な360度パノラマを生成する拡散モデルベースのフレームワーク（PanoDiff）。不完全な入力やカメラポーズの未登録といった課題に対処する。
+  thumbnail: https://opengraph.githubassets.com/1/shanemankiw/panodiff
+  date_added: '2026-10-08'
+  source: agent
+  arxiv_id: '2308.14686'
+  repo: shanemankiw/panodiff
 - id: diffusion360-3481fe
   title: Diffusion360
   area: gen-3d
@@ -28007,6 +28099,29 @@ entries:
   source: agent
   arxiv_id: '2603.19753'
   repo: stability-ai/reli3d
+- id: texture-space-material-diffusion-973a01
+  title: Texture Space Material Diffusion
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.37654
+    project: https://nvlabs.github.io/texdiffusion/
+  authors:
+  - Jacob Munkberg
+  - Peter Kocsis
+  - Jon Hasselgren
+  year: 2026
+  tags:
+  - diffusion
+  - material
+  - pbr
+  - texture
+  summary: A framework by NVIDIA that finetunes a video diffusion transformer to generate high-quality PBR materials for 3D objects directly in texture space, supporting text-guided generation, multi-view material generation, and material upscaling up to 8K.
+  summary_ja: NVIDIAによるフレームワークで、ビデオ拡散トランスフォーマーを微調整し、3Dオブジェクトの高品質なPBRマテリアルをテクスチャ空間で直接生成。テキスト指示、マルチビュー生成、最大8Kのアップスケーリングに対応。
+  date_added: '2026-10-08'
+  source: agent
+  arxiv_id: '2609.37654'
 - id: toward-richer-material-generation-via-procedural-data-enhanc-fa2bdb
   title: Toward Richer Material Generation via Procedural Data Enhancement
   area: gen-3d

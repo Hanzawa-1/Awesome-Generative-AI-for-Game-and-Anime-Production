@@ -1812,6 +1812,24 @@ entries:
   thumbnail: https://kaedim3d.com/opengraph-image.png?1d7674bc16ebb20a
   date_added: '2026-06-17'
   source: agent
+- id: world-labs-marble-22274c
+  title: World Labs Marble
+  area: gen-3d
+  task: scene-generation
+  kind: proprietary
+  links:
+    website: https://marble.worldlabs.ai/
+  year: 2025
+  tags:
+  - 3d-scene
+  - environment
+  - gaussian-splatting
+  - world-model
+  summary: A multimodal 3D world model that generates persistent, high-fidelity 3D environments from text, images, videos, or coarse layouts. It supports interactive camera control, AI-native world editing (adding/removing objects, style changes), and exporting scenes as Gaussian splats, meshes, or video.
+  summary_ja: テキスト、画像、動画、または大まかなレイアウトから、永続的で高精度な3D環境を生成するマルチモーダル3Dワールドモデル。インタラクティブなカメラ制御、AIネイティブなワールド編集（オブジェクトの追加・削除、スタイル変更）、およびガウシアン・スプラッティング、メッシュ、動画としてのシーン書き出しをサポートする。
+  thumbnail: https://wlt-ai-cdn.art/images/marble-og.jpeg
+  date_added: '2026-10-08'
+  source: agent
 - id: atlas-ai-studio-48f967
   title: Atlas AI Studio
   area: gen-3d
@@ -2102,6 +2120,24 @@ entries:
   thumbnail: https://cdn-blog.holymolly.ai/media/production/Tripo3D_og.webp
   date_added: '2026-06-13'
   source: seed
+- id: patina-888c20
+  title: PATINA
+  area: gen-3d
+  task: texture-pbr
+  kind: proprietary
+  links:
+    website: https://fal.ai/models/fal-ai/patina
+  year: 2026
+  tags:
+  - api
+  - material
+  - pbr
+  - texture
+  summary: A commercial cloud API and model by fal.ai that generates seamless, high-resolution PBR material maps (BaseColor, Normal, Roughness, Metallic, and Height) from text descriptions or single input images.
+  summary_ja: テキスト記述または単一の入力画像から、シームレスで高解像度なPBRマテリアルマップ（ベースカラー、法線、粗さ、金属度、高さ）を生成する、fal.aiによる商用クラウドAPIおよびモデル。
+  thumbnail: https://fal.ai/api/models/thumbnail/fal-ai/patina
+  date_added: '2026-10-08'
+  source: agent
 - id: adobe-substance-3d-sampler-95c530
   title: Adobe Substance 3D Sampler
   area: gen-3d
