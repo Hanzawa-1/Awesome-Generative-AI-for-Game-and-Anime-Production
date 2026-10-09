@@ -30761,6 +30761,35 @@ entries:
   date_added: '2026-07-31'
   source: agent
   arxiv_id: '2508.10424'
+- id: relactrl-relevance-guided-efficient-control-for-diffusion-tr-c34ca5
+  title: 'RelaCtrl: Relevance-Guided Efficient Control for Diffusion Transformers'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.14377
+    github: https://github.com/360CVGroup/RelaCtrl
+  authors:
+  - Ke Cao
+  - Jing Wang
+  - Ao Ma
+  - Jiasong Feng
+  - Xuanhua He
+  - Run Ling
+  - Haowei Liu
+  - Jian Lu
+  year: 2025
+  tags:
+  - controlnet
+  - dit
+  - efficient
+  summary: An efficient controllable generation framework designed specifically for Diffusion Transformers (DiTs). It introduces relevance-guided control to dynamically allocate computational resources across different transformer layers based on the importance of the control information, significantly reducing parameter and computational overhead.
+  summary_ja: Diffusion Transformer（DiT）向けに特別に設計された、効率的な制御可能生成フレームワーク。制御情報の重要性に基づいて異なるトランスフォーマー層間で計算リソースを動的に割り当てる関連性誘導制御を導入し、パラメータと計算のオーバーヘッドを大幅に削減します。
+  thumbnail: https://opengraph.githubassets.com/1/360cvgroup/relactrl
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2502.14377'
+  repo: 360cvgroup/relactrl
 - id: semanticcontrol-5cec19
   title: SemanticControl
   area: image-2d
@@ -31216,6 +31245,34 @@ entries:
   source: agent
   arxiv_id: '2312.06573'
   repo: vislearn/controlnet-xs
+- id: freecontrol-training-free-spatial-control-of-any-text-to-ima-450652
+  title: 'FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.07536
+    github: https://github.com/genforce/freecontrol
+  authors:
+  - Sicheng Mo
+  - Fangzhou Mu
+  - Kuan Heng Lin
+  - Yanli Liu
+  - Bochen Guan
+  - Yin Li
+  - Bolei Zhou
+  year: 2023
+  tags:
+  - controlnet
+  - spatial-control
+  - training-free
+  summary: A training-free approach for controllable text-to-image generation that supports various spatial conditions and works across different model architectures and checkpoints. It enables structural control without requiring the training of auxiliary conditioning modules like traditional ControlNet.
+  summary_ja: 多様な空間条件をサポートし、異なるモデルアーキテクチャやチェックポイントで動作する、トレーニング不要の制御可能なテキスト画像生成手法。従来のControlNetのように補助的な条件付けモジュールを学習させることなく、構造的な制御を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/genforce/freecontrol
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2312.07536'
+  repo: genforce/freecontrol
 - id: ip-adapter-679e42
   title: IP-Adapter
   area: image-2d
@@ -31727,6 +31784,35 @@ entries:
   date_added: '2026-07-03'
   source: agent
   arxiv_id: '2504.00996'
+- id: anyedit-mastering-unified-high-quality-image-editing-for-any-b012b5
+  title: 'AnyEdit: Mastering Unified High-Quality Image Editing for Any Idea'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.15738
+    github: https://github.com/ZJU4EmbodiedAI/AnyEdit
+  authors:
+  - Qifan Yu
+  - Wei Chow
+  - Zhongqi Yue
+  - Kaihang Pan
+  - Yang Wu
+  - Xiaoyang Wan
+  - Juncheng Li
+  - Siliang Tang
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - instruction-guided
+  summary: A comprehensive multi-modal instruction-based image editing framework trained on a high-quality dataset of 2.5 million editing pairs across 20+ editing types.
+  summary_ja: 20種類以上の編集タイプにわたる250万組の高品質な編集ペアデータセットでトレーニングされた、指示ベースの包括的なマルチモーダル画像編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zju4embodiedai/anyedit
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2411.15738'
+  repo: zju4embodiedai/anyedit
 - id: anytext2-990d22
   title: AnyText2
   area: image-2d
@@ -34617,6 +34703,28 @@ entries:
   source: agent
   arxiv_id: '2607.04677'
   repo: yvan1001/anystyle
+- id: clear-a-unified-framework-for-resolving-the-leakage-degradat-4ab28c
+  title: 'CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.38136
+    github: https://github.com/0606zt/CLeaR
+  authors:
+  - Teng Zhou
+  - Yunhao Chen
+  year: 2026
+  tags:
+  - content-leakage
+  - diffusion
+  - style-transfer
+  summary: A training-free framework designed to resolve the leakage-degradation dilemma in style transfer by suppressing content leakage while maintaining high style fidelity. It operates across feature separation, feature-space grounding, and diffusion generation stages.
+  summary_ja: スタイル転送におけるコンテンツ漏洩を抑制しつつ、高いスタイル再現性を維持することで、漏洩と品質低下のトレードオフを解決するトレーニング不要のフレームワーク。特徴量分離、特徴空間のグラウンディング、および拡散生成の各段階で機能します。
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2609.38136'
+  repo: 0606zt/clear
 - id: comfyui-krea2-style-transfer-908881
   title: ComfyUI Krea2 Style Transfer
   area: image-2d
@@ -34847,6 +34955,30 @@ entries:
   date_added: '2026-10-02'
   source: agent
   arxiv_id: '2511.11051'
+- id: only-style-stylistic-consistency-in-image-generation-without-32e54c
+  title: 'Only-Style: Stylistic Consistency in Image Generation without Content Leakage'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.09916
+    github: https://github.com/TilemahosAravanis/Only-Style
+  authors:
+  - Tilemachos Aravanis
+  - Panagiotis Filntisis
+  - Petros Maragos
+  - George Retsinas
+  year: 2025
+  tags:
+  - content-leakage
+  - diffusion
+  - style-transfer
+  summary: A training-free style transfer framework that mitigates content leakage from reference images during diffusion-based generation. It localizes content leakage during inference and adaptively tunes parameters within the reference image patches containing the subject to preserve style consistency.
+  summary_ja: 拡散モデルベースの画像生成において、参照画像からのコンテンツ漏洩（リーク）を抑制する、トレーニング不要のスタイル転送フレームワーク。推論中にコンテンツ漏洩を特定し、被写体を含む参照画像パッチ内のパラメータを適応的に調整することで、スタイルの整合性を維持します。
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2506.09916'
+  repo: tilemahosaravanis/only-style
 - id: splitflux-learning-to-decouple-content-and-style-from-a-sing-18639b
   title: 'SplitFlux: Learning to Decouple Content and Style from a Single Image'
   area: image-2d
@@ -34895,6 +35027,31 @@ entries:
   source: agent
   arxiv_id: '2507.11986'
   repo: wonhark/wccv_style-composition-within-distinct-lora-modules-for-traditional-art
+- id: stylekeeper-prevent-content-leakage-using-negative-visual-qu-28e3e6
+  title: 'StyleKeeper: Prevent Content Leakage using Negative Visual Query Guidance'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.06827
+    github: https://github.com/naver-ai/StyleKeeper
+  authors:
+  - Jaeseok Jeong
+  - Junho Kim
+  - Gayoung Lee
+  - Yunjey Choi
+  - Youngjung Uh
+  year: 2025
+  tags:
+  - content-leakage
+  - diffusion
+  - style-transfer
+  summary: A training-free style transfer method that prevents content leakage from visual style prompts in text-to-image diffusion models. It introduces Negative Visual Query Guidance and self-attention feature swapping to decouple style from semantic content.
+  summary_ja: テキストから画像への拡散モデルにおいて、視覚的スタイルプロンプトからのコンテンツ漏洩を防ぐ、トレーニング不要のスタイル転送手法。Negative Visual Query Guidanceと自己アテンション特徴量のスワッピングを導入し、スタイルとセマンティックなコンテンツを分離します。
+  date_added: '2026-10-09'
+  source: agent
+  arxiv_id: '2510.06827'
+  repo: naver-ai/stylekeeper
 - id: stylessp-sampling-startpoint-enhancement-for-training-free-d-e4dc1f
   title: 'StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer'
   area: image-2d

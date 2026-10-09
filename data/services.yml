@@ -2773,6 +2773,23 @@ entries:
   thumbnail: https://s.krea.ai/KreaOpenGraph2.webp
   date_added: '2026-06-26'
   source: agent
+- id: krea-ai-upscaler-d3ad1b
+  title: Krea AI Upscaler
+  area: image-2d
+  task: super-resolution
+  kind: proprietary
+  links:
+    website: https://www.krea.ai/
+  year: 2023
+  tags:
+  - proprietary
+  - real-time
+  - super-resolution
+  - upscaling
+  summary: Krea AI is a comprehensive creative AI suite featuring a powerful real-time upscaler and enhancer. It intelligently increases image resolution up to 22K while adding photorealistic details, making it highly suitable for concept art and production workflows.
+  summary_ja: Krea AIは、強力なリアルタイムアップスケーラーおよびエンハンサーを備えた包括的なクリエイティブAIスイートです。フォトリアルなディテールを追加しながら、画像の解像度をインテリジェントに最大22Kまで向上させ、コンセプトアートや制作ワークフローに非常に適しています。
+  date_added: '2026-10-09'
+  source: agent
 - id: magnific-ai-282882
   title: Magnific AI
   area: image-2d
