@@ -3149,6 +3149,23 @@ entries:
   thumbnail: https://vividmanga.com/img/og/og.webp
   date_added: '2026-08-08'
   source: agent
+- id: kyukoma-ai-manga-colorizer-b2fbf0
+  title: Kyukoma AI Manga Colorizer
+  area: manga
+  task: manga-colorization
+  kind: proprietary
+  links:
+    website: https://www.kyukoma.com/tools/colorizer
+  tags:
+  - color-hints
+  - manga-colorization
+  - manga-panel
+  - web-tool
+  summary: A web-based AI colorization tool designed for manga panels, allowing creators to apply interactive color hints while preserving line art integrity.
+  summary_ja: マンガのコマ画像を対象に、原画の線画の質感を保ちつつインタラクティブなカラーヒントで自動着色が行えるWebベースのAIツール。
+  thumbnail: https://www.kyukoma.com/images/manga-colorizer-preview.webp
+  date_added: '2026-10-10'
+  source: agent
 - id: anicomic-ai-903155
   title: AniComic.ai
   area: manga
@@ -3184,6 +3201,25 @@ entries:
   summary_ja: テキストのストーリーを複数ページの完成されたマンガ本に変換する、商用のAI搭載マンガ制作プラットフォーム。一貫したキャラクター描写、自動コマ割りレイアウト、複数のマンガ画風の選択機能を備える。
   thumbnail: https://mangaflow.studio/apple-icon.png?07c9530f786655a8
   date_added: '2026-08-08'
+  source: agent
+- id: anifun-ai-e62ad5
+  title: AniFun AI
+  area: manga
+  task: manga-generation
+  kind: proprietary
+  links:
+    website: https://anifun.ai/
+  authors:
+  - AniFun AI Team
+  year: 2024
+  tags:
+  - manga
+  - panel-templates
+  - story-to-manga
+  - studio
+  summary: An AI creation platform for manga and comics featuring story-to-manga generation, panel templates, speech bubbles, manga typography, and interactive canvas composition.
+  summary_ja: ストーリーからのマンガ生成、コマ割りテンプレート、吹き出し配置、マンガフォント、インタラクティブなキャンバス構成を備えたAIマンガ・コミック制作プラットフォームです。
+  date_added: '2026-10-10'
   source: agent
 - id: anifusion-ba45ec
   title: Anifusion
@@ -3574,6 +3610,26 @@ entries:
   summary_ja: テキストプロンプトやスクリプトから、コマ割り、インキング、スクリーントーンの陰影処理を自動化するAI搭載のコミック・漫画制作プラットフォーム。
   thumbnail: https://comistitch.com/og/en.jpg
   date_added: '2026-06-27'
+  source: agent
+- id: clip-studio-paint-screentone-engine-b1bbc6
+  title: Clip Studio Paint Screentone Engine
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  authors:
+  - Celsys
+  year: 2024
+  tags:
+  - halftone
+  - manga
+  - screentone
+  - software
+  summary: Celsys's industry-standard manga and comic creation software features built-in vector-based screentoning, halftone layer conversion, customizable pattern assets, and dot frequency controls.
+  summary_ja: セルシスが提供する定番のマンガ制作ソフト。ベクトルハーフトーン変換、線数・密度調整、パターン素材適用などの本格的なスクリーントーン機能を搭載。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
+  date_added: '2026-10-10'
   source: agent
 - id: comicsai-manga-screentone-generator-6bb34b
   title: ComicsAI Manga Screentone Generator

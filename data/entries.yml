@@ -17516,6 +17516,7 @@ entries:
   - feed-forward
   summary: A feed-forward 3D editing framework that learns instruction-guided 3D editing without paired 3D supervision. It distills 2D visual and VLM-based semantic priors into a 3D-aware model, utilizing a distribution matching regularization to prevent geometric collapse and maintain multi-view consistency.
   summary_ja: ペアとなる3D教師データなしで指示に基づいた3D編集を学習する、フィードフォワード型の3D編集フレームワーク。2Dの視覚的およびVLMベースのセマンティックプライアを3D認識モデルに蒸留し、幾何学的崩壊を防ぎマルチビューの一貫性を維持するために分布マッチング正則化を利用します。
+  thumbnail: https://opengraph.githubassets.com/1/thiamine128/prioredit3d
   date_added: '2026-10-07'
   source: agent
   arxiv_id: '2609.04942'
@@ -34721,6 +34722,7 @@ entries:
   - style-transfer
   summary: A training-free framework designed to resolve the leakage-degradation dilemma in style transfer by suppressing content leakage while maintaining high style fidelity. It operates across feature separation, feature-space grounding, and diffusion generation stages.
   summary_ja: スタイル転送におけるコンテンツ漏洩を抑制しつつ、高いスタイル再現性を維持することで、漏洩と品質低下のトレードオフを解決するトレーニング不要のフレームワーク。特徴量分離、特徴空間のグラウンディング、および拡散生成の各段階で機能します。
+  thumbnail: https://opengraph.githubassets.com/1/0606zt/clear
   date_added: '2026-10-09'
   source: agent
   arxiv_id: '2609.38136'
@@ -35048,6 +35050,7 @@ entries:
   - style-transfer
   summary: A training-free style transfer method that prevents content leakage from visual style prompts in text-to-image diffusion models. It introduces Negative Visual Query Guidance and self-attention feature swapping to decouple style from semantic content.
   summary_ja: テキストから画像への拡散モデルにおいて、視覚的スタイルプロンプトからのコンテンツ漏洩を防ぐ、トレーニング不要のスタイル転送手法。Negative Visual Query Guidanceと自己アテンション特徴量のスワッピングを導入し、スタイルとセマンティックなコンテンツを分離します。
+  thumbnail: https://opengraph.githubassets.com/1/naver-ai/stylekeeper
   date_added: '2026-10-09'
   source: agent
   arxiv_id: '2510.06827'
@@ -39053,6 +39056,28 @@ entries:
   source: seed
   arxiv_id: '2401.10224'
   repo: ragavsachdeva/magi
+- id: a-customizable-generator-for-comic-style-visual-narrative-c0d106
+  title: A Customizable Generator for Comic-Style Visual Narrative
+  area: manga
+  task: panel-layout
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.02863
+    paper: https://arxiv.org/abs/2401.02863
+  authors:
+  - Yi-Chun Chen
+  - Arnav Jhala
+  year: 2023
+  tags:
+  - comic-layout
+  - panel-composition
+  - visual-narrative
+  summary: A visual narrative generator incorporating comic-authoring idioms across sequential layers including panel composition, object arrangement, panel transitions, and narrative framing.
+  summary_ja: コマ割りの構図、オブジェクト配置、コマ間の遷移、物語フレームワークなどの段階的レイヤーを通じてマンガ表現技法を適用する視覚的ナラティブ生成システム。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2401.02863'
 - id: comfyui-panels-79d1ed
   title: ComfyUI Panels
   area: manga
@@ -39606,6 +39631,34 @@ entries:
   date_added: '2026-09-12'
   source: agent
   arxiv_id: '2602.19016'
+- id: deeptrans-studio-91b020
+  title: DeepTrans Studio
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.29727
+    paper: https://arxiv.org/pdf/2606.29727
+  authors:
+  - Ziyang Lian
+  - Qingya Zhang
+  - Hao Wang
+  - Huiwen Xiong
+  - Qi Yang
+  - Lingyi Meng
+  - Xiaoyi Gu
+  - Rui Wang
+  year: 2026
+  tags:
+  - agentic-workflow
+  - collaborative-translation
+  - localization
+  - terminology
+  summary: DeepTrans Studio is an agentic collaborative translation framework that converts human expert edits into shared team knowledge, maintaining terminology and stylistic consistency across production localization pipelines.
+  summary_ja: DeepTrans Studioは、専門家による修正をチーム共通のナレッジとして蓄積・活用するエージェント型翻訳ワークスペースであり、ローカライズパイプラインでの用語やスタイルの整合性を確保します。
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2606.29727'
 - id: meowth-gba-translator-07e063
   title: Meowth GBA Translator
   area: text-design
@@ -39625,6 +39678,33 @@ entries:
   date_added: '2026-08-01'
   source: agent
   repo: olcmyk/meowth-gba-translator
+- id: smart-self-evolving-multi-agent-subtitle-translation-924966
+  title: 'SMART: Self-Evolving Multi-Agent Subtitle Translation'
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.38660
+    paper: https://arxiv.org/pdf/2609.38660
+  authors:
+  - Haibo Jin
+  - Xinjie Li
+  - Najmeh Sadoughi
+  - Yang Liu
+  - Yibo Wang
+  - Zhu Liu
+  - Yuzong Liu
+  year: 2026
+  tags:
+  - llm
+  - localization
+  - multi-agent
+  - subtitle-translation
+  summary: SMART is a self-evolving multi-agent system designed for long-form subtitle translation. It maintains persistent series-level memory to ensure consistent terminology and stylistic coherence across extended dialogue and media scripts.
+  summary_ja: SMARTは長編字幕翻訳のために設計された自己進化型マルチエージェントシステムです。一貫した用語やスタイルを維持するため、シリーズレベルの永続メモリを構築して翻訳を行います。
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2609.38660'
 - id: aya-expanse-3bf43b
   title: Aya Expanse
   area: text-design
@@ -40891,6 +40971,27 @@ entries:
   date_added: '2026-09-12'
   source: agent
   arxiv_id: '2510.04498'
+- id: narrative-context-protocol-524657
+  title: Narrative Context Protocol
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2503.04844v5
+    paper: https://arxiv.org/pdf/2503.04844v5
+  authors:
+  - Hank Gerba
+  year: 2025
+  tags:
+  - interactive-storytelling
+  - narrative-protocol
+  - open-standard
+  - storyform
+  summary: An open-source narrative standard that encodes story structures into structured Storyforms, enabling narrative portability, real-time emergent storytelling, and intent-based constraints for generative AI systems in games.
+  summary_ja: 物語の構造をStoryformとして構造化保存し、ゲーム向け生成AIシステムにおいて高い移植性とリアルタイムな新興ストーリーテリングを実現するオープンソース規格。
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2503.04844'
 - id: narrative-to-scene-generation-1fd0b4
   title: Narrative-to-Scene Generation
   area: text-design
@@ -41063,6 +41164,34 @@ entries:
   source: agent
   arxiv_id: '2410.02603'
   repo: google-deepmind/tell_me_a_story
+- id: collaborative-quest-completion-with-llm-driven-npcs-2645cb
+  title: Collaborative Quest Completion with LLM-driven NPCs
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2407.03460v1
+    paper: https://arxiv.org/pdf/2407.03460v1
+  authors:
+  - Sudha Rao
+  - Weijia Xu
+  - Michael Xu
+  - Jorge Leandro
+  - Ken Lobb
+  - Gabriel DesGarennes
+  - Chris Brockett
+  - Bill Dolan
+  year: 2024
+  tags:
+  - collaborative-gameplay
+  - llm-npc
+  - minecraft
+  - quest-completion
+  summary: A framework enabling LLM-powered non-player characters to dynamically understand, generate, adapt, and collaboratively execute multi-step game quests alongside human players in Minecraft.
+  summary_ja: Minecraft環境において、LLMで動作するNPCがプレイヤーと協調しながらマルチステップのゲームクエストを動的に生成・適応・共有実行するフレームワーク。
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2407.03460'
 - id: collabstory-multi-llm-collaborative-story-generation-and-aut-206529
   title: 'CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis'
   area: text-design
@@ -41788,6 +41917,34 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: undreamai/llmunity
+- id: mcpdial-a-minecraft-persona-driven-dialogue-dataset-b0e3c8
+  title: 'MCPDial: A Minecraft Persona-driven Dialogue Dataset'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.21627
+    paper: https://arxiv.org/pdf/2410.21627
+  authors:
+  - Seyed Hossein Alavi
+  - Sudha Rao
+  - Ashutosh Adhikari
+  - Gabriel A DesGarennes
+  - Akanksha Malhotra
+  - Chris Brockett
+  - Mahmoud Adada
+  - Raymond T. Ng
+  year: 2024
+  tags:
+  - dialogue
+  - llm
+  - minecraft
+  - npc
+  summary: A framework and dataset utilizing LLMs to generate persona-driven, contextually consistent dialogue between players and non-player characters in Minecraft.
+  summary_ja: LLMを活用してマインクラフト内のプレイヤーとNPC間におけるペルソナに基づいた文脈豊かな対話を生成するフレームワークおよびデータセット。
+  date_added: '2026-10-10'
+  source: agent
+  arxiv_id: '2410.21627'
 - id: soul-of-waifu-c978dd
   title: Soul of Waifu
   area: text-design
