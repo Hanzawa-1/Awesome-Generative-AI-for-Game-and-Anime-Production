@@ -34977,6 +34977,7 @@ entries:
   - style-transfer
   summary: A training-free style transfer framework that mitigates content leakage from reference images during diffusion-based generation. It localizes content leakage during inference and adaptively tunes parameters within the reference image patches containing the subject to preserve style consistency.
   summary_ja: 拡散モデルベースの画像生成において、参照画像からのコンテンツ漏洩（リーク）を抑制する、トレーニング不要のスタイル転送フレームワーク。推論中にコンテンツ漏洩を特定し、被写体を含む参照画像パッチ内のパラメータを適応的に調整することで、スタイルの整合性を維持します。
+  thumbnail: https://opengraph.githubassets.com/1/tilemahosaravanis/only-style
   date_added: '2026-10-09'
   source: agent
   arxiv_id: '2506.09916'
@@ -42379,6 +42380,30 @@ entries:
   source: agent
   arxiv_id: '2505.04051'
   repo: dreaming-huang/buildingblock
+- id: evolutionary-level-repair-850f6d
+  title: Evolutionary Level Repair
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.19359
+    paper: https://arxiv.org/pdf/2506.19359
+  authors:
+  - Debosmita Bhaumik
+  - Julian Togelius
+  - Georgios N. Yannakakis
+  - Ahmed Khalifa
+  year: 2025
+  tags:
+  - evolutionary-algorithm
+  - level-repair
+  - pcg
+  - playability
+  summary: A search-based framework using evolutionary and quality-diversity algorithms to automatically repair non-functional game levels, ensuring playability and reachability while retaining designer intent.
+  summary_ja: 進化計算と多様性維持アルゴリズムを用いて不完全またはプレイ不可能なゲームレベルを自動修復し、デザイナーの意図を保持しつつプレイ可能性と到達可能性を補償する検索ベースのフレームワーク。
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2506.19359'
 - id: ipcgrl-language-instructed-reinforcement-learning-for-proced-4a2289
   title: 'IPCGRL: Language-Instructed Reinforcement Learning for Procedural Level Generation'
   area: text-design
@@ -42789,6 +42814,32 @@ entries:
   date_added: '2026-06-21'
   source: agent
   arxiv_id: '2410.15644'
+- id: procedural-content-generation-via-generative-artificial-inte-a36610
+  title: Procedural Content Generation via Generative Artificial Intelligence
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.09013
+    paper: https://arxiv.org/pdf/2407.09013
+  authors:
+  - Xinyu Mao
+  - Wanli Yu
+  - Yuya Okawara
+  - Xueying Zhan
+  - Kazunori D. Yamada
+  - Michael R. Zielewski
+  year: 2024
+  tags:
+  - generative-ai
+  - level-generation
+  - pcg
+  - survey
+  summary: A comprehensive survey examining how modern generative AI techniques including diffusion, LLMs, and GANs are applied to procedural content generation for game terrains, dungeons, items, and levels.
+  summary_ja: 拡散モデル、LLM、GANなどの現代の生成AI技術が、ゲームの地形、ダンジョン、アイテム、レベルのプロシージャルコンテンツ生成（PCG）にどのように応用されているかを包括的に調査したサーベイ論文。
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2407.09013'
 - id: word2world-9c60bd
   title: Word2World
   area: text-design
@@ -43260,6 +43311,36 @@ entries:
   date_added: '2026-07-05'
   source: agent
   repo: thudm/cogvideo
+- id: consisid-427d0e
+  title: ConsisID
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17440
+    github: https://github.com/PKU-YuanGroup/ConsisID
+  authors:
+  - Shenghai Yuan
+  - Jinfa Huang
+  - Xianyi He
+  - Yunyuan Ge
+  - Yujun Shi
+  - Liuhan Chen
+  - Jiebo Luo
+  - Li Yuan
+  year: 2024
+  tags:
+  - dit
+  - identity-preserving
+  - image-to-video
+  - portrait-animation
+  summary: A tuning-free identity-preserving video generation framework that leverages frequency decomposition and DiT-based control to animate portrait images with highly consistent facial features.
+  summary_ja: 周波数分解とDiTベースの制御を活用し、追加ファインチューニングなしで人物画像から一貫した顔特徴を保持した動画を生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/pku-yuangroup/consisid
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2411.17440'
+  repo: pku-yuangroup/consisid
 - id: consisti2v-536812
   title: ConsistI2V
   area: video
@@ -43318,6 +43399,36 @@ entries:
   source: agent
   arxiv_id: '2403.07420'
   repo: showlab/draganything
+- id: easyanimate-b8c36c
+  title: EasyAnimate
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.18991
+    github: https://github.com/aigc-apps/EasyAnimate
+  authors:
+  - Jiaqi Xu
+  - Kunzhe Huang
+  - Xinyi Zou
+  - Yunkuo Chen
+  - Bo Liu
+  - MengLi Cheng
+  - Jun Huang
+  - Xing Shi
+  year: 2024
+  tags:
+  - diffusion-transformer
+  - image-to-video
+  - long-video
+  - open-source
+  summary: An end-to-end open framework based on Diffusion Transformers for high-resolution, long image-to-video and text-to-video generation using hybrid windows attention and reward backpropagation.
+  summary_ja: ハイブリッドウィンドウアテンションと報酬逆伝播を採用したDiffusion Transformerに基づく、高解像度かつ長時間の画像/テキストからの動画生成オープンフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/aigc-apps/easyanimate
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2405.18991'
+  repo: aigc-apps/easyanimate
 - id: follow-your-click-add6d4
   title: Follow-Your-Click
   area: video
@@ -45785,6 +45896,35 @@ entries:
   source: agent
   arxiv_id: '2405.16537'
   repo: vicky0522/i2vedit
+- id: motionfollower-c7d1e9
+  title: MotionFollower
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.20325
+    github: https://github.com/Francis-Rings/MotionFollower
+  authors:
+  - Shuyuan Tu
+  - Qi Dai
+  - Zihao Zhang
+  - Sicheng Xie
+  - Zhi-Qi Cheng
+  - Chong Luo
+  - Xintong Han
+  - Zuxuan Wu
+  year: 2024
+  tags:
+  - diffusion
+  - motion-editing
+  - video-editing
+  summary: MotionFollower is a score-guided video editing framework designed to alter object motion trajectory and pose while preserving background details and protagonist identity across video frames.
+  summary_ja: MotionFollowerはスコア誘導型の動画編集フレームワークであり、背景の細部や主役のアイデンティティを保持しながら、動画フレーム間におけるオブジェクトのモーション軌跡やポーズを変更できます。
+  thumbnail: https://opengraph.githubassets.com/1/francis-rings/motionfollower
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2405.20325'
+  repo: francis-rings/motionfollower
 - id: streaming-video-diffusion-svdiff-bd03f2
   title: Streaming Video Diffusion (SVDiff)
   area: video
@@ -46061,6 +46201,33 @@ entries:
   source: agent
   arxiv_id: '2309.03897'
   repo: sczhou/propainter
+- id: rave-1d9544
+  title: RAVE
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.04524
+    github: https://github.com/RehgLab/RAVE
+  authors:
+  - Ozgur Kara
+  - Bariscan Kurtkaya
+  - Hidir Yesiltepe
+  - James M. Rehg
+  - Pinar Yanardag
+  year: 2023
+  tags:
+  - diffusion
+  - text-to-video
+  - video-editing
+  - zero-shot
+  summary: RAVE is a zero-shot video editing method that uses randomized noise shuffling across video grids in pre-trained text-to-image diffusion models, enabling fast and temporally consistent text-driven video edits without additional training.
+  summary_ja: RAVEは事前学習済みText-to-Image拡散モデルの動画グリッド間でノイズをシャッフルするゼロショット動画編集手法であり、追加の学習なしで高速かつ時間的一貫性のあるテキスト駆動動画編集を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/rehglab/rave
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2312.04524'
+  repo: rehglab/rave
 - id: stablevideo-text-driven-consistency-aware-diffusion-video-ed-17ec45
   title: 'StableVideo: Text-driven Consistency-aware Diffusion Video Editing'
   area: video
@@ -46111,6 +46278,34 @@ entries:
   source: agent
   arxiv_id: '2307.10373'
   repo: omerbt/tokenflow
+- id: track-anything-tam-03dfd4
+  title: Track Anything (TAM)
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.11968
+    github: https://github.com/gaomingqi/Track-Anything
+  authors:
+  - Jinyu Yang
+  - Mingqi Gao
+  - Zhe Li
+  - Shang Gao
+  - Fangjing Wang
+  - Feng Zheng
+  year: 2023
+  tags:
+  - inpainting
+  - sam
+  - tracking
+  - video-editing
+  summary: Track Anything (TAM) is an interactive video object tracking and editing framework that combines SAM with video tracking (XMem) and inpainting (E2FGVI) models, allowing users to select, track, and edit video objects seamlessly via click or text prompts.
+  summary_ja: Track Anything（TAM）は、SAMを動画追跡（XMem）やインペインティング（E2FGVI）モデルと組み合わせたインタラクティブな動画オブジェクト追跡・編集フレームワークです。クリックやテキストプロンプトで動画内の対象を選択・追跡・編集できます。
+  thumbnail: https://opengraph.githubassets.com/1/gaomingqi/track-anything
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2304.11968'
+  repo: gaomingqi/track-anything
 - id: video-p2p-53d6b6
   title: Video-P2P
   area: video
@@ -46137,6 +46332,36 @@ entries:
   source: agent
   arxiv_id: '2303.04761'
   repo: jia-lab-research/video-p2p
+- id: videoswap-93018a
+  title: VideoSwap
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02087
+    github: https://github.com/showlab/VideoSwap
+  authors:
+  - Yuchao Gu
+  - Yipin Zhou
+  - Bichen Wu
+  - Licheng Yu
+  - Jia-Wei Liu
+  - Rui Zhao
+  - Jay Zhangjie Wu
+  - David Junhao Zhang
+  year: 2023
+  tags:
+  - diffusion
+  - inpainting
+  - subject-swapping
+  - video-editing
+  summary: VideoSwap provides customized video subject swapping using interactive semantic point correspondences, enabling subject replacement with distinct shapes and identities while retaining temporal consistency.
+  summary_ja: VideoSwapは対話的な意味的ポイント対応を用いたカスタマイズ動画被写体差し替え技術であり、時間の整合性を保ちながら形状やアイデンティティの異なる被写体への置換を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/showlab/videoswap
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2312.02087'
+  repo: showlab/videoswap
 - id: vidtome-3d1f08
   title: VidToMe
   area: video
@@ -47477,6 +47702,32 @@ entries:
   source: agent
   arxiv_id: '2410.20084'
   repo: quanjiansong/univst
+- id: bivdiff-a-training-free-framework-for-general-purpose-video-48715b
+  title: 'BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02813
+    paper: https://arxiv.org/pdf/2312.02813
+  authors:
+  - Fengyuan Shi
+  - Jiaxi Gu
+  - Hang Xu
+  - Songcen Xu
+  - Wei Zhang
+  - Limin Wang
+  year: 2023
+  tags:
+  - diffusion
+  - training-free
+  - video-style-transfer
+  - video-to-video
+  summary: BIVDiff is a training-free framework that bridges image and video diffusion models to enable diverse video-to-video synthesis and style editing with high temporal stability and strong controllability.
+  summary_ja: BIVDiffは、画像拡散モデルと動画拡散モデルを繋ぐトレーニングフリーなフレームワークであり、高い時間的一貫性と制御性を持ちながら多彩な動画間スタイル変換や編集を実現します。
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2312.02813'
 - id: codef-956a37
   title: CoDeF
   area: video
@@ -47589,6 +47840,33 @@ entries:
   source: agent
   arxiv_id: '2312.17681'
   repo: jeff-liangf/flowvid
+- id: latentwarp-consistent-diffusion-latents-for-zero-shot-video-8fc9a0
+  title: 'LatentWarp: Consistent Diffusion Latents for Zero-Shot Video-to-Video Translation'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.00353
+    paper: https://arxiv.org/pdf/2311.00353
+  authors:
+  - Yuxiang Bao
+  - Di Qiu
+  - Guoliang Kang
+  - Baochang Zhang
+  - Bo Jin
+  - Kaiye Wang
+  - Pengfei Yan
+  year: 2023
+  tags:
+  - diffusion
+  - video-style-transfer
+  - video-to-video
+  - zero-shot
+  summary: LatentWarp enforces temporal consistency in zero-shot diffusion video-to-video translation by warping and aligning latent representations across adjacent frames using optical flow.
+  summary_ja: LatentWarpは、オプティカルフローを用いて隣接フレーム間の拡散潜在変数をワープ・整列させることで、ゼロショット動画間スタイル変換における時間的一貫性を大幅に向上させる手法です。
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2311.00353'
 - id: rerender-a-video-90aeb5
   title: Rerender A Video
   area: video
@@ -47640,6 +47918,36 @@ entries:
   source: agent
   arxiv_id: '2305.05464'
   repo: haha-lisa/style-a-video
+- id: stylecrafter-enhancing-stylized-text-to-video-generation-wit-77ec97
+  title: 'StyleCrafter: Enhancing Stylized Text-to-Video Generation with Style Adapter'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.00330
+    github: https://github.com/GongyeLiu/StyleCrafter
+    paper: https://arxiv.org/pdf/2312.00330
+  authors:
+  - Gongye Liu
+  - Menghan Xia
+  - Yong Zhang
+  - Haoxin Chen
+  - Jinbo Xing
+  - Yibo Wang
+  - Xintao Wang
+  - Yujiu Yang
+  year: 2023
+  tags:
+  - diffusion
+  - style-adapter
+  - video-generation
+  - video-style-transfer
+  summary: StyleCrafter enhances pre-trained text-to-video diffusion models with a lightweight style adapter, allowing reference image-guided video style transfer and stylized text-to-video generation without compromising video quality.
+  summary_ja: StyleCrafterは、事前学習済みText-to-Video拡散モデルに軽量なスタイルアダプターを追加し、参照画像に基づく動画スタイル変換やスタイル指定テキスト動画生成を高品質に実現します。
+  date_added: '2026-10-11'
+  source: agent
+  arxiv_id: '2312.00330'
+  repo: gongyeliu/stylecrafter
 - id: vtoonify-5ab6f6
   title: VToonify
   area: video
