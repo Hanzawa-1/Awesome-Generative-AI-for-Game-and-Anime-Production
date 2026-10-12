@@ -119,6 +119,22 @@ entries:
   thumbnail: https://www.d-id.com/wp-content/uploads/2024/01/website-preview-image-3.png
   date_added: '2026-06-22'
   source: agent
+- id: speech-graphics-sgx-662d42
+  title: Speech Graphics SGX
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.speech-graphics.com/sgx-production-audio-to-face-animation-software
+  tags:
+  - audio-driven
+  - facial
+  - game-production
+  - lip-sync
+  summary: An industry-standard procedural facial animation and lip-sync platform that generates natural, localized facial motion and lip-sync from speech audio across thousands of game dialog lines.
+  summary_ja: トラック数千件のゲームダイアログ音声から自然でローカライズされた顔アニメーションとリップシンクを自動生成する、業界標準のプロシージャルフェイシャルアニメーションプラットフォーム。
+  date_added: '2026-10-12'
+  source: agent
 - id: cacani-920885
   title: CACANi
   area: animation
@@ -345,6 +361,23 @@ entries:
   thumbnail: https://cascadeur.com/images/og-img.png
   date_added: '2026-06-13'
   source: seed
+- id: massive-prime-1be236
+  title: Massive Prime
+  area: animation
+  task: procedural-animation
+  kind: proprietary
+  links:
+    website: https://www.massivesoftware.com/
+  year: 2024
+  tags:
+  - ai-agents
+  - crowd-simulation
+  - procedural-behavior
+  - ragdoll-physics
+  summary: Massive Prime is an industry-standard crowd simulation and procedural character behavior tool that uses autonomous AI agents with neural decision-making and dynamic ragdoll physics for film, TV, and games.
+  summary_ja: Massive Primeは、ニューラル意思決定と動的ラグドール物理を備えた自律型AIエージェントを使用し、映画・TV・ゲーム向けの業界標準クラウドシミュレーションおよびプロシージャルキャラクター行動ツールです。
+  date_added: '2026-10-12'
+  source: agent
 - id: puppetmaster-af2b06
   title: PuppetMaster
   area: animation

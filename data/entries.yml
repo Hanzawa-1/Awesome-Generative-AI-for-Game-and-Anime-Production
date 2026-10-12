@@ -138,6 +138,27 @@ entries:
   source: agent
   arxiv_id: '2511.23475'
   repo: hkust-c4g/anytalker
+- id: audio2face-3d-4f202d
+  title: Audio2Face-3D
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    github: https://github.com/NVIDIA/Audio2Face-3D
+  authors:
+  - NVIDIA
+  year: 2025
+  tags:
+  - 3d-facial-animation
+  - audio-driven
+  - facial
+  - lip-sync
+  summary: An open-source suite of AI-driven facial animation models and SDKs by NVIDIA that generates 3D facial blendshapes, jaw, tongue, and eye movements in real time from speech audio.
+  summary_ja: NVIDIAによるオープンソースのAI顔アニメーション・リップシンクモデルおよびSDK。音声入力からリアルタイムで3Dブレンドシェイプ、顎、舌、目の動きを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/nvidia/audio2face-3d
+  date_added: '2026-10-12'
+  source: agent
+  repo: nvidia/audio2face-3d
 - id: echomimicv3-6bedd7
   title: EchoMimicV3
   area: animation
@@ -1089,6 +1110,35 @@ entries:
   source: agent
   arxiv_id: '2312.09767'
   repo: ali-vilab/dreamtalk
+- id: emotalk-4cc357
+  title: EmoTalk
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.11089
+    paper: https://arxiv.org/abs/2303.11089
+  authors:
+  - Ziqiao Peng
+  - Haoyu Wu
+  - Zhenbo Song
+  - Hao Xu
+  - Xiangyu Zhu
+  - Jun He
+  - Hongyan Liu
+  - Zhaoxin Fan
+  year: 2023
+  tags:
+  - audio-driven
+  - emotion
+  - facial
+  - lip-sync
+  summary: An end-to-end neural network architecture for speech-driven 3D facial animation that disentangles emotion and speech content to generate highly expressive, emotion-controllable 3D blendshapes and facial meshes.
+  summary_ja: 音声駆動3D顔アニメーションのためのエンドツーエンドニューラルネットワーク。感情と音声コンテンツを分離抽出し、表現力豊かで感情制御可能な3Dブレンドシェイプおよびフェイシャルメッシュを生成します。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2303.11089'
 - id: geneface-2a587d
   title: GeneFace++
   area: animation
@@ -1254,6 +1304,32 @@ entries:
   source: agent
   arxiv_id: '2211.14758'
   repo: opentalker/videoretalking
+- id: meshtalk-87ffd9
+  title: MeshTalk
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2104.08223
+    paper: https://arxiv.org/abs/2104.08223
+  authors:
+  - Alexander Richard
+  - Michael Zollhoefer
+  - Yandong Wen
+  - Fernando de la Torre
+  - Yaser Sheikh
+  year: 2021
+  tags:
+  - 3d-facial-animation
+  - audio-driven
+  - facial
+  - lip-sync
+  summary: A cross-modal disentanglement framework for audio-driven 3D facial animation that synthesizes dynamic expressions across the entire face, including upper-face motion independent of audio content.
+  summary_ja: 音声から全顔の3Dアニメーションを生成するクロスモーダル分離学習フレームワーク。音声内容に非連動な上半顔の自然な動きを含め、顔全体のアニメーションを合成します。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2104.08223'
 - id: ulipsync-3a5342
   title: uLipSync
   area: animation
@@ -1669,6 +1745,37 @@ entries:
   source: agent
   arxiv_id: '2507.04984'
   repo: zonglinl/tlbvfi
+- id: tooncomposer-streamlining-cartoon-production-with-generative-58b937
+  title: 'ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.10881
+    github: https://github.com/TencentARC/ToonComposer
+    paper: https://arxiv.org/abs/2508.10881
+  authors:
+  - Lingen Li
+  - Guangzhi Wang
+  - Zhaoyang Zhang
+  - Yaowei Li
+  - Xiaoyu Li
+  - Qi Dou
+  - Jinwei Gu
+  - Tianfan Xue
+  year: 2025
+  tags:
+  - cartoon
+  - cel-animation
+  - inbetweening
+  - keyframe-interpolation
+  summary: ToonComposer is a generative post-keyframing model that unifies 2D cartoon inbetweening and colorization, synthesizing smooth, temporally coherent frame sequences directly from sparse keyframes under large non-rigid motions.
+  summary_ja: ToonComposerは、2Dアニメのキーフレーム補間（原画間動画生成）と着色を統合した生成モデルであり、大きな非剛体運動を伴う疎なキーフレームから滑らかで時間的一貫性のあるフレーム系列を直接生成します。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2508.10881'
+  repo: tencentarc/tooncomposer
 - id: bim-vfi-bidirectional-motion-field-guided-frame-interpolatio-6a79e3
   title: 'BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions'
   area: animation
@@ -2162,6 +2269,32 @@ entries:
   source: agent
   arxiv_id: '2309.16643'
   repo: lisiyao21/animeinbet
+- id: bridging-the-gap-sketch-aware-interpolation-network-for-high-61a5e5
+  title: 'Bridging the Gap: Sketch-Aware Interpolation Network for High-Quality Animation Sketch Inbetweening'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.13273
+    paper: https://arxiv.org/abs/2308.13273
+  authors:
+  - Jiaming Shen
+  - Kun Hu
+  - Wei Bao
+  - Chang Wen Chen
+  - Zhiyong Wang
+  year: 2023
+  tags:
+  - 2d-animation
+  - frame-interpolation
+  - line-art
+  - sketch-inbetweening
+  summary: SAIN is a sketch-aware frame interpolation network designed for 2D animation hand-drawn sketch inbetweening, effectively preserving thin structural lines and handling large non-rigid motion changes between keyframes.
+  summary_ja: SAIN（Sketch-Aware Interpolation Network）は、2Dアニメの手描きスケッチ動画生成に特化したフレーム補間ネットワークであり、細い線の構造を維持しながらキーフレーム間の大きな非剛体運動に対応します。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2308.13273'
 - id: comfyui-frame-interpolation-65e9b8
   title: ComfyUI-Frame-Interpolation
   area: animation
@@ -2409,6 +2542,33 @@ entries:
   date_added: '2026-08-17'
   source: agent
   repo: n00mkrad/flowframes
+- id: flavr-flow-agnostic-video-representations-for-fast-frame-int-67a5f3
+  title: 'FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2012.08512
+    github: https://github.com/tarun005/FLAVR
+    paper: https://arxiv.org/abs/2012.08512
+  authors:
+  - Tarun Kalluri
+  - Deepak Pathak
+  - Manmohan Chandraker
+  - Du Tran
+  year: 2020
+  tags:
+  - 3d-cnn
+  - frame-interpolation
+  - slow-motion
+  - video
+  summary: FLAVR is a flow-agnostic video frame interpolation architecture that uses 3D space-time convolutions to directly predict intermediate frames without relying on optical flow estimation or warping.
+  summary_ja: FLAVRは、オプティカルフロー推計やワーピングに依存せず、3D時空間コンボリューションを用いて直接中間フレームを予測するフローフリーの動画フレーム補間アーキテクチャです。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2012.08512'
+  repo: tarun005/flavr
 - id: dain-a0a21b
   title: DAIN
   area: animation
@@ -2754,6 +2914,30 @@ entries:
   date_added: '2026-06-15'
   source: agent
   arxiv_id: '2509.26633'
+- id: palum-part-based-attention-learning-for-unified-motion-retar-0f275a
+  title: 'PALUM: Part-based Attention Learning for Unified Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2601.07272
+    paper: https://arxiv.org/pdf/2601.07272
+  authors:
+  - Siqi Liu
+  - Maoyu Wang
+  - Bo Dai
+  - Cewu Lu
+  year: 2025
+  tags:
+  - attention
+  - character-animation
+  - motion-retargeting
+  - skeleton
+  summary: PALUM presents a part-based attention learning framework for motion retargeting across distinct skeleton topologies by partitioning joints into semantic body parts and learning common motion representations.
+  summary_ja: PALUMは、関節を意味的なボディパーツに分割して共通の運動表現を学習することで、異なる骨格トポロジー間でのモーションリターゲティングを実現するアテンション学習フレームワークです。
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2601.07272'
 - id: reconform-real-time-contact-aware-motion-retargeting-for-mor-33fe9a
   title: 'ReConForM: Real-time Contact-aware Motion Retargeting for more Diverse Character Morphologies'
   area: animation
@@ -2822,6 +3006,27 @@ entries:
   date_added: '2026-09-07'
   source: agent
   repo: bacteriajun/bvh-motion-retargeter
+- id: gmr-general-motion-retargeting-103d60
+  title: 'GMR: General Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/YanjieZe/GMR
+  authors:
+  - Yanjie Ze
+  year: 2024
+  tags:
+  - character-animation
+  - humanoid
+  - motion-retargeting
+  - real-time
+  summary: General Motion Retargeting (GMR) is a real-time, CPU-executable motion retargeting library designed to map human motion capture data onto diverse humanoid robot and character skeletal structures.
+  summary_ja: General Motion Retargeting (GMR)は、人間のモーションキャプチャデータを多様なヒューマノイドロボットやキャラクター骨格にリアルタイム（CPU実行）でマッピングするオープンソースのリターゲティングライブラリです。
+  thumbnail: https://opengraph.githubassets.com/1/yanjieze/gmr
+  date_added: '2026-10-12'
+  source: agent
+  repo: yanjieze/gmr
 - id: meshret-skinned-motion-retargeting-with-dense-geometric-inte-e8cbf8
   title: 'MeshRet: Skinned Motion Retargeting with Dense Geometric Interaction Perception'
   area: animation
@@ -3925,6 +4130,36 @@ entries:
   source: agent
   arxiv_id: '2308.07200'
   repo: tencent-roboticsx/ncp
+- id: unihsi-d57962
+  title: UniHSI
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.07918
+    github: https://github.com/InternRobotics/UniHSI
+  authors:
+  - Zeqi Xiao
+  - Tai Wang
+  - Jingbo Wang
+  - Jinkun Cao
+  - Wenwei Zhang
+  - Bo Dai
+  - Dahua Lin
+  - Jiangmiao Pang
+  year: 2023
+  tags:
+  - character-control
+  - human-scene-interaction
+  - physics
+  - reinforcement-learning
+  summary: UniHSI is a unified human-scene interaction framework that uses language commands and contact-chain prompts to synthesize physics-grounded whole-body character movements in complex 3D environments.
+  summary_ja: UniHSIは、言語指示と接触チェーンのプロンプトを用いて、複雑な3D環境における物理的に矛盾のない全身キャラクタ運動を合成する統一的な人間-環境相互作用フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/internrobotics/unihsi
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2309.07918'
+  repo: internrobotics/unihsi
 - id: ase-large-scale-reusable-adversarial-skill-embeddings-for-ph-004ad8
   title: 'ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters'
   area: animation
@@ -5451,6 +5686,32 @@ entries:
   source: agent
   arxiv_id: '2304.03274'
   repo: jiawei-ren/diffmimic
+- id: interphys-synthesizing-physical-character-scene-interactions-ec17db
+  title: 'InterPhys: Synthesizing Physical Character-Scene Interactions'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2302.00883
+    paper: https://arxiv.org/pdf/2302.00883
+  authors:
+  - '"Mohamed Hassan"'
+  - '"Yunrong Guo"'
+  - '"Tingwu Wang"'
+  - '"Michael Black"'
+  - '"Sanja Fidler"'
+  - '"Xue Bin Peng"'
+  year: 2023
+  tags:
+  - character-control
+  - physics-simulation
+  - reinforcement-learning
+  - scene-interaction
+  summary: InterPhys uses adversarial imitation learning and reinforcement learning to train physically simulated characters capable of realistic, complex physical interactions with 3D scene objects.
+  summary_ja: InterPhysは、敵対的模倣学習と強化学習を用いて物理シミュレーション上のキャラクターを訓練し、3Dシーンのオブジェクトと自然で複雑な物理的相互作用を実現します。
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2302.00883'
 - id: moconvq-unified-physics-based-motion-control-via-scalable-di-b0f779
   title: 'MoConVQ: Unified Physics-Based Motion Control via Scalable Discrete Representations'
   area: animation
@@ -6393,6 +6654,33 @@ entries:
   source: agent
   arxiv_id: '2404.01284'
   repo: motrixlab/lmm
+- id: light-t2m-958ea0
+  title: Light-T2M
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.11193
+    github: https://github.com/qinghuannn/light-t2m
+    website: https://www.lingan.art/light-t2m/
+  authors:
+  - Ling-An Zeng
+  - Guohong Huang
+  - Gaojie Wu
+  - Wei-Shi Zheng
+  year: 2024
+  tags:
+  - 3d-animation
+  - lightweight
+  - real-time
+  - text-to-motion
+  summary: Light-T2M is a lightweight, fast text-to-motion generation framework (AAAI 2025) that combines local motion modeling with an adaptive textual injector to achieve low parameter counts and high inference speed.
+  summary_ja: Light-T2MはAAAI 2025に採択された軽量かつ高速なテキスト2モーション生成モデルであり、局所モーションモデリングと適応型テキスト注入によりパラメータ数と推論遅延を大幅に削減します。
+  thumbnail: https://lingan.art/light-t2m/static/images/overview.jpg
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2412.11193'
+  repo: qinghuannn/light-t2m
 - id: mardm-fb25a0
   title: MARDM
   area: animation
@@ -6501,6 +6789,35 @@ entries:
   source: agent
   arxiv_id: '2404.19759'
   repo: dai-wenxun/motionlcm
+- id: multi-track-timeline-control-stmc-3eb288
+  title: Multi-Track Timeline Control (STMC)
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.08559
+    github: https://github.com/nv-tlabs/stmc
+  authors:
+  - Mathis Petrovich
+  - Or Litany
+  - Umar Iqbal
+  - Michael J. Black
+  - Gül Varol
+  - Xue Bin Peng
+  - Davis Rempe
+  year: 2024
+  tags:
+  - 3d-animation
+  - nvidia
+  - text-to-motion
+  - timeline-control
+  summary: Developed by NVIDIA and MPI, this framework enables multi-track timeline control for text-to-motion generation, allowing animators to layer, sequence, and edit text-conditioned motions with accurate timing.
+  summary_ja: NVIDIAとMPIによって開発された本フレームワークは、マルチトラックタイムラインによるテキスト2モーション制御を実現し、複数のテキスト指示モーションの重ね合わせやタイミング編集を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/nv-tlabs/stmc
+  date_added: '2026-10-12'
+  source: agent
+  arxiv_id: '2401.08559'
+  repo: nv-tlabs/stmc
 - id: parco-part-coordinating-text-to-motion-synthesis-ce3278
   title: 'ParCo: Part-Coordinating Text-to-Motion Synthesis'
   area: animation
@@ -7785,6 +8102,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: facebookresearch/frankmocap
+- id: mmpose-ed1e9d
+  title: MMPose
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    github: https://github.com/open-mmlab/mmpose
+  authors:
+  - OpenMMLab Contributors
+  year: 2020
+  tags:
+  - 3d-pose
+  - mocap
+  - pose-estimation
+  summary: OpenMMLab's comprehensive pose estimation toolbox providing state-of-the-art models for 2D/3D human pose, whole-body tracking, and video motion capture.
+  summary_ja: 2D/3Dの姿勢推定、全身キーポイント検出、ビデオ動作解析に対応したOpenMMLabのポーズ推定ツールボックス。
+  thumbnail: https://opengraph.githubassets.com/1/open-mmlab/mmpose
+  date_added: '2026-10-12'
+  source: agent
+  repo: open-mmlab/mmpose
 - id: vibe-video-inference-for-human-body-pose-and-shape-estimatio-abffe6
   title: 'VIBE: Video Inference for Human Body Pose and Shape Estimation'
   area: animation
