@@ -716,6 +716,26 @@ entries:
   thumbnail: https://cdn-o.suno.com/meta-preview.jpg
   date_added: '2026-06-13'
   source: seed
+- id: krotos-studio-5e7f0d
+  title: Krotos Studio
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://krotos.studio/
+  authors:
+  - Krotos
+  year: 2024
+  tags:
+  - foley
+  - procedural-audio
+  - real-time
+  - sound-effects
+  summary: An interactive sound design software that enables real-time performative Foley generation and AI-assisted video-to-sound synchronization for game, film, and media production.
+  summary_ja: ゲーム、映画、メディア制作向けに、リアルタイムのパフォーマンス型フォーリー生成やAI支援による映像同期音響制作を可能にするインタラクティブな音響設計ソフトウェア。
+  thumbnail: https://cdn.prod.website-files.com/65335ad249d495e08a5721cf/65ae5b8465086a5b55b53936_1.png
+  date_added: '2026-10-13'
+  source: agent
 - id: tsugi-gamesynth-4e8679
   title: Tsugi GameSynth
   area: audio
@@ -1244,6 +1264,25 @@ entries:
   summary_ja: アップロードした人型メッシュを自動リギングし、豊富なモーションライブラリを適用できるAdobeの無料サービス。ゲームキャラの即時アニメーション化の定番。
   date_added: '2026-06-13'
   source: seed
+- id: metahuman-cbfd3c
+  title: MetaHuman
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/metahuman/metahuman-documentation
+  authors:
+  - Epic Games
+  year: 2024
+  tags:
+  - digital-human
+  - metahuman
+  - rigged-avatar
+  - unreal-engine
+  summary: MetaHuman is Epic Games' framework and creation tool for generating fully rigged, photorealistic digital human avatars within Unreal Engine. It enables real-time editing of facial features, body types, clothing, and grooms, natively outputting game-ready 3D character rigs.
+  summary_ja: MetaHumanは、Unreal Engine内で完全リグ済みのリアルなデジタルヒューマンアバターを作成・編集できるEpic Gamesのフレームワークです。顔のパーツや体型、衣装をリアルタイムでカスタマイズし、ゲーム制作に適した3Dキャラクターリグを出力できます。
+  date_added: '2026-10-13'
+  source: agent
 - id: avaturn-d2c667
   title: Avaturn
   area: characters

@@ -8386,6 +8386,24 @@ entries:
   source: agent
   arxiv_id: '2609.33757'
   repo: multimodal-art-projection/yue
+- id: ace-step-1-5-3d9698
+  title: ACE-Step 1.5
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    github: https://github.com/ace-step/ACE-Step-1.5
+  year: 2025
+  tags:
+  - bgm
+  - foundation-model
+  - music-generation
+  - text-to-music
+  summary: ACE-Step 1.5 is a local open-weights music generation foundation model capable of producing full tracks with instrumentation and genre controls offline across CUDA, Mac, AMD, and Intel hardware.
+  summary_ja: ACE-Step 1.5は、CUDAやMac、AMDなどの環境でローカルかつオフラインで動作し、楽器構成やジャンル指定に応じた楽曲やBGMを生成できるオープンウェイト音楽生成モデルです。
+  date_added: '2026-10-13'
+  source: agent
+  repo: ace-step/ace-step-1.5
 - id: ace-step-f69f91
   title: ACE-Step
   area: audio
@@ -9726,6 +9744,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: cmajor-lang/cmajor
+- id: ddsp-sfx-617410
+  title: DDSP-SFX
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.08060
+    github: https://github.com/Reinliu/DDSP-SFX
+  authors:
+  - Yunyi Liu
+  - Craig Jin
+  - David Gunawan
+  year: 2023
+  tags:
+  - ddsp
+  - neural-synthesis
+  - procedural-audio
+  - sound-effects
+  summary: An acoustically-guided sound effects generation framework based on Differentiable Digital Signal Processing that allows deterministic control of acoustic attributes like pitch, brightness, and envelope.
+  summary_ja: ピッチ、明るさ、エンベロープなどの音響属性を決定論的に制御できる、微分可能デジタル信号処理（DDSP）に基づく音響ガイド型効果音生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/reinliu/ddsp-sfx
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2309.08060'
+  repo: reinliu/ddsp-sfx
 - id: heavy-compiler-collection-hvcc-2a6983
   title: Heavy Compiler Collection (hvcc)
   area: audio
@@ -9847,6 +9890,30 @@ entries:
   date_added: '2026-07-28'
   source: agent
   repo: kyzfrintin/godot-mixing-desk
+- id: rave-66348f
+  title: RAVE
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2111.05011
+    github: https://github.com/acids-ircam/RAVE
+  authors:
+  - Antoine Caillon
+  - Philippe Esling
+  year: 2021
+  tags:
+  - neural-audio
+  - procedural-audio
+  - real-time
+  - vae
+  summary: A real-time audio variational autoencoder that enables fast, high-quality 48kHz audio generation and latent-space control for interactive sound synthesis and performance on consumer CPUs/GPUs.
+  summary_ja: 消費者向けCPU/GPU上で動作し、インタラクティブな音響合成やパフォーマンスのために高音質48kHz音声のリアルタイム生成と潜在空間制御を可能にする音声変分オートエンコーダー。
+  thumbnail: https://opengraph.githubassets.com/1/acids-ircam/rave
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2111.05011'
+  repo: acids-ircam/rave
 - id: specsingan-d708fa
   title: SpecSinGAN
   area: audio
@@ -10246,6 +10313,33 @@ entries:
   source: agent
   arxiv_id: '2604.01929'
   repo: sonyresearch/woosh
+- id: worldsonus-36b04f
+  title: WorldSonus
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.08760
+  authors:
+  - Pengjun Fang
+  - Jingyi Fa
+  - Kam Man Wu
+  - Jiaming Wang
+  - Haoyuan Huang
+  - Yaguang Wu
+  - Xiangjun Huang
+  - Ziyang Ma
+  year: 2026
+  tags:
+  - foley
+  - game-audio
+  - sfx
+  - world-models
+  summary: An interactive video-to-audio framework designed for world models and game environments, supporting real-time sound generation, mid-stream instruction control, and spatially aligned stereo audio.
+  summary_ja: ワールドモデルやゲーム環境向けに設計されたインタラクティブ動画-音響変換フレームワーク。リアルタイム生成、指示制御、空間配置ステレオ音響に対応。
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2610.08760'
 - id: audio-palette-a-diffusion-transformer-with-multi-signal-cond-b7152e
   title: 'Audio Palette: A Diffusion Transformer with Multi-Signal Conditioning for Controllable Foley Synthesis'
   area: audio
@@ -11674,6 +11768,33 @@ entries:
   source: agent
   arxiv_id: '2606.06928'
   repo: openbmb/voxcpm
+- id: indextts-8c9c23
+  title: IndexTTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.05512
+    github: https://github.com/index-tts/index-tts
+  authors:
+  - Wei Deng
+  - Siyi Zhou
+  - Jingchen Shu
+  - Jinchao Wang
+  - Lu Wang
+  year: 2025
+  tags:
+  - controllable
+  - industrial-tts
+  - tts
+  - zero-shot
+  summary: IndexTTS is an industrial-level controllable zero-shot text-to-speech system that incorporates character and phoneme hybrid modeling for enhanced pronunciation accuracy.
+  summary_ja: IndexTTSは、発音精度の向上のために文字と音素のハイブリッドモデリングを取り入れた、制御可能で産業グレードのゼロショットテキスト読み上げシステムです。
+  thumbnail: https://opengraph.githubassets.com/1/index-tts/index-tts
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2502.05512'
+  repo: index-tts/index-tts
 - id: indextts2-46056d
   title: IndexTTS2
   area: audio
@@ -12179,6 +12300,26 @@ entries:
   source: seed
   arxiv_id: '2106.06103'
   repo: jaywalnut310/vits
+- id: voicevox-27d4fa
+  title: VOICEVOX
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    github: https://github.com/VOICEVOX/voicevox
+    website: https://voicevox.hiroshiba.jp/
+  year: 2021
+  tags:
+  - japanese
+  - speech-synthesis
+  - tts
+  - voicevox
+  summary: VOICEVOX is an open-source Japanese text-to-speech editor and engine widely used in game development, VTuber content creation, and anime production.
+  summary_ja: VOICEVOXは、ゲーム開発やVTuberコンテンツ制作、アニメ制作で広く利用されているオープンソースの日本語テキスト読み上げエディタおよび合成エンジンです。
+  thumbnail: https://voicevox.hiroshiba.jp/_astro/share.D8sYb9zR_Z2epAzp.webp
+  date_added: '2026-10-13'
+  source: agent
+  repo: voicevox/voicevox
 - id: cosyvoice-3-qwen-audio-3-0-tts-1eb76a
   title: CosyVoice 3 / Qwen-Audio-3.0-TTS
   area: audio
@@ -12581,6 +12722,26 @@ entries:
   source: agent
   arxiv_id: '2411.09943'
   repo: plachtaa/seed-vc
+- id: seed-vc-6bf21e
+  title: Seed-VC
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    github: https://github.com/Plachtaa/seed-vc
+  authors:
+  - Plachtaa
+  year: 2024
+  tags:
+  - singing-voice
+  - voice-cloning
+  - voice-conversion
+  - zero-shot
+  summary: An open-source zero-shot voice and singing voice conversion framework featuring real-time streaming inference, timbre transfer, and built-in voice anonymization capabilities.
+  summary_ja: リアルタイムストリーミング、歌声変換、ピッチ制御、音声匿名化に対応したゼロショットボイスチェンジおよび歌声変換フレームワーク。
+  date_added: '2026-10-13'
+  source: agent
+  repo: plachtaa/seed-vc
 - id: voicecraft-d88ce4
   title: VoiceCraft
   area: audio
@@ -12783,6 +12944,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: rvc-project/retrieval-based-voice-conversion-webui
+- id: voicebox-text-guided-multilingual-universal-speech-generatio-0535e7
+  title: 'Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale'
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.15687
+    paper: https://arxiv.org/pdf/2306.15687
+  authors:
+  - Matthew Le
+  - Apoorv Vyas
+  - Bowen Shi
+  - Brian Karrer
+  - Leda Sari
+  - Rashel Moritz
+  - Mary Williamson
+  - Vimal Manohar
+  year: 2023
+  tags:
+  - flow-matching
+  - speech-generation
+  - voice-cloning
+  - zero-shot
+  summary: Meta's non-autoregressive flow-matching generative model trained on 50,000 hours of speech, performing zero-shot voice cloning, speech denoising, and cross-lingual voice style transfer.
+  summary_ja: 5万時間の音声データで学習されたMetaの非自己回帰フローマッチング生成モデル。ゼロショット音声クローニング、ノイズ除去、言語を越えた声質移植を実現。
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2306.15687'
 - id: coqui-tts-644773
   title: Coqui TTS
   area: audio
@@ -13883,6 +14072,37 @@ entries:
   date_added: '2026-09-08'
   source: agent
   arxiv_id: '2512.11423'
+- id: lhm-large-animatable-human-reconstruction-model-from-a-singl-1cfdf4
+  title: 'LHM: Large Animatable Human Reconstruction Model from a Single Image in Seconds'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.10625
+    github: https://github.com/aigc3d/LHM
+    paper: https://arxiv.org/pdf/2503.10625
+  authors:
+  - Lingteng Qiu
+  - Xiaodong Gu
+  - Peihao Li
+  - Qi Zuo
+  - Weichao Shen
+  - Junfei Zhang
+  - Kejie Qiu
+  - Weihao Yuan
+  year: 2025
+  tags:
+  - 3d-avatar
+  - animatable-human
+  - gaussian-splatting
+  - single-image-to-3d
+  summary: LHM is a feed-forward large animatable human reconstruction model that generates fully animatable 3D human avatars from a single input image in seconds. It decouples geometry, appearance, and deformation to produce production-ready 3D character models without lengthy optimization.
+  summary_ja: LHMは、1枚の入力画像から数秒でアニメーション可能な3Dヒューマンアバターを生成するフィードフォワード型の大規模アバター再構成モデルです。幾何形状・外観・変形を分離学習することで、長時間の最適化なしで動的な3Dキャラクターを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/aigc3d/lhm
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2503.10625'
+  repo: aigc3d/lhm
 - id: liveavatar-45b0d3
   title: LiveAvatar
   area: characters
@@ -14452,6 +14672,35 @@ entries:
   source: agent
   arxiv_id: '2312.09228'
   repo: mikeqzy/3dgs-avatar-release
+- id: animatable-gaussians-learning-pose-dependent-gaussian-maps-f-334bf2
+  title: 'Animatable Gaussians: Learning Pose-dependent Gaussian Maps for High-fidelity Human Avatar Modeling'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.16096
+    github: https://github.com/lizhe00/AnimatableGaussians
+    paper: https://arxiv.org/pdf/2311.16096
+  authors:
+  - Zhe Li
+  - Yipengjing Sun
+  - Zerong Zheng
+  - Lizhen Wang
+  - Shengping Zhang
+  - Yebin Liu
+  year: 2023
+  tags:
+  - 3d-avatar
+  - animatable-avatar
+  - gaussian-splatting
+  - human-modeling
+  summary: Animatable Gaussians models high-fidelity full-body human avatars from sparse RGB videos by learning pose-dependent 2D Gaussian maps. It combines 2D CNNs with 3D Gaussian Splatting to capture dynamic garment deformations and fine-grained geometric details for realistic rendering.
+  summary_ja: Animatable Gaussiansは、少数のRGB動画から姿勢依存の2Dガウシアンマップを学習することで、高精細な全身ヒューマンアバターを構築する手法です。2D CNNと3D Gaussian Splattingを組み合わせることで、衣服の動的な変形や細かい形状をリアルにレンダリングします。
+  thumbnail: https://opengraph.githubassets.com/1/lizhe00/animatablegaussians
+  date_added: '2026-10-13'
+  source: agent
+  arxiv_id: '2311.16096'
+  repo: lizhe00/animatablegaussians
 - id: dreamavatar-text-and-shape-guided-3d-human-avatar-generation-a43a15
   title: 'DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models'
   area: characters
@@ -48281,6 +48530,7 @@ entries:
   - video-style-transfer
   summary: StyleCrafter enhances pre-trained text-to-video diffusion models with a lightweight style adapter, allowing reference image-guided video style transfer and stylized text-to-video generation without compromising video quality.
   summary_ja: StyleCrafterは、事前学習済みText-to-Video拡散モデルに軽量なスタイルアダプターを追加し、参照画像に基づく動画スタイル変換やスタイル指定テキスト動画生成を高品質に実現します。
+  thumbnail: https://opengraph.githubassets.com/1/gongyeliu/stylecrafter
   date_added: '2026-10-11'
   source: agent
   arxiv_id: '2312.00330'
