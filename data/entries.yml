@@ -8401,6 +8401,7 @@ entries:
   - text-to-music
   summary: ACE-Step 1.5 is a local open-weights music generation foundation model capable of producing full tracks with instrumentation and genre controls offline across CUDA, Mac, AMD, and Intel hardware.
   summary_ja: ACE-Step 1.5は、CUDAやMac、AMDなどの環境でローカルかつオフラインで動作し、楽器構成やジャンル指定に応じた楽曲やBGMを生成できるオープンウェイト音楽生成モデルです。
+  thumbnail: https://opengraph.githubassets.com/1/ace-step/ace-step-1.5
   date_added: '2026-10-13'
   source: agent
   repo: ace-step/ace-step-1.5
@@ -15589,6 +15590,25 @@ entries:
   source: agent
   arxiv_id: '2412.06698'
   repo: yuxuansnow/gen3diffusion
+- id: human-lrm-da8593
+  title: Human-LRM
+  area: characters
+  task: character-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.12175
+    project: https://zzweng.github.io/humanlrm/
+  year: 2024
+  tags:
+  - 3d-human
+  - character-generation
+  - lrm
+  - single-view-3d
+  summary: Human-LRM is a feed-forward large reconstruction model that combines diffusion-guided priors and transformer architectures to generate 3D human digital characters from a single image without template constraints.
+  summary_ja: Human-LRMは、拡散モデルの事前知識とTransformerアーキテクチャを組み合わせ、テンプレート制約なしに単一画像から3D人間キャラクターを高速生成するフィードフォワード型大容量再構成モデルです。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2401.12175'
 - id: motion-avatar-generate-human-and-animal-avatars-with-arbitra-1c69b7
   title: 'Motion Avatar: Generate Human and Animal Avatars with Arbitrary Motion'
   area: characters
@@ -16620,6 +16640,34 @@ entries:
   source: agent
   arxiv_id: '2511.20366'
   repo: grignarder/vggtface
+- id: 3d-gaussian-blendshapes-for-head-avatar-animation-da6e22
+  title: 3D Gaussian Blendshapes for Head Avatar Animation
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.19398
+    github: https://github.com/zjumsj/GaussianBlendshapes
+  authors:
+  - Shengjie Ma
+  - Zhiwei Lin
+  - Zhiyi Kuang
+  - Yu-Kun Lai
+  - Kun Zhou
+  - Yizhou Yu
+  year: 2024
+  tags:
+  - 3d-head
+  - avatar-animation
+  - blendshapes
+  - gaussian-splatting
+  summary: A framework that learns 3D Gaussian blendshapes from monocular video to capture high-frequency facial expressions and render photorealistic head avatars in real time.
+  summary_ja: 単眼ビデオから3D Gaussianブレンドシェイプを学習し、表情の細かな変化を捕らえつつリアルタイムで高精細な頭部アバターを描画する手法。
+  thumbnail: https://opengraph.githubassets.com/1/zjumsj/gaussianblendshapes
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2404.19398'
+  repo: zjumsj/gaussianblendshapes
 - id: facelift-873b67
   title: FaceLift
   area: characters
@@ -16807,6 +16855,31 @@ entries:
   source: agent
   arxiv_id: '2408.06019'
   repo: headgap/headgap.github.io
+- id: headstudio-text-to-animatable-head-avatars-with-3d-gaussian-59f1cd
+  title: 'HeadStudio: Text to Animatable Head Avatars with 3D Gaussian Splatting'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.06149
+    github: https://github.com/ZhenglinZhou/HeadStudio
+  authors:
+  - Zhenglin Zhou
+  - Fan Ma
+  - Hehe Fan
+  - Yi Yang
+  year: 2024
+  tags:
+  - 3d-head
+  - flame
+  - gaussian-splatting
+  - text-to-3d
+  summary: HeadStudio generates text-driven animatable 3D head avatars using 3D Gaussian Splatting combined with FLAME parametric expression priors for real-time rendering.
+  summary_ja: HeadStudioは3D Gaussian SplattingとFLAMEモデルの表情事前知識を組み合わせ、テキストプロンプトからリアルタイム描画可能なアニメーション3D頭部アバターを生成します。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2402.06149'
+  repo: zhenglinzhou/headstudio
 - id: id-sculpt-256cee
   title: ID-Sculpt
   area: characters
@@ -17197,6 +17270,29 @@ entries:
   source: agent
   arxiv_id: '2312.07539'
   repo: ant-research/headartist
+- id: headgas-real-time-animatable-head-avatars-via-3d-gaussian-sp-3f56cd
+  title: 'HeadGaS: Real-Time Animatable Head Avatars via 3D Gaussian Splatting'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02902
+  authors:
+  - Helisa Dhamo
+  - Camilo Cruz Gambardella
+  - Yvan Roenneberg
+  - Federico Tombari
+  year: 2023
+  tags:
+  - 3d-head
+  - avatar
+  - gaussian-splatting
+  - real-time
+  summary: HeadGaS represents 3D animatable head avatars using 3D Gaussian Splatting driven by explicit expression features for real-time, high-fidelity facial animation.
+  summary_ja: HeadGaSは3D Gaussian Splattingと明示的な表情特徴量を組み合わせて3Dアバター頭部を表現し、リアルタイムで高品質な表情アニメーションを実現します。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2312.02902'
 - id: towards-realistic-generative-3d-face-models-50a9c4
   title: Towards Realistic Generative 3D Face Models
   area: characters
@@ -18688,6 +18784,28 @@ entries:
   source: agent
   arxiv_id: '2404.18929'
   repo: silent-chen/dge
+- id: diffusion-based-attention-warping-for-consistent-3d-scene-ed-8e1d96
+  title: Diffusion-Based Attention Warping for Consistent 3D Scene Editing
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.07984
+    paper: https://arxiv.org/pdf/2412.07984
+  authors:
+  - Eyal Gomel
+  - Lior Wolf
+  year: 2024
+  tags:
+  - 3d-editing
+  - attention-warping
+  - gaussian-splatting
+  - scene-editing
+  summary: A 3D scene editing framework that warps 2D diffusion attention features across viewpoints using depth estimates from Gaussian splatting to achieve multi-view consistent text-driven edits.
+  summary_ja: Gaussian Splattingの深度推定を用いて2D拡散アテンション特徴を視点間でワープさせることで、マルチビューで一貫したテキスト駆動3Dシーン編集を実現する手法です。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2412.07984'
 - id: dreamcatalyst-0e486b
   title: DreamCatalyst
   area: gen-3d
@@ -20005,6 +20123,31 @@ entries:
   source: agent
   arxiv_id: '2501.19054'
   repo: microsoft/cadfusion
+- id: cadknitter-69e75c
+  title: CADKnitter
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.11199
+    paper: https://arxiv.org/pdf/2512.11199
+  authors:
+  - Tri Le
+  - Khang Nguyen
+  - Baoru Huang
+  - Tung D. Ta
+  - Anh Nguyen
+  year: 2025
+  tags:
+  - cad
+  - compositional
+  - parametric
+  - text-to-cad
+  summary: CADKnitter generates multi-component CAD assemblies from text and geometric guidance by explicitly modeling inter-part relationships and structural constraints.
+  summary_ja: CADKnitterは、パーツ間の相互関係と構造的制約を明示的にモデリングすることで、テキストと幾何学的ガイドからマルチコンポーネントのCADアセンブリを生成します。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2512.11199'
 - id: cadrille-948cc7
   title: cadrille
   area: gen-3d
@@ -20360,6 +20503,38 @@ entries:
   source: agent
   arxiv_id: '2409.16294'
   repo: ferdous-alam/gencad
+- id: img2cad-4bd028
+  title: Img2CAD
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.01437
+    github: https://github.com/qq456cvb/Img2CAD
+    project: https://qq456cvb.github.io/projects/img2cad
+    paper: https://arxiv.org/pdf/2408.01437
+  authors:
+  - Yang You
+  - Mikaela Angelina Uy
+  - Jiaqi Han
+  - Rahul Thomas
+  - Haotong Zhang
+  - Yi Du
+  - Hansheng Chen
+  - Francis Engelmann
+  year: 2024
+  tags:
+  - cad
+  - image-to-cad
+  - reverse-engineering
+  - vlm
+  summary: Img2CAD factorizes single-view image-to-CAD reconstruction into 3D structure generation and VLM-guided CAD sequence recovery, producing editable parametric CAD programs.
+  summary_ja: Img2CADは、単一画像からのCAD復元を3D構造生成とVLMガイドによるCADシーケンス復元に分解し、編集可能なパラメトリックCADプログラムを生成します。
+  thumbnail: https://qq456cvb.github.io/projects/img2cad/static/media/og.jpg
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2408.01437'
+  repo: qq456cvb/img2cad
 - id: text-to-cad-631d48
   title: text-to-cad
   area: gen-3d
@@ -21371,6 +21546,37 @@ entries:
   source: agent
   arxiv_id: '2403.05034'
   repo: thu-ml/crm
+- id: direct3d-294374
+  title: Direct3D
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.14832
+    github: https://github.com/DreamTechAI/Direct3D
+    paper: https://arxiv.org/pdf/2405.14832
+  authors:
+  - Shuang Wu
+  - Youtian Lin
+  - Feihu Zhang
+  - Yifei Zeng
+  - Jingxi Xu
+  - Philip Torr
+  - Xun Cao
+  - Yao Yao
+  year: 2024
+  tags:
+  - 3d-reconstruction
+  - dit
+  - image-to-3d
+  - latent-diffusion
+  summary: A native 3D generative model scaling image-to-3D generation using a 3D Variational Auto-Encoder and a 3D Latent Diffusion Transformer.
+  summary_ja: 3D Variational Auto-Encoderと3D Latent Diffusion Transformerを用いて、単一画像から直接3D形状を生成するネイティブ3D生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/dreamtechai/direct3d
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2405.14832'
+  repo: dreamtechai/direct3d
 - id: era3d-high-resolution-multiview-diffusion-using-efficient-ro-fa8d3f
   title: 'Era3D: High-Resolution Multiview Diffusion using Efficient Row-wise Attention'
   area: gen-3d
@@ -22494,6 +22700,31 @@ entries:
   source: agent
   arxiv_id: '2506.15442'
   repo: tencent-hunyuan/hunyuan3d-2.1
+- id: iflame-1a4f38
+  title: iFlame
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.16653
+    paper: https://arxiv.org/pdf/2503.16653
+  authors:
+  - Hanxiao Wang
+  - Biao Zhang
+  - Weize Quan
+  - Dong-Ming Yan
+  - Peter Wonka
+  year: 2025
+  tags:
+  - 3d-reconstruction
+  - linear-attention
+  - mesh-generation
+  - transformer
+  summary: A Transformer-based architecture for 3D mesh generation that interleaves full and linear attention mechanisms to achieve sub-quadratic computational scaling while capturing global surface dependencies for high-resolution meshes.
+  summary_ja: フルアテンションとリニアアテンションを交互に配置することで計算量をサブ二次関数的に抑え、高解像度メッシュにおけるグローバルな形状依存性を損なわずに高速な3Dメッシュ生成を実現するTransformerアーキテクチャ。
+  date_added: '2026-10-14'
+  source: agent
+  arxiv_id: '2503.16653'
 - id: mage-single-image-to-material-aware-3d-via-the-multi-view-g-1f07cf
   title: 'MAGE: Single Image to Material-Aware 3D via the Multi-View G-Buffer Estimation Model'
   area: gen-3d

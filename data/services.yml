@@ -1459,6 +1459,23 @@ entries:
   summary_ja: ピクシブが開発した、アニメ調の人型アバターをデザイン・カスタマイズできる人気の3Dキャラクター制作ソフトウェア。髪型のモデリング、テクスチャペイント、衣装のカスタマイズを直感的なブラシツールで行うことができ、標準的なVRM形式でエクスポート可能です。
   date_added: '2026-06-24'
   source: agent
+- id: character-creator-ad8921
+  title: Character Creator
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/character-creator/
+  tags:
+  - 3d-character
+  - character-design
+  - digital-human
+  - reallusion
+  summary: Reallusion Character Creator is a 3D character design solution for generating, customizing, and auto-rigging realistic or stylized humanoid character assets for games and animation pipelines.
+  summary_ja: Reallusion Character Creatorは、ゲームやアニメーション制作向けに、リアルまたはスタイライズされた3D人型キャラクターの生成、カスタマイズ、自動リギングを行うための統合デザインツールです。
+  thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
+  date_added: '2026-10-14'
+  source: agent
 - id: facegen-cb06b4
   title: FaceGen
   area: characters
@@ -1493,6 +1510,26 @@ entries:
   summary_ja: 単一のポートレート写真から、詳細でアニメーション可能な3Dデジタルヒューマンの頭部を自動的に生成する、Reallusion Character Creator向けのAI搭載3Dヘッド生成プラグイン。
   thumbnail: https://www.reallusion.com/character-creator/headshot/includes/images/overview/og-overview.jpg
   date_added: '2026-08-26'
+  source: agent
+- id: keentools-facebuilder-for-blender-67e979
+  title: KeenTools FaceBuilder for Blender
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://keentools.io/products/facebuilder-for-blender
+  authors:
+  - KeenTools
+  year: 2024
+  tags:
+  - 3d-head
+  - 3dmm
+  - blender-addon
+  - face-reconstruction
+  summary: A Blender plugin that creates custom 3D human head models with texture projection from photos using a parametric 3D face model.
+  summary_ja: 数枚の顔写真からパラメータ化3D顔モデルとテクスチャ投影を用いて、カスタマイズ可能な3D人像頭部メッシュを自動構築するBlenderプラグイン。
+  thumbnail: https://cdn.prod.website-files.com/58c5480657a2703f67305c6c/65f801586520a8150b4949c6_maxresdefault.png
+  date_added: '2026-10-14'
   source: agent
 - id: faceform-wrap-8aac72
   title: Faceform Wrap
@@ -1832,6 +1869,23 @@ entries:
   thumbnail: https://cdn.meshy.ai/landing-assets/og-images/website_og.webp
   date_added: '2026-06-13'
   source: seed
+- id: tripo3d-7be339
+  title: Tripo3D
+  area: gen-3d
+  task: mesh-generation
+  kind: proprietary
+  links:
+    website: https://www.tripo3d.ai/
+  year: 2024
+  tags:
+  - 3d-generator
+  - game-ready
+  - retopology
+  - rigging
+  summary: An end-to-end commercial 3D generation service offering fast text-to-3D and image-to-3D mesh generation, along with automated mesh retopology, rigging, and PBR texturing for game production workflows.
+  summary_ja: 高速なテキスト/画像からの3Dメッシュ生成に加え、自動リトポロジー、リギング、PBRテクスチャリング機能を備え、ゲーム制作パイプラインに最適化された商用3D生成サービス。
+  date_added: '2026-10-14'
+  source: agent
 - id: meshy-ai-1d029a
   title: Meshy AI
   area: gen-3d
