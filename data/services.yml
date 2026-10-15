@@ -1956,6 +1956,24 @@ entries:
   thumbnail: https://wlt-ai-cdn.art/images/marble-og.jpeg
   date_added: '2026-10-08'
   source: agent
+- id: world-labs-56f691
+  title: World Labs
+  area: gen-3d
+  task: scene-generation
+  kind: proprietary
+  links:
+    website: https://www.worldlabs.ai/
+  year: 2024
+  tags:
+  - 3d-world-generation
+  - interactive-3d
+  - spatial-intelligence
+  - world-model
+  summary: A commercial spatial intelligence platform powered by world models like Marble, capable of generating persistent, editable, and navigable 3D scenes and worlds from text, images, videos, or 360 panoramas.
+  summary_ja: テキスト、画像、動画、360度パノラマから永続的でインタラクティブに編集・探索可能な3D空間・ワールドを生成する商用空間知能プラットフォーム。
+  thumbnail: https://www.worldlabs.ai/opengraph-image.png?4b39e0cc40ca8b21
+  date_added: '2026-10-15'
+  source: agent
 - id: atlas-ai-studio-48f967
   title: Atlas AI Studio
   area: gen-3d
@@ -2315,6 +2333,23 @@ entries:
   summary_ja: iPadやデスクトップ向けに設計された、AIアシスト機能や直感的なジェスチャー操作を備える革新的なリトポロジー、UV展開、テクスチャベイクツール。
   thumbnail: https://sparseal.com/assets/favicon/apple-touch-icon.webp
   date_added: '2026-08-27'
+  source: agent
+- id: exoside-quad-remesher-ee6e63
+  title: Exoside Quad Remesher
+  area: gen-3d
+  task: uv-retopology
+  kind: proprietary
+  links:
+    website: https://exoside.com/
+  year: 2019
+  tags:
+  - 3d-asset-pipeline
+  - auto-retopology
+  - plugin
+  - quad-mesh
+  summary: Quad Remesher by Exoside is an industry-standard automatic quad remeshing plugin for 3ds Max, Maya, Blender, Cinema 4D, and Houdini to produce clean, surface-following quad topologies.
+  summary_ja: Exoside Quad Remesherは、Blender、3ds Max、Maya、Cinema 4D、Houdiniなどのプラグインとして利用可能な、業界標準の自動四角形リトポロジーアルゴリズムです。
+  date_added: '2026-10-15'
   source: agent
 - id: quadremesher-e35c8b
   title: QuadRemesher

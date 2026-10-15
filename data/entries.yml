@@ -12740,6 +12740,7 @@ entries:
   - zero-shot
   summary: An open-source zero-shot voice and singing voice conversion framework featuring real-time streaming inference, timbre transfer, and built-in voice anonymization capabilities.
   summary_ja: リアルタイムストリーミング、歌声変換、ピッチ制御、音声匿名化に対応したゼロショットボイスチェンジおよび歌声変換フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/plachtaa/seed-vc
   date_added: '2026-10-13'
   source: agent
   repo: plachtaa/seed-vc
@@ -16876,6 +16877,7 @@ entries:
   - text-to-3d
   summary: HeadStudio generates text-driven animatable 3D head avatars using 3D Gaussian Splatting combined with FLAME parametric expression priors for real-time rendering.
   summary_ja: HeadStudioは3D Gaussian SplattingとFLAMEモデルの表情事前知識を組み合わせ、テキストプロンプトからリアルタイム描画可能なアニメーション3D頭部アバターを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/zhenglinzhou/headstudio
   date_added: '2026-10-14'
   source: agent
   arxiv_id: '2402.06149'
@@ -26033,6 +26035,36 @@ entries:
   source: agent
   arxiv_id: '2402.04717'
   repo: chenguolin/instructscene
+- id: layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-ge-6b8634
+  title: 'LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.13252
+    github: https://github.com/3DTopia/LayerPano3D
+  authors:
+  - Shuai Yang
+  - Jing Tan
+  - Mengchen Zhang
+  - Tong Wu
+  - Yixuan Li
+  - Gordon Wetzstein
+  - Ziwei Liu
+  - Dahua Lin
+  year: 2024
+  tags:
+  - 3d-gaussian-splatting
+  - 3d-scene
+  - panorama
+  - scene-generation
+  summary: A layered 3D panorama framework that constructs full 360-degree immersive scenes with deep geometric structure, avoiding semantic drift during scene expansion and enabling free-camera exploration.
+  summary_ja: 360度の没入型3Dシーンを層状パノラマ表現で構築する手法。シーン拡張時のセマンティックドリフトを防ぎ、複雑なシーン階層内での自由なカメラ探索を可能にします。
+  thumbnail: https://opengraph.githubassets.com/1/3dtopia/layerpano3d
+  date_added: '2026-10-15'
+  source: agent
+  arxiv_id: '2408.13252'
+  repo: 3dtopia/layerpano3d
 - id: midi-275798
   title: MIDI
   area: gen-3d
@@ -26990,6 +27022,34 @@ entries:
   date_added: '2026-08-13'
   source: agent
   arxiv_id: '2401.10564'
+- id: holodreamer-holistic-3d-panoramic-world-generation-from-text-dab7ad
+  title: 'HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.15187
+    github: https://github.com/zhouhyOcean/HoloDreamer
+    paper: https://arxiv.org/pdf/2407.15187
+  authors:
+  - Haiyang Zhou
+  - Xinhua Cheng
+  - Wangbo Yu
+  - Yonghong Tian
+  - Li Yuan
+  year: 2024
+  tags:
+  - panorama
+  - skybox
+  - text-to-3d
+  - world-generation
+  summary: Synthesizes immersive 360-degree panoramic 3D worlds from text descriptions by integrating equirectangular panoramic diffusion generation with view-consistent 3D scene reconstruction.
+  summary_ja: テキスト記述から没入型の360度パノラマ3D空間を生成するため、全天球パノラマ拡散生成と視点一貫性のある3Dシーン復元を統合した手法。
+  thumbnail: https://opengraph.githubassets.com/1/zhouhyocean/holodreamer
+  date_added: '2026-10-15'
+  source: agent
+  arxiv_id: '2407.15187'
+  repo: zhouhyocean/holodreamer
 - id: imagine360-immersive-360-video-generation-from-perspective-a-d3fa37
   title: 'Imagine360: Immersive 360 Video Generation from Perspective Anchor'
   area: gen-3d
@@ -30042,6 +30102,25 @@ entries:
   source: agent
   arxiv_id: '2312.13913'
   repo: opentexture/paint3d
+- id: dream-textures-ffce07
+  title: Dream Textures
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    github: https://github.com/carson-katri/dream-textures
+  year: 2022
+  tags:
+  - blender
+  - diffusion
+  - pbr
+  - texture
+  summary: An open-source Blender add-on integrating diffusion models to generate seamless textures, PBR material maps, and texture projections directly within the 3D viewport.
+  summary_ja: 3Dビューポート内でディフュージョンモデルを使用してシームレスなテクスチャ、PBRマテリアルマップ、テクスチャ投影を直接生成するオープンソースのBlenderアドオン。
+  thumbnail: https://opengraph.githubassets.com/1/carson-katri/dream-textures
+  date_added: '2026-10-15'
+  source: agent
+  repo: carson-katri/dream-textures
 - id: continuous-neural-reparameterization-as-a-deep-geometric-pri-ba2b3c
   title: Continuous Neural Reparameterization as a Deep Geometric Prior for Robust Fixed-Chart UV Repair
   area: gen-3d
@@ -30683,6 +30762,27 @@ entries:
   source: agent
   arxiv_id: '2504.06263'
   repo: omnisvg/omnisvg
+- id: enhanced-anime-image-generation-using-use-cmhsa-gan-b829b3
+  title: Enhanced Anime Image Generation Using USE-CMHSA-GAN
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.11179
+    paper: https://arxiv.org/pdf/2411.11179
+  authors:
+  - J. Lu
+  year: 2024
+  tags:
+  - acg
+  - anime
+  - character-generation
+  - gan
+  summary: USE-CMHSA-GAN incorporates Ultimate Squeeze-and-Excitation and Convolutional Multi-Head Self-Attention into a DCGAN framework to improve feature extraction for high-quality anime character image generation.
+  summary_ja: USE-CMHSA-GANは、DCGANフレームワークにUltimate Squeeze-and-ExcitationおよびConvolutional Multi-Head Self-Attentionを組み込み、高品質なアニメキャラクター画像生成のための特徴抽出機能を強化します。
+  date_added: '2026-10-15'
+  source: agent
+  arxiv_id: '2411.11179'
 - id: illustrious-an-open-advanced-illustration-model-6a4b6f
   title: 'Illustrious: an Open Advanced Illustration Model'
   area: image-2d
