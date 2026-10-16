@@ -31577,6 +31577,33 @@ entries:
   source: agent
   arxiv_id: '2503.07027'
   repo: xiaojiu-z/easycontrol
+- id: evctrl-4b0353
+  title: EVCtrl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.10963
+    paper: http://arxiv.org/abs/2508.10963v2
+  authors:
+  - Zixiang Yang
+  - Yue Ma
+  - Yinhan Zhang
+  - Shanhui Mo
+  - Dongrui Liu
+  - Linfeng Zhang
+  year: 2025
+  tags:
+  - adapter
+  - conditioning
+  - controlnet
+  - efficient
+  summary: An efficient control adapter for visual diffusion models that reduces computational latency while enabling precise spatial conditioning for image generation.
+  summary_ja: 拡散モデルにおける計算冗長性と遅延を抑えつつ、画像生成に対して高精度な空間条件付けを提供する軽量制御アダプター。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-16'
+  source: agent
+  arxiv_id: '2508.10963'
 - id: flexcontrol-computation-aware-controlnet-with-differentiable-b4b890
   title: 'FlexControl: Computation-Aware ControlNet with Differentiable Router for Text-to-Image Generation'
   area: image-2d
@@ -31733,6 +31760,32 @@ entries:
   source: agent
   arxiv_id: '2509.21938'
   repo: mung3477/semanticcontrol
+- id: anycontrol-e38fac
+  title: AnyControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.18958
+    paper: http://arxiv.org/abs/2406.18958v3
+  authors:
+  - Yanan Sun
+  - Yanchen Liu
+  - Yinhao Tang
+  - Wenjie Pei
+  - Kai Chen
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - diffusion
+  - multi-control
+  summary: A controllable text-to-image generation framework that unifies multi-modal spatial conditions like depth, edge, and pose into a versatile conditioning architecture.
+  summary_ja: 深度マップ、エッジ、ポーズなどのマルチモーダルな空間条件を統合し、柔軟なレイアウト制御を実現するテキスト条件付き画像生成フレームワーク。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-16'
+  source: agent
+  arxiv_id: '2406.18958'
 - id: comfyui-anima-lllite-998d37
   title: ComfyUI-Anima-LLLite
   area: image-2d
@@ -33017,6 +33070,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: alimama-creative/flux-controlnet-inpainting
+- id: ic-light-19f1b8
+  title: IC-Light
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/IC-Light
+  authors:
+  - Lvmin Zhang
+  year: 2024
+  tags:
+  - controlnet
+  - illumination
+  - image-editing
+  - relighting
+  summary: A specialized image manipulation model by Lvmin Zhang for controlling image illumination, enabling background-conditioned relighting, light source editing, and foreground integration.
+  summary_ja: Lvmin Zhang氏による画像の照明制御・リライティングモデル。背景や光源方向に応じた再照明や人物・オブジェクトの不整合のない背景合成を可能にする。
+  date_added: '2026-10-16'
+  source: agent
+  repo: lllyasviel/ic-light
 - id: magicquill-ec3794
   title: MagicQuill
   area: image-2d
@@ -33047,6 +33120,32 @@ entries:
   source: agent
   arxiv_id: '2411.09703'
   repo: ant-research/magicquill
+- id: omniedit-76db59
+  title: OmniEdit
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.07199
+    github: https://github.com/TIGER-AI-Lab/OmniEdit
+  authors:
+  - Cong Wei
+  - Zheyang Xiong
+  - Weiming Ren
+  - Xinrun Du
+  - Ge Zhang
+  - Wenhu Chen
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - instruction-guided
+  summary: An instruction-guided image editing generalist model trained with specialist supervision to perform diverse image editing tasks like object removal, addition, and style manipulation.
+  summary_ja: 特化型モデルの蒸留・導出によって訓練された指示ベースの汎用画像編集モデル。物体の追加・削除やスタイルの変更など多様な編集タスクを一元的に処理できる。
+  date_added: '2026-10-16'
+  source: agent
+  arxiv_id: '2411.07199'
+  repo: tiger-ai-lab/omniedit
 - id: paint-by-inpaint-learning-to-add-image-objects-by-removing-t-b2f2f0
   title: 'Paint by Inpaint: Learning to Add Image Objects by Removing Them First'
   area: image-2d
@@ -35062,6 +35161,29 @@ entries:
   source: agent
   arxiv_id: '2603.29029'
   repo: bharath-k3/mmface-dit
+- id: progressnet-81d529
+  title: ProgressNet
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.03512
+    paper: https://arxiv.org/pdf/2610.03512
+  authors:
+  - Arkaprabha Basu
+  - Chaitat Utintu
+  - Yi-Zhe Song
+  year: 2026
+  tags:
+  - diffusion
+  - interactive-sketching
+  - progressive-drawing
+  - sketch-to-image
+  summary: A training-free framework that allows a frozen text-to-image model to progressively track and generate images from interactive stroke-by-stroke drawing sessions.
+  summary_ja: 凍結されたテキスト画像生成モデルが、インタラクティブなストローク単位の描画プロセスを逐次追跡して画像を生成できるようにするトレーニングフリーのフレームワーク。
+  date_added: '2026-10-16'
+  source: agent
+  arxiv_id: '2610.03512'
 - id: sketchingreality-from-freehand-scene-sketches-to-photorealis-ec27dd
   title: 'SketchingReality: From Freehand Scene Sketches to Photorealistic Images'
   area: image-2d
@@ -36313,6 +36435,32 @@ entries:
   source: agent
   arxiv_id: '2312.02109'
   repo: cardinalblue/artadapter
+- id: concept-sliders-69b5db
+  title: Concept Sliders
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.12092
+    github: https://github.com/rohitgandikota/sliders
+  authors:
+  - Rohit Gandikota
+  - Joanna Materzynska
+  - Tingrui Zhou
+  - Antonio Torralba
+  - David Bau
+  year: 2023
+  tags:
+  - diffusion
+  - fine-tuning
+  - lora
+  - style-control
+  summary: Introduces low-rank adapters (LoRAs) trained on specific concept or style attributes to continuously modulate image generation parameters in diffusion models.
+  summary_ja: 拡散モデルにおいて特定の概念やスタイル属性を連続的に制御するためのローランクアダプタ（LoRA）を学習・適用する手法。
+  date_added: '2026-10-16'
+  source: agent
+  arxiv_id: '2311.12092'
+  repo: rohitgandikota/sliders
 - id: dreamstyler-7efcc5
   title: DreamStyler
   area: image-2d
@@ -36341,6 +36489,47 @@ entries:
   source: agent
   arxiv_id: '2309.06933'
   repo: webtoon/dreamstyler
+- id: lycoris-5282cb
+  title: LyCORIS
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    github: https://github.com/KohakuBlueleaf/LyCORIS
+  authors:
+  - KohakuBlueleaf
+  year: 2023
+  tags:
+  - fine-tuning
+  - loha
+  - lokr
+  - lora
+  summary: An expanded parameter-efficient fine-tuning library implementing LoHa, LoKr, DyLoRA, and iLoRA for precise style and subject adaptation in diffusion models.
+  summary_ja: LoHa、LoKr、DyLoRAなどの高精度なパラメータ効率的微調整手法を導入し、スタイルやキャラクターの適応を可能にするライブラリ。
+  date_added: '2026-10-16'
+  source: agent
+  repo: kohakublueleaf/lycoris
+- id: onetrainer-993cea
+  title: OneTrainer
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    github: https://github.com/Nerogar/OneTrainer
+  authors:
+  - Nerogar
+  year: 2023
+  tags:
+  - fine-tuning
+  - flux
+  - lora
+  - sdxl
+  summary: An open-source training suite for fine-tuning diffusion models, LoRAs, embeddings, and ControlNets across SD1.5, SDXL, and FLUX.
+  summary_ja: SD1.5、SDXL、FLUX等に対するLoRAや追加学習を包括的にサポートするオープンソースのトレーニングUI・フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/nerogar/onetrainer
+  date_added: '2026-10-16'
+  source: agent
+  repo: nerogar/onetrainer
 - id: style-aligned-image-generation-via-shared-attention-6803fc
   title: Style Aligned Image Generation via Shared Attention
   area: image-2d
@@ -36470,6 +36659,27 @@ entries:
   date_added: '2026-08-21'
   source: agent
   arxiv_id: '2311.13600'
+- id: sd-scripts-kohya-d8bfed
+  title: sd-scripts (Kohya)
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    github: https://github.com/kohya-ss/sd-scripts
+  authors:
+  - kohya-ss
+  year: 2022
+  tags:
+  - fine-tuning
+  - flux
+  - lora
+  - sdxl
+  summary: Industry-standard open-source training scripts for training LoRA, DyLoRA, ControlNet, and fine-tuning SD, SDXL, and FLUX models.
+  summary_ja: SD、SDXL、FLUXなどの画像生成モデルにおいて、LoRAやファインチューニングの学習を行う業界標準オープンソーススクリプト群。
+  thumbnail: https://opengraph.githubassets.com/1/kohya-ss/sd-scripts
+  date_added: '2026-10-16'
+  source: agent
+  repo: kohya-ss/sd-scripts
 - id: apisr-20fd46
   title: APISR
   area: image-2d

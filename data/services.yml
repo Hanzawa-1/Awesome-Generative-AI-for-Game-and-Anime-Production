@@ -2580,6 +2580,24 @@ entries:
   thumbnail: https://www.psoft.co.jp/en/wp-content/uploads/2018/11/pencil4-3dsmax-ogp.png
   date_added: '2026-07-16'
   source: agent
+- id: leonardo-ai-image-guidance-d55a73
+  title: Leonardo.Ai Image Guidance
+  area: image-2d
+  task: controlnet
+  kind: proprietary
+  links:
+    website: https://docs.leonardo.ai/docs/generate-images-using-image-to-image-guidance
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - game-art
+  - proprietary
+  summary: A cloud-based game art platform providing integrated ControlNet conditioning modes including pose, depth, and edge guidance for game asset production.
+  summary_ja: ゲームアセット制作に特化したクラウド型生成AIプラットフォームで、ポーズ・深度・エッジ抽出などの ControlNet 制御機能を直接提供する。
+  thumbnail: https://cdn.readme.io/og-image/create?type=docs&title=Generate%20Images%20Using%20Image%20Guidance&projectTitle=Leonardo.Ai&description=This%20feature%20allows%20for%20uploaded%20or%20generated%20Images%20as%20reference%2C%20apply%20ControlNet%20and%20add%20finer%20adjustments%20to%20your%20image%20appearance.&logoUrl=https%3A%2F%2Ffiles.readme.io%2Fee0c3494e112bcdbb489cb500d5a74930b1f6ee7463b75aca1ed72567ffac716-Leonardo_Wordmark_Canvas_White.png&color=%236e60ee&variant=light
+  date_added: '2026-10-16'
+  source: agent
 - id: adobe-firefly-generative-fill-81cbd2
   title: Adobe Firefly Generative Fill
   area: image-2d
@@ -2613,6 +2631,23 @@ entries:
   summary: Adobe's flagship generative AI tool integrated directly into Photoshop, allowing artists to add, extend, or remove content from images using simple text prompts. It is widely used in professional game and anime production for concept art iteration, background cleanup, and asset generation.
   summary_ja: Photoshopに直接統合されたAdobeのフラッグシップ生成AIツールで、シンプルなテキストプロンプトを使用して画像内のコンテンツを追加、拡張、または削除できます。コンセプトアートのイテレーション、背景のクリーンアップ、アセット生成など、プロのゲームやアニメ制作で広く使用されています。
   date_added: '2026-08-07'
+  source: agent
+- id: adobe-photoshop-generative-fill-1d958e
+  title: Adobe Photoshop Generative Fill
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/photoshop/generative-fill.html
+  year: 2023
+  tags:
+  - firefly
+  - inpainting
+  - outpainting
+  - photoshop
+  summary: Adobe's flagship generative AI feature powered by Firefly, allowing non-destructive text-prompted inpainting, object insertion, removal, and canvas outpainting directly inside Photoshop.
+  summary_ja: Adobe Fireflyを搭載したPhotoshopの生成AI機能。テキストプロンプトによる選択範囲のインペインティング、要素の追加・削除、キャンバスの拡張（アウトペインティング）を非破壊で実現する。
+  date_added: '2026-10-16'
   source: agent
 - id: leonardo-ai-canvas-bcdada
   title: Leonardo AI Canvas
@@ -2757,6 +2792,26 @@ entries:
   summary_ja: 写真や画像から、手描き風のクリーンな線画を抽出するために設計されたAI搭載のウェブサービス。クリエイターや漫画家が、実世界の写真から高品質な背景や参考資料を生成するために広く利用されています。
   thumbnail: https://sketchedge.net/favicons/apple-touch-icon.png
   date_added: '2026-07-31'
+  source: agent
+- id: clip-studio-paint-ex-line-tone-extraction-866830
+  title: Clip Studio Paint EX Line & Tone Extraction
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  authors:
+  - CELSYS
+  year: 2021
+  tags:
+  - celsys
+  - clip-studio-paint
+  - lineart
+  - manga
+  summary: Commercial digital illustration software featuring built-in 3D model and 2D photo line extraction ("Convert to lines and tones") for professional anime and manga production.
+  summary_ja: 3Dモデルや2D画像から線画とトーンを自動抽出し、アニメ・マンガ制作の工程を効率化するCELSYSの標準デジタルペイントツール。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
+  date_added: '2026-10-16'
   source: agent
 - id: fotor-sketch-to-image-ai-00b39d
   title: Fotor Sketch to Image AI
