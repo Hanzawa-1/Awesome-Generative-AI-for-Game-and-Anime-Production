@@ -3755,6 +3755,26 @@ entries:
   thumbnail: https://www.mangaka.app/opengraph-image.png
   date_added: '2026-07-25'
   source: agent
+- id: texttomanga-0ced83
+  title: TextToManga
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://texttomanga.com/
+  authors:
+  - TextToManga
+  year: 2024
+  tags:
+  - manga
+  - panel-layout
+  - saas
+  - storyboard
+  summary: An online AI manga generation platform that automatically formats story scripts into multi-panel manga page layouts, adding screentones and speech bubbles.
+  summary_ja: ストーリーのテキストスクリプトから複数コマのマンガページレイアウトを自動生成し、スクリーントーンや吹き出しを配置するWebサービス。
+  thumbnail: https://texttomanga.com/static/images/og-image-1200x630.jpg
+  date_added: '2026-10-17'
+  source: agent
 - id: boords-1465cb
   title: Boords
   area: manga

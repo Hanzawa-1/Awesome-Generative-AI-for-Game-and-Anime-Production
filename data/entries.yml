@@ -33087,6 +33087,7 @@ entries:
   - relighting
   summary: A specialized image manipulation model by Lvmin Zhang for controlling image illumination, enabling background-conditioned relighting, light source editing, and foreground integration.
   summary_ja: Lvmin Zhang氏による画像の照明制御・リライティングモデル。背景や光源方向に応じた再照明や人物・オブジェクトの不整合のない背景合成を可能にする。
+  thumbnail: https://opengraph.githubassets.com/1/lllyasviel/ic-light
   date_added: '2026-10-16'
   source: agent
   repo: lllyasviel/ic-light
@@ -33142,6 +33143,7 @@ entries:
   - instruction-guided
   summary: An instruction-guided image editing generalist model trained with specialist supervision to perform diverse image editing tasks like object removal, addition, and style manipulation.
   summary_ja: 特化型モデルの蒸留・導出によって訓練された指示ベースの汎用画像編集モデル。物体の追加・削除やスタイルの変更など多様な編集タスクを一元的に処理できる。
+  thumbnail: https://opengraph.githubassets.com/1/tiger-ai-lab/omniedit
   date_added: '2026-10-16'
   source: agent
   arxiv_id: '2411.07199'
@@ -36457,6 +36459,7 @@ entries:
   - style-control
   summary: Introduces low-rank adapters (LoRAs) trained on specific concept or style attributes to continuously modulate image generation parameters in diffusion models.
   summary_ja: 拡散モデルにおいて特定の概念やスタイル属性を連続的に制御するためのローランクアダプタ（LoRA）を学習・適用する手法。
+  thumbnail: https://opengraph.githubassets.com/1/rohitgandikota/sliders
   date_added: '2026-10-16'
   source: agent
   arxiv_id: '2311.12092'
@@ -36506,6 +36509,7 @@ entries:
   - lora
   summary: An expanded parameter-efficient fine-tuning library implementing LoHa, LoKr, DyLoRA, and iLoRA for precise style and subject adaptation in diffusion models.
   summary_ja: LoHa、LoKr、DyLoRAなどの高精度なパラメータ効率的微調整手法を導入し、スタイルやキャラクターの適応を可能にするライブラリ。
+  thumbnail: https://opengraph.githubassets.com/1/kohakublueleaf/lycoris
   date_added: '2026-10-16'
   source: agent
   repo: kohakublueleaf/lycoris
@@ -41438,6 +41442,33 @@ entries:
   date_added: '2026-07-04'
   source: agent
   repo: chidiwilliams/buzz
+- id: direct-speech-translation-for-automatic-subtitling-ba27ff
+  title: Direct Speech Translation for Automatic Subtitling
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2209.13192
+    paper: https://arxiv.org/abs/2209.13192
+  authors:
+  - Sara Papi
+  - Marco Gaido
+  - Matteo Negri
+  - Luisa Bentivogli
+  - Marco Turchi
+  - Andrea Pilzer
+  year: 2022
+  tags:
+  - end-to-end
+  - localization
+  - speech-translation
+  - subtitling
+  summary: An end-to-end direct speech translation framework for automatic subtitling that predicts target-language translations along with subtitle boundary timestamps in a single unified model.
+  summary_ja: 単一の統合モデルにより、ターゲット言語の翻訳と字幕のタイムスタンプ境界を同時に予測する、自動字幕生成向けエンドツーエンド直接音声翻訳フレームワーク。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-17'
+  source: agent
+  arxiv_id: '2209.13192'
 - id: no-language-left-behind-nllb-200-e3e3d2
   title: No Language Left Behind (NLLB-200)
   area: text-design
@@ -41708,6 +41739,24 @@ entries:
   date_added: '2026-10-03'
   source: agent
   repo: subtitleedit/subtitleedit
+- id: translumo-6884e3
+  title: Translumo
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/ramjke/Translumo
+  tags:
+  - game-translation
+  - localization
+  - ocr
+  - real-time-translation
+  summary: An open-source real-time screen translation tool for video games and media using OCR models, on-device detection, and multi-engine machine translation.
+  summary_ja: OCRモデルとオンデバイス検出、マルチエンジン機械翻訳を利用して、ゲーム画面や動画の字幕をリアルタイムで翻訳するオープンソースの画面翻訳ツール。
+  thumbnail: https://opengraph.githubassets.com/1/ramjke/translumo
+  date_added: '2026-10-17'
+  source: agent
+  repo: ramjke/translumo
 - id: ai-native-games-a-survey-and-roadmap-0ac5c4
   title: 'AI Native Games: A Survey and Roadmap'
   area: text-design
@@ -41904,6 +41953,35 @@ entries:
   date_added: '2026-07-18'
   source: agent
   arxiv_id: '2607.00918'
+- id: narrativesteward-285acd
+  title: NarrativeSteward
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.39333
+    paper: https://arxiv.org/pdf/2609.39333
+  authors:
+  - Wenjin Wang
+  - Jiazhen Lei
+  - Yuxin Sha
+  - Nuwa Xi
+  - Meng Zhao
+  - Xingxi Yin
+  - Qi Liu
+  - Yuliang Shen
+  - Zixun Sun
+  year: 2026
+  tags:
+  - interactive-storytelling
+  - llm-agent
+  - narrative
+  - worldbuilding
+  summary: An open-source, author-centric interactive narrative creation environment that coordinates LLM agents to manage story outlines, worldbuilding assets, and branching narrative graphs with execution verification and structural reviews.
+  summary_ja: LLMエージェントを連携させてストーリーのアウトライン、世界観設定、分岐シナリオグラフを統合管理し、実行検証や構造レビューを行えるオープンソースの著者中心インタラクティブ物語制作環境。
+  date_added: '2026-10-17'
+  source: agent
+  arxiv_id: '2609.39333'
 - id: novelclaw-dae5f0
   title: NovelClaw
   area: text-design
