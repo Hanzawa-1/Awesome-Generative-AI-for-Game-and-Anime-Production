@@ -5040,6 +5040,26 @@ entries:
   summary_ja: Adobe Premiere ProのAI機能（Firefly Video Model搭載）で、動画クリップの開始または終了部分を最大2秒間、オーディオクリップを最大10秒間延長できます。追加のフレームをインテリジェントに生成し、トランジションをスムーズにします。
   date_added: '2026-09-13'
   source: agent
+- id: capcut-505618
+  title: CapCut
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://www.capcut.com/
+  authors:
+  - ByteDance
+  year: 2024
+  tags:
+  - ai-background-removal
+  - auto-caption
+  - content-creation
+  - video-editing
+  summary: CapCut is a cross-platform video editor equipped with AI background removal, automated captioning, AI face/object cutout, and AI-driven clip formatting for social media and video production.
+  summary_ja: CapCutは、AI背景除去、自動字幕生成、オブジェクト切り抜き、AIエフェクトなどを備え、短尺動画やコンテンツ制作を効率化するマルチプラットフォーム動画編集ツールです。
+  thumbnail: https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image
+  date_added: '2026-10-18'
+  source: agent
 - id: diffusion-studio-b309e6
   title: Diffusion Studio
   area: video
@@ -5056,6 +5076,26 @@ entries:
   summary_ja: 無限のキャンバス、タイムラインベースのシーケンス、自動化されたビデオワークフローのためのコーディングエージェントとの深い統合を特徴とする、プロフェッショナルなブラウザベースのAIビデオエディタ。
   thumbnail: https://diffusion.studio/og-default.png
   date_added: '2026-09-27'
+  source: agent
+- id: runway-a8bdb8
+  title: Runway
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runwayml.com/
+  authors:
+  - Runway AI
+  year: 2024
+  tags:
+  - inpainting
+  - motion-brush
+  - video-editing
+  - video-to-video
+  summary: Runway is a cloud-based AI production platform offering generative video-to-video editing, temporal inpainting, Motion Brush movement controls, and multi-modal scene manipulation.
+  summary_ja: Runwayは、動画間変換（Video-to-Video）、インペインティング、Motion Brushによる運動制御など、包括的なGenerative AI動画編集ツールを提供するクラウドプラットフォームです。
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
+  date_added: '2026-10-18'
   source: agent
 - id: runway-inpainting-b80775
   title: Runway Inpainting

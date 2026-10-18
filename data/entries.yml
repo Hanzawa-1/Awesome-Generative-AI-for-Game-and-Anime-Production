@@ -44285,6 +44285,43 @@ entries:
   date_added: '2026-08-02'
   source: agent
   repo: mxgmn/wavefunctioncollapse
+- id: azgaar-s-fantasy-map-generator-1a87d6
+  title: Azgaar's Fantasy Map Generator
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/Azgaar/Fantasy-Map-Generator
+    website: https://azgaar.github.io/Fantasy-Map-Generator/
+  tags:
+  - map-generator
+  - pcg
+  - procedural
+  - worldbuilding
+  summary: An open-source web application for procedural generation of interactive fantasy world maps, biomes, heightmaps, and political boundaries.
+  summary_ja: インタラクティブなファンタジー世界地図、バイオーム、標高マップ、政治的境界などをプロシージャル生成するオープンソースのWebアプリケーション。
+  thumbnail: https://azgaar.github.io/Fantasy-Map-Generator/images/preview.png
+  date_added: '2026-10-18'
+  source: agent
+  repo: azgaar/fantasy-map-generator
+- id: markovjunior-e5b8d9
+  title: MarkovJunior
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/mxgmn/MarkovJunior
+  tags:
+  - cellular-automata
+  - level-generation
+  - markovjunior
+  - pcg
+  summary: A probabilistic programming language based on pattern matching and constraint propagation for generating procedural game levels and voxel structures.
+  summary_ja: パターンマッチングと制約伝播に基づき、ゲームレベルやボクセル構造をプロシージャル生成する確率的プログラミング言語。
+  thumbnail: https://opengraph.githubassets.com/1/mxgmn/markovjunior
+  date_added: '2026-10-18'
+  source: agent
+  repo: mxgmn/markovjunior
 - id: helios-c3fc36
   title: Helios
   area: video
@@ -44341,6 +44378,31 @@ entries:
   date_added: '2026-08-30'
   source: agent
   arxiv_id: '2505.19901'
+- id: framepainter-endowing-interactive-image-editing-with-video-d-01fada
+  title: 'FramePainter: Endowing Interactive Image Editing with Video Diffusion Priors'
+  area: video
+  task: image-to-video
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.08225
+  authors:
+  - Yabo Zhang
+  - Xinpeng Zhou
+  - Yihan Zeng
+  - Hang Xu
+  - Hui Li
+  - Wangmeng Zuo
+  year: 2025
+  tags:
+  - diffusion-priors
+  - image-to-video
+  - interactive-editing
+  - video-generation
+  summary: FramePainter leverages video diffusion priors to enable interactive image animation and editing guided by user interactions such as clicks, drags, and scribbles.
+  summary_ja: FramePainterは動画拡散モデルの事前知識を活用し、クリックやドラッグなどのユーザー操作に応じて静止画からインタラクティブなアニメーションや編集動画を生成する手法です。
+  date_added: '2026-10-18'
+  source: agent
+  arxiv_id: '2501.08225'
 - id: hunyuancustom-ed7257
   title: HunyuanCustom
   area: video
@@ -48371,6 +48433,32 @@ entries:
   source: agent
   arxiv_id: '2312.06640'
   repo: sczhou/upscale-a-video
+- id: real-basicvsr-9aa2d0
+  title: Real-BasicVSR
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.07339
+    paper: https://arxiv.org/pdf/2212.07339
+  authors:
+  - Liangbin Xie
+  - Xintao Wang
+  - Shuwei Shi
+  - Jinjin Gu
+  - Chao Dong
+  - Ying Shan
+  year: 2022
+  tags:
+  - degradation
+  - denoising
+  - real-world
+  - video-sr
+  summary: Real-BasicVSR addresses artifact propagation in recurrent real-world video super-resolution by cleaning temporal hidden states, significantly enhancing restoration quality on complex real-world footage.
+  summary_ja: Real-BasicVSRは、時間的隠れ状態をクリーンアップすることで再帰型実世界動画超解像におけるアーティファクトの伝播に対処し、複雑な実世界映像の復元品質を大幅に向上させます。
+  date_added: '2026-10-18'
+  source: agent
+  arxiv_id: '2212.07339'
 - id: rvrt-3efe50
   title: RVRT
   area: video
@@ -48497,6 +48585,31 @@ entries:
   date_added: '2026-06-28'
   source: agent
   repo: xpixelgroup/basicsr
+- id: basicvsr-4b421e
+  title: BasicVSR
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2012.02181
+    paper: https://arxiv.org/pdf/2012.02181
+  authors:
+  - Kelvin C. K. Chan
+  - Xintao Wang
+  - Ke Yu
+  - Chao Dong
+  - Chen Change Loy
+  year: 2020
+  tags:
+  - alignment
+  - propagation
+  - recurrent
+  - video-sr
+  summary: BasicVSR provides a foundational recurrent architecture for video super-resolution by systematically redesigning propagation, alignment, aggregation, and upsampling components.
+  summary_ja: BasicVSRは、伝播、整列、集約、アップスケーリングの各要素を体系的に再設計することで、動画超解像のための基盤となる再帰型アーキテクチャを提供します。
+  date_added: '2026-10-18'
+  source: agent
+  arxiv_id: '2012.02181'
 - id: waifu2x-extension-gui-9717f8
   title: Waifu2x-Extension-GUI
   area: video
