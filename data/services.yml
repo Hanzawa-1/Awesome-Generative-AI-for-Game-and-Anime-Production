@@ -32,6 +32,24 @@ entries:
   thumbnail: https://www.hedra.com/og
   date_added: '2026-06-13'
   source: agent
+- id: reallusion-iclone-acculips-55a6f9
+  title: Reallusion iClone AccuLips
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/iclone/lipsync-animation.html
+  year: 2024
+  tags:
+  - 3d-animation
+  - iclone
+  - lip-sync
+  - proprietary
+  summary: An AI-powered procedural lip-sync system within iClone that extracts visemes and text alignment from audio for natural co-articulation and customizable facial expression editing in 3D pipelines.
+  summary_ja: 音声からテキストとビゼムを自動抽出し、共調音モデルを用いて自然な口の動きとタイムライン編集を可能にするiCloneのAI搭載3Dリップシンクシステム。
+  thumbnail: https://www.reallusion.com/iclone/includes/images/lipsync-animation/lipsync-animation-og.jpg
+  date_added: '2026-10-19'
+  source: agent
 - id: rask-ai-ce082b
   title: Rask AI
   area: animation
@@ -134,6 +152,24 @@ entries:
   summary: An industry-standard procedural facial animation and lip-sync platform that generates natural, localized facial motion and lip-sync from speech audio across thousands of game dialog lines.
   summary_ja: トラック数千件のゲームダイアログ音声から自然でローカライズされた顔アニメーションとリップシンクを自動生成する、業界標準のプロシージャルフェイシャルアニメーションプラットフォーム。
   date_added: '2026-10-12'
+  source: agent
+- id: topaz-video-56d0d5
+  title: Topaz Video
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-video
+  year: 2024
+  tags:
+  - commercial
+  - frame-interpolation
+  - slow-motion
+  - video-enhancement
+  summary: A professional video enhancement tool with dedicated AI motion interpolation models (Chronos and Apollo) for converting low-FPS animation and video into high-frame-rate output.
+  summary_ja: ChronosやApolloなどの専用モーション補間AIモデルを搭載し、低FPSのアニメーションや映像を高フレームレート出力に変換するプロ向け映像拡張ツール。
+  thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca910577540672ae401448_opengraph-topaz-video.webp
+  date_added: '2026-10-19'
   source: agent
 - id: cacani-920885
   title: CACANi
@@ -273,6 +309,26 @@ entries:
   summary_ja: Unreal Engine 5に組み込まれたアニメーションリターゲットツール。IKリグを使用することで、異なる骨格階層やプロポーションを持つキャラクター間でアニメーションを相互に転送できます。
   thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/retargeting-bipeds-with-ik-rig-in-unreal-engine&application_version=5.8
   date_added: '2026-08-24'
+  source: agent
+- id: plask-ai-motion-capture-retargeting-246b1d
+  title: Plask AI Motion Capture & Retargeting
+  area: animation
+  task: motion-retargeting
+  kind: proprietary
+  links:
+    website: https://plask.ai/
+  authors:
+  - Plask Team
+  year: 2021
+  tags:
+  - ai-animation
+  - motion-capture
+  - motion-retargeting
+  - video-to-3d
+  summary: Plask is a web-based AI motion capture platform that extracts 3D skeletal movement from video footage and automatically retargets it onto custom character rigs for export to game engines.
+  summary_ja: Plaskは、単眼カメラの動画から3D骨格モーションを抽出し、カスタムキャラクターリグへ自動リターゲティングして主要ゲームエンジン等へ出力できるWebベースのAIモーションキャプチャツールです。
+  thumbnail: https://plask.ai/api/og?tenant=plask&path=&locale=en
+  date_added: '2026-10-19'
   source: agent
 - id: rokoko-studio-2b0932
   title: Rokoko Studio
@@ -426,6 +482,23 @@ entries:
   summary_ja: テキストプロンプトや参照ビデオから、プロダクション品質の3Dキャラクターアニメーションを作成するために設計されたジェネレーティブAIアニメーションプラットフォーム。
   thumbnail: https://getcartwheel.com/images/cartwheel-share.png
   date_added: '2026-07-20'
+  source: agent
+- id: motorica-3ad2ea
+  title: Motorica
+  area: animation
+  task: text-to-motion
+  kind: proprietary
+  links:
+    website: https://motorica.com/
+  year: 2024
+  tags:
+  - game-animation
+  - text-to-motion
+  - unreal-engine
+  summary: An AI-powered character animation system and Unreal Engine plugin that generates production-ready 3D character motion sequences from text and parameters without motion capture hardware.
+  summary_ja: モーションキャプチャ設備なしで、テキストやパラメーター指定からプロダクション品質の3D動作を生成するUnreal Engine対応AIアニメーションツール。
+  thumbnail: https://www.motorica.com/OG.png
+  date_added: '2026-10-19'
   source: agent
 - id: saymotion-3d9fad
   title: SayMotion

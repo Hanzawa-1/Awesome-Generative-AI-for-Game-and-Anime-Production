@@ -1081,6 +1081,34 @@ entries:
   source: agent
   arxiv_id: '2406.02511'
   repo: tencent-ailab/v-express
+- id: codetalker-speech-driven-3d-facial-animation-with-discrete-m-226b5a
+  title: 'CodeTalker: Speech-Driven 3D Facial Animation with Discrete Motion Prior'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.02379
+    github: https://github.com/Doubiiu/CodeTalker
+  authors:
+  - Jinbo Xing
+  - Menghan Xia
+  - Yuechen Zhang
+  - Xiaodong Cun
+  - Jue Wang
+  - Tien-Tsin Wong
+  year: 2023
+  tags:
+  - 3d-facial-animation
+  - lip-sync
+  - speech-driven
+  - vq-vae
+  summary: Casts speech-driven 3D facial animation as a code query task over a learned discrete motion space to prevent regression-to-mean smoothing. It generates realistic and highly articulated 3D facial mesh sequences from speech audio.
+  summary_ja: 音声駆動の3D顔アニメーションを学習済み離散モーション空間のコードクエリ問題として定式化し、平均回帰による平滑化を防止。音声からリアルで表情豊かな3Dメッシュシーケンスを生成する。
+  thumbnail: https://opengraph.githubassets.com/1/doubiiu/codetalker
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2301.02379'
+  repo: doubiiu/codetalker
 - id: dreamtalk-029618
   title: DreamTalk
   area: animation
@@ -1304,6 +1332,32 @@ entries:
   source: agent
   arxiv_id: '2211.14758'
   repo: opentalker/videoretalking
+- id: faceformer-speech-driven-3d-facial-animation-with-transforme-818f09
+  title: 'FaceFormer: Speech-Driven 3D Facial Animation with Transformers'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2112.05329
+    github: https://github.com/EvelynFan/FaceFormer
+  authors:
+  - Yingruo Fan
+  - Zhaojiang Lin
+  - Jun Saito
+  - Wenping Wang
+  - Taku Komura
+  year: 2021
+  tags:
+  - 3d-facial-animation
+  - lip-sync
+  - speech-driven
+  - transformer
+  summary: An autoregressive Transformer architecture for audio-driven 3D facial animation that encodes long-term context to model speech co-articulation and generate synchronized 3D face mesh motion.
+  summary_ja: 長期的な文脈をエンコードして音声の調音結合をモデル化し、同期した3D顔メッシュのモーションを自動再帰的に予測するTransformerベースの3D顔アニメーション手法。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2112.05329'
+  repo: evelynfan/faceformer
 - id: meshtalk-87ffd9
   title: MeshTalk
   area: animation
@@ -1513,6 +1567,32 @@ entries:
   source: agent
   arxiv_id: '2607.15585'
   repo: bbldcver/speed
+- id: beyond-boundary-frames-talking-head-inbetweening-via-context-c68648
+  title: 'Beyond Boundary Frames: Talking-Head Inbetweening via Context-Aware Motion Modeling'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.03590
+    paper: https://arxiv.org/pdf/2512.03590
+  authors:
+  - Yuchen Deng
+  - Hai-Tao Zheng
+  - Jie Wang
+  - Xiaotian Li
+  - Feidiao Yang
+  - Yuxing Han
+  year: 2025
+  tags:
+  - facial-animation
+  - inbetweening
+  - motion-modeling
+  - talking-head
+  summary: A specialized frame inbetweening method for talking-head videos that models context-aware motion trajectories to generate smooth speech-driven facial dynamics between fixed endpoint frames.
+  summary_ja: 固定された境界フレーム間でスムーズな発話駆動の顔の動きを生成するために、コンテキスト認識型の動作軌道をモデリングするトーキングヘッド動画向けの中割り（フレーム補間）手法。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2512.03590'
 - id: eden-4463d2
   title: EDEN
   area: animation
@@ -1697,6 +1777,28 @@ entries:
   source: agent
   arxiv_id: '2512.18241'
   repo: ben813/sg-rife
+- id: structinbet-integrating-explicit-structural-guidance-into-in-d455a0
+  title: 'StructInbet: Integrating Explicit Structural Guidance into Inbetween Frame Generation'
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.13377
+    paper: https://arxiv.org/pdf/2507.13377
+  authors:
+  - Zhenglin Pan
+  - Haoran Xie
+  year: 2025
+  tags:
+  - animation
+  - frame-interpolation
+  - inbetweening
+  - structural-guidance
+  summary: An animation inbetweening framework that incorporates explicit structural guidance and temporal attention to maintain character visual identity and generate precise transitional frames between keyframes.
+  summary_ja: 明示的な構造ガイドと時間的アテンションを導入することでキャラクターの視覚的アイデンティティを維持し、キーフレーム間の高精度な中間フレームを生成するアニメーション中割りフレームワーク。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2507.13377'
 - id: time-adaptive-video-frame-interpolation-based-on-residual-di-c3d36d
   title: Time-adaptive Video Frame Interpolation based on Residual Diffusion
   area: animation
@@ -3117,6 +3219,30 @@ entries:
   source: agent
   arxiv_id: '2407.11266'
   repo: rongakowang/mmdmc
+- id: humot-human-motion-representation-using-topology-agnostic-tr-35ed2e
+  title: 'HuMoT: Human Motion Representation using Topology-Agnostic Transformers'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.18897
+    paper: https://arxiv.org/pdf/2305.18897
+  authors:
+  - Lucas Mourot
+  - Ludovic Hoyet
+  - François Le Clerc
+  - Pierre Hellier
+  year: 2023
+  tags:
+  - motion-retargeting
+  - skeleton
+  - transformer
+  - zero-shot
+  summary: HuMoT introduces a topology-agnostic Transformer architecture that learns shared human motion representations across arbitrary skeletal structures, enabling direct zero-shot motion retargeting without manual joint mapping.
+  summary_ja: HuMoTは、手動のジョイントマッピングなしで任意の骨格構造間でのゼロショットモーションリターゲティングを可能にする、トポロジー非依存のTransformerアーキテクチャです。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2305.18897'
 - id: perpetual-humanoid-control-for-real-time-simulated-avatars-a28696
   title: Perpetual Humanoid Control for Real-time Simulated Avatars
   area: animation
@@ -3278,6 +3404,26 @@ entries:
   source: agent
   arxiv_id: '2312.01964'
   repo: chenzhike110/semantic-motion-retargeting
+- id: blender-animation-retargeting-add-on-0455de
+  title: Blender Animation Retargeting Add-on
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/Mwni/blender-animation-retargeting
+  authors:
+  - Mwni
+  year: 2021
+  tags:
+  - animation
+  - blender
+  - character-rigging
+  - motion-retargeting
+  summary: An open-source Blender add-on that automates the transfer of animations, motion capture sequences, and keyframe poses from source armatures to arbitrary target character rigs.
+  summary_ja: ソースのアーマチュアから任意のターゲットキャラクターリグへアニメーション、モープデータ、キーフレームポーズを自動変換・転送するBlender用オープンソースアドオンです。
+  date_added: '2026-10-19'
+  source: agent
+  repo: mwni/blender-animation-retargeting
 - id: skeleton-aware-networks-for-deep-motion-retargeting-0546c1
   title: Skeleton-Aware Networks for Deep Motion Retargeting
   area: animation
@@ -4237,6 +4383,27 @@ entries:
   date_added: '2026-06-15'
   source: agent
   arxiv_id: '2104.02180'
+- id: kawaiiphysics-2b9cd8
+  title: KawaiiPhysics
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    github: https://github.com/pafuhana1213/KawaiiPhysics
+  authors:
+  - pafuhana1213
+  year: 2019
+  tags:
+  - physics-animation
+  - secondary-motion
+  - stylized
+  - unreal-engine
+  summary: An open-source Unreal Engine plugin for procedural, bone-driven physics simulation of hair, clothes, and accessories in stylized and anime-style character animation.
+  summary_ja: アニメ風やデフォルメキャラの髪・衣装・アクセサリの物理挙動をボーンベースでリアルタイムにシミュレーションするUnreal Engine向けオープンソースプラグイン。
+  thumbnail: https://opengraph.githubassets.com/1/pafuhana1213/kawaiiphysics
+  date_added: '2026-10-19'
+  source: agent
+  repo: pafuhana1213/kawaiiphysics
 - id: everanimate-minute-scale-human-animation-via-latent-flow-res-95cd2c
   title: 'EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration'
   area: animation
@@ -5096,6 +5263,36 @@ entries:
   source: agent
   arxiv_id: '2307.00040'
   repo: wangt-cn/disco
+- id: follow-your-pose-e9cd1b
+  title: Follow Your Pose
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.01186
+    github: https://github.com/mayuelala/FollowYourPose
+  authors:
+  - Yue Ma
+  - Yingqing He
+  - Xiaodong Cun
+  - Xintao Wang
+  - Siran Chen
+  - Ying Shan
+  - Xiu Li
+  - Qifeng Chen
+  year: 2023
+  tags:
+  - keypoint-control
+  - openpose
+  - pose-guided
+  - text-to-video
+  summary: A pose-guided text-to-video generation framework that learns pose alignment from image-pose pairs and video data for controllable character animation.
+  summary_ja: 画像・ポーズペアと動画データからポーズ整列を学習し、テキストと骨格キーポイント入力によるキャラ動画生成を実現する手法。
+  thumbnail: https://opengraph.githubassets.com/1/mayuelala/followyourpose
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2304.01186'
+  repo: mayuelala/followyourpose
 - id: magicanimate-ca02cc
   title: MagicAnimate
   area: animation
@@ -6625,6 +6822,29 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2411.18654'
+- id: dartcontrol-a-diffusion-based-autoregressive-motion-model-fo-4d8add
+  title: 'DartControl: A Diffusion-Based Autoregressive Motion Model for Real-Time Text-Driven Motion Control'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.05260
+    paper: https://arxiv.org/pdf/2410.05260
+  authors:
+  - Kaifeng Zhao
+  - Gen Li
+  - Siyu Tang
+  year: 2024
+  tags:
+  - autoregressive
+  - diffusion
+  - real-time
+  - text-to-motion
+  summary: A diffusion-based autoregressive model designed for real-time, streaming text-driven motion control and generation of long continuous 3D character movements.
+  summary_ja: リアルタイムなテキスト指示に応じて、長時間の連続した3Dキャラクター動作をストリーミング生成する拡散自己回帰型モデル。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2410.05260'
 - id: large-motion-model-lmm-aef8d5
   title: Large Motion Model (LMM)
   area: animation
@@ -6734,6 +6954,33 @@ entries:
   source: agent
   arxiv_id: '2405.17013'
   repo: szqwu/motion-agent
+- id: motiongpt-2-a-general-purpose-motion-language-model-for-moti-490fc0
+  title: 'MotionGPT-2: A General-Purpose Motion-Language Model for Motion Generation and Understanding'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.21747
+    paper: https://arxiv.org/pdf/2410.21747
+  authors:
+  - Yuan Wang
+  - Di Huang
+  - Yaqi Zhang
+  - Wanli Ouyang
+  - Jile Jiao
+  - Xuetao Feng
+  - Dan Xu
+  - Shixiang Tang
+  year: 2024
+  tags:
+  - motion-language-model
+  - multimodal
+  - text-to-motion
+  summary: A unified large motion-language model that performs 3D motion synthesis from text, motion editing, and multimodal understanding across diverse body structures.
+  summary_ja: テキストからの3Dモーション生成、動作編集、多様な身体構造に対応した動作理解を統合して行う大規模モーション言語モデル。
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2410.21747'
 - id: motiongpt3-human-motion-as-a-second-modality-b14a35
   title: 'MotionGPT3: Human Motion as a Second Modality'
   area: animation
@@ -7663,6 +7910,32 @@ entries:
   source: agent
   arxiv_id: '2403.17346'
   repo: yufu-wang/tram
+- id: wilor-end-to-end-3d-hand-localization-and-reconstruction-in-0da6ba
+  title: 'WiLoR: End-to-end 3D Hand Localization and Reconstruction in-the-wild'
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.12259
+    github: https://github.com/rolpotamias/WiLoR
+  authors:
+  - Rolandos Alexandros Potamias
+  - Jinglei Zhang
+  - Jiankang Deng
+  - Stefanos Zafeiriou
+  year: 2024
+  tags:
+  - 3d-hand-pose
+  - hand-mocap
+  - mocap
+  - pose-estimation
+  summary: End-to-end 3D hand localization and reconstruction pipeline for real-time, multi-hand 3D motion capture and pose estimation from unconstrained video.
+  summary_ja: 制約のない動画からリアルタイムで複数人の手指3Dモーションキャプチャとポーズ推定を行う、エンドツーエンドの3D手部検出・再構築パイプライン。
+  thumbnail: https://opengraph.githubassets.com/1/rolpotamias/wilor
+  date_added: '2026-10-19'
+  source: agent
+  arxiv_id: '2409.12259'
+  repo: rolpotamias/wilor
 - id: 4d-humans-hmr-2-0-c0c92a
   title: 4D-Humans (HMR 2.0)
   area: animation
