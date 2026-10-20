@@ -980,6 +980,22 @@ entries:
   thumbnail: https://www.audiokinetic.com/images/og-image-logobw.png
   date_added: '2026-06-23'
   source: agent
+- id: unreal-engine-metasounds-b17e96
+  title: Unreal Engine MetaSounds
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/unreal-engine/metasounds-the-next-generation-sound-sources-in-unreal-engine?application_version=5.8
+  tags:
+  - dsp
+  - metasounds
+  - procedural-audio
+  - unreal-engine
+  summary: Unreal Engine 5's high-performance audio engine and node-based DSP graph system, allowing game sound designers to create sample-accurate real-time procedural audio and dynamic sound sources.
+  summary_ja: Unreal Engine 5に組み込まれた高精度オーディオシステム。ノードベースのDSPグラフにより、サンプル精度でリアルタイムなプロシージャル音響と動的サウンドソースの制作が可能。
+  date_added: '2026-10-20'
+  source: agent
 - id: elevenlabs-sound-effects-e4afb4
   title: ElevenLabs Sound Effects
   area: audio
@@ -1031,6 +1047,27 @@ entries:
   summary: A commercial AI-powered singing voice synthesis workstation that generates studio-quality vocals from MIDI and lyrics with precise control over pitch, vibrato, and emotion.
   summary_ja: MIDIと歌詞からスタジオ品質のAIボーカルを生成する商用の歌声合成ワークステーション。ピッチ、ビブラート、感情表現などを精密にコントロール可能です。
   date_added: '2026-06-13'
+  source: agent
+- id: vocaloid6-358faa
+  title: VOCALOID6
+  area: audio
+  task: singing-voice
+  kind: proprietary
+  links:
+    website: https://www.vocaloid.com/en/vocaloid6/
+  authors:
+  - Yamaha Corporation
+  year: 2022
+  tags:
+  - singing-voice
+  - svs
+  - vocaloid
+  - vocaloid6
+  - yamaha
+  summary: AI-powered singing synthesis engine by Yamaha featuring VOCALOID:AI technology, multilingual singing support, expressive direction controls, and audio-to-singing vocal conversion.
+  summary_ja: ヤマハが提供するAI歌声合成エンジン。VOCALOID:AI技術により、日本語・英語・中国語に対応した多言語歌唱や表現調整、オーディオからの歌声変換機能を搭載。
+  thumbnail: https://www.vocaloid.com/en/wp-content/uploads/sites/2/2022/10/92c802bf9d78088c9de609a66a8e94ac.png
+  date_added: '2026-10-20'
   source: agent
 - id: voisona-3b7d62
   title: VoiSona
@@ -1217,6 +1254,41 @@ entries:
   thumbnail: https://elevenlabs.io/cover.png
   date_added: '2026-06-13'
   source: seed
+- id: elevenlabs-text-to-speech-89d420
+  title: ElevenLabs Text to Speech
+  area: audio
+  task: tts
+  kind: proprietary
+  links:
+    website: https://elevenlabs.io/text-to-speech
+  tags:
+  - dubbing
+  - proprietary
+  - tts
+  - voice-cloning
+  summary: ElevenLabs provides a cloud-based generative AI speech platform delivering natural text-to-speech, real-time voice cloning, emotion control, and AI dubbing across over 70 languages.
+  summary_ja: ElevenLabsは、70以上の言語に対応し、自然なテキスト音声合成、リアルタイム音声クローニング、感情制御、AI吹き替え機能を提供するクラウド型音声生成プラットフォームです。
+  thumbnail: https://elevenlabs.io/cover.png
+  date_added: '2026-10-20'
+  source: agent
+- id: elevenlabs-voice-cloning-a24610
+  title: ElevenLabs Voice Cloning
+  area: audio
+  task: voice-cloning
+  kind: proprietary
+  links:
+    website: https://elevenlabs.io/use-cases/gaming
+  year: 2023
+  tags:
+  - dubbing
+  - gaming
+  - speech-synthesis
+  - voice-cloning
+  summary: A commercial AI speech platform offering instant and professional voice cloning with emotional expressiveness and multilingual dubbing for games and digital media.
+  summary_ja: ゲームやデジタルメディア向けに、感情表現豊かな即時・プロ仕様の音声クローニングおよび多言語吹替機能を提供する商用AI音声プラットフォーム。
+  thumbnail: https://elevenlabs.io/cover.png
+  date_added: '2026-10-20'
+  source: agent
 - id: altered-studio-da4dae
   title: Altered Studio
   area: audio

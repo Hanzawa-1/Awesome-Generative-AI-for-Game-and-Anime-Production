@@ -1354,6 +1354,7 @@ entries:
   - transformer
   summary: An autoregressive Transformer architecture for audio-driven 3D facial animation that encodes long-term context to model speech co-articulation and generate synchronized 3D face mesh motion.
   summary_ja: 長期的な文脈をエンコードして音声の調音結合をモデル化し、同期した3D顔メッシュのモーションを自動再帰的に予測するTransformerベースの3D顔アニメーション手法。
+  thumbnail: https://opengraph.githubassets.com/1/evelynfan/faceformer
   date_added: '2026-10-19'
   source: agent
   arxiv_id: '2112.05329'
@@ -3421,6 +3422,7 @@ entries:
   - motion-retargeting
   summary: An open-source Blender add-on that automates the transfer of animations, motion capture sequences, and keyframe poses from source armatures to arbitrary target character rigs.
   summary_ja: ソースのアーマチュアから任意のターゲットキャラクターリグへアニメーション、モープデータ、キーフレームポーズを自動変換・転送するBlender用オープンソースアドオンです。
+  thumbnail: https://opengraph.githubassets.com/1/mwni/blender-animation-retargeting
   date_added: '2026-10-19'
   source: agent
   repo: mwni/blender-animation-retargeting
@@ -9004,6 +9006,30 @@ entries:
   source: agent
   arxiv_id: '2402.16153'
   repo: hf-lin/chatmusician
+- id: diff-bgm-a-diffusion-model-for-video-background-music-genera-890a97
+  title: 'Diff-BGM: A Diffusion Model for Video Background Music Generation'
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.11913
+  authors:
+  - Sizhe Li
+  - Yiming Qin
+  - Minghang Zheng
+  - Xin Jin
+  - Yang Liu
+  year: 2024
+  tags:
+  - background-music
+  - bgm
+  - diffusion
+  - video-to-music
+  summary: A diffusion-based model for video background music generation that utilizes shot detection and multi-modal video features to create sequentially aligned soundtrack audio.
+  summary_ja: ショット検出とマルチモーダルな映像特徴量を活用し、映像の展開に同期したBGMオーディオを生成する拡散モデルベースの動画BGM生成フレームワーク。
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2405.11913'
 - id: fluxmusic-d2549d
   title: FluxMusic
   area: audio
@@ -9181,6 +9207,30 @@ entries:
   source: agent
   arxiv_id: '2402.04825'
   repo: stability-ai/stable-audio-tools
+- id: vmas-video-to-music-generation-via-semantic-alignment-8cc816
+  title: 'VMAS: Video-to-Music Generation via Semantic Alignment'
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.07450
+  authors:
+  - Yan-Bo Lin
+  - Yu Tian
+  - Linjie Yang
+  - Gedas Bertasius
+  - Heng Wang
+  year: 2024
+  tags:
+  - bgm
+  - semantic-alignment
+  - soundtrack
+  - video-to-music
+  summary: A generative video-to-music Transformer that leverages unannotated web music videos through semantic video-music alignment to generate realistic background music.
+  summary_ja: セマンティックな映像・音楽アライメント手法により、アノテーションのないWeb動画から写実的で多様な背景音楽を生成するTransformerモデル。
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2409.07450'
 - id: audiocraft-ee6f3a
   title: AudioCraft
   area: audio
@@ -10105,6 +10155,34 @@ entries:
   source: agent
   arxiv_id: '2307.08007'
   repo: adrianbarahona/noisebandnet
+- id: physics-driven-diffusion-models-for-impact-sound-synthesis-f-b1de2c
+  title: Physics-Driven Diffusion Models for Impact Sound Synthesis from Videos
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.16897
+    github: https://github.com/sukun1045/video-physics-sound-diffusion
+    project: https://sukun1045.github.io/video-physics-sound-diffusion/
+  authors:
+  - Kun Su
+  - Kaizhi Qian
+  - Eli Shlizerman
+  - Antonio Torralba
+  - Chuang Gan
+  year: 2023
+  tags:
+  - diffusion
+  - impact-sound
+  - physics-based
+  - procedural-audio
+  summary: A generative diffusion framework that combines physical interaction parameters with deep generative models to synthesize realistic, physically aligned impact sounds for interactive object interactions.
+  summary_ja: 物理相互作用のパラメータとディープ生成モデルを組み合わせ、オブジェクトの衝突や接触に応じたリアルで物理的に整合性の取れた効果音を合成する生成ディフュージョンフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/sukun1045/video-physics-sound-diffusion
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2303.16897'
+  repo: sukun1045/video-physics-sound-diffusion
 - id: prove-57805a
   title: ProVE
   area: audio
@@ -10564,6 +10642,27 @@ entries:
   source: agent
   arxiv_id: '2603.19857'
   repo: leyrio/foleydirector
+- id: game-sound-effect-completion-with-event-level-transformation-690d60
+  title: Game Sound-Effect Completion with Event-Level Transformation Hints
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.39044
+  authors:
+  - Xinrui Jiang
+  - Heng Yu
+  year: 2026
+  tags:
+  - audio-completion
+  - game-audio
+  - sfx
+  - sound-effects
+  summary: A framework designed for game sound design that completes and transforms sound-effect sets (such as character skin audio variations) guided by event alignment and textual descriptions.
+  summary_ja: キャラクターのスキン変異音など、イベントアライメントとテキスト記述に基づいてゲーム用効果音セットの補完やバリエーション生成を行うサウンドデザインフレームワーク。
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2609.39044'
 - id: woosh-2a0261
   title: Woosh
   area: audio
@@ -12092,6 +12191,33 @@ entries:
   source: agent
   arxiv_id: '2506.21619'
   repo: index-tts/index-tts
+- id: spark-tts-f06e01
+  title: Spark-TTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.01710
+  authors:
+  - Xinsheng Wang
+  - Mingqi Jiang
+  - Ziyang Ma
+  - Ziyu Zhang
+  - Songxiang Liu
+  - Linqin Li
+  - Zheng Liang
+  - Qixi Zheng
+  year: 2025
+  tags:
+  - llm-tts
+  - speech-codec
+  - tts
+  - zero-shot
+  summary: Spark-TTS is an LLM-based text-to-speech model featuring BiCodec, a single-stream speech codec that decouples speech into semantic and acoustic tokens for streamlined zero-shot generation.
+  summary_ja: Spark-TTSは、単一ストリームで意味と音響のトークンを分離するBiCodecを搭載したLLMベースのテキスト音声合成モデルであり、スムーズなゼロショット生成を可能にします。
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2503.01710'
 - id: zonos-9a54ba
   title: Zonos
   area: audio
@@ -13157,6 +13283,32 @@ entries:
   date_added: '2026-07-14'
   source: agent
   repo: suno-ai/bark
+- id: hierspeech-09bfc5
+  title: HierSpeech++
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.12454
+    github: https://github.com/sh2513/HierSpeechpp
+  authors:
+  - Sang-Hoon Lee
+  - Ha-Yeong Choi
+  - Seung-Bin Kim
+  - Seong-Whan Lee
+  year: 2023
+  tags:
+  - speech-synthesis
+  - vits
+  - voice-conversion
+  - zero-shot
+  summary: A zero-shot speech synthesis and voice conversion framework utilizing hierarchical variational inference to bridge semantic and acoustic representations for high-fidelity audio.
+  summary_ja: 階層的変分推論を用いてセマンティック表現とアコースティック表現を橋渡しし、高音質なゼロショット音声合成および音声変換を実現するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/sh2513/hierspeechpp
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2311.12454'
+  repo: sh2513/hierspeechpp
 - id: openvoice-82c133
   title: OpenVoice
   area: audio
@@ -13264,6 +13416,34 @@ entries:
   thumbnail: https://opengraph.githubassets.com/1/coqui-ai/tts
   date_added: '2026-06-13'
   source: agent
+  repo: coqui-ai/tts
+- id: yourtts-c54fe0
+  title: YourTTS
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2112.02418
+    github: https://github.com/coqui-ai/TTS
+  authors:
+  - Edresson Casanova
+  - Julian Weber
+  - Christopher Shulby
+  - Arnaldo Candido Junior
+  - Eren Gölge
+  - Moacir Antonelli Ponti
+  year: 2021
+  tags:
+  - multilingual
+  - vits
+  - voice-conversion
+  - zero-shot
+  summary: A multilingual VITS-based architecture enabling zero-shot multi-speaker text-to-speech and voice conversion using short reference audio samples.
+  summary_ja: VITSアーキテクチャを拡張し、短い参照音声から多言語でのゼロショットマルチスピーカー音声合成および音声変換を実現するモデル。
+  thumbnail: https://opengraph.githubassets.com/1/coqui-ai/tts
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2112.02418'
   repo: coqui-ai/tts
 - id: anigen-855342
   title: AniGen
@@ -14782,6 +14962,36 @@ entries:
   source: agent
   arxiv_id: '2412.14963'
   repo: yiyuzhuang/idol
+- id: make-your-anchor-e03190
+  title: Make-Your-Anchor
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2403.16510
+    github: https://github.com/ICTMCG/Make-Your-Anchor
+    paper: https://arxiv.org/pdf/2403.16510
+  authors:
+  - Ziyao Huang
+  - Fan Tang
+  - Yong Zhang
+  - Xiaodong Cun
+  - Juan Cao
+  - Jintao Li
+  - Tong-Yee Lee
+  year: 2024
+  tags:
+  - 2d-human
+  - avatar
+  - diffusion
+  - video-generation
+  summary: A diffusion-based 2D avatar generation framework that synthesizes anchor-style videos with controllable full-body and hand motions from short video captures.
+  summary_ja: 短時間の動画から、制御可能な全身および手元の動きを持つアナウンサースタイルの動画を合成する拡散モデルベースの2Dアバター生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ictmcg/make-your-anchor
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2403.16510'
+  repo: ictmcg/make-your-anchor
 - id: one-shot-one-talk-whole-body-talking-avatar-from-a-single-im-4e29ed
   title: 'One Shot, One Talk: Whole-body Talking Avatar from a Single Image'
   area: characters
@@ -15032,6 +15242,33 @@ entries:
   source: agent
   arxiv_id: '2312.02069'
   repo: shenhanqian/gaussianavatars
+- id: gavatar-animatable-3d-gaussian-avatars-with-implicit-mesh-le-3e1cbd
+  title: 'GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2312.11461
+    paper: https://arxiv.org/pdf/2312.11461
+  authors:
+  - Ye Yuan
+  - Xueting Li
+  - Yangyi Huang
+  - Shalini De Mello
+  - Koki Nagano
+  - Jan Kautz
+  - Umar Iqbal
+  year: 2023
+  tags:
+  - 3d-gaussian-splatting
+  - animatable
+  - avatar
+  - text-to-3d
+  summary: A framework that creates realistic, animatable 3D human avatars from text prompts by combining 3D Gaussian Splatting with implicit mesh learning for efficient pose animation.
+  summary_ja: 3D Gaussian Splattingと暗黙的メッシュ学習を組み合わせ、テキストプロンプトから効率的でポーズアニメーション可能な3Dアバターを生成するフレームワーク。
+  date_added: '2026-10-20'
+  source: agent
+  arxiv_id: '2312.11461'
 - id: avatarclip-b2cf92
   title: AvatarCLIP
   area: characters
