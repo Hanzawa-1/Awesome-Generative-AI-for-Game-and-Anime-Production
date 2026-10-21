@@ -1745,6 +1745,22 @@ entries:
   thumbnail: https://cdn.prod.website-files.com/58c5480657a2703f67305c6c/65f801586520a8150b4949c6_maxresdefault.png
   date_added: '2026-09-30'
   source: agent
+- id: facegen-modeller-59b66c
+  title: FaceGen Modeller
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://facegen.com/modeller.htm
+  tags:
+  - 3d-face
+  - head-mesh
+  - middleware
+  - procedural-face
+  summary: FaceGen Modeller is a specialized 3D face generation tool that creates customizable, animatable 3D human head meshes with texture maps from photos or demographic sliders.
+  summary_ja: FaceGen Modellerは、写真やパラメーター操作から、テクスチャマップを備えたカスタマイズ可能なアニメーション対応3D人頭メッシュを生成する専門の3D顔作成ソフトウェアです。
+  date_added: '2026-10-21'
+  source: agent
 - id: actorcore-accurig-c96144
   title: ActorCore AccuRIG
   area: characters
@@ -1818,6 +1834,24 @@ entries:
   summary_ja: Blender標準の自動ウェイトの制限を克服するために、ボクセルベースの熱拡散スキニングを実装した人気の商用Blenderアドオン。衣服や髪などの重なり合うジオメトリに特に効果的です。
   thumbnail: https://assets.superhivemarket.com/store/product/151551/image/xlarge-8096008a0a568f24990bf548255d2039.png
   date_added: '2026-08-05'
+  source: agent
+- id: masterpiece-x-0f778f
+  title: Masterpiece X
+  area: gen-3d
+  task: 3d-editing
+  kind: proprietary
+  links:
+    website: https://masterpiecex.com/
+  year: 2024
+  tags:
+  - 3d-editing
+  - blender-plugin
+  - commercial
+  - unreal-engine
+  summary: Masterpiece X (WorldEngen) is a commercial AI-driven 3D generation and editing copilot that integrates directly into Blender, Unity, and Unreal Engine. It allows creators to generate, modify, and texture 3D assets and complete scenes in real time.
+  summary_ja: Masterpiece X (WorldEngen) は、Blender、Unity、Unreal Engineと直接連携する商用AI 3D生成・編集コパイロットです。リアルタイムで3Dアセットやシーン全体の生成、修正、テクスチャ作成を行うインタラクティブな制作環境を提供します。
+  thumbnail: https://static1.squarespace.com/static/6441e9dfea6ac843d83c1bac/t/6926a7474728d3103ba9938b/1740032356901/MPX+-+Main+Image+-+Social.jpg?format=1500w
+  date_added: '2026-10-21'
   source: agent
 - id: spline-ai-89a525
   title: Spline AI
@@ -1980,6 +2014,24 @@ entries:
   thumbnail: https://zoo.dev/meta-images/zoo-homepage.png
   date_added: '2026-07-01'
   source: agent
+- id: deemos-rodin-hyper3d-e99202
+  title: Deemos Rodin (Hyper3D)
+  area: gen-3d
+  task: image-to-3d
+  kind: proprietary
+  links:
+    website: https://hyper3d.ai/
+  year: 2024
+  tags:
+  - digital-humans
+  - game-assets
+  - image-to-3d
+  - proprietary
+  summary: A commercial AI 3D generator that synthesizes detailed 3D assets and digital characters from single or multi-view images with game-ready mesh topology and physical material outputs.
+  summary_ja: 単一または複数枚の画像から、ゲーム開発に適したメッシュトポロジーと物理マテリアルを備えた高精細な3Dアセットやデジタルキャラクターを生成する商用AI 3Dジェネレーター。
+  thumbnail: https://storage.deemos.dev/assets/og-banner.png
+  date_added: '2026-10-21'
+  source: agent
 - id: hyper3d-rodin-6a58d8
   title: Hyper3D Rodin
   area: gen-3d
@@ -1996,6 +2048,23 @@ entries:
   summary_ja: テキストの説明や2D画像から、詳細なジオメトリと4K PBRテクスチャを備えた超リアルな3Dアセットを生成する、プレミアムな商用AI 3Dジェネレーター。
   thumbnail: https://storage.deemos.dev/assets/og-banner.png
   date_added: '2026-08-05'
+  source: agent
+- id: tripo-ai-tripo3d-7ad06e
+  title: Tripo AI (Tripo3D)
+  area: gen-3d
+  task: image-to-3d
+  kind: proprietary
+  links:
+    website: https://www.tripo3d.ai/
+  year: 2024
+  tags:
+  - cloud-platform
+  - game-assets
+  - image-to-3d
+  - proprietary
+  summary: A cloud-based AI 3D asset generation platform that converts text prompts and single or multi-view images into production-ready 3D meshes with smart topology, UV unwrapping, and PBR textures in seconds.
+  summary_ja: テキストプロンプトや単一/複数枚の画像から、スマートトポロジー、UV展開、PBRテクスチャを備えたゲーム開発等で利用可能な3Dメッシュを数秒で生成するクラウドベースのAI 3Dプラットフォーム。
+  date_added: '2026-10-21'
   source: agent
 - id: meshy-c6012a
   title: Meshy

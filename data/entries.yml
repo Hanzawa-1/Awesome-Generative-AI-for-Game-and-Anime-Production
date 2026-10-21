@@ -17805,6 +17805,33 @@ entries:
   date_added: '2026-10-14'
   source: agent
   arxiv_id: '2312.02902'
+- id: panohead-geometry-aware-3d-full-head-synthesis-in-360-degree-aae811
+  title: 'PanoHead: Geometry-Aware 3D Full-Head Synthesis in 360 Degrees'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.13071
+    github: https://github.com/SizheAn/PanoHead
+  authors:
+  - Sizhe An
+  - Hongyi Xu
+  - Yichun Shi
+  - Guoxian Song
+  - Umit Ogras
+  - Linjie Luo
+  year: 2023
+  tags:
+  - 360-synthesis
+  - 3d-gan
+  - 3d-head
+  - view-consistency
+  summary: PanoHead is a 3D-aware generative framework that enables view-consistent 360-degree synthesis of full 3D human heads from arbitrary camera angles with high-fidelity geometry and realistic facial textures.
+  summary_ja: PanoHeadは、任意のカメラ角度から全周囲（360度）の整合性ある3D人間の頭部を高精度な形状とリアルな質感で生成する3D認識型の生成フレームワークです。
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2303.13071'
+  repo: sizhean/panohead
 - id: towards-realistic-generative-3d-face-models-50a9c4
   title: Towards Realistic Generative 3D Face Models
   area: characters
@@ -17861,6 +17888,63 @@ entries:
   source: agent
   arxiv_id: '2204.11312'
   repo: radekd91/emoca
+- id: faceverse-a-fine-grained-and-detail-controllable-3d-face-mor-c23e45
+  title: 'FaceVerse: A Fine-Grained and Detail-Controllable 3D Face Morphable Model from a Hybrid Dataset'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2203.14057
+    github: https://github.com/LizhenWangT/FaceVerse
+  authors:
+  - Lizhen Wang
+  - Zhiyuan Chen
+  - Tao Yu
+  - Chenguang Ma
+  - Liang Li
+  - Yebin Liu
+  year: 2022
+  tags:
+  - 3d-face
+  - 3dmm
+  - blendshapes
+  - facial-details
+  summary: FaceVerse is a fine-grained 3D Neural Face Model trained on a hybrid RGB-D and 3D scan dataset, offering coarse-to-fine 3D face fitting with controllable high-frequency facial details.
+  summary_ja: FaceVerseは、RGB-D画像と高精度3Dスキャンデータのハイブリッドデータセットで学習された精細な3Dニューラル顔モデルであり、コントロール可能な高周波の顔のディテールを備えた3D顔フィッティングを提供します。
+  thumbnail: https://opengraph.githubassets.com/1/lizhenwangt/faceverse
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2203.14057'
+  repo: lizhenwangt/faceverse
+- id: next3d-generative-neural-texture-rasterization-for-3d-aware-819ffc
+  title: 'Next3D: Generative Neural Texture Rasterization for 3D-Aware Head Avatars'
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2211.11208
+    github: https://github.com/MrTornado24/Next3D
+  authors:
+  - Jingxiang Sun
+  - Xuan Wang
+  - Lizhen Wang
+  - Xiaoyu Li
+  - Yong Zhang
+  - Hongwen Zhang
+  - Yebin Liu
+  year: 2022
+  tags:
+  - 3d-gan
+  - 3dmm
+  - facial-expression
+  - head-avatar
+  summary: Next3D combines 3D Morphable Models with generative neural texture rasterization to synthesize high-fidelity, view-consistent, and fine-grained expression-controllable 3D head avatars.
+  summary_ja: Next3Dは、3Dモルファブルモデルと生成的なニューラルテクスチャラスタライズを組み合わせ、細かな表情制御が可能な高精度で視点整合性のある3Dヘッドアバターを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/mrtornado24/next3d
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2211.11208'
+  repo: mrtornado24/next3d
 - id: spectre-a19fd0
   title: SPECTRE
   area: characters
@@ -19318,6 +19402,32 @@ entries:
   date_added: '2026-10-14'
   source: agent
   arxiv_id: '2412.07984'
+- id: draggaussian-enabling-drag-style-manipulation-on-3d-gaussian-1024dc
+  title: 'DragGaussian: Enabling Drag-style Manipulation on 3D Gaussian Representation'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.05800
+    paper: https://arxiv.org/pdf/2405.05800
+  authors:
+  - Sitian Shen
+  - Jing Xu
+  - Yuheng Yuan
+  - Xingyi Yang
+  - Qiuhong Shen
+  - Xinchao Wang
+  year: 2024
+  tags:
+  - 3d-editing
+  - drag-editing
+  - gaussian-splatting
+  - interactive-3d
+  summary: DragGaussian enables point-based interactive drag manipulation directly on 3D Gaussian Splatting representations. By transferring 2D user drag signals to 3D Gaussian primitives with diffusion guidance, it provides intuitive and pose-controllable 3D asset deformation.
+  summary_ja: DragGaussianは、3D Gaussian Splatting表現に対してポイントベースの直感的なドラッグ操作による3D変形を可能にする手法です。2Dのドラッグ信号をディフュージョンモデルの誘導を通じて3Dガウスプリミティブに反映し、ポーズ変更や局所的な形状操作を実現します。
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2405.05800'
 - id: dreamcatalyst-0e486b
   title: DreamCatalyst
   area: gen-3d
@@ -19494,6 +19604,36 @@ entries:
   date_added: '2026-06-24'
   source: agent
   repo: cvachha/instruct-gs2gs
+- id: interactive3d-create-what-you-want-by-interactive-3d-generat-1d5e35
+  title: 'Interactive3D: Create What You Want by Interactive 3D Generation'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.16510
+    github: https://github.com/interactive-3d/interactive3d
+    project: https://interactive-3d.github.io/
+    paper: https://arxiv.org/pdf/2404.16510
+  authors:
+  - Shaocong Dong
+  - Lihe Ding
+  - Zhanpeng Huang
+  - Zibin Wang
+  - Tianfan Xue
+  - Dan Xu
+  year: 2024
+  tags:
+  - 3d-editing
+  - gaussian-splatting
+  - interactive-3d
+  - mesh-editing
+  summary: Interactive3D provides direct user control over 3D object generation and editing through interactive manipulation. Leveraging Gaussian Splatting and InstantNGP representations across two stages, it supports precise drag-based editing, object addition, and texture modifications.
+  summary_ja: Interactive3Dは、対話的な操作を通じて3Dオブジェクトの生成と編集を精密に制御できるフレームワークです。3D Gaussian SplattingとInstantNGPを組み合わせた2段階構成により、ドラッグ操作による変形、オブジェクト追加、テクスチャ変更など多様なインタラクティブ編集に対応します。
+  thumbnail: https://opengraph.githubassets.com/1/interactive-3d/interactive3d
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2404.16510'
+  repo: interactive-3d/interactive3d
 - id: lichtfeld-studio-93a724
   title: LichtFeld Studio
   area: gen-3d
@@ -19542,6 +19682,35 @@ entries:
   source: agent
   arxiv_id: '2408.08000'
   repo: ewrfcas/mvinpainter
+- id: replaceanything3d-text-guided-3d-scene-editing-with-composit-631899
+  title: 'ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields'
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.17895
+    project: https://replaceanything3d.github.io/
+    paper: https://arxiv.org/pdf/2401.17895
+  authors:
+  - Edward Bartrum
+  - Thu Nguyen-Phuoc
+  - Chris Xie
+  - Zhengqin Li
+  - Numair Khan
+  - Armen Avetisyan
+  - Douglas Lanman
+  - Lei Xiao
+  year: 2024
+  tags:
+  - 3d-editing
+  - nerf
+  - object-replacement
+  - scene-editing
+  summary: ReplaceAnything3D (RAM3D) enables text-guided object erasing and replacement within 3D Neural Radiance Fields scenes. It maintains multi-view consistency while swapping specific target objects with newly generated 3D content described by text prompts.
+  summary_ja: ReplaceAnything3D (RAM3D) は、テキスト指示に基づいて3D NeRFシーン内の特定オブジェクトを消去・置換する手法です。テキストプロンプトで生成された新しいコンテンツと入れ替える際にも、視点間での一貫性を保持した高品質なシーン編集を可能にします。
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2401.17895'
 - id: splatviz-d38420
   title: splatviz
   area: gen-3d
@@ -24729,6 +24898,34 @@ entries:
   source: agent
   arxiv_id: '2507.01634'
   repo: hvision-nku/depthanythingac
+- id: distill-any-depth-distillation-creates-a-stronger-monocular-652e25
+  title: 'Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.19204
+    github: https://github.com/Westlake-AGI-Lab/Distill-Any-Depth
+  authors:
+  - Xiankang He
+  - Dongyan Guo
+  - Hongji Li
+  - Ruibo Li
+  - Ying Cui
+  - Chi Zhang
+  year: 2025
+  tags:
+  - depth-estimation
+  - distillation
+  - monocular-depth
+  - zero-shot
+  summary: A zero-shot monocular depth estimation framework utilizing structured depth normalization and pseudo-label distillation to train robust foundation depth estimators.
+  summary_ja: 構造化深度正規化と疑似ラベル蒸留を活用し、堅牢なゼロショット単眼深度推定モデルを構築するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/westlake-agi-lab/distill-any-depth
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2502.19204'
+  repo: westlake-agi-lab/distill-any-depth
 - id: lotus-2-b61ee6
   title: Lotus-2
   area: gen-3d
@@ -24925,6 +25122,33 @@ entries:
   source: agent
   arxiv_id: '2501.12375'
   repo: depthanything/video-depth-anything
+- id: buffer-anytime-zero-shot-video-depth-and-normal-from-image-p-74da1e
+  title: 'Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17249
+  authors:
+  - Zhengfei Kuang
+  - Tianyuan Zhang
+  - Kai Zhang
+  - Hao Tan
+  - Sai Bi
+  - Yiwei Hu
+  - Zexiang Xu
+  - Milos Hasan
+  year: 2024
+  tags:
+  - depth-map
+  - normal-map
+  - surface-normal
+  - video-depth
+  summary: A zero-shot video framework that estimates temporally consistent geometric buffers, specifically depth and surface normal maps, from input videos using image-level priors and optical flow constraints.
+  summary_ja: 単一画像の事前知識とオプティカルフロー制約を組み合わせ、動画から深度マップおよび表面法線マップ（幾何バッファ）をゼロショットで一貫して推定する手法。
+  date_added: '2026-10-21'
+  source: agent
+  arxiv_id: '2411.17249'
 - id: chronodepth-learning-temporally-consistent-video-depth-from-2693bc
   title: 'ChronoDepth: Learning Temporally Consistent Video Depth from Video Diffusion Priors'
   area: gen-3d
