@@ -5520,3 +5520,19 @@ entries:
   thumbnail: https://ebsynth.com/ebsynth-thumbnail2.png
   date_added: '2026-09-06'
   source: agent
+- id: manga-translator-ai-ficory-2026
+  title: manga translator AI
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://www.mangatranslate.com/ai-manga-translator/
+  tags:
+  - api
+  - batch-translation
+  - manga
+  - translation
+  summary: Manga Translator AI translates manga and manhwa pages into all languages. It supports batch and custom translation, gives studios an online Photoshop-style editor, and provides an API for personal workflows.
+  summary_ja: Manga Translator AIは漫画やマンファのページをあらゆる言語に翻訳します。個人ユーザーは一括翻訳と翻訳内容の調整ができ、スタジオはオンラインの画像編集エディターで翻訳済みページを編集できます。APIは個人のワークフローとの連携に対応します。
+  date_added: '2026-10-14'
+  source: manual
