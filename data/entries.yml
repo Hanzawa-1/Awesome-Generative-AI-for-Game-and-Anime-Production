@@ -17828,6 +17828,7 @@ entries:
   - view-consistency
   summary: PanoHead is a 3D-aware generative framework that enables view-consistent 360-degree synthesis of full 3D human heads from arbitrary camera angles with high-fidelity geometry and realistic facial textures.
   summary_ja: PanoHeadは、任意のカメラ角度から全周囲（360度）の整合性ある3D人間の頭部を高精度な形状とリアルな質感で生成する3D認識型の生成フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/sizhean/panohead
   date_added: '2026-10-21'
   source: agent
   arxiv_id: '2303.13071'
@@ -25789,6 +25790,31 @@ entries:
   source: agent
   arxiv_id: '2606.16993'
   repo: amap-ml/dreamx-world
+- id: gaussiangpt-68fded
+  title: GaussianGPT
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2603.26661
+    github: https://github.com/nicolasvonluetzow/gaussiangpt
+  authors:
+  - Nicolas von Lützow
+  - Barbara Rössle
+  - Katharina Schmid
+  - Matthias Nießner
+  year: 2026
+  tags:
+  - 3d-gaussian-splatting
+  - 3d-scene
+  - autoregressive
+  - scene-generation
+  summary: A fully autoregressive transformer model for 3D scene generation that predicts discrete 3D Gaussian Splatting tokens next-token style, enabling unconditional generation, completion, and outpainting of complex 3D scenes.
+  summary_ja: 離散化された3D Gaussian Splattingトークンを自己回帰的に予測するトランスフォーマーモデルであり、3Dシーンの無条件生成、補完、アウトペインティングを一元的に実現します。
+  date_added: '2026-10-22'
+  source: agent
+  arxiv_id: '2603.26661'
+  repo: nicolasvonluetzow/gaussiangpt
 - id: gen3r-3d-scene-generation-meets-feed-forward-reconstruction-044e63
   title: 'Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction'
   area: gen-3d
@@ -25816,6 +25842,32 @@ entries:
   source: agent
   arxiv_id: '2601.04090'
   repo: jaceyhuang/gen3r
+- id: homeworld-82749d
+  title: HomeWorld
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2606.06390
+    project: https://kairos-homeworld.github.io/
+  authors:
+  - Wenbo Li
+  - Xiaoliang Ju
+  - Zipeng Qin
+  - Rongyao Fang
+  - Hongsheng Li
+  year: 2026
+  tags:
+  - floorplan-to-3d
+  - interactive-3d
+  - scene-generation
+  - whole-home
+  summary: A unified floorplan-to-furnished framework that generates controllable, multi-room, interactive residential 3D environments from floorplans or text prompts.
+  summary_ja: 間取り図やテキストプロンプトから、制御可能で相互作用可能な複数部屋からなる住宅全体の3Dシーンを統合的に生成するフレームワーク。
+  thumbnail: https://kairos-homeworld.github.io/assets/images/ace-colored-logo.png
+  date_added: '2026-10-22'
+  source: agent
+  arxiv_id: '2606.06390'
 - id: lyra-2-0-e18f26
   title: Lyra 2.0
   area: gen-3d
@@ -26015,6 +26067,31 @@ entries:
   source: agent
   arxiv_id: '2601.05810'
   repo: scenefoundry/scenefoundry
+- id: scenesmith-8a1e8e
+  title: SceneSmith
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.09153
+    github: https://github.com/aether-hq/scenesmith-mod
+    project: https://scenesmith.github.io/
+  authors:
+  - Nicholas Pfaff
+  - Aether HQ
+  year: 2026
+  tags:
+  - 3d-indoor
+  - agentic
+  - physics-ready
+  - scene-synthesis
+  summary: A hierarchical agentic framework that generates physics-grounded, simulation-ready 3D indoor environments with hundreds of assets and low inter-object collisions from natural language prompts.
+  summary_ja: 自然言語プロンプトから物理シミュレーション対応の複雑な3D屋内環境を階層的AIエージェントにより合成し、オブジェクト同士の衝突を最小限に抑えた高品質なシーンを構築するフレームワーク。
+  thumbnail: https://scenesmith.github.io/static/images/teaser.webp
+  date_added: '2026-10-22'
+  source: agent
+  arxiv_id: '2602.09153'
+  repo: aether-hq/scenesmith-mod
 - id: syncity-3000-9ba1b2
   title: SynCity 3000
   area: gen-3d
@@ -30732,6 +30809,29 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: cvmi-lab/texgen
+- id: texgen-a-generative-diffusion-model-for-mesh-textures-671db6
+  title: 'TEXGen: a Generative Diffusion Model for Mesh Textures'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.14740
+    github: https://github.com/CVMI-Lab/TEXGen
+  authors:
+  - Xin Yu
+  year: 2024
+  tags:
+  - diffusion
+  - pbr
+  - texture
+  - uv-space
+  summary: A generative diffusion model that synthesizes high-resolution textures directly in the 2D UV domain for 3D meshes, avoiding multi-view inconsistencies and preserving fine structural details.
+  summary_ja: 3Dメッシュに対して多視点非一貫性を回避し、2D UVテクスチャ領域で直接高解像度テクスチャを生成する拡散モデル。
+  thumbnail: https://opengraph.githubassets.com/1/cvmi-lab/texgen
+  date_added: '2026-10-22'
+  source: agent
+  arxiv_id: '2411.14740'
+  repo: cvmi-lab/texgen
 - id: texpro-93b371
   title: TexPro
   area: gen-3d
@@ -30855,6 +30955,25 @@ entries:
   date_added: '2026-10-15'
   source: agent
   repo: carson-katri/dream-textures
+- id: materialize-ebda47
+  title: Materialize
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    github: https://github.com/BoundingBoxSoftware/Materialize
+  year: 2018
+  tags:
+  - game-art
+  - material
+  - pbr
+  - texture-generator
+  summary: An open-source desktop tool for creating full PBR texture maps (height, normal, metallic, roughness, ambient occlusion) from single input images for game production.
+  summary_ja: 単一の入力画像からゲーム制作向けの完全なPBRテクスチャマップ（高さ、法線、メタリック、ラフネス、環境遮蔽）を作成するオープンソースのデスクトップツール。
+  thumbnail: https://opengraph.githubassets.com/1/boundingboxsoftware/materialize
+  date_added: '2026-10-22'
+  source: agent
+  repo: boundingboxsoftware/materialize
 - id: continuous-neural-reparameterization-as-a-deep-geometric-pri-ba2b3c
   title: Continuous Neural Reparameterization as a Deep Geometric Prior for Robust Fixed-Chart UV Repair
   area: gen-3d
@@ -31692,6 +31811,35 @@ entries:
   source: agent
   arxiv_id: '2207.05378'
   repo: megvii-research/ijcai2023-conr
+- id: towards-the-automatic-anime-characters-creation-with-generat-54d1b3
+  title: Towards the Automatic Anime Characters Creation with Generative Adversarial Networks
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1708.05509
+    github: https://github.com/LZ-QWQ/GANs_anime_face
+    paper: https://arxiv.org/pdf/1708.05509
+  authors:
+  - Yanghua Jin
+  - Jiakai Zhang
+  - Minjun Li
+  - Yingtao Tian
+  - Huachun Zhu
+  - Zhihao Zheng
+  year: 2017
+  tags:
+  - anime
+  - character-design
+  - face-generation
+  - gan
+  summary: A foundational GAN-based model (MakeGirlsMoe) for generating anime character face artwork with user control over facial attributes like hair and eye color.
+  summary_ja: 髪型や目の色などの属性を指定してアニメキャラクターの顔画像を生成する、初期のGANベースフレームワーク（MakeGirlsMoe）。
+  thumbnail: https://opengraph.githubassets.com/1/lz-qwq/gans_anime_face
+  date_added: '2026-10-22'
+  source: agent
+  arxiv_id: '1708.05509'
+  repo: lz-qwq/gans_anime_face
 - id: godot-anime-sdf-shader-kit-52a640
   title: Godot Anime SDF Shader Kit
   area: image-2d

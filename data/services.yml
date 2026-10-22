@@ -2756,6 +2756,24 @@ entries:
   thumbnail: https://www.copainter.ai/images/hero.webp
   date_added: '2026-09-17'
   source: agent
+- id: clip-studio-paint-shading-assist-908eac
+  title: Clip Studio Paint Shading Assist
+  area: image-2d
+  task: cel-shading
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/functions/education/
+  year: 2023
+  tags:
+  - anime
+  - auto-shading
+  - cel-shading
+  - illustration
+  summary: An automated shading assistant in Clip Studio Paint that analyzes 2D line art and flat color layers to generate customizable cel-shading and soft shadow effects for digital artwork.
+  summary_ja: 2D線画とベタ塗りレイヤーを解析し、デジタルイラスト向けにカスタマイズ可能なセル調の影やソフトライティングを自動生成するClip Studio Paintのシェーディング支援機能。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
+  date_added: '2026-10-22'
+  source: agent
 - id: flat-kit-4ad69a
   title: Flat Kit
   area: image-2d
