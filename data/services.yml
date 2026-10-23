@@ -2881,6 +2881,24 @@ entries:
   summary_ja: Adobe Fireflyを搭載したPhotoshopの生成AI機能。テキストプロンプトによる選択範囲のインペインティング、要素の追加・削除、キャンバスの拡張（アウトペインティング）を非破壊で実現する。
   date_added: '2026-10-16'
   source: agent
+- id: clipdrop-cleanup-e76bac
+  title: Clipdrop Cleanup
+  area: image-2d
+  task: image-editing
+  kind: proprietary
+  links:
+    website: https://clipdrop.co/cleanup
+  year: 2023
+  tags:
+  - cleanup
+  - inpainting
+  - object-removal
+  - saas
+  summary: An AI-powered web service and API for fast object, text, defect, and watermark removal from images via interactive brush selection.
+  summary_ja: ブラシ描画による選択で、画像からオブジェクト、テキスト、傷、ウォーターマークなどを高速除去するAI搭載Web・APIツール。
+  thumbnail: https://static.clipdrop.co/web/cleanup/og-twitter-image.webp
+  date_added: '2026-10-23'
+  source: agent
 - id: leonardo-ai-canvas-bcdada
   title: Leonardo AI Canvas
   area: image-2d
@@ -3024,6 +3042,24 @@ entries:
   summary_ja: 写真や画像から、手描き風のクリーンな線画を抽出するために設計されたAI搭載のウェブサービス。クリエイターや漫画家が、実世界の写真から高品質な背景や参考資料を生成するために広く利用されています。
   thumbnail: https://sketchedge.net/favicons/apple-touch-icon.png
   date_added: '2026-07-31'
+  source: agent
+- id: vectorizer-ai-6086c2
+  title: Vectorizer.AI
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://vectorizer.ai/
+  year: 2023
+  tags:
+  - lineart
+  - raster-to-vector
+  - svg
+  - vectorizer
+  summary: Vectorizer.AI is a web-based AI service that automatically converts raster images, sketches, and line drawings into clean, scalable vector graphics.
+  summary_ja: Vectorizer.AIは、ラスタ画像やスケッチ、線画をAIで自動解析し、クリーンで拡大縮小可能なベクターグラフィックス（SVG、EPS、DXF等）に高精度変換するクラウドサービスです。
+  thumbnail: https://vectorizer.ai/cf/vai/images/open-graph_7edfc602c1a14fb37dcd46e3fa5503f1.png
+  date_added: '2026-10-23'
   source: agent
 - id: clip-studio-paint-ex-line-tone-extraction-866830
   title: Clip Studio Paint EX Line & Tone Extraction

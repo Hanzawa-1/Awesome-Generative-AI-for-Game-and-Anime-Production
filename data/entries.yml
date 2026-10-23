@@ -32814,6 +32814,34 @@ entries:
   source: agent
   arxiv_id: '2406.07540'
   repo: genforce/ctrl-x
+- id: flexecontrol-64254a
+  title: FlexEControl
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.04834
+    paper: https://arxiv.org/pdf/2405.04834
+  authors:
+  - Xuehai He
+  - Jian Zheng
+  - Jacob Zhiyuan Fang
+  - Robinson Piramuthu
+  - Mohit Bansal
+  - Vicente Ordonez
+  - Gunnar A Sigurdsson
+  - Nanyun Peng
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - diffusion
+  - multimodal
+  summary: A flexible and efficient architecture for controllable text-to-image generation that handles multiple conditions simultaneously without adding heavy parameter overhead.
+  summary_ja: 大幅なパラメータオーバーヘッドを伴わずに複数の制御条件を同時に処理する、フレキシブルで効率的な条件付きテキスト2画像生成アーキテクチャ。
+  date_added: '2026-10-23'
+  source: agent
+  arxiv_id: '2405.04834'
 - id: instantid-zero-shot-identity-preserving-generation-in-second-037996
   title: 'InstantID: Zero-shot Identity-Preserving Generation in Seconds'
   area: image-2d
@@ -33195,6 +33223,24 @@ entries:
   date_added: '2026-07-31'
   source: agent
   arxiv_id: '2312.01255'
+- id: sd-webui-controlnet-173837
+  title: sd-webui-controlnet
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/Mikubill/sd-webui-controlnet
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - stable-diffusion
+  - webui
+  summary: A popular WebUI extension that integrates ControlNet and conditioning models into Stable Diffusion WebUI, enabling spatial guidance via pose, depth, line art, and edge maps.
+  summary_ja: ControlNetや条件付けモデルをStable Diffusion WebUIに統合し、ポーズ、深度、線画、エッジマップによる空間制御を可能にする定番のWebUI拡張機能。
+  date_added: '2026-10-23'
+  source: agent
+  repo: mikubill/sd-webui-controlnet
 - id: uni-controlnet-ec907b
   title: Uni-ControlNet
   area: image-2d
@@ -36582,6 +36628,32 @@ entries:
   source: agent
   arxiv_id: '2211.13752'
   repo: ogkalu2/sketch-guided-stable-diffusion
+- id: sketchycoco-5012a7
+  title: SketchyCOCO
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2003.02683
+    paper: https://arxiv.org/pdf/2003.02683
+  authors:
+  - Chengying Gao
+  - Qi Liu
+  - Qi Xu
+  - Limin Wang
+  - Jianzhuang Liu
+  - Changqing Zou
+  year: 2020
+  tags:
+  - dataset
+  - gan
+  - scene-generation
+  - sketch-to-image
+  summary: A dataset and GAN framework designed for scene-level freehand sketch-to-image synthesis, decomposing complex scenes into object-level generation and layout assembly.
+  summary_ja: シーンレベルのフリーハンドスケッチから画像を生成するためのデータセットおよびGANフレームワークで、複雑なシーンをオブジェクト単位の生成とレイアウト構成に分解して処理する。
+  date_added: '2026-10-23'
+  source: agent
+  arxiv_id: '2003.02683'
 - id: abstract-lora-unlocking-single-image-style-transfer-through-39b987
   title: 'Abstract-LoRA: Unlocking Single-Image Style Transfer through Targeted U-Net Block Training'
   area: image-2d
@@ -37566,6 +37638,24 @@ entries:
   date_added: '2026-10-16'
   source: agent
   repo: kohya-ss/sd-scripts
+- id: lora-dataset-studio-f81be5
+  title: LoRA Dataset Studio
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    github: https://github.com/perfectgf/lora-dataset-studio
+  tags:
+  - dataset-creation
+  - fine-tuning
+  - lora
+  - workflow
+  summary: A self-hosted visual workbench for the full LoRA training lifecycle, enabling creators to build, clean, caption, and train style, character, and concept adapters across multiple diffusion model families.
+  summary_ja: LoRA学習ライフサイクル全体を管理するセルフホスト型ビジュアルワークベンチです。クリエイターは複数の拡散モデルファミリーにおいて、スタイル・キャラクター・コンセプトのデータセット構築・キャプション編集・学習・評価を直感的に行えます。
+  thumbnail: https://opengraph.githubassets.com/1/perfectgf/lora-dataset-studio
+  date_added: '2026-10-23'
+  source: agent
+  repo: perfectgf/lora-dataset-studio
 - id: apisr-20fd46
   title: APISR
   area: image-2d
@@ -39297,6 +39387,34 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: deep-floyd/if
+- id: hidiffusion-unlocking-higher-resolution-creativity-and-effic-41f99b
+  title: 'HiDiffusion: Unlocking Higher-Resolution Creativity and Efficiency in Pretrained Diffusion Models'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.17528
+    github: https://github.com/megvii-research/HiDiffusion
+    paper: https://arxiv.org/pdf/2311.17528
+  authors:
+  - Shen Zhang
+  - Zhaowei Chen
+  - Zhenyu Zhao
+  - Yuhao Chen
+  - Yao Tang
+  - Jiajun Liang
+  year: 2023
+  tags:
+  - attention
+  - diffusion
+  - high-resolution
+  - sdxl
+  summary: Introduces Resolution-Aware Attention and Modified Shifted Window Attention to enable pretrained diffusion models to generate ultra-high-resolution images efficiently while preventing object repetition.
+  summary_ja: 解像度対応アテンションと修正シフトウィンドウアテンションを導入し、物体の重複を防ぎながら学習済み拡散モデルでの超高解像度画像生成を効率化する手法。
+  date_added: '2026-10-23'
+  source: agent
+  arxiv_id: '2311.17528'
+  repo: megvii-research/hidiffusion
 - id: kandinsky-3-82014b
   title: Kandinsky 3
   area: image-2d
