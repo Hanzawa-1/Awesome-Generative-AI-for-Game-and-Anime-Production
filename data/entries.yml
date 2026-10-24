@@ -25811,6 +25811,7 @@ entries:
   - scene-generation
   summary: A fully autoregressive transformer model for 3D scene generation that predicts discrete 3D Gaussian Splatting tokens next-token style, enabling unconditional generation, completion, and outpainting of complex 3D scenes.
   summary_ja: 離散化された3D Gaussian Splattingトークンを自己回帰的に予測するトランスフォーマーモデルであり、3Dシーンの無条件生成、補完、アウトペインティングを一元的に実現します。
+  thumbnail: https://opengraph.githubassets.com/1/nicolasvonluetzow/gaussiangpt
   date_added: '2026-10-22'
   source: agent
   arxiv_id: '2603.26661'
@@ -39411,6 +39412,7 @@ entries:
   - sdxl
   summary: Introduces Resolution-Aware Attention and Modified Shifted Window Attention to enable pretrained diffusion models to generate ultra-high-resolution images efficiently while preventing object repetition.
   summary_ja: 解像度対応アテンションと修正シフトウィンドウアテンションを導入し、物体の重複を防ぎながら学習済み拡散モデルでの超高解像度画像生成を効率化する手法。
+  thumbnail: https://opengraph.githubassets.com/1/megvii-research/hidiffusion
   date_added: '2026-10-23'
   source: agent
   arxiv_id: '2311.17528'
@@ -39786,6 +39788,24 @@ entries:
   source: agent
   arxiv_id: '2207.06095'
   repo: kunkun0w0/sga
+- id: comicolorization-5c618e
+  title: Comicolorization
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/DwangoMediaVillage/Comicolorization
+  year: 2021
+  tags:
+  - colorization
+  - hints
+  - manga
+  - semi-automatic
+  summary: A semi-automatic manga colorization system that generates full-color manga pages guided by sparse user color hints using deep neural networks.
+  summary_ja: 深層ニューラルネットワークを用い、ユーザーによる僅かなカラーヒントをガイドとしてフルカラーのマンガページを生成する半自動マンガ着色システム。
+  date_added: '2026-10-24'
+  source: agent
+  repo: dwangomediavillage/comicolorization
 - id: painting-style-aware-manga-colorization-based-on-generative-1226d8
   title: Painting Style-Aware Manga Colorization Based on Generative Adversarial Networks
   area: manga
@@ -40308,6 +40328,31 @@ entries:
   date_added: '2026-09-12'
   source: agent
   arxiv_id: '2312.10718'
+- id: make-a-storyboard-a-general-framework-for-storyboard-with-di-1c4799
+  title: 'Make-A-Storyboard: A General Framework for Storyboard with Disentangled and Merged Control'
+  area: manga
+  task: manga-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.07549
+    paper: https://arxiv.org/pdf/2312.07549
+  authors:
+  - Sitong Su
+  - Liang Guo
+  - Lianli Gao
+  - Heng Tao Shen
+  - Jingkuan Song
+  year: 2023
+  tags:
+  - diffusion
+  - manga
+  - panel-generation
+  - storyboard
+  summary: A general generative storyboarding framework that applies disentangled and merged control over contextually correlated characters and background scenes to generate consistent sequential panels.
+  summary_ja: 文脈的に関連するキャラクターと背景の制御を分離・統合することで、コマ間での視覚的・物語的一貫性を維持する絵コンテ・コマ画像生成フレームワーク。
+  date_added: '2026-10-24'
+  source: agent
+  arxiv_id: '2312.07549'
 - id: manga109-v2026-956e1b
   title: Manga109-v2026
   area: manga
@@ -41739,6 +41784,23 @@ entries:
   date_added: '2026-07-25'
   source: agent
   repo: patrickctyyx/screentone-removal
+- id: comfyui-mangascreen-788d96
+  title: ComfyUI-MangaScreen
+  area: manga
+  task: screentone
+  kind: oss
+  links:
+    github: https://github.com/ashukae/ComfyUI-MangaScreen
+  tags:
+  - comfyui
+  - halftone
+  - manga
+  - screentone
+  summary: A ComfyUI custom node suite for converting images into black-and-white manga pages with crisp line art, flat tones, realistic halftone screentones, and panel frames.
+  summary_ja: 画像をくっきりした線画、ベタ塗り、リアルなハーフトーンスクリーントーン、コマ割り付きの白黒マンガページに変換するComfyUIカスタムノード群。
+  date_added: '2026-10-24'
+  source: agent
+  repo: ashukae/comfyui-mangascreen
 - id: chorus-effort-aware-multi-agent-human-ai-collaboration-for-p-ecffe7
   title: 'CHORUS: Effort-Aware Multi-Agent Human-AI Collaboration for Professional Translation'
   area: text-design
@@ -43341,6 +43403,32 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2505.03547'
+- id: storybox-collaborative-multi-agent-simulation-for-hybrid-bot-32b6cc
+  title: 'StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.11618
+    github: https://github.com/amcghm/StoryBox
+    paper: https://arxiv.org/pdf/2510.11618
+  authors:
+  - Zehao Chen
+  - Miao Zhang
+  - Sheng Yu
+  year: 2025
+  tags:
+  - llm
+  - multi-agent
+  - narrative
+  - story-generation
+  summary: A multi-agent simulation framework that combines bottom-up character interactions with top-down plot control for long-form narrative and story generation.
+  summary_ja: ボトムアップのキャラクター相互作用とトップダウンのプロット制御を統合し、長編ナラティブやストーリーを生成するマルチエージェントシミュレーションフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/amcghm/storybox
+  date_added: '2026-10-24'
+  source: agent
+  arxiv_id: '2510.11618'
+  repo: amcghm/storybox
 - id: agents-room-narrative-generation-through-multi-step-collabor-3fa94f
   title: 'Agents'' Room: Narrative Generation through Multi-step Collaboration'
   area: text-design
@@ -44227,6 +44315,62 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: a16z-infra/ai-town
+- id: character-llm-a-trainable-agent-for-role-playing-a5710d
+  title: 'Character-LLM: A Trainable Agent for Role-Playing'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.10158
+    github: https://github.com/choosewhatulike/trainable-agents
+  authors:
+  - Yunfan Shao
+  - Linyang Li
+  - Junqi Dai
+  - Xipeng Qiu
+  year: 2023
+  tags:
+  - agent
+  - character-llm
+  - npc-dialogue
+  - roleplay
+  summary: A framework that trains language model agents to act as specific personas by editing profiles into detailed life experiences and fine-tuning models on personal simulacra data.
+  summary_ja: プロフィールを詳細な生い立ちや体験履歴として再構築し、特定の人物やNPCのペルソナ・口調を一貫して維持するLLMエージェントを学習させる手法。
+  date_added: '2026-10-24'
+  source: agent
+  arxiv_id: '2310.10158'
+  repo: choosewhatulike/trainable-agents
+- id: chatharuhi-reviving-anime-character-in-reality-via-large-lan-bf7bfc
+  title: 'ChatHaruhi: Reviving Anime Character in Reality via Large Language Model'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.09597
+    github: https://github.com/LC1332/Chat-Haruhi-Suzumiya
+  authors:
+  - Cheng Li
+  - Ziang Leng
+  - Chenxi Zhang
+  - Huafu Xu
+  - Chong Fu
+  - Yuxiang Zhang
+  - Yihang Zhang
+  - Yaling Ye
+  - Jichuan Gong
+  - Yushuo Chen
+  year: 2023
+  tags:
+  - anime
+  - character
+  - npc-dialogue
+  - roleplay
+  summary: An open-source role-playing algorithm and dataset designed to mimic fictional and anime characters using script-extracted memory retrievable prompts and targeted LLM fine-tuning.
+  summary_ja: アニメやフィクション作品の台本から抽出した記憶・会話ログを検索プロンプトおよびLLM微調整に活用し、特定のキャラクター性を再現するロールプレイングフレームワーク。
+  date_added: '2026-10-24'
+  source: agent
+  arxiv_id: '2308.09597'
+  repo: lc1332/chat-haruhi-suzumiya
 - id: generative-agents-bd0923
   title: Generative Agents
   area: text-design
@@ -44312,6 +44456,36 @@ entries:
   date_added: '2026-07-04'
   source: agent
   repo: kwaroran/risuai
+- id: rolellm-benchmarking-eliciting-and-enhancing-role-playing-ab-be6b01
+  title: 'RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models'
+  area: text-design
+  task: npc-dialogue
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.00746
+    github: https://github.com/InteractiveNLP-Team/RoleLLM-public
+  authors:
+  - Zekun Moore Wang
+  - Zhongyuan Peng
+  - Haoran Que
+  - Jiaheng Liu
+  - Wangchunshu Zhou
+  - Yuhan Wu
+  - Hongcheng Guo
+  - Ruitong Gan
+  year: 2023
+  tags:
+  - character
+  - llm
+  - npc-dialogue
+  - roleplay
+  summary: A framework for benchmarking, eliciting, and fine-tuning role-playing dialogue in large language models using profile extraction, context-aware prompt engineering, and RoleGPT data distillation.
+  summary_ja: 大規模言語モデル（LLM）におけるロールプレイ対話能力のベンチマーク、プロンプト選定、微調整を行うフレームワーク。プロファイル抽出やRoleGPT蒸留により、個性的で一貫性のあるNPC会話を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/interactivenlp-team/rolellm-public
+  date_added: '2026-10-24'
+  source: agent
+  arxiv_id: '2310.00746'
+  repo: interactivenlp-team/rolellm-public
 - id: sillytavern-5f6b47
   title: SillyTavern
   area: text-design

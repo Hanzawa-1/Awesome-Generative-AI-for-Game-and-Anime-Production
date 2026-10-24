@@ -4098,6 +4098,40 @@ entries:
   thumbnail: https://plasq.com/wp-content/uploads/2014/03/2d5987662101e3c153aa49c94191bb1b.png
   date_added: '2026-07-18'
   source: agent
+- id: comicsai-panel-layout-maker-69832b
+  title: ComicsAI Panel Layout Maker
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.comicsai.org/en/panel-layout-maker
+  tags:
+  - comic-layout
+  - manga
+  - panel-layout
+  - storyboard
+  summary: A web tool designed for planning comic and manga page layouts, featuring controls for panel hierarchy, reading flow, gutter spacing, and story beat arrangement.
+  summary_ja: マンガやコミックのネーム作成において、コマの階層構造、視線誘導、コマ間隔などを事前に設計・調整できるComicsAIの専門ツール。
+  thumbnail: https://www.comicsai.org/images/tools/panel-layout-maker-hero.webp
+  date_added: '2026-10-24'
+  source: agent
+- id: comicsmaker-ai-37b142
+  title: ComicsMaker.ai
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.comicsmaker.ai/
+  tags:
+  - comic-generator
+  - manga
+  - panel-layout
+  - storyboard
+  summary: A web platform for generating AI comics and manga that provides page composition controls for adjusting panel sizes, gutters, and layout orientations.
+  summary_ja: コマの大きさや配置、間隔などを調整しながらAIでマンガやコミックのページレイアウトとイラストを生成できるWEBツール。
+  thumbnail: https://comicsmaker.ai/editor-preview.png
+  date_added: '2026-10-24'
+  source: agent
 - id: comistitch-004caa
   title: Comistitch
   area: manga
@@ -4575,6 +4609,24 @@ entries:
   summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
   thumbnail: https://novelai.net/social.png
   date_added: '2026-07-11'
+  source: agent
+- id: ai-dungeon-5a63a4
+  title: AI Dungeon
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://aidungeon.com/
+  year: 2020
+  tags:
+  - ai-dungeon
+  - interactive-narrative
+  - quest-generation
+  - text-rpg
+  summary: An AI-driven interactive text adventure platform that dynamically generates open-ended stories, quests, and world choices in real time as an automated dungeon master.
+  summary_ja: 自動化されたダンジョンマスターとして、リアルタイムにオープンワールドのストーリー、クエスト、プレイヤーの選択肢を動的生成するAIインタラクティブテキストアドベンチャープラットフォーム。
+  thumbnail: https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/aidungeon-landing/Pages/0ce07413-6623-4e8e-94ed-2d7cb5951a00.png
+  date_added: '2026-10-24'
   source: agent
 - id: loreguard-2854b6
   title: Loreguard
