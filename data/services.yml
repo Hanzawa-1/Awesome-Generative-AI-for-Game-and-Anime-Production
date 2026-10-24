@@ -5574,3 +5574,21 @@ entries:
   thumbnail: https://ebsynth.com/ebsynth-thumbnail2.png
   date_added: '2026-09-06'
   source: agent
+- id: artgen-8a67f6
+  title: artgen
+  area: image-2d
+  task: text-to-image
+  kind: proprietary
+  links:
+    website: https://artgen.net/en/tools/image-to-pixel-art
+  year: 2026
+  tags:
+  - ai-art
+  - pixel-art
+  - ascii-art
+  - freemium
+  summary: An AI art studio that generates images and converts photos into pixel art, ASCII art, and risograph-style prints for game and design workflows.
+  summary_ja: 画像生成に加え、写真をピクセルアート・ASCIIアート・リソグラフ風プリントへ変換できる、ゲーム／デザイン向けのAIアートスタジオ。
+  thumbnail: https://artgen.net/apple-touch-icon.png
+  date_added: '2026-10-24'
+  source: human
