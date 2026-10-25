@@ -33239,6 +33239,7 @@ entries:
   - webui
   summary: A popular WebUI extension that integrates ControlNet and conditioning models into Stable Diffusion WebUI, enabling spatial guidance via pose, depth, line art, and edge maps.
   summary_ja: ControlNetや条件付けモデルをStable Diffusion WebUIに統合し、ポーズ、深度、線画、エッジマップによる空間制御を可能にする定番のWebUI拡張機能。
+  thumbnail: https://opengraph.githubassets.com/1/mikubill/sd-webui-controlnet
   date_added: '2026-10-23'
   source: agent
   repo: mikubill/sd-webui-controlnet
@@ -39803,6 +39804,7 @@ entries:
   - semi-automatic
   summary: A semi-automatic manga colorization system that generates full-color manga pages guided by sparse user color hints using deep neural networks.
   summary_ja: 深層ニューラルネットワークを用い、ユーザーによる僅かなカラーヒントをガイドとしてフルカラーのマンガページを生成する半自動マンガ着色システム。
+  thumbnail: https://opengraph.githubassets.com/1/dwangomediavillage/comicolorization
   date_added: '2026-10-24'
   source: agent
   repo: dwangomediavillage/comicolorization
@@ -41798,6 +41800,7 @@ entries:
   - screentone
   summary: A ComfyUI custom node suite for converting images into black-and-white manga pages with crisp line art, flat tones, realistic halftone screentones, and panel frames.
   summary_ja: 画像をくっきりした線画、ベタ塗り、リアルなハーフトーンスクリーントーン、コマ割り付きの白黒マンガページに変換するComfyUIカスタムノード群。
+  thumbnail: https://opengraph.githubassets.com/1/ashukae/comfyui-mangascreen
   date_added: '2026-10-24'
   source: agent
   repo: ashukae/comfyui-mangascreen
@@ -44336,6 +44339,7 @@ entries:
   - roleplay
   summary: A framework that trains language model agents to act as specific personas by editing profiles into detailed life experiences and fine-tuning models on personal simulacra data.
   summary_ja: プロフィールを詳細な生い立ちや体験履歴として再構築し、特定の人物やNPCのペルソナ・口調を一貫して維持するLLMエージェントを学習させる手法。
+  thumbnail: https://opengraph.githubassets.com/1/choosewhatulike/trainable-agents
   date_added: '2026-10-24'
   source: agent
   arxiv_id: '2310.10158'
@@ -44367,6 +44371,7 @@ entries:
   - roleplay
   summary: An open-source role-playing algorithm and dataset designed to mimic fictional and anime characters using script-extracted memory retrievable prompts and targeted LLM fine-tuning.
   summary_ja: アニメやフィクション作品の台本から抽出した記憶・会話ログを検索プロンプトおよびLLM微調整に活用し、特定のキャラクター性を再現するロールプレイングフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/lc1332/chat-haruhi-suzumiya
   date_added: '2026-10-24'
   source: agent
   arxiv_id: '2308.09597'
@@ -46779,6 +46784,32 @@ entries:
   source: agent
   arxiv_id: '2307.13974'
   repo: jiawen-zhu/hqtrack
+- id: matting-anything-model-mam-6344a7
+  title: Matting Anything Model (MAM)
+  area: video
+  task: rotoscoping
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.05399
+    github: https://github.com/SHI-Labs/Matting-Anything
+  authors:
+  - Jiachen Li
+  - Jing Zhang
+  - Stephen J. Maybank
+  - Dacheng Tao
+  year: 2023
+  tags:
+  - alpha-matte
+  - image-matting
+  - rotoscoping
+  - segment-anything
+  summary: Matting Anything Model (MAM) adapts SAM representations with a lightweight Mask-to-Matte module to produce fine-grained alpha mattes from interactive visual or text prompts.
+  summary_ja: Matting Anything Model（MAM）は、SAMの表現と言語・視覚プロンプトを基に軽量なMask-to-Matteモジュールを用いて精細なアルファマットを抽出する汎用マッティングモデルです。
+  thumbnail: https://opengraph.githubassets.com/1/shi-labs/matting-anything
+  date_added: '2026-10-25'
+  source: agent
+  arxiv_id: '2306.05399'
+  repo: shi-labs/matting-anything
 - id: segment-and-track-anything-sam-track-26127b
   title: Segment and Track Anything (SAM-Track)
   area: video
@@ -48421,6 +48452,36 @@ entries:
   source: agent
   arxiv_id: '2401.10226'
   repo: jianzongwu/language-driven-video-inpainting
+- id: uniedit-ffdbd2
+  title: UniEdit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.13185
+    github: https://github.com/JianhongBai/UniEdit
+    paper: https://arxiv.org/pdf/2402.13185
+  authors:
+  - Jianhong Bai
+  - Tianyu He
+  - Yuchi Wang
+  - Junliang Guo
+  - Haoji Hu
+  - Zuozhu Liu
+  - Jiang Bian
+  year: 2024
+  tags:
+  - appearance-editing
+  - motion-editing
+  - tuning-free
+  - video-editing
+  summary: A tuning-free video editing framework that leverages pre-trained text-to-video generators to enable both appearance stylization and motion editing across video frames.
+  summary_ja: 事前学習済みText-to-Videoジェネレータを活用し、ファインチューニングなしで動画の外観スタイル変更と動的なモーション編集の両方を実現する統合フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/jianhongbai/uniedit
+  date_added: '2026-10-25'
+  source: agent
+  arxiv_id: '2402.13185'
+  repo: jianhongbai/uniedit
 - id: videodirector-2a666d
   title: VideoDirector
   area: video
@@ -48617,6 +48678,33 @@ entries:
   source: agent
   arxiv_id: '2310.05922'
   repo: yrcong/flatten
+- id: magicedit-04ad06
+  title: MagicEdit
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.14749
+    github: https://github.com/magic-research/magic-edit
+    paper: https://arxiv.org/pdf/2308.14749
+  authors:
+  - Jun Hao Liew
+  - Hanshu Yan
+  - Jianfeng Zhang
+  - Zhongcong Xu
+  - Jiashi Feng
+  year: 2023
+  tags:
+  - content-disentanglement
+  - temporal-coherence
+  - text-guided
+  - video-editing
+  summary: A text-guided video editing framework that achieves high fidelity and temporal coherence by explicitly disentangling content, structure, and motion representations during training.
+  summary_ja: 学習時にコンテンツ・構造・モーションの表現を明示的に分離することで、高い再現性と時間的一貫性を両立するテキスト主導型動画編集フレームワーク。
+  date_added: '2026-10-25'
+  source: agent
+  arxiv_id: '2308.14749'
+  repo: magic-research/magic-edit
 - id: propainter-f5f671
   title: ProPainter
   area: video

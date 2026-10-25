@@ -4804,6 +4804,24 @@ entries:
   thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/procedural-content-generation-framework-in-unreal-engine&application_version=5.8
   date_added: '2026-07-26'
   source: agent
+- id: sidefx-houdini-engine-bcb56d
+  title: SideFX Houdini Engine
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://www.sidefx.com/industries/games/
+  year: 2020
+  tags:
+  - game-dev
+  - houdini
+  - procedural-generation
+  - world-building
+  summary: A procedural node-based toolset and engine integration enabling technical artists to build art-directable generators for environments, terrains, and level layouts.
+  summary_ja: テクニカルアーティストが環境、地形、レベルレイアウト向けのプロシージャル生成ツールを構築し、ゲームエンジン内で直接活用できるノードベースの制作基盤。
+  thumbnail: https://media.sidefx.com/uploads/products/banners/titan_trailer.jpeg
+  date_added: '2026-10-25'
+  source: agent
 - id: sidefx-houdini-993185
   title: SideFX Houdini
   area: text-design
@@ -5043,6 +5061,25 @@ entries:
   summary: An industry-standard AI-powered rotoscoping tool integrated into Adobe After Effects that automates the separation of foreground subjects from backgrounds using advanced machine learning.
   summary_ja: Adobe After Effectsに統合された業界標準のAI搭載ロトスコープツールであり、高度な機械学習を用いて前景の被写体と背景の分離を自動化します。
   date_added: '2026-07-19'
+  source: agent
+- id: adobe-after-effects-roto-brush-3-2907d6
+  title: Adobe After Effects Roto Brush 3
+  area: video
+  task: rotoscoping
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/aftereffects.html
+  authors:
+  - Adobe
+  year: 2024
+  tags:
+  - after-effects
+  - matting
+  - rotoscoping
+  - vfx
+  summary: Adobe After Effects Roto Brush 3 is an AI-powered rotoscoping tool built into After Effects that automatically tracks and isolates moving subjects across video frames.
+  summary_ja: Adobe After Effects Roto Brush 3は、After Effectsに内蔵されたAIロトスコーピング機能であり、動く被写体をAIで自動追跡・切り抜きます。
+  date_added: '2026-10-25'
   source: agent
 - id: beeble-4803d1
   title: Beeble
