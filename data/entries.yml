@@ -159,6 +159,35 @@ entries:
   date_added: '2026-10-12'
   source: agent
   repo: nvidia/audio2face-3d
+- id: audio2face-3d-audio-driven-realistic-facial-animation-for-di-2addc5
+  title: 'Audio2Face-3D: Audio-driven Realistic Facial Animation For Digital Avatars'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.16401
+    github: https://github.com/NVIDIA/Audio2Face-3D
+  authors:
+  - Chaeyeon Chung
+  - Ilya Fedorov
+  - Michael Huang
+  - Aleksey Karmanov
+  - Dmitry Korobchenko
+  - Roger Ribera
+  year: 2025
+  tags:
+  - 3d-facial-animation
+  - audio2face
+  - blendshapes
+  - lip-sync
+  - nvidia
+  summary: NVIDIA's open-source 3D facial animation framework that converts speech audio streams into blendshapes and mesh deformations for real-time digital human and game character animation.
+  summary_ja: 音声ストリームからリアルタイムでブレンドシェイプやメッシュ変形を生成するNVIDIAのオープンソース3D表情アニメーションフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/nvidia/audio2face-3d
+  date_added: '2026-10-26'
+  source: agent
+  arxiv_id: '2508.16401'
+  repo: nvidia/audio2face-3d
 - id: echomimicv3-6bedd7
   title: EchoMimicV3
   area: animation
@@ -1494,6 +1523,27 @@ entries:
   date_added: '2026-10-05'
   source: agent
   arxiv_id: '2608.22861'
+- id: low-cost-deep-learning-for-automated-keyframe-interpolation-cfaac0
+  title: Low-Cost Deep Learning for Automated Keyframe Interpolation in Sprite Animation
+  area: animation
+  task: inbetweening
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.16423
+  authors:
+  - Kenneth Alonso
+  - Gustavo Patow
+  year: 2026
+  tags:
+  - 2d-art
+  - game-dev
+  - inbetweening
+  - sprite-animation
+  summary: A deep learning framework designed for automated keyframe inbetweening of 2D game sprites, preserving sharp edges and color palettes without introducing motion-blur artifacts common in standard VFI.
+  summary_ja: 2Dゲーム用スプライト画像のキーフレーム間中割りに特化したディープラーニング手法。従来の手法で発生しがちな輪郭のボケを防ぎ、ドット絵やスタイライズドアニメーションのスムーズな補間を実現。
+  date_added: '2026-10-26'
+  source: agent
+  arxiv_id: '2610.16423'
 - id: mass-motion-aligned-selective-scan-for-refinement-in-flow-ba-28a5c4
   title: 'MASS: Motion-Aligned Selective Scan for Refinement in Flow-Based Video Frame Interpolation'
   area: animation
@@ -3129,6 +3179,32 @@ entries:
   thumbnail: https://opengraph.githubassets.com/1/yanjieze/gmr
   date_added: '2026-10-12'
   source: agent
+  repo: yanjieze/gmr
+- id: gmr-general-motion-retargeting-dab0cf
+  title: 'GMR: General Motion Retargeting'
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.02833
+    github: https://github.com/YanjieZe/GMR
+  authors:
+  - Yanjie Ze
+  - Zixuan Chen
+  - Jiajun Wu
+  - C. Karen Liu
+  year: 2024
+  tags:
+  - character-animation
+  - kinematics
+  - motion-retargeting
+  - teleoperation
+  summary: GMR (General Motion Retargeting) is a CPU-efficient, real-time motion retargeting library that transfers human motion capture data onto diverse 3D character and humanoid robot skeletons.
+  summary_ja: GMR（General Motion Retargeting）は、人間のモーションキャプチャ データを様々な3Dキャラクターやヒューマノイドロボットの骨格へリアルタイムに転送するCPU軽量型のモーションリターゲティングライブラリです。
+  thumbnail: https://opengraph.githubassets.com/1/yanjieze/gmr
+  date_added: '2026-10-26'
+  source: agent
+  arxiv_id: '2505.02833'
   repo: yanjieze/gmr
 - id: meshret-skinned-motion-retargeting-with-dense-geometric-inte-e8cbf8
   title: 'MeshRet: Skinned Motion Retargeting with Dense Geometric Interaction Perception'
@@ -7226,6 +7302,33 @@ entries:
   source: agent
   arxiv_id: '2411.17335'
   repo: zeyuling/versatilemotion
+- id: intergen-diffusion-based-multi-human-motion-generation-under-ceaded
+  title: 'InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2304.05684
+    github: https://github.com/tr3e/InterGen
+    paper: https://arxiv.org/pdf/2304.05684
+  authors:
+  - Han Liang
+  - Wenqian Zhang
+  - Wenxuan Li
+  - Jingyi Yu
+  - Lan Xu
+  year: 2023
+  tags:
+  - diffusion
+  - motion-generation
+  - multi-human
+  - text-to-motion
+  summary: A diffusion-based motion generation model designed for multi-person interactive 3D human motion synthesis from text prompts.
+  summary_ja: テキストプロンプトから複数人の相互作用を伴う3Dヒューマンモーションを合成するために設計された拡散ベースのモーション生成モデル。
+  date_added: '2026-10-26'
+  source: agent
+  arxiv_id: '2304.05684'
+  repo: tr3e/intergen
 - id: momask-efdbc2
   title: MoMask
   area: animation
@@ -8358,6 +8461,31 @@ entries:
   date_added: '2026-07-13'
   source: agent
   repo: xianfei/sysmocap
+- id: frankmocap-d77403
+  title: FrankMocap
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2008.08324
+    github: https://github.com/facebookresearch/frankmocap
+    paper: https://arxiv.org/abs/2008.08324
+  authors:
+  - Yu Rong
+  - Takaaki Shiratori
+  - Hanbyul Joo
+  year: 2020
+  tags:
+  - 3d-estimation
+  - hand-pose
+  - mocap
+  summary: FrankMocap is a monocular 3D motion capture framework that estimates full 3D body pose and hand gestures concurrently from single-view RGB video inputs.
+  summary_ja: FrankMocapは、単一視点のRGBビデオから全身の3Dポーズと手のジェスチャーを同時に推定する単眼3Dモーションキャプチャフレームワークです。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-10-26'
+  source: agent
+  arxiv_id: '2008.08324'
+  repo: facebookresearch/frankmocap
 - id: frankmocap-dec7fd
   title: FrankMocap
   area: animation
@@ -48701,6 +48829,7 @@ entries:
   - video-editing
   summary: A text-guided video editing framework that achieves high fidelity and temporal coherence by explicitly disentangling content, structure, and motion representations during training.
   summary_ja: 学習時にコンテンツ・構造・モーションの表現を明示的に分離することで、高い再現性と時間的一貫性を両立するテキスト主導型動画編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/magic-research/magic-edit
   date_added: '2026-10-25'
   source: agent
   arxiv_id: '2308.14749'

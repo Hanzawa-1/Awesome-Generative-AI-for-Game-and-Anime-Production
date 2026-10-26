@@ -102,6 +102,27 @@ entries:
   thumbnail: https://assets.ngc.nvidia.com/products/api-catalog/images/audio2face-3d.jpg
   date_added: '2026-07-06'
   source: agent
+- id: reallusion-acculips-a3974a
+  title: Reallusion AccuLips
+  area: animation
+  task: facial-lipsync
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/iclone/lipsync-animation.html
+  authors:
+  - Reallusion
+  year: 2021
+  tags:
+  - 3d-character
+  - iclone
+  - lip-sync
+  - proprietary
+  - viseme
+  summary: An AI-assisted facial animation tool in iClone that extracts text and visemes from audio tracks to automatically generate synchronized lip and expression blendshapes for 3D game models.
+  summary_ja: 音声トラックからテキストとビゼームを自動抽出し、3Dゲームモデル向けに高精度な口パクや表情のブレンドシェイプを生成するiClone内蔵のAI支援リップシンクツール。
+  thumbnail: https://www.reallusion.com/iclone/includes/images/lipsync-animation/lipsync-animation-og.jpg
+  date_added: '2026-10-26'
+  source: agent
 - id: jali-research-7f5c56
   title: JALI Research
   area: animation
