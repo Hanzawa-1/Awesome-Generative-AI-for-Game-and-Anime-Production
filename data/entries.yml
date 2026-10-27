@@ -12116,6 +12116,25 @@ entries:
   source: agent
   arxiv_id: '2210.15987'
   repo: nnsvs/nnsvs
+- id: nnsvs-77c0e5
+  title: NNSVS
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    github: https://github.com/nnsvs/nnsvs
+    website: https://nnsvs.github.io/
+  year: 2022
+  tags:
+  - deep-learning
+  - nnsvs
+  - singing-voice-synthesis
+  - voicebank
+  summary: NNSVS is an open-source neural network-based singing voice synthesis library designed for research and voicebank creation, providing modular acoustic and duration models that power open singing engines.
+  summary_ja: NNSVSは研究やボイスバンク制作向けのオープンソースDNN歌声合成ライブラリであり、オープンな歌声合成エンジンを支える音響・音素タイミング予測モジュールを提供します。
+  date_added: '2026-10-27'
+  source: agent
+  repo: nnsvs/nnsvs
 - id: visinger-2-b1724c
   title: VISinger 2
   area: audio
@@ -14576,6 +14595,35 @@ entries:
   source: agent
   arxiv_id: '2502.20220'
   repo: tobias-kirschstein/avat3r
+- id: gas-generative-avatar-synthesis-from-a-single-image-e0fcbb
+  title: 'GAS: Generative Avatar Synthesis from a Single Image'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.06957
+    github: https://github.com/humansensinglab/GAS
+    project: https://humansensinglab.github.io/GAS/
+    paper: https://arxiv.org/pdf/2502.06957
+  authors:
+  - Yixing Lu
+  - Tianshuo Yu
+  - Sida Peng
+  - Xinyi Ye
+  - Yujun Shen
+  - Xiaowei Zhou
+  year: 2025
+  tags:
+  - 3d-avatar
+  - avatar
+  - nerf
+  - single-image
+  summary: A generalizable framework that synthesizes view-consistent and temporally coherent 3D human avatars from a single RGB image by conditioning video diffusion on NeRF priors.
+  summary_ja: 単一のRGB画像からNeRF事前知識とビデオ拡散モデルを組み合わせ、視点一貫性と時間的連続性を備えた3Dヒューマンアバターを合成するフレームワーク。
+  date_added: '2026-10-27'
+  source: agent
+  arxiv_id: '2502.06957'
+  repo: humansensinglab/gas
 - id: gsac-leveraging-gaussian-splatting-for-photorealistic-avatar-ec742d
   title: 'GSAC: Leveraging Gaussian Splatting for Photorealistic Avatar Creation with Unity Integration'
   area: characters

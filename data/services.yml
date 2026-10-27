@@ -1572,6 +1572,22 @@ entries:
   thumbnail: https://cms-assets.unrealengine.com/cm6ts095h04fm07oh6wxhfjst/resize=width:1200/cmb6km8c461au07od9108x691
   date_added: '2026-06-13'
   source: seed
+- id: unreal-engine-metahuman-creator-53bb31
+  title: Unreal Engine MetaHuman Creator
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://www.unrealengine.com/en-US/metahuman
+  tags:
+  - 3d-human
+  - avatar
+  - metahuman
+  - unreal-engine
+  summary: Epic Games cloud-streamed application for generating photorealistic, fully rigged 3D human avatars with customizable features and animation readiness for Unreal Engine.
+  summary_ja: Epic Gamesが提供する、詳細にカスタマイズ可能な高精度の3Dデジタルヒューマンアバターを生成し、リアルタイムアニメーションに対応させるクラウド型ツール。
+  date_added: '2026-10-27'
+  source: agent
 - id: character-creator-4-2d061a
   title: Character Creator 4
   area: characters
