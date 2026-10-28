@@ -14620,6 +14620,7 @@ entries:
   - single-image
   summary: A generalizable framework that synthesizes view-consistent and temporally coherent 3D human avatars from a single RGB image by conditioning video diffusion on NeRF priors.
   summary_ja: 単一のRGB画像からNeRF事前知識とビデオ拡散モデルを組み合わせ、視点一貫性と時間的連続性を備えた3Dヒューマンアバターを合成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/humansensinglab/gas
   date_added: '2026-10-27'
   source: agent
   arxiv_id: '2502.06957'
@@ -17626,6 +17627,31 @@ entries:
   source: agent
   arxiv_id: '2404.19026'
   repo: conallwang/mega
+- id: portrait4d-v2-916b90
+  title: Portrait4D-v2
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.13570
+    github: https://github.com/YuDeng/Portrait-4D
+    paper: https://arxiv.org/pdf/2403.13570
+  authors:
+  - Yu Deng
+  - Duomin Wang
+  - Baoyuan Wang
+  year: 2024
+  tags:
+  - 3d-face
+  - 4d-synthesis
+  - expression
+  - head-avatar
+  summary: Portrait4D-v2 is a feed-forward neural architecture for one-shot 4D head avatar synthesis using pseudo multi-view video supervision to achieve accurate facial expression and view control without 3DMM alignment errors.
+  summary_ja: Portrait4D-v2は、3DMMの位置合わせ誤差を回避しながら、正確な表情と視点制御を実現する疑似マルチビュー動画教師あり学習を用いたワンショット4Dヘッドアバター合成フレームワークです。
+  date_added: '2026-10-28'
+  source: agent
+  arxiv_id: '2403.13570'
+  repo: yudeng/portrait-4d
 - id: real3d-portrait-e55900
   title: Real3D-Portrait
   area: characters
@@ -19387,6 +19413,33 @@ entries:
   source: agent
   arxiv_id: '2507.11061'
   repo: janeyeon/romap-code
+- id: shapellm-omni-d3576e
+  title: ShapeLLM-Omni
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.01853
+    github: https://github.com/JAMESYJL/ShapeLLM-Omni
+    paper: https://arxiv.org/pdf/2506.01853
+  authors:
+  - Junliang Ye
+  - Zhengyi Wang
+  - Ruowen Zhao
+  - Shenghao Xie
+  - Jun Zhu
+  year: 2025
+  tags:
+  - 3d-editing
+  - 3d-generation
+  - llm
+  - multimodal
+  summary: A native multimodal 3D large language model designed to perform 3D object understanding, text-guided generation, and conversational 3D asset editing in arbitrary sequences.
+  summary_ja: 任意の順序で3D資産の理解、テキスト駆動の生成、および対話的な3Dアセット編集をシームレスに行えるネイティブ多峰性3D大規模言語モデル。
+  date_added: '2026-10-28'
+  source: agent
+  arxiv_id: '2506.01853'
+  repo: jamesyjl/shapellm-omni
 - id: tinker-diffusion-s-gift-to-3d-multi-view-consistent-editing-deb6e8
   title: 'Tinker: Diffusion''s Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization'
   area: gen-3d
@@ -19831,6 +19884,33 @@ entries:
   date_added: '2026-08-19'
   source: agent
   repo: mrnerf/lichtfeld-studio
+- id: mvdrag3d-7bc473
+  title: MvDrag3D
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.16272
+    github: https://github.com/chenhonghua/MvDrag3D
+    paper: https://arxiv.org/pdf/2410.16272
+  authors:
+  - Honghua Chen
+  - Yushi Lan
+  - Yongwei Chen
+  - Yifan Zhou
+  - Xingang Pan
+  year: 2024
+  tags:
+  - 3d-editing
+  - drag-editing
+  - interactive
+  - mesh-editing
+  summary: A drag-based interactive 3D editing framework that leverages multi-view generation and reconstruction priors to perform precise structural manipulations and handle topological changes.
+  summary_ja: マルチビュー生成および再構成の事前知識を活用し、インタラクティブなドラッグ操作による精密な構造変形や位相変化に対応した3D編集フレームワーク。
+  date_added: '2026-10-28'
+  source: agent
+  arxiv_id: '2410.16272'
+  repo: chenhonghua/mvdrag3d
 - id: mvinpainter-learning-multi-view-consistent-inpainting-to-bri-2fe961
   title: 'MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing'
   area: gen-3d
@@ -24019,6 +24099,36 @@ entries:
   date_added: '2026-06-13'
   source: seed
   repo: lzzcd001/gshell
+- id: grm-large-gaussian-reconstruction-model-for-efficient-3d-rec-18fbcb
+  title: 'GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.14621
+    github: https://github.com/justimyhxu/GRM
+  authors:
+  - Yinghao Xu
+  - Zifan Shi
+  - Wang Yifan
+  - Hansheng Chen
+  - Ceyuan Yang
+  - Sida Peng
+  - Yujun Shen
+  - Gordon Wetzstein
+  year: 2024
+  tags:
+  - 3d-gaussian-splatting
+  - 3d-reconstruction
+  - feed-forward
+  - mesh-generation
+  summary: GRM is a feed-forward transformer-based model that translates multi-view or sparse-view images into pixel-aligned 3D Gaussians for fast 3D reconstruction and generative asset creation.
+  summary_ja: GRMは、マルチビューまたはスパースビュー画像からピクセルアライメントされた3Dガウシアンを高速変換するフィードフォワード型トランスフォーマーモデルであり、高速な3D復元とアセット生成を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/justimyhxu/grm
+  date_added: '2026-10-28'
+  source: agent
+  arxiv_id: '2403.14621'
+  repo: justimyhxu/grm
 - id: llama-mesh-ca3a9f
   title: LLaMA-Mesh
   area: gen-3d
