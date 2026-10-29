@@ -7325,6 +7325,7 @@ entries:
   - text-to-motion
   summary: A diffusion-based motion generation model designed for multi-person interactive 3D human motion synthesis from text prompts.
   summary_ja: テキストプロンプトから複数人の相互作用を伴う3Dヒューマンモーションを合成するために設計された拡散ベースのモーション生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/tr3e/intergen
   date_added: '2026-10-26'
   source: agent
   arxiv_id: '2304.05684'
@@ -12132,6 +12133,7 @@ entries:
   - voicebank
   summary: NNSVS is an open-source neural network-based singing voice synthesis library designed for research and voicebank creation, providing modular acoustic and duration models that power open singing engines.
   summary_ja: NNSVSは研究やボイスバンク制作向けのオープンソースDNN歌声合成ライブラリであり、オープンな歌声合成エンジンを支える音響・音素タイミング予測モジュールを提供します。
+  thumbnail: https://opengraph.githubassets.com/1/nnsvs/nnsvs
   date_added: '2026-10-27'
   source: agent
   repo: nnsvs/nnsvs
@@ -17648,6 +17650,7 @@ entries:
   - head-avatar
   summary: Portrait4D-v2 is a feed-forward neural architecture for one-shot 4D head avatar synthesis using pseudo multi-view video supervision to achieve accurate facial expression and view control without 3DMM alignment errors.
   summary_ja: Portrait4D-v2は、3DMMの位置合わせ誤差を回避しながら、正確な表情と視点制御を実現する疑似マルチビュー動画教師あり学習を用いたワンショット4Dヘッドアバター合成フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/yudeng/portrait-4d
   date_added: '2026-10-28'
   source: agent
   arxiv_id: '2403.13570'
@@ -19436,6 +19439,7 @@ entries:
   - multimodal
   summary: A native multimodal 3D large language model designed to perform 3D object understanding, text-guided generation, and conversational 3D asset editing in arbitrary sequences.
   summary_ja: 任意の順序で3D資産の理解、テキスト駆動の生成、および対話的な3Dアセット編集をシームレスに行えるネイティブ多峰性3D大規模言語モデル。
+  thumbnail: https://opengraph.githubassets.com/1/jamesyjl/shapellm-omni
   date_added: '2026-10-28'
   source: agent
   arxiv_id: '2506.01853'
@@ -19907,6 +19911,7 @@ entries:
   - mesh-editing
   summary: A drag-based interactive 3D editing framework that leverages multi-view generation and reconstruction priors to perform precise structural manipulations and handle topological changes.
   summary_ja: マルチビュー生成および再構成の事前知識を活用し、インタラクティブなドラッグ操作による精密な構造変形や位相変化に対応した3D編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/chenhonghua/mvdrag3d
   date_added: '2026-10-28'
   source: agent
   arxiv_id: '2410.16272'
@@ -26954,6 +26959,34 @@ entries:
   source: agent
   arxiv_id: '2401.17053'
   repo: tencent/blockfusion
+- id: cat3d-create-anything-in-3d-with-multi-view-diffusion-models-cc9d80
+  title: 'CAT3D: Create Anything in 3D with Multi-View Diffusion Models'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.10314
+    paper: https://arxiv.org/pdf/2405.10314
+  authors:
+  - Ruiqi Gao
+  - Aleksander Holynski
+  - Philipp Henzler
+  - Arthur Brussee
+  - Ricardo Martin-Brualla
+  - Pratul Srinivasan
+  - Jonathan T. Barron
+  - Ben Poole
+  year: 2024
+  tags:
+  - 3d-reconstruction
+  - multi-view-diffusion
+  - novel-view-synthesis
+  - scene-generation
+  summary: CAT3D simulates the multi-view capture process using a 2D multi-view diffusion model to generate highly consistent novel viewpoints from text or sparse images, enabling rapid 3D scene and object reconstruction.
+  summary_ja: マルチビュー拡散モデルによって高品質な新規視点画像を大量生成し、テキストや少数枚の画像から整合性の高い3Dシーンやオブジェクトの再構成を実現する手法。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2405.10314'
 - id: director3d-e03e0e
   title: Director3D
   area: gen-3d
@@ -27470,6 +27503,34 @@ entries:
   source: agent
   arxiv_id: '2302.01330'
   repo: frozenburning/scenedreamer
+- id: wonderjourney-going-from-anywhere-to-everywhere-352acc
+  title: 'WonderJourney: Going from Anywhere to Everywhere'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.03884
+    paper: https://arxiv.org/pdf/2312.03884
+  authors:
+  - Hong-Xing Yu
+  - Haoyi Duan
+  - Junhwa Hur
+  - Kyle Sargent
+  - Michael Rubinstein
+  - William T. Freeman
+  - Forrester Cole
+  - Deqing Sun
+  year: 2023
+  tags:
+  - llm-guided
+  - perpetual-3d
+  - point-cloud
+  - scene-generation
+  summary: WonderJourney is a modular framework for perpetual 3D scene generation that starts from a single image or text description and leverages LLMs and depth-guided point cloud generation to generate continuous sequences of diverse 3D environments.
+  summary_ja: 1枚の画像またはテキスト記述を出発点とし、LLMのシナリオ展開と深度誘導ポイントクラウド生成を連携させて連続的かつ多様な3Dシーンの旅を生成するモジュール型フレームワーク。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2312.03884'
 - id: 360anything-geometry-free-lifting-of-images-and-videos-to-36-427bd4
   title: '360Anything: Geometry-Free Lifting of Images and Videos to 360°'
   area: gen-3d
@@ -28591,6 +28652,33 @@ entries:
   source: agent
   arxiv_id: '2603.16736'
   repo: lukashoel/video_to_world
+- id: worldstream-df4bf8
+  title: WorldStream
+  area: gen-3d
+  task: terrain-world
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.28827
+  authors:
+  - Xiaoxiao Ma
+  - Weiyang Jin
+  - Yanwen Ma
+  - Haoran Li
+  - Zhixiang Wei
+  - Songchun Zhang
+  - Yaowei Li
+  - Junhao Zhuang
+  year: 2026
+  tags:
+  - 3d-world
+  - persistent-state
+  - streaming
+  - terrain
+  summary: A 3D world generation framework capable of streaming unbounded interactive environments. Dynamically extends terrain, adheres to open-ended text instructions, and maintains persistent state across visited regions.
+  summary_ja: 無制限のインタラクティブな環境をストリーミング生成する3Dワールド生成フレームワーク。地形を動的に拡張し、テキスト指示に従いながら、訪問済みの場所の状態保持を可能にする。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2610.28827'
 - id: worldweave-growing-persistent-geometric-worlds-for-video-gen-6fe829
   title: 'WorldWeave: Growing Persistent Geometric Worlds for Video Generation'
   area: gen-3d
@@ -29934,6 +30022,33 @@ entries:
   source: agent
   arxiv_id: '2311.11284'
   repo: envision-research/luciddreamer
+- id: mvdream-multi-view-diffusion-for-3d-generation-e4714f
+  title: 'MVDream: Multi-view Diffusion for 3D Generation'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2308.16512
+    github: https://github.com/bytedance/MVDream
+  authors:
+  - Yichun Shi
+  - Peng Wang
+  - Jianglong Ye
+  - Mai Long
+  - Kejie Li
+  - Xiao Yang
+  year: 2023
+  tags:
+  - 3d-prior
+  - multi-view-diffusion
+  - sds
+  - text-to-3d
+  summary: ByteDance's MVDream uses a multi-view diffusion model trained on 2D and 3D data as a 3D prior for score distillation sampling, enabling consistent text-to-3D generation without multi-face artifacts.
+  summary_ja: ByteDanceのMVDreamは、2D・3Dデータで学習したマルチビュー拡散モデルを3D事前分布として活用し、スコア蒸留サンプリング（SDS）によって破綻のないマルチビュー一貫性を持つ3Dモデルを生成します。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2308.16512'
+  repo: bytedance/mvdream
 - id: prolificdreamer-45e0c2
   title: ProlificDreamer
   area: gen-3d
@@ -30788,6 +30903,30 @@ entries:
   source: agent
   arxiv_id: '2405.17176'
   repo: zzzyuqing/dreammat
+- id: dreampbr-text-driven-generation-of-high-resolution-svbrdf-wi-8d07ec
+  title: 'DreamPBR: Text-driven Generation of High-resolution SVBRDF with Multi-modal Guidance'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2404.14676
+  authors:
+  - Linxuan Xin
+  - Zheng Zhang
+  - Jinfu Wei
+  - Wei Gao
+  - Duan Gao
+  year: 2024
+  tags:
+  - diffusion
+  - pbr
+  - svbrdf
+  - texture
+  summary: DreamPBR is a diffusion-based generative framework that creates high-resolution, tileable SVBRDF and PBR material maps guided by text descriptions and multimodal inputs. It provides precise control over individual physical material channels like albedo, normal, roughness, and metallic.
+  summary_ja: DreamPBRは、テキスト記述やマルチモーダル入力に基づいて高解像度でタイリング可能なSVBRDF/PBRマテリアルマップを生成する拡散モデルフレームワークです。アルベド、法線、ラフネス、メタリックなどの各物理チャネルを精緻に制御可能です。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2404.14676'
 - id: intex-interactive-text-to-texture-synthesis-via-unified-dept-e536cc
   title: 'InTeX: Interactive Text-to-texture Synthesis via Unified Depth-aware Inpainting'
   area: gen-3d
@@ -31713,6 +31852,24 @@ entries:
   date_added: '2026-07-16'
   source: agent
   repo: hjwdzh/quadriflow
+- id: xatlas-955fae
+  title: xatlas
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    github: https://github.com/jpcy/xatlas
+  year: 2017
+  tags:
+  - texture-atlas
+  - uv
+  - uv-unwrapping
+  summary: xatlas is a C++ library for automatic mesh parameterization and UV unwrapping that generates non-overlapping texture atlases for lightmapping and 3D rendering.
+  summary_ja: xatlasは、ライトマッピングや3Dレンダリング向けに重複のないテクスチャアトラスを生成する、自動メッシュパラメータ化およびUV展開用C++ライブラリです。
+  thumbnail: https://opengraph.githubassets.com/1/jpcy/xatlas
+  date_added: '2026-10-29'
+  source: agent
+  repo: jpcy/xatlas
 - id: instant-meshes-0afe69
   title: Instant Meshes
   area: gen-3d
@@ -31872,6 +32029,34 @@ entries:
   date_added: '2026-06-18'
   source: agent
   arxiv_id: '2603.28365'
+- id: anime-3b3c0b
+  title: AniME
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2508.18781
+    paper: https://arxiv.org/pdf/2508.18781
+  authors:
+  - Lisai Zhang
+  - Baohan Xu
+  - Siqian Yang
+  - Mingyu Yin
+  - Jing Liu
+  - Chao Xu
+  - Siqi Wang
+  - Yidi Wu
+  year: 2025
+  tags:
+  - anime
+  - character-design
+  - multi-agent
+  - workflow
+  summary: A director-oriented multi-agent system for automated end-to-end anime production that maintains global character and story context while coordinating specialized sub-tasks.
+  summary_ja: アニメ制作の自動化に向けた監督指向マルチエージェントシステム。グローバルなキャラクターおよびストーリーの文脈を維持しながら、専門化されたサブタスクを連携・制御する。
+  date_added: '2026-10-29'
+  source: agent
+  arxiv_id: '2508.18781'
 - id: omnisvg-7a6129
   title: OmniSVG
   area: image-2d

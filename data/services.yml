@@ -2689,6 +2689,23 @@ entries:
   thumbnail: https://characterlock.ai/og-image.png
   date_added: '2026-08-27'
   source: agent
+- id: nijijourney-8b49c7
+  title: NijiJourney
+  area: image-2d
+  task: anime-character-design
+  kind: proprietary
+  links:
+    website: https://nijijourney.com/
+  year: 2023
+  tags:
+  - anime
+  - character-design
+  - commercial
+  - midjourney
+  summary: An anime-specialized AI image generation engine co-developed by Spellbrush and Midjourney, optimized for stylized 2D character designs, dynamic poses, and anime aesthetics.
+  summary_ja: SpellbrushとMidjourneyが共同開発したアニメ特化型AI画像生成エンジンで、スタイライズされた2Dキャラクターデザインや動的なポーズ、アニメ美学に最適化されている。
+  date_added: '2026-10-29'
+  source: agent
 - id: pixai-80f3ec
   title: PixAI
   area: image-2d
