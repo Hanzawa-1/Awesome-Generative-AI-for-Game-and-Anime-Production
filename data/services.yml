@@ -3276,6 +3276,22 @@ entries:
   thumbnail: https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694b256896dd559dad1f8296_Generic_OpenGraph_1200x630.png
   date_added: '2026-07-17'
   source: agent
+- id: krea-ai-realtime-canvas-deb9a4
+  title: Krea AI Realtime Canvas
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.krea.ai/
+  tags:
+  - interactive
+  - real-time
+  - sketch-to-image
+  - web-canvas
+  summary: A real-time web-based AI canvas that instantly renders high-quality images from freehand sketches and prompts as the user draws.
+  summary_ja: 手描きスケッチとテキストプロンプトから描画に合わせて瞬時に高精度画像を生成するリアルタイムWebキャンバスツール。
+  date_added: '2026-10-30'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d
@@ -3344,6 +3360,24 @@ entries:
   summary: A premium generative AI upscaler and enhancer that intelligently adds high-resolution details, textures, and sharpness to images and illustrations.
   summary_ja: 画像やイラストに高解像度のディテール、テクスチャ、鮮明さをインテリジェントに追加する、プレミアムな生成AIアップスケーラーおよびエンハンサー。
   date_added: '2026-06-26'
+  source: agent
+- id: topaz-gigapixel-ac26ed
+  title: Topaz Gigapixel
+  area: image-2d
+  task: super-resolution
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-gigapixel
+  year: 2018
+  tags:
+  - industry-tool
+  - proprietary
+  - super-resolution
+  - upscaling
+  summary: An industry-standard AI image upscaler providing up to 16x enlargement while preserving fine details, sharp line art, and facial features for production workflows.
+  summary_ja: 最大16倍の拡大に対応し、細部の質感や鋭い輪郭線、顔の表情を自然に維持しながら高精度にアップスケールする業界標準のプロ向けAI画像拡張ツール。
+  thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca9105d4f07b7d38a3f7f7_opengraph-topaz-giga.webp
+  date_added: '2026-10-30'
   source: agent
 - id: topaz-gigapixel-ai-eb4df5
   title: Topaz Gigapixel AI

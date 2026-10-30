@@ -33161,6 +33161,36 @@ entries:
   date_added: '2026-10-02'
   source: agent
   repo: kohya-ss/comfyui-anima-lllite
+- id: controlar-controllable-image-generation-with-autoregressive-432ecb
+  title: 'ControlAR: Controllable Image Generation with Autoregressive Models'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2410.02705
+    github: https://github.com/hustvl/ControlAR
+    paper: https://arxiv.org/pdf/2410.02705
+  authors:
+  - Zongming Li
+  - Tianheng Cheng
+  - Shoufa Chen
+  - Peize Sun
+  - Haocheng Shen
+  - Longjin Ran
+  - Xiaoxin Chen
+  - Wenyu Liu
+  year: 2024
+  tags:
+  - autoregressive
+  - conditioning
+  - controlar
+  - controlnet
+  summary: Extends ControlNet-style spatial conditioning (such as pose, depth, and edge guidance) to autoregressive visual generation models using decoder-based conditioning blocks.
+  summary_ja: デコーダーベースの条件付けブロックを用いることで、ポーズ、深度、エッジなどのControlNet形式の空間制御を自己回帰型画像生成モデルに拡張した手法。
+  date_added: '2026-10-30'
+  source: agent
+  arxiv_id: '2410.02705'
+  repo: hustvl/controlar
 - id: controlnet-controlnet-union-sdxl-066c5d
   title: ControlNet++ (ControlNet-Union SDXL)
   area: image-2d
@@ -34576,6 +34606,32 @@ entries:
   source: agent
   arxiv_id: '2404.18212'
   repo: rotsteinnoam/paint-by-inpaint
+- id: stabledrag-stable-dragging-for-point-based-image-editing-242aa9
+  title: 'StableDrag: Stable Dragging for Point-based Image Editing'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.04437
+    paper: https://arxiv.org/pdf/2403.04437
+  authors:
+  - Yutao Cui
+  - Xiaotong Zhao
+  - Guozhen Zhang
+  - Shengming Cao
+  - Kai Ma
+  - Limin Wang
+  year: 2024
+  tags:
+  - diffusion
+  - drag-editing
+  - image-editing
+  - point-based
+  summary: Enhances point-based dragging on diffusion models by introducing precise point tracking and adaptive motion supervision for accurate local manipulations.
+  summary_ja: 拡散モデルにおける点ベースのドラッグ編集を拡張し、精密なポイントトラッキングと適応型モーション監視により正確な局所操作を実現。
+  date_added: '2026-10-30'
+  source: agent
+  arxiv_id: '2403.04437'
 - id: strdiffusion-structure-matters-tackling-the-semantic-discrep-fb69d4
   title: 'StrDiffusion: Structure Matters: Tackling the Semantic Discrepancy in Diffusion-Based Image Inpainting'
   area: image-2d
@@ -34719,6 +34775,32 @@ entries:
   source: agent
   arxiv_id: '2306.14435'
   repo: yujun-shi/dragdiffusion
+- id: freedrag-feature-dragging-for-reliable-point-based-image-edi-33cf75
+  title: 'FreeDrag: Feature Dragging for Reliable Point-based Image Editing'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.04684
+    paper: https://arxiv.org/pdf/2307.04684
+  authors:
+  - Pengyang Ling
+  - Lin Chen
+  - Pan Zhang
+  - Huaian Chen
+  - Yi Jin
+  - Jinjin Zheng
+  year: 2023
+  tags:
+  - drag-editing
+  - feature-dragging
+  - image-editing
+  - point-based
+  summary: A point-based image editing framework that replaces unstable point tracking with motion supervision on line features, offering robust interactive drag edits.
+  summary_ja: 点ベースの画像編集において不安定なポイントトラッキングを線特徴量のモーション監視に置き換え、堅牢なインタラクティブドラッグ編集を実現するフレームワーク。
+  date_added: '2026-10-30'
+  source: agent
+  arxiv_id: '2307.04684'
 - id: hd-painter-757a7e
   title: HD-Painter
   area: image-2d
@@ -36410,6 +36492,26 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: markmohr/virtual_sketching
+- id: artline-5f6846
+  title: ArtLine
+  area: image-2d
+  task: lineart-extraction
+  kind: oss
+  links:
+    github: https://github.com/vijishmadhavan/ArtLine
+  authors:
+  - Vijish Madhavan
+  year: 2020
+  tags:
+  - lineart
+  - photo-to-sketch
+  - portrait
+  - sketch
+  summary: A deep learning framework leveraging self-attention mechanisms and NoGAN training to generate clean, artistic line art portraits and illustrations from input photos.
+  summary_ja: セルフアテンション機構とNoGAN学習を活用し、入力画像や人物写真から綺麗で高品質なラインアート（線画）を自動生成するディープラーニングモデル。
+  date_added: '2026-10-30'
+  source: agent
+  repo: vijishmadhavan/artline
 - id: linedistiller-1d7cfd
   title: LineDistiller
   area: image-2d
@@ -37730,6 +37832,35 @@ entries:
   source: agent
   arxiv_id: '2407.00788'
   repo: instantx-research/instantstyle-plus
+- id: lora-composer-leveraging-low-rank-adaptation-for-multi-conce-0bb05b
+  title: 'LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.11627
+    github: https://github.com/Young98CN/LoRA_Composer
+  authors:
+  - Yang Yang
+  - Wen Wang
+  - Liang Peng
+  - Chaotian Song
+  - Yao Chen
+  - Hengjia Li
+  - Xiaolong Yang
+  - Qinglin Lu
+  year: 2024
+  tags:
+  - diffusion
+  - lora
+  - multi-concept
+  - style-transfer
+  summary: Leverages Low-Rank Adaptation (LoRA) modules to combine multiple subject and style concepts in training-free diffusion models without style bleeding or concept confusion.
+  summary_ja: 学習不要の拡散モデルにおいて、概念混同やスタイル干渉を起こさずに複数の被写体やスタイルのLoRAを合成する手法。
+  date_added: '2026-10-30'
+  source: agent
+  arxiv_id: '2403.11627'
+  repo: young98cn/lora_composer
 - id: lora-rar-learning-to-merge-loras-via-hypernetworks-for-subje-a9e8a0
   title: 'LoRA.rar: Learning to Merge LoRAs via Hypernetworks for Subject-Style Conditioned Image Generation'
   area: image-2d
