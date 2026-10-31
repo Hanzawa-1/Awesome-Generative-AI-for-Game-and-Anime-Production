@@ -30045,6 +30045,7 @@ entries:
   - text-to-3d
   summary: ByteDance's MVDream uses a multi-view diffusion model trained on 2D and 3D data as a 3D prior for score distillation sampling, enabling consistent text-to-3D generation without multi-face artifacts.
   summary_ja: ByteDanceのMVDreamは、2D・3Dデータで学習したマルチビュー拡散モデルを3D事前分布として活用し、スコア蒸留サンプリング（SDS）によって破綻のないマルチビュー一貫性を持つ3Dモデルを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/bytedance/mvdream
   date_added: '2026-10-29'
   source: agent
   arxiv_id: '2308.16512'
@@ -33187,6 +33188,7 @@ entries:
   - controlnet
   summary: Extends ControlNet-style spatial conditioning (such as pose, depth, and edge guidance) to autoregressive visual generation models using decoder-based conditioning blocks.
   summary_ja: デコーダーベースの条件付けブロックを用いることで、ポーズ、深度、エッジなどのControlNet形式の空間制御を自己回帰型画像生成モデルに拡張した手法。
+  thumbnail: https://opengraph.githubassets.com/1/hustvl/controlar
   date_added: '2026-10-30'
   source: agent
   arxiv_id: '2410.02705'
@@ -36509,6 +36511,7 @@ entries:
   - sketch
   summary: A deep learning framework leveraging self-attention mechanisms and NoGAN training to generate clean, artistic line art portraits and illustrations from input photos.
   summary_ja: セルフアテンション機構とNoGAN学習を活用し、入力画像や人物写真から綺麗で高品質なラインアート（線画）を自動生成するディープラーニングモデル。
+  thumbnail: https://opengraph.githubassets.com/1/vijishmadhavan/artline
   date_added: '2026-10-30'
   source: agent
   repo: vijishmadhavan/artline
@@ -37857,6 +37860,7 @@ entries:
   - style-transfer
   summary: Leverages Low-Rank Adaptation (LoRA) modules to combine multiple subject and style concepts in training-free diffusion models without style bleeding or concept confusion.
   summary_ja: 学習不要の拡散モデルにおいて、概念混同やスタイル干渉を起こさずに複数の被写体やスタイルのLoRAを合成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/young98cn/lora_composer
   date_added: '2026-10-30'
   source: agent
   arxiv_id: '2403.11627'

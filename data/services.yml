@@ -4591,6 +4591,23 @@ entries:
   thumbnail: https://www.deepl.com/img/favicon/automatic_social_share_deepl.png
   date_added: '2026-06-13'
   source: seed
+- id: memoq-gaming-a28e84
+  title: memoQ Gaming
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://www.memoq.com/solutions/game-localization/
+  tags:
+  - cat-tool
+  - game-localization
+  - tms
+  - translation
+  summary: An enterprise translation management system and CAT tool tailored for video game localization, offering translation memory, terminology management, AI translation automation, and workflow management for AAA studios.
+  summary_ja: ゲームローカライズ向けに最適化された企業向け翻訳管理システム（TMS）兼CATツール。翻訳メモリ、用語管理、AI自動翻訳、ワークフロー自動化を提供。
+  thumbnail: https://www.memoq.com/wp-content/uploads/2024/12/favicon_memoQ-216x216.png
+  date_added: '2026-10-31'
+  source: agent
 - id: charisma-ai-b1aa8c
   title: Charisma.ai
   area: text-design
