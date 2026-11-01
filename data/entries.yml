@@ -45783,6 +45783,28 @@ entries:
   date_added: '2026-07-26'
   source: agent
   repo: pcgex/pcgextendedtoolkit
+- id: pcgrl-scaling-control-and-generalization-in-reinforcement-le-74f309
+  title: 'PCGRL+: Scaling, Control and Generalization in Reinforcement Learning Level Generators'
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.12525
+  authors:
+  - Sam Earle
+  - Zehua Jiang
+  - Julian Togelius
+  year: 2024
+  tags:
+  - level-generation
+  - pcg
+  - pcgrl
+  - reinforcement-learning
+  summary: An extension of the Procedural Content Generation via Reinforcement Learning (PCGRL) framework that addresses compute overhead and scale limitations, enabling controllable and scalable RL-based level generation for large-scale game maps.
+  summary_ja: 強化学習を用いた手続き型コンテンツ生成（PCGRL）フレームワークの拡張研究。計算オーバーヘッドとスケール制限の問題を解決し、大規模なゲームマップに対する制御可能で拡張性の高い強化学習レベル生成を実現します。
+  date_added: '2026-11-01'
+  source: agent
+  arxiv_id: '2408.12525'
 - id: procedural-content-generation-in-games-a-survey-with-insight-3c3b4a
   title: 'Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration'
   area: text-design
@@ -46007,6 +46029,54 @@ entries:
   source: agent
   arxiv_id: '2109.05489'
   repo: smearle/control-pcgrl
+- id: learning-controllable-3d-level-generators-2c8549
+  title: Learning Controllable 3D Level Generators
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2206.13623
+  authors:
+  - Zehua Jiang
+  - Sam Earle
+  - Michael Cerny Green
+  - Julian Togelius
+  year: 2022
+  tags:
+  - 3d-level
+  - minecraft
+  - pcg
+  - pcgrl
+  summary: Applies Procedural Content Generation via Reinforcement Learning (PCGRL) to 3D voxel and Minecraft-style environments, training RL agents to design complex 3D structures and levels governed by computable functional constraints.
+  summary_ja: 強化学習を用いた手続き型コンテンツ生成（PCGRL）を3Dボクセルやマインクラフト形式の環境に適用し、計算可能な機能制約に基づいて複雑な3D構造やレベルを設計するRLエージェントを訓練する手法。
+  date_added: '2026-11-01'
+  source: agent
+  arxiv_id: '2206.13623'
+- id: deep-learning-for-procedural-content-generation-dec57b
+  title: Deep Learning for Procedural Content Generation
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2010.04548
+  authors:
+  - Jialin Liu
+  - Sam Snodgrass
+  - Ahmed Khalifa
+  - Sebastian Risi
+  - Georgios N. Yannakakis
+  - Julian Togelius
+  year: 2020
+  tags:
+  - deep-learning
+  - level-generation
+  - pcg
+  - pcgml
+  summary: A comprehensive survey reviewing deep learning methods for procedural content generation (PCGML) in video games, covering generative models, level representations, playability evaluation, and controllable level synthesis across diverse game genres.
+  summary_ja: ゲームにおける深層学習を用いた手続き型コンテンツ生成（PCGML）の手法を包括的にレビューしたサーベイ論文。多様なゲームジャンルにわたる生成モデル、レベル表現手法、プレイ可能性の評価、制御可能なレベル合成について解説しています。
+  date_added: '2026-11-01'
+  source: agent
+  arxiv_id: '2010.04548'
 - id: edgar-unity-2e4a2f
   title: Edgar-Unity
   area: text-design
@@ -49551,6 +49621,36 @@ entries:
   source: agent
   arxiv_id: '2204.02663'
   repo: mcg-nku/e2fgvi
+- id: tune-a-video-one-shot-tuning-of-image-diffusion-models-for-t-a3508f
+  title: 'Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2212.11565
+    github: https://github.com/showlab/Tune-A-Video
+  authors:
+  - Jay Zhangjie Wu
+  - Yixiao Ge
+  - Xintao Wang
+  - Weixian Lei
+  - Yuchao Gu
+  - Yufei Shi
+  - Wynne Hsu
+  - Ying Shan
+  year: 2022
+  tags:
+  - diffusion
+  - one-shot
+  - text-to-video
+  - video-editing
+  summary: A pioneering one-shot tuning framework that adapts pre-trained text-to-image diffusion models for text-driven video editing and generation using only a single text-video pair.
+  summary_ja: 単一のテキスト・動画ペアのみを用いて、学習済みのテキスト画像生成拡散モデルをテキスト駆動型の動画編集・生成に適応させるパイオニア的なワンショットチューニングフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/showlab/tune-a-video
+  date_added: '2026-11-01'
+  source: agent
+  arxiv_id: '2212.11565'
+  repo: showlab/tune-a-video
 - id: duo-vsr-dual-stream-distillation-for-one-step-video-super-re-28eb6d
   title: 'DUO-VSR: Dual-Stream Distillation for One-Step Video Super-Resolution'
   area: video

@@ -4909,6 +4909,41 @@ entries:
   thumbnail: https://dev.epicgames.com/community/api/documentation/image/meta_tag?path=en-us/unreal-engine/procedural-content-generation-framework-in-unreal-engine&application_version=5.8
   date_added: '2026-07-26'
   source: agent
+- id: unreal-engine-procedural-content-generation-pcg-framework-2d532a
+  title: Unreal Engine Procedural Content Generation (PCG) Framework
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://dev.epicgames.com/documentation/unreal-engine/procedural-content-generation-framework-in-unreal-engine
+  year: 2023
+  tags:
+  - level-generation
+  - pcg
+  - procedural
+  - unreal-engine
+  summary: Epic Games' node-based visual scripting toolset for Unreal Engine 5 that enables technical artists to procedurally generate large-scale environments, biomes, foliage, and level layouts with real-time in-editor and runtime execution.
+  summary_ja: Unreal Engine 5に搭載されたノードベースのビジュアルスクリプティングツールセットで、テクニカルアーティストが大規模な環境、バイオーム、植生、レベルレイアウトをリアルタイム編集および実行時に手続き型で自動生成できるようにします。
+  date_added: '2026-11-01'
+  source: agent
+- id: sidefx-houdini-for-game-development-a932b3
+  title: SideFX Houdini for Game Development
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://www.sidefx.com/industries/games/
+  year: 2022
+  tags:
+  - houdini
+  - level-generation
+  - pcg
+  - procedural
+  summary: The industry-standard node-based procedural content generation software for game production, enabling automated generation of complex 3D level geometry, terrain, props, and environment assets via non-destructive procedural pipelines.
+  summary_ja: ゲーム制作で業界標準となっているノードベースの手続き型コンテンツ生成ソフトウェア。非破壊的なプロシージャルパイプラインを通じて、複雑な3Dレベルジオメトリ、地形、プロップ、環境アセットの自動生成を可能にします。
+  thumbnail: https://media.sidefx.com/uploads/products/banners/titan_trailer.jpeg
+  date_added: '2026-11-01'
+  source: agent
 - id: sidefx-houdini-engine-bcb56d
   title: SideFX Houdini Engine
   area: text-design
