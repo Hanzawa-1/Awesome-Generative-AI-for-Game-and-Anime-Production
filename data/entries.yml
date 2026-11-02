@@ -3232,6 +3232,28 @@ entries:
   source: agent
   arxiv_id: '2410.20986'
   repo: abcyzj/meshret
+- id: retargeting-motions-to-diverse-skeletons-via-learnable-flatt-e7f292
+  title: Retargeting Motions to Diverse Skeletons via Learnable Flattening
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2609.38578
+  authors:
+  - Kia-Jüng Yang
+  - Fabian H. Sinz
+  - Paweł A. Pierzchlewicz
+  year: 2024
+  tags:
+  - motion-retargeting
+  - skeletal-graph
+  - transformer
+  - zero-shot
+  summary: A Transformer Autoencoder model that achieves zero-shot cross-structural motion retargeting across diverse, unseen skeletal topologies using learnable graph flattening.
+  summary_ja: 学習可能なグラフ平坦化技術を用いて、未学習の多様な骨格トポロジー間でのゼロショット・クロス構造モーションリターゲティングを実現するTransformer Autoencoder。
+  date_added: '2026-11-02'
+  source: agent
+  arxiv_id: '2609.38578'
 - id: robot-retargeter-01a6a3
   title: robot_retargeter
   area: animation
@@ -3502,6 +3524,28 @@ entries:
   date_added: '2026-10-19'
   source: agent
   repo: mwni/blender-animation-retargeting
+- id: rokoko-studio-live-for-blender-cd12b7
+  title: Rokoko Studio Live for Blender
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/Rokoko/rokoko-studio-live-blender
+    website: https://www.rokoko.com/
+  authors:
+  - Rokoko
+  year: 2021
+  tags:
+  - blender
+  - mocap
+  - motion-retargeting
+  - rokoko
+  summary: An open-source Blender plugin for streaming and retargeting motion capture animation data from Rokoko Studio onto arbitrary 3D character rigs.
+  summary_ja: Rokoko Studioからのモーションキャプチャデータを任意の3DキャラクタリグにリアルタイムストリーミングおよびリターゲティングできるBlender用オープンソースプラグイン。
+  thumbnail: https://cdn.prod.website-files.com/5e6b63ac3b6e253f11889f39/68a5879d838d0ceb845f28de_1.jpg
+  date_added: '2026-11-02'
+  source: agent
+  repo: rokoko/rokoko-studio-live-blender
 - id: skeleton-aware-networks-for-deep-motion-retargeting-0546c1
   title: Skeleton-Aware Networks for Deep Motion Retargeting
   area: animation
@@ -4246,6 +4290,25 @@ entries:
   source: agent
   arxiv_id: '2407.16210'
   repo: jiashunwang/physicspingpong
+- id: activeragdoll-124f59
+  title: ActiveRagdoll
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    github: https://github.com/ashleve/ActiveRagdoll
+  year: 2023
+  tags:
+  - active-ragdoll
+  - character-controller
+  - physics
+  - unity
+  summary: An open-source Unity implementation of active ragdoll physics and character animation driven by PID joint controllers and inverse dynamics.
+  summary_ja: PID関節コントローラと逆動力学によって駆動される、アクティブ・ラグドール物理とキャラクターアニメーションのオープンソースUnity実装。
+  thumbnail: https://opengraph.githubassets.com/1/ashleve/activeragdoll
+  date_added: '2026-11-02'
+  source: agent
+  repo: ashleve/activeragdoll
 - id: adaptnet-policy-adaptation-for-physics-based-character-contr-12ce06
   title: 'AdaptNet: Policy Adaptation for Physics-Based Character Control'
   area: animation
@@ -4437,6 +4500,25 @@ entries:
   source: agent
   arxiv_id: '2210.06063'
   repo: heyuanyao-pku/control-vae
+- id: physicsvae-physics-based-character-controllers-using-conditi-67c00b
+  title: 'PhysicsVAE: Physics-based Character Controllers Using Conditional VAEs'
+  area: animation
+  task: physics-animation
+  kind: oss
+  links:
+    github: https://github.com/facebookresearch/PhysicsVAE
+  year: 2022
+  tags:
+  - character-control
+  - cvae
+  - locomotion
+  - physics
+  summary: A deep generative model using conditional variational autoencoders (CVAEs) to synthesize diverse, physically simulated character locomotion controllers without task-specific engineering.
+  summary_ja: 条件付き変分オートエンコーダ（CVAE）を活用し、タスク専用のエンジニアリングなしで多様で物理シミュレーション可能なキャラクター移動コントローラを生成する深層生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/facebookresearch/physicsvae
+  date_added: '2026-11-02'
+  source: agent
+  repo: facebookresearch/physicsvae
 - id: amp-54c2b2
   title: AMP
   area: animation
@@ -5603,6 +5685,29 @@ entries:
   date_added: '2026-06-29'
   source: agent
   arxiv_id: '2505.23708'
+- id: environment-aware-motion-matching-fc5ddd
+  title: Environment-aware Motion Matching
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2510.22632
+  authors:
+  - Jose Luis Ponton
+  - Sheldon Andrews
+  - Carlos Andujar
+  - Nuria Pelechano
+  year: 2025
+  tags:
+  - character-control
+  - environment-aware
+  - motion-matching
+  - procedural-animation
+  summary: An environment-aware motion matching system for interactive character animation that dynamically accounts for surrounding scene geometry and obstacles to synthesize believable locomotion and interactions in real time.
+  summary_ja: 周囲のシーン形状や障害物を動的に考慮し、リアルタイムで説得力のある移動や相互作用を合成する、インタラクティブキャラクターアニメーション向けの環境対応型モーションマッチングシステム。
+  date_added: '2026-11-02'
+  source: agent
+  arxiv_id: '2510.22632'
 - id: mimic2dm-learning-to-control-physically-simulated-3d-charact-feed51
   title: 'Mimic2DM: Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions'
   area: animation
@@ -5987,6 +6092,30 @@ entries:
   date_added: '2026-10-12'
   source: agent
   arxiv_id: '2302.00883'
+- id: maaip-multi-agent-adversarial-interaction-priors-72ac7c
+  title: 'MAAIP: Multi-Agent Adversarial Interaction Priors'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.02502
+  authors:
+  - Mohamed Younes
+  - Ewa Kijak
+  - Richard Kulpa
+  - Simon Malinowski
+  - Franck Multon
+  year: 2023
+  tags:
+  - adversarial-priors
+  - multi-agent
+  - physics-animation
+  - reinforcement-learning
+  summary: A multi-agent reinforcement learning framework using adversarial interaction priors to train physically simulated characters that perform interactive combat and reactive behaviors based on fighting motion capture demonstrations.
+  summary_ja: 敵対的相互作用事前分布を用いたマルチエージェント強化学習フレームワーク。格闘モーションキャプチャデモに基づき、相互作用的な戦闘や反応動作を行う物理シミュレーションキャラクターを訓練します。
+  date_added: '2026-11-02'
+  source: agent
+  arxiv_id: '2311.02502'
 - id: moconvq-unified-physics-based-motion-control-via-scalable-di-b0f779
   title: 'MoConVQ: Unified Physics-Based Motion Control via Scalable Discrete Representations'
   area: animation
@@ -7905,6 +8034,34 @@ entries:
   source: agent
   arxiv_id: '2409.06662'
   repo: zju3dv/gvhmr
+- id: humans-as-checkerboards-hac-664d17
+  title: Humans as Checkerboards (HAC)
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.00574
+    github: https://github.com/MartaYang/HumansAsCheckerboards
+    paper: https://arxiv.org/pdf/2407.00574
+  authors:
+  - Fengyuan Yang
+  - Kerui Gu
+  - Ha Linh Nguyen
+  - Tze Ho Elden Tse
+  - Angela Yao
+  year: 2024
+  tags:
+  - human-mesh-recovery
+  - mocap
+  - slam
+  - video-mocap
+  summary: An optimization-free scale calibration framework that leverages predicted human metric depth to calibrate SLAM scale for world-coordinate human mesh recovery from monocular video.
+  summary_ja: 単眼動画からの世界座標3Dヒューマンメッシュ復元において、予測された人間のメトリック深度を利用してSLAMのスケールをキャリブレーションする最適化不要のフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/martayang/humansascheckerboards
+  date_added: '2026-11-02'
+  source: agent
+  arxiv_id: '2407.00574'
+  repo: martayang/humansascheckerboards
 - id: multi-hmr-bd5c0f
   title: Multi-HMR
   area: animation
