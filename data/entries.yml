@@ -10315,6 +10315,28 @@ entries:
   source: agent
   arxiv_id: '2409.13486'
   repo: technetiumman/diffsound
+- id: icgan-f3b3f2
+  title: ICGAN
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.07131
+    paper: https://arxiv.org/pdf/2406.07131
+  authors:
+  - Yunyi Liu
+  - Craig Jin
+  year: 2024
+  tags:
+  - gan
+  - neural-synthesis
+  - procedural-audio
+  - sound-effects
+  summary: ICGAN introduces an implicit conditioning method for neural audio synthesis, offering interpretable feature control for real-time procedural sound effect design and timbral manipulation.
+  summary_ja: ICGANはニューラル音響合成のための暗黙的コンディショニング手法を提案し、プロシージャル効果音の設計において直感的な音色機能制御を可能にする。
+  date_added: '2026-11-03'
+  source: agent
+  arxiv_id: '2406.07131'
 - id: ue5-pmg-procedural-music-generator-for-unreal-engine-5-ebee50
   title: 'UE5-PMG: Procedural Music Generator for Unreal Engine 5'
   area: audio
@@ -11389,6 +11411,31 @@ entries:
   date_added: '2026-08-11'
   source: agent
   repo: text-to-audio/make-an-audio-3
+- id: mambafoley-foley-sound-generation-using-selective-state-spac-b5b55c
+  title: 'MambaFoley: Foley Sound Generation using Selective State-Space Models'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.09162
+    github: https://github.com/FurioColombo/mamba-foley
+  authors:
+  - Marco Furio Colombo
+  - Francesca Ronchini
+  - Luca Comanducci
+  - Fabio Antonacci
+  year: 2024
+  tags:
+  - foley
+  - mamba
+  - sound-effects
+  - ssm
+  summary: A diffusion-based Foley sound generation model that integrates selective state-space models (Mamba) for efficient sequential modeling of sound synthesis.
+  summary_ja: 効果音合成の系列モデリングを効率化するために選択的状態空間モデル（Mamba）を組み込んだ拡散ベースのフォーリー効果音生成モデル。
+  date_added: '2026-11-03'
+  source: agent
+  arxiv_id: '2409.09162'
+  repo: furiocolombo/mamba-foley
 - id: mmaudio-0f6cc3
   title: MMAudio
   area: audio
@@ -12151,6 +12198,28 @@ entries:
   source: agent
   arxiv_id: '2409.15977'
   repo: aaronz345/tcsinger
+- id: visinger2-6e906d
+  title: VISinger2+
+  area: audio
+  task: singing-voice
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.08761
+  authors:
+  - Yifeng Yu
+  - Jiatong Shi
+  - Qin Jin
+  year: 2024
+  tags:
+  - end-to-end
+  - singing-voice
+  - ssl
+  - svs
+  summary: An end-to-end singing voice synthesis model augmented with self-supervised learning representations to enhance spectral and pitch fidelity.
+  summary_ja: 自己教示学習表現を活用し、スペクトルとピッチの再現性を大幅に向上させたエンドツーエンドの歌声合成モデル。
+  date_added: '2026-11-03'
+  source: agent
+  arxiv_id: '2406.08761'
 - id: comospeech-71bb56
   title: CoMoSpeech
   area: audio
@@ -14678,6 +14747,31 @@ entries:
   source: agent
   arxiv_id: '2509.24817'
   repo: zcai0612/up2you
+- id: video-diffusion-avatars-taming-video-diffusion-models-into-c-7dc649
+  title: 'Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.23772
+  authors:
+  - Simon Giebenhain
+  - Tobias Kirschstein
+  - Liam Schoneveld
+  - Davide Davoli
+  - Zhe Chen
+  - Matthias Nießner
+  year: 2026
+  tags:
+  - 3d-avatar
+  - avatar
+  - controllable
+  - video-diffusion
+  summary: Creates photorealistic, multi-view consistent 3D avatars from a single portrait image by fine-tuning video diffusion models for camera pose, expression, and upper-body control.
+  summary_ja: 動画ディフュージョンモデルをファインチューニングし、単一のポートレート画像からカメラ姿勢や表情、上半身動作を制御可能な3Dアバターを生成する手法。
+  date_added: '2026-11-03'
+  source: agent
+  arxiv_id: '2610.23772'
 - id: adahuman-cf724c
   title: AdaHuman
   area: characters
@@ -15549,6 +15643,35 @@ entries:
   source: agent
   arxiv_id: '2304.00916'
   repo: yukangcao/dreamavatar
+- id: gaussianavatar-towards-realistic-human-avatar-modeling-from-474aa5
+  title: 'GaussianAvatar: Towards Realistic Human Avatar Modeling from a Single Video via Animatable 3D Gaussians'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.02134
+    github: https://github.com/aipixel/GaussianAvatar
+  authors:
+  - Liangxiao Hu
+  - Hongwen Zhang
+  - Yuxiang Zhang
+  - Boyao Zhou
+  - Boning Liu
+  - Shengping Zhang
+  - Liqiang Nie
+  year: 2023
+  tags:
+  - 3d-human
+  - animatable
+  - avatar
+  - gaussian-splatting
+  summary: An efficient framework for creating animatable 3D human avatars with dynamic appearances from a single video using animatable 3D Gaussian Splatting.
+  summary_ja: アニメーション可能な3D Gaussian Splattingを用い、単一の動画から動的な外観を持つ3Dヒューマンアバターを効率的に構築するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/aipixel/gaussianavatar
+  date_added: '2026-11-03'
+  source: agent
+  arxiv_id: '2312.02134'
+  repo: aipixel/gaussianavatar
 - id: gaussianavatars-1eef85
   title: GaussianAvatars
   area: characters

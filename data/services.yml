@@ -1449,6 +1449,26 @@ entries:
   summary_ja: アップロードした人型メッシュを自動リギングし、豊富なモーションライブラリを適用できるAdobeの無料サービス。ゲームキャラの即時アニメーション化の定番。
   date_added: '2026-06-13'
   source: seed
+- id: avatar-sdk-710f57
+  title: Avatar SDK
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://avatarsdk.com/
+  authors:
+  - Avatar SDK Team
+  year: 2024
+  tags:
+  - 3d-head
+  - avatar
+  - metahuman
+  - sdk
+  summary: A commercial AI avatar platform that generates customizable, photorealistic and stylized 3D full-body and head avatars from a single photo or selfie for games and apps.
+  summary_ja: 単一の顔写真からゲームやアプリ向けのリアル・デフォルメ3D全身/頭部アバターを生成する商用AIアバタープラットフォーム。
+  thumbnail: https://avatarsdk.com/wp-content/uploads/2026/06/og-avatarsdk-1200x630-1.png
+  date_added: '2026-11-03'
+  source: agent
 - id: metahuman-cbfd3c
   title: MetaHuman
   area: characters
