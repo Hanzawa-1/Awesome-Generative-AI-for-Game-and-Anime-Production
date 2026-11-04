@@ -2503,6 +2503,7 @@ entries:
   - terrain
   summary: An advanced, real-time procedural terrain and landscape generator powered entirely on the GPU. It provides rapid erosion simulation, texturing, and direct bridges to major game engines like Unreal Engine and Unity.
   summary_ja: GPU上で完全に動作する、リアルタイムの手続き型地形・景観ジェネレーター。高速な侵食シミュレーション、テクスチャリング、およびUnreal EngineやUnityなどの主要ゲームエンジンへの直接的なブリッジ機能を提供する。
+  thumbnail: https://www.bitethebytes.com/assets/og/og-world-creator.jpg
   date_added: '2026-06-25'
   source: agent
 - id: sloyd-ai-466359

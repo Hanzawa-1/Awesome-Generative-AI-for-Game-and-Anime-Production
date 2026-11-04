@@ -19014,6 +19014,24 @@ entries:
   date_added: '2026-06-17'
   source: agent
   repo: fuxicv/neuroskinning
+- id: voxel-heat-diffuse-skinning-15ee02
+  title: Voxel Heat Diffuse Skinning
+  area: characters
+  task: skinning
+  kind: oss
+  links:
+    github: https://github.com/meshonline/Surface-Heat-Diffuse-Skinning
+  year: 2018
+  tags:
+  - blender
+  - skinning
+  - voxel
+  - weights
+  summary: An open-source Blender add-on and algorithm that converts non-watertight 3D character meshes into a voxel grid to compute smooth heat-diffused skinning weights without bone-heat failure.
+  summary_ja: 非水密な3Dキャラクターメッシュをボクセルグリッドに変換し、ボーンヒートエラーを起こさずに滑らかなヒートディフュージョンスキニングウェイトを計算するBlenderアドオン。
+  date_added: '2026-11-04'
+  source: agent
+  repo: meshonline/surface-heat-diffuse-skinning
 - id: 3dgs-drag-dragging-gaussians-for-intuitive-point-based-3d-ed-6a1a8c
   title: '3DGS-Drag: Dragging Gaussians for Intuitive Point-Based 3D Editing'
   area: gen-3d
@@ -20224,6 +20242,31 @@ entries:
   source: agent
   arxiv_id: '2408.08000'
   repo: ewrfcas/mvinpainter
+- id: progdf-e5d3db
+  title: ProGDF
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.08152
+    paper: https://arxiv.org/pdf/2412.08152
+  authors:
+  - Yian Zhao
+  - Wanshi Xu
+  - Yang Wu
+  - Weiheng Huang
+  - Zhongqian Sun
+  - Wei Yang
+  year: 2024
+  tags:
+  - 3d-editing
+  - differential-field
+  - gaussian-splatting
+  summary: A progressive Gaussian differential field framework for 3D Gaussian Splatting editing that enables interactive, controllable text and image-guided edits.
+  summary_ja: プログレッシブなガウシアン差分フィールドを用いて、テキストや画像による対話的で柔軟な3D編集を可能にする3D Gaussian Splatting編集フレームワーク。
+  date_added: '2026-11-04'
+  source: agent
+  arxiv_id: '2412.08152'
 - id: replaceanything3d-text-guided-3d-scene-editing-with-composit-631899
   title: 'ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields'
   area: gen-3d
@@ -20597,6 +20640,32 @@ entries:
   source: agent
   arxiv_id: '2312.14937'
   repo: cvmi-lab/sc-gs
+- id: shap-editor-c6fa2e
+  title: Shap-Editor
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.09246
+    github: https://github.com/silent-chen/Shap-Editor
+    paper: https://arxiv.org/pdf/2312.09246
+  authors:
+  - Minghao Chen
+  - Junyu Xie
+  - Iro Laina
+  - Andrea Vedaldi
+  year: 2023
+  tags:
+  - 3d-editing
+  - feed-forward
+  - latent-editing
+  summary: A feed-forward 3D editing network operating directly in latent 3D representation space to perform instant instruction-guided object modifications.
+  summary_ja: 3D潜在表現空間で直接動作し、テキスト指示に基づくオブジェクト修正を即座に行うフィードフォワード型3D編集ネットワーク。
+  thumbnail: https://opengraph.githubassets.com/1/silent-chen/shap-editor
+  date_added: '2026-11-04'
+  source: agent
+  arxiv_id: '2312.09246'
+  repo: silent-chen/shap-editor
 - id: spaghetti-9acfd8
   title: SPAGHETTI
   area: gen-3d
@@ -26002,6 +26071,33 @@ entries:
   source: agent
   arxiv_id: '2403.18807'
   repo: aradhye2002/ecodepth
+- id: fine-tuning-image-conditional-diffusion-models-is-easier-tha-f69b67
+  title: Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.11355
+    github: https://github.com/RWTHVision/diffusion-e2e-ft
+  authors:
+  - Gonzalo Martin Garcia
+  - Karim Knaebel
+  - Christian Schmidt
+  - Daan de Geus
+  - Alexander Hermans
+  - Bastian Leibe
+  year: 2024
+  tags:
+  - depth-map
+  - diffusion
+  - surface-normal
+  - zero-shot
+  summary: An end-to-end fine-tuning framework for image-conditioned diffusion models that achieves single-step inference for rapid monocular depth and surface normal estimation.
+  summary_ja: 画像条件付き拡散モデルのエンドツーエンド微調整手法。1ステップの高速推論で高精度な単眼深度および表面法線の推定を可能にする。
+  date_added: '2026-11-04'
+  source: agent
+  arxiv_id: '2409.11355'
+  repo: rwthvision/diffusion-e2e-ft
 - id: geowizard-unleashing-the-diffusion-priors-for-3d-geometry-es-7cacec
   title: 'GeoWizard: Unleashing the Diffusion Priors for 3D Geometry Estimation from a Single Image'
   area: gen-3d
@@ -26149,6 +26245,35 @@ entries:
   source: agent
   arxiv_id: '2412.14015'
   repo: depthanything/promptda
+- id: rollingdepth-video-depth-without-video-models-2f95d7
+  title: 'RollingDepth: Video Depth without Video Models'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.19189
+    github: https://github.com/prs-eth/RollingDepth
+  authors:
+  - Bingxin Ke
+  - Dominik Narnhofer
+  - Shengyu Huang
+  - Lei Ke
+  - Torben Peters
+  - Katerina Fragkiadaki
+  - Anton Obukhov
+  - Konrad Schindler
+  year: 2024
+  tags:
+  - depth-map
+  - diffusion
+  - monocular-depth
+  - video-depth
+  summary: A frame-by-frame depth estimation framework using rolling context windows to extract temporally consistent video depth predictions from single-image foundation models.
+  summary_ja: 単一画像向けの基盤モデルに対し、ローリングコンテキストウィンドウを適用することでビデオ全体の時間的一貫性を保った深度推定を実現するフレームワーク。
+  date_added: '2026-11-04'
+  source: agent
+  arxiv_id: '2411.19189'
+  repo: prs-eth/rollingdepth
 - id: scalable-autoregressive-monocular-depth-estimation-f50fb5
   title: Scalable Autoregressive Monocular Depth Estimation
   area: gen-3d
@@ -26254,6 +26379,35 @@ entries:
   source: agent
   arxiv_id: '2403.18913'
   repo: lpiccinelli-eth/unidepth
+- id: wordepth-variational-language-prior-for-monocular-depth-esti-4c1ac4
+  title: 'WorDepth: Variational Language Prior for Monocular Depth Estimation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.03635
+    github: https://github.com/Adonis-galaxy/WorDepth
+  authors:
+  - Ziyao Zeng
+  - Daniel Wang
+  - Fengyu Yang
+  - Hyoungseob Park
+  - Yangchao Wu
+  - Stefano Soatto
+  - Byung-Woo Hong
+  - Dong Lao
+  year: 2024
+  tags:
+  - depth-map
+  - language-prior
+  - metric-depth
+  - monocular-depth
+  summary: A monocular depth estimation framework that integrates variational natural language priors to resolve scale ambiguity and improve metric depth accuracy.
+  summary_ja: 変分言語プライアを統合することでスケールの曖昧性を解消し、メートル単位の正確な単眼深度推定を実現するモデル。
+  date_added: '2026-11-04'
+  source: agent
+  arxiv_id: '2404.03635'
+  repo: adonis-galaxy/wordepth
 - id: marigold-14defe
   title: Marigold
   area: gen-3d
