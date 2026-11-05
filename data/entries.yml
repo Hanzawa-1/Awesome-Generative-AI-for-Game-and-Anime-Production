@@ -27577,6 +27577,35 @@ entries:
   source: agent
   arxiv_id: '2403.16210'
   repo: tencent/frankenstein
+- id: gala3d-2461d5
+  title: GALA3D
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.07207
+    github: https://github.com/VDIGPKU/GALA3D
+  authors:
+  - Xiaoyu Zhou
+  - Xingjian Ran
+  - Yajiao Xiong
+  - Jinlin He
+  - Zhiwei Lin
+  - Yongtao Wang
+  - Deqing Sun
+  - Ming-Hsuan Yang
+  year: 2024
+  tags:
+  - 3d-gaussian-splatting
+  - layout-guided
+  - scene-generation
+  - text-to-3d
+  summary: GALA3D generates complex 3D scenes from text prompts by using Large Language Models to establish structural layouts and guiding 3D Gaussian Splatting for scene composition and object-level editing.
+  summary_ja: GALA3Dは、大規模言語モデル（LLM）を用いて構造的レイアウトを生成し、レイアウトガイド付き3D Gaussian Splattingによって複雑な3Dシーンをテキストから合成・編集するフレームワークです。
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2402.07207'
+  repo: vdigpku/gala3d
 - id: instructscene-instruction-driven-3d-indoor-scene-synthesis-w-cab372
   title: 'InstructScene: Instruction-Driven 3D Indoor Scene Synthesis with Semantic Graph Prior'
   area: gen-3d
@@ -27743,6 +27772,34 @@ entries:
   source: agent
   arxiv_id: '2410.09049'
   repo: orangesodahub/scenecraft
+- id: scenecraft-llm-agent-for-blender-32dc23
+  title: SceneCraft (LLM Agent for Blender)
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.01248
+    paper: https://arxiv.org/pdf/2403.01248
+  authors:
+  - Ziniu Hu
+  - Ahmet Iscen
+  - Aashi Jain
+  - Thomas Kipf
+  - Yisong Yue
+  - David A. Ross
+  - Cordelia Schmid
+  - Alireza Fathi
+  year: 2024
+  tags:
+  - 3d-scene
+  - blender
+  - llm-agent
+  - scene-graph
+  summary: SceneCraft converts complex text prompts into Blender-executable Python scripts using an LLM agent, constructing detailed 3D scene graphs and arranging dozens of 3D assets with spatial constraints.
+  summary_ja: SceneCraftは、LLMエージェントを用いてテキスト説明をBlender実行可能なPythonスクリプトに変換し、空間的制約を考慮しながら多数の3Dアセットを合理的に配置・レンダリングするシステムです。
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2403.01248'
 - id: scenedreamer360-text-driven-3d-consistent-scene-generation-w-39867c
   title: 'SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting'
   area: gen-3d
@@ -27856,6 +27913,36 @@ entries:
   source: agent
   arxiv_id: '2406.09394'
   repo: kovenyu/wonderworld
+- id: controlroom3d-f30f79
+  title: ControlRoom3D
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2312.05208
+    github: https://github.com/JonasSchult/ControlRoom3D
+  authors:
+  - Jonas Schult
+  - Sam Tsai
+  - Lukas Höllein
+  - Bichen Wu
+  - Jialiang Wang
+  - Chih-Yao Ma
+  - Kunpeng Li
+  - Xiaofang Wang
+  year: 2023
+  tags:
+  - 3d-scene
+  - mesh-generation
+  - room-generation
+  - text-to-3d
+  summary: ControlRoom3D synthesizes high-quality indoor 3D room meshes and textures from text prompts by leveraging semantic proxy room geometries to enforce realistic spatial structures and object placement.
+  summary_ja: ControlRoom3Dは、セマンティックなプロキシルーム形状を活用することでリアルな家具配置と空間構造を維持し、テキスト説明から高品質な3D部屋メッシュとテクスチャを生成する手法です。
+  thumbnail: https://opengraph.githubassets.com/1/jonasschult/controlroom3d
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2312.05208'
+  repo: jonasschult/controlroom3d
 - id: ctrl-room-controllable-text-to-3d-room-meshes-generation-wit-1acc6d
   title: 'Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints'
   area: gen-3d
@@ -28302,6 +28389,31 @@ entries:
   source: agent
   arxiv_id: '2504.11379'
   repo: intmegroup/omni2
+- id: panodreamer-consistent-text-to-360-degree-scene-generation-14a128
+  title: 'PanoDreamer: Consistent Text to 360-Degree Scene Generation'
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2504.05152
+    paper: https://arxiv.org/pdf/2504.05152
+  authors:
+  - Zhexiao Xiong
+  - Zhang Chen
+  - Zhong Li
+  - Yi Xu
+  - Nathan Jacobs
+  year: 2025
+  tags:
+  - '360'
+  - panorama
+  - scene-generation
+  - skybox
+  summary: A text-to-360-degree scene generation model that ensures multi-view geometric consistency and seamless horizontal wrap-around for immersive panoramic environments.
+  summary_ja: 没入型パノラマ環境において多視野幾何一貫性とシームレスな水平周回接続性を担保するテキストからの360度シーン生成モデル。
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2504.05152'
 - id: panogen-domain-adapted-text-guided-panoramic-environment-gen-7eb663
   title: 'PanoGen++: Domain-Adapted Text-Guided Panoramic Environment Generation'
   area: gen-3d
@@ -28669,6 +28781,30 @@ entries:
   source: agent
   arxiv_id: '2412.03552'
   repo: 3dtopia/imagine360
+- id: merging-and-splitting-diffusion-paths-for-semantically-coher-e810b8
+  title: Merging and Splitting Diffusion Paths for Semantically Coherent Panoramas
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.15660
+    paper: https://arxiv.org/pdf/2408.15660
+  authors:
+  - Fabio Quattrini
+  - Vittorio Pippi
+  - Silvia Cascianelli
+  - Rita Cucchiara
+  year: 2024
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - zero-shot
+  summary: An inference technique for pre-trained diffusion models that dynamically merges and splits latent diffusion paths to generate semantically coherent, seamless 360-degree panoramas without fine-tuning.
+  summary_ja: ファインチューニングなしに潜在ディフュージョンパスを動的に統合・分割することで、セマンティックな整合性と継ぎ目のない360度パノラマを生成する推論手法。
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2408.15660'
 - id: panfusion-f3e7c1
   title: PanFusion
   area: gen-3d
@@ -30376,6 +30512,32 @@ entries:
   source: agent
   arxiv_id: '2407.13976'
   repo: hansenhuang0823/placiddreamer
+- id: prometheus-3d-aware-latent-diffusion-models-for-feed-forward-83fc37
+  title: 'Prometheus: 3D-Aware Latent Diffusion Models for Feed-Forward Text-to-3D Scene Generation'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.21117
+    paper: https://arxiv.org/pdf/2412.21117
+  authors:
+  - Yuanbo Yang
+  - Jiahao Shao
+  - Xinyang Li
+  - Yujun Shen
+  - Andreas Geiger
+  - Yiyi Liao
+  year: 2024
+  tags:
+  - 3d-gaussians
+  - feed-forward
+  - scene-generation
+  - text-to-3d
+  summary: Prometheus is a 3D-aware latent diffusion framework that generates feed-forward, multi-view pixel-aligned 3D Gaussians for both individual objects and full 3D scenes in seconds.
+  summary_ja: Prometheusは、テキスト説明から単体オブジェクトおよび全景3Dシーンのマルチビュー対応3D Gaussianを数秒で直接生成するフィードフォワード型3D潜在拡散モデルです。
+  date_added: '2026-11-05'
+  source: agent
+  arxiv_id: '2412.21117'
 - id: turbo3d-ultra-fast-text-to-3d-generation-ae7208
   title: 'Turbo3D: Ultra-fast Text-to-3D Generation'
   area: gen-3d
