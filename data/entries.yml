@@ -27602,6 +27602,7 @@ entries:
   - text-to-3d
   summary: GALA3D generates complex 3D scenes from text prompts by using Large Language Models to establish structural layouts and guiding 3D Gaussian Splatting for scene composition and object-level editing.
   summary_ja: GALA3Dは、大規模言語モデル（LLM）を用いて構造的レイアウトを生成し、レイアウトガイド付き3D Gaussian Splattingによって複雑な3Dシーンをテキストから合成・編集するフレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/vdigpku/gala3d
   date_added: '2026-11-05'
   source: agent
   arxiv_id: '2402.07207'
@@ -35120,6 +35121,31 @@ entries:
   date_added: '2026-10-16'
   source: agent
   repo: lllyasviel/ic-light
+- id: layerdiffuse-eb1604
+  title: LayerDiffuse
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.17113
+    github: https://github.com/lllyasviel/LayerDiffuse
+    hf: https://huggingface.co/lllyasviel/LayerDiffuse_Diffusers
+  authors:
+  - Lvmin Zhang
+  - Maneesh Agrawala
+  year: 2024
+  tags:
+  - inpainting
+  - layerdiffusion
+  - rgba
+  - transparent-layer
+  summary: Enables pretrained latent diffusion models to generate transparent images and multi-layer RGBA assets by encoding transparency into the latent manifold without sacrificing generation quality.
+  summary_ja: 潜在空間に透明度を直接エンコードすることで、生成品質を損なうことなく事前学習済み拡散モデルが透過画像やマルチレイヤーRGBA素材を生成できるようにする技術。
+  thumbnail: https://cdn-thumbnails.huggingface.co/social-thumbnails/models/lllyasviel/LayerDiffuse_Diffusers.png
+  date_added: '2026-11-06'
+  source: agent
+  arxiv_id: '2402.17113'
+  repo: lllyasviel/layerdiffuse
 - id: magicquill-ec3794
   title: MagicQuill
   area: image-2d
@@ -35204,6 +35230,27 @@ entries:
   source: agent
   arxiv_id: '2404.18212'
   repo: rotsteinnoam/paint-by-inpaint
+- id: seededit-ec5862
+  title: SeedEdit
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.06686
+  authors:
+  - Yichun Shi
+  - Peng Wang
+  - Weilin Huang
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - instruction-editing
+  summary: A diffusion-based image editing framework from ByteDance that balances content preservation and text instruction execution for precise text-driven image revision.
+  summary_ja: 画像内容の維持とテキスト指示の実行のバランスを取り、正確なテキスト駆動型画像編集を実現するByteDanceの拡散ベース画像編集フレームワーク。
+  date_added: '2026-11-06'
+  source: agent
+  arxiv_id: '2411.06686'
 - id: stabledrag-stable-dragging-for-point-based-image-editing-242aa9
   title: 'StableDrag: Stable Dragging for Point-based Image Editing'
   area: image-2d
@@ -38821,6 +38868,27 @@ entries:
   date_added: '2026-08-21'
   source: agent
   arxiv_id: '2311.13600'
+- id: kohya-ss-1f2ee0
+  title: kohya_ss
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    github: https://github.com/bmaltais/kohya_ss
+  authors:
+  - bmaltais
+  - kohya-ss
+  year: 2022
+  tags:
+  - fine-tuning
+  - gui
+  - lora
+  - stable-diffusion
+  summary: The widely used open-source web GUI and training suite for fine-tuning Stable Diffusion, SDXL, and FLUX LoRAs for custom visual styles, characters, and concepts.
+  summary_ja: Stable Diffusion、SDXL、FLUXのLoRA（スタイル、キャラクター、コンセプト）の学習をGUI操作で実施できるオープンソースの標準ファインチューニングツールキット。
+  date_added: '2026-11-06'
+  source: agent
+  repo: bmaltais/kohya_ss
 - id: sd-scripts-kohya-d8bfed
   title: sd-scripts (Kohya)
   area: image-2d
@@ -38860,6 +38928,36 @@ entries:
   date_added: '2026-10-23'
   source: agent
   repo: perfectgf/lora-dataset-studio
+- id: varsr-visual-autoregressive-modeling-for-image-super-resolut-5f9eed
+  title: 'VARSR: Visual Autoregressive Modeling for Image Super-Resolution'
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.18993
+    github: https://github.com/quyp2000/VARSR
+    paper: https://arxiv.org/pdf/2501.18993
+  authors:
+  - Yunpeng Qu
+  - Kun Yuan
+  - Jinhua Hao
+  - Kai Zhao
+  - Qizhi Xie
+  - Ming Sun
+  - Chao Zhou
+  year: 2025
+  tags:
+  - autoregressive
+  - icml2025
+  - super-resolution
+  - upscaling
+  summary: An image super-resolution framework using next-scale visual autoregressive modeling to effectively balance perceptual realism, fidelity, and inference efficiency.
+  summary_ja: 次のスケールを予測する視覚的自己回帰モデリングを採用し、知覚的リアルさ、忠実度、推論効率を効果的にバランスさせた画像超解像フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/quyp2000/varsr
+  date_added: '2026-11-06'
+  source: agent
+  arxiv_id: '2501.18993'
+  repo: quyp2000/varsr
 - id: apisr-20fd46
   title: APISR
   area: image-2d

@@ -3332,6 +3332,22 @@ entries:
   summary_ja: 手描きスケッチとテキストプロンプトから描画に合わせて瞬時に高精度画像を生成するリアルタイムWebキャンバスツール。
   date_added: '2026-10-30'
   source: agent
+- id: promeai-3a6128
+  title: PromeAI
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.promeai.pro/
+  tags:
+  - concept-art
+  - promeai
+  - rendering
+  - sketch-to-render
+  summary: An AI design platform offering sketch-to-render capabilities, enabling concept artists and product designers to transform line sketches and 3D wireframes into realistic visual renderings.
+  summary_ja: 線画スケッチや3Dワイヤーフレームをリアルなレンダリング画像へと変換するスケッチレンダリング機能を備えたAIデザインプラットフォーム。
+  date_added: '2026-11-06'
+  source: agent
 - id: scenario-c18dd2
   title: Scenario
   area: image-2d
