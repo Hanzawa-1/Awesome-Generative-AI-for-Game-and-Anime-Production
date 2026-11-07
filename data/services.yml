@@ -4006,6 +4006,23 @@ entries:
   summary_ja: マンガ、マンファ、コミック向けに設計されたAI搭載のデスクトップ型翻訳・写植ソフトウェア。文脈を考慮したAI翻訳、スマートな写植、自動クリーニング、および画風を考慮したインペインティング再描画を単一の統合パイプラインに組み合わせています。
   date_added: '2026-09-12'
   source: agent
+- id: loomic-studio-c8019e
+  title: Loomic Studio
+  area: manga
+  task: manga-translation
+  kind: proprietary
+  links:
+    website: https://studio.loomic.io/
+  year: 2024
+  tags:
+  - localization
+  - manga
+  - translation
+  - typesetting
+  summary: A commercial cloud platform designed for manga publishers and localization teams to automate text extraction, AI translation, page inpainting, and layered typesetting management.
+  summary_ja: マンガ出版社やローカライズチーム向けに、テキスト抽出、AI翻訳、インペインティング、レイヤー別組版管理を自動化する商用クラウドプラットフォーム。
+  date_added: '2026-11-07'
+  source: agent
 - id: ismanga-e06967
   title: IsManga
   area: manga
@@ -4205,6 +4222,26 @@ entries:
   summary_ja: スクリプトやテキストプロンプトからAIを用いて構造化された絵コンテフレームを自動生成し、リアルタイムでの共同編集やエクスポートを可能にする、プロフェッショナル向けのWebベース絵コンテ作成プラットフォーム。
   thumbnail: https://boords.com/api/og?title=Video+Pre-Production+Software+for+Agencies+%26+Brands&subtitle=Plan+scripts%2C+storyboards%2C+and+animatics+with+your+team.+Share+work+with+clients%2C+collect+feedback%2C+track+versions%2C+and+get+sign-off%E2%80%94all+in+one+place.&type=default
   date_added: '2026-06-27'
+  source: agent
+- id: comic-life-3-2aca88
+  title: Comic Life 3
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://plasq.com/apps/comiclife/macwin/
+  authors:
+  - plasq
+  year: 2023
+  tags:
+  - comic
+  - manga
+  - panel-layout
+  - storyboard
+  summary: A software tool for desktop and tablet platforms that provides pre-built comic templates, dynamic panel layout tools, script-to-layout automation, and lettering effects.
+  summary_ja: デスクトップおよびタブレット向けに、事前定義されたコミックテンプレート、動的なコマ割りレイアウトツール、スクリプトからレイアウトへの自動変換機能などを提供する専用作成ソフトウェア。
+  thumbnail: https://plasq.com/wp-content/uploads/2014/03/2d5987662101e3c153aa49c94191bb1b.png
+  date_added: '2026-11-07'
   source: agent
 - id: dashtoon-d40eca
   title: Dashtoon

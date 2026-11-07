@@ -11432,6 +11432,7 @@ entries:
   - ssm
   summary: A diffusion-based Foley sound generation model that integrates selective state-space models (Mamba) for efficient sequential modeling of sound synthesis.
   summary_ja: 効果音合成の系列モデリングを効率化するために選択的状態空間モデル（Mamba）を組み込んだ拡散ベースのフォーリー効果音生成モデル。
+  thumbnail: https://opengraph.githubassets.com/1/furiocolombo/mamba-foley
   date_added: '2026-11-03'
   source: agent
   arxiv_id: '2409.09162'
@@ -19029,6 +19030,7 @@ entries:
   - weights
   summary: An open-source Blender add-on and algorithm that converts non-watertight 3D character meshes into a voxel grid to compute smooth heat-diffused skinning weights without bone-heat failure.
   summary_ja: 非水密な3Dキャラクターメッシュをボクセルグリッドに変換し、ボーンヒートエラーを起こさずに滑らかなヒートディフュージョンスキニングウェイトを計算するBlenderアドオン。
+  thumbnail: https://opengraph.githubassets.com/1/meshonline/surface-heat-diffuse-skinning
   date_added: '2026-11-04'
   source: agent
   repo: meshonline/surface-heat-diffuse-skinning
@@ -26094,6 +26096,7 @@ entries:
   - zero-shot
   summary: An end-to-end fine-tuning framework for image-conditioned diffusion models that achieves single-step inference for rapid monocular depth and surface normal estimation.
   summary_ja: 画像条件付き拡散モデルのエンドツーエンド微調整手法。1ステップの高速推論で高精度な単眼深度および表面法線の推定を可能にする。
+  thumbnail: https://opengraph.githubassets.com/1/rwthvision/diffusion-e2e-ft
   date_added: '2026-11-04'
   source: agent
   arxiv_id: '2409.11355'
@@ -26270,6 +26273,7 @@ entries:
   - video-depth
   summary: A frame-by-frame depth estimation framework using rolling context windows to extract temporally consistent video depth predictions from single-image foundation models.
   summary_ja: 単一画像向けの基盤モデルに対し、ローリングコンテキストウィンドウを適用することでビデオ全体の時間的一貫性を保った深度推定を実現するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/prs-eth/rollingdepth
   date_added: '2026-11-04'
   source: agent
   arxiv_id: '2411.19189'
@@ -26404,6 +26408,7 @@ entries:
   - monocular-depth
   summary: A monocular depth estimation framework that integrates variational natural language priors to resolve scale ambiguity and improve metric depth accuracy.
   summary_ja: 変分言語プライアを統合することでスケールの曖昧性を解消し、メートル単位の正確な単眼深度推定を実現するモデル。
+  thumbnail: https://opengraph.githubassets.com/1/adonis-galaxy/wordepth
   date_added: '2026-11-04'
   source: agent
   arxiv_id: '2404.03635'
@@ -38886,6 +38891,7 @@ entries:
   - stable-diffusion
   summary: The widely used open-source web GUI and training suite for fine-tuning Stable Diffusion, SDXL, and FLUX LoRAs for custom visual styles, characters, and concepts.
   summary_ja: Stable Diffusion、SDXL、FLUXのLoRA（スタイル、キャラクター、コンセプト）の学習をGUI操作で実施できるオープンソースの標準ファインチューニングツールキット。
+  thumbnail: https://opengraph.githubassets.com/1/bmaltais/kohya_ss
   date_added: '2026-11-06'
   source: agent
   repo: bmaltais/kohya_ss
@@ -41062,6 +41068,28 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: qweasdd/manga-colorization-v2
+- id: manga-colorizer-9b6ec8
+  title: Manga-Colorizer
+  area: manga
+  task: manga-colorization
+  kind: oss
+  links:
+    github: https://github.com/BinitDOX/Manga-Colorizer
+    website: https://manga-colorizer-pro.vercel.app/
+  authors:
+  - BinitDOX
+  year: 2023
+  tags:
+  - ai-colorization
+  - browser-extension
+  - manga-colorization
+  - upscaling
+  summary: An open-source browser extension and self-hosted AI colorization system designed to automatically colorize monochrome manga pages on the fly with super-resolution upscaling.
+  summary_ja: モノクロマンガのページをブラウザ上で即座に自動着色・高解像度化する、オープンソースの拡張機能およびセルフホスト対応AIカラー化システム。
+  thumbnail: https://opengraph.githubassets.com/1/binitdox/manga-colorizer
+  date_added: '2026-11-07'
+  source: agent
+  repo: binitdox/manga-colorizer
 - id: eliminating-gradient-conflict-in-reference-based-line-art-co-f90520
   title: Eliminating Gradient Conflict in Reference-based Line-art Colorization
   area: manga
@@ -43384,6 +43412,35 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2402.17733'
+- id: transagents-7e971d
+  title: TransAgents
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2405.11804
+    github: https://github.com/minghao-wu/transagents
+  authors:
+  - Minghao Wu
+  - Jiahao Xu
+  - Yulin Yuan
+  - Gholamreza Haffari
+  - Longyue Wang
+  - Weihua Luo
+  - Kaifu Zhang
+  year: 2024
+  tags:
+  - agent
+  - llm
+  - localization
+  - translation
+  summary: A multi-agent framework designed for translating ultra-long literary texts and game scripts by simulating specialized human translation agency roles including translators, localization specialists, and editors.
+  summary_ja: 翻訳者、ローカライズ専門家、校正者、編集長などの役割を持つ人間翻訳会社を模倣し、超長尺の文芸テキストやゲームスクリプトを高精度に翻訳するマルチエージェントフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/minghao-wu/transagents
+  date_added: '2026-11-07'
+  source: agent
+  arxiv_id: '2405.11804'
+  repo: minghao-wu/transagents
 - id: translation-agent-a72e41
   title: Translation Agent
   area: text-design
@@ -45082,6 +45139,27 @@ entries:
   date_added: '2026-09-05'
   source: agent
   arxiv_id: '1909.06283'
+- id: ink-3209ab
+  title: ink
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/inkle/ink
+  authors:
+  - inkle
+  year: 2016
+  tags:
+  - branching-story
+  - game-dialogue
+  - interactive-narrative
+  - scripting-language
+  summary: An open-source markup and scripting language created by inkle for writing interactive narratives, branching dialogues, and quest logic with seamless integration into game engines like Unity and Godot.
+  summary_ja: inkle社によって開発されたオープンソースの記述言語。分岐ダイアログやクエストロジックなどのインタラクティブ・シナリオを記述し、UnityやGodotなどのゲームエンジンに統合可能。
+  thumbnail: https://opengraph.githubassets.com/1/inkle/ink
+  date_added: '2026-11-07'
+  source: agent
+  repo: inkle/ink
 - id: agent-ecologies-471d0c
   title: Agent Ecologies
   area: text-design
