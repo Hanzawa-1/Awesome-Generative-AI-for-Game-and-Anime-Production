@@ -50126,6 +50126,31 @@ entries:
   source: agent
   arxiv_id: '2310.05922'
   repo: yrcong/flatten
+- id: ground-a-video-682ec5
+  title: Ground-A-Video
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2310.01107
+    github: https://github.com/Ground-A-Video/Ground-A-Video
+    paper: https://arxiv.org/pdf/2310.01107
+  authors:
+  - Hyeonho Jeong
+  - Jong Chul Ye
+  year: 2023
+  tags:
+  - diffusion
+  - multi-attribute
+  - video-editing
+  - zero-shot
+  summary: Ground-A-Video is a zero-shot, training-free framework that leverages grounded text-to-image diffusion models to perform complex multi-attribute video editing while preserving temporal consistency and unedited regions.
+  summary_ja: Ground-A-Videoは、追加学習なしでテキスト・画像拡散モデルを利用し、時間的一貫性と未編集領域を保持しながら複数属性の動画編集を実現するゼロショット編集フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/ground-a-video/ground-a-video
+  date_added: '2026-11-08'
+  source: agent
+  arxiv_id: '2310.01107'
+  repo: ground-a-video/ground-a-video
 - id: magicedit-04ad06
   title: MagicEdit
   area: video
@@ -50340,6 +50365,37 @@ entries:
   source: agent
   arxiv_id: '2312.02087'
   repo: showlab/videoswap
+- id: vidiff-561c3d
+  title: VIDiff
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.18837
+    github: https://github.com/ChenHsing/VIDiff
+    paper: https://arxiv.org/pdf/2311.18837
+  authors:
+  - Zhen Xing
+  - Shuyuan Tu
+  - Qi Dai
+  - Zihao Zhang
+  - Hui Zhang
+  - Han Hu
+  - Zuxuan Wu
+  - Yu-Gang Jiang
+  year: 2023
+  tags:
+  - diffusion
+  - instruction-guided
+  - video-editing
+  - video-to-video
+  summary: VIDiff is a unified diffusion-based video translation framework that follows multimodal text and image instructions to perform diverse video editing, inpainting, and style transfer tasks without per-video tuning.
+  summary_ja: VIDiffは、動画ごとの追加チューニングを行うことなく、テキストや画像のマルチモーダル指示に従って多様な動画編集やインペインティング、スタイル変換を実行する統一拡散フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/chenhsing/vidiff
+  date_added: '2026-11-08'
+  source: agent
+  arxiv_id: '2311.18837'
+  repo: chenhsing/vidiff
 - id: vidtome-3d1f08
   title: VidToMe
   area: video
@@ -51550,6 +51606,34 @@ entries:
   source: agent
   arxiv_id: '2510.07546'
   repo: pickfordai/pickstyle
+- id: soyo-a-tuning-free-approach-for-video-style-morphing-via-sty-c41161
+  title: 'SOYO: A Tuning-Free Approach for Video Style Morphing via Style-Adaptive Interpolation in Diffusion Models'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.06998
+    paper: https://arxiv.org/pdf/2503.06998
+  authors:
+  - Haoyu Zheng
+  - Qifan Yu
+  - Binghe Yu
+  - Yang Dai
+  - Wenqiao Zhang
+  - Juncheng Li
+  - Siliang Tang
+  - Yueting Zhuang
+  year: 2025
+  tags:
+  - diffusion
+  - style-morphing
+  - tuning-free
+  - video-style-transfer
+  summary: SOYO is a tuning-free video style morphing framework that enables smooth transitions between multiple visual styles across video frames using style-adaptive interpolation in diffusion models.
+  summary_ja: SOYOは、拡散モデルにおけるスタイル適応補間を活用し、追加学習なしで動画フレーム間で複数のビジュアルスタイルを滑らかに遷移させるフレームワークです。
+  date_added: '2026-11-08'
+  source: agent
+  arxiv_id: '2503.06998'
 - id: trac-ec6a11
   title: TRAC
   area: video

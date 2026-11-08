@@ -5687,6 +5687,25 @@ entries:
   thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-10-18'
   source: agent
+- id: runway-ai-video-editor-4fea40
+  title: Runway AI Video Editor
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runway.com/product/ai-video-editor
+  authors:
+  - Runway AI, Inc.
+  year: 2024
+  tags:
+  - generative-ai
+  - inpainting
+  - video-editing
+  - video-to-video
+  summary: Runway AI Video Editor provides text-guided generative video editing capabilities, including video inpainting, background replacement, scene relighting, and object removal for creative video workflows.
+  summary_ja: Runway AI Video Editorは、テキスト指示による生成的な動画編集機能を提供し、インペインティング、背景置換、リライティング、オブジェクト除去をサポートします。
+  date_added: '2026-11-08'
+  source: agent
 - id: runway-inpainting-b80775
   title: Runway Inpainting
   area: video
@@ -5791,6 +5810,26 @@ entries:
   summary_ja: NVIDIA RTX Tensorコアを活用して、エッジのシャープ化、特徴の復元、圧縮アーティファクトの除去をリアルタイムで行う、AI搭載のビデオアップスケーリングおよびアーティファクト削減SDK。
   thumbnail: https://developer.download.nvidia.com/images/rtx/rtx-video-sdk-clarity-1920x1080.jpg
   date_added: '2026-08-09'
+  source: agent
+- id: nvidia-rtx-video-super-resolution-e18fc1
+  title: NVIDIA RTX Video Super Resolution
+  area: video
+  task: video-sr-restoration
+  kind: proprietary
+  links:
+    website: https://developer.nvidia.com/rtx-video-sdk
+  authors:
+  - NVIDIA
+  year: 2023
+  tags:
+  - real-time
+  - rtx
+  - upscaling
+  - video-super-resolution
+  summary: NVIDIA RTX Video Super Resolution is an AI-powered real-time video upscaling and enhancement feature that leverages Tensor Cores on GeForce RTX GPUs to remove compression artifacts and sharpen streamed or played videos.
+  summary_ja: GeForce RTX GPUのTensor Coreを活用し、ストリーミング動画やローカル再生動画の圧縮アーティファクトを除去して高画質化するリアルタイムAIアップスケーリング技術。
+  thumbnail: https://developer.download.nvidia.com/images/rtx/rtx-video-sdk-clarity-1920x1080.jpg
+  date_added: '2026-11-08'
   source: agent
 - id: pixop-8c7163
   title: Pixop
