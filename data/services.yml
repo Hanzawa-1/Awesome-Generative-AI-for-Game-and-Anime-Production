@@ -523,6 +523,23 @@ entries:
   thumbnail: https://getcartwheel.com/images/cartwheel-share.png
   date_added: '2026-07-20'
   source: agent
+- id: krikey-ai-207285
+  title: Krikey AI
+  area: animation
+  task: text-to-motion
+  kind: proprietary
+  links:
+    website: https://www.krikey.ai/
+  year: 2024
+  tags:
+  - 3d-animation
+  - game-assets
+  - text-to-motion
+  - web-app
+  summary: A web-based AI 3D animation platform that generates character motions from natural language prompts or reference video, exporting rigged animations directly for game engines and 3D software.
+  summary_ja: 自然言語のプロンプトや動画から3Dキャラクターのモーションを生成するWebベースのAIアニメーションツール。ゲームエンジンや3Dソフト向けにリグ付きアニメーションを出力可能。
+  date_added: '2026-11-09'
+  source: agent
 - id: motorica-3ad2ea
   title: Motorica
   area: animation

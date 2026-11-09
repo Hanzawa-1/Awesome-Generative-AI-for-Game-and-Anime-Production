@@ -2776,6 +2776,29 @@ entries:
   date_added: '2026-07-20'
   source: agent
   arxiv_id: '2605.15497'
+- id: exmr-8989e8
+  title: ExMR
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.26213
+    github: https://github.com/twehrbein/ExMR
+  authors:
+  - '"Tim Wehrbein'
+  year: 2026
+  tags:
+  - blender
+  - motion-capture
+  - motion-retargeting
+  - smpl-x
+  summary: ExMR extracts world-grounded 3D full-body, hand, and foot motion (SMPL-X) from monocular video with automated retargeting and export pipelines for Blender, Unity, Unreal Engine, and humanoid skeletons.
+  summary_ja: ExMRは、単眼ビデオから3D全身・手・足のモーション（SMPL-X）を復元し、BlenderやUnreal Engine、ヒューマノイドリグ向けに自動リターゲットおよび出力を行うツールキットです。
+  thumbnail: https://opengraph.githubassets.com/1/twehrbein/exmr
+  date_added: '2026-11-09'
+  source: agent
+  arxiv_id: '2610.26213'
+  repo: twehrbein/exmr
 - id: make-tracking-easy-neural-motion-retargeting-for-humanoid-wh-becd29
   title: 'Make Tracking Easy: Neural Motion Retargeting for Humanoid Whole-body Control'
   area: animation
@@ -3318,6 +3341,25 @@ entries:
   source: agent
   arxiv_id: '2407.11266'
   repo: rongakowang/mmdmc
+- id: dex-retargeting-c7240a
+  title: dex-retargeting
+  area: animation
+  task: motion-retargeting
+  kind: oss
+  links:
+    github: https://github.com/dexsuite/dex-retargeting
+  year: 2023
+  tags:
+  - hand-pose
+  - motion-retargeting
+  - pose-retargeting
+  - robotics
+  summary: dex-retargeting is an open-source library of optimization and learning algorithms for mapping human hand pose and gesture motion to diverse robotic and articulated multi-finger character hands.
+  summary_ja: dex-retargetingは、人間の手ポーズやジェスチャー動作を多様なロボットハンドや多関節指キャラクタハンドへマッピング・変換するための最適化・学習基盤オープンソースライブラリです。
+  thumbnail: https://opengraph.githubassets.com/1/dexsuite/dex-retargeting
+  date_added: '2026-11-09'
+  source: agent
+  repo: dexsuite/dex-retargeting
 - id: humot-human-motion-representation-using-topology-agnostic-tr-35ed2e
   title: 'HuMoT: Human Motion Representation using Topology-Agnostic Transformers'
   area: animation
@@ -5611,6 +5653,31 @@ entries:
   date_added: '2026-06-22'
   source: agent
   arxiv_id: '2605.20209'
+- id: progressively-learning-heterogeneous-skills-in-a-unified-lat-0d181e
+  title: Progressively Learning Heterogeneous Skills in a Unified Latent Space
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2608.23258
+    paper: https://arxiv.org/pdf/2608.23258
+  authors:
+  - Yue-Yi Zhang
+  - Ming Gong
+  - Linpu He
+  - Wei-Shi Zheng
+  - Zhilin Zhao
+  year: 2026
+  tags:
+  - physics-simulation
+  - procedural
+  - reinforcement-learning
+  - skill-learning
+  summary: A framework for physics-based character control that progressively learns heterogeneous motor skills within a unified latent space for seamless multi-skill composition.
+  summary_ja: 統一された潜在空間内で異種運動スキルを段階的に学習し、複数の物理制御スキルのシームレスな統合を可能にするキャラクター制御フレームワーク。
+  date_added: '2026-11-09'
+  source: agent
+  arxiv_id: '2608.23258'
 - id: swim-c64a6e
   title: SWIM
   area: animation
