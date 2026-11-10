@@ -9736,6 +9736,39 @@ entries:
   source: seed
   arxiv_id: '2306.05284'
   repo: facebookresearch/audiocraft
+- id: musiclm-525ac0
+  title: MusicLM
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.11325
+    paper: https://arxiv.org/abs/2301.11325
+  authors:
+  - Andrea Agostinelli
+  - Timo I. Denk
+  - Zalán Borsos
+  - Jesse Engel
+  - Mauro Verdelli
+  - Antoine Caillon
+  - Qingqing Huang
+  - Aren Jansen
+  - Adam Roberts
+  - Marco Tagliasacchi
+  - Matt Sharifi
+  - Neil Zeghidour
+  - Christian Frank
+  year: 2023
+  tags:
+  - audio-synthesis
+  - music-generation
+  - text-to-music
+  summary: MusicLM is a landmark hierarchical sequence-to-sequence model that generates 24 kHz music over several minutes from rich text descriptions.
+  summary_ja: MusicLMは、詳細なテキスト記述から数分間にわたる24kHzの高音質音楽を階層的シーケンス予測により生成するGoogleの代表的な音楽生成モデルです。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2301.11325'
 - id: musiclm-musiclm-pytorch-20ba40
   title: MusicLM (musiclm-pytorch)
   area: audio
@@ -10598,6 +10631,51 @@ entries:
   date_added: '2026-06-23'
   source: agent
   repo: samiperttu/fundsp
+- id: neutone-sdk-19cf54
+  title: Neutone SDK
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    github: https://github.com/Neutone/neutone_sdk
+  authors:
+  - Neutone Team
+  - Qosmo
+  year: 2022
+  tags:
+  - audio-plugin
+  - procedural-audio
+  - real-time
+  - vst
+  summary: An open-source Python framework and plugin system for wrapping PyTorch neural audio synthesis models to enable real-time interactive audio processing and procedural sound design inside DAWs and game engines.
+  summary_ja: PyTorchのディープラーニング音響合成モデルをリアルタイム処理可能なプラグインとして手軽にビルドし、DAWやゲームエンジンでリアルタイムインタラクティブ音響処理を実現するオープンソースSDK。
+  date_added: '2026-11-10'
+  source: agent
+  repo: neutone/neutone_sdk
+- id: deepeigen-learning-based-modal-sound-synthesis-with-acoustic-8afcb7
+  title: 'DeepEigen: Learning-based Modal Sound Synthesis with Acoustic Transfer'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2108.07425
+    paper: https://arxiv.org/pdf/2108.07425
+  authors:
+  - Xutong Jin
+  - Jinjiang Li
+  - Zherong Pan
+  - Xinguo Liu
+  year: 2021
+  tags:
+  - modal-synthesis
+  - physics-audio
+  - procedural-audio
+  - sound-synthesis
+  summary: A deep learning framework for physically based modal sound synthesis that predicts eigenmodes and acoustic transfer fields of arbitrary 3D objects to generate realistic physics-driven impact sounds in real-time.
+  summary_ja: 任意形状の3Dオブジェクトの固有振動モードと音響伝達特性を学習・予測し、物理挙動に連動したリアルタイムな衝突・打撃音をプロシージャルに合成する手法。
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2108.07425'
 - id: godot-mixing-desk-f3b4d7
   title: Godot Mixing Desk
   area: audio
@@ -13917,6 +13995,29 @@ entries:
   source: agent
   arxiv_id: '2604.08746'
   repo: vast-ai-research/anigen
+- id: flowrig-5cf553
+  title: FlowRig
+  area: characters
+  task: auto-rigging
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.03775
+  authors:
+  - Fengzhi Guo
+  - Nate Morrill
+  - Shiqi Li
+  - Cheng Zhang
+  year: 2026
+  tags:
+  - 4d-mesh
+  - auto-rigging
+  - flow-matching
+  - skeleton
+  summary: A template-free flow matching framework for unified skeleton generation across static 3D and dynamic 4D mesh sequences.
+  summary_ja: 静的3Dメッシュおよび動的4Dメッシュシーケンスに対して、Flow Matchingを用いて統一的に骨格を生成するテンプレートフリーなリギング手法。
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2611.03775'
 - id: gamerig-de7af3
   title: GameRig
   area: characters
@@ -15201,6 +15302,23 @@ entries:
   source: agent
   arxiv_id: '2509.02466'
   repo: yanwen-w/tera
+- id: 3d-2-actor-learning-pose-conditioned-3d-aware-denoiser-for-r-7771ed
+  title: '3D$^2$-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.11599
+  year: 2024
+  tags:
+  - 3dgs
+  - avatar
+  - diffusion
+  summary: A pose-conditioned 3D-aware diffusion framework that reconstructs photorealistic and pose-controllable animatable human 3D Gaussian avatars from sparse video inputs.
+  summary_ja: ポーズ条件付き3D拡散モデルを活用し、スパースなビデオ入力から高品質で制御可能なアニメーション対応3D Gaussianアバターを生成する手法。
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2412.11599'
 - id: anigs-animatable-gaussian-avatar-from-a-single-image-with-in-6655a9
   title: 'AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction'
   area: characters
@@ -15308,6 +15426,25 @@ entries:
   source: agent
   arxiv_id: '2409.17145'
   repo: yukun-huang/dreamwaltz-g
+- id: drive-diffusion-based-rigging-empowers-generation-of-versati-545efe
+  title: 'DRiVE: Diffusion-based Rigging Empowers Generation of Versatile and Expressive Characters'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17423
+    github: https://github.com/yisuanwang/DRiVE
+  year: 2024
+  tags:
+  - 3d-character
+  - avatar
+  - rigging
+  summary: A framework that generates and rigs animatable 3D character avatars with fine-grained skeleton and skinning annotations, supporting complex garments and expressive hair animation.
+  summary_ja: 骨格やスキンウェイトの注釈を備えたアニメーション可能な3Dキャラクターアバターを生成・リギングし、衣装や髪の豊かな動きを実現するフレームワーク。
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2411.17423'
+  repo: yisuanwang/drive
 - id: duix-avatar-fc4ff6
   title: Duix.Avatar
   area: characters
@@ -15684,6 +15821,23 @@ entries:
   source: agent
   arxiv_id: '2311.16096'
   repo: lizhe00/animatablegaussians
+- id: avatarstudio-high-fidelity-and-animatable-3d-avatar-creation-6185de
+  title: 'AvatarStudio: High-fidelity and Animatable 3D Avatar Creation from Text'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.17917
+  year: 2023
+  tags:
+  - avatar
+  - mesh
+  - text-to-3d
+  summary: A coarse-to-fine generative framework that synthesizes explicit, textured 3D meshes for animatable human avatars directly from textual descriptions.
+  summary_ja: テキスト記述から、ポーズ制御とアニメーションに対応したテクスチャ付き3Dアバターメッシュを生成するフレームワーク。
+  date_added: '2026-11-10'
+  source: agent
+  arxiv_id: '2311.17917'
 - id: dreamavatar-text-and-shape-guided-3d-human-avatar-generation-a43a15
   title: 'DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models'
   area: characters
