@@ -10649,6 +10649,7 @@ entries:
   - vst
   summary: An open-source Python framework and plugin system for wrapping PyTorch neural audio synthesis models to enable real-time interactive audio processing and procedural sound design inside DAWs and game engines.
   summary_ja: PyTorchのディープラーニング音響合成モデルをリアルタイム処理可能なプラグインとして手軽にビルドし、DAWやゲームエンジンでリアルタイムインタラクティブ音響処理を実現するオープンソースSDK。
+  thumbnail: https://opengraph.githubassets.com/1/neutone/neutone_sdk
   date_added: '2026-11-10'
   source: agent
   repo: neutone/neutone_sdk
@@ -15441,6 +15442,7 @@ entries:
   - rigging
   summary: A framework that generates and rigs animatable 3D character avatars with fine-grained skeleton and skinning annotations, supporting complex garments and expressive hair animation.
   summary_ja: 骨格やスキンウェイトの注釈を備えたアニメーション可能な3Dキャラクターアバターを生成・リギングし、衣装や髪の豊かな動きを実現するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/yisuanwang/drive
   date_added: '2026-11-10'
   source: agent
   arxiv_id: '2411.17423'
@@ -17668,6 +17670,35 @@ entries:
   source: agent
   arxiv_id: '2508.19754'
   repo: tyrionwuyue/fastavatar
+- id: gaussianavatar-editor-a3d1cb
+  title: GaussianAvatar-Editor
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.09978
+    github: https://github.com/Lxiangyue/GaussianAvatar-Editor
+  authors:
+  - Xiangyue Liu
+  - Kunming Luo
+  - Heng Li
+  - Qi Zhang
+  - Yuan Liu
+  - Li Yi
+  - Ping Tan
+  year: 2025
+  tags:
+  - 3d-head
+  - editing
+  - gaussian-splatting
+  - text-guided
+  summary: GaussianAvatar-Editor is a framework for text-driven editing of animatable 3D Gaussian head avatars that solves spatial-temporal inconsistency and motion occlusion using weighted alpha blending.
+  summary_ja: GaussianAvatar-Editorは、重み付きアルファブレンディングを用いることで、動的な4Dアバターのテクスチャや形状を時空間的整合性を保ちながらテキスト駆動で編集するフレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/lxiangyue/gaussianavatar-editor
+  date_added: '2026-11-11'
+  source: agent
+  arxiv_id: '2501.09978'
+  repo: lxiangyue/gaussianavatar-editor
 - id: lam-large-avatar-model-for-one-shot-animatable-gaussian-head-1477b1
   title: 'LAM: Large Avatar Model for One-shot Animatable Gaussian Head'
   area: characters
@@ -17987,6 +18018,35 @@ entries:
   source: agent
   arxiv_id: '2406.09377'
   repo: tobias-kirschstein/gghead
+- id: gpavatar-28052f
+  title: GPAvatar
+  area: characters
+  task: face-head-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.10215
+    github: https://github.com/xg-chu/GPAvatar
+  authors:
+  - Xuangeng Chu
+  - Yu Li
+  - Ailing Zeng
+  - Tianyu Yang
+  - Lijian Lin
+  - Yunfei Liu
+  - Tatsuya Harada
+  year: 2024
+  tags:
+  - 3d-head
+  - avatar
+  - expression-control
+  - gaussian-splatting
+  summary: GPAvatar is a generalizable 3D head avatar framework that disentangles identity and expression using point-based feature fields, enabling high-fidelity rendering and expression control from single or sparse images.
+  summary_ja: GPAvatarは、単一または少数の画像からIDと表情を分離して学習するポイントベースの3Dヘッドアバターフレームワークであり、高品質なレンダリングと精密な表情制御を実現します。
+  thumbnail: https://opengraph.githubassets.com/1/xg-chu/gpavatar
+  date_added: '2026-11-11'
+  source: agent
+  arxiv_id: '2401.10215'
+  repo: xg-chu/gpavatar
 - id: gphm-gaussian-parametric-head-model-for-monocular-head-avata-f964bb
   title: 'GPHM: Gaussian Parametric Head Model for Monocular Head Avatar Reconstruction'
   area: characters
@@ -20389,6 +20449,25 @@ entries:
   source: agent
   arxiv_id: '2404.16510'
   repo: interactive-3d/interactive3d
+- id: lcc-3dgs-unreal-plugin-4d0cf5
+  title: LCC 3DGS Unreal Plugin
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    github: https://github.com/xgrids/LCC-3DGS-Unreal-Plugin
+  year: 2024
+  tags:
+  - 3d-editing
+  - 3dgs
+  - ue5
+  - unreal-engine
+  summary: An Unreal Engine 5 plugin for loading, rendering, relighting, and editing large-scale 3D Gaussian Splatting scenes directly inside UE5.
+  summary_ja: Unreal Engine 5内で大規模な3D Gaussian Splattingシーンをロード、レンダリング、リライティング、および編集できるUE5プラグイン。
+  thumbnail: https://opengraph.githubassets.com/1/xgrids/lcc-3dgs-unreal-plugin
+  date_added: '2026-11-11'
+  source: agent
+  repo: xgrids/lcc-3dgs-unreal-plugin
 - id: lichtfeld-studio-93a724
   title: LichtFeld Studio
   area: gen-3d
@@ -22372,6 +22451,24 @@ entries:
   source: seed
   arxiv_id: '2009.04927'
   repo: enigma-li/sketch2cad
+- id: amagine3d-fb15b4
+  title: Amagine3D
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    github: https://github.com/amagine-ai/Amagine3D
+  tags:
+  - cad
+  - hardware
+  - parametric
+  - text-to-cad
+  summary: An open-source AI engine that generates parametric, editable 3D CAD designs and assembly structures for hardware enclosures from text descriptions and dimension requirements.
+  summary_ja: テキスト説明と寸法要件から、ハードウェア筐体等の編集可能なパラメトリック3D CADデザインやアセンブリ構造を自動生成するオープンソースAIエンジン。
+  thumbnail: https://opengraph.githubassets.com/1/amagine-ai/amagine3d
+  date_added: '2026-11-11'
+  source: agent
+  repo: amagine-ai/amagine3d
 - id: img2threejs-3c4ca3
   title: img2threejs
   area: gen-3d
@@ -25986,6 +26083,34 @@ entries:
   source: agent
   arxiv_id: '2501.12375'
   repo: depthanything/video-depth-anything
+- id: amodal-depth-anything-346411
+  title: Amodal Depth Anything
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.02336
+    github: https://github.com/zhyever/Amodal-Depth-Anything
+    project: https://zhyever.github.io/Amodal-Depth-Anything/
+  authors:
+  - Zhenyu Li
+  - Mykola Lavreniuk
+  - Jian Shi
+  - Shariq Farooq Bhat
+  - Peter Wonka
+  year: 2024
+  tags:
+  - amodal-depth
+  - depth
+  - depth-anything
+  - occlusion
+  summary: A framework and dataset for amodal monocular depth estimation that predicts depth for occluded object regions in complex real-world scenes.
+  summary_ja: 複雑な実世界のシーンにおいて、オクルージョン（遮蔽）された物体の隠れた領域の深度まで予測するアモーダル単眼深度推定フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zhyever/amodal-depth-anything
+  date_added: '2026-11-11'
+  source: agent
+  arxiv_id: '2412.02336'
+  repo: zhyever/amodal-depth-anything
 - id: buffer-anytime-zero-shot-video-depth-and-normal-from-image-p-74da1e
   title: 'Buffer Anytime: Zero-Shot Video Depth and Normal from Image Priors'
   area: gen-3d

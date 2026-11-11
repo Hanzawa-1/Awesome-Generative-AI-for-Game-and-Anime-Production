@@ -1680,6 +1680,26 @@ entries:
   thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
   date_added: '2026-06-17'
   source: agent
+- id: reallusion-character-creator-266309
+  title: Reallusion Character Creator
+  area: characters
+  task: character-generation
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/character-creator/
+  authors:
+  - Reallusion
+  year: 2022
+  tags:
+  - 3d
+  - character
+  - game-engine
+  - reallusion
+  summary: A character design software suite that combines AI-assisted mesh generation, deep parameter customization, and animation-ready rigging for Unreal Engine and Unity.
+  summary_ja: Reallusionが開発する業界標準の3Dキャラクター制作ソフト。全身のカスタマイズ、AIを活用したメッシュ生成、Unreal EngineやUnity向けの即時アニメーション対応リグを備える。
+  thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
+  date_added: '2026-11-11'
+  source: agent
 - id: vroid-studio-a40bc2
   title: VRoid Studio
   area: characters
@@ -1946,6 +1966,24 @@ entries:
   thumbnail: https://static1.squarespace.com/static/6441e9dfea6ac843d83c1bac/t/6926a7474728d3103ba9938b/1740032356901/MPX+-+Main+Image+-+Social.jpg?format=1500w
   date_added: '2026-10-21'
   source: agent
+- id: spline-3d-editor-ai-agent-a03907
+  title: Spline 3D Editor & AI Agent
+  area: gen-3d
+  task: 3d-editing
+  kind: proprietary
+  links:
+    website: https://spline.design/
+  year: 2024
+  tags:
+  - 3d-design
+  - 3d-editing
+  - ai-agent
+  - browser-tool
+  summary: A browser-based collaborative 3D design platform featuring an AI agent that builds, edits, animates, and textures 3D scenes from natural language prompts.
+  summary_ja: 自然言語の指示で3Dオブジェクトの作成、マテリアル設定、ライティング調整、編集をブラウザ上で共同作業できるAIエージェント搭載3Dデザインツール。
+  thumbnail: https://spline.design/_next/static/immutable/media/spline_image_banner.2at491x3fx670.png
+  date_added: '2026-11-11'
+  source: agent
 - id: spline-ai-89a525
   title: Spline AI
   area: gen-3d
@@ -2106,6 +2144,23 @@ entries:
   summary_ja: 自然言語のプロンプトをSTEP、STL、OBJなどの形式の正確で編集可能なB-Rep CADモデルに変換する、開発者向けのジェネレーティブCADプラットフォーム（旧KittyCAD）。
   thumbnail: https://zoo.dev/meta-images/zoo-homepage.png
   date_added: '2026-07-01'
+  source: agent
+- id: zoo-text-to-cad-zookeeper-ef5952
+  title: Zoo Text-to-CAD (Zookeeper)
+  area: gen-3d
+  task: cad
+  kind: proprietary
+  links:
+    website: https://zoo.dev/text-to-cad
+  tags:
+  - brep
+  - cad
+  - parametric
+  - text-to-cad
+  summary: An AI-powered text-to-CAD generation service by Zoo (formerly KittyCAD) that converts natural language prompt descriptions into editable parametric 3D CAD models and STEP/STL files.
+  summary_ja: 自然言語のテキスト説明を編集可能なパラメトリック3D CADモデルやSTEP/STLファイルに変換する、Zoo（旧KittyCAD）提供のAI駆動型Text-to-CADツール。
+  thumbnail: https://zoo.dev/meta-images/page-zookeeper.png
+  date_added: '2026-11-11'
   source: agent
 - id: deemos-rodin-hyper3d-e99202
   title: Deemos Rodin (Hyper3D)
