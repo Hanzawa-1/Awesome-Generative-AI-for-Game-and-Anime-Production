@@ -27772,6 +27772,36 @@ entries:
   date_added: '2026-10-29'
   source: agent
   arxiv_id: '2405.10314'
+- id: citygaussian-81144f
+  title: CityGaussian
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.01133
+    github: https://github.com/Linketic/CityGaussian
+    paper: https://arxiv.org/abs/2404.01133
+  authors:
+  - Yang Liu
+  - He Guan
+  - Chuanchen Luo
+  - Lue Fan
+  - Naiyan Wang
+  - Junran Peng
+  - Zhaoxiang Zhang
+  year: 2024
+  tags:
+  - 3d-gaussian-splatting
+  - lod
+  - scene-generation
+  - urban-scene
+  summary: A divide-and-conquer 3D Gaussian Splatting framework with Level-of-Detail (LoD) strategies for high-quality, real-time rendering of large-scale urban scenes.
+  summary_ja: 大規模な都市シーンの高品質かつリアルタイムな描画を実現するため、分割統治法と詳細度（LoD）戦略を採用した3D Gaussian Splattingフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/linketic/citygaussian
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2404.01133'
+  repo: linketic/citygaussian
 - id: director3d-e03e0e
   title: Director3D
   area: gen-3d
@@ -28376,6 +28406,62 @@ entries:
   source: agent
   arxiv_id: '2302.01330'
   repo: frozenburning/scenedreamer
+- id: scenetex-e80600
+  title: SceneTex
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.17261
+    github: https://github.com/daveredrum/SceneTex
+    paper: https://arxiv.org/abs/2311.17261
+  authors:
+  - Dave Zhenyu Chen
+  - Haoxuan Li
+  - Hsin-Ying Lee
+  - Sergey Tulyakov
+  - Matthias Nießner
+  year: 2023
+  tags:
+  - 3d-scene
+  - diffusion-prior
+  - indoor-scene
+  - texture-synthesis
+  summary: Synthesizes high-quality, style-consistent textures for complex 3D indoor scenes by optimizing RGB texture maps via depth-conditioned diffusion priors.
+  summary_ja: 深度条件付き拡散事前分布を用いてRGBテクスチャマップを最適化し、複雑な3D室内シーンに対して高品質でスタイルの一貫したテクスチャを合成する手法。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2311.17261'
+  repo: daveredrum/scenetex
+- id: text2room-85bc07
+  title: Text2Room
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.11989
+    github: https://github.com/lukasHoel/text2room
+    paper: https://arxiv.org/abs/2303.11989
+  authors:
+  - Lukas Höllein
+  - Ang Cao
+  - Andrew Owens
+  - Justin Johnson
+  - Matthias Nießner
+  year: 2023
+  tags:
+  - indoor-scene
+  - mesh-generation
+  - room-generation
+  - text-to-3d
+  summary: Generates textured room-scale 3D indoor meshes from natural language prompts by combining 2D text-to-image diffusion, monocular depth estimation, and depth-aware inpainting.
+  summary_ja: 2Dテキスト画像生成、単眼深度推定、深度対応インペインティングを組み合わせ、自然言語のプロンプトからテクスチャ付きの室内3Dメッシュを生成する手法。
+  thumbnail: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2303.11989'
+  repo: lukashoel/text2room
 - id: wonderjourney-going-from-anywhere-to-everywhere-352acc
   title: 'WonderJourney: Going from Anywhere to Everywhere'
   area: gen-3d
@@ -28629,6 +28715,34 @@ entries:
   source: agent
   arxiv_id: '2602.00265'
   repo: yuhaoliu7456/world-shaper
+- id: conditional-panoramic-image-generation-via-masked-autoregres-447b6b
+  title: Conditional Panoramic Image Generation via Masked Autoregressive Modeling
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2505.16862
+    project: https://wang-chaoyang.github.io/project/par/
+  authors:
+  - Chaoyang Wang
+  - Xiangtai Li
+  - Lu Qi
+  - Xiaofan Lin
+  - Jinbin Bai
+  - Qianyu Zhou
+  - Yunhai Tong
+  year: 2025
+  tags:
+  - '360'
+  - autoregressive
+  - outpainting
+  - panorama
+  - skybox
+  summary: A unified masked autoregressive framework for 360-degree panorama generation and outpainting that addresses equirectangular projection distortions inherent to diffusion-based methods.
+  summary_ja: 拡散モデルにおける正距円筒図法の歪み課題に対処し、360度パノラマ生成およびアウトペインティングを統一して扱うマスク言語モデル風の自己回帰フレームワーク。
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2505.16862'
 - id: cubediff-5d3acf
   title: CubeDiff
   area: gen-3d
@@ -30697,6 +30811,35 @@ entries:
   date_added: '2026-10-01'
   source: agent
   repo: ziyang-xie/worldgen
+- id: 3dtopia-large-text-to-3d-generation-model-with-hybrid-diffus-1d631a
+  title: '3DTopia: Large Text-to-3D Generation Model with Hybrid Diffusion Priors'
+  area: gen-3d
+  task: text-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.02234
+    github: https://github.com/3DTopia/3DTopia
+  authors:
+  - Fangzhou Hong
+  - Jiaxiang Tang
+  - Ziang Cao
+  - Min Shi
+  - Tong Wu
+  - Zhaoxi Chen
+  - Shuai Yang
+  - Tengfei Wang
+  year: 2024
+  tags:
+  - diffusion
+  - fast-generation
+  - text-to-3d
+  - triplane
+  summary: 3DTopia is a text-to-3D generation framework that uses a tri-plane latent diffusion model for fast coarse shape sampling followed by 2D diffusion refinement.
+  summary_ja: 3DTopiaは、トリプレーン潜在拡散モデルを用いて高速に大まかな形状を生成し、2D拡散事前分布でテクスチャを詳細化するテキストからの3D生成フレームワークです。
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2403.02234'
+  repo: 3dtopia/3dtopia
 - id: bootstrap3d-de5338
   title: Bootstrap3D
   area: gen-3d
@@ -32232,6 +32375,28 @@ entries:
   date_added: '2026-07-09'
   source: agent
   arxiv_id: '2410.15891'
+- id: vastextures-vast-repository-of-textures-and-pbr-materials-ex-b5d8b1
+  title: 'Vastextures: Vast repository of textures and PBR materials extracted from real-world images using unsupervised methods'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.17146
+    paper: https://arxiv.org/pdf/2406.17146
+  authors:
+  - Sagi Eppel
+  year: 2024
+  tags:
+  - dataset
+  - material
+  - pbr
+  - svbrdf
+  - texture
+  summary: Vastextures provides a dataset of 500,000 textures and SVBRDF/PBR materials extracted automatically from real-world photos using an unsupervised process for CGI and material generation pipelines.
+  summary_ja: Vastexturesは、自然画像から教師なし手法で自動抽出された500,000件の2DテクスチャおよびSVBRDF/PBRマテリアルからなる大容量リポジトリであり、CGやマテリアル生成パイプライン向けに多様な素材データを提供します。
+  date_added: '2026-11-12'
+  source: agent
+  arxiv_id: '2406.17146'
 - id: matfuse-7c813e
   title: MatFuse
   area: gen-3d
