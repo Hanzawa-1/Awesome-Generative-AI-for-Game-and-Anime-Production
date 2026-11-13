@@ -30836,6 +30836,7 @@ entries:
   - triplane
   summary: 3DTopia is a text-to-3D generation framework that uses a tri-plane latent diffusion model for fast coarse shape sampling followed by 2D diffusion refinement.
   summary_ja: 3DTopiaは、トリプレーン潜在拡散モデルを用いて高速に大まかな形状を生成し、2D拡散事前分布でテクスチャを詳細化するテキストからの3D生成フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/3dtopia/3dtopia
   date_added: '2026-11-12'
   source: agent
   arxiv_id: '2403.02234'
@@ -34431,6 +34432,33 @@ entries:
   source: agent
   arxiv_id: '2406.07540'
   repo: genforce/ctrl-x
+- id: dilightnet-fine-grained-lighting-control-for-diffusion-model-afc5c6
+  title: 'DiLightNet: Fine-Grained Lighting Control for Diffusion Models'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.11929
+    github: https://github.com/iamNCJ/DiLightNet
+  authors:
+  - Chong Zeng
+  - Yue Dong
+  - Pieter Peers
+  - Youkang Kong
+  - Hongzhi Wu
+  - Xin Tong
+  year: 2024
+  tags:
+  - conditioning
+  - controlnet
+  - lighting
+  - relighting
+  summary: A ControlNet-inspired framework that enables spatial lighting conditioning for diffusion models, allowing artists to specify fine-grained lighting setups, directional light hints, and background environment maps during generation.
+  summary_ja: 拡散モデルに空間的なライティング条件付けを追加するフレームワーク。背景環境マップや指向性ライトの指示により、詳細な照明設定での画像生成を可能にする。
+  date_added: '2026-11-13'
+  source: agent
+  arxiv_id: '2402.11929'
+  repo: iamncj/dilightnet
 - id: flexecontrol-64254a
   title: FlexEControl
   area: image-2d
@@ -34698,6 +34726,26 @@ entries:
   date_added: '2026-08-07'
   source: agent
   repo: xlabs-ai/x-flux
+- id: comfyui-controlnet-auxiliary-preprocessors-d1209d
+  title: ComfyUI ControlNet Auxiliary Preprocessors
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    github: https://github.com/Fannovel16/comfyui_controlnet_aux
+  authors:
+  - Fannovel16
+  year: 2023
+  tags:
+  - comfyui
+  - conditioning
+  - controlnet
+  - preprocessor
+  summary: A node suite for ComfyUI providing preprocessors for extracting ControlNet spatial conditioning inputs including Canny, Depth Anything, DWPose, Anime Lineart, and HED edges.
+  summary_ja: ComfyUI向けのControlNet前処理ノード集。Canny、Depth Anything、DWPose、アニメ線画、HEDエッジなどの制御用マップ抽出に対応。
+  date_added: '2026-11-13'
+  source: agent
+  repo: fannovel16/comfyui_controlnet_aux
 - id: controlnet-f9ea86
   title: ControlNet
   area: image-2d
@@ -34743,6 +34791,32 @@ entries:
   source: agent
   arxiv_id: '2312.06573'
   repo: vislearn/controlnet-xs
+- id: dwpose-effective-whole-body-pose-estimation-for-controlnet-38e148
+  title: 'DWPose: Effective Whole-body Pose Estimation for ControlNet'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2307.15880
+    github: https://github.com/IDEA-Research/DWPose
+  authors:
+  - Zhendong Yang
+  - Ailing Zeng
+  - Chun Yuan
+  - Yu Li
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - keypoints
+  - pose-estimation
+  summary: A two-stage pose distillation framework for whole-body human keypoint estimation, widely adopted in ControlNet pipelines for accurate body, face, and hand pose-conditioned image generation.
+  summary_ja: 身体・顔・手のキーポイントを高精度に推定する2段階蒸留ポーズ推定モデル。ControlNetのポーズ条件付け生成パイプラインで広く標準採用されている。
+  thumbnail: https://opengraph.githubassets.com/1/idea-research/dwpose
+  date_added: '2026-11-13'
+  source: agent
+  arxiv_id: '2307.15880'
+  repo: idea-research/dwpose
 - id: freecontrol-training-free-spatial-control-of-any-text-to-ima-450652
   title: 'FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition'
   area: image-2d
@@ -35637,6 +35711,31 @@ entries:
   date_added: '2026-10-16'
   source: agent
   repo: lllyasviel/ic-light
+- id: insightedit-towards-better-instruction-following-for-image-e-656153
+  title: 'InsightEdit: Towards Better Instruction Following for Image Editing'
+  area: image-2d
+  task: image-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.17323
+    paper: https://arxiv.org/pdf/2411.17323
+  authors:
+  - Yingjing Xu
+  - Jie Kong
+  - Jiazhi Wang
+  - Xiao Pan
+  - Bo Lin
+  - Qiang Liu
+  year: 2024
+  tags:
+  - diffusion
+  - image-editing
+  - instruction-editing
+  summary: An instruction-based image editing framework that integrates visual feature feedback and multi-level text conditioning to improve instruction adherence and maintain background consistency.
+  summary_ja: 視覚特徴のフィードバックとマルチレベルのテキスト条件付けを統合し、指示への追従性と背景の一貫性を向上させた命令ベースの画像編集フレームワーク。
+  date_added: '2026-11-13'
+  source: agent
+  arxiv_id: '2411.17323'
 - id: layerdiffuse-eb1604
   title: LayerDiffuse
   area: image-2d
@@ -38180,6 +38279,35 @@ entries:
   date_added: '2026-08-07'
   source: agent
   arxiv_id: '2403.18425'
+- id: diffsketcher-89c088
+  title: DiffSketcher
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2306.14685
+    github: https://github.com/ximinng/DiffSketcher
+  authors:
+  - Xi Ming
+  - Ruiyi Zhang
+  - Xiang Li
+  - Yijun Li
+  - Chen Fan
+  - Huchuan Lu
+  - Chih-Yuan Yang
+  year: 2023
+  tags:
+  - bezier-curves
+  - diffusion
+  - score-distillation
+  - vector-sketch
+  summary: A framework for text-guided vector sketch synthesis that optimizes Bézier curves using Score Distillation Sampling (SDS) with pre-trained latent diffusion models.
+  summary_ja: 学習済みの潜在拡散モデルからScore Distillation Sampling (SDS)を用いてベジェ曲線を最適化し、テキストプロンプトからベクター形式のスケッチを生成する手法。
+  thumbnail: https://opengraph.githubassets.com/1/ximinng/diffsketcher
+  date_added: '2026-11-13'
+  source: agent
+  arxiv_id: '2306.14685'
+  repo: ximinng/diffsketcher
 - id: diffsketching-17af75
   title: DiffSketching
   area: image-2d
@@ -40878,6 +41006,34 @@ entries:
   source: agent
   arxiv_id: '2405.08748'
   repo: tencent-hunyuan/hunyuandit
+- id: infinity-scaling-bitwise-autoregressive-modeling-for-high-re-e72c2f
+  title: 'Infinity: Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis'
+  area: image-2d
+  task: text-to-image
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.04431
+    github: https://github.com/FoundationVision/Infinity
+  authors:
+  - Jian Han
+  - Jinlai Liu
+  - Yi Jiang
+  - Bin Yan
+  - Yuqi Zhang
+  - Zehuan Yuan
+  - Bingyue Peng
+  - Xiaobing Liu
+  year: 2024
+  tags:
+  - autoregressive
+  - high-resolution
+  - text-to-image
+  summary: A bitwise visual autoregressive model using an infinite-vocabulary tokenization and bitwise self-correction mechanism to synthesize high-resolution images from text.
+  summary_ja: 無限語彙のトークナイザーとビット単位の自己修正機構を用いて、テキストから高解像度画像を合成するビット単位の視覚自己回帰モデル。
+  date_added: '2026-11-13'
+  source: agent
+  arxiv_id: '2412.04431'
+  repo: foundationvision/infinity
 - id: janus-965de1
   title: Janus
   area: image-2d
