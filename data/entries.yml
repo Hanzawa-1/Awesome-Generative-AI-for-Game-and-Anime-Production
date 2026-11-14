@@ -34455,6 +34455,7 @@ entries:
   - relighting
   summary: A ControlNet-inspired framework that enables spatial lighting conditioning for diffusion models, allowing artists to specify fine-grained lighting setups, directional light hints, and background environment maps during generation.
   summary_ja: 拡散モデルに空間的なライティング条件付けを追加するフレームワーク。背景環境マップや指向性ライトの指示により、詳細な照明設定での画像生成を可能にする。
+  thumbnail: https://opengraph.githubassets.com/1/iamncj/dilightnet
   date_added: '2026-11-13'
   source: agent
   arxiv_id: '2402.11929'
@@ -41030,6 +41031,7 @@ entries:
   - text-to-image
   summary: A bitwise visual autoregressive model using an infinite-vocabulary tokenization and bitwise self-correction mechanism to synthesize high-resolution images from text.
   summary_ja: 無限語彙のトークナイザーとビット単位の自己修正機構を用いて、テキストから高解像度画像を合成するビット単位の視覚自己回帰モデル。
+  thumbnail: https://opengraph.githubassets.com/1/foundationvision/infinity
   date_added: '2026-11-13'
   source: agent
   arxiv_id: '2412.04431'
@@ -43851,6 +43853,33 @@ entries:
   date_added: '2026-10-10'
   source: agent
   arxiv_id: '2606.29727'
+- id: expressive-speech-to-speech-translation-via-professional-dub-2310af
+  title: Expressive Speech-to-Speech Translation via Professional Dubbing Supervision
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.06010
+    paper: https://arxiv.org/pdf/2611.06010
+  authors:
+  - Hao Zhang
+  - Ismail Rasim Ulgen
+  - Bismarck Bamfo Odoom
+  - Rui Liu
+  - Zihan Zhang
+  - Berrak Sisman
+  - Philipp Koehn
+  year: 2026
+  tags:
+  - audio-localization
+  - dubbing
+  - expressive-speech
+  - speech-translation
+  summary: A speech-to-speech translation framework that utilizes professional dubbing data to align dialogue content, prosody, timing, and speaker identity across languages.
+  summary_ja: プロによる吹き替えデータを活用し、言語間で対話コンテンツ・韻律・タイミング・話し手アイデンティティを同調させる音声対音声翻訳フレームワーク。
+  date_added: '2026-11-14'
+  source: agent
+  arxiv_id: '2611.06010'
 - id: meowth-gba-translator-07e063
   title: Meowth GBA Translator
   area: text-design
@@ -43897,6 +43926,54 @@ entries:
   date_added: '2026-10-10'
   source: agent
   arxiv_id: '2609.38660'
+- id: yn-translation-workshop-b329dd
+  title: YN Translation Workshop
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/TohmaN233/YN-translation-workshop
+  authors:
+  - TohmaN233
+  year: 2026
+  tags:
+  - game-localization
+  - llm
+  - translation
+  - workbench
+  summary: An open-source AI translation and proofreading workbench designed for game localization and long-form fiction with character and glossary management and format preservation.
+  summary_ja: キャラクターや用語集の管理、フォーマット保持機能を備え、ゲームローカライズや長編フィクション向けに設計されたオープンソースAI翻訳・校正ワークベンチ。
+  thumbnail: https://opengraph.githubassets.com/1/tohman233/yn-translation-workshop
+  date_added: '2026-11-14'
+  source: agent
+  repo: tohman233/yn-translation-workshop
+- id: tower-647076
+  title: Tower+
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2506.17080
+    paper: https://arxiv.org/pdf/2506.17080
+  authors:
+  - Ricardo Rei
+  - Nuno M. Guerreiro
+  - José Pombal
+  - João Alves
+  - Pedro Teixeirinha
+  - Amin Farajian
+  - André F. T. Martins
+  year: 2025
+  tags:
+  - llm
+  - localization
+  - multilingual
+  - translation
+  summary: A suite of multilingual large language models specialized for machine translation and localization workflows while preserving instruction-following and reasoning capabilities.
+  summary_ja: 指示追従能力や推論能力を保ちつつ、機械翻訳やローカライズワークフローに特化させた多言語言語モデルファミリー。
+  date_added: '2026-11-14'
+  source: agent
+  arxiv_id: '2506.17080'
 - id: aya-expanse-3bf43b
   title: Aya Expanse
   area: text-design
@@ -45141,6 +45218,34 @@ entries:
   date_added: '2026-08-22'
   source: agent
   arxiv_id: '2608.12336'
+- id: towards-self-evolving-narrative-systems-real-time-adaptation-c3b9a7
+  title: 'Towards Self-Evolving Narrative Systems: Real-Time Adaptation and Long-Term Optimization with LLMs'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.01954
+    paper: https://arxiv.org/pdf/2611.01954
+  authors:
+  - Ruisheng Sun
+  - Jiaqi Shao
+  - Weijia Han
+  - Linxi Ju
+  - Yunzhen Zhang
+  - Binyan Sun
+  - Rong Chen
+  - Benjamin Blas Maristany
+  year: 2026
+  tags:
+  - adaptive-narrative
+  - interactive-storytelling
+  - llm
+  - narrative
+  summary: A hybrid interactive narrative framework that balances pre-authored narrative structure with real-time LLM generation via semantic similarity alignment to preserve long-term story coherence and player agency.
+  summary_ja: 事前に執筆されたストーリー構造とリアルタイムなLLM生成を意味的類似度アライメントによって調和させ、長期的な整合性とプレイヤーの選択の自由度を両立するハイブリッドインタラクティブ物語フレームワーク。
+  date_added: '2026-11-14'
+  source: agent
+  arxiv_id: '2611.01954'
 - id: all-stories-are-one-story-d63c30
   title: All Stories Are One Story
   area: text-design

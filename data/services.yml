@@ -2212,6 +2212,7 @@ entries:
   - proprietary
   summary: A cloud-based AI 3D asset generation platform that converts text prompts and single or multi-view images into production-ready 3D meshes with smart topology, UV unwrapping, and PBR textures in seconds.
   summary_ja: テキストプロンプトや単一/複数枚の画像から、スマートトポロジー、UV展開、PBRテクスチャを備えたゲーム開発等で利用可能な3Dメッシュを数秒で生成するクラウドベースのAI 3Dプラットフォーム。
+  thumbnail: https://cdn-blog.holymolly.ai/media/production/Tripo3D_og-1.webp
   date_added: '2026-10-21'
   source: agent
 - id: meshy-c6012a
@@ -2246,6 +2247,7 @@ entries:
   - rigging
   summary: An end-to-end commercial 3D generation service offering fast text-to-3D and image-to-3D mesh generation, along with automated mesh retopology, rigging, and PBR texturing for game production workflows.
   summary_ja: 高速なテキスト/画像からの3Dメッシュ生成に加え、自動リトポロジー、リギング、PBRテクスチャリング機能を備え、ゲーム制作パイプラインに最適化された商用3D生成サービス。
+  thumbnail: https://cdn-blog.holymolly.ai/media/production/Tripo3D_og-1.webp
   date_added: '2026-10-14'
   source: agent
 - id: meshy-ai-1d029a
@@ -4093,6 +4095,7 @@ entries:
   - typesetting
   summary: A commercial cloud platform designed for manga publishers and localization teams to automate text extraction, AI translation, page inpainting, and layered typesetting management.
   summary_ja: マンガ出版社やローカライズチーム向けに、テキスト抽出、AI翻訳、インペインティング、レイヤー別組版管理を自動化する商用クラウドプラットフォーム。
+  thumbnail: https://studio.loomic.io/og-image/en-US.png?v=20260407
   date_added: '2026-11-07'
   source: agent
 - id: ismanga-e06967
@@ -4295,6 +4298,26 @@ entries:
   thumbnail: https://boords.com/api/og?title=Video+Pre-Production+Software+for+Agencies+%26+Brands&subtitle=Plan+scripts%2C+storyboards%2C+and+animatics+with+your+team.+Share+work+with+clients%2C+collect+feedback%2C+track+versions%2C+and+get+sign-off%E2%80%94all+in+one+place.&type=default
   date_added: '2026-06-27'
   source: agent
+- id: clip-studio-paint-ex-abd8da
+  title: Clip Studio Paint EX
+  area: manga
+  task: panel-layout
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  authors:
+  - Celsys
+  year: 2023
+  tags:
+  - clip-studio
+  - comic-creation
+  - manga-layout
+  - proprietary
+  summary: Industry-standard digital painting and comic creation software providing frame border splitting, dynamic panel templates, story multi-page management, and print layout tooling.
+  summary_ja: 枠線分割、動的なコマ割りテンプレート、複数ページ管理、印刷用レイアウトツールを備えた、マンガ・コミック制作の業界標準デジタルペイントソフト。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0008
+  date_added: '2026-11-14'
+  source: agent
 - id: comic-life-3-2aca88
   title: Comic Life 3
   area: manga
@@ -4422,6 +4445,26 @@ entries:
   thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
   date_added: '2026-10-10'
   source: agent
+- id: clip-studio-paint-screentone-tone-conversion-ab5f3c
+  title: Clip Studio Paint Screentone & Tone Conversion
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  authors:
+  - CELSYS
+  year: 2024
+  tags:
+  - clip-studio-paint
+  - commercial
+  - manga
+  - screentone
+  summary: Industry-standard digital art software featuring automatic layer-to-tone conversion, procedural halftone density and angle controls, and vector line/tone separation for manga production.
+  summary_ja: レイヤーの自動トーン変換、線画とトーンの分離、線数・角度・柄の自由な調整機能を備えたマンガ制作の業界標準ソフトウェア。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0008
+  date_added: '2026-11-14'
+  source: agent
 - id: comicsai-manga-screentone-generator-6bb34b
   title: ComicsAI Manga Screentone Generator
   area: manga
@@ -4491,6 +4534,24 @@ entries:
   summary_ja: 高度なスクリーントーンエンジン、3D参照モデル、ベクターレイヤー、マンガのコマ割りツールなどを備えた、イラスト・マンガ制作の業界標準デジタルペイントソフト。
   thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
   date_added: '2026-06-13'
+  source: agent
+- id: game-localizer-ai-96392b
+  title: game-localizer.ai
+  area: text-design
+  task: localization
+  kind: proprietary
+  links:
+    website: https://game-localizer.ai/
+  year: 2026
+  tags:
+  - ai-translation
+  - game-localization
+  - unity
+  - unreal
+  summary: An AI-powered game localization platform that extracts game terms and preserves code tags to automate multilingual translation for Unity, Unreal, Godot, and custom engines.
+  summary_ja: Unity、Unreal、Godotなどのゲームエンジン向けに、ゲーム用語抽出やコードタグ保持を行いつつ多言語翻訳を自動化するAI搭載ゲームローカライズプラットフォーム。
+  thumbnail: https://game-localizer.ai/og-image.png
+  date_added: '2026-11-14'
   source: agent
 - id: crowdin-ai-eb04d1
   title: Crowdin AI
@@ -4879,6 +4940,24 @@ entries:
   summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
   thumbnail: https://novelai.net/social.png
   date_added: '2026-07-11'
+  source: agent
+- id: sudowrite-1355d7
+  title: Sudowrite
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://sudowrite.com/
+  year: 2021
+  tags:
+  - narrative
+  - story-bible
+  - worldbuilding
+  - writing-assistant
+  summary: An AI-powered creative writing platform designed for fiction authors and narrative designers, featuring a Story Bible to structure characters, lore, and chapter beat expansion.
+  summary_ja: フィクション作家やシナリオライター向けに設計されたAI創作支援プラットフォーム。Story Bible機能を通じてキャラクター、世界観、物語展開の構造化と拡張を支援する。
+  thumbnail: https://framerusercontent.com/assets/1k2TYC2YpFUOb9cH9JmDo6QyUp8.png
+  date_added: '2026-11-14'
   source: agent
 - id: ai-dungeon-5a63a4
   title: AI Dungeon
