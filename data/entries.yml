@@ -34744,6 +34744,7 @@ entries:
   - preprocessor
   summary: A node suite for ComfyUI providing preprocessors for extracting ControlNet spatial conditioning inputs including Canny, Depth Anything, DWPose, Anime Lineart, and HED edges.
   summary_ja: ComfyUI向けのControlNet前処理ノード集。Canny、Depth Anything、DWPose、アニメ線画、HEDエッジなどの制御用マップ抽出に対応。
+  thumbnail: https://opengraph.githubassets.com/1/fannovel16/comfyui_controlnet_aux
   date_added: '2026-11-13'
   source: agent
   repo: fannovel16/comfyui_controlnet_aux
@@ -47282,6 +47283,28 @@ entries:
   date_added: '2026-09-20'
   source: agent
   arxiv_id: '2410.01791'
+- id: g-pcgrl-67014e
+  title: G-PCGRL
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.10483
+    paper: https://arxiv.org/pdf/2407.10483
+  authors:
+  - Florian Rupp
+  - Kai Eckert
+  year: 2024
+  tags:
+  - game-design
+  - graph
+  - pcg
+  - reinforcement-learning
+  summary: G-PCGRL applies reinforcement learning to procedural content generation for graph data, enabling controllable generation of game structures such as skill trees, game economies, and quest networks.
+  summary_ja: G-PCGRLは強化学習を用いてグラフ構造のデータに対するプロシージャルコンテンツ生成を行い、スキルツリーやゲーム経済、クエストネットワークなどの制御可能な自動生成を実現します。
+  date_added: '2026-11-15'
+  source: agent
+  arxiv_id: '2407.10483'
 - id: game-generation-via-large-language-models-71b5d9
   title: Game Generation via Large Language Models
   area: text-design
@@ -47666,6 +47689,32 @@ entries:
   source: agent
   arxiv_id: '2001.09212'
   repo: amidos2006/gym-pcgrl
+- id: toad-gan-6ea8a5
+  title: TOAD-GAN
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2008.01531
+    github: https://github.com/Mawiszus/TOAD-GAN
+    paper: https://arxiv.org/pdf/2008.01531
+  authors:
+  - Maren Awiszus
+  - Frederik Schubert
+  - Bodo Rosenhahn
+  year: 2020
+  tags:
+  - gan
+  - level-generation
+  - mario
+  - pcg
+  summary: TOAD-GAN is a token-based one-shot generative adversarial network for procedural level generation that learns level style and structural rules from a single example to generate arbitrary-sized game levels.
+  summary_ja: TOAD-GANは単一のサンプルレベルから構造ルールとスタイルを学習し、任意のサイズのゲームレベルをプロシージャルに生成するトークンベースのワンショットGANモデルです。
+  thumbnail: https://opengraph.githubassets.com/1/mawiszus/toad-gan
+  date_added: '2026-11-15'
+  source: agent
+  arxiv_id: '2008.01531'
+  repo: mawiszus/toad-gan
 - id: wavefunctioncollapse-wfc-373fdc
   title: WaveFunctionCollapse (WFC)
   area: text-design
@@ -52198,6 +52247,60 @@ entries:
   date_added: '2026-06-14'
   source: agent
   repo: aaronfeng753/waifu2x-extension-gui
+- id: edvr-e5a074
+  title: EDVR
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1905.02716
+    github: https://github.com/xinntao/EDVR
+  authors:
+  - Xintao Wang
+  - Kelvin C. K. Chan
+  - Ke Yu
+  - Chao Dong
+  - Chen Change Loy
+  year: 2019
+  tags:
+  - alignment
+  - deformable-conv
+  - restoration
+  - video-sr
+  summary: A landmark video restoration network using enhanced deformable convolutions and attention mechanisms for temporal alignment and frame fusion across large motions.
+  summary_ja: 拡張変形可能畳み込みとアテンション機構を用いて、大きなモーションを伴うフレーム間の時間的整合と統合を行う動画修復・超解像ネットワーク。
+  thumbnail: https://opengraph.githubassets.com/1/xinntao/edvr
+  date_added: '2026-11-15'
+  source: agent
+  arxiv_id: '1905.02716'
+  repo: xinntao/edvr
+- id: tecogan-91d670
+  title: TecoGAN
+  area: video
+  task: video-sr-restoration
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1811.09393
+    github: https://github.com/thunil/TecoGAN
+  authors:
+  - Mengyu Chu
+  - You Xie
+  - Jonas Mayer
+  - Laura Leal-Taixé
+  - Nils Thuerey
+  year: 2018
+  tags:
+  - gan
+  - super-resolution
+  - temporal-coherence
+  - video-sr
+  summary: A GAN-based video super-resolution model featuring a temporal adversarial loss and frame-recurrent generator to produce temporally coherent and sharp high-resolution details.
+  summary_ja: 時間的敵対性損失とフレーム再帰型ジェネレータを備え、時間的整合性を保ちながらシャープな高解像度詳細を生成するGANベースの動画超解像モデル。
+  thumbnail: https://opengraph.githubassets.com/1/thunil/tecogan
+  date_added: '2026-11-15'
+  source: agent
+  arxiv_id: '1811.09393'
+  repo: thunil/tecogan
 - id: video2x-b0b3af
   title: Video2X
   area: video
@@ -52643,6 +52746,36 @@ entries:
   date_added: '2026-10-11'
   source: agent
   arxiv_id: '2312.02813'
+- id: ccedit-creative-and-controllable-video-editing-via-diffusion-70fb71
+  title: 'CCEdit: Creative and Controllable Video Editing via Diffusion Models'
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.16496
+    github: https://github.com/RuoyuFeng/CCEdit
+    paper: https://arxiv.org/pdf/2309.16496
+  authors:
+  - Ruoyu Feng
+  - Wenming Weng
+  - Yanhui Wang
+  - Yuhui Yuan
+  - Jianmin Bao
+  - Chong Luo
+  - Zhibo Chen
+  - Baining Guo
+  year: 2023
+  tags:
+  - controlnet
+  - diffusion
+  - video-editing
+  - video-style-transfer
+  summary: CCEdit is a video editing and style transfer framework that uses a trident network structure based on diffusion models. It separates structure and appearance control to enable keyframe-guided creative text/image video stylization with temporal smoothness.
+  summary_ja: CCEditは、拡散モデルに基づくトライデントネットワーク構造を採用した動画編集・スタイル変換フレームワークです。構造と外観の制御を分離することで、キーフレームに誘導されたクリエイティブなテキスト・画像ベースの動画スタイル変換を、時間的な滑らかさを保ちつつ実現します。
+  date_added: '2026-11-15'
+  source: agent
+  arxiv_id: '2309.16496'
+  repo: ruoyufeng/ccedit
 - id: codef-956a37
   title: CoDeF
   area: video

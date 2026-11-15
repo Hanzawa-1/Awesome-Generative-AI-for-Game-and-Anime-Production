@@ -5781,6 +5781,25 @@ entries:
   summary_ja: Adobe Premiere ProのAI機能（Firefly Video Model搭載）で、動画クリップの開始または終了部分を最大2秒間、オーディオクリップを最大10秒間延長できます。追加のフレームをインテリジェントに生成し、トランジションをスムーズにします。
   date_added: '2026-09-13'
   source: agent
+- id: adobe-firefly-video-generative-extend-e1ddf9
+  title: Adobe Firefly Video & Generative Extend
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/firefly/features/ai-video-generator.html
+  authors:
+  - Adobe
+  year: 2024
+  tags:
+  - adobe-premiere
+  - firefly
+  - generative-extend
+  - video-editing
+  summary: Adobe Firefly Video Model powers generative video editing tools in Premiere Pro, enabling creators to seamlessly extend video clips, fill missing frames, and generate localized edits.
+  summary_ja: Adobe Firefly Video Modelは、Premiere Proの生成ビデオ編集機能を駆動し、動画クリップの自然な延長や欠落フレームの補完、ローカルな生成編集を実現します。
+  date_added: '2026-11-15'
+  source: agent
 - id: capcut-505618
   title: CapCut
   area: video
@@ -5874,6 +5893,26 @@ entries:
   summary_ja: シンプルなブラシ操作で、動画からオブジェクト、人物、ウォーターマークをシームレスに削除できる、プロフェッショナル向けのAI搭載動画編集ツール。高度な時間的一貫性アルゴリズムを活用し、フレーム全体でクリーンでアーティファクトのない結果を保証します。
   thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
   date_added: '2026-09-13'
+  source: agent
+- id: runway-video-editing-inpainting-5d5ccb
+  title: Runway Video Editing & Inpainting
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runway.com/
+  authors:
+  - Runway
+  year: 2024
+  tags:
+  - generative-video
+  - motion-brush
+  - video-editing
+  - video-inpainting
+  summary: Runway provides a cloud-based generative video editing suite featuring AI video inpainting, object removal, motion control, and text-guided video-to-video editing.
+  summary_ja: Runwayは、AIを活用した動画インペイント、オブジェクト削除、モーションコントロール、テキスト駆動のVideo-to-Video編集を提供するクラウド型生成動画編集スイートです。
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
+  date_added: '2026-11-15'
   source: agent
 - id: runway-ai-magic-tools-d4fb7e
   title: Runway AI Magic Tools
