@@ -216,6 +216,30 @@ entries:
   source: agent
   arxiv_id: '2507.03905'
   repo: antgroup/echomimic_v3
+- id: emo2-end-effector-guided-audio-driven-avatar-video-generatio-de131d
+  title: 'EMO2: End-Effector Guided Audio-Driven Avatar Video Generation'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.10687
+  authors:
+  - Linrui Tian
+  - Siqi Hu
+  - Qi Wang
+  - Bang Zhang
+  - Liefeng Bo
+  year: 2025
+  tags:
+  - audio-driven
+  - facial
+  - gestures
+  - lip-sync
+  summary: EMO2 extends audio-driven talking head synthesis by decoupling co-speech gestures into end-effector trajectories, enabling expressive facial expressions alongside synchronized hand movements.
+  summary_ja: EMO2は、発話に伴うジェスチャーをエンドエフェクタ軌道に分離し、同期した手の動きと共に豊かな表情を持つ音声駆動アバター動画を生成する手法です。
+  date_added: '2026-11-16'
+  source: agent
+  arxiv_id: '2501.10687'
 - id: emohead-emotional-talking-head-via-manipulating-semantic-exp-0ab056
   title: 'EmoHead: Emotional Talking Head via Manipulating Semantic Expression Parameters'
   area: animation
@@ -608,6 +632,31 @@ entries:
   source: agent
   arxiv_id: '2405.03121'
   repo: x-lance/anitalker
+- id: cyberhost-taming-audio-driven-avatar-diffusion-model-with-re-b71875
+  title: 'CyberHost: Taming Audio-driven Avatar Diffusion Model with Region Codebook Attention'
+  area: animation
+  task: facial-lipsync
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.01876
+  authors:
+  - Gaojie Lin
+  - Jianwen Jiang
+  - Chao Liang
+  - Tianyun Zhong
+  - Jiaqi Yang
+  - Yanbo Zheng
+  year: 2024
+  tags:
+  - audio-driven
+  - avatar
+  - facial
+  - lip-sync
+  summary: CyberHost is an audio-driven human avatar diffusion framework that utilizes region codebook attention to maintain hand integrity, identity consistency, and natural facial lip synchronization.
+  summary_ja: CyberHostは、領域コードブックアテンションを活用して手の完全性、アイデンティティの一貫性、および自然なリップシンクを実現する音声駆動型アバター拡散フレームワークです。
+  date_added: '2026-11-16'
+  source: agent
+  arxiv_id: '2409.01876'
 - id: degstalk-decomposed-per-embedding-gaussian-fields-for-hair-p-e0191a
   title: 'DEGSTalk: Decomposed Per-Embedding Gaussian Fields for Hair-Preserving Talking Face Synthesis'
   area: animation
@@ -7425,6 +7474,35 @@ entries:
   source: agent
   arxiv_id: '2412.05095'
   repo: xiaofeng-tan/sopo
+- id: stablemofusion-towards-robust-and-efficient-diffusion-based-45a4d2
+  title: 'StableMoFusion: Towards Robust and Efficient Diffusion-based Motion Generation Framework'
+  area: animation
+  task: text-to-motion
+  kind: oss
+  links:
+    arxiv: http://arxiv.org/abs/2405.05691v2
+    github: https://github.com/Linketic/StableMoFusion
+  authors:
+  - Yiheng Huang
+  - Hui Yang
+  - Chuanchen Luo
+  - Yuxi Wang
+  - Shibiao Xu
+  - Zhaoxiang Zhang
+  - Man Zhang
+  - Junran Peng
+  year: 2024
+  tags:
+  - 3d-human
+  - diffusion
+  - motion-generation
+  - text-to-motion
+  summary: A robust and computationally efficient diffusion-based 3D human motion generation framework that optimizes network architecture and sampling efficiency for high-quality text-driven motion synthesis.
+  summary_ja: モデルアーキテクチャとサンプリング効率を最適化し、リアルタイム性が求められる環境でも高品質なテキスト駆動3Dモーション合成を可能にする堅牢な拡散生成フレームワーク。
+  date_added: '2026-11-16'
+  source: agent
+  arxiv_id: '2405.05691'
+  repo: linketic/stablemofusion
 - id: tesmo-generating-human-interaction-motions-in-scenes-with-te-45235b
   title: 'TeSMo: Generating Human Interaction Motions in Scenes with Text Control'
   area: animation
@@ -8568,6 +8646,24 @@ entries:
   source: agent
   arxiv_id: '2210.06551'
   repo: walter0807/motionbert
+- id: pose2sim-610486
+  title: Pose2Sim
+  area: animation
+  task: video-mocap
+  kind: oss
+  links:
+    github: https://github.com/perfanalytics/pose2sim
+  year: 2022
+  tags:
+  - kinematics
+  - mocap
+  - opensim
+  - video-mocap
+  summary: Pose2Sim is an open-source markerless kinematics framework that converts monocular or multi-camera 2D video pose estimations into 3D OpenSim motion capture data.
+  summary_ja: Pose2Simは、単一または複数カメラの2D動画ポーズ推定結果を3D OpenSimモーションキャプチャデータに変換するオープンソースのマーカーレス運動学フレームワークです。
+  date_added: '2026-11-16'
+  source: agent
+  repo: perfanalytics/pose2sim
 - id: xr-animator-8e7f7b
   title: XR Animator
   area: animation

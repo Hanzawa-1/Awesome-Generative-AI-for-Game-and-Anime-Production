@@ -13,6 +13,7 @@ entries:
   - wan-2.1
   summary: InfiniteTalk is an AI lip-sync video API that adds audio-driven synchronization on top of Wan 2.1, aligning lips, facial expressions, and head motion with the input audio.
   summary_ja: InfiniteTalkは、Wan 2.1の上に音声駆動の同期を追加するAIリップシンクビデオAPIであり、唇、表情、および頭部の動きを入力音声と整列させます。
+  thumbnail: https://kie.ai/logo.png
   date_added: '2026-08-03'
   source: agent
 - id: hedra-f6ef6f
@@ -210,6 +211,26 @@ entries:
   summary_ja: ChronosやApolloなどの専用モーション補間AIモデルを搭載し、低FPSのアニメーションや映像を高フレームレート出力に変換するプロ向け映像拡張ツール。
   thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca910577540672ae401448_opengraph-topaz-video.webp
   date_added: '2026-10-19'
+  source: agent
+- id: topaz-video-ai-frame-interpolation-5e4c40
+  title: Topaz Video AI Frame Interpolation
+  area: animation
+  task: inbetweening
+  kind: proprietary
+  links:
+    website: https://www.topazlabs.com/topaz-video-ai
+  authors:
+  - Topaz Labs
+  year: 2024
+  tags:
+  - frame-interpolation
+  - proprietary
+  - slow-motion
+  - video-ai
+  summary: Topaz Video AI provides production-grade frame interpolation models (Chronos and Apollo) designed to convert low-frame-rate animation and video footage into fluid high-fps or slow-motion clips.
+  summary_ja: Topaz Video AIは、低フレームレートのアニメーションや動画素材を滑らかな高FPSまたはスローモーション映像に変換する商用グレードのフレーム補間モデル（ChronosおよびApollo）を提供します。
+  thumbnail: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/68ca910577540672ae401448_opengraph-topaz-video.webp
+  date_added: '2026-11-16'
   source: agent
 - id: cacani-920885
   title: CACANi
