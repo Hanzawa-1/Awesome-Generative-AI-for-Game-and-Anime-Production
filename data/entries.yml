@@ -7499,6 +7499,7 @@ entries:
   - text-to-motion
   summary: A robust and computationally efficient diffusion-based 3D human motion generation framework that optimizes network architecture and sampling efficiency for high-quality text-driven motion synthesis.
   summary_ja: モデルアーキテクチャとサンプリング効率を最適化し、リアルタイム性が求められる環境でも高品質なテキスト駆動3Dモーション合成を可能にする堅牢な拡散生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/linketic/stablemofusion
   date_added: '2026-11-16'
   source: agent
   arxiv_id: '2405.05691'
@@ -9656,6 +9657,37 @@ entries:
   source: agent
   arxiv_id: '2402.04825'
   repo: stability-ai/stable-audio-tools
+- id: vidmuse-a-simple-video-to-music-generation-framework-with-lo-cc29d2
+  title: 'VidMuse: A Simple Video-to-Music Generation Framework with Long-Short-Term Modeling'
+  area: audio
+  task: music-bgm
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2406.04321
+    github: https://github.com/ZeyueT/VidMuse
+  authors:
+  - Zeyue Tian
+  - Zhaokai Wang
+  - Yiyang Luo
+  - Zhen Ye
+  - Zhipeng Zou
+  - Tiezheng Liang
+  - Bailin Li
+  - Ge Zhang
+  - Wanyi Li
+  - Zhaoxiang Zhang
+  year: 2024
+  tags:
+  - bgm
+  - cvpr2025
+  - soundtrack
+  - video-to-music
+  summary: VidMuse is an open-source video-to-music generation framework that uses long-short-term modeling to produce high-fidelity background music aligned with video pacing and visual content.
+  summary_ja: VidMuseは、映像のテンポや視覚的展開に同期した高品質なバックグラウンドミュージックを生成するオープンソースのVideo-to-Musicフレームワークです。
+  date_added: '2026-11-17'
+  source: agent
+  arxiv_id: '2406.04321'
+  repo: zeyuet/vidmuse
 - id: vmas-video-to-music-generation-via-semantic-alignment-8cc816
   title: 'VMAS: Video-to-Music Generation via Semantic Alignment'
   area: audio
@@ -11284,6 +11316,37 @@ entries:
   date_added: '2026-08-25'
   source: agent
   arxiv_id: '2510.12175'
+- id: audiox-a-unified-framework-for-anything-to-audio-generation-dd23eb
+  title: 'AudioX: A Unified Framework for Anything-to-Audio Generation'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.10522
+    github: https://github.com/ZeyueT/AudioX
+    project: https://zeyuet.github.io/AudioX/
+  authors:
+  - Zeyue Tian
+  - Zhaoyang Liu
+  - Yizhu Jin
+  - Ruibin Yuan
+  - Liumeng Xue
+  - Xu Tan
+  - Qifeng Chen
+  - Wei Xue
+  - Yike Guo
+  year: 2025
+  tags:
+  - anything-to-audio
+  - diffusion
+  - foley
+  - sfx
+  summary: A unified Diffusion Transformer architecture capable of generating sound effects, Foley audio, and music conditioned on flexible multimodal inputs including text, video, image, or audio signals.
+  summary_ja: テキスト、動画、画像、音声などの多様な条件信号に対応し、環境音や効果音、フォーリー、音楽を統合的に生成するDiffusion Transformerモデル。
+  date_added: '2026-11-17'
+  source: agent
+  arxiv_id: '2503.10522'
+  repo: zeyuet/audiox
 - id: cafa-b60165
   title: CAFA
   area: audio
@@ -11707,6 +11770,33 @@ entries:
   source: agent
   arxiv_id: '2412.15322'
   repo: hkchengrex/mmaudio
+- id: sonicvisionlm-playing-sound-with-vision-language-models-3b578f
+  title: 'SonicVisionLM: Playing Sound with Vision Language Models'
+  area: audio
+  task: sfx-foley
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2401.04394
+    github: https://github.com/Yusiissy/SonicVisionLM
+    project: https://yusiissy.github.io/SonicVisionLM.github.io/
+  authors:
+  - Yusi Wang
+  - Zheqi Dai
+  - Hao Wang
+  - Zhe Wang
+  - Zhiyong Wu
+  year: 2024
+  tags:
+  - foley
+  - sfx
+  - video-to-audio
+  - vlm
+  summary: A framework combining vision-language models and audio diffusion to identify visually grounded events in silent video and generate synchronized Foley sound effects.
+  summary_ja: 視覚言語モデル（VLM）と音声拡散モデルを組み合わせ、無声映像内の視覚イベントを認識して同期されたフォーリー効果音を自動生成するシステム。
+  date_added: '2026-11-17'
+  source: agent
+  arxiv_id: '2401.04394'
+  repo: yusiissy/sonicvisionlm
 - id: stable-audio-open-ce4d93
   title: Stable Audio Open
   area: audio
@@ -13077,6 +13167,25 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: hexgrad/kokoro
+- id: mars5-tts-7c6a3a
+  title: MARS5-TTS
+  area: audio
+  task: tts
+  kind: oss
+  links:
+    github: https://github.com/Camb-ai/MARS5-TTS
+  year: 2024
+  tags:
+  - prosody
+  - speech-synthesis
+  - tts
+  - voice-cloning
+  summary: An open-source text-to-speech model engineered for zero-shot voice cloning with realistic prosody and emotional nuances.
+  summary_ja: リアルな韻律と感情表現を備えたゼロショット音声クローニングのために設計されたオープンソーステキスト読み上げモデル。
+  thumbnail: https://opengraph.githubassets.com/1/camb-ai/mars5-tts
+  date_added: '2026-11-17'
+  source: agent
+  repo: camb-ai/mars5-tts
 - id: parler-tts-58a529
   title: Parler-TTS
   area: audio
@@ -14017,6 +14126,31 @@ entries:
   date_added: '2026-10-13'
   source: agent
   arxiv_id: '2306.15687'
+- id: freevc-4a0ea0
+  title: FreeVC
+  area: audio
+  task: voice-cloning
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2210.15418
+    github: https://github.com/OlaWod/FreeVC
+  authors:
+  - Jingyi Li
+  - Weiping Tu
+  - Li Xiao
+  year: 2022
+  tags:
+  - vits
+  - voice-cloning
+  - voice-conversion
+  - wavlm
+  summary: A text-free one-shot voice conversion framework that adopts VITS for waveform reconstruction and extracts clean speech content representations from WavLM features.
+  summary_ja: テキスト注釈を必要としないワンショット音声変換フレームワーク。VITS構造を用いた波形再構成とWavLM特徴量からの音素・コンテンツ抽出を組み合わせる。
+  thumbnail: https://opengraph.githubassets.com/1/olawod/freevc
+  date_added: '2026-11-17'
+  source: agent
+  arxiv_id: '2210.15418'
+  repo: olawod/freevc
 - id: coqui-tts-644773
   title: Coqui TTS
   area: audio
@@ -15399,6 +15533,32 @@ entries:
   source: agent
   arxiv_id: '2509.02466'
   repo: yanwen-w/tera
+- id: zero-1-to-a-a299e9
+  title: Zero-1-to-A
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2503.15851
+    github: https://github.com/ZhenglinZhou/Zero-1-to-A
+    website: https://zhenglinzhou.github.io/Zero-1-to-A/
+  authors:
+  - Zhenglin Zhou
+  - Fan Ma
+  - Hehe Fan
+  - Tat-Seng Chua
+  year: 2025
+  tags:
+  - 4d-avatar
+  - animatable-avatar
+  - head-avatar
+  - video-diffusion
+  summary: Zero-1-to-A synthesizes spatially and temporally consistent datasets for animatable 4D head avatar reconstruction from a single input image using video diffusion models without manual dataset annotations.
+  summary_ja: Zero-1-to-Aは、動画拡散モデルを活用して単一画像から手動アノテーションなしで空間的・時間的に整合したデータセットを構築し、アニメーション可能な4Dヘッドアバターを再構成する手法です。
+  date_added: '2026-11-17'
+  source: agent
+  arxiv_id: '2503.15851'
+  repo: zhenglinzhou/zero-1-to-a
 - id: 3d-2-actor-learning-pose-conditioned-3d-aware-denoiser-for-r-7771ed
   title: '3D$^2$-Actor: Learning Pose-Conditioned 3D-Aware Denoiser for Realistic Gaussian Avatar Modeling'
   area: characters

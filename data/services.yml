@@ -1280,6 +1280,19 @@ entries:
   thumbnail: https://www.cartesia.ai/site/og-default.jpg
   date_added: '2026-06-13'
   source: agent
+- id: cartesia-sonic-f087e8
+  title: Cartesia Sonic
+  area: audio
+  task: tts
+  kind: proprietary
+  links:
+    website: https://www.cartesia.ai/
+  year: 2024
+  summary: A real-time, ultra-low latency voice synthesis engine designed for interactive AI agents, game NPCs, and live audio generation.
+  summary_ja: 対話型AIエージェント、ゲームNPC、リアルタイム音声生成向けに設計された超低遅延のリアルタイム音声合成エンジン。
+  thumbnail: https://www.cartesia.ai/site/og-default.jpg
+  date_added: '2026-11-17'
+  source: agent
 - id: resemble-ai-f60fa2
   title: Resemble AI
   area: audio
@@ -1597,6 +1610,26 @@ entries:
   summary_ja: SMPLボディモデルをベースに構築されたAI搭載プラットフォームで、写真、ビデオ、または身体測定値から、高精度で業界標準の3D人間アバターを生成します。
   thumbnail: https://me.meshcapade.com/images/meta/mc_thumbnail.jpg
   date_added: '2026-06-16'
+  source: agent
+- id: metahuman-epic-games-53afc8
+  title: MetaHuman (Epic Games)
+  area: characters
+  task: avatar-generation
+  kind: proprietary
+  links:
+    website: https://www.metahuman.com/
+  authors:
+  - Epic Games
+  year: 2021
+  tags:
+  - avatar
+  - digital-human
+  - metahuman
+  - unreal-engine
+  summary: MetaHuman by Epic Games is a cloud- and Unreal Engine-integrated framework for creating, customizing, and animating high-fidelity photorealistic digital human avatars complete with full body rigs, hair, and clothing.
+  summary_ja: Epic GamesのMetaHumanは、フルボディリグ、髪、衣類を備えた高精度なフォトリアルデジタルヒューマンアバターを作成・カスタマイズ・アニメーション化するためのUnreal Engine統合フレームワークです。
+  thumbnail: https://cms-assets.unrealengine.com/cm6ts095h04fm07oh6wxhfjst/resize=width:1200/cmb6km8c461au07od9108x691
+  date_added: '2026-11-17'
   source: agent
 - id: heygen-e05467
   title: HeyGen
