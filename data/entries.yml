@@ -8662,6 +8662,7 @@ entries:
   - video-mocap
   summary: Pose2Sim is an open-source markerless kinematics framework that converts monocular or multi-camera 2D video pose estimations into 3D OpenSim motion capture data.
   summary_ja: Pose2Simは、単一または複数カメラの2D動画ポーズ推定結果を3D OpenSimモーションキャプチャデータに変換するオープンソースのマーカーレス運動学フレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/perfanalytics/pose2sim
   date_added: '2026-11-16'
   source: agent
   repo: perfanalytics/pose2sim
@@ -9684,6 +9685,7 @@ entries:
   - video-to-music
   summary: VidMuse is an open-source video-to-music generation framework that uses long-short-term modeling to produce high-fidelity background music aligned with video pacing and visual content.
   summary_ja: VidMuseは、映像のテンポや視覚的展開に同期した高品質なバックグラウンドミュージックを生成するオープンソースのVideo-to-Musicフレームワークです。
+  thumbnail: https://opengraph.githubassets.com/1/zeyuet/vidmuse
   date_added: '2026-11-17'
   source: agent
   arxiv_id: '2406.04321'
@@ -11343,6 +11345,7 @@ entries:
   - sfx
   summary: A unified Diffusion Transformer architecture capable of generating sound effects, Foley audio, and music conditioned on flexible multimodal inputs including text, video, image, or audio signals.
   summary_ja: テキスト、動画、画像、音声などの多様な条件信号に対応し、環境音や効果音、フォーリー、音楽を統合的に生成するDiffusion Transformerモデル。
+  thumbnail: https://opengraph.githubassets.com/1/zeyuet/audiox
   date_added: '2026-11-17'
   source: agent
   arxiv_id: '2503.10522'
@@ -15555,6 +15558,7 @@ entries:
   - video-diffusion
   summary: Zero-1-to-A synthesizes spatially and temporally consistent datasets for animatable 4D head avatar reconstruction from a single input image using video diffusion models without manual dataset annotations.
   summary_ja: Zero-1-to-Aは、動画拡散モデルを活用して単一画像から手動アノテーションなしで空間的・時間的に整合したデータセットを構築し、アニメーション可能な4Dヘッドアバターを再構成する手法です。
+  thumbnail: https://opengraph.githubassets.com/1/zhenglinzhou/zero-1-to-a
   date_added: '2026-11-17'
   source: agent
   arxiv_id: '2503.15851'
@@ -20281,6 +20285,24 @@ entries:
   source: agent
   arxiv_id: '2506.01853'
   repo: jamesyjl/shapellm-omni
+- id: spede-splat-edit-engine-771a91
+  title: SpEdE (Splat Edit Engine)
+  area: gen-3d
+  task: 3d-editing
+  kind: oss
+  links:
+    github: https://github.com/Burgstall-labs/ComfyUI-SpEdE
+  year: 2025
+  tags:
+  - 3d-editing
+  - comfyui
+  - gaussian-splatting
+  summary: SpEdE is an open-weights 3D Gaussian Splatting edit engine for ComfyUI that allows interactive clicking on objects to remove, replace, or extract them with multi-view depth alignment.
+  summary_ja: SpEdEはComfyUI向けのオープンウェイト3D Gaussian Splatting編集エンジンであり、クリック操作でオブジェクトの削除・置換・抽出を多視点深度整合と共に行えます。
+  thumbnail: https://opengraph.githubassets.com/1/burgstall-labs/comfyui-spede
+  date_added: '2026-11-18'
+  source: agent
+  repo: burgstall-labs/comfyui-spede
 - id: tinker-diffusion-s-gift-to-3d-multi-view-consistent-editing-deb6e8
   title: 'Tinker: Diffusion''s Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization'
   area: gen-3d
@@ -21655,6 +21677,31 @@ entries:
   date_added: '2026-07-22'
   source: agent
   repo: timschmidt/synaps-cad
+- id: unibrep-learning-unified-geometry-and-topology-for-image-con-822556
+  title: 'UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.04092
+    paper: https://arxiv.org/pdf/2610.04092
+  authors:
+  - Haiyang Ying
+  - Allen Tu
+  - Jiaye Wu
+  - Tom Goldstein
+  - Matthias Zwicker
+  year: 2026
+  tags:
+  - b-rep
+  - cad
+  - image-to-3d
+  - reconstruction
+  summary: UniBRep converts single 2D images into valid boundary representation (B-Rep) CAD models using an intermediate feature mesh scaffold to reconstruct geometry and topology jointly.
+  summary_ja: UniBRepは、幾何形状とトポロジを統合的に再構築するための中間フィーチャメッシュ構造を用いて、単一の2D画像から妥当な境界表現（B-Rep）CADモデルへと変換します。
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2610.04092'
 - id: zero-to-cad-6d896d
   title: Zero-to-CAD
   area: gen-3d
@@ -21899,6 +21946,30 @@ entries:
   date_added: '2026-06-13'
   source: seed
   arxiv_id: '2412.14042'
+- id: cad-tokenizer-towards-text-based-cad-prototyping-via-modalit-cbf29e
+  title: 'CAD-Tokenizer: Towards Text-based CAD Prototyping via Modality-Specific Tokenization'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2509.21150
+    paper: https://arxiv.org/pdf/2509.21150
+  authors:
+  - Ruiyu Wang
+  - Shizhao Sun
+  - Weijian Ma
+  - Jiang Bian
+  year: 2025
+  tags:
+  - cad
+  - cad-editing
+  - text-to-cad
+  - tokenization
+  summary: CAD-Tokenizer introduces a modality-specific tokenization framework that unifies text-to-CAD generation and text-guided CAD editing for rapid parametric prototyping.
+  summary_ja: CAD-Tokenizerは、テキストからのCAD生成とテキスト指示によるCAD編集を統合し、迅速なパラメータプロトタイピングを実現するモダリティ固有のトークン化フレームワークを提案します。
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2509.21150'
 - id: cad2program-2d-cad-drawings-to-3d-parametric-models-fefff6
   title: 'CAD2Program: 2D CAD Drawings to 3D Parametric Models'
   area: gen-3d
@@ -23724,6 +23795,33 @@ entries:
   source: agent
   arxiv_id: '2408.00653'
   repo: stability-ai/stable-fast-3d
+- id: sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-sin-5d873a
+  title: 'SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image'
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.12008
+    project: https://sv3d.github.io/
+  authors:
+  - Vikram Voleti
+  - Chun-Han Yao
+  - Mark Boss
+  - Adam Letts
+  - David Pankratz
+  - Dmitry Tochilkin
+  - Christian Laforte
+  - Robin Rombach
+  year: 2024
+  tags:
+  - diffusion
+  - image-to-3d
+  - multi-view
+  summary: Stable Video 3D (SV3D) adapts video diffusion architectures for multi-view synthesis and explicit camera trajectory control from a single image, enabling consistent 3D mesh generation.
+  summary_ja: Stable Video 3D (SV3D)は、ビデオ拡散アーキテクチャを応用して単一画像からマルチビュー合成と明示的なカメラ軌道制御を行い、一貫した3Dメッシュ生成を実現するモデルです。
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2403.12008'
 - id: trellis-365aed
   title: TRELLIS
   area: gen-3d
@@ -25011,6 +25109,31 @@ entries:
   source: seed
   arxiv_id: '2409.18114'
   repo: nvlabs/edgerunner
+- id: gaussian-opacity-fields-efficient-adaptive-surface-reconstru-a090bf
+  title: 'Gaussian Opacity Fields: Efficient Adaptive Surface Reconstruction in Unbounded Scenes'
+  area: gen-3d
+  task: mesh-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2404.10772
+    github: https://github.com/autonomousvision/gaussian-opacity-fields
+  authors:
+  - Zehao Yu
+  - Torsten Sattler
+  - Andreas Geiger
+  year: 2024
+  tags:
+  - 3dgs
+  - gaussian-splatting
+  - mesh-generation
+  - surface-reconstruction
+  summary: Gaussian Opacity Fields (GOF) extracts continuous, watertight surface meshes directly from 3D Gaussian Splatting representations by querying opacity along ray directions.
+  summary_ja: Gaussian Opacity Fields（GOF）は、レイ方向に沿った不透明度を問い合わせることで、3D Gaussian Splatting表現から直接連続で水密な表面メッシュを抽出します。
+  thumbnail: https://opengraph.githubassets.com/1/autonomousvision/gaussian-opacity-fields
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2404.10772'
+  repo: autonomousvision/gaussian-opacity-fields
 - id: ghost-on-the-shell-gshell-5685d1
   title: Ghost on the Shell (GShell)
   area: gen-3d
@@ -26283,6 +26406,30 @@ entries:
   source: agent
   arxiv_id: '2510.09182'
   repo: friedfeid/onlinevideodepthanything
+- id: orchid-image-latent-diffusion-for-joint-appearance-and-geome-8aaab8
+  title: 'Orchid: Image Latent Diffusion for Joint Appearance and Geometry Generation'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2501.13087
+    project: https://orchid3d.github.io/
+  authors:
+  - Akshay Krishnan
+  - Xinchen Yan
+  - Vincent Casser
+  - Abhijit Kundu
+  year: 2025
+  tags:
+  - depth-estimation
+  - joint-geometry
+  - latent-diffusion
+  - surface-normals
+  summary: Orchid is a unified latent diffusion model that jointly generates color, depth, and surface normal maps in a single process, supporting zero-shot text-to-2.5D generation and joint monocular depth and normal estimation.
+  summary_ja: Orchidは、単一の拡散プロセスでカラー画像、深度、表面法線マップを同時に生成する潜在拡散モデルであり、ジョイント単眼深度・法線推定やテキストからの2.5Dアセット生成に対応します。
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2501.13087'
 - id: unidepthv2-5e9284
   title: UniDepthV2
   area: gen-3d
@@ -26761,6 +26908,35 @@ entries:
   source: agent
   arxiv_id: '2409.18124'
   repo: envision-research/lotus
+- id: marigold-dc-zero-shot-monocular-depth-completion-with-guided-1b425e
+  title: 'Marigold-DC: Zero-Shot Monocular Depth Completion with Guided Diffusion'
+  area: gen-3d
+  task: normal-depth-maps
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.13389
+    github: https://github.com/prs-eth/Marigold-DC
+  authors:
+  - Massimiliano Viola
+  - Kevin Qu
+  - Nando Metzger
+  - Bingxin Ke
+  - Alexander Becker
+  - Konrad Schindler
+  - Anton Obukhov
+  year: 2024
+  tags:
+  - 3d-reconstruction
+  - depth-completion
+  - guided-diffusion
+  - monocular-depth
+  summary: Marigold-DC reformulates zero-shot monocular depth completion as guided diffusion image generation, synthesizing high-resolution dense depth maps from sparse LiDAR or sensor measurements and RGB images.
+  summary_ja: Marigold-DCは、ゼロショット単眼深度補完を条件付き拡散生成プロセスとして定式化し、スパースなLiDAR計測値とRGB画像から高解像度で高精度な密深度マップを生成します。
+  thumbnail: https://opengraph.githubassets.com/1/prs-eth/marigold-dc
+  date_added: '2026-11-18'
+  source: agent
+  arxiv_id: '2412.13389'
+  repo: prs-eth/marigold-dc
 - id: metric3d-v2-1a157a
   title: Metric3D v2
   area: gen-3d
@@ -53028,6 +53204,7 @@ entries:
   - video-style-transfer
   summary: CCEdit is a video editing and style transfer framework that uses a trident network structure based on diffusion models. It separates structure and appearance control to enable keyframe-guided creative text/image video stylization with temporal smoothness.
   summary_ja: CCEditは、拡散モデルに基づくトライデントネットワーク構造を採用した動画編集・スタイル変換フレームワークです。構造と外観の制御を分離することで、キーフレームに誘導されたクリエイティブなテキスト・画像ベースの動画スタイル変換を、時間的な滑らかさを保ちつつ実現します。
+  thumbnail: https://opengraph.githubassets.com/1/ruoyufeng/ccedit
   date_added: '2026-11-15'
   source: agent
   arxiv_id: '2309.16496'

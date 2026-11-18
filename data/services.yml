@@ -1788,6 +1788,26 @@ entries:
   thumbnail: https://www.reallusion.com/character-creator/includes/images/default/cc-home-og.jpg
   date_added: '2026-10-14'
   source: agent
+- id: chatavatar-437cc0
+  title: ChatAvatar
+  area: characters
+  task: face-head-3d
+  kind: proprietary
+  links:
+    website: https://hyper3d.ai/features/chatavatar
+  authors:
+  - Hyper3D
+  year: 2024
+  tags:
+  - 3d-head
+  - avatar-generation
+  - pbr
+  - text-to-3d
+  summary: ChatAvatar by Hyper3D generates production-ready 3D head and facial mesh assets with PBR materials and built-in facial capabilities from text descriptions or reference images.
+  summary_ja: Hyper3DのChatAvatarは、テキスト指示や参照画像からPBRマテリアルやフェイシャル機能を備えたプロダクションレベルの3Dヘッド・顔メッシュアセットを生成します。
+  thumbnail: https://storage.deemos.dev/landing-feature-assets/chatavatar/chatavatar-og.jpg
+  date_added: '2026-11-18'
+  source: agent
 - id: facegen-cb06b4
   title: FaceGen
   area: characters
@@ -1946,6 +1966,24 @@ entries:
   thumbnail: https://actorcore.reallusion.com/static/image/FB_og_actorcore.638b1ef.jpg
   date_added: '2026-08-05'
   source: agent
+- id: reallusion-accurig-d7da05
+  title: Reallusion AccuRIG
+  area: characters
+  task: skinning
+  kind: proprietary
+  links:
+    website: https://www.reallusion.com/auto-rig/accurig/
+  year: 2022
+  tags:
+  - auto-rigging
+  - proprietary
+  - reallusion
+  - skinning
+  summary: A standalone auto-rigging software by Reallusion that automates joint detection, body and finger skeleton placement, and skin weight binding for 3D humanoid characters.
+  summary_ja: 3Dヒューマノイドキャラクターの関節検出、骨格配置、およびスキンウェイトのバインド処理を自動化するReallusionのスタンドアロンツール。
+  thumbnail: https://www.reallusion.com/auto-rig/accurig/includes/images/auto-rig/og.jpg
+  date_added: '2026-11-18'
+  source: agent
 - id: ngskintools-v2-39804d
   title: ngSkinTools v2
   area: characters
@@ -2054,6 +2092,22 @@ entries:
   summary_ja: 自然言語プロンプトを介して3Dオブジェクト、テクスチャ、アニメーションの生成や編集を行える、ブラウザベースの協調型3Dデザイン・編集ツール。
   thumbnail: https://spline.design/_next/static/immutable/media/spline_image_banner.2at491x3fx670.png
   date_added: '2026-06-17'
+  source: agent
+- id: adobe-substance-3d-modeler-30fe69
+  title: Adobe Substance 3D Modeler
+  area: gen-3d
+  task: 3d-editing
+  kind: proprietary
+  links:
+    website: https://www.adobe.com/products/substance3d/apps/modeler.html
+  year: 2022
+  tags:
+  - 3d-editing
+  - proprietary
+  - sculpting
+  summary: Adobe Substance 3D Modeler is a digital sculpting and 3D mesh editing application combining desktop and VR control for organic character design and hard-surface asset creation.
+  summary_ja: Adobe Substance 3D Modelerは、デスクトップとVR環境をシームレスに行き来し、有機的なキャラクターやハードサーフェスアセットをデジタル粘土感覚でスカルプティング・編集できるツールです。
+  date_added: '2026-11-18'
   source: agent
 - id: adam-cad-copilot-0cede9
   title: Adam CAD Copilot
