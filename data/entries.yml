@@ -32691,6 +32691,35 @@ entries:
   source: agent
   arxiv_id: '2406.09293'
   repo: joey-jang/stablematerials
+- id: supra-tex-3d-generation-with-super-aligned-texture-57ca72
+  title: 'SUPRA-Tex: 3D Generation with Super-Aligned Texture'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.22352
+    github: https://github.com/Supra-3D/SUPRA-Tex
+  authors:
+  - Chen Yang
+  - Jiemin Fang
+  - Fanpeng Meng
+  - Zihao Huang
+  - Jichen Pang
+  - Guanjun Wu
+  - Zhikuan Bao
+  - Qi Tian
+  year: 2024
+  tags:
+  - 3d-mesh
+  - pbr
+  - relighting
+  - texture
+  summary: SUPRA-Tex is a 3D texture generation pipeline that creates relightable PBR material maps for 3D meshes while preserving reference image details, using observation-guided 3D completion and physical material estimation.
+  summary_ja: SUPRA-Texは、参照画像の詳細を正確に保持しながら3Dメッシュ用の再照明可能なPBRマテリアルマップを生成する3Dテクスチャ生成パイプラインです。
+  date_added: '2026-11-19'
+  source: agent
+  arxiv_id: '2610.22352'
+  repo: supra-3d/supra-tex
 - id: syncmvd-8a2876
   title: SyncMVD
   area: gen-3d
@@ -32993,6 +33022,31 @@ entries:
   date_added: '2026-07-16'
   source: agent
   arxiv_id: '2606.22445'
+- id: meshquery-agentic-seam-planning-for-uv-parametrization-969d53
+  title: 'MeshQuery: Agentic Seam Planning for UV Parametrization'
+  area: gen-3d
+  task: uv-retopology
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2610.02507
+  authors:
+  - Marco Schouten
+  - Arthur Roullier
+  - Elie Michel
+  - Ruben Wiersma
+  - Axel Paris
+  - Tamy Boubekeur
+  year: 2026
+  tags:
+  - agentic
+  - quad-mesh
+  - uv-unwrapping
+  - vlm
+  summary: MeshQuery is a training-free agentic system that uses Vision-Language Models to automatically plan artist-aligned UV seams on production-grade quad meshes via domain-specific mesh queries and an iterative feedback loop.
+  summary_ja: MeshQueryは、ドメイン特化型のメッシュクエリと反復フィードバックループを介して、視覚言語モデル（VLM）を活用しプロダクション品質の四角形メッシュ上にアーティスト基準のUVシームを自動計画する学習不要のエージェントシステムです。
+  date_added: '2026-11-19'
+  source: agent
+  arxiv_id: '2610.02507'
 - id: meshtailor-cutting-seams-via-generative-mesh-traversal-ba5588
   title: 'MeshTailor: Cutting Seams via Generative Mesh Traversal'
   area: gen-3d
@@ -33749,6 +33803,31 @@ entries:
   source: agent
   arxiv_id: '2412.03685'
   repo: chenganhsieh/sprite-sheet-diffusion
+- id: human-machine-co-creation-a-complementary-cognitive-approach-dcd092
+  title: 'Human Machine Co-Creation: A Complementary Cognitive Approach to Creative Character Design Process Using GANs'
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2311.13960
+    paper: https://arxiv.org/pdf/2311.13960
+  authors:
+  - Mohammad Lataifeh
+  - Xavier A Carrascoa
+  - Ashraf M Elnagara
+  - Naveed Ahmeda
+  - Imran Junejo
+  year: 2023
+  tags:
+  - character-design
+  - co-creation
+  - concept-art
+  - gan
+  summary: A human-AI co-creation framework leveraging Generative Adversarial Networks to support concept artists in exploring, visualizing, and iterating on stylized character designs for games and multimedia projects.
+  summary_ja: GANを活用してコンセプトアーティストがゲームやマルチメディア向けのスタイライズドキャラクターデザインを効果的に試作・展開できる人間とAIの共同制作フレームワーク。
+  date_added: '2026-11-19'
+  source: agent
+  arxiv_id: '2311.13960'
 - id: panic-3d-65042c
   title: PAniC-3D
   area: image-2d
@@ -34270,6 +34349,32 @@ entries:
   source: agent
   arxiv_id: '2002.11812'
   repo: qyzdao/shadesketch
+- id: paintinglight-72fff2
+  title: PaintingLight
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/lllyasviel/PaintingLight
+    project: https://lllyasviel.github.io/PaintingLight/
+    paper: https://dl.acm.org/doi/10.1145/3372176
+  authors:
+  - Lvmin Zhang
+  - Chengze Li
+  - Tien-Tsin Wong
+  - Yi Ji
+  - Chunping Liu
+  year: 2020
+  tags:
+  - anime
+  - cel-shading
+  - lighting
+  - stroke-density
+  summary: An algorithm for generating digital painting lighting and cel-shading effects from a single image using color geometry and stroke density estimation, enabling artists to adjust shadow layers and light highlights on 2D artwork.
+  summary_ja: 単一の画像から色彩幾何学とストローク密度推計を用いてデジタルペインティングの照明およびセルシェーディング効果を自動生成する手法。アニメやイラストの影や光の演出を直感的に制御できます。
+  date_added: '2026-11-19'
+  source: agent
+  repo: lllyasviel/paintinglight
 - id: poiyomi-toon-shader-6a73eb
   title: Poiyomi Toon Shader
   area: image-2d
