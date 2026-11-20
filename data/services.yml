@@ -3357,6 +3357,26 @@ entries:
   thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0006
   date_added: '2026-10-16'
   source: agent
+- id: clip-studio-paint-line-art-extraction-bda604
+  title: Clip Studio Paint Line Art Extraction
+  area: image-2d
+  task: lineart-extraction
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  authors:
+  - CELSYS
+  year: 2021
+  tags:
+  - 3d-to-line
+  - clip-studio-paint
+  - lineart
+  - manga
+  summary: Clip Studio Paint includes built-in Line Art Extraction and LT conversion features to convert 2D photos, 3D models, and layered illustrations into clean vector or raster line art for anime and manga production.
+  summary_ja: CLIP STUDIO PAINTは、2D写真や3Dモデル、レイヤー化されたイラストをアニメやマンガ制作向けのクリーンなベクター・ラスタ線画に変換する線画抽出機能およびLT変換機能を搭載しています。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0008
+  date_added: '2026-11-20'
+  source: agent
 - id: fotor-sketch-to-image-ai-00b39d
   title: Fotor Sketch to Image AI
   area: image-2d
@@ -3529,6 +3549,24 @@ entries:
   summary: An AI design platform offering sketch-to-render capabilities, enabling concept artists and product designers to transform line sketches and 3D wireframes into realistic visual renderings.
   summary_ja: 線画スケッチや3Dワイヤーフレームをリアルなレンダリング画像へと変換するスケッチレンダリング機能を備えたAIデザインプラットフォーム。
   date_added: '2026-11-06'
+  source: agent
+- id: layer-ai-de7383
+  title: Layer.ai
+  area: image-2d
+  task: style-transfer-lora
+  kind: proprietary
+  links:
+    website: https://layer.ai/
+  year: 2023
+  tags:
+  - asset-pipeline
+  - fine-tuning
+  - game-art
+  - style-consistency
+  summary: An AI production platform built for game studios to create style-consistent 2D assets, fine-tune custom style models, and manage asset pipelines.
+  summary_ja: ゲームスタジオ向けにスタイルの一貫性を保った2Dアセット生成やカスタムスタイルモデルの微調整を提供する制作プラットフォーム。
+  thumbnail: https://layer.ai/static/branding/social_preview.png
+  date_added: '2026-11-20'
   source: agent
 - id: scenario-c18dd2
   title: Scenario

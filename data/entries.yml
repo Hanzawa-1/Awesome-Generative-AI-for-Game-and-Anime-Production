@@ -11796,6 +11796,7 @@ entries:
   - vlm
   summary: A framework combining vision-language models and audio diffusion to identify visually grounded events in silent video and generate synchronized Foley sound effects.
   summary_ja: 視覚言語モデル（VLM）と音声拡散モデルを組み合わせ、無声映像内の視覚イベントを認識して同期されたフォーリー効果音を自動生成するシステム。
+  thumbnail: https://opengraph.githubassets.com/1/yusiissy/sonicvisionlm
   date_added: '2026-11-17'
   source: agent
   arxiv_id: '2401.04394'
@@ -32716,6 +32717,7 @@ entries:
   - texture
   summary: SUPRA-Tex is a 3D texture generation pipeline that creates relightable PBR material maps for 3D meshes while preserving reference image details, using observation-guided 3D completion and physical material estimation.
   summary_ja: SUPRA-Texは、参照画像の詳細を正確に保持しながら3Dメッシュ用の再照明可能なPBRマテリアルマップを生成する3Dテクスチャ生成パイプラインです。
+  thumbnail: https://opengraph.githubassets.com/1/supra-3d/supra-tex
   date_added: '2026-11-19'
   source: agent
   arxiv_id: '2610.22352'
@@ -34372,6 +34374,7 @@ entries:
   - stroke-density
   summary: An algorithm for generating digital painting lighting and cel-shading effects from a single image using color geometry and stroke density estimation, enabling artists to adjust shadow layers and light highlights on 2D artwork.
   summary_ja: 単一の画像から色彩幾何学とストローク密度推計を用いてデジタルペインティングの照明およびセルシェーディング効果を自動生成する手法。アニメやイラストの影や光の演出を直感的に制御できます。
+  thumbnail: https://opengraph.githubassets.com/1/lllyasviel/paintinglight
   date_added: '2026-11-19'
   source: agent
   repo: lllyasviel/paintinglight
@@ -35384,6 +35387,35 @@ entries:
   source: agent
   arxiv_id: '2312.07536'
   repo: genforce/freecontrol
+- id: gligen-open-set-grounded-text-to-image-generation-020613
+  title: 'GLIGEN: Open-Set Grounded Text-to-Image Generation'
+  area: image-2d
+  task: controlnet
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2301.07093
+    github: https://github.com/gligen/GLIGEN
+  authors:
+  - Yuheng Li
+  - Haotian Liu
+  - Qingyang Wu
+  - Fangzhou Mu
+  - Jianwei Yang
+  - Jianfeng Gao
+  - Chunyuan Li
+  - Yong Jae Lee
+  year: 2023
+  tags:
+  - conditioning
+  - controlnet
+  - diffusion
+  - grounding
+  summary: An open-set spatial conditioning framework for text-to-image diffusion models that enables grounding inputs such as bounding boxes, keypoints, and depth maps while freezing pre-trained model weights.
+  summary_ja: 事前学習済みテキスト画像生成モデルの重みを固定したまま、バウンディングボックスやキーポイント、深度マップなどの空間条件を入力して構図や配置を制御するオープンセットな条件付けフレームワーク。
+  date_added: '2026-11-20'
+  source: agent
+  arxiv_id: '2301.07093'
+  repo: gligen/gligen
 - id: ip-adapter-679e42
   title: IP-Adapter
   area: image-2d
@@ -38729,6 +38761,24 @@ entries:
   date_added: '2026-07-31'
   source: agent
   arxiv_id: '2409.08026'
+  repo: kaist-cvml/scribble-guided-diffusion
+- id: scribble-guided-diffusion-b41323
+  title: Scribble-Guided Diffusion
+  area: image-2d
+  task: sketch-to-image
+  kind: oss
+  links:
+    github: https://github.com/kaist-cvml/scribble-guided-diffusion
+  year: 2024
+  tags:
+  - diffusion
+  - scribble
+  - sketch-to-image
+  - training-free
+  summary: An open-source framework for training-free text-to-image generation guided by user-provided scribbles as spatial prompts for localized object control.
+  summary_ja: ユーザーが描いた落書き（スクリブル）を空間プロンプトとして利用し、追加学習なしで局所的なオブジェクト配置や形状を制御するテキストto画像生成オープンソース手法。
+  date_added: '2026-11-20'
+  source: agent
   repo: kaist-cvml/scribble-guided-diffusion
 - id: sketch-guided-image-inpainting-with-partial-discrete-diffusi-1444c1
   title: Sketch-guided Image Inpainting with Partial Discrete Diffusion Process
