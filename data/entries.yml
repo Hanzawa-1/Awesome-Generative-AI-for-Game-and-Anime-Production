@@ -35412,6 +35412,7 @@ entries:
   - grounding
   summary: An open-set spatial conditioning framework for text-to-image diffusion models that enables grounding inputs such as bounding boxes, keypoints, and depth maps while freezing pre-trained model weights.
   summary_ja: 事前学習済みテキスト画像生成モデルの重みを固定したまま、バウンディングボックスやキーポイント、深度マップなどの空間条件を入力して構図や配置を制御するオープンセットな条件付けフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/gligen/gligen
   date_added: '2026-11-20'
   source: agent
   arxiv_id: '2301.07093'
@@ -45562,6 +45563,30 @@ entries:
   source: agent
   arxiv_id: '2603.05890'
   repo: picrew/constory-bench
+- id: creating-hybrid-interactive-narrative-systems-with-llm-from-df9a8d
+  title: 'Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation'
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.02807
+    paper: https://arxiv.org/pdf/2611.02807
+  authors:
+  - Jules Clerc
+  - Domitile Lourdeaux
+  - Mohamed Sallak
+  - Marc Ravaine
+  year: 2026
+  tags:
+  - experience-manager
+  - interactive-narrative
+  - llm
+  - story-control
+  summary: A framework for hybrid Experience Managers in games that combines formal symbolic story models with real-time LLM generation to maintain authorial narrative control alongside player agency.
+  summary_ja: シンボリックなストーリー構造制御とリアルタイムLLMテキスト生成を統合し、プレイヤーの自由な介入と制作陣のナラティブ統制を両立するハイブリッド・エクスペリエンスマネージャー。
+  date_added: '2026-11-21'
+  source: agent
+  arxiv_id: '2611.02807'
 - id: doc-story-generation-v2-b9ede3
   title: DOC Story Generation V2
   area: text-design

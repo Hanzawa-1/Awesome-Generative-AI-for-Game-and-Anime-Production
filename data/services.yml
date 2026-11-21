@@ -5821,6 +5821,7 @@ entries:
   - video-generation
   summary: A state-of-the-art text-to-video model developed by OpenAI that can generate high-quality videos up to a minute long while maintaining visual quality, realistic motion, and strong adherence to complex textual prompts.
   summary_ja: OpenAIが開発した最先端のテキスト動画生成モデル。複雑なプロンプトに忠実に従いながら、リアルな動きと高い視覚的品質を維持した最大1分間の動画を生成できます。
+  thumbnail: https://images.ctfassets.net/kftzwdyauwt9/8264d3d7-922c-4343-dde924eae75b/c9f68101050dc2a6caaac2f434c0da5e/paper-airplanes.jpg?w=1600&h=900&fit=fill
   date_added: '2026-08-30'
   source: agent
 - id: sora-7579e0
