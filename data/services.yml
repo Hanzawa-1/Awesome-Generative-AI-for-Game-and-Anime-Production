@@ -5281,6 +5281,26 @@ entries:
   thumbnail: https://www.summerengine.com/og-image.png
   date_added: '2026-09-06'
   source: agent
+- id: houdini-engine-1f7230
+  title: Houdini Engine
+  area: text-design
+  task: pcg
+  kind: proprietary
+  links:
+    website: https://www.sidefx.com/products/houdini-engine/
+  authors:
+  - SideFX
+  year: 2023
+  tags:
+  - game-engine
+  - houdini
+  - pcg
+  - procedural
+  summary: Houdini Engine brings SideFX Houdini's procedural content generation, node-based level design, and geometry workflows directly into game engines like Unreal Engine and Unity.
+  summary_ja: Houdini Engineは、SideFX Houdiniのプロシージャルコンテンツ生成、ノードベースのレベルデザイン、ジオメトリワークフローをUnreal EngineやUnityなどのゲームエンジンに直接統合します。
+  thumbnail: https://media.sidefx.com/uploads/products/banners/engine2_1920x500.jpg
+  date_added: '2026-11-22'
+  source: agent
 - id: unreal-engine-pcg-framework-863401
   title: Unreal Engine PCG Framework
   area: text-design
@@ -6022,6 +6042,24 @@ entries:
   summary: Runway AI Video Editor provides text-guided generative video editing capabilities, including video inpainting, background replacement, scene relighting, and object removal for creative video workflows.
   summary_ja: Runway AI Video Editorは、テキスト指示による生成的な動画編集機能を提供し、インペインティング、背景置換、リライティング、オブジェクト除去をサポートします。
   date_added: '2026-11-08'
+  source: agent
+- id: runway-gen-3-alpha-video-editing-tools-5eeb53
+  title: Runway Gen-3 Alpha & Video Editing Tools
+  area: video
+  task: video-editing
+  kind: proprietary
+  links:
+    website: https://runway.com/
+  year: 2024
+  tags:
+  - commercial
+  - generative-ai
+  - video-editing
+  - video-to-video
+  summary: Runway offers cloud-based generative AI video creation and editing tools, including Gen-3 Alpha video-to-video, stylization, and motion control for studio video production.
+  summary_ja: Gen-3 Alphaなどの生成AIモデルを搭載し、動画対動画編集、スタイル変換、モーション制御が可能なプロフェッショナル向けクラウド動画制作ツール。
+  thumbnail: https://d3phaj0sisr2ct.cloudfront.net/site/assets/homepage-og-card-v3.webp
+  date_added: '2026-11-22'
   source: agent
 - id: runway-inpainting-b80775
   title: Runway Inpainting

@@ -47943,6 +47943,32 @@ entries:
   source: agent
   arxiv_id: '2404.08706'
   repo: sustechgameai/llmgg
+- id: moonshine-distilling-game-content-generators-into-steerable-8d8022
+  title: 'Moonshine: Distilling Game Content Generators into Steerable Generative Models'
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.09594
+  authors:
+  - Yuhe Nie
+  - Michael Middleton
+  - Tim Merino
+  - Nidhushan Kanagaraja
+  - Ashutosh Kumar
+  - Zhan Zhuang
+  - Julian Togelius
+  year: 2024
+  tags:
+  - distillation
+  - level-generation
+  - pcg
+  - pcgml
+  summary: Moonshine distills constructive procedural game level generators into steerable generative models using LLM-generated synthetic labels for controllable level design.
+  summary_ja: Moonshineは、LLMで生成された合成ラベルを用いて構成的プロシージャルゲームレベル生成器を制御可能な生成モデルへと蒸留し、制御可能なレベルデザインを実現します。
+  date_added: '2026-11-22'
+  source: agent
+  arxiv_id: '2408.09594'
 - id: pcg-extended-toolkit-d0a4be
   title: PCG Extended Toolkit
   area: text-design
@@ -48231,6 +48257,27 @@ entries:
   date_added: '2026-11-01'
   source: agent
   arxiv_id: '2206.13623'
+- id: protongraph-eb8edb
+  title: ProtonGraph
+  area: text-design
+  task: pcg
+  kind: oss
+  links:
+    github: https://github.com/protongraph/protongraph
+  authors:
+  - protongraph
+  year: 2021
+  tags:
+  - godot
+  - node-graph
+  - pcg
+  - procedural-generation
+  summary: ProtonGraph is an open-source, node-based software for procedural 3D content creation and level generation built on the Godot engine.
+  summary_ja: ProtonGraphは、Godotエンジン上で構築された、プロシージャル3Dコンテンツ作成およびレベル生成のためのオープンソースのノードベースソフトウェアです。
+  thumbnail: https://opengraph.githubassets.com/1/protongraph/protongraph
+  date_added: '2026-11-22'
+  source: agent
+  repo: protongraph/protongraph
 - id: deep-learning-for-procedural-content-generation-dec57b
   title: Deep Learning for Procedural Content Generation
   area: text-design
@@ -50754,6 +50801,33 @@ entries:
   source: agent
   arxiv_id: '2502.03621'
   repo: dynvfx/dynvfx
+- id: easyv2v-a-high-quality-instruction-based-video-editing-frame-353a39
+  title: 'EasyV2V: A High-quality Instruction-based Video Editing Framework'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.16920
+  authors:
+  - Jinjie Mai
+  - Chaoyang Wang
+  - Guocheng Gordon Qian
+  - Willi Menapace
+  - Sergey Tulyakov
+  - Bernard Ghanem
+  - Peter Wonka
+  - Ashkan Mirzaei
+  year: 2025
+  tags:
+  - diffusion-transformer
+  - instruction-based
+  - video-editing
+  - video-to-video
+  summary: EasyV2V is an instruction-based video editing framework that unifies synthetic edit pairs, single-frame supervision, and affine motion pseudo-pairs to enable precise video-to-video modifications while preserving visual consistency.
+  summary_ja: 合成編集データやアフィン変換擬似ペアを活用し、視覚的一貫性を保ちながら高精度な指示ベースの動画編集を実現するフレームワーク。
+  date_added: '2026-11-22'
+  source: agent
+  arxiv_id: '2512.16920'
 - id: editverse-unifying-image-and-video-editing-and-generation-wi-761315
   title: 'EditVerse: Unifying Image and Video Editing and Generation with In-Context Learning'
   area: video
@@ -51147,6 +51221,31 @@ entries:
   source: agent
   arxiv_id: '2406.08850'
   repo: wangjiangshan0725/cove
+- id: effived-efficient-video-editing-via-text-instruction-diffusi-fc5657
+  title: 'EffiVED: Efficient Video Editing via Text-instruction Diffusion Models'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2403.11568
+    github: https://github.com/alibaba/EffiVED
+  authors:
+  - Zhenghao Zhang
+  - Zuozhuo Dai
+  - Long Qin
+  - Weizhi Wang
+  year: 2024
+  tags:
+  - diffusion
+  - instruction-following
+  - temporal-attention
+  - video-editing
+  summary: EffiVED provides an efficient diffusion-based video editing framework that processes text instructions directly without per-video optimization, preserving temporal fidelity via specialized cross-frame conditioning.
+  summary_ja: 個別動画ごとの最適化を必要とせず、テキスト命令に基づいて直接動画編集を行う効率的な拡散モデルベースの動画編集フレームワーク。
+  date_added: '2026-11-22'
+  source: agent
+  arxiv_id: '2403.11568'
+  repo: alibaba/effived
 - id: elevating-flow-guided-video-inpainting-with-reference-genera-cdbba2
   title: Elevating Flow-Guided Video Inpainting with Reference Generation
   area: video
@@ -51612,6 +51711,31 @@ entries:
   source: agent
   arxiv_id: '2308.14749'
   repo: magic-research/magic-edit
+- id: pix2video-video-editing-using-image-diffusion-6954b0
+  title: 'Pix2Video: Video Editing using Image Diffusion'
+  area: video
+  task: video-editing
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2303.12688
+    github: https://github.com/duyguceylan/pix2video
+  authors:
+  - Duygu Ceylan
+  - Chun-Hao Paul Huang
+  - Niloy J. Mitra
+  year: 2023
+  tags:
+  - diffusion
+  - temporal-consistency
+  - text-guided
+  - video-editing
+  summary: Pix2Video adapts pretrained 2D image diffusion models for text-guided video editing without retraining, propagating self-attention latents across frames to maintain temporal consistency while applying text-driven visual changes.
+  summary_ja: 追加学習を行わず、事前学習済み2D画像拡散モデルのセルフアテンション潜在変数をフレーム間で伝播させることで、時空間的一貫性を維持したテキスト駆動型の動画編集を実現する手法。
+  thumbnail: https://opengraph.githubassets.com/1/duyguceylan/pix2video
+  date_added: '2026-11-22'
+  source: agent
+  arxiv_id: '2303.12688'
+  repo: duyguceylan/pix2video
 - id: propainter-f5f671
   title: ProPainter
   area: video
@@ -53654,3 +53778,21 @@ entries:
   date_added: '2026-06-14'
   source: agent
   repo: jamriska/ebsynth
+- id: sd-cn-animation-1f5cf0
+  title: SD-CN-Animation
+  area: video
+  task: video-style-transfer
+  kind: oss
+  links:
+    github: https://github.com/volotat/SD-CN-Animation
+  tags:
+  - controlnet
+  - photo-to-anime
+  - stable-diffusion
+  - video-stylization
+  summary: An open-source automation framework that uses Stable Diffusion combined with ControlNet conditioning to convert source videos into stylized anime-like animations with frame consistency.
+  summary_ja: Stable DiffusionとControlNetの条件付けを組み合わせて、元動画をフレーム整合性を保ちながらアニメ風のスタイライズ動画に自動変換するオープンソースフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/volotat/sd-cn-animation
+  date_added: '2026-11-22'
+  source: agent
+  repo: volotat/sd-cn-animation
