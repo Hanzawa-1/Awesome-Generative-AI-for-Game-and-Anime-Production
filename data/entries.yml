@@ -5037,6 +5037,35 @@ entries:
   source: agent
   arxiv_id: '2505.10238'
   repo: dingyanb/mtvcrafter
+- id: one-to-all-animation-7f44aa
+  title: One-to-All Animation
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2511.22940
+    github: https://github.com/ssj9596/One-to-All-Animation
+  authors:
+  - Shijun Shi
+  - Jing Xu
+  - Zhihang Li
+  - Chunli Peng
+  - Xiaoda Yang
+  - Lijing Lu
+  - Kai Hu
+  - Jiangning Zhang
+  year: 2025
+  tags:
+  - character-animation
+  - pose-guided
+  - pose-transfer
+  summary: A pose-driven character animation framework that relaxes spatial alignment constraints between reference characters and driving pose sequences, enabling pose transfer across arbitrary character layouts.
+  summary_ja: 参照キャラクターと駆動ポーズの空間的整合性制約を緩和し、異なる体型やレイアウトを持つキャラクター間でも高品質なポーズ転送とアニメーションを可能にするフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/ssj9596/one-to-all-animation
+  date_added: '2026-11-23'
+  source: agent
+  arxiv_id: '2511.22940'
+  repo: ssj9596/one-to-all-animation
 - id: poseanything-0820f0
   title: PoseAnything
   area: animation
@@ -5096,6 +5125,35 @@ entries:
   source: agent
   arxiv_id: '2504.14977'
   repo: damo-cv/realisdance
+- id: scail-1cc2b6
+  title: SCAIL
+  area: animation
+  task: pose-to-frame
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2512.05905
+    github: https://github.com/zai-org/SCAIL
+  authors:
+  - Wenhao Yan
+  - Sheng Ye
+  - Zhuoyi Yang
+  - Jiayan Teng
+  - ZhenHui Dong
+  - Kairui Wen
+  - Xiaotao Gu
+  - Yong-Jin Liu
+  year: 2025
+  tags:
+  - character-animation
+  - in-context-learning
+  - pose-guided
+  summary: A studio-grade character animation framework using in-context learning of 3D-consistent pose representations to preserve identity fidelity and motion stability.
+  summary_ja: 3D一貫性のあるポーズ表現のコンテキスト学習を活用し、複雑な動作や視点変更時でも高いアイデンティティ保持と動作安定性を実現するスタジオ品質のキャラクターアニメーション手法。
+  thumbnail: https://opengraph.githubassets.com/1/zai-org/scail
+  date_added: '2026-11-23'
+  source: agent
+  arxiv_id: '2512.05905'
+  repo: zai-org/scail
 - id: skyreels-a1-638dcd
   title: SkyReels-A1
   area: animation
@@ -5653,6 +5711,30 @@ entries:
   date_added: '2026-07-06'
   source: agent
   arxiv_id: '2606.29148'
+- id: infcoil-coordinated-planner-controller-learning-for-closed-l-745981
+  title: 'InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction'
+  area: animation
+  task: procedural-animation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.11517
+  authors:
+  - Yude Zou
+  - Yifei Yao
+  - Yiwei Hao
+  - Hanqing Wang
+  - Xing Gao
+  year: 2026
+  tags:
+  - closed-loop-control
+  - human-object-interaction
+  - physics-based-animation
+  - reinforcement-learning
+  summary: InfCoiL presents a closed-loop planner-controller framework for physics-based character animation that coordinates high-level trajectory planning with low-level contact-rich execution feedback.
+  summary_ja: InfCoiLは、高レベルの運動計画と低レベルの物理接触フィードバックをクローズドループで連携させ、人間と物体の接触動作を生成する物理ベースのキャラクター制御手法。
+  date_added: '2026-11-23'
+  source: agent
+  arxiv_id: '2611.11517'
 - id: maskadapt-5ad98f
   title: MaskAdapt
   area: animation
@@ -51242,6 +51324,7 @@ entries:
   - video-editing
   summary: EffiVED provides an efficient diffusion-based video editing framework that processes text instructions directly without per-video optimization, preserving temporal fidelity via specialized cross-frame conditioning.
   summary_ja: 個別動画ごとの最適化を必要とせず、テキスト命令に基づいて直接動画編集を行う効率的な拡散モデルベースの動画編集フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/alibaba/effived
   date_added: '2026-11-22'
   source: agent
   arxiv_id: '2403.11568'
