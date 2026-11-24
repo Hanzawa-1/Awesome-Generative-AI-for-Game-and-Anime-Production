@@ -10824,6 +10824,31 @@ entries:
   date_added: '2026-06-13'
   source: agent
   arxiv_id: '2303.02396'
+- id: ddx7-differentiable-fm-synthesis-of-musical-instrument-sound-c0a3d1
+  title: 'DDX7: Differentiable FM Synthesis of Musical Instrument Sounds'
+  area: audio
+  task: procedural-audio
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2208.06169
+    github: https://github.com/fcaspe/ddx7
+  authors:
+  - Franco Caspe
+  - Andrew McPherson
+  - Mark Sandler
+  year: 2022
+  tags:
+  - differentiable-dsp
+  - fm-synthesis
+  - neural-audio
+  - procedural-audio
+  summary: A differentiable FM synthesis model that enables neural networks to continuously control frequency modulation parameters for real-time sound reproduction and modification.
+  summary_ja: ニューラルネットワークが周波数変調（FM）のパラメーターを連続的に制御し、リアルタイムな音色再生や変更を可能にする微分可能なFM音源モデル。
+  thumbnail: https://opengraph.githubassets.com/1/fcaspe/ddx7
+  date_added: '2026-11-24'
+  source: agent
+  arxiv_id: '2208.06169'
+  repo: fcaspe/ddx7
 - id: fundsp-623742
   title: FunDSP
   area: audio
@@ -15883,6 +15908,33 @@ entries:
   source: agent
   arxiv_id: '2401.01885'
   repo: facebookresearch/audio2photoreal
+- id: gasp-gaussian-avatars-with-synthetic-priors-206f6f
+  title: 'GASP: Gaussian Avatars with Synthetic Priors'
+  area: characters
+  task: avatar-generation
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2412.07739
+  authors:
+  - Jack Saunders
+  - Charlie Hewitt
+  - Yanan Jian
+  - Marek Kowalski
+  - Tadas Baltrusaitis
+  - Yiye Chen
+  - Darren Cosker
+  - Virginia Estellers
+  year: 2024
+  tags:
+  - avatar
+  - gaussian-splatting
+  - human-avatar
+  - monocular
+  summary: A framework for constructing photorealistic animatable 3D Gaussian human avatars from monocular video by incorporating synthetic priors to ensure high visual quality under unobserved viewpoints.
+  summary_ja: 未観測の視点でも高品質な表示を実現するために合成事前知識を活用し、単眼ビデオからリアルなアニメーション可能3D Gaussianヒューマンアバターを構築するフレームワーク。
+  date_added: '2026-11-24'
+  source: agent
+  arxiv_id: '2412.07739'
 - id: human-3diffusion-4748f3
   title: Human-3Diffusion
   area: characters

@@ -1006,6 +1006,24 @@ entries:
   summary_ja: マウスやペンタブレットで図形を描くことで、モーショングラフィックス、キャラクターアニメーション、ゲーム向けのダイナミックな効果音を生成できる、Tsugi による商用のプロシージャル音響デザインツール。
   date_added: '2026-07-07'
   source: agent
+- id: gamesynth-by-tsugi-8bff5b
+  title: GameSynth by Tsugi
+  area: audio
+  task: procedural-audio
+  kind: proprietary
+  links:
+    website: https://tsugi-studio.com/web/en/products-gamesynth.html
+  year: 2016
+  tags:
+  - game-audio
+  - middleware
+  - procedural-audio
+  - sound-effects
+  - synthesis
+  summary: A specialized procedural sound design platform that synthesizes dynamic game sound effects and Foley interactively using parametric synthesis engines without pre-recorded samples.
+  summary_ja: 録音サンプルを使用せず、パラメータ駆動型の合成エンジンによってゲームのサウンドエフェクトやフォーリーをリアルタイム生成するプロシージャルサウンド制作ツール。
+  date_added: '2026-11-24'
+  source: agent
 - id: gamesynth-e5abf2
   title: GameSynth
   area: audio
@@ -1484,6 +1502,23 @@ entries:
   summary_ja: Blender用の高度な自動リギングおよびスキニングアドオンであり、キャラクターのセットアップを簡素化し、アニメーションをリターゲットし、ゲームエンジン向けに最適化されたFBX/GLTFエクスポートを提供します。
   thumbnail: https://i.ytimg.com/vi/93wUF_GTzpo/hqdefault.jpg
   date_added: '2026-07-14'
+  source: agent
+- id: adobe-mixamo-d82041
+  title: Adobe Mixamo
+  area: characters
+  task: auto-rigging
+  kind: proprietary
+  links:
+    website: https://www.mixamo.com/
+  year: 2015
+  tags:
+  - animation
+  - auto-rigging
+  - mixamo
+  - rigging
+  summary: Industry-standard web service for automatic 3D character rigging and animation, fitting full humanoid skeletons and skinning weights to user-uploaded meshes.
+  summary_ja: アップロードした人型3Dメッシュにスケルトンとスキニングウェイトを自動付与し、多様なモーションを適用できるWebベースの自動リギング・アニメーションサービス。
+  date_added: '2026-11-24'
   source: agent
 - id: mixamo-9a4b49
   title: Mixamo
