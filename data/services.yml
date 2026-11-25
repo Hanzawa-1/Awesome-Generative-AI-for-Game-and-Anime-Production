@@ -2144,6 +2144,23 @@ entries:
   summary_ja: Adobe Substance 3D Modelerは、デスクトップとVR環境をシームレスに行き来し、有機的なキャラクターやハードサーフェスアセットをデジタル粘土感覚でスカルプティング・編集できるツールです。
   date_added: '2026-11-18'
   source: agent
+- id: spline-60d0be
+  title: Spline
+  area: gen-3d
+  task: 3d-editing
+  kind: proprietary
+  links:
+    website: https://spline.design/
+  tags:
+  - 3d-editing
+  - proprietary
+  - scene-editing
+  - web-3d
+  summary: A web-based interactive 3D design platform that incorporates AI generation and prompt-based mesh/scene editing directly within a collaborative browser editor.
+  summary_ja: ブラウザ上でインタラクティブな3Dデザイン、AI生成、プロンプトベースのメッシュ・シーン編集を共同編集環境で提供するWebベースの3D制作プラットフォーム。
+  thumbnail: https://spline.design/_next/static/immutable/media/spline_og.41onuyn8l-00s.png
+  date_added: '2026-11-25'
+  source: agent
 - id: adam-cad-copilot-0cede9
   title: Adam CAD Copilot
   area: gen-3d
@@ -2444,6 +2461,24 @@ entries:
   summary_ja: 2D画像、スケッチ、リファレンスパックをプロダクション品質の3Dメッシュに変換する、プロフェッショナル向けのAI搭載3Dアセット作成プラットフォーム。ゲームスタジオでアセット制作パイプラインの高速化に広く使用されている。
   thumbnail: https://kaedim3d.com/opengraph-image.png?1d7674bc16ebb20a
   date_added: '2026-06-17'
+  source: agent
+- id: shadermap-ff8279
+  title: ShaderMap
+  area: gen-3d
+  task: normal-depth-maps
+  kind: proprietary
+  links:
+    website: https://shadermap.com/
+  year: 2024
+  tags:
+  - depth-map
+  - normal-map
+  - pbr
+  - texture-tool
+  summary: A dedicated software tool for generating normal maps, displacement/depth maps, ambient occlusion, and PBR material channels from 2D textures and 3D models.
+  summary_ja: 2Dテクスチャや3Dモデルから法線マップ、ディスプレイスメント/深度マップ、アンビエントオクルージョン、PBRマテリアルチャンネルを高速に生成する専用ソフトウェア。
+  thumbnail: https://shadermap.com/_assets/images/content/favicon/apple-touch-icon.png?040309
+  date_added: '2026-11-25'
   source: agent
 - id: world-labs-marble-22274c
   title: World Labs Marble

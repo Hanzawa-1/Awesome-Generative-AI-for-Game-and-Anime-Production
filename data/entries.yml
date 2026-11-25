@@ -21480,6 +21480,28 @@ entries:
   date_added: '2026-06-24'
   source: agent
   repo: adam-cad/cadam
+- id: cadevolve-creating-realistic-cad-via-program-evolution-6891c5
+  title: 'CADEvolve: Creating Realistic CAD via Program Evolution'
+  area: gen-3d
+  task: cad
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2602.16317
+    github: https://github.com/zhemdi/CADEvolve
+    paper: https://arxiv.org/pdf/2602.16317
+  year: 2026
+  tags:
+  - cad
+  - cadquery
+  - program-synthesis
+  - vlm
+  summary: An evolution-based pipeline and dataset that iteratively grows executable CadQuery CAD programs from simple geometric primitives using VLM-guided edits to generate complex industrial-grade 3D CAD models.
+  summary_ja: VLMによる編集・検証を用いて幾何学的プリミティブから実行可能なCadQueryプログラムを段階的に進化させ、複雑な産業グレードの3D CADモデルを生成するフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zhemdi/cadevolve
+  date_added: '2026-11-25'
+  source: agent
+  arxiv_id: '2602.16317'
+  repo: zhemdi/cadevolve
 - id: cadsmith-bf46d4
   title: CADSmith
   area: gen-3d
@@ -23620,6 +23642,33 @@ entries:
   source: agent
   arxiv_id: '2403.05034'
   repo: thu-ml/crm
+- id: dimensionx-fb990b
+  title: DimensionX
+  area: gen-3d
+  task: image-to-3d
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2411.04928
+    github: https://github.com/wenqsun/DimensionX
+  authors:
+  - Wen-Qiang Sun
+  - Jun Zhang
+  - Yikai Wang
+  - Shi-Ming Xiao
+  - Zhi-Fan Liu
+  - Xing-Jie Ren
+  year: 2024
+  tags:
+  - 4d-generation
+  - image-to-3d
+  - scene-generation
+  - video-diffusion
+  summary: A framework that generates photorealistic 3D and 4D scenes from a single image using controllable video diffusion, factorizing spatial trajectory and temporal dynamics to produce consistent novel-view synthesis.
+  summary_ja: 制御可能な動画拡散モデルを用いて単一画像からフォトリアルな3Dおよび4Dシーンを生成するフレームワーク。空間軌道と時間ダイナミクスを分解することで、一貫した新規視点合成を実現する。
+  date_added: '2026-11-25'
+  source: agent
+  arxiv_id: '2411.04928'
+  repo: wenqsun/dimensionx
 - id: direct3d-294374
   title: Direct3D
   area: gen-3d
