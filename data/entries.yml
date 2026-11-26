@@ -23665,6 +23665,7 @@ entries:
   - video-diffusion
   summary: A framework that generates photorealistic 3D and 4D scenes from a single image using controllable video diffusion, factorizing spatial trajectory and temporal dynamics to produce consistent novel-view synthesis.
   summary_ja: 制御可能な動画拡散モデルを用いて単一画像からフォトリアルな3Dおよび4Dシーンを生成するフレームワーク。空間軌道と時間ダイナミクスを分解することで、一貫した新規視点合成を実現する。
+  thumbnail: https://opengraph.githubassets.com/1/wenqsun/dimensionx
   date_added: '2026-11-25'
   source: agent
   arxiv_id: '2411.04928'
@@ -28101,6 +28102,37 @@ entries:
   source: agent
   arxiv_id: '2508.08086'
   repo: skyworkai/matrix-3d
+- id: midi-multi-instance-diffusion-for-single-image-to-3d-scene-g-0b8849
+  title: 'MIDI: Multi-Instance Diffusion for Single Image to 3D Scene Generation'
+  area: gen-3d
+  task: scene-generation
+  kind: oss
+  links:
+    github: https://github.com/VAST-AI-Research/MIDI-3D
+    project: https://huanngzh.github.io/MIDI-Page/
+  authors:
+  - Zehuan Huang
+  - Yuan-Chen Guo
+  - Xingqiao An
+  - Yunhan Yang
+  - Yangguang Li
+  - Zi-Xin Zou
+  - Ding Liang
+  - Xihui Liu
+  - Yan-Pei Cao
+  - Lu Sheng
+  year: 2025
+  tags:
+  - 3d-scene
+  - compositional-3d
+  - diffusion
+  - image-to-3d
+  summary: MIDI extends pre-trained image-to-3D diffusion models to generate multi-instance compositional 3D scenes from a single image with accurate spatial relationships and object completion.
+  summary_ja: 1枚の画像から空間的関係を保ちつつ複数の3Dオブジェクトを同時に生成し、構成的な3Dシーンを構築するマルチインスタンス拡散モデル。
+  thumbnail: https://opengraph.githubassets.com/1/vast-ai-research/midi-3d
+  date_added: '2026-11-26'
+  source: agent
+  repo: vast-ai-research/midi-3d
 - id: mmgdreamer-mixed-modality-graph-for-geometry-controllable-3d-f8c315
   title: 'MMGDreamer: Mixed-Modality Graph for Geometry-Controllable 3D Indoor Scene Generation'
   area: gen-3d
@@ -29648,6 +29680,32 @@ entries:
   date_added: '2026-07-23'
   source: agent
   arxiv_id: '2506.21681'
+- id: text-driven-360-panorama-generation-survey-1a0bd3
+  title: Text-Driven 360 Panorama Generation Survey
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2502.14799
+    github: https://github.com/littlewhitesea/Text-Driven-Pano-Gen
+  authors:
+  - Jinhong Ni
+  - Chang-Bin Zhang
+  - Qiang Zhang
+  - Jing Zhang
+  year: 2025
+  tags:
+  - '360'
+  - diffusion
+  - panorama
+  - skybox
+  - survey
+  summary: A comprehensive survey of text-driven 360-degree panorama generation methods, categorizing text-only, multi-modal, single-view, and multi-view techniques for 3D environment synthesis.
+  summary_ja: テキスト駆動の360度パノラマ生成手法を包括的にまとめ、3D環境合成向けのテキスト単独・マルチモーダル・単一ビュー・マルチビュー技術を分類・整理したサーベイ。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2502.14799'
+  repo: littlewhitesea/text-driven-pano-gen
 - id: what-makes-for-text-to-360-degree-panorama-generation-with-s-cd8008
   title: What Makes for Text to 360-degree Panorama Generation with Stable Diffusion? (UniPano)
   area: gen-3d
@@ -29942,6 +30000,37 @@ entries:
   source: agent
   arxiv_id: '2412.04827'
   repo: avinashpaliwal/panodreamer
+- id: panofree-bfdc8b
+  title: PanoFree
+  area: gen-3d
+  task: skybox-panorama
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2408.02157
+    github: https://github.com/zxcvfd13502/PanoFree
+    paper: https://arxiv.org/pdf/2408.02157
+    website: https://panofree.github.io/
+  authors:
+  - Aoming Liu
+  - Zhong Li
+  - Zhang Chen
+  - Nannan Li
+  - Yi Xu
+  - Bryan A. Plummer
+  year: 2024
+  tags:
+  - '360'
+  - diffusion
+  - multi-view
+  - panorama
+  - skybox
+  summary: A tuning-free multi-view image generation framework that uses iterative warping, cross-view self-guidance, and inpainting to produce seamless 360-degree panoramic environments from text prompts.
+  summary_ja: 反復的なワーピング、クロスビューセルフガイダンス、インペインティングを用いて、テキストプロンプトからシームレスな360度パノラマ環境を追加学習なしで生成するマルチビュー画像生成フレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/zxcvfd13502/panofree
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2408.02157'
+  repo: zxcvfd13502/panofree
 - id: sdxl-360-diffusion-3b33bc
   title: SDXL 360 Diffusion
   area: gen-3d
@@ -32636,6 +32725,36 @@ entries:
   date_added: '2026-10-29'
   source: agent
   arxiv_id: '2404.14676'
+- id: flashtex-fast-relightable-mesh-texturing-with-lightcontrolne-43a8a4
+  title: 'FlashTex: Fast Relightable Mesh Texturing with LightControlNet'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2402.13251
+    github: https://github.com/Roblox/FlashTex
+    project: https://flashtex.github.io/
+  authors:
+  - Nataniel Ruiz
+  - Ruilong Li
+  - Varun Jampani
+  - Kfir Aberman
+  - Michael Rubinstein
+  - Yael Pritch
+  year: 2024
+  tags:
+  - controlnet
+  - mesh-texturing
+  - pbr
+  - relighting
+  - texture
+  summary: FlashTex generates relightable 3D mesh textures from text prompts by decoupling illumination from surface material properties via LightControlNet and multi-view texture optimization.
+  summary_ja: FlashTexはLightControlNetとマルチビューテクスチャ最適化を通じてライティングと表面材質特性を分離し、テキストプロンプトからリライティング可能な3Dメッシュテクスチャを高速に生成します。
+  thumbnail: https://flashtex.github.io/rsc/figures/thumbnail.png
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2402.13251'
+  repo: roblox/flashtex
 - id: intex-interactive-text-to-texture-synthesis-via-unified-dept-e536cc
   title: 'InTeX: Interactive Text-to-texture Synthesis via Unified Depth-aware Inpainting'
   area: gen-3d
@@ -33044,6 +33163,31 @@ entries:
   date_added: '2026-11-12'
   source: agent
   arxiv_id: '2406.17146'
+- id: controlmat-a-controlled-generative-approach-to-material-capt-3331f5
+  title: 'ControlMat: A Controlled Generative Approach to Material Capture'
+  area: gen-3d
+  task: texture-pbr
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.01700
+  authors:
+  - Giuseppe Vecchio
+  - Rosalie Martin
+  - Arthur Firth
+  - Valentin Deschaintre
+  - Tamy Boubekeur
+  year: 2023
+  tags:
+  - diffusion
+  - material-capture
+  - pbr
+  - svbrdf
+  - texture
+  summary: ControlMat conditions a diffusion framework on single photographs under uncontrolled lighting to synthesize high-resolution, tileable PBR material maps.
+  summary_ja: ControlMatは制御されていない照明下の単一写真から、高解像度でタイリング可能なPBRマテリアルマップを合成する拡散モデルフレームワークです。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2309.01700'
 - id: matfuse-7c813e
   title: MatFuse
   area: gen-3d
@@ -33843,6 +33987,31 @@ entries:
   date_added: '2026-10-29'
   source: agent
   arxiv_id: '2508.18781'
+- id: interactive-drawing-guidance-for-anime-illustrations-848783
+  title: Interactive Drawing Guidance for Anime Illustrations
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2507.09140
+    paper: https://arxiv.org/pdf/2507.09140
+  authors:
+  - Chuang Chen
+  - Xiaoxuan Xie
+  - Yongming Zhang
+  - Tianyu Zhang
+  - Haoran Xie
+  year: 2025
+  tags:
+  - anime
+  - diffusion
+  - drawing-guidance
+  - sketch
+  summary: An interactive drawing guidance framework built on StreamDiffusion and LoRA-fine-tuned Stable Diffusion that provides real-time sketch refinement for anime illustration and character design.
+  summary_ja: StreamDiffusionとLoRAでファインチューニングしたStable Diffusionをベースに、アニメイラストおよびキャラクターデザイン向けのリアルタイムな線画修正ガイドを提供する対話型システム。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2507.09140'
 - id: omnisvg-7a6129
   title: OmniSVG
   area: image-2d
@@ -33963,6 +34132,30 @@ entries:
   date_added: '2026-07-09'
   source: agent
   repo: guoriyue/lora-mix
+- id: novelai-diffusion-v3-technical-report-6f412b
+  title: NovelAI Diffusion V3 Technical Report
+  area: image-2d
+  task: anime-character-design
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2409.15997
+    paper: https://arxiv.org/pdf/2409.15997
+  authors:
+  - Juan Ossa
+  - Eren Doğan
+  - Alex Birch
+  - F. Johnson
+  year: 2024
+  tags:
+  - anime
+  - character-design
+  - diffusion
+  - sdxl
+  summary: A technical report detailing the architectural and training improvements made to SDXL for NovelAI Diffusion V3, optimizing anime character generation and tag conditioning.
+  summary_ja: NovelAI Diffusion V3においてSDXLに加えられたアーキテクチャおよび学習上の改良点を解説し、アニメキャラクター生成とタグ条件付けを最適化したテクニカルレポート。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2409.15997'
 - id: sprite-sheet-diffusion-6976e6
   title: Sprite Sheet Diffusion
   area: image-2d
@@ -34123,6 +34316,29 @@ entries:
   source: agent
   arxiv_id: '1708.05509'
   repo: lz-qwq/gans_anime_face
+- id: diffutoon-2-3e4f26
+  title: Diffutoon-2
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2611.30945
+  authors:
+  - Yuze Sun
+  - Zhongjie Duan
+  - Yingda Chen
+  - Jingjing Chen
+  year: 2026
+  tags:
+  - anime
+  - cel-shading
+  - diffusion
+  - toon-shading
+  summary: Diffutoon-2 is a video diffusion model framework for toon shading and anime stylization, enhancing temporal consistency and structure guidance without requiring paired training data.
+  summary_ja: Diffutoon-2は、ペア学習データを必要とせずに時間的整合性と構造的ガイドを強化した、トゥーンシェーディングとアニメスタイライズのための動画拡散モデルフレームワークです。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '2611.30945'
 - id: godot-anime-sdf-shader-kit-52a640
   title: Godot Anime SDF Shader Kit
   area: image-2d
@@ -34488,6 +34704,27 @@ entries:
   date_added: '2026-06-13'
   source: agent
   repo: you-ri/liliumtoongraph
+- id: toonshadingcollection-7a0fd6
+  title: ToonShadingCollection
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    github: https://github.com/TechMiZ/ToonShadingCollection
+  authors:
+  - TechMiZ
+  year: 2021
+  tags:
+  - anime
+  - cel-shading
+  - shaders
+  - toon-shading
+  summary: A curated collection and technical reference of real-time toon shading techniques, cel-shading shadow band algorithms, and normal editing workflows for anime character rendering.
+  summary_ja: アニメキャラクターレンダリングのためのリアルタイムトゥーンシェーディング手法、セル影領域アルゴリズム、ノーマル編集ワークフローをまとめた技術リファレンスリポジトリです。
+  thumbnail: https://opengraph.githubassets.com/1/techmiz/toonshadingcollection
+  date_added: '2026-11-26'
+  source: agent
+  repo: techmiz/toonshadingcollection
 - id: unity-toon-shader-uts3-7184da
   title: Unity Toon Shader (UTS3)
   area: image-2d
@@ -34686,6 +34923,26 @@ entries:
   date_added: '2026-08-20'
   source: agent
   repo: v-sense/deepnormals
+- id: tandem-adversarial-line-art-shading-da044c
+  title: Tandem Adversarial Line Art Shading
+  area: image-2d
+  task: cel-shading
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/1704.08834
+  authors:
+  - Kevin Frans
+  year: 2017
+  tags:
+  - cel-shading
+  - gan
+  - lineart
+  - shading
+  summary: 'A generative framework utilizing dual adversarial networks in tandem: a color assignment network and a conditional shading network that synthesizes cel-style flat shadows on 2D line art.'
+  summary_ja: カラー割り当てネットワークと、2D線画に対してセルスタイルのフラットな影を合成する条件付きシェーディングネットワークの2段階敵対的ネットワークを用いた生成フレームワークです。
+  date_added: '2026-11-26'
+  source: agent
+  arxiv_id: '1704.08834'
 - id: condition-preference-optimization-f4c31a
   title: Condition Preference Optimization
   area: image-2d
@@ -38961,6 +39218,7 @@ entries:
   - training-free
   summary: An open-source framework for training-free text-to-image generation guided by user-provided scribbles as spatial prompts for localized object control.
   summary_ja: ユーザーが描いた落書き（スクリブル）を空間プロンプトとして利用し、追加学習なしで局所的なオブジェクト配置や形状を制御するテキストto画像生成オープンソース手法。
+  thumbnail: https://opengraph.githubassets.com/1/kaist-cvml/scribble-guided-diffusion
   date_added: '2026-11-20'
   source: agent
   repo: kaist-cvml/scribble-guided-diffusion

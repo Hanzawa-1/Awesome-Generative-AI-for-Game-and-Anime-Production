@@ -2825,6 +2825,27 @@ entries:
   thumbnail: https://fal.ai/api/models/thumbnail/fal-ai/patina
   date_added: '2026-10-08'
   source: agent
+- id: polycam-ai-texture-generator-58ac0b
+  title: Polycam AI Texture Generator
+  area: gen-3d
+  task: texture-pbr
+  kind: proprietary
+  links:
+    website: https://poly.cam/tools/ai-texture-generator
+  authors:
+  - Polycam
+  year: 2023
+  tags:
+  - ai-generator
+  - game-art
+  - material
+  - pbr
+  - texture
+  summary: Polycam AI Texture Generator creates seamlessly tileable PBR material maps—including base color, normal, roughness, and height maps—directly from user text prompts.
+  summary_ja: Polycam AIテクスチャジェネレーターは、ユーザーのテキストプロンプトから直接、ベースカラー・ノーマル・ラフネス・高さマップを含むシームレスにタイリング可能なPBRマテリアルマップを生成します。
+  thumbnail: https://static.poly.cam/assets/web/polycam.png
+  date_added: '2026-11-26'
+  source: agent
 - id: adobe-substance-3d-sampler-95c530
   title: Adobe Substance 3D Sampler
   area: gen-3d
@@ -3157,6 +3178,23 @@ entries:
   summary_ja: 日本のデジタルアニメ業界で広く使用されている伝説的な非実写レンダリングプラグイン。3ds Max、Maya、Blender、Unity内で、高品質なセルシェーディング、手描き風の鉛筆画、および精密な輪郭線を描画します。
   thumbnail: https://www.psoft.co.jp/en/wp-content/uploads/2018/11/pencil4-3dsmax-ogp.png
   date_added: '2026-07-16'
+  source: agent
+- id: realtoon-0b5b59
+  title: RealToon
+  area: image-2d
+  task: cel-shading
+  kind: proprietary
+  links:
+    website: https://assetstore.unity.com/packages/vfx/shaders/realtoon-pro-anime-toon-shader-65518
+  tags:
+  - cel-shading
+  - shader
+  - toon-shading
+  - unity
+  summary: RealToon is an industry-standard toon and cel shader for Unity designed to recreate anime-style flat shading, custom shadow bands, and outline rendering in real-time game production.
+  summary_ja: RealToonは、アニメスタイルのフラットシェーディング、カスタムシャドウバンド、アウトライン描画をリアルタイムで実現するUnity向けのトゥーン・セルシェーダーです。
+  thumbnail: https://assetstorev1-prd-cdn.unity3d.com/key-image/27ed6013-f1bc-481d-98df-1c227a1f090b.png?v=1
+  date_added: '2026-11-26'
   source: agent
 - id: leonardo-ai-image-guidance-d55a73
   title: Leonardo.Ai Image Guidance
