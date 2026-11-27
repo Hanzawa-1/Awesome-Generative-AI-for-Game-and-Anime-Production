@@ -3626,6 +3626,24 @@ entries:
   thumbnail: https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694b256896dd559dad1f8296_Generic_OpenGraph_1200x630.png
   date_added: '2026-07-17'
   source: agent
+- id: nvidia-canvas-db6f3c
+  title: NVIDIA Canvas
+  area: image-2d
+  task: sketch-to-image
+  kind: proprietary
+  links:
+    website: https://www.nvidia.com/en-au/studio/canvas.html
+  year: 2021
+  tags:
+  - environment
+  - gaugan
+  - landscape
+  - sketch-to-image
+  summary: An AI painting application powered by GauGAN that converts simple brushstrokes and structural sketches into photorealistic landscapes and 360-degree environment maps.
+  summary_ja: シンプルなブラシストロークや構造スケッチをフォトリアルな風景や360度環境マップにリアルタイム変換する、GauGAN搭載のAIペイントアプリケーション。
+  thumbnail: https://www.nvidia.com/content/dam/en-zz/Solutions/studio/canvas/canvas-og-1200-630px.jpg
+  date_added: '2026-11-27'
+  source: agent
 - id: krea-ai-realtime-canvas-deb9a4
   title: Krea AI Realtime Canvas
   area: image-2d

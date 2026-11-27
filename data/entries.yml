@@ -29702,6 +29702,7 @@ entries:
   - survey
   summary: A comprehensive survey of text-driven 360-degree panorama generation methods, categorizing text-only, multi-modal, single-view, and multi-view techniques for 3D environment synthesis.
   summary_ja: テキスト駆動の360度パノラマ生成手法を包括的にまとめ、3D環境合成向けのテキスト単独・マルチモーダル・単一ビュー・マルチビュー技術を分類・整理したサーベイ。
+  thumbnail: https://opengraph.githubassets.com/1/littlewhitesea/text-driven-pano-gen
   date_added: '2026-11-26'
   source: agent
   arxiv_id: '2502.14799'
@@ -40393,6 +40394,35 @@ entries:
   date_added: '2026-10-16'
   source: agent
   repo: kohakublueleaf/lycoris
+- id: mix-of-show-decentralized-low-rank-adaptation-for-multi-conc-92fcc4
+  title: 'Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models'
+  area: image-2d
+  task: style-transfer-lora
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2305.18292
+    github: https://github.com/TencentARC/Mix-of-Show
+  authors:
+  - Yuwei Guo
+  - Ceyuan Yang
+  - Anyi Rao
+  - Yaohui Wang
+  - Yu Qiao
+  - Dahua Lin
+  - Bo Dai
+  year: 2023
+  tags:
+  - diffusion
+  - lora
+  - multi-concept
+  - style-transfer
+  summary: A framework that uses ED-LoRA and gradient fusion to combine multiple independently trained LoRAs, enabling multi-concept and multi-style image generation without style bleeding.
+  summary_ja: ED-LoRAと勾配融合を用いて独自に学習された複数のLoRAを合成し、スタイルの混ざり合いを防ぎつつマルチコンセプト・マルチスタイルの画像生成を可能にするフレームワーク。
+  thumbnail: https://opengraph.githubassets.com/1/tencentarc/mix-of-show
+  date_added: '2026-11-27'
+  source: agent
+  arxiv_id: '2305.18292'
+  repo: tencentarc/mix-of-show
 - id: onetrainer-993cea
   title: OneTrainer
   area: image-2d
@@ -41319,6 +41349,24 @@ entries:
   source: agent
   arxiv_id: '2206.07038'
   repo: tencentarc/animesr
+- id: chainner-a24ed8
+  title: chaiNNer
+  area: image-2d
+  task: super-resolution
+  kind: oss
+  links:
+    github: https://github.com/chaiNNer-org/chaiNNer
+  year: 2022
+  tags:
+  - node-editor
+  - pipeline
+  - super-resolution
+  - upscaling
+  summary: A node-based desktop application for image processing and AI upscaling, supporting flexible model chaining with architectures like ESRGAN, Real-CUGAN, and SwinIR.
+  summary_ja: ESRGANやReal-CUGAN、SwinIRなどのAI超解像モデルを自在に連結・自動化できるノードベースの画像処理デスクトップアプリ。
+  date_added: '2026-11-27'
+  source: agent
+  repo: chainner-org/chainner
 - id: hat-1f36e9
   title: HAT
   area: image-2d
