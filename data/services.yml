@@ -4771,6 +4771,24 @@ entries:
   summary_ja: スクリーン印刷、DTF、およびデジタルマンガ制作向けに設計された、プロシージャルかつ決定論的な色分解およびハーフトーン生成エンジン。
   date_added: '2026-07-11'
   source: agent
+- id: clip-studio-paint-screentone-system-47193a
+  title: Clip Studio Paint Screentone System
+  area: manga
+  task: screentone
+  kind: proprietary
+  links:
+    website: https://www.clipstudio.net/en/
+  year: 2023
+  tags:
+  - commercial
+  - halftone
+  - manga
+  - screentone
+  summary: The industry-standard digital illustration and manga creation suite featuring parametric screentone layers, automatic tone conversion from gray/color art, and customizable dot, line, and noise halftone textures.
+  summary_ja: パラメトリックスクリーントーンレイヤー、グレー/カラー画像からの自動トーン変換、カスタマイズ可能なドット・ライン・ノイズハーフトーンテクスチャを備えた業界標準のマンガ制作ツール。
+  thumbnail: https://www.clipstudio.net/view/img/common/logo/ogp/ogp_en_202603.jpg?0008
+  date_added: '2026-11-28'
+  source: agent
 - id: medibang-paint-6b70b1
   title: MediBang Paint
   area: manga
@@ -5212,6 +5230,24 @@ entries:
   summary_ja: NovelAIは、クリエイティブライティング、設定資料（Lorebook）管理、インタラクティブなナラティブ生成のための高度な自然言語処理モデルを提供する、商用のAI支援型ストーリーテリングおよび画像生成プラットフォームです。
   thumbnail: https://novelai.net/social.png
   date_added: '2026-07-11'
+  source: agent
+- id: novelai-storyteller-8bef11
+  title: NovelAI Storyteller
+  area: text-design
+  task: narrative-quest
+  kind: proprietary
+  links:
+    website: https://novelai.net/
+  year: 2021
+  tags:
+  - lorebook
+  - narrative
+  - saas
+  - storytelling
+  summary: A SaaS storytelling platform featuring custom-tuned language models and Lorebook context management for interactive narrative generation, worldbuilding, and text adventure authoring.
+  summary_ja: ファインチューニング済み言語モデルとLorebook設定管理機能を備えたSaaS型物語生成プラットフォーム。インタラクティブなストーリー執筆や世界観構築、テキストアドベンチャーの作成を支援する。
+  thumbnail: https://novelai.net/social.png
+  date_added: '2026-11-28'
   source: agent
 - id: sudowrite-1355d7
   title: Sudowrite

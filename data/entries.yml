@@ -41364,6 +41364,7 @@ entries:
   - upscaling
   summary: A node-based desktop application for image processing and AI upscaling, supporting flexible model chaining with architectures like ESRGAN, Real-CUGAN, and SwinIR.
   summary_ja: ESRGANやReal-CUGAN、SwinIRなどのAI超解像モデルを自在に連結・自動化できるノードベースの画像処理デスクトップアプリ。
+  thumbnail: https://opengraph.githubassets.com/1/chainner-org/chainner
   date_added: '2026-11-27'
   source: agent
   repo: chainner-org/chainner
@@ -45118,6 +45119,28 @@ entries:
   date_added: '2026-09-26'
   source: agent
   arxiv_id: '2412.04261'
+- id: chapter-to-chapter-context-aware-literary-translation-adc02d
+  title: Chapter-to-Chapter Context-Aware Literary Translation
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2407.08978
+  authors:
+  - Linghao Jin
+  - Li An
+  - Xuezhe Ma
+  year: 2024
+  tags:
+  - context-aware
+  - literary-translation
+  - llm
+  - narrative
+  summary: A research framework and dataset for document-level and long-context machine translation, addressing narrative coherence and contextual dependencies in literary and game text translation.
+  summary_ja: 文芸やゲームテキスト翻訳における物語の一貫性と文脈依存関係に対応する、長文・ドキュメントレベルの機械翻訳研究フレームワークとデータセット。
+  date_added: '2026-11-28'
+  source: agent
+  arxiv_id: '2407.08978'
 - id: enhancing-entertainment-translation-for-indian-languages-usi-adf501
   title: Enhancing Entertainment Translation for Indian Languages using Adaptive Context, Style and LLMs
   area: text-design
@@ -45160,6 +45183,27 @@ entries:
   date_added: '2026-06-20'
   source: agent
   repo: rouges78/gamestringer
+- id: hy-mt2-d60d28
+  title: Hy-MT2
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    github: https://github.com/Tencent-Hunyuan/Hy-MT2
+  authors:
+  - Tencent Hunyuan
+  year: 2024
+  tags:
+  - llm
+  - localization
+  - multilingual
+  - translation
+  summary: Tencent Hunyuan's family of open multilingual translation models designed for real-world localization, supporting terminology control, context awareness, and format preservation.
+  summary_ja: リアルタイムのローカライズ向けに設計されたTencent Hunyuanのオープン多言語翻訳モデルファミリー。専門用語制御や文脈理解、フォーマット保持に対応する。
+  thumbnail: https://opengraph.githubassets.com/1/tencent-hunyuan/hy-mt2
+  date_added: '2026-11-28'
+  source: agent
+  repo: tencent-hunyuan/hy-mt2
 - id: overlay-translator-983125
   title: Overlay Translator
   area: text-design
@@ -45409,6 +45453,29 @@ entries:
   date_added: '2026-07-18'
   source: agent
   repo: hillya51/lunatranslator
+- id: madlad-400-bd45c8
+  title: MADLAD-400
+  area: text-design
+  task: localization
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2309.04662
+  authors:
+  - Sneha Kudugunta
+  - Isaac Caswell
+  - Biao Zhang
+  - et al.
+  year: 2023
+  tags:
+  - localization
+  - machine-translation
+  - multilingual
+  - nmt
+  summary: Google's document-level machine translation model trained on over 400 languages, designed for high-quality multilingual translation across broad context windows.
+  summary_ja: Googleが開発した400以上の言語に対応するドキュメントレベルの機械翻訳モデル。広範なコンテキストウィンドウで高品質な多言語翻訳を実現する。
+  date_added: '2026-11-28'
+  source: agent
+  arxiv_id: '2309.04662'
 - id: open-lyrics-openlrc-b27ee5
   title: Open-Lyrics (openlrc)
   area: text-design
@@ -46989,6 +47056,57 @@ entries:
   date_added: '2026-07-18'
   source: agent
   arxiv_id: '2212.10077'
+- id: dramatron-0eacaa
+  title: Dramatron
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    arxiv: https://arxiv.org/abs/2209.14958
+    github: https://github.com/google-deepmind/dramatron
+    paper: https://arxiv.org/pdf/2209.14958
+  authors:
+  - Piotr Mirowski
+  - Kory W. Mathewson
+  - Jaylen Pittman
+  - Richard Evans
+  year: 2022
+  tags:
+  - deepmind
+  - llm
+  - narrative
+  - scriptwriting
+  summary: An open-source scriptwriting and narrative co-creation system by Google DeepMind that utilizes hierarchical prompt chaining to generate character descriptions, story arcs, locations, and dialogue.
+  summary_ja: Google DeepMindが開発したオープンソースの脚本・物語共創システム。階層的なプロンプトチェーンを用いて、キャラクター設定、ストーリー展開、場所記述、対話を一貫して生成する。
+  date_added: '2026-11-28'
+  source: agent
+  arxiv_id: '2209.14958'
+  repo: google-deepmind/dramatron
+- id: talebrush-aa386c
+  title: TaleBrush
+  area: text-design
+  task: narrative-quest
+  kind: oss
+  links:
+    github: https://github.com/naver-ai/talebrush
+    paper: https://dl.acm.org/doi/10.1145/3491102.3501819
+  authors:
+  - John Daehyun Kang
+  - Eun-Do Park
+  - Bongshin Lee
+  - Jinwook Seo
+  year: 2022
+  tags:
+  - llm
+  - narrative
+  - sketch-interface
+  - storytelling
+  summary: An interactive story ideation tool that combines line-sketching user interactions with pretrained language models to visually control character fortune trajectories and plot arcs.
+  summary_ja: 線描き操作と言語モデルを融合させたインタラクティブな物語構想ツール。主人公の運勢曲線を描くことで、ストーリー展開やキャラクターアークを視覚的に制御・生成できる。
+  thumbnail: https://opengraph.githubassets.com/1/naver-ai/talebrush
+  date_added: '2026-11-28'
+  source: agent
+  repo: naver-ai/talebrush
 - id: toward-automated-quest-generation-in-text-adventure-games-8901ae
   title: Toward Automated Quest Generation in Text-Adventure Games
   area: text-design
